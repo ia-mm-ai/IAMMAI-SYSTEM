@@ -1,0 +1,434 @@
+{
+  "decision_metadata": {
+    "decision_builder_module": "build_integrity_host_v0_min_coexistence_receiving_ingress_decision",
+    "decision_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_INGRESS_DECISION",
+    "decision_version": "0.1.0",
+    "generated_at": "2026-04-20T19:55:16.636808Z"
+  },
+  "ingress_decision": {
+    "continuity_completed": false,
+    "decision": "RECEIVE_BOUNDED_PACKET",
+    "decision_reason": "VALIDATION_PASSED_FOR_BOUNDED_RECEIVING_HANDLING",
+    "eligible_for_bounded_receiving_handling": true,
+    "requires_merge": false,
+    "requires_replay": false,
+    "standing_upgraded": false,
+    "validation_passed": true
+  },
+  "packet_identity": {
+    "expected_packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "expected_packet_version": "0.1.0",
+    "host_id": "scenario-missing-cohost-basis",
+    "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "packet_version": "0.1.0",
+    "receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis__receiving_packet.json",
+    "scenario_id": "refused_missing_coexistence_basis",
+    "scenario_name": "Refused Missing Coexistence Basis",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0"
+  },
+  "receiving_packet": {
+    "import_identity": {
+      "import_source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+      "imported_scenario_id": "refused_missing_coexistence_basis",
+      "imported_scenario_name": "Refused Missing Coexistence Basis",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "import_summary": {
+      "accepted_action_count": 1,
+      "coexistence_relation_count": 0,
+      "hold_count": 0,
+      "host_id": "scenario-missing-cohost-basis",
+      "object_count": 1,
+      "open_object_count": 1,
+      "record_count": 2,
+      "refusal_count": 1,
+      "refused_action_count": 1,
+      "scenario_id": "refused_missing_coexistence_basis",
+      "scenario_name": "Refused Missing Coexistence Basis",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json"
+    },
+    "imported_packet": {
+      "coexistence_relations": [],
+      "holds": [],
+      "host_state": {
+        "host_id": "scenario-missing-cohost-basis",
+        "open_object_ids": [
+          "obj_20bc14bbb24c413abf9017b16773bd44"
+        ]
+      },
+      "objects": [
+        {
+          "created_by_record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+          "matter_ref": "matter-a",
+          "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+          "occurrence_ref": null,
+          "payload_ref": "payload-a",
+          "phase_state": "CANDIDATE",
+          "predecessor_object_id": null,
+          "resolution_type": null,
+          "resolved_by_record_id": null
+        }
+      ],
+      "scenario_metadata": {
+        "accepted_action_count": 1,
+        "action_results": [
+          {
+            "accepted": true,
+            "label": "create object A",
+            "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+            "record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          },
+          {
+            "accepted": false,
+            "label": "attempt object B without required cohost basis",
+            "object_id": null,
+            "record_id": "tr_853e6b00761d46beab0c38c7b507139d",
+            "refusal_code": "UNRESOLVED_COHOST_RELATION_REQUIRED",
+            "state_changed": false,
+            "successor_object_id": null
+          }
+        ],
+        "description": "Shows that distinct matter strings alone do not authorize unresolved coexistence without explicit relation basis.",
+        "generated_at": "2026-04-20T19:55:16.602543Z",
+        "refused_action_count": 1,
+        "scenario_id": "refused_missing_coexistence_basis",
+        "scenario_name": "Refused Missing Coexistence Basis",
+        "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json"
+      },
+      "snapshot_metadata": {
+        "generated_at": "2026-04-20T19:55:16.602570Z",
+        "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+        "snapshot_version": "0.1.0",
+        "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+        "source_module": "integrity_host_v0_min_coexistence_v2"
+      },
+      "transition_records": [
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602517Z",
+          "action_type": "CREATE_OBJECT",
+          "basis_ref": "create-a",
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-missing-cohost-basis",
+          "matter_ref": "matter-a",
+          "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+          "occurrence_ref": null,
+          "payload_ref": "payload-a",
+          "predecessor_object_id": null,
+          "record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+          "refusal_code": null,
+          "related_open_object_ids": [],
+          "source_phase_state": null,
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "CANDIDATE",
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        },
+        {
+          "accepted": false,
+          "acted_at": "2026-04-20T19:55:16.602532Z",
+          "action_type": "CREATE_OBJECT",
+          "basis_ref": "create-b",
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-missing-cohost-basis",
+          "matter_ref": "matter-b",
+          "object_id": null,
+          "occurrence_ref": null,
+          "payload_ref": "payload-b",
+          "predecessor_object_id": null,
+          "record_id": "tr_853e6b00761d46beab0c38c7b507139d",
+          "refusal_code": "UNRESOLVED_COHOST_RELATION_REQUIRED",
+          "related_open_object_ids": [
+            "obj_20bc14bbb24c413abf9017b16773bd44"
+          ],
+          "source_phase_state": null,
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": null,
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        }
+      ]
+    },
+    "packet_metadata": {
+      "builder_module": "build_integrity_host_v0_min_coexistence_receiving_packet",
+      "generated_at": "2026-04-20T19:55:16.636457Z",
+      "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+      "packet_version": "0.1.0"
+    },
+    "receiving_status": {
+      "continuity_completed": false,
+      "imported_packet_read_only_here": true,
+      "merged_into_local_state": false,
+      "preserved_structure_visible": true,
+      "receiving_packet_exists": true,
+      "replayed_into_live_host": false,
+      "source_remains_source": true,
+      "standing_upgraded": false
+    },
+    "source_provenance": {
+      "scenario_description": "Shows that distinct matter strings alone do not authorize unresolved coexistence without explicit relation basis.",
+      "scenario_id": "refused_missing_coexistence_basis",
+      "scenario_name": "Refused Missing Coexistence Basis",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+      "source_generated_at": "2026-04-20T19:55:16.602543Z",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+    }
+  },
+  "receiving_status_carry_forward": {
+    "continuity_completed": false,
+    "imported_packet_read_only_here": true,
+    "merged_into_local_state": false,
+    "preserved_structure_visible": true,
+    "receiving_packet_exists": true,
+    "replayed_into_live_host": false,
+    "source_remains_source": true,
+    "standing_upgraded": false
+  },
+  "source_provenance": {
+    "scenario_description": "Shows that distinct matter strings alone do not authorize unresolved coexistence without explicit relation basis.",
+    "scenario_id": "refused_missing_coexistence_basis",
+    "scenario_name": "Refused Missing Coexistence Basis",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+    "source_generated_at": "2026-04-20T19:55:16.602543Z",
+    "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+  },
+  "validation_result": {
+    "all_passed": true,
+    "count_checks": {
+      "accepted_action_count": {
+        "actual": 1,
+        "basis": "import_summary.accepted_action_count",
+        "expected": 1,
+        "matched": true
+      },
+      "coexistence_relation_count": {
+        "actual": 0,
+        "basis": "import_summary.coexistence_relation_count",
+        "expected": 0,
+        "matched": true
+      },
+      "evolve_record_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "hold_count": {
+        "actual": 0,
+        "basis": "import_summary.hold_count",
+        "expected": 0,
+        "matched": true
+      },
+      "object_count": {
+        "actual": 1,
+        "basis": "import_summary.object_count",
+        "expected": 1,
+        "matched": true
+      },
+      "open_object_count": {
+        "actual": 1,
+        "basis": "import_summary.open_object_count",
+        "expected": 1,
+        "matched": true
+      },
+      "refusal_count": {
+        "actual": 1,
+        "basis": "import_summary.refusal_count",
+        "expected": 1,
+        "matched": true
+      },
+      "refused_action_count": {
+        "actual": 1,
+        "basis": "import_summary.refused_action_count",
+        "expected": 1,
+        "matched": true
+      },
+      "resolved_object_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "successor_object_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "transition_record_count": {
+        "actual": 2,
+        "basis": "import_summary.record_count",
+        "expected": 2,
+        "matched": true
+      }
+    },
+    "packet_identity": {
+      "host_id": "scenario-missing-cohost-basis",
+      "scenario_id": "refused_missing_coexistence_basis",
+      "scenario_name": "Refused Missing Coexistence Basis",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+    },
+    "status_checks": {
+      "continuity_completed": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "imported_packet_read_only_here": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "merged_into_local_state": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "preserved_structure_visible": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "receiving_packet_exists": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "replayed_into_live_host": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "source_remains_source": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "standing_upgraded": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      }
+    },
+    "structural_checks": {
+      "builder_summary_readable": true,
+      "host_id_present": true,
+      "import_identity": true,
+      "import_identity_matches_source_provenance": true,
+      "import_identity_scenario_id_present": true,
+      "import_identity_scenario_name_present": true,
+      "import_summary": true,
+      "imported_coexistence_relations": true,
+      "imported_holds": true,
+      "imported_host_state": true,
+      "imported_metadata_matches_source_provenance": true,
+      "imported_objects": true,
+      "imported_packet": true,
+      "imported_scenario_metadata": true,
+      "imported_snapshot_metadata": true,
+      "imported_transition_records": true,
+      "packet_builder_module_present": true,
+      "packet_generated_at_present": true,
+      "packet_metadata": true,
+      "packet_type_matches_builder": true,
+      "packet_version_matches_builder": true,
+      "receiving_status": true,
+      "scenario_id_present": true,
+      "scenario_name_present": true,
+      "snapshot_type_present": true,
+      "snapshot_version_present": true,
+      "source_artifact_path_present": true,
+      "source_provenance": true,
+      "source_run_directory_path_present": true,
+      "summary_matches_source_provenance": true
+    },
+    "validation_metadata": {
+      "generated_at": "2026-04-20T19:55:16.636759Z",
+      "validation_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET_VALIDATION",
+      "validation_version": "0.1.0",
+      "validator_module": "validate_integrity_host_v0_min_coexistence_receiving_packet"
+    },
+    "visibility_checks": {
+      "coexistence_relations_visible": {
+        "count": 0,
+        "matched": true,
+        "relations": []
+      },
+      "holds_visible": {
+        "count": 0,
+        "holds": [],
+        "matched": true
+      },
+      "object_ids_visible": {
+        "count": 1,
+        "matched": true,
+        "object_ids": [
+          "obj_20bc14bbb24c413abf9017b16773bd44"
+        ]
+      },
+      "predecessor_successor_lineage_visible": {
+        "evolve_record_lineage": [],
+        "evolve_record_lineage_count": 0,
+        "matched": true,
+        "object_lineage": [],
+        "object_lineage_count": 0
+      },
+      "refusal_records_visible": {
+        "count": 1,
+        "matched": true,
+        "refusal_records": [
+          {
+            "action_type": "CREATE_OBJECT",
+            "record_id": "tr_853e6b00761d46beab0c38c7b507139d",
+            "refusal_code": "UNRESOLVED_COHOST_RELATION_REQUIRED"
+          }
+        ]
+      }
+    }
+  },
+  "validation_summary": {
+    "accepted_action_count": 1,
+    "all_passed": true,
+    "coexistence_relation_count": 0,
+    "failed_check_count": 0,
+    "hold_count": 0,
+    "host_id": "scenario-missing-cohost-basis",
+    "object_count": 1,
+    "open_object_count": 1,
+    "receiving_status": {
+      "continuity_completed": false,
+      "imported_packet_read_only_here": true,
+      "merged_into_local_state": false,
+      "preserved_structure_visible": true,
+      "receiving_packet_exists": true,
+      "replayed_into_live_host": false,
+      "source_remains_source": true,
+      "standing_upgraded": false
+    },
+    "refusal_count": 1,
+    "refused_action_count": 1,
+    "scenario_id": "refused_missing_coexistence_basis",
+    "scenario_name": "Refused Missing Coexistence Basis",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+    "total_check_count": 54,
+    "transition_record_count": 2
+  }
+}

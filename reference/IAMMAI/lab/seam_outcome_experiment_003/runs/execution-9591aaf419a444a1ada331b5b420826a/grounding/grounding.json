@@ -1,0 +1,29 @@
+{
+  "experiment_id": "seam_outcome_experiment_003",
+  "execution_id": "execution-9591aaf419a444a1ada331b5b420826a",
+  "generated_at": "2026-04-03T10:15:09Z",
+  "run_directory": "lab/seam_outcome_experiment_003/runs/execution-9591aaf419a444a1ada331b5b420826a",
+  "grounding_surfaces": [
+    {
+      "path": "SELF_CARRIED_COHERENCE.md",
+      "exists": true,
+      "description": "Prior threshold surface for self-carried enough crossing."
+    },
+    {
+      "path": "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md",
+      "exists": true,
+      "description": "Bounded seam-case law for contaminated channel, refusal, lineage, and responsibility."
+    },
+    {
+      "path": "lab/run_seam_outcome_experiment_001.py",
+      "exists": true,
+      "description": "First seam-outcome experiment for contaminated-channel cases with threshold met."
+    },
+    {
+      "path": "lab/run_seam_outcome_experiment_002.py",
+      "exists": true,
+      "description": "Second seam-outcome experiment for threshold-not-yet-met cases."
+    }
+  ],
+  "note": "Visible grounding for a bounded lab experiment only. These references do not replace source authority."
+}

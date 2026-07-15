@@ -1,0 +1,23 @@
+{
+  "generated_at": "2026-04-07T18:46:33.208505Z",
+  "builder_path": "vessel/current_state_what_stands_reader_v1/api_vessel_v4.py",
+  "request_id": "eval_req_003",
+  "stage": "finalization",
+  "reason": "Internal draft status was missing or not a bounded string.",
+  "internal_draft": {
+    "source_path": "dump.text.format.schema_.properties",
+    "raw_status": "{'type': 'string', 'enum': ['answered', 'refused', 'out_of_scope', 'insufficient_grounding']}",
+    "answer_type": "dict",
+    "answer_length": null,
+    "refusal_reason": "{'type': ['string', 'null'], 'enum': ['question_class_not_allowed', 'requires_unapproved_sources', 'would_require_interpretive_sovereignty', 'would_mutate_or_finalize', 'insufficient_rank_clarity', None]}"
+  },
+  "details": {
+    "expected_final_statuses": [
+      "answered",
+      "refused",
+      "out_of_scope",
+      "insufficient_grounding"
+    ]
+  },
+  "bounded_note": "This debug artifact is implementation-local extraction/finalization visibility only. It is not protocol law, standing, or authority."
+}

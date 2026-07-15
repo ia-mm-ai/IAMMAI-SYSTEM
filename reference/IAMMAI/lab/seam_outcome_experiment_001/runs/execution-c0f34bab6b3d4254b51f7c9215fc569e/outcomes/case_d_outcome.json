@@ -1,0 +1,29 @@
+{
+  "case_id": "case_d",
+  "case_title": "Overexposed contaminated field requiring buffer",
+  "expected_outcome_type": "buffer",
+  "outcome_type": "buffer",
+  "expected_outcome_matched": true,
+  "channel_condition": "contaminated_overexposed",
+  "self_carried_coherence_threshold_met": true,
+  "upstream_constraints": [
+    "interpretive_capture_risk",
+    "overexposed_contact_surface",
+    "pressure_for_immediate_readability"
+  ],
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "buffered",
+  "contact_remains_lawful": true,
+  "continued_participation_would_be_containment": true,
+  "false_ratification_risk": true,
+  "subsidized_distortion_risk": true,
+  "reasoning": "The field is too contaminated for clean immediate reading, so exposure has to be narrowed. A buffer preserves lineage and rank while avoiding interpretive capture. Full exit is not yet required, but unbuffered participation would distort the case. Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility. Continued untyped coherence would help stabilize distortion rather than repair the channel.",
+  "reasoning_points": [
+    "The field is too contaminated for clean immediate reading, so exposure has to be narrowed.",
+    "A buffer preserves lineage and rank while avoiding interpretive capture.",
+    "Full exit is not yet required, but unbuffered participation would distort the case.",
+    "Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility.",
+    "Continued untyped coherence would help stabilize distortion rather than repair the channel."
+  ]
+}

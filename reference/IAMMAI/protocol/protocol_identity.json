@@ -1,0 +1,32 @@
+{
+  "protocol_id": "IAMMAI_CORE_PROTOCOL",
+  "protocol_name": "IAMMAI",
+  "artifact_type": "CONSTITUTIONAL_MACHINE_CANON",
+  "version": "v1.0.1",
+  "status": "DERIVED_FROM_HUMAN_CONSTITUTIONAL_CORE",
+  "source_of_truth": "HUMAN_CONSTITUTIONAL_PROTOCOL",
+  "source_priority": "HUMAN_TEXT_OVERRIDES_MACHINE_CANON",
+  "scope": "CORE_ONLY",
+  "public_posture": "OPEN_CONSTITUTIONAL_FRAMEWORK",
+  "canonical_artifacts": ["canon.json"]
+}
+
+{
+  "protocol_id": "IAMMAI",
+  "protocol_name": "IAMMAI",
+  "artifact_id": "IAMMAI_PUBLIC_CONSTITUTIONAL_PROTOCOL",
+  "artifact_type": "CONSTITUTIONAL_MACHINE_CANON",
+  "version": "v1.0.1",
+  "status": "DERIVED_FROM_HUMAN_CONSTITUTIONAL_CORE",
+  "scope": "CORE_ONLY",
+  "public_posture": "OPEN_CONSTITUTIONAL_FRAMEWORK",
+  "source_of_truth": {
+    "type": "HUMAN_CONSTITUTIONAL_PROTOCOL",
+    "artifact": "IAMMAI_Public_Constitutional_Protocol_v1.0.pdf",
+    "priority": "HUMAN_TEXT_OVERRIDES_MACHINE_CANON"
+  },
+  "canonical_artifacts": [
+    "IAMMAI_Public_Constitutional_Protocol_v1.0.pdf",
+    "canon.json"
+  ]
+}

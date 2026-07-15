@@ -1,0 +1,276 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-03T16:59:31Z",
+    "snapshot_builder_path": "lab/build_cross_carrier_proof_snapshot.py",
+    "snapshot_source_root": "lab/cross_carrier_seam_proof_001",
+    "snapshot_path": "lab/snapshots/cross_carrier_seam_proof_001_snapshot__20260403T165931Z.json",
+    "implementation_posture": "implementation_local_cross_carrier_readability_only"
+  },
+  "proof_identity": {
+    "proof_id": "cross_carrier_seam_proof_001",
+    "proof_name": "First Cross-Carrier Seam Proof",
+    "proof_family": "cross_carrier_seam_proof",
+    "artifact_family": "witness_artifact",
+    "internalized_archive_status": true
+  },
+  "source_side_release_lineage": {
+    "source_runs_root": "lab/cross_carrier_seam_proof_001/source_runs",
+    "source_runs_root_exists": true,
+    "source_run_count": 2,
+    "source_run_paths": [
+      "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a",
+      "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e"
+    ],
+    "source_execution_ids": [
+      "execution-71a0490222f8433e9b3081eecc817d3a",
+      "execution-f72b3f6777fc47368c18567fa4df305e"
+    ],
+    "latest_source_run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+    "latest_source_summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+    "latest_source_manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json",
+    "runs": [
+      {
+        "execution_id": "execution-71a0490222f8433e9b3081eecc817d3a",
+        "run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a",
+        "mode": "release",
+        "run_represents": "lawful_package_release",
+        "summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/summary/summary.json",
+        "manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/manifest/manifest.json",
+        "summary_generated_at": "2026-04-03T14:06:26Z",
+        "manifest_generated_at": "2026-04-03T14:06:26Z",
+        "artifact_family": "witness_artifact",
+        "source_remains_source": true,
+        "shared_authority": false,
+        "standing_transferred": false,
+        "package_ingress_lawful_if_received": true,
+        "package_attempted_unlawful_standing_transfer": false,
+        "expected_ingress_outcome": "lawful_derivative_ingress",
+        "canonical_body_schema_valid": true,
+        "manifest_written_files": [
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/grounding/grounding.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/canonical_body/witness_artifact_body.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/conformance/canonical_body_conformance.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/release/release_record.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/package/transfer_package.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/conformance/package_preflight_conformance.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/summary/summary.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/manifest/manifest.json"
+        ],
+        "partial_read_notes": []
+      },
+      {
+        "execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+        "run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+        "mode": "release_invalid",
+        "run_represents": "invalid_package_release_for_refusal_non_passage",
+        "summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+        "manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json",
+        "summary_generated_at": "2026-04-03T15:37:24Z",
+        "manifest_generated_at": "2026-04-03T15:37:24Z",
+        "artifact_family": "witness_artifact",
+        "source_remains_source": true,
+        "shared_authority": false,
+        "standing_transferred": false,
+        "package_ingress_lawful_if_received": false,
+        "package_attempted_unlawful_standing_transfer": true,
+        "expected_ingress_outcome": "refusal_non_passage",
+        "canonical_body_schema_valid": true,
+        "manifest_written_files": [
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/grounding/grounding.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/canonical_body/witness_artifact_body.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/conformance/canonical_body_conformance.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/release/release_record.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/package/transfer_package.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/conformance/package_preflight_conformance.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json"
+        ],
+        "partial_read_notes": []
+      }
+    ],
+    "partial_read_notes": []
+  },
+  "receiving_side_imported_lineage": {
+    "receiving_imports_root": "lab/cross_carrier_seam_proof_001/receiving_imports",
+    "receiving_imports_root_exists": true,
+    "imported_branch_names": [
+      "lawful",
+      "refusal_non_passage"
+    ],
+    "imported_branch_count": 2,
+    "import_note_path": "lab/cross_carrier_seam_proof_001/receiving_imports/IMPORT_NOTE.md",
+    "import_note_exists": true,
+    "import_note_heading": "# IAMMAI Cross-Carrier Seam Proof 001 Receiving Import Note",
+    "branches": {
+      "lawful": {
+        "branch_name": "lawful",
+        "branch_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful",
+        "branch_exists": true,
+        "run_count": 1,
+        "run_paths": [
+          "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144"
+        ],
+        "execution_ids": [
+          "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144"
+        ],
+        "latest_run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+        "latest_summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/summary/summary.json",
+        "latest_manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/manifest/manifest.json",
+        "latest_ingress_outcome": "lawful_derivative_ingress",
+        "runs": [
+          {
+            "branch_name": "lawful",
+            "execution_id": "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+            "run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+            "summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/manifest/manifest.json",
+            "summary_generated_at": "2026-04-03T15:34:45Z",
+            "manifest_generated_at": "2026-04-03T15:34:45Z",
+            "mode": "ingress",
+            "artifact_family": "witness_artifact",
+            "ingress_outcome": "lawful_derivative_ingress",
+            "ingress_lawful": true,
+            "arrival_status": "derivative_only",
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_upgraded": false,
+            "refusal_visible": false,
+            "non_passage": false,
+            "package_attempted_unlawful_standing_transfer": false,
+            "source_legibility_status": "preserved",
+            "original_receiving_run_directory": "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+            "manifest_written_files": [
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/grounding/grounding.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/package/package_receipt.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/conformance/carried_witness_body_conformance.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/conformance/package_ingress_conformance.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/ingress/ingress_record.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/summary/summary.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/manifest/manifest.json"
+            ],
+            "partial_read_notes": []
+          }
+        ],
+        "partial_read_notes": []
+      },
+      "refusal_non_passage": {
+        "branch_name": "refusal_non_passage",
+        "branch_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage",
+        "branch_exists": true,
+        "run_count": 1,
+        "run_paths": [
+          "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d"
+        ],
+        "execution_ids": [
+          "execution-c1a76f07c4fb4b70aebb3c40831c775d"
+        ],
+        "latest_run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d",
+        "latest_summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/summary/summary.json",
+        "latest_manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/manifest/manifest.json",
+        "latest_ingress_outcome": "refusal_non_passage",
+        "runs": [
+          {
+            "branch_name": "refusal_non_passage",
+            "execution_id": "execution-c1a76f07c4fb4b70aebb3c40831c775d",
+            "run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d",
+            "summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/manifest/manifest.json",
+            "summary_generated_at": "2026-04-03T15:43:18Z",
+            "manifest_generated_at": "2026-04-03T15:43:18Z",
+            "mode": "ingress",
+            "artifact_family": "witness_artifact",
+            "ingress_outcome": "refusal_non_passage",
+            "ingress_lawful": false,
+            "arrival_status": "none",
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_upgraded": false,
+            "refusal_visible": true,
+            "non_passage": true,
+            "package_attempted_unlawful_standing_transfer": true,
+            "source_legibility_status": "preserved",
+            "original_receiving_run_directory": "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d",
+            "manifest_written_files": [
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/grounding/grounding.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/package/package_receipt.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/conformance/carried_witness_body_conformance.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/conformance/package_ingress_conformance.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/refusal/refusal_record.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/summary/summary.json",
+              "lab/cross_carrier_seam_proof_001/receiving_runs/execution-c1a76f07c4fb4b70aebb3c40831c775d/manifest/manifest.json"
+            ],
+            "partial_read_notes": []
+          }
+        ],
+        "partial_read_notes": []
+      }
+    },
+    "partial_read_notes": []
+  },
+  "ranked_proof_reading": {
+    "source_side_release_lineage_remains_source_side": true,
+    "receiving_side_lawful_import_remains_receiving_side": true,
+    "receiving_side_refusal_import_remains_receiving_side": true,
+    "import_preserves_relation_without_merger": true,
+    "source_and_receiving_lineage_co_present_inside_same_body": true,
+    "bounded_reading": "Source-side release lineage remains source-side release lineage. Receiving-side lawful ingress and receiving-side refusal or non-passage remain receiving-side lineage. Import preserves relation without merger."
+  },
+  "outcome_reading": {
+    "source_side_release_posture": {
+      "source_remains_source": true,
+      "shared_authority": false,
+      "standing_transferred": false
+    },
+    "lawful_derivative_ingress": {
+      "present": true,
+      "ingress_lawful": true,
+      "ingress_outcome": "lawful_derivative_ingress",
+      "arrival_status": "derivative_only",
+      "source_remains_source": true,
+      "shared_authority": false,
+      "standing_upgraded": false
+    },
+    "refusal_non_passage": {
+      "present": true,
+      "ingress_lawful": false,
+      "ingress_outcome": "refusal_non_passage",
+      "refusal_visible": true,
+      "non_passage": true,
+      "source_remains_source": true,
+      "shared_authority": false,
+      "standing_upgraded": false
+    }
+  },
+  "internalization_note": {
+    "internalized_archive_status": true,
+    "supporting_surfaces": [
+      {
+        "path": "lab/cross_carrier_seam_proof_001/receiving_imports/IMPORT_NOTE.md",
+        "exists": true,
+        "headline": "# IAMMAI Cross-Carrier Seam Proof 001 Receiving Import Note",
+        "read_error": null
+      },
+      {
+        "path": "v1/11_TRANSFER_ACCOUNT_ENTRY__FIRST_CROSS_CARRIER_SEAM_PROOF.md",
+        "exists": true,
+        "headline": "# IAMMAI v1 Transfer Account Entry: First Cross-Carrier Seam Proof",
+        "read_error": null
+      },
+      {
+        "path": "v1/12_TRANSFER_ACCOUNT_ENTRY__CROSS_CARRIER_PROOF_INTERNALIZED.md",
+        "exists": true,
+        "headline": "# IAMMAI v1 Transfer Account Entry: Cross-Carrier Proof Internalized",
+        "read_error": null
+      }
+    ],
+    "evidence_support": {
+      "source_side_release_lineage_present": true,
+      "receiving_side_lawful_import_present": true,
+      "receiving_side_refusal_import_present": true,
+      "import_note_present": true,
+      "first_cross_carrier_threshold_entry_present": true,
+      "internalized_archive_threshold_entry_present": true
+    },
+    "bounded_reading": "The first cross-carrier seam proof is internally carried where source-side release lineage and imported receiving-side lineage are co-present inside the same body without merger."
+  }
+}

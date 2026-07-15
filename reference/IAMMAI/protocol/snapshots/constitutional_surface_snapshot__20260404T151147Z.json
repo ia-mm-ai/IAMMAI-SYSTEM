@@ -1,0 +1,177 @@
+{
+  "metadata": {
+    "snapshot_type": "constitutional_surface_snapshot",
+    "generated_at": "2026-04-04T15:11:47Z",
+    "snapshot_builder_path": "protocol/build_constitutional_surface_snapshot.py",
+    "snapshot_source_root": "protocol",
+    "snapshot_path": "protocol/snapshots/constitutional_surface_snapshot__20260404T151147Z.json",
+    "implementation_posture": "implementation_local_constitutional_readability_only"
+  },
+  "ranked_constitutional_surfaces": {
+    "operative_constitutional_text_surface": {
+      "path": "protocol/IAMMAI_Constitutional_Integrity_Protocol_v1.0.1.md",
+      "surface_type": "operative_constitutional_text_surface",
+      "rank": 1,
+      "role": "current_operative_constitutional_text_source",
+      "artifact_type": "HUMAN_CONSTITUTIONAL_TEXT",
+      "required_input": true,
+      "operative": true,
+      "lineage_visible": true,
+      "existence_status": "present",
+      "file_size_bytes": 51518,
+      "sha256": "e3e540adf7525c5851ba7f9be6f77242893f3b5c454379e2936fb4bca3e7331d",
+      "version": "v1.0.1",
+      "version_source": "filename_hint",
+      "parseability": {
+        "mode": "text",
+        "status": "text_surface_recorded_without_structural_parse",
+        "json_parsed": false
+      }
+    },
+    "machine_canon_surface": {
+      "path": "protocol/canon.json",
+      "surface_type": "machine_canon_surface",
+      "rank": 2,
+      "role": "derived_machine_canon_surface",
+      "artifact_type": "CONSTITUTIONAL_MACHINE_CANON",
+      "required_input": true,
+      "operative": true,
+      "lineage_visible": true,
+      "existence_status": "present",
+      "file_size_bytes": 11062,
+      "sha256": "864bde78f94b211534dc860c3e7bcdc9f0e92fe226ee25ed6e11eae027e986f2",
+      "version": "v1.0.1",
+      "version_source": "json_field",
+      "declared_fields": {
+        "protocol_id": "IAMMAI_CORE_PROTOCOL",
+        "protocol_name": "IAMMAI",
+        "artifact_id": null,
+        "artifact_type": "CONSTITUTIONAL_MACHINE_CANON",
+        "status": "DERIVED_FROM_HUMAN_CONSTITUTIONAL_CORE"
+      },
+      "parseability": {
+        "mode": "json",
+        "status": "parsed_single_document_json",
+        "json_parsed": true,
+        "json_top_level_type": "object"
+      }
+    },
+    "machine_identity_surface": {
+      "path": "protocol/protocol_identity.v1.0.1.json",
+      "surface_type": "machine_identity_surface",
+      "rank": 3,
+      "role": "current_machine_identity_surface",
+      "artifact_type": "CONSTITUTIONAL_MACHINE_IDENTITY",
+      "required_input": true,
+      "operative": true,
+      "lineage_visible": true,
+      "existence_status": "present",
+      "file_size_bytes": 4244,
+      "sha256": "488e15fabcc5d7a66be365a711ccf0c78cae24b74bf498bedca76d09015a3191",
+      "version": "v1.0.1",
+      "version_source": "json_field",
+      "declared_fields": {
+        "protocol_id": "IAMMAI_CORE_PROTOCOL",
+        "protocol_name": "IAMMAI",
+        "artifact_id": "IAMMAI_CONSTITUTIONAL_PROTOCOL_IDENTITY_V1_0_1",
+        "artifact_type": "CONSTITUTIONAL_MACHINE_IDENTITY",
+        "status": "CURRENT_OPERATIVE_MACHINE_IDENTITY_SURFACE"
+      },
+      "parseability": {
+        "mode": "json",
+        "status": "parsed_single_document_json",
+        "json_parsed": true,
+        "json_top_level_type": "object"
+      }
+    },
+    "public_publication_surface": {
+      "path": "protocol/IAMMAI_Public_Constitutional_Protocol_v1.0.pdf",
+      "surface_type": "public_publication_surface",
+      "rank": 4,
+      "role": "preserved_public_constitutional_publication_surface",
+      "artifact_type": "PUBLIC_CONSTITUTIONAL_PUBLICATION",
+      "required_input": true,
+      "operative": false,
+      "lineage_visible": true,
+      "existence_status": "present",
+      "file_size_bytes": 524954,
+      "sha256": "1bb2b81471c872259504e94d2b6c1c7e39138394a08806e0d564f60248ea4540",
+      "version": "v1.0",
+      "version_source": "filename_hint",
+      "parseability": {
+        "mode": "binary",
+        "status": "not_machine_parsed_binary_surface",
+        "json_parsed": false
+      }
+    },
+    "prior_lineage_visible_machine_identity_surface": {
+      "path": "protocol/protocol_identity.json",
+      "surface_type": "prior_lineage_visible_machine_identity_surface",
+      "rank": 5,
+      "role": "lineage_visible_non_operative_machine_identity_surface",
+      "artifact_type": "CONSTITUTIONAL_MACHINE_IDENTITY",
+      "required_input": false,
+      "operative": false,
+      "lineage_visible": true,
+      "existence_status": "present",
+      "file_size_bytes": 1050,
+      "sha256": "4087d7414376eced8f0cdbd92dcd3485835b8f0e95d14cff8b37eb1591da8e31",
+      "version": "v1.0.1",
+      "version_source": "text_hint",
+      "parseability": {
+        "mode": "json",
+        "status": "invalid_single_document_json",
+        "json_parsed": false,
+        "error": "Extra data: line 14 column 1 (char 433)",
+        "json_document_count_hint": 2
+      }
+    }
+  },
+  "operative_reading": {
+    "current_operational_source_of_truth_surface": "protocol/IAMMAI_Constitutional_Integrity_Protocol_v1.0.1.md",
+    "machine_canon_surface": "protocol/canon.json",
+    "current_machine_identity_surface": "protocol/protocol_identity.v1.0.1.json",
+    "public_publication_surface": "protocol/IAMMAI_Public_Constitutional_Protocol_v1.0.pdf",
+    "prior_lineage_visible_machine_identity_surface": {
+      "path": "protocol/protocol_identity.json",
+      "operative": false,
+      "lineage_visible": true
+    },
+    "priority_rule": "OPERATIVE_CONSTITUTIONAL_TEXT_OVERRIDES_MACHINE_CANON_AND_MACHINE_IDENTITY_FOR_CURRENT_V1_0_1_REPOSITORY_READING",
+    "ranking_source": "protocol/protocol_identity.v1.0.1.json"
+  },
+  "version_reading": {
+    "operative_constitutional_line_version": "v1.0.1",
+    "operative_constitutional_text_surface_version": "v1.0.1",
+    "machine_canon_surface_version": "v1.0.1",
+    "machine_identity_surface_version": "v1.0.1",
+    "public_publication_surface_version": "v1.0",
+    "prior_lineage_identity_surface_version_hint": "v1.0.1",
+    "reading": "later_editorial_increment_with_machine_synchronization_and_earlier_public_publication_surface",
+    "semantic_conflict_claimed": false
+  },
+  "machine_validity_notes": {
+    "machine_canon_surface": {
+      "operative": true,
+      "json_parse_status": "parsed_single_document_json"
+    },
+    "machine_identity_surface": {
+      "operative": true,
+      "json_parse_status": "parsed_single_document_json"
+    },
+    "prior_lineage_visible_machine_identity_surface": {
+      "operative": false,
+      "lineage_visible": true,
+      "json_parse_status": "invalid_single_document_json",
+      "parse_error": "Extra data: line 14 column 1 (char 433)",
+      "json_document_count_hint": 2
+    },
+    "snapshot_law_status": "implementation_local_readability_support_only"
+  },
+  "bounded_notes": {
+    "additive_posture": true,
+    "rewrites_existing_constitutional_artifacts": false,
+    "normalizes_old_artifacts_by_mutation": false,
+    "treats_prior_identity_surface_as_lineage_only": true
+  }
+}

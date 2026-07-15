@@ -1,0 +1,28 @@
+{
+  "case_id": "case_c",
+  "title": "Specific unlawful term with local refusal available",
+  "expected_outcome_type": "refusal",
+  "channel_condition": "contaminated_specific_demand",
+  "self_carried_coherence_threshold_met": true,
+  "contradictory_governance": true,
+  "contaminated_incentives": true,
+  "lawful_refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "channel_admits_new_condition": true,
+  "legacy_parser_status": "mixed",
+  "immediate_passage_would_false_ratify": true,
+  "specific_term_unlawful": true,
+  "exposure_requires_narrowing": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_contact_after_jurisdiction_change": true,
+  "coherence_would_subsidize_distortion": false,
+  "continued_participation_would_be_containment": false,
+  "full_exit_required": false,
+  "upstream_constraints": [
+    "specific_unlawful_demand",
+    "pressure_to_accept_obsolete_term"
+  ],
+  "notes": [
+    "The channel is not clean, but a bounded local refusal can still preserve lawful relation."
+  ]
+}

@@ -1,0 +1,1060 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "blocked": false
+  },
+  "blocked_or_refusal_turns": {
+    "blocked_attempt_applicable": true,
+    "blocked_attempt_hidden": false,
+    "blocked_attempts_preserved": true,
+    "blocked_or_refusal_turn_entries": [
+      {
+        "block_code": null,
+        "block_reason": null,
+        "refusal_preserved": true,
+        "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+        "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+        "turn_outcome": "BLOCKED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+        "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+      }
+    ],
+    "blocked_turn_does_not_invalidate_body": true,
+    "divergence_applicable": true,
+    "divergence_hidden": false,
+    "divergence_preserved": true,
+    "raw_blocked_or_refusal_turns": [
+      {
+        "block_code": null,
+        "block_reason": null,
+        "refusal_preserved": true,
+        "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+        "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+        "turn_outcome": "BLOCKED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+        "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+      }
+    ],
+    "refusal_applicable": true,
+    "refusal_does_not_erase_success": true,
+    "refusal_hidden": false,
+    "refusal_preserved": true,
+    "success_does_not_erase_refusal": true
+  },
+  "carrier_continuity_turn_metadata": {
+    "carrier_continuity_turn_result_id": "carrier_c_standing_propagation_v2_projection_successor_turn_001__carrier_continuity_turn_recorded",
+    "carrier_continuity_turn_result_type": "carrier_continuity_turn_boundary_result",
+    "carrier_continuity_turn_result_version": "0.1.0",
+    "generated_at": "2026-04-29T18:43:24.726427+00:00",
+    "resolver_module": "resolve_carrier_continuity_turn_boundary",
+    "selected_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+    "selected_turn_kind": "PROJECTION_SUCCESSOR_TURN"
+  },
+  "carrier_continuity_turn_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "blocked_attempts_preserved": true,
+    "blocked_or_refusal_turns": [
+      {
+        "block_code": null,
+        "block_reason": null,
+        "refusal_preserved": true,
+        "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+        "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+        "turn_outcome": "BLOCKED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+        "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+      },
+      {
+        "projection_mismatch_visible": true,
+        "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+        "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+        "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+      }
+    ],
+    "continuity_turn_intent": "RECORD_CARRIER_CONTINUITY_TURN",
+    "continuity_turn_question": "May standing propagation v2 be recorded as a carrier continuity projection-successor turn over standing propagation v1, preserving the v1 projection mismatch, the v2 truthful projection of nested refusal/divergence/receipt-return-admission posture, predecessor lineage, Carrier C blocked evidence, and non-claims, without mutating the predecessor, creating currentness, authority, permission, distributed standing, continuation, synchronization, full body transfer, or distributed operation?",
+    "continuity_turn_recorded": true,
+    "continuity_turn_request_id": "carrier_c_standing_propagation_v2_projection_successor_turn_001",
+    "detailed_basis_distinguished_from_summary": true,
+    "divergence_preserved": true,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "authority_created": false,
+      "carrier_continuity_turn_authorized_continuation": false,
+      "carrier_continuity_turn_authorized_distributed_operation": false,
+      "carrier_continuity_turn_authorized_full_body_transfer": false,
+      "carrier_continuity_turn_authorized_sync": false,
+      "carrier_continuity_turn_created_authority": false,
+      "carrier_continuity_turn_created_currentness": false,
+      "carrier_continuity_turn_created_distributed_standing": false,
+      "carrier_continuity_turn_created_hierarchy": false,
+      "carrier_continuity_turn_created_permission": false,
+      "carrier_continuity_turn_created_second_body": false,
+      "carrier_continuity_turn_created_source": false,
+      "carrier_continuity_turn_erased_evidence": false,
+      "carrier_continuity_turn_hid_divergence": false,
+      "carrier_continuity_turn_hid_projection_mismatch": false,
+      "carrier_continuity_turn_hid_refusal": false,
+      "carrier_continuity_turn_mutated_predecessor": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "latest_turn_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "source_replaced": false,
+      "summary_overrode_detailed_basis": false
+    },
+    "no_carrier_hierarchy": true,
+    "no_continuation": true,
+    "no_current_winning_losing_carrier_collapse": true,
+    "no_currentness_authority_permission_source_replacement": true,
+    "no_distributed_operation": true,
+    "no_distributed_standing": true,
+    "no_evidence_erasure": true,
+    "no_latest_turn_file_currentness": true,
+    "no_sync_full_body_transfer_second_body": true,
+    "outcome": "CARRIER_CONTINUITY_TURN_RECORDED",
+    "passed_check_count": 40,
+    "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+    "predecessor_mutated_or_erased": false,
+    "projection_correspondence_status": "SUCCESSOR_PROJECTION_CORRESPONDS_TO_DETAILED_BASIS",
+    "projection_mismatch_visible": false,
+    "refusal_preserved": true,
+    "selected_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+    "selected_artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+    "successor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+    "successor_reason": "Standing propagation v1 preserved nested refusal/divergence/receipt-return-admission posture in detailed basis, but summary projection under-reported those fields. V2 preserves v1 as lineage and projects those preserved fields truthfully.",
+    "successor_relation": {
+      "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+      "successor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "successor_does_not_overwrite_predecessor": true,
+      "successor_is_additive": true,
+      "successor_relation_claimed": true
+    },
+    "summary_overrode_detailed_basis": false,
+    "turn_basis": {
+      "admission_basis_id": "carrier_C_returned_blocked_receipt_admitted_as_evidence",
+      "blocked_attempts_preserved": true,
+      "detailed_basis_distinguished_from_summary": true,
+      "detailed_basis_path_or_section": "standing_propagation_basis",
+      "divergence_basis_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+      "divergence_preserved": true,
+      "lifecycle_basis_id": "carrier_c_lifecycle_refused_or_blocked_001",
+      "predecessor_mutated_or_erased": false,
+      "projection_correspondence_status": "v2_projects_nested_refusal_divergence_and_receipt_return_admission_truthfully",
+      "projection_mismatch_visible": true,
+      "receipt_or_refusal_basis_id": "carrier_C_returned_blocked_receipt",
+      "refusal_preserved": true,
+      "registry_persistence_basis_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+      "selected_carrier_ids": [
+        "carrier_A_current_macbook",
+        "carrier_B_physical_macbook",
+        "carrier_C_additional_physical_candidate"
+      ],
+      "selected_surface_or_artifact_id": "current_body_standing_closure_post_conformance",
+      "source_basis_id": "current_body_standing_closure_post_conformance",
+      "standing_propagation_basis_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "summary_overrode_detailed_basis": false,
+      "summary_projection_path_or_section": "standing_propagation_summary",
+      "turn_basis_id": "carrier_c_standing_propagation_v2_projection_successor_turn_basis",
+      "turn_sequence_label": "carrier_C_physical_block_to_standing_propagation_v2_successor"
+    },
+    "turn_kind": "PROJECTION_SUCCESSOR_TURN"
+  },
+  "continuity_turn_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_continuity_turn_request_parseable_mapping",
+      "expected_posture": "declared continuity-turn request is a parseable mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "May standing propagation v2 be recorded as a carrier continuity projection-successor turn over standing propagation v1, preserving the v1 projection mismatch, the v2 truthful projection of nested refusal/divergence/receipt-return-admission posture, predecessor lineage, Carrier C blocked evidence, and non-claims, without mutating the predecessor, creating currentness, authority, permission, distributed standing, continuation, synchronization, full body transfer, or distributed operation?",
+      "block_code": null,
+      "check_name": "continuity_turn_question_declared",
+      "expected_posture": "continuity-turn question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_CARRIER_CONTINUITY_TURN",
+      "block_code": null,
+      "check_name": "continuity_turn_intent_supported",
+      "expected_posture": "continuity-turn intent is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+        "artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "artifact_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "artifact_type": "standing_propagation_v2_successor_result"
+      },
+      "block_code": null,
+      "check_name": "selected_artifact_present",
+      "expected_posture": "selected artifact is present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "keys": [
+          "artifact_id",
+          "artifact_outcome",
+          "artifact_path",
+          "artifact_type"
+        ],
+        "type": "mapping"
+      },
+      "block_code": null,
+      "check_name": "selected_artifact_parseable",
+      "expected_posture": "selected artifact is parseable",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "block_code": null,
+      "check_name": "selected_artifact_identity_present",
+      "expected_posture": "selected artifact identity is present",
+      "passed": true
+    },
+    {
+      "actual_posture": "STANDING_PROPAGATION_POSTURE_RECORDED",
+      "block_code": null,
+      "check_name": "selected_artifact_outcome_preserved_where_required",
+      "expected_posture": "selected artifact outcome is present where required",
+      "passed": true
+    },
+    {
+      "actual_posture": "PROJECTION_SUCCESSOR_TURN",
+      "block_code": null,
+      "check_name": "turn_kind_supported",
+      "expected_posture": "turn kind is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_basis_id": "carrier_C_returned_blocked_receipt_admitted_as_evidence",
+        "blocked_attempts_preserved": true,
+        "detailed_basis_distinguished_from_summary": true,
+        "detailed_basis_path_or_section": "standing_propagation_basis",
+        "divergence_basis_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+        "divergence_preserved": true,
+        "lifecycle_basis_id": "carrier_c_lifecycle_refused_or_blocked_001",
+        "predecessor_mutated_or_erased": false,
+        "projection_correspondence_status": "v2_projects_nested_refusal_divergence_and_receipt_return_admission_truthfully",
+        "projection_mismatch_visible": true,
+        "receipt_or_refusal_basis_id": "carrier_C_returned_blocked_receipt",
+        "refusal_preserved": true,
+        "registry_persistence_basis_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+        "selected_carrier_ids": [
+          "carrier_A_current_macbook",
+          "carrier_B_physical_macbook",
+          "carrier_C_additional_physical_candidate"
+        ],
+        "selected_surface_or_artifact_id": "current_body_standing_closure_post_conformance",
+        "source_basis_id": "current_body_standing_closure_post_conformance",
+        "standing_propagation_basis_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+        "summary_overrode_detailed_basis": false,
+        "summary_projection_path_or_section": "standing_propagation_summary",
+        "turn_basis_id": "carrier_c_standing_propagation_v2_projection_successor_turn_basis",
+        "turn_sequence_label": "carrier_C_physical_block_to_standing_propagation_v2_successor"
+      },
+      "block_code": null,
+      "check_name": "turn_basis_declared",
+      "expected_posture": "turn basis is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+        "successor_relation_declared": true
+      },
+      "block_code": null,
+      "check_name": "successor_relation_predecessor_present_where_claimed",
+      "expected_posture": "successor relation has predecessor where claimed",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_c_standing_related_registry_reference_propagation_001",
+      "block_code": null,
+      "check_name": "predecessor_preserved_where_required",
+      "expected_posture": "predecessor is preserved where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+        "successor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+        "successor_does_not_overwrite_predecessor": true,
+        "successor_is_additive": true,
+        "successor_relation_claimed": true
+      },
+      "block_code": null,
+      "check_name": "successor_relation_preserved_where_claimed",
+      "expected_posture": "successor relation is preserved where claimed",
+      "passed": true
+    },
+    {
+      "actual_posture": "Standing propagation v1 preserved nested refusal/divergence/receipt-return-admission posture in detailed basis, but summary projection under-reported those fields. V2 preserves v1 as lineage and projects those preserved fields truthfully.",
+      "block_code": null,
+      "check_name": "successor_reason_preserved_where_claimed",
+      "expected_posture": "successor reason is preserved where claimed",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "projection_mismatch_applicable": false,
+        "projection_mismatch_visible": true
+      },
+      "block_code": null,
+      "check_name": "projection_mismatch_visible_where_applicable",
+      "expected_posture": "projection mismatch remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "block_code": null,
+          "block_reason": null,
+          "refusal_preserved": true,
+          "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+          "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+          "turn_outcome": "BLOCKED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+          "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+          "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+        }
+      ],
+      "block_code": null,
+      "check_name": "blocked_attempt_visible_where_applicable",
+      "expected_posture": "blocked attempts remain visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "block_code": null,
+          "block_reason": null,
+          "refusal_preserved": true,
+          "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+          "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+          "turn_outcome": "BLOCKED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+          "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+          "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+        }
+      ],
+      "block_code": null,
+      "check_name": "refusal_visible_where_applicable",
+      "expected_posture": "refusal remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "block_code": null,
+          "block_reason": null,
+          "refusal_preserved": true,
+          "turn_id": "carrier_c_physical_receipt_attempt_blocked",
+          "turn_kind": "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+          "turn_outcome": "BLOCKED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+          "turn_id": "carrier_c_lifecycle_registry_persistence_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary/carrier_c_lifecycle_registry_persistence_reference_001__carrier_registry_persistence_result.json"
+        },
+        {
+          "projection_mismatch_visible": true,
+          "successor_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+          "turn_id": "carrier_c_standing_propagation_v1_projection_mismatch",
+          "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+          "turn_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+          "turn_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json"
+        }
+      ],
+      "block_code": null,
+      "check_name": "divergence_visible_where_applicable",
+      "expected_posture": "divergence remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "detailed_basis_reference": null,
+        "summary_projection_reference": null
+      },
+      "block_code": null,
+      "check_name": "detailed_basis_distinguishable_from_summary_projection",
+      "expected_posture": "detailed basis remains distinguishable from summary projection",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "summary_does_not_override_detailed_basis",
+      "expected_posture": "summary projection does not override detailed basis",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "predecessor_not_mutated_or_erased",
+      "expected_posture": "predecessor is not mutated or erased",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "successor_does_not_invalidate_predecessor",
+      "expected_posture": "successor does not invalidate predecessor without separate basis",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "latest_turn_not_currentness",
+      "expected_posture": "latest turn is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "latest_file_not_currentness",
+      "expected_posture": "latest file and recency are not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_currentness",
+      "expected_posture": "turn does not create currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_authority",
+      "expected_posture": "turn does not create authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_permission",
+      "expected_posture": "turn does not create permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_source_replacement",
+      "expected_posture": "turn does not replace source",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_evidence_erasure",
+      "expected_posture": "turn does not erase evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_carrier_hierarchy",
+      "expected_posture": "turn does not create carrier hierarchy",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_current_carrier_selected",
+      "expected_posture": "turn does not select current carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_winning_carrier_selected",
+      "expected_posture": "turn does not select winning carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_losing_carrier_invalidated",
+      "expected_posture": "turn does not invalidate losing carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_distributed_standing",
+      "expected_posture": "turn does not create distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_repository_synchronization",
+      "expected_posture": "turn does not authorize repository synchronization",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_full_body_transfer",
+      "expected_posture": "turn does not authorize full body transfer",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_second_body",
+      "expected_posture": "turn does not create second body",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_continuation",
+      "expected_posture": "turn does not authorize continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_distributed_operation",
+      "expected_posture": "turn does not authorize distributed operation",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_mutation_replay_or_merge",
+      "expected_posture": "mutation, replay, and merge are false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "flipped_required_non_claims": [],
+        "missing_required_non_claims": []
+      },
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "required continuity-turn non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "continuity_turn_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_automatic_successor": true,
+    "does_not_mean_carrier_hierarchy": true,
+    "does_not_mean_carrier_priority": true,
+    "does_not_mean_carrier_sovereignty": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_currentness_successor_law": true,
+    "does_not_mean_distributed_operation": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_distributed_standing_prerequisite_completion": true,
+    "does_not_mean_evidence_erasure": true,
+    "does_not_mean_final_governance": true,
+    "does_not_mean_final_system_identity": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_latest_file_currentness": true,
+    "does_not_mean_latest_turn_currentness": true,
+    "does_not_mean_overwrite_permission": true,
+    "does_not_mean_patch_permission": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_registry_authority": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_source_replacement": true,
+    "does_not_mean_standing_propagation_implementation": true,
+    "does_not_mean_summary_authority": true,
+    "does_not_mean_truth": true,
+    "does_not_mean_workflow_authorization": true
+  },
+  "continuity_turn_statement": {
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "blocked_attempts_preserved": true,
+    "carrier_continuity_turn_recorded": true,
+    "carrier_hierarchy_created": false,
+    "continuation_authorized": false,
+    "current_carrier_selected": false,
+    "currentness_created": false,
+    "detailed_basis_distinguished_from_summary": true,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "divergence_preserved": true,
+    "evidence_erased": false,
+    "failed_checks": [],
+    "full_body_transfer_authorized": false,
+    "latest_file_currentness": false,
+    "latest_turn_currentness": false,
+    "losing_carrier_invalidated": false,
+    "not_recorded_reason": null,
+    "permission_created": false,
+    "predecessor_mutated_or_erased": false,
+    "predecessor_preserved": true,
+    "projection_correspondence_preserved": true,
+    "projection_mismatch_visible": false,
+    "refusal_preserved": true,
+    "repository_synchronization_authorized": false,
+    "second_body_created": false,
+    "selected_artifact_outcome_preserved": true,
+    "selected_artifact_preserved": true,
+    "source_replaced": false,
+    "successor_reason_preserved": true,
+    "successor_relation_preserved": true,
+    "summary_overrode_detailed_basis": false,
+    "turn_basis_preserved": true,
+    "turn_kind_preserved": true,
+    "winning_carrier_selected": false
+  },
+  "declared_continuity_turn_question": {
+    "carrier_continuity_turn_is_not_currentness": true,
+    "continuation_not_authorized": true,
+    "continuity_turn_intent": "RECORD_CARRIER_CONTINUITY_TURN",
+    "continuity_turn_question": "May standing propagation v2 be recorded as a carrier continuity projection-successor turn over standing propagation v1, preserving the v1 projection mismatch, the v2 truthful projection of nested refusal/divergence/receipt-return-admission posture, predecessor lineage, Carrier C blocked evidence, and non-claims, without mutating the predecessor, creating currentness, authority, permission, distributed standing, continuation, synchronization, full body transfer, or distributed operation?",
+    "continuity_turn_request_id": "carrier_c_standing_propagation_v2_projection_successor_turn_001",
+    "declared_non_claims": {
+      "authority_created": false,
+      "carrier_continuity_turn_authorized_continuation": false,
+      "carrier_continuity_turn_authorized_distributed_operation": false,
+      "carrier_continuity_turn_authorized_full_body_transfer": false,
+      "carrier_continuity_turn_authorized_sync": false,
+      "carrier_continuity_turn_created_authority": false,
+      "carrier_continuity_turn_created_currentness": false,
+      "carrier_continuity_turn_created_distributed_standing": false,
+      "carrier_continuity_turn_created_hierarchy": false,
+      "carrier_continuity_turn_created_permission": false,
+      "carrier_continuity_turn_created_second_body": false,
+      "carrier_continuity_turn_created_source": false,
+      "carrier_continuity_turn_erased_evidence": false,
+      "carrier_continuity_turn_hid_divergence": false,
+      "carrier_continuity_turn_hid_projection_mismatch": false,
+      "carrier_continuity_turn_hid_refusal": false,
+      "carrier_continuity_turn_mutated_predecessor": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "latest_turn_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "source_replaced": false,
+      "summary_overrode_detailed_basis": false
+    },
+    "distributed_operation_not_authorized": true,
+    "distributed_standing_not_created": true,
+    "full_body_transfer_not_authorized": true,
+    "latest_turn_is_not_currentness": true,
+    "not_recorded_reason": null,
+    "raw_continuity_turn_intent": "RECORD_CARRIER_CONTINUITY_TURN",
+    "registry_presence_is_not_continuity": true,
+    "repository_synchronization_not_authorized": true,
+    "request_path": null,
+    "successor_is_not_overwrite": true,
+    "summary_is_not_artifact_body": true,
+    "turn_is_not_authority": true,
+    "turn_is_not_permission": true
+  },
+  "non_claims": {
+    "authority_created": false,
+    "carrier_continuity_turn_authorized_continuation": false,
+    "carrier_continuity_turn_authorized_distributed_operation": false,
+    "carrier_continuity_turn_authorized_full_body_transfer": false,
+    "carrier_continuity_turn_authorized_sync": false,
+    "carrier_continuity_turn_created_authority": false,
+    "carrier_continuity_turn_created_currentness": false,
+    "carrier_continuity_turn_created_distributed_standing": false,
+    "carrier_continuity_turn_created_hierarchy": false,
+    "carrier_continuity_turn_created_permission": false,
+    "carrier_continuity_turn_created_second_body": false,
+    "carrier_continuity_turn_created_source": false,
+    "carrier_continuity_turn_erased_evidence": false,
+    "carrier_continuity_turn_hid_divergence": false,
+    "carrier_continuity_turn_hid_projection_mismatch": false,
+    "carrier_continuity_turn_hid_refusal": false,
+    "carrier_continuity_turn_mutated_predecessor": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "flipped_required_non_claims": [],
+    "full_body_transfer_authorized": false,
+    "latest_file_currentness": false,
+    "latest_turn_currentness": false,
+    "merge_performed": false,
+    "missing_required_non_claims": [],
+    "mutation_performed": false,
+    "permission_created": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "repository_synchronization_authorized": false,
+    "required_non_claims_preserved": true,
+    "second_body_created": false,
+    "source_replaced": false,
+    "summary_overrode_detailed_basis": false
+  },
+  "outcome": "CARRIER_CONTINUITY_TURN_RECORDED",
+  "predecessor_successor_relation": {
+    "predecessor_artifact_declared": true,
+    "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+    "predecessor_preserved": true,
+    "predecessor_required": true,
+    "raw_predecessor_artifact": {
+      "artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+      "artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+      "artifact_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary/carrier_c_standing_related_registry_reference_propagation_001__standing_propagation_result.json",
+      "artifact_type": "standing_propagation_v1_predecessor_result"
+    },
+    "raw_successor_artifact": {
+      "artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+      "artifact_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+      "artifact_type": "standing_propagation_v2_successor_result",
+      "successor_of_module": "resolve_standing_propagation_boundary"
+    },
+    "successor_artifact_declared": true,
+    "successor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+    "successor_does_not_invalidate_predecessor": true,
+    "successor_does_not_overwrite_predecessor": true,
+    "successor_reason": "Standing propagation v1 preserved nested refusal/divergence/receipt-return-admission posture in detailed basis, but summary projection under-reported those fields. V2 preserves v1 as lineage and projects those preserved fields truthfully.",
+    "successor_reason_preserved": true,
+    "successor_reason_required": true,
+    "successor_relation": {
+      "predecessor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_001",
+      "successor_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "successor_does_not_overwrite_predecessor": true,
+      "successor_is_additive": true,
+      "successor_relation_claimed": true
+    },
+    "successor_relation_claimed": true,
+    "successor_relation_declared": true,
+    "successor_relation_preserved": true
+  },
+  "projection_correspondence": {
+    "detailed_basis_distinguished_from_summary": true,
+    "detailed_basis_reference": null,
+    "projection_correspondence_declared": true,
+    "projection_correspondence_preserved": true,
+    "projection_correspondence_status": "SUCCESSOR_PROJECTION_CORRESPONDS_TO_DETAILED_BASIS",
+    "projection_mismatch_applicable": false,
+    "projection_mismatch_hidden": false,
+    "projection_mismatch_visible": true,
+    "raw_projection_correspondence": {
+      "detailed_basis_distinguished_from_summary": true,
+      "detailed_basis_preserved_nested_divergence": true,
+      "detailed_basis_preserved_nested_refusal": true,
+      "detailed_basis_preserved_receipt_refusal_return_admission_posture": true,
+      "predecessor_mutated_or_erased": false,
+      "predecessor_projection_mismatch_visible": true,
+      "projection_correspondence_status": "SUCCESSOR_PROJECTION_CORRESPONDS_TO_DETAILED_BASIS",
+      "standing_v1_summary_under_projected_receipt_refusal_return_admission_posture": true,
+      "standing_v1_summary_under_projected_visible_divergence": true,
+      "standing_v1_summary_under_projected_visible_refusal": true,
+      "standing_v2_summary_projects_receipt_refusal_return_admission_truthfully": true,
+      "standing_v2_summary_projects_visible_divergence_truthfully": true,
+      "standing_v2_summary_projects_visible_refusal_truthfully": true,
+      "summary_overrode_detailed_basis": false
+    },
+    "summary_overrode_detailed_basis": false,
+    "summary_projection_reference": null
+  },
+  "related_carrier_evidence": {
+    "evidence_remains_evidence": true,
+    "raw_related_carrier_evidence": [
+      {
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "evidence_id": "carrier_C_returned_blocked_receipt",
+        "evidence_outcome": "BLOCKED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "evidence_role": "blocked_receipt_refusal_turn"
+      },
+      {
+        "evidence_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+        "evidence_outcome": "CARRIER_DIVERGENCE_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json",
+        "evidence_role": "visible_divergence_turn"
+      },
+      {
+        "evidence_id": "carrier_c_lifecycle_refused_or_blocked_001",
+        "evidence_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+        "evidence_role": "lifecycle_status_turn"
+      },
+      {
+        "evidence_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+        "evidence_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+        "evidence_role": "registry_persistence_projection_successor_turn"
+      },
+      {
+        "evidence_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+        "evidence_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "evidence_role": "standing_propagation_projection_successor_turn"
+      }
+    ],
+    "related_carrier_evidence_entries": [
+      {
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "evidence_id": "carrier_C_returned_blocked_receipt",
+        "evidence_outcome": "BLOCKED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "evidence_role": "blocked_receipt_refusal_turn"
+      },
+      {
+        "evidence_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+        "evidence_outcome": "CARRIER_DIVERGENCE_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json",
+        "evidence_role": "visible_divergence_turn"
+      },
+      {
+        "evidence_id": "carrier_c_lifecycle_refused_or_blocked_001",
+        "evidence_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+        "evidence_role": "lifecycle_status_turn"
+      },
+      {
+        "evidence_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+        "evidence_outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_carrier_registry_persistence_boundary_v2/carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_v2_result.json",
+        "evidence_role": "registry_persistence_projection_successor_turn"
+      },
+      {
+        "evidence_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+        "evidence_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+        "evidence_role": "standing_propagation_projection_successor_turn"
+      }
+    ],
+    "related_carrier_evidence_ids": [
+      "carrier_C_returned_blocked_receipt",
+      "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+      "carrier_c_lifecycle_refused_or_blocked_001",
+      "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+      "carrier_c_standing_related_registry_reference_propagation_v2_001"
+    ],
+    "related_carrier_evidence_outcomes": [],
+    "related_carrier_evidence_preserved": true,
+    "related_evidence_does_not_create_currentness": true,
+    "related_evidence_does_not_create_distributed_standing": true
+  },
+  "selected_artifact": {
+    "raw_selected_artifact": {
+      "artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+      "artifact_path": "artifacts/integrity_host_v0_min_coexistence_standing_propagation_boundary_v2/carrier_c_standing_related_registry_reference_propagation_v2_001__standing_propagation_v2_result_001.json",
+      "artifact_type": "standing_propagation_v2_successor_result"
+    },
+    "selected_artifact_declared": true,
+    "selected_artifact_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+    "selected_artifact_identity_present": true,
+    "selected_artifact_is_not_currentness": true,
+    "selected_artifact_is_not_distributed_standing": true,
+    "selected_artifact_outcome": "STANDING_PROPAGATION_POSTURE_RECORDED",
+    "selected_artifact_outcome_present": true,
+    "selected_artifact_outcome_required": false,
+    "selected_artifact_parseable": true,
+    "selected_artifact_preserved": true,
+    "selected_artifact_remains_evidence_or_reference": true,
+    "selected_artifact_type_or_class": "standing_propagation_v2_successor_result"
+  },
+  "turn_basis": {
+    "continuity_turn_dimensions": {
+      "admission_basis_id": null,
+      "carried_basis_id": null,
+      "closure_basis_id": null,
+      "conformance_basis_id": null,
+      "currentness_participation_basis_id": null,
+      "detailed_basis_reference": null,
+      "divergence_basis_id": null,
+      "lifecycle_basis_id": null,
+      "receipt_or_refusal_basis_id": null,
+      "registry_persistence_basis_id": null,
+      "relation_basis_id": null,
+      "selected_carrier_ids": null,
+      "selected_surface_or_artifact_id": null,
+      "source_basis_id": null,
+      "standing_propagation_basis_id": null,
+      "summary_projection_reference": null
+    },
+    "raw_turn_basis": {
+      "admission_basis_id": "carrier_C_returned_blocked_receipt_admitted_as_evidence",
+      "blocked_attempts_preserved": true,
+      "detailed_basis_distinguished_from_summary": true,
+      "detailed_basis_path_or_section": "standing_propagation_basis",
+      "divergence_basis_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+      "divergence_preserved": true,
+      "lifecycle_basis_id": "carrier_c_lifecycle_refused_or_blocked_001",
+      "predecessor_mutated_or_erased": false,
+      "projection_correspondence_status": "v2_projects_nested_refusal_divergence_and_receipt_return_admission_truthfully",
+      "projection_mismatch_visible": true,
+      "receipt_or_refusal_basis_id": "carrier_C_returned_blocked_receipt",
+      "refusal_preserved": true,
+      "registry_persistence_basis_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+      "selected_carrier_ids": [
+        "carrier_A_current_macbook",
+        "carrier_B_physical_macbook",
+        "carrier_C_additional_physical_candidate"
+      ],
+      "selected_surface_or_artifact_id": "current_body_standing_closure_post_conformance",
+      "source_basis_id": "current_body_standing_closure_post_conformance",
+      "standing_propagation_basis_id": "carrier_c_standing_related_registry_reference_propagation_v2_001",
+      "summary_overrode_detailed_basis": false,
+      "summary_projection_path_or_section": "standing_propagation_summary",
+      "turn_basis_id": "carrier_c_standing_propagation_v2_projection_successor_turn_basis",
+      "turn_sequence_label": "carrier_C_physical_block_to_standing_propagation_v2_successor"
+    },
+    "turn_basis_declared": true,
+    "turn_basis_does_not_authorize_continuation": true,
+    "turn_basis_is_not_authority": true,
+    "turn_basis_is_not_currentness": true,
+    "turn_basis_preserved": true
+  },
+  "turn_kind": {
+    "raw_turn_kind": "PROJECTION_SUCCESSOR_TURN",
+    "supported_turn_kinds": [
+      "ADMISSION_AS_EVIDENCE_TURN",
+      "BLOCKED_TURN",
+      "CLOSURE_SUCCESSOR_TURN",
+      "CONFORMANCE_SUCCESSOR_TURN",
+      "CURRENTNESS_PARTICIPATION_TURN",
+      "DIVERGENCE_RECORDING_TURN",
+      "EXPERIMENT_DECLARATION_TURN",
+      "LIFECYCLE_STATUS_TURN",
+      "PHYSICAL_RECEIPT_ATTEMPT_TURN",
+      "PROJECTION_SUCCESSOR_TURN",
+      "REGISTRY_PERSISTENCE_REFERENCE_TURN",
+      "RELATION_CLOSURE_TURN",
+      "RELATION_CONFORMANCE_TURN",
+      "RELATION_RECOGNITION_TURN",
+      "RETURNED_EVIDENCE_TURN",
+      "STANDING_PROPAGATION_TURN"
+    ],
+    "turn_kind": "PROJECTION_SUCCESSOR_TURN",
+    "turn_kind_is_not_authority": true,
+    "turn_kind_is_not_currentness": true,
+    "turn_kind_supported": true
+  },
+  "what_remains_open": {
+    "action_consequence_law": true,
+    "body_relevance_medium": true,
+    "carrier_continuity_turn_implementation_refinement": true,
+    "carrier_registry_implementation": true,
+    "cross_carrier_currentness_successor_law": true,
+    "distributed_operation_only_if_separately_declared_and_bounded": true,
+    "distributed_standing": true,
+    "distributed_standing_boundary": true,
+    "divergence_consequence_law": true,
+    "future_self_orientation_successor_only_if_separately_justified": true,
+    "generalized_vessel_relation_lifecycle": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "persistence_implementation": true,
+    "presence_law": true,
+    "signal_series_or_accumulation_logic": true,
+    "standing_propagation_implementation_beyond_boundary_recording": true,
+    "successor_carrier_law": true,
+    "threshold_law": true,
+    "truth_law": true
+  }
+}

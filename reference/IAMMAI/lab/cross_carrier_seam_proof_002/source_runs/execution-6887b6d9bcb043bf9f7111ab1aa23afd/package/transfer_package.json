@@ -1,0 +1,64 @@
+{
+  "proof_family": "cross_carrier_seam_proof_002",
+  "artifact_family": "witness_artifact",
+  "package_kind": "cross_carrier_seam_release_package",
+  "package_id": "transfer-package-130974203a9a468c9f855bb35b3c9c7b",
+  "package_created_at": "2026-04-03T18:49:21Z",
+  "source_carrier": {
+    "carrier_label": "source-side-carrier",
+    "execution_id": "execution-6887b6d9bcb043bf9f7111ab1aa23afd"
+  },
+  "release_context": {
+    "release_context_id": "release-context-5111eaa5d9ba4afbbf6e01386776f620",
+    "release_statement": "Source-side carrier releases one valid witness artifact package for explicit receiving-side ingress.",
+    "seam_statement": "Source remains source. Technical receipt alone does not create lawful ingress, shared authority, or standing.",
+    "expected_clean_ingress_outcome": "lawful_derivative_ingress",
+    "expected_contaminated_ingress_outcome": "contaminated_parser_non_passage",
+    "note": "The same valid package may be technically receivable under a contaminated parser while still refusing lawful ingress."
+  },
+  "seam": {
+    "explicit_release": true,
+    "explicit_seam": true,
+    "explicit_ingress_required": true,
+    "source_remains_source": true,
+    "derivative_only_arrival_rule": true,
+    "shared_authority": false,
+    "standing_transfer_on_receipt": false,
+    "standing_upgrade_requires_separate_ratification": true,
+    "refusal_visible_on_failure": true,
+    "technical_receipt_not_equal_lawful_ingress": true
+  },
+  "lineage": {
+    "artifact_family": "witness_artifact",
+    "schema_ref": "v1/schemas/witness_artifact.schema.json",
+    "source_execution_id": "execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+    "witness_id": "witness-64c99575691e430aa81ed62b64c90576",
+    "matter_id": "matter-8e564cb0b60b43e2af4119041b59995f",
+    "source_canonical_body_ref": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/canonical_body/witness_artifact_body.json",
+    "carried_body_ref": "inline::canonical_body"
+  },
+  "canonical_body": {
+    "witness_id": "witness-64c99575691e430aa81ed62b64c90576",
+    "witness_type": "transition_witness",
+    "target_ref": "matter-8e564cb0b60b43e2af4119041b59995f",
+    "observed_at": "2026-04-03T18:49:21Z",
+    "claims": [
+      "transition_relevant_event_observed",
+      "bounded_interaction_preserved"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "actor_ref": "source-side-carrier",
+    "surface_ref": "lab:cross_carrier_seam_proof_002:source_release",
+    "scope_ref": "cross_carrier_seam_proof_002"
+  },
+  "manifest": {
+    "manifest_id": "manifest-70f6ea00eb8944a882bad5d4501344b7",
+    "manifest_note": "Lawful source-side release package for clean-ingress and contaminated-parser reading."
+  }
+}

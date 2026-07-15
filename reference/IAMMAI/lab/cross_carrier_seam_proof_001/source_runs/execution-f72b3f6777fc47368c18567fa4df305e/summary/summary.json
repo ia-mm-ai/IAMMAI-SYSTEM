@@ -1,0 +1,20 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_001",
+  "mode": "release_invalid",
+  "execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+  "generated_at": "2026-04-03T15:37:24Z",
+  "run_directory": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+  "artifact_family": "witness_artifact",
+  "source_carrier_label": "source-side-carrier",
+  "canonical_witness_id": "witness-6b08e6cd38cd4d0792c1890a653c5cb4",
+  "source_remains_source": true,
+  "shared_authority": false,
+  "standing_transferred": false,
+  "canonical_body_schema_valid": true,
+  "package_ingress_lawful_if_received": false,
+  "package_attempted_unlawful_standing_transfer": true,
+  "expected_ingress_outcome": "refusal_non_passage",
+  "package_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/package/transfer_package.json",
+  "identity_generation_mode": "repo_helper",
+  "note": "Bounded source-side release summary only. It does not transfer source authority or create shared canonical state."
+}

@@ -1,0 +1,38 @@
+{
+  "case_id": "case_a",
+  "case_title": "Lawful refusal with preserved lineage",
+  "expected_outcome_type": "refusal",
+  "outcome_type": "refusal",
+  "expected_outcome_matched": true,
+  "channel_condition": "specific_unlawful_demand",
+  "self_carried_coherence_threshold_met": true,
+  "refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "coercive_context_status": "preserved",
+  "receipt_status": "refused",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": false,
+  "subsidized_distortion_risk": false,
+  "downstream_sovereignty_status": "limited",
+  "upstream_responsibility_class": "significant",
+  "downstream_responsibility_scope": "bounded_acted_scope",
+  "scapegoating_status": "absent",
+  "upstream_constraints": [
+    "specific_term_is_unlawful",
+    "coercive_context_is_visible"
+  ],
+  "seam_reasoning": "A specific demanded term is unlawful, and refusal remains actually available. Contact is not the same as consent, so the unlawful demand does not have to be ratified. Lineage remains visible, so refusal can be read without collapsing the surrounding responsibility chain. Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible.",
+  "seam_reasoning_points": [
+    "A specific demanded term is unlawful, and refusal remains actually available.",
+    "Contact is not the same as consent, so the unlawful demand does not have to be ratified.",
+    "Lineage remains visible, so refusal can be read without collapsing the surrounding responsibility chain.",
+    "Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible."
+  ],
+  "responsibility_reasoning": "Downstream action is real within the refusal that was actually taken, but not across the whole channel condition. Preserved lineage keeps significant upstream responsibility visible instead of laundering it into local authorship. Coercive context is preserved, so upstream pressure remains attached to the responsibility reading.",
+  "responsibility_reasoning_points": [
+    "Downstream action is real within the refusal that was actually taken, but not across the whole channel condition.",
+    "Preserved lineage keeps significant upstream responsibility visible instead of laundering it into local authorship.",
+    "Coercive context is preserved, so upstream pressure remains attached to the responsibility reading."
+  ]
+}

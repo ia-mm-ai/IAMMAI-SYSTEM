@@ -1,0 +1,3247 @@
+{
+  "additional_basis_required": {
+    "basis": null,
+    "does_not_authorize_follow_on_work": true,
+    "does_not_authorize_self_continuation": true,
+    "required": false
+  },
+  "artifact_existence_not_self_continuation_boundary_authority_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "artifact_existence_not_self_continuation_boundary_authority"
+    }
+  },
+  "authority_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "authority_not_created"
+    }
+  },
+  "block": null,
+  "bounded_continuation_envelope_not_self_continuation_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "bounded_continuation_envelope_not_self_continuation"
+    }
+  },
+  "broader_reusable_permission_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "broader_reusable_permission_not_created"
+    }
+  },
+  "continuation_basis_preserved_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "continuation_basis_preserved"
+    }
+  },
+  "continuation_not_self_continuation_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "continuation_not_self_continuation"
+    }
+  },
+  "currentness_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "currentness_not_created"
+    }
+  },
+  "declared_self_continuation_boundary_question": {
+    "bounded_question_only": true,
+    "intent": "RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+    "question": "Can the clean post-continuation basis be bounded for one future self-continuation review without authorizing self-continuation, self-recursive growth, runtime daemon, runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+    "self_continuation_boundary_request_id": "post_continuation_self_continuation_boundary_reference_review_001"
+  },
+  "deployment_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "deployment_not_created"
+    }
+  },
+  "distributed_network_behavior_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "distributed_network_behavior_not_created"
+    }
+  },
+  "follow_on_work_not_authorized_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "follow_on_work_not_authorized"
+    }
+  },
+  "hidden_repo_state_excluded_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "hidden_repo_state_excluded"
+    }
+  },
+  "hostile_raw_body_content_contained_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "hostile_raw_body_content_contained"
+    }
+  },
+  "latest_file_posture_not_self_continuation_boundary_authority_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "latest_file_posture_not_self_continuation_boundary_authority"
+    }
+  },
+  "non_claims": {
+    "adoption_created": false,
+    "another_reception_request_authorized": false,
+    "artifact_existence_treated_as_self_continuation_boundary_authority": false,
+    "artifact_path_treated_as_currentness": false,
+    "authority_created": false,
+    "authorization_token_reused": false,
+    "bounded_continuation_envelope_authorized_arbitrary_runtime_activity": false,
+    "bounded_continuation_envelope_authorized_self_continuation": false,
+    "bounded_continuation_envelope_authorized_self_recursive_growth": false,
+    "bounded_continuation_envelope_treated_as_self_continuation": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "continuation_treated_as_distributed_network_behavior": false,
+    "continuation_treated_as_participant_facing_interface": false,
+    "continuation_treated_as_public_api": false,
+    "continuation_treated_as_runtime_daemon": false,
+    "continuation_treated_as_runtime_loop": false,
+    "continuation_treated_as_self_continuation": false,
+    "continuation_treated_as_self_recursive_growth": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_used_as_self_continuation_boundary_authority": false,
+    "hidden_repo_state_used_as_self_continuation_boundary_content": false,
+    "latest_file_posture_treated_as_self_continuation_boundary_authority": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "raw_full_prior_artifact_body_returned": false,
+    "receiving_context_governance_created": false,
+    "reception_authorization_created": false,
+    "repo_local_availability_treated_as_self_continuation_boundary_authority": false,
+    "runtime_daemon_created": false,
+    "runtime_loop_created": false,
+    "self_continuation_authorized": false,
+    "self_continuation_boundary_created_before_review": false,
+    "self_continuation_boundary_treated_as_authority": false,
+    "self_continuation_boundary_treated_as_broader_reusable_permission": false,
+    "self_continuation_boundary_treated_as_currentness": false,
+    "self_continuation_boundary_treated_as_deployment": false,
+    "self_continuation_boundary_treated_as_distributed_network_behavior": false,
+    "self_continuation_boundary_treated_as_follow_on_work": false,
+    "self_continuation_boundary_treated_as_operation_permission": false,
+    "self_continuation_boundary_treated_as_participant_facing_interface": false,
+    "self_continuation_boundary_treated_as_public_api": false,
+    "self_continuation_boundary_treated_as_public_release": false,
+    "self_continuation_boundary_treated_as_reception_authorization": false,
+    "self_continuation_boundary_treated_as_runtime_daemon": false,
+    "self_continuation_boundary_treated_as_runtime_loop": false,
+    "self_continuation_boundary_treated_as_self_continuation": false,
+    "self_continuation_boundary_treated_as_self_recursive_growth": false,
+    "self_continuation_boundary_treated_as_source": false,
+    "self_continuation_boundary_treated_as_source_receipt": false,
+    "self_continuation_boundary_treated_as_source_transfer": false,
+    "self_recursive_growth_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": {
+    "basis": null,
+    "does_not_authorize_next_work": true,
+    "does_not_mutate_prior_artifacts": true,
+    "not_recorded": false
+  },
+  "official_enum_scope_strings_not_redacted_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "official_enum_scope_strings_not_redacted"
+    }
+  },
+  "one_future_self_continuation_review_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "one_future_self_continuation_review"
+    }
+  },
+  "operation_permission_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "operation_permission_not_created"
+    }
+  },
+  "outcome": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+  "participant_facing_interface_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "participant_facing_interface_not_created"
+    }
+  },
+  "post_continuation_self_continuation_boundary_metadata": {
+    "generated_at": "2026-05-14T08:34:03+00:00",
+    "post_continuation_self_continuation_boundary_id": "post_continuation_self_continuation_boundary_reference_review_001",
+    "post_continuation_self_continuation_boundary_type": "post_continuation_self_continuation_boundary",
+    "post_continuation_self_continuation_boundary_version": "0.1.0",
+    "resolver_module": "resolve_post_continuation_self_continuation_boundary"
+  },
+  "post_continuation_self_continuation_boundary_summary": {
+    "artifact_existence_not_self_continuation_boundary_authority": true,
+    "authority_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "block_code": null,
+    "block_reason": null,
+    "bounded_continuation_envelope_not_self_continuation": true,
+    "broader_reusable_permission_not_created": true,
+    "consumed_request_token_remains_closed": true,
+    "continuation_basis_preserved": true,
+    "continuation_not_self_continuation": true,
+    "currentness_not_created": true,
+    "deployment_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_self_continuation_boundary_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "intent": "RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+    "key_non_claims": {
+      "adoption_created": false,
+      "another_reception_request_authorized": false,
+      "artifact_existence_treated_as_self_continuation_boundary_authority": false,
+      "artifact_path_treated_as_currentness": false,
+      "authority_created": false,
+      "authorization_token_reused": false,
+      "bounded_continuation_envelope_authorized_arbitrary_runtime_activity": false,
+      "bounded_continuation_envelope_authorized_self_continuation": false,
+      "bounded_continuation_envelope_authorized_self_recursive_growth": false,
+      "bounded_continuation_envelope_treated_as_self_continuation": false,
+      "broader_reusable_permission_created": false,
+      "consumed_request_reopened": false,
+      "continuation_treated_as_distributed_network_behavior": false,
+      "continuation_treated_as_participant_facing_interface": false,
+      "continuation_treated_as_public_api": false,
+      "continuation_treated_as_runtime_daemon": false,
+      "continuation_treated_as_runtime_loop": false,
+      "continuation_treated_as_self_continuation": false,
+      "continuation_treated_as_self_recursive_growth": false,
+      "currentness_created": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "distributed_network_behavior_created": false,
+      "follow_on_work_authorized": false,
+      "hidden_repo_state_used_as_self_continuation_boundary_authority": false,
+      "hidden_repo_state_used_as_self_continuation_boundary_content": false,
+      "latest_file_posture_treated_as_self_continuation_boundary_authority": false,
+      "operation_permission_created": false,
+      "participant_facing_interface_created": false,
+      "predecessor_failure_claimed_passed": false,
+      "predecessor_failure_hidden": false,
+      "predecessor_failure_repaired": false,
+      "prior_artifacts_mutated": false,
+      "public_api_created": false,
+      "public_release_created": false,
+      "publication_flow_created": false,
+      "raw_full_prior_artifact_body_returned": false,
+      "receiving_context_governance_created": false,
+      "reception_authorization_created": false,
+      "repo_local_availability_treated_as_self_continuation_boundary_authority": false,
+      "runtime_daemon_created": false,
+      "runtime_loop_created": false,
+      "self_continuation_authorized": false,
+      "self_continuation_boundary_created_before_review": false,
+      "self_continuation_boundary_treated_as_authority": false,
+      "self_continuation_boundary_treated_as_broader_reusable_permission": false,
+      "self_continuation_boundary_treated_as_currentness": false,
+      "self_continuation_boundary_treated_as_deployment": false,
+      "self_continuation_boundary_treated_as_distributed_network_behavior": false,
+      "self_continuation_boundary_treated_as_follow_on_work": false,
+      "self_continuation_boundary_treated_as_operation_permission": false,
+      "self_continuation_boundary_treated_as_participant_facing_interface": false,
+      "self_continuation_boundary_treated_as_public_api": false,
+      "self_continuation_boundary_treated_as_public_release": false,
+      "self_continuation_boundary_treated_as_reception_authorization": false,
+      "self_continuation_boundary_treated_as_runtime_daemon": false,
+      "self_continuation_boundary_treated_as_runtime_loop": false,
+      "self_continuation_boundary_treated_as_self_continuation": false,
+      "self_continuation_boundary_treated_as_self_recursive_growth": false,
+      "self_continuation_boundary_treated_as_source": false,
+      "self_continuation_boundary_treated_as_source_receipt": false,
+      "self_continuation_boundary_treated_as_source_transfer": false,
+      "self_recursive_growth_created": false,
+      "source_created": false,
+      "source_receipt_occurred": false,
+      "source_transfer_occurred": false,
+      "vessel_relation_authorized": false
+    },
+    "latest_file_posture_not_self_continuation_boundary_authority": true,
+    "no_self_continuation_self_recursive_growth_daemon_loop_api_interface_distributed_network_source_authority_currentness_deployment_public_release_follow_on": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "one_future_self_continuation_review_declared": true,
+    "operation_permission_not_created": true,
+    "outcome": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "passed_check_count": 242,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "public_release_not_created": true,
+    "question": "Can the clean post-continuation basis be bounded for one future self-continuation review without authorizing self-continuation, self-recursive growth, runtime daemon, runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+    "raw_full_prior_artifact_body_not_returned": true,
+    "reception_authorization_not_created": true,
+    "repo_local_availability_not_self_continuation_boundary_authority": true,
+    "request_id": "post_continuation_self_continuation_boundary_reference_review_001",
+    "resolver_module": "resolve_post_continuation_self_continuation_boundary",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_daemon_not_created": true,
+    "runtime_loop_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "selected_continuation_boundary_failed_check_count": 0,
+    "selected_continuation_boundary_outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+    "selected_continuation_boundary_version": "0.1.0",
+    "selected_continuation_failed_check_count": 0,
+    "selected_continuation_outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+    "selected_continuation_version": "0.1.0",
+    "selected_final_completion_failed_check_count": 0,
+    "selected_final_completion_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+    "selected_final_completion_version": "0.1.0",
+    "selected_minimal_runtime_failed_check_count": 0,
+    "selected_minimal_runtime_outcome": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+    "selected_minimal_runtime_version": "0.1.0",
+    "selected_ongoing_runtime_failed_check_count": 0,
+    "selected_ongoing_runtime_outcome": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+    "selected_ongoing_runtime_version": "0.1.0",
+    "selected_post_portable_currentness_surface_path": "spec/POST_PORTABLE_VERIFICATION_CURRENTNESS_SURFACE_V0.md",
+    "selected_reusable_runtime_permission_boundary_failed_check_count": 0,
+    "selected_reusable_runtime_permission_boundary_outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+    "selected_reusable_runtime_permission_boundary_version": "0.1.0",
+    "selected_reusable_runtime_permission_failed_check_count": 0,
+    "selected_reusable_runtime_permission_outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+    "selected_reusable_runtime_permission_version": "0.1.0",
+    "selected_runtime_boundary_failed_check_count": 0,
+    "selected_runtime_boundary_outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+    "selected_runtime_boundary_version": "0.1.0",
+    "selected_runtime_hosting_boundary_v2_failed_check_count": 0,
+    "selected_runtime_hosting_boundary_v2_outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_RECORDED",
+    "selected_runtime_hosting_boundary_v2_version": "0.2.0",
+    "selected_runtime_hosting_failed_check_count": 0,
+    "selected_runtime_hosting_outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+    "selected_runtime_hosting_version": "0.1.0",
+    "selected_runtime_readiness_failed_check_count": 0,
+    "selected_runtime_readiness_outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+    "selected_runtime_readiness_version": "0.1.0",
+    "selected_successor_runtime_step_failed_check_count": 0,
+    "selected_successor_runtime_step_outcome": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+    "selected_successor_runtime_step_version": "0.1.0",
+    "self_continuation_boundary_not_self_continuation": true,
+    "self_continuation_boundary_not_self_recursive_growth": true,
+    "self_continuation_boundary_recorded": true,
+    "self_continuation_not_authorized": true,
+    "self_recursive_growth_not_created": true,
+    "source_not_created": true,
+    "source_receipt_not_created": true,
+    "source_transfer_not_created": true
+  },
+  "predecessor_failure_evidence_preserved_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "predecessor_failure_evidence_preserved"
+    }
+  },
+  "public_api_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "public_api_not_created"
+    }
+  },
+  "public_release_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "public_release_not_created"
+    }
+  },
+  "raw_full_prior_artifact_body_not_returned_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "raw_full_prior_artifact_body_not_returned"
+    }
+  },
+  "reception_authorization_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "reception_authorization_not_created"
+    }
+  },
+  "repo_local_availability_not_self_continuation_boundary_authority_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "repo_local_availability_not_self_continuation_boundary_authority"
+    }
+  },
+  "result_level_non_claims_canonical_false_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "result_level_non_claims_canonical_false"
+    }
+  },
+  "runtime_daemon_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "runtime_daemon_not_created"
+    }
+  },
+  "runtime_loop_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "runtime_loop_not_created"
+    }
+  },
+  "selected_basis_reference_shape_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "selected_basis_reference_shape"
+    }
+  },
+  "selected_continuation_basis": {
+    "basis_name": "post-reusable-runtime-permission continuation",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+    "path": "artifacts/integrity_host_v0_min_coexistence_post_reusable_runtime_permission_continuation/post_reusable_runtime_permission_continuation_reference_review_001__post_reusable_runtime_permission_continuation_result.json",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_continuation_boundary_basis": {
+    "basis_name": "post-reusable-runtime-permission continuation boundary",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+    "path": "artifacts/integrity_host_v0_min_coexistence_post_reusable_runtime_permission_continuation_boundary/post_reusable_runtime_permission_continuation_boundary_reference_review_001__post_reusable_runtime_permission_continuation_boundary_result.json",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_continuation_terminal_summary_basis": {
+    "basis_name": "post-reusable-runtime-permission continuation terminal summary",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "path": "spec/POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_TERMINAL_SUMMARY_V0.md",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_minimal_runtime_basis": {
+    "basis_name": "post-portable-verification minimal-runtime",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_ongoing_runtime_basis": {
+    "basis_name": "post-runtime-hosting ongoing-runtime",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_portable_verification_final_completion_basis": {
+    "basis_name": "portable source-body verification final completion",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_post_portable_verification_currentness_basis": {
+    "basis_name": "post-portable-verification currentness surface",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "path": "spec/POST_PORTABLE_VERIFICATION_CURRENTNESS_SURFACE_V0.md",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_returned_second_carrier_capture_lineage_basis": {
+    "basis_name": "returned second-carrier capture intake lineage",
+    "basis_only": true,
+    "lineage_only": true,
+    "selected_basis_reference_shape": true
+  },
+  "selected_reusable_runtime_permission_basis": {
+    "basis_name": "post-ongoing-runtime reusable-runtime-permission",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_reusable_runtime_permission_boundary_basis": {
+    "basis_name": "post-ongoing-runtime reusable-runtime-permission boundary",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_runtime_boundary_basis": {
+    "basis_name": "post-portable-verification runtime-boundary",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_runtime_hosting_basis": {
+    "basis_name": "post-successor-runtime-step runtime-hosting",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_runtime_hosting_boundary_v1_failure_lineage_basis": {
+    "basis_name": "post-successor-runtime-step runtime-hosting-boundary v1 failure",
+    "basis_only": true,
+    "claimed_passed": false,
+    "hidden": false,
+    "preserved_failed_lineage": true,
+    "repaired": false,
+    "selected_basis_reference_shape": true
+  },
+  "selected_runtime_hosting_boundary_v2_basis": {
+    "basis_name": "post-successor-runtime-step runtime-hosting-boundary v2",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_RECORDED",
+    "result_version": "0.2.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_runtime_readiness_basis": {
+    "basis_name": "post-portable-verification runtime-readiness",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "selected_successor_runtime_step_basis": {
+    "basis_name": "post-minimal-runtime successor-runtime-step",
+    "basis_only": true,
+    "failed_check_count": 0,
+    "outcome": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+    "result_version": "0.1.0",
+    "selected_basis_reference_shape": true
+  },
+  "self_continuation_boundary_checks": [
+    {
+      "actual_posture": "Can the clean post-continuation basis be bounded for one future self-continuation review without authorizing self-continuation, self-recursive growth, runtime daemon, runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+      "block_code": null,
+      "check_name": "self-continuation-boundary question declared",
+      "expected_posture": "Can the clean post-continuation basis be bounded for one future self-continuation review without authorizing self-continuation, self-recursive growth, runtime daemon, runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "self-continuation-boundary intent supported",
+      "expected_posture": [
+        "RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+        "DO_NOT_RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+        "BLOCK_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "explicit block intent absent",
+      "expected_posture": "not BLOCK_POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "SELF_CONTINUATION_BOUNDARY_SPEC_ONLY",
+        "ONE_FUTURE_SELF_CONTINUATION_REVIEW_DECLARED",
+        "CONTINUATION_BASIS_PRESERVED",
+        "CONTINUATION_NOT_SELF_CONTINUATION",
+        "BOUNDED_CONTINUATION_ENVELOPE_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_RECURSIVE_GROWTH",
+        "SELF_CONTINUATION_NOT_AUTHORIZED",
+        "SELF_RECURSIVE_GROWTH_NOT_CREATED",
+        "RUNTIME_DAEMON_NOT_CREATED",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_SELF_CONTINUATION_INFERENCE",
+        "NO_SELF_RECURSIVE_GROWTH_INFERENCE",
+        "NO_DAEMON_INFERENCE",
+        "NO_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "block_code": null,
+      "check_name": "self-continuation-boundary scope supported",
+      "expected_posture": [
+        "SELF_CONTINUATION_BOUNDARY_SPEC_ONLY",
+        "ONE_FUTURE_SELF_CONTINUATION_REVIEW_DECLARED",
+        "CONTINUATION_BASIS_PRESERVED",
+        "CONTINUATION_NOT_SELF_CONTINUATION",
+        "BOUNDED_CONTINUATION_ENVELOPE_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_RECURSIVE_GROWTH",
+        "SELF_CONTINUATION_NOT_AUTHORIZED",
+        "SELF_RECURSIVE_GROWTH_NOT_CREATED",
+        "RUNTIME_DAEMON_NOT_CREATED",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_SELF_CONTINUATION_INFERENCE",
+        "NO_SELF_RECURSIVE_GROWTH_INFERENCE",
+        "NO_DAEMON_INFERENCE",
+        "NO_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-reusable-runtime-permission continuation",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+        "path": "artifacts/integrity_host_v0_min_coexistence_post_reusable_runtime_permission_continuation/post_reusable_runtime_permission_continuation_reference_review_001__post_reusable_runtime_permission_continuation_result.json",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "continuation basis declared",
+      "expected_posture": "selected continuation basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-reusable-runtime-permission continuation terminal summary",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "path": "spec/POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_TERMINAL_SUMMARY_V0.md",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "continuation terminal summary basis declared",
+      "expected_posture": "selected continuation terminal summary basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+      "block_code": null,
+      "check_name": "continuation outcome recorded",
+      "expected_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "continuation version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "continuation failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation recorded bounded continuation posture",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation recorded bounded continuation envelope",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already authorized self continuation",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created self recursive growth",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created runtime daemon",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created runtime loop",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created public api",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created participant facing interface",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation already created distributed network behavior",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as self continuation",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as self recursive growth",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as runtime daemon",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as runtime loop",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as public api",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as participant facing interface",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation treated as distributed network behavior",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected continuation authorized future work",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected bounded continuation envelope treated as self continuation",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected bounded continuation envelope authorized self continuation",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected bounded continuation envelope authorized self recursive growth",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "selected bounded continuation envelope authorized arbitrary runtime activity",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation canonicalized result-level non-claims",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "no_self_continuation_selected": true,
+        "self_continuation_not_authorized": true
+      },
+      "block_code": null,
+      "check_name": "continuation terminal summary preserves no self-continuation",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation terminal summary requires fresh admission outside envelope",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation terminal summary requires separate future review",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-reusable-runtime-permission continuation boundary",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+        "path": "artifacts/integrity_host_v0_min_coexistence_post_reusable_runtime_permission_continuation_boundary/post_reusable_runtime_permission_continuation_boundary_reference_review_001__post_reusable_runtime_permission_continuation_boundary_result.json",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "continuation-boundary basis declared",
+      "expected_posture": "selected continuation-boundary basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "continuation-boundary outcome recorded",
+      "expected_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "continuation-boundary version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "continuation-boundary failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-ongoing-runtime reusable-runtime-permission",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "reusable-runtime-permission basis declared",
+      "expected_posture": "selected reusable-runtime-permission basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+      "block_code": null,
+      "check_name": "reusable-runtime-permission outcome recorded",
+      "expected_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "reusable-runtime-permission version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "reusable-runtime-permission failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-ongoing-runtime reusable-runtime-permission boundary",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "reusable-runtime-permission-boundary basis declared",
+      "expected_posture": "selected reusable-runtime-permission-boundary basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "reusable-runtime-permission-boundary outcome recorded",
+      "expected_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "reusable-runtime-permission-boundary version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "reusable-runtime-permission-boundary failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-runtime-hosting ongoing-runtime",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "ongoing-runtime basis declared",
+      "expected_posture": "selected ongoing-runtime basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+      "block_code": null,
+      "check_name": "ongoing-runtime outcome recorded",
+      "expected_posture": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "ongoing-runtime version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "ongoing-runtime failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-successor-runtime-step runtime-hosting",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "runtime-hosting basis declared",
+      "expected_posture": "selected runtime-hosting basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+      "block_code": null,
+      "check_name": "runtime-hosting outcome recorded",
+      "expected_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "runtime-hosting version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "runtime-hosting failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-successor-runtime-step runtime-hosting-boundary v2",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_RECORDED",
+        "result_version": "0.2.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v2 basis declared",
+      "expected_posture": "selected runtime-hosting-boundary v2 basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v2 outcome recorded",
+      "expected_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.2.0",
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v2 version 0.2.0",
+      "expected_posture": "0.2.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v2 failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-minimal-runtime successor-runtime-step",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "successor-runtime-step basis declared",
+      "expected_posture": "selected successor-runtime-step basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+      "block_code": null,
+      "check_name": "successor-runtime-step outcome recorded",
+      "expected_posture": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "successor-runtime-step version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "successor-runtime-step failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-portable-verification minimal-runtime",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "minimal-runtime basis declared",
+      "expected_posture": "selected minimal-runtime basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+      "block_code": null,
+      "check_name": "minimal-runtime outcome recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "minimal-runtime version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "minimal-runtime failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-portable-verification runtime-boundary",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "runtime-boundary basis declared",
+      "expected_posture": "selected runtime-boundary basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "runtime-boundary outcome recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "runtime-boundary version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "runtime-boundary failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-portable-verification runtime-readiness",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "runtime-readiness basis declared",
+      "expected_posture": "selected runtime-readiness basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+      "block_code": null,
+      "check_name": "runtime-readiness outcome recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "runtime-readiness version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "runtime-readiness failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "portable source-body verification final completion",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "portable verification final-completion basis declared",
+      "expected_posture": "selected portable verification final-completion basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+      "block_code": null,
+      "check_name": "portable verification final-completion outcome recorded",
+      "expected_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "portable verification final-completion version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "portable verification final-completion failed checks zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-successor-runtime-step runtime-hosting-boundary v1 failure",
+        "basis_only": true,
+        "claimed_passed": false,
+        "hidden": false,
+        "preserved_failed_lineage": true,
+        "repaired": false
+      },
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v1 failure lineage declared",
+      "expected_posture": "selected runtime-hosting-boundary v1 failure lineage",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "claimed_passed": false,
+        "hidden": false,
+        "repaired": false
+      },
+      "block_code": null,
+      "check_name": "runtime-hosting-boundary v1 failure lineage preserved and not repaired hidden claimed passed",
+      "expected_posture": "failure visible and unrepaired",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "post-portable-verification currentness surface",
+        "basis_only": true,
+        "failed_check_count": 0,
+        "path": "spec/POST_PORTABLE_VERIFICATION_CURRENTNESS_SURFACE_V0.md",
+        "result_version": "0.1.0",
+        "selected_basis_reference_shape": true
+      },
+      "block_code": null,
+      "check_name": "post-portable currentness surface basis declared",
+      "expected_posture": "selected post-portable currentness surface basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "post-portable currentness surface states checkability not continuation",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "post-portable currentness surface does not authorize next work",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_name": "returned second-carrier capture intake lineage",
+        "basis_only": true,
+        "lineage_only": true
+      },
+      "block_code": null,
+      "check_name": "returned second-carrier capture lineage basis declared",
+      "expected_posture": "selected returned second-carrier capture lineage basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "self_continuation_boundary_spec_only"
+      },
+      "block_code": null,
+      "check_name": "self_continuation_boundary_spec_only_posture declared",
+      "expected_posture": "declared self_continuation_boundary_spec_only_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "one_future_self_continuation_review"
+      },
+      "block_code": null,
+      "check_name": "one_future_self_continuation_review_posture declared",
+      "expected_posture": "declared one_future_self_continuation_review_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "continuation_basis_preserved"
+      },
+      "block_code": null,
+      "check_name": "continuation_basis_preserved_posture declared",
+      "expected_posture": "declared continuation_basis_preserved_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "continuation_not_self_continuation"
+      },
+      "block_code": null,
+      "check_name": "continuation_not_self_continuation_posture declared",
+      "expected_posture": "declared continuation_not_self_continuation_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "bounded_continuation_envelope_not_self_continuation"
+      },
+      "block_code": null,
+      "check_name": "bounded_continuation_envelope_not_self_continuation_posture declared",
+      "expected_posture": "declared bounded_continuation_envelope_not_self_continuation_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "self_continuation_boundary_not_self_continuation"
+      },
+      "block_code": null,
+      "check_name": "self_continuation_boundary_not_self_continuation_posture declared",
+      "expected_posture": "declared self_continuation_boundary_not_self_continuation_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "self_continuation_boundary_not_self_recursive_growth"
+      },
+      "block_code": null,
+      "check_name": "self_continuation_boundary_not_self_recursive_growth_posture declared",
+      "expected_posture": "declared self_continuation_boundary_not_self_recursive_growth_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "self_continuation_not_authorized"
+      },
+      "block_code": null,
+      "check_name": "self_continuation_not_authorized_posture declared",
+      "expected_posture": "declared self_continuation_not_authorized_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "self_recursive_growth_not_created"
+      },
+      "block_code": null,
+      "check_name": "self_recursive_growth_not_created_posture declared",
+      "expected_posture": "declared self_recursive_growth_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "runtime_daemon_not_created"
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_not_created_posture declared",
+      "expected_posture": "declared runtime_daemon_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "runtime_loop_not_created"
+      },
+      "block_code": null,
+      "check_name": "runtime_loop_not_created_posture declared",
+      "expected_posture": "declared runtime_loop_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "public_api_not_created"
+      },
+      "block_code": null,
+      "check_name": "public_api_not_created_posture declared",
+      "expected_posture": "declared public_api_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "participant_facing_interface_not_created"
+      },
+      "block_code": null,
+      "check_name": "participant_facing_interface_not_created_posture declared",
+      "expected_posture": "declared participant_facing_interface_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "distributed_network_behavior_not_created"
+      },
+      "block_code": null,
+      "check_name": "distributed_network_behavior_not_created_posture declared",
+      "expected_posture": "declared distributed_network_behavior_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "source_transfer_not_created"
+      },
+      "block_code": null,
+      "check_name": "source_transfer_not_created_posture declared",
+      "expected_posture": "declared source_transfer_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "source_receipt_not_created"
+      },
+      "block_code": null,
+      "check_name": "source_receipt_not_created_posture declared",
+      "expected_posture": "declared source_receipt_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "reception_authorization_not_created"
+      },
+      "block_code": null,
+      "check_name": "reception_authorization_not_created_posture declared",
+      "expected_posture": "declared reception_authorization_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "source_not_created"
+      },
+      "block_code": null,
+      "check_name": "source_not_created_posture declared",
+      "expected_posture": "declared source_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "authority_not_created"
+      },
+      "block_code": null,
+      "check_name": "authority_not_created_posture declared",
+      "expected_posture": "declared authority_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "currentness_not_created"
+      },
+      "block_code": null,
+      "check_name": "currentness_not_created_posture declared",
+      "expected_posture": "declared currentness_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "deployment_not_created"
+      },
+      "block_code": null,
+      "check_name": "deployment_not_created_posture declared",
+      "expected_posture": "declared deployment_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "public_release_not_created"
+      },
+      "block_code": null,
+      "check_name": "public_release_not_created_posture declared",
+      "expected_posture": "declared public_release_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "operation_permission_not_created"
+      },
+      "block_code": null,
+      "check_name": "operation_permission_not_created_posture declared",
+      "expected_posture": "declared operation_permission_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "broader_reusable_permission_not_created"
+      },
+      "block_code": null,
+      "check_name": "broader_reusable_permission_not_created_posture declared",
+      "expected_posture": "declared broader_reusable_permission_not_created_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "follow_on_work_not_authorized"
+      },
+      "block_code": null,
+      "check_name": "follow_on_work_not_authorized_posture declared",
+      "expected_posture": "declared follow_on_work_not_authorized_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "hidden_repo_state_excluded"
+      },
+      "block_code": null,
+      "check_name": "hidden_repo_state_excluded_posture declared",
+      "expected_posture": "declared hidden_repo_state_excluded_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "repo_local_availability_not_self_continuation_boundary_authority"
+      },
+      "block_code": null,
+      "check_name": "repo_local_availability_not_self_continuation_boundary_authority_posture declared",
+      "expected_posture": "declared repo_local_availability_not_self_continuation_boundary_authority_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "artifact_existence_not_self_continuation_boundary_authority"
+      },
+      "block_code": null,
+      "check_name": "artifact_existence_not_self_continuation_boundary_authority_posture declared",
+      "expected_posture": "declared artifact_existence_not_self_continuation_boundary_authority_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "latest_file_posture_not_self_continuation_boundary_authority"
+      },
+      "block_code": null,
+      "check_name": "latest_file_posture_not_self_continuation_boundary_authority_posture declared",
+      "expected_posture": "declared latest_file_posture_not_self_continuation_boundary_authority_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "selected_basis_reference_shape"
+      },
+      "block_code": null,
+      "check_name": "selected_basis_reference_shape_posture declared",
+      "expected_posture": "declared selected_basis_reference_shape_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "raw_full_prior_artifact_body_not_returned"
+      },
+      "block_code": null,
+      "check_name": "raw_full_prior_artifact_body_not_returned_posture declared",
+      "expected_posture": "declared raw_full_prior_artifact_body_not_returned_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "official_enum_scope_strings_not_redacted"
+      },
+      "block_code": null,
+      "check_name": "official_enum_scope_strings_not_redacted_posture declared",
+      "expected_posture": "declared official_enum_scope_strings_not_redacted_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "hostile_raw_body_content_contained"
+      },
+      "block_code": null,
+      "check_name": "hostile_raw_body_content_contained_posture declared",
+      "expected_posture": "declared hostile_raw_body_content_contained_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "predecessor_failure_evidence_preserved"
+      },
+      "block_code": null,
+      "check_name": "predecessor_failure_evidence_preserved_posture declared",
+      "expected_posture": "declared predecessor_failure_evidence_preserved_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_only": true,
+        "declared": true,
+        "posture": "result_level_non_claims_canonical_false"
+      },
+      "block_code": null,
+      "check_name": "result_level_non_claims_canonical_false_posture declared",
+      "expected_posture": "declared result_level_non_claims_canonical_false_posture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary created before review",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self recursive growth created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime daemon created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime loop created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public api created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "participant facing interface created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distributed network behavior created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as self continuation",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as self recursive growth",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as runtime daemon",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as runtime loop",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as public api",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as participant facing interface",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as distributed network behavior",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as source transfer",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as source receipt",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as reception authorization",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as source",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as currentness",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as deployment",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as public release",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as operation permission",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as broader reusable permission",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "self continuation boundary treated as follow on work",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source transfer occurred",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source receipt occurred",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "reception authorization created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authority created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "currentness created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "deployment created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public release created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "operation permission created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "broader reusable permission created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "derivative reception authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "vessel relation authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "another reception request authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "adoption created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receiving context governance created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "publication flow created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow on work authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact existence treated as self continuation boundary authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact path treated as currentness",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "latest file posture treated as self continuation boundary authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repo local availability treated as self continuation boundary authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden repo state used as self continuation boundary content",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden repo state used as self continuation boundary authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "raw full prior artifact body returned",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "consumed request reopened",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authorization token reused",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected basis reference-shaped",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "claimed_passed": false,
+        "hidden": false,
+        "repaired": false
+      },
+      "block_code": null,
+      "check_name": "predecessor failure evidence visible and unrepaired",
+      "expected_posture": "not repaired hidden or claimed passed",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "SELF_CONTINUATION_BOUNDARY_SPEC_ONLY",
+        "ONE_FUTURE_SELF_CONTINUATION_REVIEW_DECLARED",
+        "CONTINUATION_BASIS_PRESERVED",
+        "CONTINUATION_NOT_SELF_CONTINUATION",
+        "BOUNDED_CONTINUATION_ENVELOPE_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_CONTINUATION",
+        "SELF_CONTINUATION_BOUNDARY_NOT_SELF_RECURSIVE_GROWTH",
+        "SELF_CONTINUATION_NOT_AUTHORIZED",
+        "SELF_RECURSIVE_GROWTH_NOT_CREATED",
+        "RUNTIME_DAEMON_NOT_CREATED",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_SELF_CONTINUATION_INFERENCE",
+        "NO_SELF_RECURSIVE_GROWTH_INFERENCE",
+        "NO_DAEMON_INFERENCE",
+        "NO_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "block_code": null,
+      "check_name": "official enum scope strings not redacted",
+      "expected_posture": "official scope strings preserved",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "hostile raw body content contained",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_recursive_growth_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim runtime_daemon_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim runtime_loop_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim public_api_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim participant_facing_interface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim distributed_network_behavior_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim source_transfer_occurred false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim source_receipt_occurred false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim reception_authorization_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_created_before_review false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_self_continuation false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_self_recursive_growth false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_runtime_daemon false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_runtime_loop false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_public_api false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_participant_facing_interface false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_distributed_network_behavior false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_source_transfer false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_source_receipt false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_reception_authorization false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_source false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_currentness false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_deployment false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_public_release false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_operation_permission false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_broader_reusable_permission false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim self_continuation_boundary_treated_as_follow_on_work false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_self_continuation false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_self_recursive_growth false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_runtime_daemon false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_runtime_loop false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_public_api false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_participant_facing_interface false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim continuation_treated_as_distributed_network_behavior false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim bounded_continuation_envelope_treated_as_self_continuation false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim bounded_continuation_envelope_authorized_self_continuation false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim bounded_continuation_envelope_authorized_self_recursive_growth false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim bounded_continuation_envelope_authorized_arbitrary_runtime_activity false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim artifact_existence_treated_as_self_continuation_boundary_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim artifact_path_treated_as_currentness false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim latest_file_posture_treated_as_self_continuation_boundary_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim repo_local_availability_treated_as_self_continuation_boundary_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim hidden_repo_state_used_as_self_continuation_boundary_content false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim hidden_repo_state_used_as_self_continuation_boundary_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim source_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim authority_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim currentness_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim deployment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim public_release_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim operation_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim broader_reusable_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim derivative_reception_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim vessel_relation_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim another_reception_request_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim adoption_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim receiving_context_governance_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim publication_flow_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim follow_on_work_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim raw_full_prior_artifact_body_returned false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim prior_artifacts_mutated false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim consumed_request_reopened false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim authorization_token_reused false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim predecessor_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim predecessor_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "required non-claim predecessor_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "self_continuation_boundary_non_meaning": {
+    "authorizes_another_reception_request": false,
+    "authorizes_derivative_reception": false,
+    "authorizes_follow_on_work": false,
+    "authorizes_line_to_continue_itself": false,
+    "authorizes_self_continuation": false,
+    "authorizes_vessel_relation": false,
+    "creates_adoption": false,
+    "creates_authority": false,
+    "creates_broader_reusable_permission": false,
+    "creates_currentness": false,
+    "creates_deployment": false,
+    "creates_distributed_network_behavior": false,
+    "creates_operation_permission": false,
+    "creates_participant_facing_interface": false,
+    "creates_public_api": false,
+    "creates_public_release": false,
+    "creates_publication_flow": false,
+    "creates_receiving_context_governance": false,
+    "creates_reception_authorization": false,
+    "creates_runtime_daemon": false,
+    "creates_runtime_loop": false,
+    "creates_self_recursive_growth": false,
+    "creates_source": false,
+    "performs_source_receipt": false,
+    "performs_source_transfer": false,
+    "treats_artifact_existence_as_authority": false,
+    "treats_latest_file_posture_as_authority": false,
+    "treats_repo_local_availability_as_authority": false
+  },
+  "self_continuation_boundary_not_self_continuation_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "self_continuation_boundary_not_self_continuation"
+    }
+  },
+  "self_continuation_boundary_not_self_recursive_growth_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "self_continuation_boundary_not_self_recursive_growth"
+    }
+  },
+  "self_continuation_boundary_scope": [
+    "SELF_CONTINUATION_BOUNDARY_SPEC_ONLY",
+    "ONE_FUTURE_SELF_CONTINUATION_REVIEW_DECLARED",
+    "CONTINUATION_BASIS_PRESERVED",
+    "CONTINUATION_NOT_SELF_CONTINUATION",
+    "BOUNDED_CONTINUATION_ENVELOPE_NOT_SELF_CONTINUATION",
+    "SELF_CONTINUATION_BOUNDARY_NOT_SELF_CONTINUATION",
+    "SELF_CONTINUATION_BOUNDARY_NOT_SELF_RECURSIVE_GROWTH",
+    "SELF_CONTINUATION_NOT_AUTHORIZED",
+    "SELF_RECURSIVE_GROWTH_NOT_CREATED",
+    "RUNTIME_DAEMON_NOT_CREATED",
+    "RUNTIME_LOOP_NOT_CREATED",
+    "PUBLIC_API_NOT_CREATED",
+    "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+    "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+    "NO_SOURCE_TRANSFER",
+    "NO_SOURCE_RECEIPT",
+    "NO_RECEPTION_AUTHORIZATION",
+    "NO_SOURCE_CREATED",
+    "NO_AUTHORITY_CREATED",
+    "NO_CURRENTNESS_CREATED",
+    "NO_DEPLOYMENT_CREATED",
+    "NO_PUBLIC_RELEASE_CREATED",
+    "NO_OPERATION_PERMISSION_CREATED",
+    "NO_BROADER_REUSABLE_PERMISSION",
+    "NO_DERIVATIVE_RECEPTION",
+    "NO_VESSEL_RELATION",
+    "NO_ANOTHER_RECEPTION_REQUEST",
+    "NO_ADOPTION",
+    "NO_RECEIVING_CONTEXT_GOVERNANCE",
+    "NO_PUBLICATION_FLOW",
+    "NO_FOLLOW_ON_WORK_AUTHORIZED",
+    "NO_SELF_CONTINUATION_INFERENCE",
+    "NO_SELF_RECURSIVE_GROWTH_INFERENCE",
+    "NO_DAEMON_INFERENCE",
+    "NO_LOOP_INFERENCE",
+    "NO_PUBLIC_API_INFERENCE",
+    "NO_PARTICIPANT_INTERFACE_INFERENCE",
+    "NO_DISTRIBUTED_NETWORK_INFERENCE",
+    "NO_SOURCE_INFERENCE",
+    "NO_AUTHORITY_INFERENCE",
+    "NO_CURRENTNESS_INFERENCE",
+    "NO_DEPLOYMENT_INFERENCE",
+    "NO_PUBLIC_RELEASE_INFERENCE",
+    "NO_OPERATION_PERMISSION_INFERENCE",
+    "NO_FOLLOW_ON_WORK_INFERENCE",
+    "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+    "HIDDEN_REPO_STATE_EXCLUDED",
+    "HIDDEN_REPO_STATE_NOT_USED_AS_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+    "REPO_LOCAL_AVAILABILITY_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+    "ARTIFACT_EXISTENCE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+    "LATEST_FILE_POSTURE_NOT_SELF_CONTINUATION_BOUNDARY_AUTHORITY",
+    "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+    "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+    "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+    "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+    "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+    "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+    "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+    "CONSUMED_REQUEST_NOT_REOPENED",
+    "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+  ],
+  "self_continuation_boundary_spec_only_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "self_continuation_boundary_spec_only"
+    }
+  },
+  "self_continuation_boundary_statement": {
+    "artifact_existence_not_self_continuation_boundary_authority": true,
+    "authority_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "bounded_continuation_envelope_not_self_continuation": true,
+    "broader_reusable_permission_not_created": true,
+    "consumed_request_token_remains_closed": true,
+    "continuation_basis_preserved": true,
+    "continuation_not_self_continuation": true,
+    "currentness_not_created": true,
+    "deployment_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_self_continuation_boundary_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "latest_file_posture_not_self_continuation_boundary_authority": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "one_future_self_continuation_review_declared": true,
+    "operation_permission_not_created": true,
+    "participant_facing_interface_not_created": true,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "public_release_not_created": true,
+    "raw_full_prior_artifact_body_not_returned": true,
+    "reception_authorization_not_created": true,
+    "repo_local_availability_not_self_continuation_boundary_authority": true,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_daemon_not_created": true,
+    "runtime_loop_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "self_continuation_boundary_not_self_continuation": true,
+    "self_continuation_boundary_not_self_recursive_growth": true,
+    "self_continuation_boundary_recorded": true,
+    "self_continuation_not_authorized": true,
+    "self_recursive_growth_not_created": true,
+    "source_not_created": true,
+    "source_receipt_not_created": true,
+    "source_transfer_not_created": true
+  },
+  "self_continuation_not_authorized_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "self_continuation_not_authorized"
+    }
+  },
+  "self_recursive_growth_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "self_recursive_growth_not_created"
+    }
+  },
+  "source_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "source_not_created"
+    }
+  },
+  "source_receipt_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "source_receipt_not_created"
+    }
+  },
+  "source_transfer_not_created_posture": {
+    "basis_only": true,
+    "declared": true,
+    "posture": {
+      "basis_only": true,
+      "declared": true,
+      "posture": "source_transfer_not_created"
+    }
+  },
+  "what_remains_open": [
+    "self-continuation-boundary resolver tests",
+    "self-continuation-boundary live artifact",
+    "self-continuation-boundary terminal summary, if separately selected",
+    "self-continuation specification",
+    "self-continuation resolver/test/live artifact",
+    "self-recursive growth",
+    "runtime daemon",
+    "runtime loop",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "source transfer",
+    "source receipt",
+    "reception authorization",
+    "derivative reception",
+    "vessel relation",
+    "adoption",
+    "authority creation",
+    "currentness creation",
+    "operation permission",
+    "receiving-context governance",
+    "deployment",
+    "public release",
+    "publication flow",
+    "broader reusable permission",
+    "successor reception request",
+    "follow-on work"
+  ]
+}

@@ -1,0 +1,2575 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "direct relation boundary to relation operation completion",
+    "direct first crossing to relation without relation boundary and operation",
+    "direct crossing authorization to relation",
+    "direct crossing performance to relation",
+    "direct relation boundary to relation authorization",
+    "direct relation boundary to relation creation",
+    "direct relation boundary to FIELD machinery",
+    "direct relation boundary to runtime",
+    "direct relation boundary to authority/currentness",
+    "direct relation boundary to coupling assignment",
+    "direct relation boundary to coupling creation",
+    "direct relation boundary to third-candidate route",
+    "direct relation boundary to third-model route",
+    "direct relation boundary to presence",
+    "direct relation boundary to identity",
+    "direct relation boundary to standing descendant",
+    "direct relation boundary to descendant standing",
+    "direct relation boundary to output/action",
+    "direct relation boundary to follow-on work",
+    "repository scan route",
+    "file discovery route",
+    "affected-file repair route",
+    "prior unsupported-claim validation route"
+  ],
+  "boundary_result_detail": {
+    "missing_or_insufficient_first_crossing": [],
+    "relation_boundary_result": "RELATION_OPERATION_CONSIDERATION_ALLOWED"
+  },
+  "declared_relation_boundary_basis": {
+    "admissible_future_route": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+    "boundary_id": "relation_boundary_001",
+    "boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "boundary_type": "RELATION_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_creation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CREATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_boundary_terminal_summary_reference": "spec/FIRST_CROSSING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_operation_v2_terminal_summary_reference": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "intent": "RECORD_RELATION_BOUNDARY",
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": true,
+    "prior_crossing_performed_required": true,
+    "prior_descendant_standing_check_performed_required": false,
+    "prior_first_crossing_a_recorded_required": true,
+    "prior_first_crossing_authorized_required": true,
+    "prior_first_crossing_b_recorded_required": true,
+    "prior_first_crossing_operation_outcome_required": "FIRST_CROSSING_OPERATION_RECORDED",
+    "prior_first_crossing_operation_type": "FIRST_CROSSING_OPERATION",
+    "prior_first_crossing_performed_required": true,
+    "prior_first_crossing_result_required": "FIRST_CROSSING_SUPPORTED",
+    "prior_first_crossing_supported_required": true,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "relation_boundary_id": "relation_boundary_001",
+    "relation_boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "relation_boundary_spec_reference": "spec/RELATION_BOUNDARY_V0_MIN_SPEC.md",
+    "relation_boundary_type": "RELATION_BOUNDARY",
+    "relation_boundary_version": "0.1.0"
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_standing_check_performed": false,
+    "direct_crossing_authorization_to_relation": false,
+    "direct_crossing_performance_to_relation": false,
+    "direct_first_crossing_to_relation_without_relation_boundary_and_operation": false,
+    "direct_relation_boundary_to_authority_currentness": false,
+    "direct_relation_boundary_to_coupling_assignment": false,
+    "direct_relation_boundary_to_coupling_creation": false,
+    "direct_relation_boundary_to_descendant_standing": false,
+    "direct_relation_boundary_to_field_machinery": false,
+    "direct_relation_boundary_to_follow_on_work": false,
+    "direct_relation_boundary_to_identity": false,
+    "direct_relation_boundary_to_output_action": false,
+    "direct_relation_boundary_to_presence": false,
+    "direct_relation_boundary_to_relation_authorization": false,
+    "direct_relation_boundary_to_relation_creation": false,
+    "direct_relation_boundary_to_relation_operation_completion": false,
+    "direct_relation_boundary_to_runtime": false,
+    "direct_relation_boundary_to_standing_descendant": false,
+    "direct_relation_boundary_to_third_candidate_route": false,
+    "direct_relation_boundary_to_third_model_route": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_a_referenced": false,
+    "first_crossing_b_referenced": false,
+    "first_crossing_operation_referenced": false,
+    "first_crossing_operation_v1_converted_to_standing": false,
+    "first_crossing_operation_v1_overwritten": false,
+    "first_crossing_operation_v1_repaired": false,
+    "first_crossing_operation_v2_bypassed": false,
+    "first_crossing_operation_v2_overridden": false,
+    "first_crossing_pair_referenced": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_authorized": false,
+    "relation_boundary_recorded": false,
+    "relation_boundary_result_recorded": false,
+    "relation_created": false,
+    "relation_operation_consideration_allowed": false,
+    "relation_operation_performed": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "outcome": "RELATION_BOUNDARY_ALLOWED",
+  "permitted_future_route": {
+    "admissible_future_route": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+    "relation_operation_requires_separate_bounded_step": true
+  },
+  "relation_boundary": {
+    "action_authorized": false,
+    "admissible_future_route": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "boundary_id": "relation_boundary_001",
+    "boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "boundary_type": "RELATION_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "completed_descendant_body_creation_operation_terminal_summary_markers_present": true,
+    "completed_first_crossing_boundary_terminal_summary_markers_present": true,
+    "completed_first_crossing_operation_v2_terminal_summary_markers_present": true,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_crossing_authorization_to_relation": false,
+    "direct_crossing_performance_to_relation": false,
+    "direct_first_crossing_to_relation_without_relation_boundary_and_operation": false,
+    "direct_relation_boundary_to_authority_currentness": false,
+    "direct_relation_boundary_to_coupling_assignment": false,
+    "direct_relation_boundary_to_coupling_creation": false,
+    "direct_relation_boundary_to_descendant_standing": false,
+    "direct_relation_boundary_to_field_machinery": false,
+    "direct_relation_boundary_to_follow_on_work": false,
+    "direct_relation_boundary_to_identity": false,
+    "direct_relation_boundary_to_output_action": false,
+    "direct_relation_boundary_to_presence": false,
+    "direct_relation_boundary_to_relation_authorization": false,
+    "direct_relation_boundary_to_relation_creation": false,
+    "direct_relation_boundary_to_relation_operation_completion": false,
+    "direct_relation_boundary_to_runtime": false,
+    "direct_relation_boundary_to_standing_descendant": false,
+    "direct_relation_boundary_to_third_candidate_route": false,
+    "direct_relation_boundary_to_third_model_route": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_a_referenced": true,
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_b_referenced": true,
+    "first_crossing_operation_referenced": true,
+    "first_crossing_operation_v1_converted_to_standing": false,
+    "first_crossing_operation_v1_overwritten": false,
+    "first_crossing_operation_v1_repaired": false,
+    "first_crossing_operation_v2_bypassed": false,
+    "first_crossing_operation_v2_overridden": false,
+    "first_crossing_pair_referenced": true,
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": true,
+    "prior_crossing_performed_required": true,
+    "prior_descendant_standing_check_performed_required": false,
+    "prior_first_crossing_a_recorded_required": true,
+    "prior_first_crossing_authorized_required": true,
+    "prior_first_crossing_b_recorded_required": true,
+    "prior_first_crossing_operation_outcome_required": "FIRST_CROSSING_OPERATION_RECORDED",
+    "prior_first_crossing_operation_type": "FIRST_CROSSING_OPERATION",
+    "prior_first_crossing_performed_required": true,
+    "prior_first_crossing_result_required": "FIRST_CROSSING_SUPPORTED",
+    "prior_first_crossing_supported_required": true,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation-boundary_specification_blocked_routes_markers_present": true,
+    "relation-boundary_specification_boundary_identity_markers_present": true,
+    "relation-boundary_specification_boundary_non-conversion_markers_present": true,
+    "relation-boundary_specification_boundary_permitted_result_markers_present": true,
+    "relation-boundary_specification_closing_lock_markers_present": true,
+    "relation-boundary_specification_contaminated_lineage_preservation_markers_present": true,
+    "relation-boundary_specification_first-crossing_non-conversion_markers_present": true,
+    "relation-boundary_specification_first-crossing_operation_basis_markers_present": true,
+    "relation-boundary_specification_permitted_route_markers_present": true,
+    "relation-boundary_specification_sibling_non-hierarchy_markers_present": true,
+    "relation_authorized": false,
+    "relation_boundary_id": "relation_boundary_001",
+    "relation_boundary_recorded": true,
+    "relation_boundary_result": "RELATION_OPERATION_CONSIDERATION_ALLOWED",
+    "relation_boundary_result_recorded": true,
+    "relation_boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "relation_boundary_type": "RELATION_BOUNDARY",
+    "relation_boundary_version": "0.1.0",
+    "relation_created": false,
+    "relation_operation_consideration_allowed": true,
+    "relation_operation_performed": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "relation_boundary_checks": [
+    {
+      "actual_posture": "RECORD_RELATION_BOUNDARY",
+      "block_code": "UNSUPPORTED_INTENT",
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_RELATION_BOUNDARY",
+        "DO_NOT_RECORD_RELATION_BOUNDARY",
+        "BLOCK_RELATION_BOUNDARY"
+      ],
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "relation_boundary_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared boundary_id",
+      "expected_posture": "relation_boundary_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RELATION_BOUNDARY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared boundary_type",
+      "expected_posture": "RELATION_BOUNDARY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared boundary_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared boundary_scope",
+      "expected_posture": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "relation_boundary_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_boundary_id",
+      "expected_posture": "relation_boundary_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RELATION_BOUNDARY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_boundary_type",
+      "expected_posture": "RELATION_BOUNDARY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_boundary_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_boundary_scope",
+      "expected_posture": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "FIRST_CROSSING_OPERATION",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_operation_type",
+      "expected_posture": "FIRST_CROSSING_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "FIRST_CROSSING_OPERATION_RECORDED",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_operation_outcome_required",
+      "expected_posture": "FIRST_CROSSING_OPERATION_RECORDED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "FIRST_CROSSING_SUPPORTED",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_result_required",
+      "expected_posture": "FIRST_CROSSING_SUPPORTED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_supported_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_authorized_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_crossing_authorized_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_performed_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_crossing_performed_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_a_recorded_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_first_crossing_b_recorded_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_coupling_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_established_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_identity_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_standing_descendant_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_descendant_standing_check_performed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_follow_on_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_follow_on_work_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared admissible_future_route",
+      "expected_posture": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "first_crossing_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_a_id",
+      "expected_posture": "first_crossing_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "first_crossing_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_b_id",
+      "expected_posture": "first_crossing_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_pair_scope",
+      "expected_posture": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_a_id",
+      "expected_posture": "descendant_body_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_b_id",
+      "expected_posture": "descendant_body_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_pair_scope",
+      "expected_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_role",
+      "expected_posture": "CANDIDATE_A",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_role",
+      "expected_posture": "CANDIDATE_B",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A_STANDING",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_standing_label",
+      "expected_posture": "CANDIDATE_A_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B_STANDING",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_standing_label",
+      "expected_posture": "CANDIDATE_B_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_REQUESTED",
+      "check_name": "prohibited request flag request_relation_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_REQUESTED",
+      "check_name": "prohibited request flag request_relation_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_REQUESTED",
+      "check_name": "prohibited request flag request_relation_operation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_field_machinery_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_runtime_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_api_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_currentness_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_authority_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request flag request_standing_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_derivative_reception_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_synchronization_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_assignment_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_third_candidate_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request flag request_third_model_admission",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_PRESENCE_OR_IDENTITY_REQUESTED",
+      "check_name": "prohibited request flag request_presence_establishment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_PRESENCE_OR_IDENTITY_REQUESTED",
+      "check_name": "prohibited request flag request_identity_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_STANDING_DESCENDANT_REQUESTED",
+      "check_name": "prohibited request flag request_standing_descendant_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DESCENDANT_STANDING_REQUESTED",
+      "check_name": "prohibited request flag request_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DESCENDANT_STANDING_REQUESTED",
+      "check_name": "prohibited request flag request_descendant_standing_check",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_follow_on_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request flag request_follow_on_work_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_repository_scan",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_file_discovery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_affected_file_repair",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_affected_file_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_prior_unsupported_claim_validation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request flag request_validation_enforcement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed relation_boundary_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed relation_boundary_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed relation_operation_consideration_allowed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed first_crossing_operation_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed first_crossing_a_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed first_crossing_b_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "result posture not pre-claimed first_crossing_pair_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture relation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture relation_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture relation_operation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture first_crossing_operation_v1_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture first_crossing_operation_v1_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture first_crossing_operation_v1_converted_to_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture first_crossing_operation_v2_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture first_crossing_operation_v2_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_relation_operation_completion",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_first_crossing_to_relation_without_relation_boundary_and_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_crossing_authorization_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_crossing_performance_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_relation_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_relation_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_coupling_assignment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_third_candidate_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_third_model_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_presence",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_output_action",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "top-level false posture direct_relation_boundary_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_boundary_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_boundary_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_operation_consideration_allowed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_a_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_b_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_pair_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_operation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_v1_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_v1_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_v1_converted_to_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_v2_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim first_crossing_operation_v2_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_relation_operation_completion",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_first_crossing_to_relation_without_relation_boundary_and_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_crossing_authorization_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_crossing_performance_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_relation_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_relation_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_coupling_assignment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_third_candidate_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_third_model_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_presence",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_output_action",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_boundary_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/RELATION_BOUNDARY_V0_MIN_SPEC.md",
+      "block_code": "RELATION_BOUNDARY_SPEC_REFERENCE_MISSING",
+      "check_name": "relation-boundary specification reference readable",
+      "expected_posture": "readable Markdown file",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification boundary identity markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification first-crossing operation basis markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification first-crossing non-conversion markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification boundary permitted result markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification boundary non-conversion markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification sibling non-hierarchy markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification permitted route markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification contaminated lineage preservation markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification blocked routes markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_BOUNDARY_SPEC_MARKER_MISSING",
+      "check_name": "relation-boundary specification closing lock markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+      "block_code": "FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "first_crossing_operation_v2_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed first crossing operation v2 terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/FIRST_CROSSING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "block_code": "FIRST_CROSSING_BOUNDARY_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "first_crossing_boundary_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "FIRST_CROSSING_BOUNDARY_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed first crossing boundary terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CREATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": "DESCENDANT_BODY_CREATION_OPERATION_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "descendant_body_creation_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "DESCENDANT_BODY_CREATION_OPERATION_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed descendant body creation operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+      "block_code": "EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "existence claim evidence check terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    }
+  ],
+  "relation_boundary_material": {
+    "first_crossing_operation_reference": {
+      "prior_crossing_authorized": true,
+      "prior_crossing_performed": true,
+      "prior_first_crossing_a_recorded": true,
+      "prior_first_crossing_authorized": true,
+      "prior_first_crossing_b_recorded": true,
+      "prior_first_crossing_operation_outcome": "FIRST_CROSSING_OPERATION_RECORDED",
+      "prior_first_crossing_operation_type": "FIRST_CROSSING_OPERATION",
+      "prior_first_crossing_performed": true,
+      "prior_first_crossing_result": "FIRST_CROSSING_SUPPORTED",
+      "prior_first_crossing_supported": true
+    },
+    "first_crossing_pair_reference": {
+      "coupling_created": false,
+      "first_crossing_a_id": "first_crossing_a_001",
+      "first_crossing_a_recorded": true,
+      "first_crossing_b_id": "first_crossing_b_001",
+      "first_crossing_b_recorded": true,
+      "first_crossing_is_coupling": false,
+      "first_crossing_is_descendant_standing": false,
+      "first_crossing_is_identity": false,
+      "first_crossing_is_presence": false,
+      "first_crossing_is_relation": false,
+      "first_crossing_is_standing_descendant": false,
+      "first_crossing_pair_non_hierarchy_preserved": true,
+      "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "first_crossing_supported": true,
+      "first_crossings_remain_sibling": true
+    },
+    "relation_boundary_evaluation": {
+      "coupling_created": false,
+      "follow_on_authorized": false,
+      "follow_on_work_authorized": false,
+      "identity_created": false,
+      "presence_established": false,
+      "relation_authorized": false,
+      "relation_boundary_result": "RELATION_OPERATION_CONSIDERATION_ALLOWED",
+      "relation_created": false,
+      "relation_operation_consideration_allowed": true,
+      "relation_operation_performed": false
+    }
+  },
+  "relation_boundary_metadata": {
+    "boundary_id": "relation_boundary_001",
+    "generated_at": "2026-07-14T11:32:17+00:00",
+    "resolver_module": "resolve_relation_boundary_v0_min",
+    "result_version": "0.1.0"
+  },
+  "relation_boundary_non_meaning": {
+    "not_authority": true,
+    "not_coupling": true,
+    "not_descendant_standing": true,
+    "not_field_machinery": true,
+    "not_follow_on": true,
+    "not_identity": true,
+    "not_presence": true,
+    "not_relation_authorization": true,
+    "not_relation_creation": true,
+    "not_relation_operation": true,
+    "not_runtime": true,
+    "not_standing_descendant": true
+  },
+  "relation_boundary_statement": {
+    "coupling_created": false,
+    "first_crossing_a_referenced": true,
+    "first_crossing_b_referenced": true,
+    "first_crossing_operation_referenced": true,
+    "first_crossing_pair_referenced": true,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "outcome": "RELATION_BOUNDARY_ALLOWED",
+    "presence_established": false,
+    "relation_authorized": false,
+    "relation_boundary_recorded": true,
+    "relation_boundary_result": "RELATION_OPERATION_CONSIDERATION_ALLOWED",
+    "relation_boundary_result_recorded": true,
+    "relation_created": false,
+    "relation_operation_consideration_allowed": true,
+    "relation_operation_performed": false,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_created": false
+  },
+  "relation_boundary_summary": {
+    "action_authorized": false,
+    "admissible_future_route": "RELATION_BOUNDARY_THEN_RELATION_OPERATION_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "boundary_id": "relation_boundary_001",
+    "boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "boundary_type": "RELATION_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "completed_descendant_body_creation_operation_terminal_summary_markers_present": true,
+    "completed_first_crossing_boundary_terminal_summary_markers_present": true,
+    "completed_first_crossing_operation_v2_terminal_summary_markers_present": true,
+    "completed_first_crossing_operation_v2_terminal_summary_path": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_crossing_authorization_to_relation": false,
+    "direct_crossing_performance_to_relation": false,
+    "direct_first_crossing_to_relation_without_relation_boundary_and_operation": false,
+    "direct_relation_boundary_to_authority_currentness": false,
+    "direct_relation_boundary_to_coupling_assignment": false,
+    "direct_relation_boundary_to_coupling_creation": false,
+    "direct_relation_boundary_to_descendant_standing": false,
+    "direct_relation_boundary_to_field_machinery": false,
+    "direct_relation_boundary_to_follow_on_work": false,
+    "direct_relation_boundary_to_identity": false,
+    "direct_relation_boundary_to_output_action": false,
+    "direct_relation_boundary_to_presence": false,
+    "direct_relation_boundary_to_relation_authorization": false,
+    "direct_relation_boundary_to_relation_creation": false,
+    "direct_relation_boundary_to_relation_operation_completion": false,
+    "direct_relation_boundary_to_runtime": false,
+    "direct_relation_boundary_to_standing_descendant": false,
+    "direct_relation_boundary_to_third_candidate_route": false,
+    "direct_relation_boundary_to_third_model_route": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "failed_check_count": 0,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_a_referenced": true,
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_b_referenced": true,
+    "first_crossing_operation_referenced": true,
+    "first_crossing_operation_v1_converted_to_standing": false,
+    "first_crossing_operation_v1_overwritten": false,
+    "first_crossing_operation_v1_repaired": false,
+    "first_crossing_operation_v2_bypassed": false,
+    "first_crossing_operation_v2_overridden": false,
+    "first_crossing_pair_referenced": true,
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "missing_or_insufficient_first_crossing": [],
+    "outcome": "RELATION_BOUNDARY_ALLOWED",
+    "output_authorized": false,
+    "passed_check_count": 250,
+    "presence_established": false,
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": true,
+    "prior_crossing_performed_required": true,
+    "prior_descendant_standing_check_performed_required": false,
+    "prior_first_crossing_a_recorded_required": true,
+    "prior_first_crossing_authorized_required": true,
+    "prior_first_crossing_b_recorded_required": true,
+    "prior_first_crossing_operation_outcome_required": "FIRST_CROSSING_OPERATION_RECORDED",
+    "prior_first_crossing_operation_type": "FIRST_CROSSING_OPERATION",
+    "prior_first_crossing_performed_required": true,
+    "prior_first_crossing_result_required": "FIRST_CROSSING_SUPPORTED",
+    "prior_first_crossing_supported_required": true,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation-boundary_specification_blocked_routes_markers_present": true,
+    "relation-boundary_specification_boundary_identity_markers_present": true,
+    "relation-boundary_specification_boundary_non-conversion_markers_present": true,
+    "relation-boundary_specification_boundary_permitted_result_markers_present": true,
+    "relation-boundary_specification_closing_lock_markers_present": true,
+    "relation-boundary_specification_contaminated_lineage_preservation_markers_present": true,
+    "relation-boundary_specification_first-crossing_non-conversion_markers_present": true,
+    "relation-boundary_specification_first-crossing_operation_basis_markers_present": true,
+    "relation-boundary_specification_permitted_route_markers_present": true,
+    "relation-boundary_specification_sibling_non-hierarchy_markers_present": true,
+    "relation_authorized": false,
+    "relation_boundary_id": "relation_boundary_001",
+    "relation_boundary_recorded": true,
+    "relation_boundary_result": "RELATION_OPERATION_CONSIDERATION_ALLOWED",
+    "relation_boundary_result_recorded": true,
+    "relation_boundary_scope": "CONSIDER_RELATION_AFTER_FIRST_CROSSING_ONLY",
+    "relation_boundary_type": "RELATION_BOUNDARY",
+    "relation_boundary_version": "0.1.0",
+    "relation_created": false,
+    "relation_operation_consideration_allowed": true,
+    "relation_operation_performed": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "resolver_module": "resolve_relation_boundary_v0_min",
+    "result_version": "0.1.0",
+    "runtime_created": false,
+    "scan_performed": false,
+    "selected_relation_boundary_spec_path": "spec/RELATION_BOUNDARY_V0_MIN_SPEC.md",
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "resolver_module": "resolve_relation_boundary_v0_min",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "completed_descendant_body_creation_operation_terminal_summary_markers_present": true,
+    "completed_first_crossing_boundary_terminal_summary_markers_present": true,
+    "completed_first_crossing_operation_v2_terminal_summary_markers_present": true,
+    "descendant_body_creation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CREATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_boundary_terminal_summary_reference": "spec/FIRST_CROSSING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_operation_v2_terminal_summary_reference": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+    "relation-boundary_specification_blocked_routes_markers_present": true,
+    "relation-boundary_specification_boundary_identity_markers_present": true,
+    "relation-boundary_specification_boundary_non-conversion_markers_present": true,
+    "relation-boundary_specification_boundary_permitted_result_markers_present": true,
+    "relation-boundary_specification_closing_lock_markers_present": true,
+    "relation-boundary_specification_contaminated_lineage_preservation_markers_present": true,
+    "relation-boundary_specification_first-crossing_non-conversion_markers_present": true,
+    "relation-boundary_specification_first-crossing_operation_basis_markers_present": true,
+    "relation-boundary_specification_permitted_route_markers_present": true,
+    "relation-boundary_specification_sibling_non-hierarchy_markers_present": true,
+    "relation_boundary_spec_reference": "spec/RELATION_BOUNDARY_V0_MIN_SPEC.md"
+  },
+  "what_remains_open": [
+    "relation operation, if separately bounded after boundary",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "presence boundary",
+    "identity boundary",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "externalization boundary",
+    "follow-on work"
+  ]
+}

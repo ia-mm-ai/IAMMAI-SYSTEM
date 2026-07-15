@@ -1,0 +1,62 @@
+{
+  "proof_family": "cross_carrier_seam_proof_001",
+  "artifact_family": "witness_artifact",
+  "package_kind": "cross_carrier_seam_release_package",
+  "package_id": "transfer-package-8c4999e12bc8451f9cc13fdca3312707",
+  "package_created_at": "2026-04-03T15:37:24Z",
+  "source_carrier": {
+    "carrier_label": "source-side-carrier",
+    "execution_id": "execution-f72b3f6777fc47368c18567fa4df305e"
+  },
+  "release_context": {
+    "release_context_id": "release-context-1946d029a14f4c789c2d284c65cf323d",
+    "release_mode": "release_invalid",
+    "release_statement": "Source-side carrier releases one witness artifact package for explicit receiving-side ingress.",
+    "seam_statement": "This package is intentionally invalid for ingress because it claims standing on receipt instead of derivative-only arrival.",
+    "expected_receiving_outcome": "refusal_non_passage"
+  },
+  "seam": {
+    "explicit_release": true,
+    "explicit_seam": true,
+    "explicit_ingress_required": true,
+    "source_remains_source": true,
+    "derivative_only_arrival_rule": false,
+    "shared_authority": false,
+    "standing_transfer_on_receipt": true,
+    "standing_upgrade_requires_separate_ratification": true,
+    "refusal_visible_on_failure": true
+  },
+  "lineage": {
+    "artifact_family": "witness_artifact",
+    "schema_ref": "v1/schemas/witness_artifact.schema.json",
+    "source_execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+    "witness_id": "witness-6b08e6cd38cd4d0792c1890a653c5cb4",
+    "matter_id": "matter-390412e78c8a4c808205cd1a281defc2",
+    "source_canonical_body_ref": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/canonical_body/witness_artifact_body.json",
+    "carried_body_ref": "inline::canonical_body"
+  },
+  "canonical_body": {
+    "witness_id": "witness-6b08e6cd38cd4d0792c1890a653c5cb4",
+    "witness_type": "transition_witness",
+    "target_ref": "matter-390412e78c8a4c808205cd1a281defc2",
+    "observed_at": "2026-04-03T15:37:24Z",
+    "claims": [
+      "transition_relevant_event_observed",
+      "bounded_interaction_preserved"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "actor_ref": "source-side-carrier",
+    "surface_ref": "lab:cross_carrier_seam_proof_001:source_release",
+    "scope_ref": "cross_carrier_seam_proof_001"
+  },
+  "manifest": {
+    "manifest_id": "manifest-50eaaaee82864cddb5db77686f74edff",
+    "manifest_note": "Intentionally invalid release package for refusal testing. It attempts unlawful standing transfer on receipt."
+  }
+}

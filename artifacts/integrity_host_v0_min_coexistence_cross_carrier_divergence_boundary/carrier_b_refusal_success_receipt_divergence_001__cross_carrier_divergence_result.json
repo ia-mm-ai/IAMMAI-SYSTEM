@@ -1,0 +1,895 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "cross_carrier_divergence_metadata": {
+    "cross_carrier_divergence_result_id": "carrier_b_refusal_success_receipt_divergence_001__carrier_divergence_recorded__cross_carrier_divergence_result",
+    "cross_carrier_divergence_result_type": "cross_carrier_divergence_boundary_result",
+    "cross_carrier_divergence_result_version": "0.1.0",
+    "generated_at": "2026-04-28T17:01:56.263845Z",
+    "resolver_module": "resolve_cross_carrier_divergence_boundary"
+  },
+  "cross_carrier_divergence_summary": {
+    "action_authorized": false,
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "carrier_hierarchy_created": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "divergence_question": "Do Carrier B returned blocked receipt evidence and returned successful receipt evidence diverge as receipt/refusal evidence while preserving both surfaces visibly, without selecting a winning carrier, creating currentness, or creating multi-carrier law?",
+    "divergence_recorded": true,
+    "divergence_request_id": "carrier_b_refusal_success_receipt_divergence_001",
+    "divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+    "failed_check_count": 0,
+    "hidden_divergence": false,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_hierarchy_created": false,
+      "carrier_relation_created": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "divergence_hidden": false,
+      "divergence_resolved_by_latest_file": false,
+      "divergence_resolved_by_majority": false,
+      "divergence_resolved_by_success_count": false,
+      "evidence_overwritten": false,
+      "losing_carrier_invalidated": false,
+      "mismatch_hidden": false,
+      "multi_carrier_law_created": false,
+      "permission_created": false,
+      "presence_established": false,
+      "refusal_hidden": false,
+      "signal_created_by_default": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "winning_carrier_selected": false
+    },
+    "losing_carrier_invalidated": false,
+    "mismatch_hidden": false,
+    "multi_carrier_law_created": false,
+    "no_carrier_divergence": false,
+    "outcome": "CARRIER_DIVERGENCE_RECORDED",
+    "passed_check_count": 30,
+    "permission_created": false,
+    "refusal_hidden": false,
+    "selected_carrier_ids": [
+      "carrier_B_physical_macbook",
+      "carrier_B_physical_macbook"
+    ],
+    "selected_evidence_count": 2,
+    "selected_evidence_ids": [
+      "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED",
+      "CARRIED_SURFACE_RECEIVED"
+    ],
+    "source_created": false,
+    "truth_created": false,
+    "visible_divergence": true,
+    "winning_carrier_selected": false
+  },
+  "declared_divergence_question": {
+    "allow_returned_not_admitted_evidence": false,
+    "declared_divergence_request_path": null,
+    "declared_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_hierarchy_created": false,
+      "carrier_relation_created": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "divergence_hidden": false,
+      "divergence_resolved_by_latest_file": false,
+      "divergence_resolved_by_majority": false,
+      "divergence_resolved_by_success_count": false,
+      "evidence_overwritten": false,
+      "latest_file_currentness": false,
+      "losing_carrier_invalidated": false,
+      "merge_performed": false,
+      "mismatch_hidden": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "recency_fraud": false,
+      "refusal_hidden": false,
+      "replay_performed": false,
+      "signal_created_by_default": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "winning_carrier_selected": false
+    },
+    "declared_scope": null,
+    "divergence_purpose": null,
+    "divergence_question": "Do Carrier B returned blocked receipt evidence and returned successful receipt evidence diverge as receipt/refusal evidence while preserving both surfaces visibly, without selecting a winning carrier, creating currentness, or creating multi-carrier law?",
+    "divergence_request_id": "carrier_b_refusal_success_receipt_divergence_001",
+    "divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+    "expected_comparison_basis": null,
+    "raw_divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+    "selected_admission_basis": null,
+    "selected_correspondence_basis": null
+  },
+  "divergence_basis": {
+    "allow_returned_not_admitted_evidence": false,
+    "divergence_evidence": {
+      "has_refusal_evidence": true,
+      "has_success_evidence": true
+    },
+    "divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+    "divergence_type_supported": true,
+    "expected_comparison_basis": null,
+    "hidden_divergence": false,
+    "non_claims_explicit": true,
+    "positive_divergence_types": [
+      "BASIS_DIVERGENCE",
+      "CARRIER_IDENTITY_DIVERGENCE",
+      "EMISSION_CLASS_DIVERGENCE",
+      "INTEGRITY_DIVERGENCE",
+      "MALFORMED_EVIDENCE_DIVERGENCE",
+      "MISSING_EVIDENCE_DIVERGENCE",
+      "NON_CLAIM_DIVERGENCE",
+      "OUTCOME_DIVERGENCE",
+      "RECEIPT_REFUSAL_DIVERGENCE",
+      "RETURN_PATH_DIVERGENCE",
+      "ROLE_DIVERGENCE",
+      "STALE_OR_SEQUENCE_DIVERGENCE"
+    ],
+    "selected_admission_basis": null,
+    "selected_carrier_ids": [
+      "carrier_B_physical_macbook",
+      "carrier_B_physical_macbook"
+    ],
+    "selected_carrier_roles": [
+      "RECEIVING_CARRIER",
+      "RECEIVING_CARRIER"
+    ],
+    "selected_correspondence_basis": null,
+    "selected_emission_classes": [
+      "RECEIPT_BLOCK",
+      "CARRIED_SURFACE_RECEIPT"
+    ],
+    "selected_evidence_count": 2,
+    "selected_evidence_ids": [
+      "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED",
+      "CARRIED_SURFACE_RECEIVED"
+    ],
+    "selected_return_paths": [
+      null,
+      null
+    ],
+    "supported_divergence_types": [
+      "BASIS_DIVERGENCE",
+      "CARRIER_IDENTITY_DIVERGENCE",
+      "EMISSION_CLASS_DIVERGENCE",
+      "INTEGRITY_DIVERGENCE",
+      "MALFORMED_EVIDENCE_DIVERGENCE",
+      "MISSING_EVIDENCE_DIVERGENCE",
+      "NON_CLAIM_DIVERGENCE",
+      "NO_DIVERGENCE",
+      "OUTCOME_DIVERGENCE",
+      "RECEIPT_REFUSAL_DIVERGENCE",
+      "RETURN_PATH_DIVERGENCE",
+      "ROLE_DIVERGENCE",
+      "STALE_OR_SEQUENCE_DIVERGENCE"
+    ],
+    "visible_mismatch": true
+  },
+  "divergence_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_divergence_request_is_parseable_mapping",
+      "expected_posture": "declared divergence request is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "block_code": "CARRIED_SURFACE_MALFORMED",
+          "carrier_id": "carrier_B_physical_macbook",
+          "carrier_role": "RECEIVING_CARRIER",
+          "emission_class": "RECEIPT_BLOCK",
+          "evidence_id": "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+          "evidence_outcome": "BLOCKED",
+          "non_claims": {
+            "action_authorized": false,
+            "authority_created": false,
+            "carrier_hierarchy_created": false,
+            "carrier_relation_created": false,
+            "consequence_created": false,
+            "continuation_authorized": false,
+            "currentness_created": false,
+            "distributed_standing_created": false,
+            "divergence_hidden": false,
+            "divergence_resolved_by_latest_file": false,
+            "divergence_resolved_by_majority": false,
+            "divergence_resolved_by_success_count": false,
+            "evidence_overwritten": false,
+            "latest_file_currentness": false,
+            "losing_carrier_invalidated": false,
+            "merge_performed": false,
+            "mismatch_hidden": false,
+            "multi_carrier_law_created": false,
+            "mutation_performed": false,
+            "permission_created": false,
+            "presence_established": false,
+            "recency_fraud": false,
+            "refusal_hidden": false,
+            "replay_performed": false,
+            "signal_created_by_default": false,
+            "source_replaced": false,
+            "threshold_met": false,
+            "truth_created": false,
+            "winning_carrier_selected": false
+          },
+          "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+        },
+        {
+          "carrier_id": "carrier_B_physical_macbook",
+          "carrier_role": "RECEIVING_CARRIER",
+          "emission_class": "CARRIED_SURFACE_RECEIPT",
+          "evidence_id": "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt",
+          "evidence_outcome": "CARRIED_SURFACE_RECEIVED",
+          "non_claims": {
+            "action_authorized": false,
+            "authority_created": false,
+            "carrier_hierarchy_created": false,
+            "carrier_relation_created": false,
+            "consequence_created": false,
+            "continuation_authorized": false,
+            "currentness_created": false,
+            "distributed_standing_created": false,
+            "divergence_hidden": false,
+            "divergence_resolved_by_latest_file": false,
+            "divergence_resolved_by_majority": false,
+            "divergence_resolved_by_success_count": false,
+            "evidence_overwritten": false,
+            "latest_file_currentness": false,
+            "losing_carrier_invalidated": false,
+            "merge_performed": false,
+            "mismatch_hidden": false,
+            "multi_carrier_law_created": false,
+            "mutation_performed": false,
+            "permission_created": false,
+            "presence_established": false,
+            "recency_fraud": false,
+            "refusal_hidden": false,
+            "replay_performed": false,
+            "signal_created_by_default": false,
+            "source_replaced": false,
+            "threshold_met": false,
+            "truth_created": false,
+            "winning_carrier_selected": false
+          },
+          "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+        }
+      ],
+      "block_code": null,
+      "check_name": "selected_evidence_exists",
+      "expected_posture": "selected carrier evidence is supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "dict",
+        "dict"
+      ],
+      "block_code": null,
+      "check_name": "selected_evidence_parseable",
+      "expected_posture": "each selected evidence surface is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "block_code": null,
+      "check_name": "sufficient_evidence_surfaces",
+      "expected_posture": "at least two selected evidence surfaces exist",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+      ],
+      "block_code": null,
+      "check_name": "evidence_identity_present",
+      "expected_posture": "each selected evidence identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "BLOCKED",
+        "CARRIED_SURFACE_RECEIVED"
+      ],
+      "block_code": null,
+      "check_name": "evidence_outcome_present",
+      "expected_posture": "each selected evidence outcome or status is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_B_physical_macbook",
+        "carrier_B_physical_macbook"
+      ],
+      "block_code": null,
+      "check_name": "carrier_identity_present_where_required",
+      "expected_posture": "selected carrier identities are declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "Do Carrier B returned blocked receipt evidence and returned successful receipt evidence diverge as receipt/refusal evidence while preserving both surfaces visibly, without selecting a winning carrier, creating currentness, or creating multi-carrier law?",
+      "block_code": null,
+      "check_name": "divergence_question_declared",
+      "expected_posture": "divergence question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECEIPT_REFUSAL_DIVERGENCE",
+      "block_code": null,
+      "check_name": "divergence_type_supported",
+      "expected_posture": "divergence type is supported by this boundary",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+        "mismatch_visible": true,
+        "no_divergence_reason": null
+      },
+      "block_code": null,
+      "check_name": "mismatch_visible_where_required",
+      "expected_posture": "mismatch is visibly recorded when present; absence yields no-divergence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "has_refusal_evidence": true,
+        "has_success_evidence": true,
+        "refusal_hidden": {
+          "refusal_hidden": false
+        }
+      },
+      "block_code": null,
+      "check_name": "refusal_visible_where_applicable",
+      "expected_posture": "refusal remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_hidden": false,
+        "mismatch_hidden": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_hide_mismatch",
+      "expected_posture": "divergence keeps mismatch visible",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "refusal_hidden": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_hide_refusal",
+      "expected_posture": "divergence keeps refusal visible",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "evidence_overwritten": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_overwrite_evidence",
+      "expected_posture": "divergence overwrites no evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_mutate_replay_or_merge_evidence",
+      "expected_posture": "divergence performs no mutation, replay, or merge",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_replace_source",
+      "expected_posture": "divergence replaces no source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "currentness_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_currentness",
+      "expected_posture": "divergence creates no currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_authority",
+      "expected_posture": "divergence creates no authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "permission_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_permission",
+      "expected_posture": "divergence creates no permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "divergence_does_not_create_successor_body",
+      "expected_posture": "divergence creates no successor standing or body",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "signal_created_by_default": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_signal_by_default",
+      "expected_posture": "divergence creates no signal by default",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "presence_established": false,
+        "threshold_met": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_establish_presence_threshold",
+      "expected_posture": "divergence establishes no presence or threshold",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "truth_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_truth",
+      "expected_posture": "divergence creates no truth",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_authorized": false,
+        "consequence_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_authorize_action_create_consequence",
+      "expected_posture": "divergence authorizes no action and creates no consequence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_standing_created": false,
+        "multi_carrier_law_created": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_create_multi_carrier_law_distributed_standing",
+      "expected_posture": "divergence creates no multi-carrier law or distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_authorize_continuation",
+      "expected_posture": "divergence authorizes no continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_resolved_by_latest_file": false,
+        "divergence_resolved_by_majority": false,
+        "divergence_resolved_by_success_count": false
+      },
+      "block_code": null,
+      "check_name": "divergence_does_not_resolve_by_majority_latest_success_count",
+      "expected_posture": "divergence is not resolved by majority, latest file, or success count",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false
+      },
+      "block_code": null,
+      "check_name": "latest_file_currentness_false",
+      "expected_posture": "latest local file is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "recency_fraud": false
+      },
+      "block_code": null,
+      "check_name": "recency_fraud_false",
+      "expected_posture": "recency is not used as currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_non_claim_failures": [],
+        "selected_evidence_non_claim_collapse": []
+      },
+      "block_code": null,
+      "check_name": "required_non_claims_remain_false",
+      "expected_posture": "all required divergence non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "divergence_consequence_boundary": {
+    "divergence_may": {
+      "be_used_as_evidence_for_future_block": true,
+      "prevent_downstream_reliance": true,
+      "remain_open_as_visible_divergence": true,
+      "require_later_admission_review": true,
+      "require_later_correspondence_review": true,
+      "require_later_currentness_boundary_review": true
+    },
+    "divergence_may_not": {
+      "authorize_continuation": true,
+      "create_carrier_hierarchy": true,
+      "create_carrier_relation": true,
+      "create_distributed_standing": true,
+      "create_multi_carrier_law": true,
+      "decide_action": true,
+      "decide_currentness": true,
+      "decide_source": true,
+      "decide_truth": true,
+      "erase_losing_carrier_evidence": true,
+      "select_winning_carrier": true
+    }
+  },
+  "divergence_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_body_formation": true,
+    "does_not_mean_body_must_resolve_now": true,
+    "does_not_mean_carrier_relation": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_latest_file_rule": true,
+    "does_not_mean_losing_carrier_invalidated": true,
+    "does_not_mean_majority_rule": true,
+    "does_not_mean_multi_carrier_law": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source_replacement": true,
+    "does_not_mean_successful_receipt_count_rule": true,
+    "does_not_mean_successor_standing": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true,
+    "does_not_mean_winning_carrier": true
+  },
+  "divergence_result": {
+    "action_not_authorized": true,
+    "authority_not_created": true,
+    "block_code": null,
+    "block_reason": null,
+    "carrier_hierarchy_not_created": true,
+    "continuation_not_authorized": true,
+    "currentness_not_created": true,
+    "distributed_standing_not_created": true,
+    "divergence_blocked": false,
+    "divergence_claim": "selected carrier evidence diverges visibly for the declared question",
+    "divergence_evidence": {
+      "has_refusal_evidence": true,
+      "has_success_evidence": true
+    },
+    "divergence_recorded": true,
+    "divergence_type": "RECEIPT_REFUSAL_DIVERGENCE",
+    "evidence_overwritten": false,
+    "failed_checks": [],
+    "hidden_divergence": false,
+    "mismatch_hidden": false,
+    "mismatch_preserved": true,
+    "multi_carrier_law_not_created": true,
+    "no_carrier_divergence": false,
+    "no_divergence_reason": null,
+    "permission_not_created": true,
+    "refusal_hidden": false,
+    "selected_basis_preserved_where_available": false,
+    "selected_carrier_ids": [
+      "carrier_B_physical_macbook",
+      "carrier_B_physical_macbook"
+    ],
+    "selected_evidence_count": 2,
+    "selected_evidence_ids": [
+      "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED",
+      "CARRIED_SURFACE_RECEIVED"
+    ],
+    "selected_evidence_preserved": false,
+    "source_not_replaced": true,
+    "truth_not_created": true,
+    "visible_divergence": true
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "carrier_hierarchy_created": false,
+    "carrier_relation_created": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "divergence_hidden": false,
+    "divergence_resolved_by_latest_file": false,
+    "divergence_resolved_by_majority": false,
+    "divergence_resolved_by_success_count": false,
+    "evidence_overwritten": false,
+    "latest_file_currentness": false,
+    "losing_carrier_invalidated": false,
+    "merge_performed": false,
+    "mismatch_hidden": false,
+    "multi_carrier_law_created": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "presence_established": false,
+    "recency_fraud": false,
+    "refusal_hidden": false,
+    "replay_performed": false,
+    "signal_created_by_default": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "winning_carrier_selected": false
+  },
+  "outcome": "CARRIER_DIVERGENCE_RECORDED",
+  "selected_carrier_evidence": [
+    {
+      "block_code": "CARRIED_SURFACE_MALFORMED",
+      "block_reason": null,
+      "carrier_id": "carrier_B_physical_macbook",
+      "carrier_role": "RECEIVING_CARRIER",
+      "emission_class": "RECEIPT_BLOCK",
+      "evidence_id": "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "evidence_index": 0,
+      "evidence_outcome": "BLOCKED",
+      "integrity_failure": false,
+      "integrity_hash": null,
+      "integrity_status": null,
+      "malformed_evidence": false,
+      "missing_evidence": false,
+      "non_claims": {
+        "action_authorized": false,
+        "authority_created": false,
+        "carrier_hierarchy_created": false,
+        "carrier_relation_created": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "distributed_standing_created": false,
+        "divergence_hidden": false,
+        "divergence_resolved_by_latest_file": false,
+        "divergence_resolved_by_majority": false,
+        "divergence_resolved_by_success_count": false,
+        "evidence_overwritten": false,
+        "latest_file_currentness": false,
+        "losing_carrier_invalidated": false,
+        "merge_performed": false,
+        "mismatch_hidden": false,
+        "multi_carrier_law_created": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "presence_established": false,
+        "recency_fraud": false,
+        "refusal_hidden": false,
+        "replay_performed": false,
+        "signal_created_by_default": false,
+        "source_replaced": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "winning_carrier_selected": false
+      },
+      "normalized_evidence_outcome": "BLOCKED",
+      "raw_evidence": {
+        "block_code": "CARRIED_SURFACE_MALFORMED",
+        "carrier_id": "carrier_B_physical_macbook",
+        "carrier_role": "RECEIVING_CARRIER",
+        "emission_class": "RECEIPT_BLOCK",
+        "evidence_id": "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "evidence_outcome": "BLOCKED",
+        "non_claims": {
+          "action_authorized": false,
+          "authority_created": false,
+          "carrier_hierarchy_created": false,
+          "carrier_relation_created": false,
+          "consequence_created": false,
+          "continuation_authorized": false,
+          "currentness_created": false,
+          "distributed_standing_created": false,
+          "divergence_hidden": false,
+          "divergence_resolved_by_latest_file": false,
+          "divergence_resolved_by_majority": false,
+          "divergence_resolved_by_success_count": false,
+          "evidence_overwritten": false,
+          "latest_file_currentness": false,
+          "losing_carrier_invalidated": false,
+          "merge_performed": false,
+          "mismatch_hidden": false,
+          "multi_carrier_law_created": false,
+          "mutation_performed": false,
+          "permission_created": false,
+          "presence_established": false,
+          "recency_fraud": false,
+          "refusal_hidden": false,
+          "replay_performed": false,
+          "signal_created_by_default": false,
+          "source_replaced": false,
+          "threshold_met": false,
+          "truth_created": false,
+          "winning_carrier_selected": false
+        },
+        "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+      },
+      "received_or_success_outcome": false,
+      "refusal_or_blocked_outcome": true,
+      "return_context": null,
+      "return_path": null,
+      "sequence_or_version": null,
+      "source_or_carried_basis": "current_body_standing_closure_post_conformance",
+      "source_or_carried_basis_fingerprint": "\"current_body_standing_closure_post_conformance\""
+    },
+    {
+      "block_code": null,
+      "block_reason": null,
+      "carrier_id": "carrier_B_physical_macbook",
+      "carrier_role": "RECEIVING_CARRIER",
+      "emission_class": "CARRIED_SURFACE_RECEIPT",
+      "evidence_id": "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt",
+      "evidence_index": 1,
+      "evidence_outcome": "CARRIED_SURFACE_RECEIVED",
+      "integrity_failure": false,
+      "integrity_hash": null,
+      "integrity_status": null,
+      "malformed_evidence": false,
+      "missing_evidence": false,
+      "non_claims": {
+        "action_authorized": false,
+        "authority_created": false,
+        "carrier_hierarchy_created": false,
+        "carrier_relation_created": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "distributed_standing_created": false,
+        "divergence_hidden": false,
+        "divergence_resolved_by_latest_file": false,
+        "divergence_resolved_by_majority": false,
+        "divergence_resolved_by_success_count": false,
+        "evidence_overwritten": false,
+        "latest_file_currentness": false,
+        "losing_carrier_invalidated": false,
+        "merge_performed": false,
+        "mismatch_hidden": false,
+        "multi_carrier_law_created": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "presence_established": false,
+        "recency_fraud": false,
+        "refusal_hidden": false,
+        "replay_performed": false,
+        "signal_created_by_default": false,
+        "source_replaced": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "winning_carrier_selected": false
+      },
+      "normalized_evidence_outcome": "CARRIED_SURFACE_RECEIVED",
+      "raw_evidence": {
+        "carrier_id": "carrier_B_physical_macbook",
+        "carrier_role": "RECEIVING_CARRIER",
+        "emission_class": "CARRIED_SURFACE_RECEIPT",
+        "evidence_id": "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt",
+        "evidence_outcome": "CARRIED_SURFACE_RECEIVED",
+        "non_claims": {
+          "action_authorized": false,
+          "authority_created": false,
+          "carrier_hierarchy_created": false,
+          "carrier_relation_created": false,
+          "consequence_created": false,
+          "continuation_authorized": false,
+          "currentness_created": false,
+          "distributed_standing_created": false,
+          "divergence_hidden": false,
+          "divergence_resolved_by_latest_file": false,
+          "divergence_resolved_by_majority": false,
+          "divergence_resolved_by_success_count": false,
+          "evidence_overwritten": false,
+          "latest_file_currentness": false,
+          "losing_carrier_invalidated": false,
+          "merge_performed": false,
+          "mismatch_hidden": false,
+          "multi_carrier_law_created": false,
+          "mutation_performed": false,
+          "permission_created": false,
+          "presence_established": false,
+          "recency_fraud": false,
+          "refusal_hidden": false,
+          "replay_performed": false,
+          "signal_created_by_default": false,
+          "source_replaced": false,
+          "threshold_met": false,
+          "truth_created": false,
+          "winning_carrier_selected": false
+        },
+        "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+      },
+      "received_or_success_outcome": true,
+      "refusal_or_blocked_outcome": false,
+      "return_context": null,
+      "return_path": null,
+      "sequence_or_version": null,
+      "source_or_carried_basis": "current_body_standing_closure_post_conformance",
+      "source_or_carried_basis_fingerprint": "\"current_body_standing_closure_post_conformance\""
+    }
+  ],
+  "what_remains_open": {
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "open_surfaces": [
+      "cross-carrier divergence implementation refinement",
+      "cross-carrier currentness boundary",
+      "multi-carrier relation law",
+      "multi-carrier relation conformance",
+      "multi-carrier relation closure",
+      "distributed standing",
+      "persistence/registry law",
+      "presence law",
+      "threshold law",
+      "truth law",
+      "action/consequence law",
+      "generalized vessel relation lifecycle",
+      "body relevance medium",
+      "signal series or accumulation logic",
+      "successor carrier law",
+      "future self-orientation successor only if separately justified"
+    ]
+  }
+}

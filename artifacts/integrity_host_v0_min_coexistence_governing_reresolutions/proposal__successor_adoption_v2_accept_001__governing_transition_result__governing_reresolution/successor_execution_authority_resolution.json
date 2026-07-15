@@ -1,0 +1,135 @@
+{
+  "authority_decision": {
+    "candidate_run_count": 2,
+    "decision": "CURRENT_EXECUTION_AUTHORITY_RESOLVED",
+    "decision_reason": "SUCCESSOR_SELECTED_BY_ACCEPTED_GOVERNING_TRANSITION_RERESOLUTION",
+    "eligible_candidate_count": 2,
+    "selected_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+    "selected_ingress_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "selected_source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "selection_basis": "The selected run is the lexically latest source run only after bounded correspondence, ingress success, non-claim, and comparison checks passed. Latest emission alone is not authority."
+  },
+  "candidate_runs": [
+    {
+      "eligibility_checks": {
+        "canonical_core_execution_file_preserved": true,
+        "comparison_all_matched": true,
+        "comparison_ingress_run_matches": true,
+        "comparison_mismatch_count_zero": true,
+        "comparison_scenario_counts_align": true,
+        "comparison_source_run_matches": true,
+        "ingress_all_decisions_emitted": true,
+        "ingress_all_packets_built": true,
+        "ingress_all_packets_validated": true,
+        "ingress_continuity_not_completed": true,
+        "ingress_merge_not_performed": true,
+        "ingress_replay_not_performed": true,
+        "ingress_scenario_count_matches_source": true,
+        "ingress_source_manifest_matches": true,
+        "ingress_source_run_matches": true,
+        "ingress_standing_not_upgraded": true,
+        "matching_comparison_artifact_exists": true,
+        "matching_ingress_run_exists": true,
+        "source_manifest_exists": true,
+        "source_run_exists": true
+      },
+      "eligible": true,
+      "ineligibility_reasons": [],
+      "matched_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+      "matched_ingress_manifest_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/manifest.json",
+      "matched_ingress_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "matching_comparison_artifact_count": 1,
+      "matching_ingress_run_count": 1,
+      "scenario_count": 5,
+      "source_manifest_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/manifest.json",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+    },
+    {
+      "eligibility_checks": {
+        "canonical_core_execution_file_preserved": true,
+        "comparison_all_matched": true,
+        "comparison_ingress_run_matches": true,
+        "comparison_mismatch_count_zero": true,
+        "comparison_scenario_counts_align": true,
+        "comparison_source_run_matches": true,
+        "ingress_all_decisions_emitted": true,
+        "ingress_all_packets_built": true,
+        "ingress_all_packets_validated": true,
+        "ingress_continuity_not_completed": true,
+        "ingress_merge_not_performed": true,
+        "ingress_replay_not_performed": true,
+        "ingress_scenario_count_matches_source": true,
+        "ingress_source_manifest_matches": true,
+        "ingress_source_run_matches": true,
+        "ingress_standing_not_upgraded": true,
+        "matching_comparison_artifact_exists": true,
+        "matching_ingress_run_exists": true,
+        "source_manifest_exists": true,
+        "source_run_exists": true
+      },
+      "eligible": true,
+      "ineligibility_reasons": [],
+      "matched_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T195516_601429Z__source_ingress_comparison.json",
+      "matched_ingress_manifest_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z/manifest.json",
+      "matched_ingress_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z",
+      "matching_comparison_artifact_count": 1,
+      "matching_ingress_run_count": 1,
+      "scenario_count": 5,
+      "source_manifest_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/manifest.json",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+    }
+  ],
+  "canonical_execution_line": {
+    "core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+    "derivative_support_scope": [
+      "src/integrity_host_v0_min_coexistence_snapshot.py",
+      "src/run_integrity_host_v0_min_coexistence_scenarios.py",
+      "src/integrity_host_v0_min_coexistence_import.py",
+      "src/review_integrity_host_v0_min_coexistence_imports.py",
+      "src/compare_integrity_host_v0_min_coexistence_source_and_review.py",
+      "src/compare_integrity_host_v0_min_coexistence_source_and_import.py",
+      "src/build_integrity_host_v0_min_coexistence_receiving_packet.py",
+      "src/compare_integrity_host_v0_min_coexistence_source_and_receiving_packet.py",
+      "src/validate_integrity_host_v0_min_coexistence_receiving_packet.py",
+      "src/build_integrity_host_v0_min_coexistence_receiving_ingress_decision.py",
+      "src/run_integrity_host_v0_min_coexistence_receiving_ingress.py",
+      "src/compare_integrity_host_v0_min_coexistence_source_and_ingress_run.py"
+    ],
+    "lineage_predecessor_files": [
+      "src/integrity_host_v0_min.py",
+      "src/integrity_host_v0_min_coexistence.py"
+    ]
+  },
+  "forced_system_pressure_signals": {
+    "canonical_execution_authority_pressure": "Current authority is resolved for one explicit core execution line, not inferred from sibling host files.",
+    "currentness_vs_latest_emitted_pressure": "Lexical latest is used only after correspondence, ingress, comparison, and non-claim checks pass.",
+    "preserved_run_multiplicity_pressure": {
+      "ingress_run_count": 2,
+      "source_ingress_comparison_count": 2,
+      "source_run_count": 2
+    }
+  },
+  "non_claims": {
+    "authority_resolution_is_protocol_law": false,
+    "continuity_completed": false,
+    "final_persistence_or_registry_law": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "resolution_metadata": {
+    "generated_at": "2026-04-21T11:05:10.144436Z",
+    "resolution_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_CURRENT_EXECUTION_AUTHORITY_RESOLUTION",
+    "resolution_version": "0.1.0",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_governing_reresolution",
+    "successor_projection_reference": {
+      "prior_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_execution_authority/current_execution_authority_resolution_001.json",
+      "prior_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_current_governing_packets/current_governing_packet.json",
+      "prior_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_run_family_packets/current_run_family_packet_002.json",
+      "prior_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_preserved_run_status_packets/current_preserved_run_status_packet.json",
+      "projection_type": "SUCCESSOR_GOVERNING_PROJECTION_FROM_RERESOLUTION",
+      "transition_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "anchor_source_used": {
+    "anchor_source_note_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/anchor_source/anchor_source_note.json",
+    "selected_run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+    "selected_summary_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json"
+  },
+  "continuity_run_directory": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity",
+  "continuity_turn_identity": "continuity-turn-da182ec5bbb24dbb9860aeb4c60755c3",
+  "execution_identity": "execution-717a6994f03d4be08e17cd776b597576",
+  "layer_outcomes": {
+    "continuity_body_conformance": {
+      "negative": [
+        {
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/body/negative/predecessor_only_continuity_turn.json",
+          "status": "fail"
+        }
+      ],
+      "positive": [
+        {
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/body/positive/continuity_turn.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "execution_relation_conformance": {
+      "positive": [
+        {
+          "result_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "fixture_classification": {
+      "negative": [
+        {
+          "classification_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/fixtures/negative/classification.json",
+          "fixture_class": "conformance_failure"
+        }
+      ]
+    },
+    "preservation_write_outcome": {
+      "result_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/preservation/run_write_outcome.json",
+      "status": "pass"
+    }
+  },
+  "reading_posture": {
+    "negative_fixture": "read as a predecessor-only continuity body failure, not as accidental architectural incoherence",
+    "positive_path": "read by continuity body, execution relation, and preservation layers"
+  },
+  "summary_type": "v1_first_continuity_proof_slice_summary"
+}

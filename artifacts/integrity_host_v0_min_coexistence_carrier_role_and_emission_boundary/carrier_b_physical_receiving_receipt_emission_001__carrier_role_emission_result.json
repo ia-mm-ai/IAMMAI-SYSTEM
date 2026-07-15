@@ -1,0 +1,640 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "carrier_role_basis": {
+    "permitted_emissions": [
+      "CARRIED_SURFACE_RECEIPT",
+      "RECEIPT_BLOCK",
+      "RECEIPT_REFUSAL_REASON"
+    ],
+    "prohibited_emissions": [
+      "ACTION",
+      "BODY_CONFORMANCE",
+      "BODY_RELEVANCE_MEDIUM",
+      "CARRIER_REGISTRY",
+      "CONSEQUENCE",
+      "CONTINUATION_AUTHORIZATION",
+      "CURRENTNESS",
+      "DISTRIBUTED_STANDING",
+      "MULTI_CARRIER_RELATION",
+      "PRESENCE",
+      "REPOSITORY_SYNCHRONIZATION",
+      "ROUTING",
+      "SELF_ORIENTATION",
+      "SIGNAL_BY_DEFAULT",
+      "SOURCE_AUTHORITY",
+      "STANDING_UPGRADE",
+      "SUCCESSOR_ARTIFACT",
+      "THRESHOLD",
+      "TRUTH",
+      "WORKFLOW"
+    ],
+    "role_admitted": true,
+    "role_candidate_not_admitted": false,
+    "role_local_scope": "operation_local",
+    "role_name": "RECEIVING_CARRIER",
+    "role_non_meaning": {
+      "does_not_mean_action": true,
+      "does_not_mean_authority": true,
+      "does_not_mean_body": true,
+      "does_not_mean_consequence": true,
+      "does_not_mean_continuation": true,
+      "does_not_mean_currentness": true,
+      "does_not_mean_distributed_standing": true,
+      "does_not_mean_multi_carrier_law": true,
+      "does_not_mean_participant_by_default": true,
+      "does_not_mean_permanent_identity": true,
+      "does_not_mean_permission": true,
+      "does_not_mean_presence": true,
+      "does_not_mean_source": true,
+      "does_not_mean_successor": true,
+      "does_not_mean_threshold": true,
+      "does_not_mean_truth": true
+    }
+  },
+  "carrier_role_emission_metadata": {
+    "carrier_role_emission_result_id": "carrier_b_physical_receiving_receipt_emission_001__carrier_emission_recognized__carrier_role_emission_result",
+    "carrier_role_emission_result_type": "carrier_role_and_emission_boundary_result",
+    "carrier_role_emission_result_version": "0.1.0",
+    "generated_at": "2026-04-28T15:54:38.770002Z",
+    "resolver_module": "resolve_carrier_role_and_emission_boundary"
+  },
+  "carrier_role_emission_summary": {
+    "action_authorized": false,
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "body_created": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "declared_carrier_role": "RECEIVING_CARRIER",
+    "declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+    "distributed_standing_created": false,
+    "emission_local_only": true,
+    "emission_recognized": true,
+    "emission_self_admitted": false,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_emission_created_signal_by_default": false,
+      "carrier_emission_self_admitted": false,
+      "carrier_role_became_permanent_identity": false,
+      "carrier_role_created_authority": false,
+      "carrier_role_created_body": false,
+      "carrier_role_created_currentness": false,
+      "carrier_role_created_permission": false,
+      "carrier_role_created_source": false,
+      "carrier_role_created_successor": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "multi_carrier_law_created": false,
+      "permission_created": false,
+      "presence_established": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "multi_carrier_law_created": false,
+    "operation_id": "carrier_b_physical_receiving_receipt_emission_001",
+    "operation_purpose": "Recognize physical Carrier B as a receiving carrier for the prior carried-surface receipt operation, and recognize CARRIED_SURFACE_RECEIPT as a role-permitted local emission without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+    "outcome": "CARRIER_EMISSION_RECOGNIZED",
+    "passed_check_count": 35,
+    "permission_created": false,
+    "presence_established": false,
+    "role_operation_local": true,
+    "role_permanent_identity": false,
+    "role_recognized": true,
+    "selected_carrier_id": "carrier_B_physical_macbook",
+    "selected_carrier_label": null,
+    "signal_created_by_default": false,
+    "source_created": false,
+    "successor_created": false,
+    "threshold_met": false,
+    "truth_created": false
+  },
+  "declared_carrier_operation": {
+    "declared_carrier_operation_path": null,
+    "declared_carrier_role": "RECEIVING_CARRIER",
+    "declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+    "declared_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_emission_created_signal_by_default": false,
+      "carrier_emission_self_admitted": false,
+      "carrier_role_became_permanent_identity": false,
+      "carrier_role_created_authority": false,
+      "carrier_role_created_body": false,
+      "carrier_role_created_currentness": false,
+      "carrier_role_created_permission": false,
+      "carrier_role_created_source": false,
+      "carrier_role_created_successor": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "latest_file_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "emission_identity": null,
+    "emission_outcome": null,
+    "integrity_evidence": null,
+    "normalized_declared_carrier_role": "RECEIVING_CARRIER",
+    "normalized_declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+    "operation_id": "carrier_b_physical_receiving_receipt_emission_001",
+    "operation_purpose": "Recognize physical Carrier B as a receiving carrier for the prior carried-surface receipt operation, and recognize CARRIED_SURFACE_RECEIPT as a role-permitted local emission without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+    "operation_scope": "declared_operation_local",
+    "receiving_carrier_context": null,
+    "selected_packet_or_surface": {
+      "surface_id": "current_body_standing_closure_post_conformance",
+      "surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+      "surface_role": "carried_surface"
+    },
+    "source_carrier_context": null
+  },
+  "emission_basis": {
+    "body_line_admission_status": "not_admitted_by_this_result",
+    "emission_class": "CARRIED_SURFACE_RECEIPT",
+    "emission_class_permitted_for_role": true,
+    "emission_class_supported": true,
+    "emission_identity": null,
+    "emission_non_meaning": {
+      "does_not_mean_action": true,
+      "does_not_mean_authority": true,
+      "does_not_mean_body": true,
+      "does_not_mean_body_line_admission": true,
+      "does_not_mean_carrier_relation": true,
+      "does_not_mean_consequence": true,
+      "does_not_mean_continuation": true,
+      "does_not_mean_currentness": true,
+      "does_not_mean_distributed_standing": true,
+      "does_not_mean_multi_carrier_law": true,
+      "does_not_mean_permission": true,
+      "does_not_mean_presence": true,
+      "does_not_mean_signal_by_default": true,
+      "does_not_mean_source": true,
+      "does_not_mean_successor": true,
+      "does_not_mean_threshold": true,
+      "does_not_mean_truth": true
+    },
+    "emission_outcome": null,
+    "emission_requested": true,
+    "emission_source_packet_or_surface": {
+      "surface_id": "current_body_standing_closure_post_conformance",
+      "surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+      "surface_role": "carried_surface"
+    },
+    "integrity_evidence": null,
+    "passive_storage_status_non_standing": false
+  },
+  "emission_checks": [
+    {
+      "actual_posture": {
+        "declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+        "emission_requested": true
+      },
+      "block_code": null,
+      "check_name": "emission_class_declared_when_emission_requested",
+      "expected_posture": "emission class is declared when emission is requested",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIED_SURFACE_RECEIPT",
+      "block_code": null,
+      "check_name": "receiving_carrier_does_not_emit_self_orientation",
+      "expected_posture": "receiving carrier does not emit self-orientation",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIED_SURFACE_RECEIPT",
+      "block_code": null,
+      "check_name": "receiving_carrier_does_not_emit_conformance",
+      "expected_posture": "receiving carrier does not emit conformance",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIED_SURFACE_RECEIPT",
+      "block_code": null,
+      "check_name": "holding_carrier_does_not_claim_receipt",
+      "expected_posture": "holding carrier emits passive storage only, not lawful receipt",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "returning_carrier_does_not_alter_receipt_meaning",
+      "expected_posture": "returning carrier preserves receipt meaning",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "refusing_carrier_does_not_invalidate_source",
+      "expected_posture": "refusing carrier preserves source surface status",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+        "not_admitted_by_default": false
+      },
+      "block_code": null,
+      "check_name": "emission_class_supported",
+      "expected_posture": "emission class is in the bounded supported set",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_emission_class": "CARRIED_SURFACE_RECEIPT",
+        "declared_role": "RECEIVING_CARRIER",
+        "permitted_emissions_for_role": [
+          "CARRIED_SURFACE_RECEIPT",
+          "RECEIPT_BLOCK",
+          "RECEIPT_REFUSAL_REASON"
+        ]
+      },
+      "block_code": null,
+      "check_name": "emission_class_permitted_for_role",
+      "expected_posture": "emission class is permitted for the declared role",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_local_emission_does_not_self_admit",
+      "expected_posture": "carrier-local emission does not self-admit into body line",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_create_signal_by_default",
+      "expected_posture": "carrier emission creates no signal by default",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_establish_presence",
+      "expected_posture": "carrier emission establishes no presence",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_establish_threshold",
+      "expected_posture": "carrier emission establishes no threshold",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_create_truth",
+      "expected_posture": "carrier emission creates no truth",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_authorize_action",
+      "expected_posture": "carrier emission authorizes no action",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_create_consequence",
+      "expected_posture": "carrier emission creates no consequence",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_create_multi_carrier_law",
+      "expected_posture": "carrier emission creates no multi-carrier law",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_create_distributed_standing",
+      "expected_posture": "carrier emission creates no distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_emission_does_not_authorize_continuation",
+      "expected_posture": "carrier emission authorizes no continuation",
+      "passed": true
+    }
+  ],
+  "emission_statement": {
+    "carrier_emission_authorized_action": false,
+    "carrier_emission_authorized_continuation": false,
+    "carrier_emission_class_permitted_for_role": true,
+    "carrier_emission_created_consequence": false,
+    "carrier_emission_created_distributed_standing": false,
+    "carrier_emission_created_multi_carrier_law": false,
+    "carrier_emission_created_signal_by_default": false,
+    "carrier_emission_created_truth": false,
+    "carrier_emission_established_presence": false,
+    "carrier_emission_established_threshold": false,
+    "carrier_emission_local_only": true,
+    "carrier_emission_recognized": true,
+    "carrier_emission_self_admitted": false,
+    "no_emission_was_recognized": false,
+    "passive_storage_status_is_not_receipt": false,
+    "passive_storage_status_non_standing": false
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "carrier_emission_created_signal_by_default": false,
+    "carrier_emission_self_admitted": false,
+    "carrier_role_became_permanent_identity": false,
+    "carrier_role_created_authority": false,
+    "carrier_role_created_body": false,
+    "carrier_role_created_currentness": false,
+    "carrier_role_created_permission": false,
+    "carrier_role_created_source": false,
+    "carrier_role_created_successor": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "latest_file_currentness": false,
+    "merge_performed": false,
+    "multi_carrier_law_created": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "presence_established": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false
+  },
+  "outcome": "CARRIER_EMISSION_RECOGNIZED",
+  "role_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_carrier_operation_is_parseable_mapping",
+      "expected_posture": "declared carrier operation is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECEIVING_CARRIER",
+      "block_code": null,
+      "check_name": "carrier_role_declared",
+      "expected_posture": "carrier role is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "candidate_not_admitted": false,
+        "declared_role": "RECEIVING_CARRIER"
+      },
+      "block_code": null,
+      "check_name": "carrier_role_supported_admitted",
+      "expected_posture": "carrier role is admitted for this version",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_id": "carrier_B_physical_macbook",
+        "carrier_label": null,
+        "carrier_role_for_operation": "RECEIVING_CARRIER",
+        "raw_selected_carrier": {
+          "carrier_id": "carrier_B_physical_macbook",
+          "carrier_role_for_operation": "RECEIVING_CARRIER",
+          "carrier_role_operation_local": true,
+          "carrier_role_permanent_identity": false
+        },
+        "role_is_not_permanent_identity": true,
+        "role_is_operation_local": true
+      },
+      "block_code": null,
+      "check_name": "selected_carrier_declared",
+      "expected_posture": "selected carrier identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "Recognize physical Carrier B as a receiving carrier for the prior carried-surface receipt operation, and recognize CARRIED_SURFACE_RECEIPT as a role-permitted local emission without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+      "block_code": null,
+      "check_name": "operation_purpose_declared",
+      "expected_posture": "operation purpose is declared and non-empty",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role_operation_local": null,
+        "operation_scope": "declared_operation_local"
+      },
+      "block_code": null,
+      "check_name": "carrier_role_is_operation_local",
+      "expected_posture": "carrier role is local to one declared operation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role_became_permanent_identity": false,
+        "carrier_role_permanent_identity": null
+      },
+      "block_code": null,
+      "check_name": "carrier_role_is_not_permanent_identity",
+      "expected_posture": "carrier role does not become permanent identity",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role_created_source": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_source",
+      "expected_posture": "carrier role creates no source posture",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role_created_currentness": false,
+        "currentness_created": false
+      },
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_currentness",
+      "expected_posture": "carrier role creates no currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "carrier_role_created_authority": false
+      },
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_authority",
+      "expected_posture": "carrier role creates no authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role_created_permission": false,
+        "permission_created": false
+      },
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_permission",
+      "expected_posture": "carrier role creates no permission",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_successor",
+      "expected_posture": "carrier role creates no successor standing",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carrier_role_does_not_create_body",
+      "expected_posture": "carrier role creates no body formation",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "latest_file_currentness_false",
+      "expected_posture": "latest local file is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "recency_fraud_false",
+      "expected_posture": "recency is not used as currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "mutation_replay_merge_false",
+      "expected_posture": "mutation, replay, and merge remain false",
+      "passed": true
+    },
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "required_non_claims_remain_false",
+      "expected_posture": "all required role/emission non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "role_statement": {
+    "carrier_role_created_authority": false,
+    "carrier_role_created_body": false,
+    "carrier_role_created_currentness": false,
+    "carrier_role_created_permission": false,
+    "carrier_role_created_source": false,
+    "carrier_role_created_successor": false,
+    "carrier_role_operation_local": true,
+    "carrier_role_permanent_identity": false,
+    "carrier_role_recognized": true,
+    "distributed_standing_created": false,
+    "multi_carrier_law_created": false
+  },
+  "selected_carrier": {
+    "carrier_id": "carrier_B_physical_macbook",
+    "carrier_label": null,
+    "carrier_role_for_operation": "RECEIVING_CARRIER",
+    "raw_selected_carrier": {
+      "carrier_id": "carrier_B_physical_macbook",
+      "carrier_role_for_operation": "RECEIVING_CARRIER",
+      "carrier_role_operation_local": true,
+      "carrier_role_permanent_identity": false
+    },
+    "role_is_not_permanent_identity": true,
+    "role_is_operation_local": true
+  },
+  "what_emission_does_not_mean": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_body": true,
+    "does_not_mean_body_line_admission": true,
+    "does_not_mean_carrier_relation": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_multi_carrier_law": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source": true,
+    "does_not_mean_successor": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true
+  },
+  "what_remains_open": {
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "open_surfaces": [
+      "carrier return/admission boundary",
+      "cross-carrier divergence boundary",
+      "cross-carrier currentness boundary",
+      "multi-carrier relation law",
+      "multi-carrier relation conformance",
+      "multi-carrier relation closure",
+      "distributed standing",
+      "persistence/registry law",
+      "presence law",
+      "threshold law",
+      "truth law",
+      "action/consequence law",
+      "generalized vessel relation lifecycle",
+      "body relevance medium",
+      "signal series or accumulation logic",
+      "successor carrier law",
+      "future self-orientation successor only if separately justified"
+    ]
+  },
+  "what_role_does_not_mean": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_body": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_multi_carrier_law": true,
+    "does_not_mean_participant_by_default": true,
+    "does_not_mean_permanent_identity": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_source": true,
+    "does_not_mean_successor": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true
+  }
+}

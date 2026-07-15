@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI First-Pass Currentness Record",
+  "description": "First-pass schema for one bounded currentness claim only. This object is small, explicit, authority-locating rather than authority-generating, and recorded-first rather than computed-first. It records what presently governs for one scope, in what posture, on what basis, and against which visible non-current neighbors, without becoming a dashboard, storage model, or final current-state ontology.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "currentness_record_id",
+    "recorded_at",
+    "scope_ref",
+    "current_ref",
+    "current_posture",
+    "basis_refs",
+    "non_current_refs"
+  ],
+  "properties": {
+    "currentness_record_id": {
+      "type": "string",
+      "description": "Bounded identifier for this one currentness record object. It makes the currentness claim referable without implying a final global identity system or sovereign current-state machinery.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "recorded_at": {
+      "type": "string",
+      "description": "Recorded-at value for when this bounded currentness claim was explicitly housed as an object. This remains a conservative non-empty string rather than a frozen final timestamp model.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": ".*\\S.*"
+    },
+    "scope_ref": {
+      "type": "string",
+      "description": "Bounded reference for the one scope whose currentness is being claimed. This keeps the object local rather than letting it drift into whole-body totality.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "current_ref": {
+      "type": "string",
+      "description": "Bounded surface that presently governs for the named scope. This locates the current governing surface without pretending to generate that authority.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "current_posture": {
+      "type": "string",
+      "description": "Bounded posture in which current_ref presently stands for the named scope. The field is required, but the posture vocabulary remains intentionally open and revisable in first-pass form.",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+    },
+    "basis_refs": {
+      "type": "array",
+      "description": "Explicit bounded references that justify why current_ref is being recorded as current for this scope. This is central to currentness and is not optional convenience.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "non_current_refs": {
+      "type": "array",
+      "description": "Explicit bounded nearby references that remain visible for the same scope but should not be mistaken as presently governing there. This is central to currentness and is not optional convenience.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    }
+  }
+}

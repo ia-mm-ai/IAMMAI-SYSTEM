@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-04-01T20:15:39Z",
+  "checks": [
+    {
+      "message": "All preserved files recorded before preservation conformance must exist.",
+      "name": "written_files_exist",
+      "status": "pass"
+    },
+    {
+      "message": "Canonical bodies and envelope-bearing emissions must both be preserved separately.",
+      "name": "canonical_bodies_separate_from_envelopes",
+      "status": "pass"
+    },
+    {
+      "message": "Negative fixture material must remain under an explicitly separate negative fixture branch.",
+      "name": "negative_fixture_separated",
+      "status": "pass"
+    },
+    {
+      "message": "Continuity remains out of scope for the first ordinary proof slice.",
+      "name": "continuity_not_emitted",
+      "status": "pass"
+    },
+    {
+      "message": "The local preservation surface must remain bounded to v1/registry/runs/<execution-id>/.",
+      "name": "run_directory_bounded_to_v1_registry",
+      "status": "pass"
+    }
+  ],
+  "run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+  "status": "pass",
+  "surface": "preservation_conformance"
+}

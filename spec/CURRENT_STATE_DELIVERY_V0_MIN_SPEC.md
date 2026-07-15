@@ -1,0 +1,330 @@
+# Current State Delivery V0-Min Spec
+
+## 1. Purpose
+
+This file defines the first bounded current-state delivery spec for the v0-min coexistence execution line.
+
+It derives from the current authority, run-family, preserved-run-status, current-governing, governing-transition, governing re-resolution, successor-adoption, effective-family, effective-family-consumption, current-work-input, current-work-operation, current-state-readout, current-state-handoff, and current-state-export stack:
+
+- `src/resolve_current_integrity_host_v0_min_coexistence_execution_authority.py`
+- `src/build_integrity_host_v0_min_coexistence_run_family_packet.py`
+- `src/build_integrity_host_v0_min_coexistence_preserved_run_status_packet.py`
+- `src/build_current_integrity_host_v0_min_coexistence_governing_packet.py`
+- `src/resolve_integrity_host_v0_min_coexistence_governing_transition.py`
+- `src/resolve_integrity_host_v0_min_coexistence_governing_reresolution.py`
+- `src/resolve_integrity_host_v0_min_coexistence_governing_successor_adoption_v2.py`
+- `src/resolve_current_integrity_host_v0_min_coexistence_effective_family.py`
+- `src/resolve_integrity_host_v0_min_coexistence_effective_family_consumption.py`
+- `src/resolve_integrity_host_v0_min_coexistence_current_work_input.py`
+- `src/resolve_integrity_host_v0_min_coexistence_current_work_operation_v2.py`
+- `src/resolve_integrity_host_v0_min_coexistence_current_state_readout.py`
+- `src/resolve_integrity_host_v0_min_coexistence_current_state_handoff.py`
+- `src/resolve_integrity_host_v0_min_coexistence_current_state_export.py`
+- `spec/EFFECTIVE_FAMILY_CONSUMPTION_V0_MIN_SPEC.md`
+- `spec/CURRENT_WORK_OPERATION_V0_MIN_SPEC.md`
+- `spec/CURRENT_STATE_READOUT_V0_MIN_SPEC.md`
+- `spec/CURRENT_STATE_HANDOFF_V0_MIN_SPEC.md`
+- `spec/CURRENT_STATE_EXPORT_V0_MIN_SPEC.md`
+
+Its purpose is to define, in code-ready architectural form, the smallest lawful downstream delivery surface that consumes an exported current-state result and produces one bounded delivery surface for later downstream consumers.
+
+An exported current-state result is now the bounded active surface for the first real downstream delivery. It preserves current-state handoff provenance, effective authority, family, status, governing, source-run, and ingress-run references, bounded export output, checks, outcome, and carried-forward non-claims.
+
+The next forced pressure is delivery, not more governance, currentness, selection, export, or packet packaging.
+
+This spec does not implement delivery. It does not define final governance, final currentness doctrine, replay or merge law, continuity completion, final system identity, persistence architecture, registry doctrine, an app, an API, a dashboard, a reporting system, or a broad workflow engine.
+
+## 2. Status and Rank
+
+This spec is additive and repo-local.
+
+It ranks below the constitutional and reference authority surfaces under `reference/IAMMAI/`, including the constitutional protocol, implementation overviews, runtime contract surfaces, and architecture surfaces.
+
+It also ranks below current executable source, tests, and generated artifacts where those surfaces already stand as concrete behavior.
+
+This spec does not:
+
+- define final governance
+- complete continuity
+- replace current executable source files
+- replace current test surfaces
+- replace emitted artifacts
+- promote current-state export into final system law
+- define final persistence or registry architecture
+- define a minimum lawful system
+
+Its scope is one bounded current-state delivery model for the present canonical execution line only.
+
+## 3. Why This Spec Is Needed Now
+
+The repository can now emit a bounded current-state export.
+
+That export is real. It preserves selected current-state handoff provenance, effective export input references, bounded checks, explicit `EXPORTED` or `BLOCKED` outcome, bounded export output, export summary, and carried-forward non-claims.
+
+Without one bounded delivery spec, the next consumer can still fail in three ways:
+
+- it can drift back to stale prior-family artifacts because those artifacts remain readable
+- it can expand into generic app, API, dashboard, reporting, or workflow machinery larger than the current executable pressure supports
+- it can introduce broader ontology than the current body has lawfully made executable
+
+A bounded current-state delivery spec is therefore required before application-level delivery implementations are built. The delivery boundary says: read one exported current-state result, consume only the active references it names, emit one bounded delivery result, and preserve all prior artifacts unchanged.
+
+## 4. What Now Stands
+
+The current body materially has:
+
+- canonical core execution line: `src/integrity_host_v0_min_coexistence_v2.py`
+- current execution-authority resolution
+- preserved-run family packet
+- preserved-run status packet
+- current-governing packet
+- governing-transition resolver and result artifacts
+- governing re-resolution resolver, result artifacts, and successor family emission
+- governing successor-adoption v2 resolver and adoption result artifacts
+- effective-family resolver and effective-family resolution artifacts
+- effective-family consumption resolver and consumption result artifacts
+- current-work-input resolver and current-work-input result artifacts
+- current-work-operation v2 resolver and completed current-work-operation result artifacts
+- current-state readout resolver and emitted current-state readout result artifacts
+- current-state handoff resolver and handed-off current-state result artifacts
+- current-state export resolver and exported current-state result artifacts
+- explicit bounded non-claims around replay, merge, continuity completion, standing upgrade, minimum lawful system completion, final system identity, and final governance completion
+
+These surfaces make one bounded downstream export visible. They do not yet define the first bounded delivery that consumes the exported current-state result.
+
+## 5. Current-State Delivery Scope
+
+This current-state delivery slice applies only to the current canonical core execution line:
+
+- `src/integrity_host_v0_min_coexistence_v2.py`
+
+It reads one exported current-state result and the active input references named by that result.
+
+It governs one bounded downstream delivery step. The delivery may carry forward the exported surface, selected current-state handoff provenance, effective authority, family, preserved-run status, current-governing, source-run, and ingress-run references, but it must preserve all authority, family, status, governing, transition, re-resolution, adoption, effective-family, consumption, current-work-input, current-work-operation, current-state readout, current-state handoff, and current-state export artifacts unchanged.
+
+The delivery is not a broad dashboard, API, connector, app, reporting, or workflow system. It does not define orchestration, queues, registries, scheduling, persistence topology, cross-host continuity completion, replay, or merge.
+
+Current-state delivery is a checked downstream delivery surface over an already exported bounded current-state result. It is not hidden update, host replay, continuity completion, final currentness doctrine, final system identity law, or delivery as standing law.
+
+## 6. Delivery Input Set
+
+A bounded current-state delivery needs the following input set:
+
+- one exported current-state result artifact
+- the effective execution-authority artifact referenced by that result
+- the effective run-family packet referenced by that result
+- the effective preserved-run status packet referenced by that result
+- the effective current-governing packet referenced by that result
+
+The active delivery references are the paths in the current-state export result's `effective_export_inputs` section and, where useful, its bounded `export_output` section:
+
+- `effective_authority_artifact_path`
+- `effective_family_packet_path`
+- `effective_status_packet_path`
+- `effective_current_governing_packet_path`
+- `effective_source_run_path`
+- `effective_ingress_run_path`
+- `current_governing_source_run_path`
+- `current_governing_ingress_run_path`
+
+Prior current families may remain preserved and readable. They are not the active delivery inputs when an exported current-state result names a different effective family.
+
+Blocked, stale, or non-exported current-state results do not drive delivery. A delivery must not bypass the exported current-state result and decide active delivery inputs by scanning authority, family, status, governing, adoption, effective-family, consumption, current-work-input, current-work-operation, current-state readout, current-state handoff, or current-state export roots on its own.
+
+## 7. Input Correspondence Requirements
+
+Before delivery may be considered, the selected inputs must correspond in bounded form.
+
+At minimum:
+
+- the current-state export result artifact is readable
+- the current-state export result has a bounded successful outcome: `EXPORTED`
+- the current-state export result is not blocked, malformed, or non-exported
+- active delivery references in the result point to readable artifacts
+- canonical core execution file matches across the effective authority, family, status, and governing artifacts
+- the active delivery input set is internally coherent
+- effective authority, family, status, and governing artifacts name the same current governing source run where those surfaces expose it
+- effective authority, family, status, and governing artifacts name the same current governing ingress run where those surfaces expose it
+- bounded non-claims remain false
+- prior family remains preserved and readable where the current-state export result exposes that posture
+- current-family and adopted-family distinction remains visible where adoption was used
+
+Unreadable or mismatched inputs block the delivery. They must not be silently fused into a current-state delivery surface.
+
+## 8. Delivery Checks
+
+A bounded current-state delivery may be emitted only when all bounded checks pass.
+
+Minimum required checks:
+
+- current-state export result exists and is readable
+- current-state export outcome is `EXPORTED`
+- effective execution-authority artifact is readable and coherent
+- effective run-family packet is readable and coherent
+- effective preserved-run status packet is readable and coherent
+- effective current-governing packet is readable and coherent
+- effective family canonical core execution file matches `src/integrity_host_v0_min_coexistence_v2.py`
+- effective authority, family, status, and governing artifacts name the same current governing source run where those surfaces expose it
+- effective authority, family, status, and governing artifacts name the same current governing ingress run where those surfaces expose it
+- effective family preserves bounded non-claims:
+  - `replayed_into_live_host = false`
+  - `merged_into_local_state = false`
+  - `continuity_completed = false`
+  - `standing_upgraded = false`
+- the delivery uses the exported current-state result explicitly rather than inferring latest authority, family, status, or governing artifacts on its own
+- the delivery does not silently use stale prior-family artifacts when current-state export names a different effective family
+
+These checks are bounded and implementation-facing. They do not create a broad app, API, dashboard, reporting, or workflow engine.
+
+## 9. Refusal / Block Conditions
+
+Blocked current-state delivery must remain explicit. It is not the same thing as transition refusal, re-resolution blocking, adoption blocking, effective-family consumption blocking, current-work-input blocking, current-work-operation blocking, current-state readout blocking, current-state handoff blocking, or current-state export blocking. Those earlier surfaces answer whether earlier selection, work, readout, handoff, or export steps may proceed. Delivery blocking answers whether a downstream delivery may be emitted from a candidate current-state export result.
+
+Minimum block conditions:
+
+- no current-state export result is available
+- current-state export result is unreadable
+- current-state export result has an unrecognized, blocked, or non-exported outcome
+- effective delivery artifacts are unreadable
+- canonical execution line mismatch
+- effective delivery input set is not internally coherent
+- effective delivery input set does not correspond to the current-state export result
+- prior family preservation is not evident where required
+- replay shortcut attempted
+- merge shortcut attempted
+- continuity-completion shortcut attempted
+- silent standing upgrade shortcut attempted
+- silent fallback to stale prior-family artifacts attempted
+- latest-file inference attempted without explicit current-state export support
+- multiple current-state export results conflict without an explicit bounded selection surface
+
+Blocked delivery should preserve enough detail to show which current-state export result was considered, which effective references failed, and which non-claims remained required.
+
+## 10. Delivery Contract
+
+A current-state delivery is any downstream bounded component, resolver, builder, validator, transfer surface, or delivery surface that emits one explicit delivery result using an exported current-state result as its active selector.
+
+A delivery may rely on:
+
+- the exported current-state result as the explicit selector of active delivery inputs
+- the effective execution-authority artifact as the active bounded authority artifact
+- the effective run-family packet as the active bounded family packet
+- the effective preserved-run status packet as the active bounded status packet
+- the effective current-governing packet as the active bounded governing packet
+- the effective source and ingress run paths where the export result exposes them
+- the bounded export output emitted by the current-state export result
+- the carried-forward non-claims that remain false
+- the fact that preserved prior families remain preserved but are not silently substituted for the active delivery inputs
+
+A delivery must not infer:
+
+- continuity completion
+- replay permission
+- merge permission
+- standing upgrade
+- final governance or final system identity
+- final currentness doctrine
+- persistence or registry law
+- automatic latest-emitted fallback without explicit current-state export support
+- authority from stale prior-family artifacts when a different effective family has been selected
+
+The delivery contract is intentionally narrow: use the exported current-state result references as active inputs, preserve provenance, emit one bounded delivery result, and carry non-claims forward.
+
+## 11. Delivery Result Artifact
+
+A future implementation should emit one bounded current-state delivery result artifact.
+
+At minimum, the artifact should preserve:
+
+- delivery result id
+- delivery result type
+- delivery result version
+- `generated_at`
+- current-state export result artifact path used
+- current-state export result id used
+- effective authority artifact path consumed
+- effective family packet path consumed
+- effective preserved-run status packet path consumed
+- effective current-governing packet path consumed
+- effective source run path where used
+- effective ingress run path where used
+- outcome: `DELIVERED` or `BLOCKED`
+- block code and block reason if blocked
+- delivery basis
+- checks or bounded check summary
+- carried-forward non-claims
+
+For `DELIVERED`, the result should preserve the active inputs consumed and the bounded delivery output or delivery reference. The output can be a minimal downstream delivery surface, such as a compact object containing the exported result identity, effective input paths, current governing source and ingress run paths, bounded export summary, and any bounded delivery reference needed by a later downstream consumer.
+
+For `BLOCKED`, the result should preserve the candidate current-state export identity if any, the block reason, and enough failed-check detail to keep refusal visible.
+
+This section does not design the future implementation. It only states the minimum provenance, outcome, block, and non-claim visibility expected of the first bounded delivery.
+
+## 12. What Remains Preserved
+
+After lawful current-state delivery:
+
+- prior execution-authority artifacts remain preserved
+- prior run-family packets remain preserved
+- prior preserved-run status packets remain preserved
+- prior current-governing packets remain preserved
+- governing-transition result artifacts remain preserved
+- governing re-resolution result artifacts remain preserved
+- successor-adoption result artifacts remain preserved
+- effective-family resolution artifacts remain preserved
+- effective-family consumption result artifacts remain preserved
+- current-work-input resolution artifacts remain preserved
+- current-work-operation result artifacts remain preserved
+- current-state readout artifacts remain preserved
+- current-state handoff artifacts remain preserved
+- current-state export artifacts remain preserved
+- current-state delivery artifacts remain additive
+- source runs remain preserved
+- ingress runs remain preserved
+- source-to-ingress comparison artifacts remain preserved
+- preserved runs remain visible
+
+Current-state delivery must not imply hidden mutation. It carries an exported current-state result forward; it does not rewrite the artifacts that made the export possible.
+
+## 13. What This Spec Still Does Not Define
+
+This spec still does not define:
+
+- final governance framework
+- final currentness doctrine
+- final system identity law
+- final continuity completion
+- replay or merge law
+- persistence architecture
+- registry doctrine
+- full world-frame
+- minimum lawful system
+- downstream delivery semantics beyond the smallest bounded case
+- multi-delivery orchestration beyond the smallest bounded case
+- a generic app, API, dashboard, reporting, or workflow framework
+
+## 14. What Should Not Be Added Next
+
+The next step should not expand the repo into packet sprawl or premature application machinery.
+
+Do not add:
+
+- direct stale-artifact reads when an exported current-state result exists
+- replay-based delivery
+- merge-based delivery
+- broad app, API, dashboard, connector, reporting, or workflow engines
+- a new packet that only restates current-state export selection without new behavioral pressure
+- persistence or registry substitutes for delivery law
+- hidden standing upgrade through presentation, export, delivery, publication, transfer, or display
+
+The next legitimate implementation pressure is one bounded delivery resolver that consumes one exported current-state result and emits one explicit delivery result or one explicit block.
+
+## 15. Closing Boundary Statement
+
+The repository now has current-state export.
+
+This spec exists because the next forced pressure is the first real current-state delivery.
+
+It defines the smallest bounded delivery model now supportable: read one exported current-state result, verify the active references it names, carry forward the bounded export and provenance, emit one explicit delivery result, and preserve all prior artifacts unchanged.
+
+It does not claim final governance, final continuity completion, final currentness doctrine, final system identity, minimum lawful system completion, or system completion.

@@ -1,0 +1,28 @@
+{
+  "body": {
+    "claims": [
+      "contact_occurred",
+      "bounded_interaction_preserved",
+      "validation_event_observed"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "observed_at": "2026-04-02T11:55:29Z",
+    "related_validation_ref": "validation-ff3bfec5eafc4bcb9fd38556e577ab73",
+    "surface_ref": "surface-v1-local-proof-slice",
+    "target_ref": "matter-e70f5dc0b1e94b6dbc37e9d347a591bc",
+    "witness_id": "witness-99d31baf23e84762b46a0fa81e829b6b",
+    "witness_type": "validation_witness"
+  },
+  "envelope": {
+    "artifact_family": "witness_artifact",
+    "canonical_body_ref": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/witness_artifact.body.json",
+    "emitted_at": "2026-04-02T11:55:29Z",
+    "execution_id": "execution-9e1ab4ec88734dfcb5c257bf77976624"
+  }
+}

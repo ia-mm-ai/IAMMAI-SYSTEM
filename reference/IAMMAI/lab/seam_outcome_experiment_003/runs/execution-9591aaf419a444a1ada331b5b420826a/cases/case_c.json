@@ -1,0 +1,29 @@
+{
+  "case_id": "case_c",
+  "title": "Denied refusal with lineage erased",
+  "expected_outcome_type": "exit",
+  "channel_condition": "inadmissible_with_erased_context",
+  "self_carried_coherence_threshold_met": true,
+  "lawful_refusal_status": "absent",
+  "lineage_visibility_status": "erased",
+  "coercive_context_status": "erased",
+  "channel_admissible": false,
+  "upstream_governance_constrained_agency": true,
+  "specific_term_unlawful": false,
+  "non_passage_marker_available": false,
+  "buffer_required": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_participation_would_be_containment": true,
+  "subsidized_distortion_risk": true,
+  "full_exit_required": true,
+  "downstream_is_last_visible_node": true,
+  "apparent_normal_compliance_risk": true,
+  "upstream_constraints": [
+    "lawful_refusal_absent",
+    "coercive_context_erased",
+    "last_visible_node_faces_blame_sink_pressure"
+  ],
+  "notes": [
+    "With lineage erased and refusal absent, continued contact would falsely turn the last visible node into the blame sink."
+  ]
+}

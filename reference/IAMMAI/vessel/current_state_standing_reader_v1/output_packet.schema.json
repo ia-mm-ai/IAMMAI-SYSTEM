@@ -1,0 +1,232 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI Current-State / Standing Reader v1 Output Packet",
+  "description": "Output packet for current_state_standing_reader_v1 only. This response is derivative, provenance-bound, and non-sovereign. It does not widen source access, rank, or authority beyond the local vessel contract and manifest.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_id",
+    "request_id",
+    "status",
+    "answer",
+    "primary_rank_used",
+    "sources_used",
+    "derivative_status",
+    "boundedness_note",
+    "next_read_paths",
+    "refusal_reason",
+    "ambiguity_note"
+  ],
+  "properties": {
+    "contract_id": {
+      "type": "string",
+      "const": "current_state_standing_reader_v1",
+      "description": "Fixed contract identifier for this vessel only."
+    },
+    "request_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$",
+      "description": "Bounded identifier matching the request packet."
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "answered",
+        "refused",
+        "out_of_scope",
+        "insufficient_grounding"
+      ],
+      "description": "Bounded response status for this derivative vessel."
+    },
+    "answer": {
+      "type": "string",
+      "maxLength": 6000,
+      "description": "Bounded derivative answer. Empty string is only permitted for refused or out-of-scope outcomes."
+    },
+    "primary_rank_used": {
+      "type": "string",
+      "enum": [
+        "current_state_surface",
+        "standing_review_surface",
+        "threshold_account_surface",
+        "constitutional_clarification_surface",
+        "readability_pointer_surface",
+        "navigation_surface"
+      ],
+      "description": "Primary ranked surface type used for the response."
+    },
+    "sources_used": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "description": "Approved source paths used to produce the response."
+    },
+    "derivative_status": {
+      "type": "string",
+      "const": "derivative_reader",
+      "description": "Fixed derivative posture for this vessel."
+    },
+    "boundedness_note": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 500,
+      "description": "Short note describing scope and limits of the response."
+    },
+    "next_read_paths": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true,
+      "description": "Bounded suggested next surfaces for further reading."
+    },
+    "refusal_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "question_class_not_allowed",
+        "requires_unapproved_sources",
+        "would_require_interpretive_sovereignty",
+        "would_mutate_or_finalize",
+        "insufficient_rank_clarity",
+        null
+      ],
+      "description": "Visible refusal reason when refusal or out-of-scope is returned."
+    },
+    "ambiguity_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 500,
+      "description": "Bounded note about ambiguity or uncertainty where relevant."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "answered"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "answer": {
+            "minLength": 1
+          },
+          "sources_used": {
+            "minItems": 1
+          },
+          "refusal_reason": {
+            "const": null
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "insufficient_grounding"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "answer": {
+            "minLength": 1
+          },
+          "sources_used": {
+            "minItems": 1
+          },
+          "refusal_reason": {
+            "const": null
+          },
+          "ambiguity_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "refused",
+              "out_of_scope"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "refusal_reason": {
+            "type": "string",
+            "enum": [
+              "question_class_not_allowed",
+              "requires_unapproved_sources",
+              "would_require_interpretive_sovereignty",
+              "would_mutate_or_finalize",
+              "insufficient_rank_clarity"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "contract_id": "current_state_standing_reader_v1",
+      "request_id": "req_001",
+      "status": "answered",
+      "answer": "v1 now stands as a real admissible proof-bearing derivation line with current readability surfaces.",
+      "primary_rank_used": "standing_review_surface",
+      "sources_used": [
+        "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md",
+        "CURRENT_STATE__REPO_ENTRY.md"
+      ],
+      "derivative_status": "derivative_reader",
+      "boundedness_note": "Bounded derivative reading over approved internal surfaces only.",
+      "next_read_paths": [
+        "CURRENT_STATE__REPO_ENTRY.md",
+        "RANKED_SURFACE_INDEX.md"
+      ],
+      "refusal_reason": null,
+      "ambiguity_note": null
+    },
+    {
+      "contract_id": "current_state_standing_reader_v1",
+      "request_id": "req_002",
+      "status": "refused",
+      "answer": "",
+      "primary_rank_used": "navigation_surface",
+      "sources_used": [],
+      "derivative_status": "derivative_reader",
+      "boundedness_note": "Request exceeds the allowed question boundary for this vessel.",
+      "next_read_paths": [],
+      "refusal_reason": "question_class_not_allowed",
+      "ambiguity_note": null
+    }
+  ]
+}

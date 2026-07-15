@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:schema:state_record",
+  "title": "IAMMAI State Record",
+  "description": "First bounded schema for canonical state records only. It preserves preparation and standing state identity without collapsing containment, lineage, transition, witness, validation, governance, or derivative display state into a generic status field or convenience container.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "state_id",
+    "matter_ref",
+    "state_family",
+    "state_type",
+    "recorded_at"
+  ],
+  "properties": {
+    "state_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the canonical state record."
+    },
+    "matter_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the bounded matter within which the state stands."
+    },
+    "state_family": {
+      "type": "string",
+      "enum": [
+        "preparation",
+        "standing"
+      ],
+      "description": "Canonical state family. This governs primary state identity only and does not encode containment or resolution as family."
+    },
+    "state_type": {
+      "type": "string",
+      "description": "Canonical state identity bounded by the selected state family. HOLD and generic status values are not valid state identities."
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the canonical state record was recorded."
+    },
+    "predecessor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional primary lineage reference to the prior state where lineage-bearing succession applies."
+    },
+    "related_transition_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded reference to a related transition record. Transition remains distinct from canonical state identity."
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded reference to a related governance action record. Governance remains distinct from canonical state identity."
+    },
+    "related_validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded reference to a related validation artifact. Validation remains distinct from canonical state identity."
+    },
+    "related_witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded reference to a related witness artifact. Witness remains distinct from canonical state identity."
+    },
+    "containment_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded reference to orthogonal containment. This does not replace canonical state identity."
+    },
+    "notes_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to bounded supporting notes or related supporting material."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "state_family": {
+            "const": "preparation"
+          }
+        },
+        "required": [
+          "state_family"
+        ]
+      },
+      "then": {
+        "properties": {
+          "state_type": {
+            "enum": [
+              "signal",
+              "acceptance",
+              "scope",
+              "presence",
+              "threshold"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "state_family": {
+            "const": "standing"
+          }
+        },
+        "required": [
+          "state_family"
+        ]
+      },
+      "then": {
+        "properties": {
+          "state_type": {
+            "enum": [
+              "truth",
+              "continuity",
+              "decision",
+              "consequence"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

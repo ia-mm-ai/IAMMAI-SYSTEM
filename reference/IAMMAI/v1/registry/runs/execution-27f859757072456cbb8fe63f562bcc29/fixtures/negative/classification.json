@@ -1,0 +1,9 @@
+{
+  "artifact_family": "validation_artifact",
+  "body_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/fixtures/negative/body/invalid_validation_artifact.body.json",
+  "expected_status": "fail",
+  "expected_surface": "canonical_body_conformance",
+  "fixture_class": "conformance_failure",
+  "note": "This fixture fails because execution identity was placed in canonical body content and required bounded validation basis was omitted.",
+  "scope": "ordinary_proof_slice"
+}

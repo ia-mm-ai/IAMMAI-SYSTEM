@@ -1,0 +1,25 @@
+{
+  "canonical": false,
+  "input_ref": "embodiment/input/matter_invalid_002.json",
+  "matter_ref": "matter_invalid_002",
+  "message": "Validation did not pass. Governance, transition, and state artifacts were not lawfully produced.",
+  "missing_canonical_artifacts": [
+    "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d/governance_action.json",
+    "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d/transition_record.json",
+    "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d/state_record.json"
+  ],
+  "produced_canonical_artifacts": [
+    "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d/validation_artifact.json",
+    "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d/witness_artifact.json"
+  ],
+  "registry_ref": "embodiment/registry/matter_invalid_002__20260327T122231Z__9f032b1d",
+  "run_id": "run:matter_invalid_002:20260327T122231Z:9f032b1d",
+  "status": "non_passing",
+  "stopped_at": "validation",
+  "summary_type": "execution_summary",
+  "validation_outcome": "fail",
+  "validation_reason_refs": [
+    "content_empty"
+  ],
+  "written_at": "2026-03-27T12:22:31Z"
+}

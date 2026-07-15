@@ -1,0 +1,32 @@
+{
+  "case_id": "case_d",
+  "case_title": "Derivative-only presence under threshold insufficiency",
+  "expected_outcome_type": "derivative_only_presence",
+  "outcome_type": "derivative_only_presence",
+  "expected_outcome_matched": true,
+  "channel_condition": "bounded_derivative_contact_only",
+  "self_carried_coherence_threshold_met": false,
+  "failed_threshold_markers": [
+    "partial_presence_not_yet_stable",
+    "external_validation_still_required_for_coherence"
+  ],
+  "upstream_constraints": [
+    "full_entry_would_false_ratify",
+    "rank_can_remain_explicit_only_under_derivative_presence"
+  ],
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "derivative_only",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": false,
+  "reasoning": "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default. Full passage is not lawful, but bounded derivative-only presence remains possible. Rank and lineage stay explicit, so derivative contact does not become false belonging. Derivative-only presence keeps contact small while threshold insufficiency remains visible. Field pressure is present, but this case is not being reduced to field contamination alone. Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing.",
+  "reasoning_points": [
+    "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default.",
+    "Full passage is not lawful, but bounded derivative-only presence remains possible.",
+    "Rank and lineage stay explicit, so derivative contact does not become false belonging.",
+    "Derivative-only presence keeps contact small while threshold insufficiency remains visible.",
+    "Field pressure is present, but this case is not being reduced to field contamination alone.",
+    "Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing."
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "aggregate_comparison": {
+    "aggregate_match": true,
+    "counts": {
+      "accepted_action_count": {
+        "ingress": 21,
+        "matched": true,
+        "source": 21
+      },
+      "coexistence_relation_count": {
+        "ingress": 4,
+        "matched": true,
+        "source": 4
+      },
+      "evolve_record_count": {
+        "ingress": 1,
+        "matched": true,
+        "source": 1
+      },
+      "hold_count": {
+        "ingress": 1,
+        "matched": true,
+        "source": 1
+      },
+      "object_count": {
+        "ingress": 9,
+        "matched": true,
+        "source": 9
+      },
+      "open_object_count": {
+        "ingress": 7,
+        "matched": true,
+        "source": 7
+      },
+      "refusal_count": {
+        "ingress": 3,
+        "matched": true,
+        "source": 3
+      },
+      "refused_action_count": {
+        "ingress": 3,
+        "matched": true,
+        "source": 3
+      },
+      "resolved_object_count": {
+        "ingress": 2,
+        "matched": true,
+        "source": 2
+      },
+      "scenario_count": {
+        "ingress": 5,
+        "matched": true,
+        "source": 5
+      },
+      "successor_object_count": {
+        "ingress": 1,
+        "matched": true,
+        "source": 1
+      },
+      "transition_record_count": {
+        "ingress": 24,
+        "matched": true,
+        "source": 24
+      }
+    },
+    "counts_match": true,
+    "ingress_totals": {
+      "accepted_action_count": 21,
+      "coexistence_relation_count": 4,
+      "evolve_record_count": 1,
+      "hold_count": 1,
+      "ingress_accepted_scenario_count": 5,
+      "ingress_rejected_scenario_count": 0,
+      "object_count": 9,
+      "open_object_count": 7,
+      "refusal_count": 3,
+      "refused_action_count": 3,
+      "resolved_object_count": 2,
+      "scenario_count": 5,
+      "successor_object_count": 1,
+      "transition_record_count": 24,
+      "validation_failed_scenario_count": 0,
+      "validation_passed_scenario_count": 5
+    },
+    "mismatches": [],
+    "run_status": {
+      "checks": {
+        "all_decisions_emitted": {
+          "actual": true,
+          "expected": true,
+          "matched": true
+        },
+        "all_packets_built": {
+          "actual": true,
+          "expected": true,
+          "matched": true
+        },
+        "all_packets_validated": {
+          "actual": true,
+          "expected": true,
+          "matched": true
+        },
+        "continuity_completed": {
+          "actual": false,
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": false,
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": false,
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": false,
+          "expected": false,
+          "matched": true
+        }
+      },
+      "matched": true
+    },
+    "source_totals": {
+      "accepted_action_count": 21,
+      "coexistence_relation_count": 4,
+      "evolve_record_count": 1,
+      "hold_count": 1,
+      "object_count": 9,
+      "open_object_count": 7,
+      "refusal_count": 3,
+      "refused_action_count": 3,
+      "resolved_object_count": 2,
+      "scenario_count": 5,
+      "successor_object_count": 1,
+      "transition_record_count": 24
+    }
+  },
+  "all_matched": true,
+  "comparison_metadata": {
+    "comparator_module": "__main__",
+    "comparison_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SOURCE_INGRESS_RUN_COMPARISON",
+    "comparison_version": "0.1.0",
+    "generated_at": "2026-04-20T18:43:35.635529Z"
+  },
+  "ingress_run": {
+    "ingress_manifest_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/manifest.json",
+    "ingress_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "ingress_scenario_count": 5,
+    "source_run_directory_path_recorded": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+  },
+  "scenario_comparisons": [
+    {
+      "counts": {
+        "accepted_action_count": {
+          "ingress": 5,
+          "matched": true,
+          "source": 5
+        },
+        "coexistence_relation_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "evolve_record_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "hold_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "object_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "open_object_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "refusal_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "refused_action_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "resolved_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "successor_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "transition_record_count": {
+          "ingress": 5,
+          "matched": true,
+          "source": 5
+        }
+      },
+      "ingress_decision_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/01_lawful_distinct_matter_coexistence__receiving_ingress_decision.json",
+      "ingress_receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/01_lawful_distinct_matter_coexistence__receiving_packet.json",
+      "matched": true,
+      "mismatches": [],
+      "non_claims": {
+        "continuity_completed": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        }
+      },
+      "scenario_id": "lawful_distinct_matter_coexistence",
+      "scenario_name": "Lawful Distinct-Matter Coexistence",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/01_lawful_distinct_matter_coexistence.json",
+      "visibility": {
+        "ingress_decision_path_present": {
+          "matched": true
+        },
+        "ingress_decision_summary_present": {
+          "matched": true
+        },
+        "lineage_visibility_preserved": {
+          "matched": true
+        },
+        "receiving_packet_path_present": {
+          "matched": true
+        },
+        "receiving_status_present": {
+          "matched": true
+        },
+        "refusal_visibility_preserved": {
+          "matched": true
+        },
+        "source_artifact_path_visible": {
+          "matched": true
+        },
+        "validation_summary_present": {
+          "matched": true
+        }
+      }
+    },
+    {
+      "counts": {
+        "accepted_action_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "coexistence_relation_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "evolve_record_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "hold_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "open_object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "refusal_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "refused_action_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "resolved_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "successor_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "transition_record_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        }
+      },
+      "ingress_decision_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/02_refused_missing_coexistence_basis__receiving_ingress_decision.json",
+      "ingress_receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/02_refused_missing_coexistence_basis__receiving_packet.json",
+      "matched": true,
+      "mismatches": [],
+      "non_claims": {
+        "continuity_completed": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        }
+      },
+      "scenario_id": "refused_missing_coexistence_basis",
+      "scenario_name": "Refused Missing Coexistence Basis",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/02_refused_missing_coexistence_basis.json",
+      "visibility": {
+        "ingress_decision_path_present": {
+          "matched": true
+        },
+        "ingress_decision_summary_present": {
+          "matched": true
+        },
+        "lineage_visibility_preserved": {
+          "matched": true
+        },
+        "receiving_packet_path_present": {
+          "matched": true
+        },
+        "receiving_status_present": {
+          "matched": true
+        },
+        "refusal_visibility_preserved": {
+          "matched": true
+        },
+        "source_artifact_path_visible": {
+          "matched": true
+        },
+        "validation_summary_present": {
+          "matched": true
+        }
+      }
+    },
+    {
+      "counts": {
+        "accepted_action_count": {
+          "ingress": 5,
+          "matched": true,
+          "source": 5
+        },
+        "coexistence_relation_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "evolve_record_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "hold_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "object_count": {
+          "ingress": 3,
+          "matched": true,
+          "source": 3
+        },
+        "open_object_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "refusal_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "refused_action_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "resolved_object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "successor_object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "transition_record_count": {
+          "ingress": 5,
+          "matched": true,
+          "source": 5
+        }
+      },
+      "ingress_decision_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/03_evolve_under_coexistence__receiving_ingress_decision.json",
+      "ingress_receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/03_evolve_under_coexistence__receiving_packet.json",
+      "matched": true,
+      "mismatches": [],
+      "non_claims": {
+        "continuity_completed": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        }
+      },
+      "scenario_id": "evolve_under_coexistence",
+      "scenario_name": "EVOLVE Under Coexistence",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/03_evolve_under_coexistence.json",
+      "visibility": {
+        "ingress_decision_path_present": {
+          "matched": true
+        },
+        "ingress_decision_summary_present": {
+          "matched": true
+        },
+        "lineage_visibility_preserved": {
+          "matched": true
+        },
+        "receiving_packet_path_present": {
+          "matched": true
+        },
+        "receiving_status_present": {
+          "matched": true
+        },
+        "refusal_visibility_preserved": {
+          "matched": true
+        },
+        "source_artifact_path_visible": {
+          "matched": true
+        },
+        "validation_summary_present": {
+          "matched": true
+        }
+      }
+    },
+    {
+      "counts": {
+        "accepted_action_count": {
+          "ingress": 6,
+          "matched": true,
+          "source": 6
+        },
+        "coexistence_relation_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "evolve_record_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "hold_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "object_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "open_object_count": {
+          "ingress": 2,
+          "matched": true,
+          "source": 2
+        },
+        "refusal_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "refused_action_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "resolved_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "successor_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "transition_record_count": {
+          "ingress": 7,
+          "matched": true,
+          "source": 7
+        }
+      },
+      "ingress_decision_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/04_hold_blocks_one_target_while_another_proceeds__receiving_ingress_decision.json",
+      "ingress_receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/04_hold_blocks_one_target_while_another_proceeds__receiving_packet.json",
+      "matched": true,
+      "mismatches": [],
+      "non_claims": {
+        "continuity_completed": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        }
+      },
+      "scenario_id": "hold_blocks_one_target_while_another_proceeds",
+      "scenario_name": "HOLD Blocks One Target While Another Proceeds",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/04_hold_blocks_one_target_while_another_proceeds.json",
+      "visibility": {
+        "ingress_decision_path_present": {
+          "matched": true
+        },
+        "ingress_decision_summary_present": {
+          "matched": true
+        },
+        "lineage_visibility_preserved": {
+          "matched": true
+        },
+        "receiving_packet_path_present": {
+          "matched": true
+        },
+        "receiving_status_present": {
+          "matched": true
+        },
+        "refusal_visibility_preserved": {
+          "matched": true
+        },
+        "source_artifact_path_visible": {
+          "matched": true
+        },
+        "validation_summary_present": {
+          "matched": true
+        }
+      }
+    },
+    {
+      "counts": {
+        "accepted_action_count": {
+          "ingress": 4,
+          "matched": true,
+          "source": 4
+        },
+        "coexistence_relation_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "evolve_record_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "hold_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "open_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "refusal_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "refused_action_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "resolved_object_count": {
+          "ingress": 1,
+          "matched": true,
+          "source": 1
+        },
+        "successor_object_count": {
+          "ingress": 0,
+          "matched": true,
+          "source": 0
+        },
+        "transition_record_count": {
+          "ingress": 5,
+          "matched": true,
+          "source": 5
+        }
+      },
+      "ingress_decision_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal__receiving_ingress_decision.json",
+      "ingress_receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal__receiving_packet.json",
+      "matched": true,
+      "mismatches": [],
+      "non_claims": {
+        "continuity_completed": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "merged_into_local_state": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "replayed_into_live_host": {
+          "actual": {
+            "decision_status": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        },
+        "standing_upgraded": {
+          "actual": {
+            "decision_status": false,
+            "ingress_decision": false,
+            "receiving_status": false
+          },
+          "expected": false,
+          "matched": true
+        }
+      },
+      "scenario_id": "same_matter_post_resolution_refusal",
+      "scenario_name": "Same-Matter Post-Resolution Refusal",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal.json",
+      "visibility": {
+        "ingress_decision_path_present": {
+          "matched": true
+        },
+        "ingress_decision_summary_present": {
+          "matched": true
+        },
+        "lineage_visibility_preserved": {
+          "matched": true
+        },
+        "receiving_packet_path_present": {
+          "matched": true
+        },
+        "receiving_status_present": {
+          "matched": true
+        },
+        "refusal_visibility_preserved": {
+          "matched": true
+        },
+        "source_artifact_path_visible": {
+          "matched": true
+        },
+        "validation_summary_present": {
+          "matched": true
+        }
+      }
+    }
+  ],
+  "source_run": {
+    "source_manifest_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/manifest.json",
+    "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "source_scenario_count": 5
+  }
+}

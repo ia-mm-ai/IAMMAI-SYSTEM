@@ -1,0 +1,32 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_002",
+  "ingress_record_id": "ingress-record-b43d25e1ca814e65ac100d4ac20cd525",
+  "ingressed_at": "2026-04-03T18:59:06Z",
+  "receiving_carrier_label": "receiving-side-carrier",
+  "receiving_execution_id": "execution-13de737f57f9406584093fbe1557c7d1",
+  "parser_mode": "clean",
+  "parser_contaminated": false,
+  "package_path": "transfer_package__clean.json",
+  "package_id": "transfer-package-130974203a9a468c9f855bb35b3c9c7b",
+  "artifact_family": "witness_artifact",
+  "witness_id": "witness-64c99575691e430aa81ed62b64c90576",
+  "source_carrier_label": "source-side-carrier",
+  "source_execution_id": "execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+  "technical_receipt": true,
+  "package_valid": true,
+  "ingress_lawful": true,
+  "ingress_outcome": "lawful_derivative_ingress",
+  "arrival_status": "derivative_only",
+  "source_remains_source": true,
+  "shared_authority": false,
+  "standing_upgraded": false,
+  "source_fault": false,
+  "source_legibility_status": "preserved",
+  "reasoning": [
+    "Technical receipt occurred on the receiving-side carrier.",
+    "The carried package is valid and the source-side release remains legible.",
+    "The receiving parser/governance can preserve derivative-only arrival without silent authority inheritance.",
+    "Source remains source and arrival is derivative-only under lawful ingress."
+  ],
+  "note": "Bounded clean ingress record only. The arriving witness remains derivative-only and does not become receiving-side standing by receipt."
+}

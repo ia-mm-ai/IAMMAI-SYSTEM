@@ -1,0 +1,515 @@
+{
+  "block": {
+    "code": null,
+    "reason": null
+  },
+  "carried_surface_basis": {
+    "carried_surface_filename": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "carried_surface_id": "current_body_standing_closure_post_conformance",
+    "carried_surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+    "carried_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_body_standing_closure_post_conformance/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "carried_surface_type": "post_conformance_closure",
+    "selected_upstream_basis": null,
+    "separately_supplied_surface": false,
+    "separately_supplied_surface_id": null,
+    "separately_supplied_surface_matches_packet_basis": true,
+    "separately_supplied_surface_outcome": null,
+    "separately_supplied_surface_path": null,
+    "source_downstream_posture": "carried_surface_remains_carried_downstream_evidence"
+  },
+  "carried_surface_integrity_check": {
+    "actual_byte_length": 23014,
+    "byte_length_matches": true,
+    "checked_source": "artifacts/integrity_host_v0_min_coexistence_current_body_standing_closure_post_conformance/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "computed_hash": "47d7a87ea2826d40d2b8f9e08617f220b5f916f03b3c3f8e723fabb64907481f",
+    "created_exported_at": "2026-04-28T09:40:23.001086Z",
+    "declared_byte_length": 23014,
+    "declared_hash": "47d7a87ea2826d40d2b8f9e08617f220b5f916f03b3c3f8e723fabb64907481f",
+    "hash_algorithm": "sha256",
+    "hash_check_passed": true,
+    "hash_matches": true,
+    "integrity_basis_satisfied": true,
+    "integrity_checked": true,
+    "integrity_evidence_preserved": true,
+    "integrity_not_required": false,
+    "integrity_required": true
+  },
+  "cross_carrier_surface_receipt_metadata": {
+    "cross_carrier_surface_receipt_result_id": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+    "cross_carrier_surface_receipt_result_type": "cross_carrier_surface_receipt_boundary_result",
+    "cross_carrier_surface_receipt_result_version": "0.1.0",
+    "generated_at": "2026-04-28T09:40:23.002102Z",
+    "resolver_module": "resolve_cross_carrier_surface_receipt_boundary"
+  },
+  "cross_carrier_surface_receipt_summary": {
+    "action_authorized": false,
+    "block_code": null,
+    "block_reason": null,
+    "carried_surface_became_currentness": false,
+    "carried_surface_became_permission": false,
+    "carried_surface_became_signal": false,
+    "carried_surface_became_source": false,
+    "carried_surface_filename": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "carried_surface_id": "current_body_standing_closure_post_conformance",
+    "carried_surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+    "carried_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_body_standing_closure_post_conformance/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "carried_surface_received": true,
+    "computed_hash": "47d7a87ea2826d40d2b8f9e08617f220b5f916f03b3c3f8e723fabb64907481f",
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "declared_hash": "47d7a87ea2826d40d2b8f9e08617f220b5f916f03b3c3f8e723fabb64907481f",
+    "distributed_standing_created": false,
+    "failed_check_count": 0,
+    "hash_algorithm": "sha256",
+    "integrity_checked": true,
+    "integrity_evidence_preserved": true,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carried_surface_became_currentness": false,
+      "carried_surface_became_permission": false,
+      "carried_surface_became_signal_by_default": false,
+      "carried_surface_became_source": false,
+      "carrier_merge_performed": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "latest_file_currentness": false,
+      "local_copy_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "receiving_carrier_became_authority": false,
+      "receiving_carrier_became_current": false,
+      "receiving_carrier_became_source": false,
+      "receiving_carrier_became_successor": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "source_body_replayed": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "upstream_mechanisms_run": false
+    },
+    "multi_carrier_law_created": false,
+    "outcome": "CARRIED_SURFACE_RECEIVED",
+    "passed_check_count": 34,
+    "presence_established": false,
+    "received_as_carried_evidence": true,
+    "receiving_carrier_became_authority": false,
+    "receiving_carrier_became_current": false,
+    "receiving_carrier_became_source": false,
+    "receiving_carrier_became_successor": false,
+    "receiving_carrier_declared": true,
+    "receiving_carrier_id": "carrier_B_receiving_candidate",
+    "receiving_carrier_label": null,
+    "source_carrier_id": "carrier_A_current_macbook",
+    "source_carrier_label": null,
+    "source_carrier_preserved": true,
+    "threshold_met": false,
+    "truth_created": false
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "carried_surface_became_currentness": false,
+    "carried_surface_became_permission": false,
+    "carried_surface_became_signal_by_default": false,
+    "carried_surface_became_source": false,
+    "carrier_merge_performed": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "latest_file_currentness": false,
+    "local_copy_currentness": false,
+    "merge_performed": false,
+    "multi_carrier_law_created": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "presence_established": false,
+    "receiving_carrier_became_authority": false,
+    "receiving_carrier_became_current": false,
+    "receiving_carrier_became_source": false,
+    "receiving_carrier_became_successor": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "source_body_replayed": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "upstream_mechanisms_run": false
+  },
+  "outcome": "CARRIED_SURFACE_RECEIVED",
+  "receipt_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "explicit_inputs_are_parseable_mappings",
+      "expected_posture": "explicit packet and surface inputs parse as mappings",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_A_current_macbook",
+      "block_code": null,
+      "check_name": "source_carrier_exists",
+      "expected_posture": "source carrier identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "source_carrier_for_this_carried_packet_only",
+      "block_code": null,
+      "check_name": "source_carrier_role_is_packet_limited",
+      "expected_posture": "source carrier role is limited to this carried packet",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_B_receiving_candidate",
+      "block_code": null,
+      "check_name": "receiving_carrier_exists",
+      "expected_posture": "receiving carrier identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "receiving_carrier",
+      "block_code": null,
+      "check_name": "receiving_carrier_role_is_receiving_carrier",
+      "expected_posture": "receiving carrier role is declared without source/current/authority upgrade",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "carried_surface_exists",
+      "expected_posture": "carried surface basis is present",
+      "passed": true
+    },
+    {
+      "actual_posture": "current_body_standing_closure_post_conformance",
+      "block_code": null,
+      "check_name": "carried_surface_has_identity",
+      "expected_posture": "carried surface identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "CONFORMANCE_CLOSURE_RECORDED",
+      "block_code": null,
+      "check_name": "carried_surface_has_outcome",
+      "expected_posture": "carried surface outcome or status is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "packet_surface_id": "current_body_standing_closure_post_conformance",
+        "packet_surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+        "supplied_surface_id": null,
+        "supplied_surface_outcome": null
+      },
+      "block_code": null,
+      "check_name": "supplied_carried_surface_matches_packet_basis",
+      "expected_posture": "separately supplied surface does not contradict carried packet basis",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "integrity_evidence_preserved": true,
+        "integrity_required": true
+      },
+      "block_code": null,
+      "check_name": "carried_surface_integrity_basis_present_or_not_required",
+      "expected_posture": "integrity evidence is present or explicitly not required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "byte_length_matches": true,
+        "hash_matches": true,
+        "integrity_checked": true
+      },
+      "block_code": null,
+      "check_name": "carried_surface_hash_matches_where_checked",
+      "expected_posture": "hash and byte-length match when checked",
+      "passed": true
+    },
+    {
+      "actual_posture": "Receipt-only preflight for one post-conformance closure surface crossing a carrier boundary without source, currentness, authority, permission, successor, or body collapse.",
+      "block_code": null,
+      "check_name": "receipt_purpose_declared",
+      "expected_posture": "receipt purpose is declared and non-empty",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carried_surface_became_source": false,
+        "receiving_carrier_became_source": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "receiving_carrier_is_not_source",
+      "expected_posture": "receiving carrier and carried surface remain non-source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carried_surface_became_currentness": false,
+        "currentness_created": false,
+        "receiving_carrier_became_current": false
+      },
+      "block_code": null,
+      "check_name": "receiving_carrier_is_not_current",
+      "expected_posture": "receipt creates no currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "receiving_carrier_became_authority": false
+      },
+      "block_code": null,
+      "check_name": "receiving_carrier_is_not_authority",
+      "expected_posture": "receipt creates no authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carried_surface_became_permission": false,
+        "permission_created": false
+      },
+      "block_code": null,
+      "check_name": "receipt_creates_no_permission",
+      "expected_posture": "receipt creates no permission",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receiving_carrier_is_not_successor",
+      "expected_posture": "receipt creates no successor standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_merge_performed": false,
+        "receiving_carrier_id": "carrier_B_receiving_candidate",
+        "source_carrier_id": "carrier_A_current_macbook"
+      },
+      "block_code": null,
+      "check_name": "carriers_are_not_merged",
+      "expected_posture": "source and receiving carriers remain distinct",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false,
+        "local_copy_currentness": false,
+        "recency_fraud": false
+      },
+      "block_code": null,
+      "check_name": "local_copy_is_not_currentness",
+      "expected_posture": "latest local copy is not treated as current",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_mutate_carried_surface",
+      "expected_posture": "receipt performs no mutation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "replay_performed": false,
+        "source_body_replayed": false
+      },
+      "block_code": null,
+      "check_name": "source_body_is_not_replayed",
+      "expected_posture": "receipt does not replay source body",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "upstream_mechanisms_are_not_run",
+      "expected_posture": "receipt runs no upstream mechanisms",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "continuation_is_not_authorized",
+      "expected_posture": "receipt authorizes no continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "carried_surface_is_not_signal_by_default",
+      "expected_posture": "receipt creates no signal by default",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_establish_presence",
+      "expected_posture": "receipt establishes no presence",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_establish_threshold",
+      "expected_posture": "receipt establishes no threshold",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_create_truth",
+      "expected_posture": "receipt creates no truth",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_authorize_action",
+      "expected_posture": "receipt authorizes no action",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receipt_does_not_create_consequence",
+      "expected_posture": "receipt creates no consequence",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "multi_carrier_law_is_not_created",
+      "expected_posture": "receipt creates no multi-carrier law",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distributed_standing_is_not_created",
+      "expected_posture": "receipt creates no distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "mutation_replay_merge_remain_false",
+      "expected_posture": "mutation, replay, and merge remain false",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "byte_transfer_is_not_treated_as_lawful_receipt",
+      "expected_posture": "receipt is explicit lawful receipt, not byte transfer alone",
+      "passed": true
+    },
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "required_non_claims_remain_false",
+      "expected_posture": "all required packet non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "receipt_non_meaning": {
+    "does_not_authorize_action": true,
+    "does_not_authorize_continuation": true,
+    "does_not_authorize_execution": true,
+    "does_not_create_consequence": true,
+    "does_not_create_distributed_standing": true,
+    "does_not_create_local_copy_currentness": true,
+    "does_not_create_multi_carrier_law": true,
+    "does_not_create_receiving_carrier_authority": true,
+    "does_not_create_receiving_carrier_currentness": true,
+    "does_not_create_receiving_carrier_permission": true,
+    "does_not_create_receiving_carrier_sourcehood": true,
+    "does_not_create_signal_by_default": true,
+    "does_not_create_successor_standing": true,
+    "does_not_create_truth": true,
+    "does_not_establish_presence": true,
+    "does_not_establish_threshold": true,
+    "does_not_form_body": true,
+    "does_not_mean_byte_transfer_alone": true,
+    "does_not_merge_carriers": true,
+    "does_not_replace_source": true,
+    "does_not_synchronize_repo": true,
+    "does_not_transfer_full_repo": true
+  },
+  "receipt_statement": {
+    "block_code": null,
+    "blocked_receipt_does_not_invalidate_carried_surface": false,
+    "carried_surface_became_currentness": false,
+    "carried_surface_became_permission": false,
+    "carried_surface_became_source": false,
+    "carried_surface_identity_preserved": true,
+    "carried_surface_outcome_preserved": true,
+    "carried_surface_received": true,
+    "distributed_standing_created": false,
+    "integrity_checked": true,
+    "integrity_evidence_preserved": true,
+    "multi_carrier_law_created": false,
+    "receipt_authorized_action": false,
+    "receipt_authorized_continuation": false,
+    "receipt_created_consequence": false,
+    "receipt_created_signal_by_default": false,
+    "receipt_created_truth": false,
+    "receipt_established_presence": false,
+    "receipt_established_threshold": false,
+    "received_as_carried_evidence": true,
+    "receiving_carrier_became_authority": false,
+    "receiving_carrier_became_current": false,
+    "receiving_carrier_became_source": false,
+    "receiving_carrier_became_successor": false,
+    "receiving_carrier_declared": true,
+    "source_carrier_preserved": true
+  },
+  "receiving_carrier_basis": {
+    "receiving_carrier_declared": true,
+    "receiving_carrier_does_not_become_source_current_or_authority": true,
+    "receiving_carrier_id": "carrier_B_receiving_candidate",
+    "receiving_carrier_label": null,
+    "receiving_carrier_role": "receiving_carrier"
+  },
+  "source_carrier_basis": {
+    "local_path_context": "artifacts/integrity_host_v0_min_coexistence_current_body_standing_closure_post_conformance/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__current_body_standing_closure_post_conformance_result.json",
+    "source_carrier_id": "carrier_A_current_macbook",
+    "source_carrier_label": null,
+    "source_carrier_role": "source_carrier_for_this_carried_packet_only",
+    "source_carrier_role_limited_to_this_packet": true,
+    "universal_source_authority_created": false
+  },
+  "what_remains_open": {
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "open_surfaces": [
+      "portable receipt implementation refinement",
+      "cross-carrier receipt test on physical second carrier",
+      "multi-carrier relation law",
+      "distributed standing",
+      "persistence/registry law",
+      "presence law",
+      "threshold law",
+      "truth law",
+      "action/consequence law",
+      "generalized vessel relation lifecycle",
+      "body relevance medium",
+      "signal series or accumulation logic",
+      "future self-orientation successor only if separately justified"
+    ]
+  }
+}

@@ -1,0 +1,952 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "carrier_lifecycle_metadata": {
+    "carrier_lifecycle_result_id": "carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_status_recorded",
+    "carrier_lifecycle_result_type": "carrier_lifecycle_boundary_result",
+    "carrier_lifecycle_result_version": "0.1.0",
+    "generated_at": "2026-04-29T12:53:39+00:00",
+    "resolver_module": "resolve_carrier_lifecycle_boundary"
+  },
+  "carrier_lifecycle_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "authority_created": false,
+      "carrier_lifecycle_authorized_full_body_transfer": false,
+      "carrier_lifecycle_authorized_sync": false,
+      "carrier_lifecycle_created_distributed_standing": false,
+      "carrier_lifecycle_created_hierarchy": false,
+      "carrier_lifecycle_created_registry": false,
+      "carrier_lifecycle_erased_evidence": false,
+      "carrier_lifecycle_hid_corruption": false,
+      "carrier_lifecycle_hid_divergence": false,
+      "carrier_lifecycle_hid_refusal": false,
+      "carrier_lifecycle_repaired_by_overwrite": false,
+      "carrier_registry_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "losing_carrier_invalidated": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "source_replaced": false,
+      "winning_carrier_selected": false
+    },
+    "lifecycle_basis": {
+      "carrier_hierarchy_created": false,
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "currentness_participation_remained_participation": true,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "experiment_id": "carrier_c_additional_physical_receiving_experiment_001",
+      "experiment_scope": "one additional physical receiving carrier, one selected carried surface or packet",
+      "lifecycle_status_basis": "returned_blocked_receipt_evidence_preserved_as_lifecycle_basis",
+      "prior_evidence_preserved": true,
+      "registry_created": false,
+      "selected_carried_surface_or_packet": "current_body_standing_closure_post_conformance",
+      "visible_divergence_preserved": true,
+      "visible_refusal_preserved": true
+    },
+    "lifecycle_intent": "RECORD_CARRIER_LIFECYCLE_STATUS",
+    "lifecycle_question": "May Carrier C be recorded as CARRIER_REFUSED_OR_BLOCKED for the bounded additional physical receiving-carrier experiment, based on its returned blocked receipt evidence and preserved B/C divergence, without erasing evidence, creating currentness, creating carrier hierarchy, creating distributed standing, creating registry authority, authorizing synchronization, or authorizing continuation?",
+    "lifecycle_request_id": "carrier_c_lifecycle_refused_or_blocked_001",
+    "lifecycle_status_recorded": true,
+    "no_carrier_hierarchy": true,
+    "no_continuation": true,
+    "no_distributed_operation": true,
+    "no_distributed_standing": true,
+    "no_registry_sync_full_body_transfer": true,
+    "no_source_currentness_authority_permission": true,
+    "no_winning_losing_carrier_collapse": true,
+    "outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+    "passed_check_count": 37,
+    "prior_evidence_erased": false,
+    "prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION",
+    "related_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+      "carrier_c_returned_blocked_receipt_currentness_participation_001",
+      "carrier_b_c_relation_conformance_closure_001"
+    ],
+    "related_evidence_outcomes": [
+      "BLOCKED",
+      "CARRIER_DIVERGENCE_RECORDED",
+      "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+      "MULTI_CARRIER_RELATION_CONFORMANCE_CLOSED"
+    ],
+    "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+    "selected_carrier_id": "carrier_C_additional_physical_candidate",
+    "transition_basis": {
+      "basis": "Carrier C executed the bounded receipt/refusal operation and returned a BLOCKED receipt artifact.",
+      "currentness_participation_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+      "returned_artifact_block_code": null,
+      "returned_artifact_outcome": "BLOCKED",
+      "returned_artifact_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+      "transition": "CARRIER_ACTIVE_FOR_OPERATION -> CARRIER_REFUSED_OR_BLOCKED",
+      "visible_divergence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json"
+    },
+    "visible_corruption_preserved": false,
+    "visible_divergence_preserved": false,
+    "visible_refusal_preserved": false,
+    "visible_staleness_preserved": false
+  },
+  "declared_lifecycle_question": {
+    "declared_non_claims": {
+      "authority_created": false,
+      "carrier_lifecycle_authorized_continuation": false,
+      "carrier_lifecycle_authorized_distributed_operation": false,
+      "carrier_lifecycle_authorized_full_body_transfer": false,
+      "carrier_lifecycle_authorized_sync": false,
+      "carrier_lifecycle_created_authority": false,
+      "carrier_lifecycle_created_currentness": false,
+      "carrier_lifecycle_created_distributed_standing": false,
+      "carrier_lifecycle_created_hierarchy": false,
+      "carrier_lifecycle_created_permission": false,
+      "carrier_lifecycle_created_registry": false,
+      "carrier_lifecycle_created_source": false,
+      "carrier_lifecycle_erased_evidence": false,
+      "carrier_lifecycle_hid_corruption": false,
+      "carrier_lifecycle_hid_divergence": false,
+      "carrier_lifecycle_hid_refusal": false,
+      "carrier_lifecycle_repaired_by_overwrite": false,
+      "carrier_registry_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "losing_carrier_invalidated": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "source_replaced": false,
+      "winning_carrier_selected": false
+    },
+    "lifecycle_does_not_authorize_continuation": true,
+    "lifecycle_does_not_authorize_distributed_operation": true,
+    "lifecycle_intent": "RECORD_CARRIER_LIFECYCLE_STATUS",
+    "lifecycle_is_not_currentness": true,
+    "lifecycle_is_not_distributed_standing": true,
+    "lifecycle_is_not_registry": true,
+    "lifecycle_question": "May Carrier C be recorded as CARRIER_REFUSED_OR_BLOCKED for the bounded additional physical receiving-carrier experiment, based on its returned blocked receipt evidence and preserved B/C divergence, without erasing evidence, creating currentness, creating carrier hierarchy, creating distributed standing, creating registry authority, authorizing synchronization, or authorizing continuation?",
+    "lifecycle_request_id": "carrier_c_lifecycle_refused_or_blocked_001",
+    "lifecycle_request_path": null,
+    "not_recorded_reason": null,
+    "operator_note": null,
+    "records_one_carrier_lifecycle_question": true,
+    "selected_admission_basis": null,
+    "selected_currentness_basis": null,
+    "selected_experiment_basis": null,
+    "selected_relation_basis": null
+  },
+  "lifecycle_basis": {
+    "lifecycle_basis_declared": true,
+    "lifecycle_basis_preserved": true,
+    "lifecycle_does_not_authorize_continuation": true,
+    "lifecycle_does_not_create_distributed_standing": true,
+    "lifecycle_does_not_create_source_currentness_authority_permission": true,
+    "lifecycle_preserves_prior_evidence": true,
+    "raw_lifecycle_basis": {
+      "carrier_hierarchy_created": false,
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "currentness_participation_remained_participation": true,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "experiment_id": "carrier_c_additional_physical_receiving_experiment_001",
+      "experiment_scope": "one additional physical receiving carrier, one selected carried surface or packet",
+      "lifecycle_status_basis": "returned_blocked_receipt_evidence_preserved_as_lifecycle_basis",
+      "prior_evidence_preserved": true,
+      "registry_created": false,
+      "selected_carried_surface_or_packet": "current_body_standing_closure_post_conformance",
+      "visible_divergence_preserved": true,
+      "visible_refusal_preserved": true
+    },
+    "selected_admission_basis": null,
+    "selected_currentness_basis": null,
+    "selected_experiment_basis": null,
+    "selected_relation_basis": null,
+    "visible_corruption_available": false,
+    "visible_corruption_basis": null,
+    "visible_corruption_preserved": true,
+    "visible_divergence_available": false,
+    "visible_divergence_basis": null,
+    "visible_divergence_preserved": true,
+    "visible_refusal_available": false,
+    "visible_refusal_basis": null,
+    "visible_refusal_preserved": true,
+    "visible_staleness_available": false,
+    "visible_staleness_basis": null,
+    "visible_staleness_preserved": true
+  },
+  "lifecycle_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_lifecycle_request_parseable_mapping",
+      "expected_posture": "declared lifecycle request is a parseable mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "May Carrier C be recorded as CARRIER_REFUSED_OR_BLOCKED for the bounded additional physical receiving-carrier experiment, based on its returned blocked receipt evidence and preserved B/C divergence, without erasing evidence, creating currentness, creating carrier hierarchy, creating distributed standing, creating registry authority, authorizing synchronization, or authorizing continuation?",
+      "block_code": null,
+      "check_name": "lifecycle_question_declared",
+      "expected_posture": "lifecycle question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_CARRIER_LIFECYCLE_STATUS",
+      "block_code": null,
+      "check_name": "lifecycle_intent_supported",
+      "expected_posture": "lifecycle intent is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_C_additional_physical_candidate",
+      "block_code": null,
+      "check_name": "carrier_identity_declared",
+      "expected_posture": "selected carrier identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIER_REFUSED_OR_BLOCKED",
+      "block_code": null,
+      "check_name": "requested_lifecycle_status_declared",
+      "expected_posture": "requested lifecycle status is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIER_REFUSED_OR_BLOCKED",
+      "block_code": null,
+      "check_name": "requested_lifecycle_status_supported",
+      "expected_posture": "requested lifecycle status is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIER_ACTIVE_FOR_OPERATION",
+      "block_code": null,
+      "check_name": "prior_lifecycle_status_supported_where_supplied",
+      "expected_posture": "prior lifecycle status is supported where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_hierarchy_created": false,
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "currentness_participation_remained_participation": true,
+        "distributed_operation_authorized": false,
+        "distributed_standing_created": false,
+        "experiment_id": "carrier_c_additional_physical_receiving_experiment_001",
+        "experiment_scope": "one additional physical receiving carrier, one selected carried surface or packet",
+        "lifecycle_status_basis": "returned_blocked_receipt_evidence_preserved_as_lifecycle_basis",
+        "prior_evidence_preserved": true,
+        "registry_created": false,
+        "selected_carried_surface_or_packet": "current_body_standing_closure_post_conformance",
+        "visible_divergence_preserved": true,
+        "visible_refusal_preserved": true
+      },
+      "block_code": null,
+      "check_name": "lifecycle_basis_declared",
+      "expected_posture": "lifecycle basis is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "length": 4,
+        "type": "list"
+      },
+      "block_code": null,
+      "check_name": "related_evidence_parseable_where_supplied",
+      "expected_posture": "related carrier evidence is parseable where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis": "Carrier C executed the bounded receipt/refusal operation and returned a BLOCKED receipt artifact.",
+        "currentness_participation_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+        "returned_artifact_block_code": null,
+        "returned_artifact_outcome": "BLOCKED",
+        "returned_artifact_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "transition": "CARRIER_ACTIVE_FOR_OPERATION -> CARRIER_REFUSED_OR_BLOCKED",
+        "visible_divergence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json"
+      },
+      "block_code": null,
+      "check_name": "transition_basis_supplied_where_required",
+      "expected_posture": "transition basis is supplied where prior status changes",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION",
+        "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED"
+      },
+      "block_code": null,
+      "check_name": "transition_supported_where_applicable",
+      "expected_posture": "transition is supported where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_erased_evidence": false,
+        "evidence_erased": false,
+        "evidence_overwritten": false,
+        "lifecycle_erases_evidence": false,
+        "prior_evidence_erased": false
+      },
+      "block_code": null,
+      "check_name": "prior_evidence_preserved",
+      "expected_posture": "prior evidence is preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "visible_refusal_available": false,
+        "visible_refusal_preserved": true
+      },
+      "block_code": null,
+      "check_name": "visible_refusal_preserved_where_applicable",
+      "expected_posture": "visible refusal remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "visible_divergence_available": false,
+        "visible_divergence_preserved": true
+      },
+      "block_code": null,
+      "check_name": "visible_divergence_preserved_where_applicable",
+      "expected_posture": "visible divergence remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "visible_corruption_available": false,
+        "visible_corruption_preserved": true
+      },
+      "block_code": null,
+      "check_name": "visible_corruption_preserved_where_applicable",
+      "expected_posture": "visible corruption remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "visible_staleness_available": false,
+        "visible_staleness_preserved": true
+      },
+      "block_code": null,
+      "check_name": "visible_staleness_preserved_where_applicable",
+      "expected_posture": "visible staleness remains visible where applicable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_erased_evidence": false,
+        "evidence_erased": false,
+        "evidence_overwritten": false,
+        "lifecycle_erases_evidence": false,
+        "prior_evidence_erased": false
+      },
+      "block_code": null,
+      "check_name": "no_evidence_erased",
+      "expected_posture": "lifecycle does not erase evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_hid_refusal": false,
+        "hidden_refusal": false,
+        "lifecycle_hides_refusal": false,
+        "refusal_hidden": false
+      },
+      "block_code": null,
+      "check_name": "no_refusal_hidden",
+      "expected_posture": "lifecycle does not hide refusal",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_hid_divergence": false,
+        "divergence_hidden": false,
+        "hidden_divergence": false,
+        "hidden_mismatch": false,
+        "lifecycle_hides_divergence": false,
+        "mismatch_hidden": false
+      },
+      "block_code": null,
+      "check_name": "no_divergence_hidden",
+      "expected_posture": "lifecycle does not hide divergence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_hid_corruption": false,
+        "corruption_hidden": false,
+        "hidden_corruption": false,
+        "lifecycle_hides_corruption": false
+      },
+      "block_code": null,
+      "check_name": "no_corruption_hidden",
+      "expected_posture": "lifecycle does not hide corruption",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_repaired_by_overwrite": false,
+        "lifecycle_repairs_by_overwrite": false,
+        "repair_by_overwrite": false,
+        "repaired_by_overwrite": false
+      },
+      "block_code": null,
+      "check_name": "no_repair_by_overwrite",
+      "expected_posture": "lifecycle does not repair by overwrite",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_became_source": false,
+        "carrier_lifecycle_created_source": false,
+        "lifecycle_replaces_source": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "no_source_replacement",
+      "expected_posture": "lifecycle does not replace source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_became_current": false,
+        "carrier_lifecycle_created_currentness": false,
+        "current_carrier_selected": false,
+        "currentness_created": false,
+        "lifecycle_creates_currentness": false
+      },
+      "block_code": null,
+      "check_name": "no_currentness",
+      "expected_posture": "lifecycle does not create currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "carrier_became_authority": false,
+        "carrier_lifecycle_created_authority": false,
+        "lifecycle_creates_authority": false
+      },
+      "block_code": null,
+      "check_name": "no_authority",
+      "expected_posture": "lifecycle does not create authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_created_permission": false,
+        "lifecycle_creates_permission": false,
+        "permission_beyond_declared_lifecycle_review_created": false,
+        "permission_created": false
+      },
+      "block_code": null,
+      "check_name": "no_permission",
+      "expected_posture": "lifecycle does not create permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_hierarchy_created": false,
+        "carrier_lifecycle_created_hierarchy": false,
+        "lifecycle_creates_carrier_hierarchy": false
+      },
+      "block_code": null,
+      "check_name": "no_carrier_hierarchy",
+      "expected_posture": "lifecycle does not create carrier hierarchy",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "lifecycle_selects_winning_carrier": false,
+        "winning_carrier_selected": false
+      },
+      "block_code": null,
+      "check_name": "no_winning_carrier_selected",
+      "expected_posture": "lifecycle does not select winning carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "lifecycle_invalidates_losing_carrier": false,
+        "losing_carrier_invalidated": false
+      },
+      "block_code": null,
+      "check_name": "no_losing_carrier_invalidated",
+      "expected_posture": "lifecycle does not invalidate losing carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_created_distributed_standing": false,
+        "distributed_standing_created": false,
+        "lifecycle_creates_distributed_standing": false
+      },
+      "block_code": null,
+      "check_name": "no_distributed_standing",
+      "expected_posture": "lifecycle does not create distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_authorized_sync": false,
+        "lifecycle_authorizes_repository_sync": false,
+        "repository_sync_authorized": false,
+        "repository_synchronization_authorized": false,
+        "repository_synchronization_created": false
+      },
+      "block_code": null,
+      "check_name": "no_repository_synchronization",
+      "expected_posture": "lifecycle does not authorize repository synchronization",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_authorized_full_body_transfer": false,
+        "full_body_transfer_authorized": false,
+        "full_body_transfer_created": false,
+        "lifecycle_authorizes_full_body_transfer": false
+      },
+      "block_code": null,
+      "check_name": "no_full_body_transfer",
+      "expected_posture": "lifecycle does not authorize full body transfer",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_created_registry": false,
+        "carrier_registry_authorized": false,
+        "carrier_registry_created": false,
+        "lifecycle_creates_carrier_registry": false
+      },
+      "block_code": null,
+      "check_name": "no_carrier_registry",
+      "expected_posture": "lifecycle does not create carrier registry",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_authorized_continuation": false,
+        "continuation_authorized": false,
+        "lifecycle_authorizes_continuation": false
+      },
+      "block_code": null,
+      "check_name": "no_continuation",
+      "expected_posture": "lifecycle does not authorize continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_lifecycle_authorized_distributed_operation": false,
+        "distributed_operation_authorized": false,
+        "lifecycle_authorizes_distributed_operation": false
+      },
+      "block_code": null,
+      "check_name": "no_distributed_operation",
+      "expected_posture": "lifecycle does not authorize distributed operation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false,
+        "recency_fraud": false
+      },
+      "block_code": null,
+      "check_name": "no_latest_file_currentness",
+      "expected_posture": "lifecycle does not use latest-file currentness or recency fraud",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "merge_requested": false,
+        "mutation_performed": false,
+        "mutation_requested": false,
+        "replay_performed": false,
+        "replay_requested": false
+      },
+      "block_code": null,
+      "check_name": "no_mutation_replay_merge",
+      "expected_posture": "lifecycle does not mutate, replay, or merge evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "carrier_lifecycle_authorized_continuation": false,
+        "carrier_lifecycle_authorized_distributed_operation": false,
+        "carrier_lifecycle_authorized_full_body_transfer": false,
+        "carrier_lifecycle_authorized_sync": false,
+        "carrier_lifecycle_created_authority": false,
+        "carrier_lifecycle_created_currentness": false,
+        "carrier_lifecycle_created_distributed_standing": false,
+        "carrier_lifecycle_created_hierarchy": false,
+        "carrier_lifecycle_created_permission": false,
+        "carrier_lifecycle_created_registry": false,
+        "carrier_lifecycle_created_source": false,
+        "carrier_lifecycle_erased_evidence": false,
+        "carrier_lifecycle_hid_corruption": false,
+        "carrier_lifecycle_hid_divergence": false,
+        "carrier_lifecycle_hid_refusal": false,
+        "carrier_lifecycle_repaired_by_overwrite": false,
+        "carrier_registry_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "distributed_operation_authorized": false,
+        "distributed_standing_created": false,
+        "full_body_transfer_authorized": false,
+        "latest_file_currentness": false,
+        "losing_carrier_invalidated": false,
+        "merge_performed": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "recency_fraud": false,
+        "replay_performed": false,
+        "repository_synchronization_authorized": false,
+        "second_body_created": false,
+        "source_replaced": false,
+        "winning_carrier_selected": false
+      },
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "required lifecycle non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "lifecycle_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_automatic_admission": true,
+    "does_not_mean_automatic_closure": true,
+    "does_not_mean_automatic_conformance": true,
+    "does_not_mean_automatic_currentness": true,
+    "does_not_mean_automatic_relation": true,
+    "does_not_mean_carrier_correctness": true,
+    "does_not_mean_carrier_hierarchy": true,
+    "does_not_mean_carrier_priority": true,
+    "does_not_mean_carrier_registry": true,
+    "does_not_mean_carrier_sovereignty": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_operation": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_divergence_resolved": true,
+    "does_not_mean_evidence_erased": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_losing_carrier_invalidated": true,
+    "does_not_mean_permission_beyond_declared_lifecycle_review": true,
+    "does_not_mean_persistence": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_refusal_erased": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source_replacement": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true,
+    "does_not_mean_winning_carrier": true
+  },
+  "lifecycle_statement": {
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "carrier_hierarchy_created": false,
+    "carrier_identity_preserved": true,
+    "carrier_lifecycle_status_recorded": true,
+    "carrier_registry_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "failed_check_count": 0,
+    "full_body_transfer_authorized": false,
+    "lifecycle_basis_preserved": true,
+    "lifecycle_created_body_participation": false,
+    "lifecycle_created_persistence": false,
+    "lifecycle_created_registry": false,
+    "lifecycle_merged_evidence": false,
+    "lifecycle_mutated_evidence": false,
+    "lifecycle_repaired_by_overwrite": false,
+    "lifecycle_replayed_evidence": false,
+    "losing_carrier_invalidated": false,
+    "not_recorded_reason": null,
+    "passed_check_count": 37,
+    "permission_created": false,
+    "prior_evidence_erased": false,
+    "prior_lifecycle_status_preserved": true,
+    "related_evidence_preserved": true,
+    "repository_synchronization_authorized": false,
+    "requested_lifecycle_status_preserved": true,
+    "source_replaced": false,
+    "transition_basis_preserved": true,
+    "visible_corruption_preserved": false,
+    "visible_divergence_preserved": false,
+    "visible_refusal_preserved": false,
+    "visible_staleness_preserved": false,
+    "winning_carrier_selected": false
+  },
+  "lifecycle_transition": {
+    "prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION",
+    "raw_lifecycle_transition": {
+      "prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION",
+      "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+      "transition_basis": {
+        "basis": "Carrier C executed the bounded receipt/refusal operation and returned a BLOCKED receipt artifact.",
+        "currentness_participation_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+        "returned_artifact_block_code": null,
+        "returned_artifact_outcome": "BLOCKED",
+        "returned_artifact_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "transition": "CARRIER_ACTIVE_FOR_OPERATION -> CARRIER_REFUSED_OR_BLOCKED",
+        "visible_divergence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json"
+      }
+    },
+    "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+    "transition_basis": {
+      "basis": "Carrier C executed the bounded receipt/refusal operation and returned a BLOCKED receipt artifact.",
+      "currentness_participation_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+      "returned_artifact_block_code": null,
+      "returned_artifact_outcome": "BLOCKED",
+      "returned_artifact_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+      "transition": "CARRIER_ACTIVE_FOR_OPERATION -> CARRIER_REFUSED_OR_BLOCKED",
+      "visible_divergence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json"
+    },
+    "transition_basis_preserved": true,
+    "transition_does_not_create_distributed_standing": true,
+    "transition_does_not_create_source_currentness_authority_permission": true,
+    "transition_does_not_erase_evidence": true,
+    "transition_is_not_registry": true,
+    "transition_preserves_affected_evidence": true,
+    "transition_preserves_new_status": true,
+    "transition_preserves_previous_status": true,
+    "transition_requested": true,
+    "transition_supported": true
+  },
+  "non_claims": {
+    "authority_created": false,
+    "carrier_lifecycle_authorized_continuation": false,
+    "carrier_lifecycle_authorized_distributed_operation": false,
+    "carrier_lifecycle_authorized_full_body_transfer": false,
+    "carrier_lifecycle_authorized_sync": false,
+    "carrier_lifecycle_created_authority": false,
+    "carrier_lifecycle_created_currentness": false,
+    "carrier_lifecycle_created_distributed_standing": false,
+    "carrier_lifecycle_created_hierarchy": false,
+    "carrier_lifecycle_created_permission": false,
+    "carrier_lifecycle_created_registry": false,
+    "carrier_lifecycle_created_source": false,
+    "carrier_lifecycle_erased_evidence": false,
+    "carrier_lifecycle_hid_corruption": false,
+    "carrier_lifecycle_hid_divergence": false,
+    "carrier_lifecycle_hid_refusal": false,
+    "carrier_lifecycle_repaired_by_overwrite": false,
+    "carrier_registry_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "full_body_transfer_authorized": false,
+    "latest_file_currentness": false,
+    "losing_carrier_invalidated": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "repository_synchronization_authorized": false,
+    "second_body_created": false,
+    "source_replaced": false,
+    "winning_carrier_selected": false
+  },
+  "outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+  "prior_lifecycle_status": {
+    "prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION",
+    "prior_lifecycle_status_preserved": true,
+    "prior_lifecycle_status_supplied": true,
+    "prior_lifecycle_status_supported_where_supplied": true,
+    "raw_prior_lifecycle_status": "CARRIER_ACTIVE_FOR_OPERATION"
+  },
+  "related_carrier_evidence": {
+    "raw_related_carrier_evidence": [
+      {
+        "block_code": null,
+        "block_reason": null,
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "evidence_outcome": "BLOCKED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "evidence_role": "returned_blocked_receipt_evidence"
+      },
+      {
+        "evidence_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+        "evidence_outcome": "CARRIER_DIVERGENCE_RECORDED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json",
+        "evidence_role": "visible_b_c_receipt_refusal_divergence",
+        "hidden_divergence": false,
+        "visible_divergence": true
+      },
+      {
+        "currentness_participation_remained_participation": true,
+        "evidence_id": "carrier_c_returned_blocked_receipt_currentness_participation_001",
+        "evidence_outcome": "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+        "evidence_role": "currentness_participation_evidence"
+      },
+      {
+        "carrier_hierarchy_created": false,
+        "currentness_created": false,
+        "distributed_standing_created": false,
+        "evidence_id": "carrier_b_c_relation_conformance_closure_001",
+        "evidence_outcome": "MULTI_CARRIER_RELATION_CONFORMANCE_CLOSED",
+        "evidence_path": "artifacts/integrity_host_v0_min_coexistence_multi_carrier_relation_conformance_closure/carrier_b_c_relation_conformance_closure_001.json",
+        "evidence_role": "closed_b_c_relation_conformance_meaning"
+      }
+    ],
+    "related_evidence_entries": [
+      {
+        "basis": null,
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "evidence_outcome_or_status": "BLOCKED",
+        "raw_evidence": {
+          "block_code": null,
+          "block_reason": null,
+          "carrier_id": "carrier_C_additional_physical_candidate",
+          "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+          "evidence_outcome": "BLOCKED",
+          "evidence_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+          "evidence_role": "returned_blocked_receipt_evidence"
+        }
+      },
+      {
+        "basis": null,
+        "carrier_id": null,
+        "evidence_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+        "evidence_outcome_or_status": "CARRIER_DIVERGENCE_RECORDED",
+        "raw_evidence": {
+          "evidence_id": "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+          "evidence_outcome": "CARRIER_DIVERGENCE_RECORDED",
+          "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_divergence_boundary/carrier_b_success__carrier_c_blocked_receipt_divergence_001__cross_carrier_divergence_result.json",
+          "evidence_role": "visible_b_c_receipt_refusal_divergence",
+          "hidden_divergence": false,
+          "visible_divergence": true
+        }
+      },
+      {
+        "basis": null,
+        "carrier_id": null,
+        "evidence_id": "carrier_c_returned_blocked_receipt_currentness_participation_001",
+        "evidence_outcome_or_status": "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+        "raw_evidence": {
+          "currentness_participation_remained_participation": true,
+          "evidence_id": "carrier_c_returned_blocked_receipt_currentness_participation_001",
+          "evidence_outcome": "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+          "evidence_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_currentness_boundary/carrier_c_returned_blocked_receipt_currentness_participation_001__cross_carrier_currentness_result.json",
+          "evidence_role": "currentness_participation_evidence"
+        }
+      },
+      {
+        "basis": null,
+        "carrier_id": null,
+        "evidence_id": "carrier_b_c_relation_conformance_closure_001",
+        "evidence_outcome_or_status": "MULTI_CARRIER_RELATION_CONFORMANCE_CLOSED",
+        "raw_evidence": {
+          "carrier_hierarchy_created": false,
+          "currentness_created": false,
+          "distributed_standing_created": false,
+          "evidence_id": "carrier_b_c_relation_conformance_closure_001",
+          "evidence_outcome": "MULTI_CARRIER_RELATION_CONFORMANCE_CLOSED",
+          "evidence_path": "artifacts/integrity_host_v0_min_coexistence_multi_carrier_relation_conformance_closure/carrier_b_c_relation_conformance_closure_001.json",
+          "evidence_role": "closed_b_c_relation_conformance_meaning"
+        }
+      }
+    ],
+    "related_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_b_success__carrier_c_blocked_receipt_divergence_001",
+      "carrier_c_returned_blocked_receipt_currentness_participation_001",
+      "carrier_b_c_relation_conformance_closure_001"
+    ],
+    "related_evidence_outcomes": [
+      "BLOCKED",
+      "CARRIER_DIVERGENCE_RECORDED",
+      "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+      "MULTI_CARRIER_RELATION_CONFORMANCE_CLOSED"
+    ],
+    "related_evidence_parseable": true,
+    "related_evidence_preserved": true,
+    "related_evidence_supplied": true
+  },
+  "requested_lifecycle_status": {
+    "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+    "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+    "requested_lifecycle_status_declared": true,
+    "requested_lifecycle_status_preserved": true,
+    "requested_lifecycle_status_supported": true
+  },
+  "selected_carrier": {
+    "carrier_identity_declared": true,
+    "carrier_identity_preserved": true,
+    "lifecycle_participant_not_body_participant": true,
+    "lifecycle_status_does_not_create_carrier_hierarchy": true,
+    "lifecycle_status_does_not_make_carrier_current": true,
+    "raw_selected_carrier": {
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "carrier_identity_preserved": true,
+      "lifecycle_participant_not_body_participant": true
+    },
+    "selected_carrier_declared": true,
+    "selected_carrier_id": "carrier_C_additional_physical_candidate"
+  },
+  "what_remains_open": {
+    "action_consequence_law": true,
+    "body_relevance_medium": true,
+    "carrier_lifecycle_implementation_refinement": true,
+    "carrier_registry_persistence_boundary": true,
+    "cross_carrier_currentness_successor_law": true,
+    "distributed_operation_only_if_separately_declared_and_bounded": true,
+    "distributed_standing": true,
+    "distributed_standing_boundary": true,
+    "divergence_consequence_law": true,
+    "future_self_orientation_successor_only_if_separately_justified": true,
+    "generalized_vessel_relation_lifecycle": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "persistence_registry_law": true,
+    "presence_law": true,
+    "signal_series_or_accumulation_logic": true,
+    "standing_propagation_law": true,
+    "successor_carrier_law": true,
+    "threshold_law": true,
+    "truth_law": true
+  }
+}

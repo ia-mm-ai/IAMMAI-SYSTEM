@@ -1,0 +1,30 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_001",
+  "execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+  "mode": "release_invalid",
+  "generated_at": "2026-04-03T15:37:24Z",
+  "run_directory": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+  "grounding_surfaces": [
+    {
+      "path": "SEAM_SURFACE_INDEX.md",
+      "exists": true,
+      "description": "Cross-rank seam index for the recurring lawful seam pattern."
+    },
+    {
+      "path": "SELF_CARRIED_COHERENCE.md",
+      "exists": true,
+      "description": "Prior threshold surface for self-carried enough crossing."
+    },
+    {
+      "path": "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md",
+      "exists": true,
+      "description": "Bounded seam-case law for contaminated channel, refusal, and seam outcomes."
+    },
+    {
+      "path": "v1/schemas/witness_artifact.schema.json",
+      "exists": true,
+      "description": "Canonical witness artifact body schema for the bounded source-side body."
+    }
+  ],
+  "note": "Visible grounding for a bounded lab proof only. These references do not replace source authority."
+}

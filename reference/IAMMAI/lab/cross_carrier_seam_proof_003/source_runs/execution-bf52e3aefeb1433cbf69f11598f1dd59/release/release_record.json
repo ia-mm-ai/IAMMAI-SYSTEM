@@ -1,0 +1,18 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_003",
+  "release_mode": "release",
+  "release_context_id": "release-context-6c076a5aa3e243d69a308405fedfa868",
+  "release_created_at": "2026-04-03T19:54:15Z",
+  "source_carrier_label": "source-side-carrier",
+  "source_execution_id": "execution-bf52e3aefeb1433cbf69f11598f1dd59",
+  "package_id": "transfer-package-02af9dff5a6a44518c823d2957976490",
+  "artifact_family": "witness_artifact",
+  "witness_id": "witness-fb0af49008764f0f96d6df6b01a0e341",
+  "matter_id": "matter-679699cca8664f0cbdf28b01587ae2b7",
+  "release_statement": "One source-side carrier releases one valid witness artifact package for receiver-local condition-dependent ingress.",
+  "seam_statement": "Source remains source. The same valid package may ingress lawfully or fail lawfully with visible non-passage depending on the receiver-local parser/governance condition.",
+  "receiver_local_condition_required": true,
+  "expected_ingress_under_admissible_receiver_local_condition": "lawful_derivative_ingress",
+  "expected_ingress_under_contaminated_receiver_local_condition": "receiver_local_contamination_non_passage",
+  "note": "Bounded source-side release record only. This does not create shared canonical state or transfer standing."
+}

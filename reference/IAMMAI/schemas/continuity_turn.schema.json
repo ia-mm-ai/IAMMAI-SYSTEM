@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:schema:continuity_turn",
+  "title": "IAMMAI Continuity Turn",
+  "description": "First bounded schema for continuity turns emitted in v0 for successful lawful bounded runs. A continuity turn links one bounded run and one bounded matter to preserved canonical artifacts without replacing validation, witness, governance, transition, state, or registry preservation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "turn_id",
+    "run_id",
+    "matter_ref",
+    "recorded_at"
+  ],
+  "properties": {
+    "turn_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the continuity turn."
+    },
+    "run_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the bounded successful run for which the continuity turn was emitted."
+    },
+    "matter_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the bounded matter linked to the run."
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the continuity turn was recorded."
+    },
+    "predecessor_turn_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional explicit reference to a prior continuity turn where lawful predecessor relation already exists. This remains optional in v0."
+    },
+    "validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a preserved validation artifact that helps anchor the continuity turn. The continuity turn does not replace validation."
+    },
+    "witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a preserved witness artifact that helps anchor the continuity turn. The continuity turn does not replace witness."
+    },
+    "governance_action_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a preserved governance action record that helps anchor the continuity turn. The continuity turn does not replace governance."
+    },
+    "transition_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a preserved transition record that helps anchor the continuity turn. The continuity turn does not replace transition."
+    },
+    "state_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a preserved state record that helps anchor the continuity turn. The continuity turn does not replace state."
+    }
+  },
+  "anyOf": [
+    {
+      "required": [
+        "validation_ref"
+      ]
+    },
+    {
+      "required": [
+        "witness_ref"
+      ]
+    },
+    {
+      "required": [
+        "governance_action_ref"
+      ]
+    },
+    {
+      "required": [
+        "transition_ref"
+      ]
+    },
+    {
+      "required": [
+        "state_ref"
+      ]
+    }
+  ]
+}

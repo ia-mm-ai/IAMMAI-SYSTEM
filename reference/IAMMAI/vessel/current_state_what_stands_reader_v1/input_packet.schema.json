@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI Current-State / What-Stands Reader Input Packet",
+  "description": "Input schema for the narrowed current_state_what_stands_reader_v1 vessel. Source access is governed by the local source manifest, and this packet does not permit caller-supplied scope widening, source selection, rank override, or authority expansion.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_id",
+    "request_id",
+    "question_class",
+    "question_text"
+  ],
+  "properties": {
+    "contract_id": {
+      "type": "string",
+      "const": "current_state_what_stands_reader_v1",
+      "description": "Fixed contract id for this narrowed vessel."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "Bounded request identifier for a single vessel call.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "question_class": {
+      "type": "string",
+      "enum": [
+        "current_state",
+        "what_stands_now"
+      ],
+      "description": "Allowed question class for this narrowed vessel."
+    },
+    "question_text": {
+      "type": "string",
+      "description": "Bounded natural-language request within the allowed question boundary.",
+      "minLength": 1,
+      "maxLength": 4000
+    },
+    "context_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Optional bounded operator note. It does not widen source access, authority, or scope.",
+      "maxLength": 500
+    }
+  },
+  "examples": [
+    {
+      "contract_id": "current_state_what_stands_reader_v1",
+      "request_id": "req_001",
+      "question_class": "current_state",
+      "question_text": "What stands now?",
+      "context_note": "Optional bounded operator note"
+    }
+  ]
+}

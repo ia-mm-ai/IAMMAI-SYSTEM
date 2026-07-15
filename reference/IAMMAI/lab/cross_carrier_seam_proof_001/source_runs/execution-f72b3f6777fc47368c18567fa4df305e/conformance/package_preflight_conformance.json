@@ -1,0 +1,18 @@
+{
+  "surface": "cross_carrier_release_package",
+  "conformance_kind": "ingress_legality",
+  "status": "fail",
+  "checked_at": "2026-04-03T15:37:24Z",
+  "artifact_family": "witness_artifact",
+  "validation_mode": "local_seam_package_reader",
+  "errors": [
+    {
+      "message": "Package attempts unlawful standing transfer on receipt."
+    },
+    {
+      "message": "Package does not preserve derivative-only arrival on lawful ingress."
+    }
+  ],
+  "package_ref": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/package/transfer_package.json",
+  "package_attempted_unlawful_standing_transfer": true
+}

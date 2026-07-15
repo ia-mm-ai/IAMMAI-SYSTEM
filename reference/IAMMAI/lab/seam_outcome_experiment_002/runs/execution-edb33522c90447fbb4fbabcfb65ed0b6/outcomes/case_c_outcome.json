@@ -1,0 +1,32 @@
+{
+  "case_id": "case_c",
+  "case_title": "Refusal because demanded participation would require false standing",
+  "expected_outcome_type": "refusal",
+  "outcome_type": "refusal",
+  "expected_outcome_matched": true,
+  "channel_condition": "demanding_false_standing",
+  "self_carried_coherence_threshold_met": false,
+  "failed_threshold_markers": [
+    "rank_not_stably_self-held",
+    "adaptation_would_become_ontological_rather_than_tactical"
+  ],
+  "upstream_constraints": [
+    "participation_demanded_under_false_terms",
+    "entry_would_require_false_full_belonging"
+  ],
+  "refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "refused",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "reasoning": "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default. Participation is being demanded under terms that would require false standing. Contact is not the same as consent, so the body can refuse the demanded false belonging claim. Refusal is the cleanest truthful outcome while threshold insufficiency remains unresolved. Field pressure is present, but this case is not being reduced to field contamination alone. Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing.",
+  "reasoning_points": [
+    "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default.",
+    "Participation is being demanded under terms that would require false standing.",
+    "Contact is not the same as consent, so the body can refuse the demanded false belonging claim.",
+    "Refusal is the cleanest truthful outcome while threshold insufficiency remains unresolved.",
+    "Field pressure is present, but this case is not being reduced to field contamination alone.",
+    "Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing."
+  ]
+}

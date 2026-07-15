@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "snapshot_type": "v1_run_lineage_snapshot",
+    "generated_at": "2026-04-04T15:11:47Z",
+    "implementation_posture": "implementation_local_readability_only",
+    "snapshot_path": "v1/registry/snapshots/run_lineage_snapshot__20260404T151147Z.json",
+    "snapshot_source_root": "v1/registry/runs",
+    "snapshot_root": "v1/registry/snapshots",
+    "ordering_note": "Entries are ordered by run_inventory turn-rank readability, then execution identity, then run directory. This is implementation-local readability support only.",
+    "counts": {
+      "ordinary_runs": 4,
+      "continuity_runs": 6,
+      "unknown_runs": 0
+    }
+  },
+  "ordinary_line": {
+    "line_name": "ordinary",
+    "run_count": 4,
+    "operative_surfaces_seen": [
+      "shared_conformance",
+      "shared_identifier_generation",
+      "shared_preservation_layout"
+    ],
+    "threshold_entries": [
+      {
+        "execution_identity": "execution-9e1ab4ec88734dfcb5c257bf77976624",
+        "run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+        "summary_type": "v1_fourth_proof_slice_summary",
+        "turn_reading": "Fourth ordinary proof-slice turn with shared identifier generation operative.",
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_identifier_generation",
+          "shared_preservation_layout"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "run_class": "ordinary_run",
+        "execution_identity": "execution-27f859757072456cbb8fe63f562bcc29",
+        "run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "continuity_directory": null,
+        "summary_path": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/manifest/preservation_manifest.json",
+        "summary_type": "v1_first_proof_slice_summary",
+        "manifest_type": "v1_first_proof_slice_preservation_manifest",
+        "turn_kind": "ordinary_proof_slice",
+        "turn_rank": 1,
+        "turn_label": "first",
+        "turn_reading": "First ordinary proof-slice turn.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": null,
+        "predecessor_source_run_ref": null,
+        "predecessor_turn_identity": null,
+        "source_selection_basis": null,
+        "operative_surfaces": [],
+        "operative_surface_evidence": {},
+        "fixture_present": true,
+        "canonical_body_count": 5,
+        "envelope_count": 5,
+        "execution_relation_count": 0,
+        "source_note_count": 0,
+        "conformance_count": 12,
+        "layout_variant_notes": [
+          "Local layout variant uses 'summary' for summary material.",
+          "Local layout variant uses 'canonical_bodies' for canonical body material.",
+          "Local layout variant uses 'envelopes' for envelope material.",
+          "Local layout variant uses 'fixtures' for fixtures material."
+        ],
+        "lineage_notes": [
+          "Preserved summary type v1_first_proof_slice_summary makes this run readable as the first ordinary proof-slice turn.",
+          "Local layout variation remains readable as lineage rather than as contradiction."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "ordinary_run",
+        "execution_identity": "execution-6c999f5c0ead421f9b4b115c3805330a",
+        "run_directory": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a",
+        "continuity_directory": null,
+        "summary_path": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/manifest/preservation_manifest.json",
+        "summary_type": "v1_second_proof_slice_summary",
+        "manifest_type": "v1_second_proof_slice_preservation_manifest",
+        "turn_kind": "ordinary_proof_slice",
+        "turn_rank": 2,
+        "turn_label": "second",
+        "turn_reading": "Second ordinary proof-slice turn with shared preservation layout operative.",
+        "matter_ref": "matter-18e7dde8ddd0455dae6dc25b29a84908",
+        "anchor_source_run_ref": null,
+        "predecessor_source_run_ref": null,
+        "predecessor_turn_identity": null,
+        "source_selection_basis": null,
+        "operative_surfaces": [
+          "shared_preservation_layout"
+        ],
+        "operative_surface_evidence": {
+          "shared_preservation_layout": [
+            "Run summary carries explicit preservation_layout material.",
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_second_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 5,
+        "envelope_count": 5,
+        "execution_relation_count": 0,
+        "source_note_count": 0,
+        "conformance_count": 12,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_second_proof_slice_summary makes this run readable as the second ordinary proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "ordinary_run",
+        "execution_identity": "execution-4ca16d2050334c50998fdd85648d57eb",
+        "run_directory": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb",
+        "continuity_directory": null,
+        "summary_path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/manifest/preservation_manifest.json",
+        "summary_type": "v1_third_proof_slice_summary",
+        "manifest_type": "v1_third_proof_slice_preservation_manifest",
+        "turn_kind": "ordinary_proof_slice",
+        "turn_rank": 3,
+        "turn_label": "third",
+        "turn_reading": "Third ordinary proof-slice turn with shared conformance operative.",
+        "matter_ref": "matter-25e3d706a71c480a935ecac8f0221c52",
+        "anchor_source_run_ref": null,
+        "predecessor_source_run_ref": null,
+        "predecessor_turn_identity": null,
+        "source_selection_basis": null,
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_preservation_layout"
+        ],
+        "operative_surface_evidence": {
+          "shared_conformance": [
+            "Conformance outputs expose conformance_kind, which is the shared conformance result shape.",
+            "Summary type v1_third_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_preservation_layout": [
+            "Run summary carries explicit preservation_layout material.",
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_third_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 5,
+        "envelope_count": 5,
+        "execution_relation_count": 0,
+        "source_note_count": 0,
+        "conformance_count": 12,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_third_proof_slice_summary makes this run readable as the third ordinary proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "ordinary_run",
+        "execution_identity": "execution-9e1ab4ec88734dfcb5c257bf77976624",
+        "run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+        "continuity_directory": null,
+        "summary_path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/manifest/preservation_manifest.json",
+        "summary_type": "v1_fourth_proof_slice_summary",
+        "manifest_type": "v1_fourth_proof_slice_preservation_manifest",
+        "turn_kind": "ordinary_proof_slice",
+        "turn_rank": 4,
+        "turn_label": "fourth",
+        "turn_reading": "Fourth ordinary proof-slice turn with shared identifier generation operative.",
+        "matter_ref": "matter-e70f5dc0b1e94b6dbc37e9d347a591bc",
+        "anchor_source_run_ref": null,
+        "predecessor_source_run_ref": null,
+        "predecessor_turn_identity": null,
+        "source_selection_basis": null,
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_identifier_generation",
+          "shared_preservation_layout"
+        ],
+        "operative_surface_evidence": {
+          "shared_conformance": [
+            "Conformance outputs expose conformance_kind, which is the shared conformance result shape.",
+            "Summary type v1_fourth_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_identifier_generation": [
+            "Manifest carries explicit manifest_identity.",
+            "Summary type v1_fourth_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_preservation_layout": [
+            "Run summary carries explicit preservation_layout material.",
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_fourth_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 5,
+        "envelope_count": 5,
+        "execution_relation_count": 0,
+        "source_note_count": 0,
+        "conformance_count": 12,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_fourth_proof_slice_summary makes this run readable as the fourth ordinary proof-slice turn.",
+          "This ordinary run reads as a shared-implementation threshold turn on the ordinary line."
+        ],
+        "unreadable_notes": []
+      }
+    ],
+    "notes": [
+      "This line includes implementation-local layout variation that remains readable as lineage rather than contradiction.",
+      "This line includes at least one preserved shared-implementation threshold turn.",
+      "Ordinary-line preserved runs show the additive progression from early proof slices into shared preservation layout.",
+      "Ordinary-line preserved runs show later additive progression into shared conformance.",
+      "Ordinary-line preserved runs include later additive progression into shared identifier generation."
+    ]
+  },
+  "continuity_line": {
+    "line_name": "continuity",
+    "run_count": 6,
+    "operative_surfaces_seen": [
+      "shared_conformance",
+      "shared_identifier_generation",
+      "shared_preservation_layout",
+      "shared_source_selection"
+    ],
+    "threshold_entries": [
+      {
+        "execution_identity": "execution-8aabb584db0c48ea8fce356102a24b22",
+        "run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity",
+        "summary_type": "v1_sixth_continuity_proof_slice_summary",
+        "turn_reading": "Sixth continuity proof-slice turn with shared identifier generation operative.",
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_identifier_generation",
+          "shared_preservation_layout",
+          "shared_source_selection"
+        ]
+      }
+    ],
+    "entries": [
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-717a6994f03d4be08e17cd776b597576",
+        "run_directory": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity",
+        "continuity_directory": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity",
+        "summary_path": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_first_continuity_proof_slice_summary",
+        "manifest_type": "v1_first_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 1,
+        "turn_label": "first",
+        "turn_reading": "First continuity proof-slice turn.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": null,
+        "predecessor_turn_identity": null,
+        "source_selection_basis": null,
+        "operative_surfaces": [],
+        "operative_surface_evidence": {},
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 1,
+        "conformance_count": 4,
+        "layout_variant_notes": [
+          "Local layout variant uses 'summary' for summary material.",
+          "Local layout variant uses 'fixtures' for fixtures material.",
+          "Local layout variant uses 'anchor_source' for source notes material."
+        ],
+        "lineage_notes": [
+          "Preserved summary type v1_first_continuity_proof_slice_summary makes this run readable as the first continuity proof-slice turn.",
+          "Local layout variation remains readable as lineage rather than as contradiction."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-f6cb1720e04f44c0bf72d21962a65730",
+        "run_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity",
+        "continuity_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity",
+        "summary_path": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_second_continuity_proof_slice_summary",
+        "manifest_type": "v1_second_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 2,
+        "turn_label": "second",
+        "turn_reading": "Second continuity proof-slice turn.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576",
+        "predecessor_turn_identity": "continuity-turn-da182ec5bbb24dbb9860aeb4c60755c3",
+        "source_selection_basis": null,
+        "operative_surfaces": [],
+        "operative_surface_evidence": {},
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 2,
+        "conformance_count": 4,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_second_continuity_proof_slice_summary makes this run readable as the second continuity proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-f126ae3019f24e3585872f6da82edcfb",
+        "run_directory": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity",
+        "continuity_directory": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity",
+        "summary_path": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_third_continuity_proof_slice_summary",
+        "manifest_type": "v1_third_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 3,
+        "turn_label": "third",
+        "turn_reading": "Third continuity proof-slice turn with shared source selection operative.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+        "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+        "source_selection_basis": "local_default_predecessor_plus_derived_anchor",
+        "operative_surfaces": [
+          "shared_source_selection"
+        ],
+        "operative_surface_evidence": {
+          "shared_source_selection": [
+            "Continuity summary carries explicit source_selection material.",
+            "Continuity manifest carries structured source_selection material.",
+            "Source-note material uses selected_source_record structure.",
+            "Summary type v1_third_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 2,
+        "conformance_count": 4,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_third_continuity_proof_slice_summary makes this run readable as the third continuity proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-58e7270ac5274a4e9de8c510dad99489",
+        "run_directory": "v1/registry/runs/execution-58e7270ac5274a4e9de8c510dad99489/continuity",
+        "continuity_directory": "v1/registry/runs/execution-58e7270ac5274a4e9de8c510dad99489/continuity",
+        "summary_path": "v1/registry/runs/execution-58e7270ac5274a4e9de8c510dad99489/continuity/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-58e7270ac5274a4e9de8c510dad99489/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_fourth_continuity_proof_slice_summary",
+        "manifest_type": "v1_fourth_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 4,
+        "turn_label": "fourth",
+        "turn_reading": "Fourth continuity proof-slice turn with shared preservation layout operative.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+        "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+        "source_selection_basis": "local_default_predecessor_plus_derived_anchor",
+        "operative_surfaces": [
+          "shared_preservation_layout",
+          "shared_source_selection"
+        ],
+        "operative_surface_evidence": {
+          "shared_preservation_layout": [
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_fourth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_source_selection": [
+            "Continuity summary carries explicit source_selection material.",
+            "Continuity manifest carries structured source_selection material.",
+            "Source-note material uses selected_source_record structure.",
+            "Summary type v1_fourth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 2,
+        "conformance_count": 4,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_fourth_continuity_proof_slice_summary makes this run readable as the fourth continuity proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-243657c8f0704ef588ac7a19cc10c881",
+        "run_directory": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity",
+        "continuity_directory": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity",
+        "summary_path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_fifth_continuity_proof_slice_summary",
+        "manifest_type": "v1_fifth_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 5,
+        "turn_label": "fifth",
+        "turn_reading": "Fifth continuity proof-slice turn with shared conformance operative.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+        "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+        "source_selection_basis": "local_default_predecessor_plus_derived_anchor",
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_preservation_layout",
+          "shared_source_selection"
+        ],
+        "operative_surface_evidence": {
+          "shared_conformance": [
+            "Conformance outputs expose conformance_kind, which is the shared conformance result shape.",
+            "Summary type v1_fifth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_preservation_layout": [
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_fifth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_source_selection": [
+            "Continuity summary carries explicit source_selection material.",
+            "Continuity manifest carries structured source_selection material.",
+            "Source-note material uses selected_source_record structure.",
+            "Summary type v1_fifth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 2,
+        "conformance_count": 4,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_fifth_continuity_proof_slice_summary makes this run readable as the fifth continuity proof-slice turn."
+        ],
+        "unreadable_notes": []
+      },
+      {
+        "run_class": "continuity_run",
+        "execution_identity": "execution-8aabb584db0c48ea8fce356102a24b22",
+        "run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity",
+        "continuity_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity",
+        "summary_path": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/run_summary/run_summary.json",
+        "manifest_path": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/manifest/preservation_manifest.json",
+        "summary_type": "v1_sixth_continuity_proof_slice_summary",
+        "manifest_type": "v1_sixth_continuity_preservation_manifest",
+        "turn_kind": "continuity_proof_slice",
+        "turn_rank": 6,
+        "turn_label": "sixth",
+        "turn_reading": "Sixth continuity proof-slice turn with shared identifier generation operative.",
+        "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+        "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+        "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+        "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+        "source_selection_basis": "local_default_predecessor_plus_derived_anchor",
+        "operative_surfaces": [
+          "shared_conformance",
+          "shared_identifier_generation",
+          "shared_preservation_layout",
+          "shared_source_selection"
+        ],
+        "operative_surface_evidence": {
+          "shared_conformance": [
+            "Conformance outputs expose conformance_kind, which is the shared conformance result shape.",
+            "Summary type v1_sixth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_identifier_generation": [
+            "Summary type v1_sixth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_preservation_layout": [
+            "Manifest preserves shared layout fields such as layout_kind, naming_posture, layer_roots, or written_by_layer.",
+            "Summary type v1_sixth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ],
+          "shared_source_selection": [
+            "Continuity summary carries explicit source_selection material.",
+            "Continuity manifest carries structured source_selection material.",
+            "Source-note material uses selected_source_record structure.",
+            "Summary type v1_sixth_continuity_proof_slice_summary marks the preserved additive runner stage where this shared surface is operative."
+          ]
+        },
+        "fixture_present": true,
+        "canonical_body_count": 1,
+        "envelope_count": 0,
+        "execution_relation_count": 1,
+        "source_note_count": 2,
+        "conformance_count": 4,
+        "layout_variant_notes": [],
+        "lineage_notes": [
+          "Preserved summary type v1_sixth_continuity_proof_slice_summary makes this run readable as the sixth continuity proof-slice turn.",
+          "This continuity run reads as a shared-implementation threshold turn on the continuity line."
+        ],
+        "unreadable_notes": []
+      }
+    ],
+    "notes": [
+      "This line includes implementation-local layout variation that remains readable as lineage rather than contradiction.",
+      "This line includes at least one preserved shared-implementation threshold turn.",
+      "Continuity-line preserved runs keep canonical anchor-source readability where the preserved material supports it.",
+      "Continuity-line preserved runs keep predecessor-source readability where the preserved material supports it.",
+      "Continuity-line preserved runs show additive progression into shared source-selection posture.",
+      "Continuity-line preserved runs show later additive progression into shared preservation layout.",
+      "Continuity-line preserved runs show later additive progression into shared conformance.",
+      "Continuity-line preserved runs include later additive progression into shared identifier generation."
+    ]
+  },
+  "unknown_runs": {
+    "run_count": 0,
+    "entries": []
+  },
+  "notes": [
+    "Preserved runs include implementation-local naming variation such as canonical_bodies/canonical_body, envelopes/envelope, fixtures/fixture_outputs, summary/run_summary, and anchor_source/source_notes. These are read as lineage variation, not architectural contradiction.",
+    "The preserved archive now carries both an ordinary line and a continuity line. They remain grouped separately rather than flattened into one generic run list.",
+    "This snapshot is an implementation-local readability artifact. It does not rewrite preserved runs or claim protocol-law archival form.",
+    "Ordinary and continuity lines remain distinct in this snapshot rather than flattened into one generic run list."
+  ]
+}

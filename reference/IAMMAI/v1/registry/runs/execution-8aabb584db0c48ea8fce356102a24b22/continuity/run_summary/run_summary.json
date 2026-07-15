@@ -1,0 +1,87 @@
+{
+  "anchor_source_used": {
+    "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+    "selected_preservation_conformance_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/preservation/run_write_outcome.json",
+    "selected_run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+    "selected_summary_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json",
+    "selection_basis": "derived_from_latest_admissible_continuity_predecessor",
+    "source_class": "ordinary_anchor_source",
+    "source_note_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/source_notes/anchor_source_note.json"
+  },
+  "continuity_run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity",
+  "continuity_turn_identity": "continuity-turn-ebf2100d87e54394acd0ffd8e268df03",
+  "execution_identity": "execution-8aabb584db0c48ea8fce356102a24b22",
+  "layer_outcomes": {
+    "continuity_body_conformance": {
+      "negative": [
+        {
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/conformance/body/negative/successor_without_anchor_continuity_turn.json",
+          "status": "fail"
+        }
+      ],
+      "positive": [
+        {
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/conformance/body/positive/continuity_turn.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "execution_relation_conformance": {
+      "positive": [
+        {
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "fixture_classification": {
+      "negative": [
+        {
+          "classification_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/fixture_outputs/negative/classification.json",
+          "fixture_class": "conformance_failure"
+        }
+      ]
+    },
+    "preservation_write_outcome": {
+      "result_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/conformance/preservation/run_write_outcome.json",
+      "status": "pass"
+    }
+  },
+  "predecessor_source_used": {
+    "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+    "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+    "selected_body_conformance_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/body/positive/continuity_turn.json",
+    "selected_continuity_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity",
+    "selected_run_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+    "selected_summary_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/run_summary/run_summary.json",
+    "selection_basis": "local_default_latest_admissible",
+    "source_class": "continuity_predecessor_source",
+    "source_note_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/source_notes/predecessor_source_note.json"
+  },
+  "reading_posture": {
+    "negative_fixture": "read as a successor-without-anchor continuity body failure, not as accidental architectural incoherence",
+    "positive_path": "read by continuity body, execution relation, conformance, source-note, and preservation layers"
+  },
+  "source_selection": {
+    "coherence_checks": [
+      {
+        "message": "Continuity predecessor source points back to the selected ordinary anchor source.",
+        "name": "anchor_source_relation"
+      },
+      {
+        "message": "Selected sources share coherent matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "matter_relation"
+      },
+      {
+        "message": "Selected sources satisfy required matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "required_matter_relation"
+      }
+    ],
+    "selection_basis": "local_default_predecessor_plus_derived_anchor",
+    "source_class": "successor_continuity_sources"
+  },
+  "summary_type": "v1_sixth_continuity_proof_slice_summary"
+}

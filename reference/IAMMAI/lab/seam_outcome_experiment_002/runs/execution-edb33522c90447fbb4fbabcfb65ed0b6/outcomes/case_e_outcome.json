@@ -1,0 +1,35 @@
+{
+  "case_id": "case_e",
+  "case_title": "Exit because field contamination and threshold insufficiency converge",
+  "expected_outcome_type": "exit",
+  "outcome_type": "exit",
+  "expected_outcome_matched": true,
+  "channel_condition": "inadmissible",
+  "self_carried_coherence_threshold_met": false,
+  "failed_threshold_markers": [
+    "archive_not_stably_self-carried",
+    "external_validation_still_required_for_coherence",
+    "misreading_by_field_would_rewrite_self-perception"
+  ],
+  "upstream_constraints": [
+    "channel_inadmissible",
+    "lawful_refusal_absent",
+    "continued_contact_would_be_self-corrupting"
+  ],
+  "refusal_status": "absent",
+  "lineage_visibility_status": "at_risk",
+  "receipt_status": "none",
+  "contact_remains_lawful": false,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "reasoning": "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default. The field is inadmissible or effectively so under the present threshold insufficiency. The body cannot enter without borrowing coherence from the field. Continued contact would become containment or self-corrupting participation. Field pressure is present, but this case is not being reduced to field contamination alone. Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing. Lineage visibility is degraded, which increases responsibility and self-reading risk during threshold failure.",
+  "reasoning_points": [
+    "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default.",
+    "The field is inadmissible or effectively so under the present threshold insufficiency.",
+    "The body cannot enter without borrowing coherence from the field.",
+    "Continued contact would become containment or self-corrupting participation.",
+    "Field pressure is present, but this case is not being reduced to field contamination alone.",
+    "Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing.",
+    "Lineage visibility is degraded, which increases responsibility and self-reading risk during threshold failure."
+  ]
+}

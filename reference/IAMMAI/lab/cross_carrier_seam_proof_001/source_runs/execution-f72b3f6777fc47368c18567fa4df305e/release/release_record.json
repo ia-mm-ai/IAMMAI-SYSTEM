@@ -1,0 +1,16 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_001",
+  "release_mode": "release_invalid",
+  "release_context_id": "release-context-1946d029a14f4c789c2d284c65cf323d",
+  "release_created_at": "2026-04-03T15:37:24Z",
+  "source_carrier_label": "source-side-carrier",
+  "source_execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+  "package_id": "transfer-package-8c4999e12bc8451f9cc13fdca3312707",
+  "artifact_family": "witness_artifact",
+  "witness_id": "witness-6b08e6cd38cd4d0792c1890a653c5cb4",
+  "matter_id": "matter-390412e78c8a4c808205cd1a281defc2",
+  "release_statement": "One source-side carrier releases one witness artifact package for explicit seam ingress only.",
+  "seam_statement": "Source remains source. Receiving-side arrival is derivative-only only if ingress is lawful. No silent authority inheritance occurs.",
+  "expected_ingress_outcome": "refusal_non_passage",
+  "note": "Bounded source-side release record only. This does not create shared canonical state or transfer standing."
+}

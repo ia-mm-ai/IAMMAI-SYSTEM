@@ -1,0 +1,29 @@
+{
+  "canonical": false,
+  "input_ref": "embodiment/input/matter_001.json",
+  "matter_ref": "matter_001",
+  "message": "The first bounded lawful cycle completed with separate validation, witness, governance, transition, state, and registry preservation.",
+  "missing_canonical_artifacts": [],
+  "produced_canonical_artifacts": [
+    "embodiment/registry/matter_001__20260325T084637Z__db990640/validation_artifact.json",
+    "embodiment/registry/matter_001__20260325T084637Z__db990640/witness_artifact.json",
+    "embodiment/registry/matter_001__20260325T084637Z__db990640/governance_action.json",
+    "embodiment/registry/matter_001__20260325T084637Z__db990640/transition_record.json",
+    "embodiment/registry/matter_001__20260325T084637Z__db990640/state_record.json"
+  ],
+  "registry_ref": "embodiment/registry/matter_001__20260325T084637Z__db990640",
+  "run_id": "run:matter_001:20260325T084637Z:db990640",
+  "status": "success",
+  "stopped_at": "complete",
+  "summary_type": "execution_summary",
+  "validation_outcome": "pass",
+  "validation_reason_refs": [
+    "input_file_present",
+    "required_fields_present",
+    "matter_id_matches_first_cycle",
+    "matter_type_matches_first_cycle",
+    "content_non_empty",
+    "content_matches_first_cycle"
+  ],
+  "written_at": "2026-03-25T08:46:37Z"
+}

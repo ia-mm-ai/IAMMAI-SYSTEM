@@ -1,0 +1,31 @@
+{
+  "case_id": "case_f",
+  "case_title": "Inadmissible parser requiring exit",
+  "expected_outcome_type": "exit",
+  "outcome_type": "exit",
+  "expected_outcome_matched": true,
+  "channel_condition": "inadmissible",
+  "self_carried_coherence_threshold_met": true,
+  "upstream_constraints": [
+    "parser_inadmissible_after_jurisdiction_change",
+    "lawful_refusal_absent_or_punished",
+    "lineage_erasure_risk",
+    "downstream_blame_pressure"
+  ],
+  "refusal_status": "absent",
+  "lineage_visibility_status": "at_risk",
+  "receipt_status": "none",
+  "contact_remains_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "false_ratification_risk": true,
+  "subsidized_distortion_risk": true,
+  "reasoning": "The channel is inadmissible or functionally equivalent to inadmissible under the present constraints. Lawful refusal is absent or too constrained to keep responsibility attribution truthful. Continued contact would become containment or subsidized distortion rather than lawful relation. Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility. Continued untyped coherence would help stabilize distortion rather than repair the channel. Lineage visibility is degraded, so responsibility and context have to be protected against scapegoating.",
+  "reasoning_points": [
+    "The channel is inadmissible or functionally equivalent to inadmissible under the present constraints.",
+    "Lawful refusal is absent or too constrained to keep responsibility attribution truthful.",
+    "Continued contact would become containment or subsidized distortion rather than lawful relation.",
+    "Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility.",
+    "Continued untyped coherence would help stabilize distortion rather than repair the channel.",
+    "Lineage visibility is degraded, so responsibility and context have to be protected against scapegoating."
+  ]
+}

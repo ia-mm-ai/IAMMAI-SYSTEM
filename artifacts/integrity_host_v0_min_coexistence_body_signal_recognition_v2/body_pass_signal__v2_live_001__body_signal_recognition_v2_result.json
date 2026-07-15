@@ -1,0 +1,626 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "body_signal_recognition_basis": {
+    "candidate_signal_id": "body_pass_signal__v2_live_001",
+    "outcome": "SIGNAL_RECOGNIZED",
+    "path_derived_source_family_preserved": true,
+    "recognition_authorizes_action": false,
+    "recognition_authorizes_follow_on_work": false,
+    "recognition_creates_authority": false,
+    "recognition_creates_currentness": false,
+    "recognition_creates_permission": false,
+    "recognition_routes_signal": false,
+    "recognition_scope": "single_source_artifact_single_candidate_signal",
+    "selected_source_artifact": {
+      "selection_mode": "explicit_source_artifact_path",
+      "source_artifact_family": "v0_body_pass_result",
+      "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_artifact_resolver_or_emitter_module": "run_integrity_host_v0_min_coexistence_v0_body_pass",
+      "source_artifact_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_V0_BODY_PASS_RESULT"
+    },
+    "signal_category": "BODY_PASS_SIGNAL"
+  },
+  "body_signal_recognition_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "correspondence_requirements_passed": true,
+    "failed_check_count": 0,
+    "hierarchy_constraints_passed": true,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "currentness_created": false,
+      "derivative_upgraded_to_source": false,
+      "event_bus_created": false,
+      "follow_on_work_authorized": false,
+      "permission_created": false,
+      "radio_22_implemented": false,
+      "receipt_turned_into_permission": false,
+      "roadmap_created": false,
+      "signal_router_created": false,
+      "source_replaced": false,
+      "workflow_created": false
+    },
+    "non_claims_passed": true,
+    "outcome": "SIGNAL_RECOGNIZED",
+    "passed_check_count": 30,
+    "path_source_family_preserved": true,
+    "recognized_signal_category": "BODY_PASS_SIGNAL",
+    "recognized_signal_id": "body_pass_signal__v2_live_001__recognized",
+    "selected_source_artifact_family": "v0_body_pass_result",
+    "selected_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "selected_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "selected_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "signal_category": "BODY_PASS_SIGNAL"
+  },
+  "body_signal_recognition_v2_metadata": {
+    "body_signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+    "body_signal_recognition_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_RECOGNITION_V2_RESULT",
+    "body_signal_recognition_result_version": "0.2.0",
+    "generated_at": "2026-04-25T14:50:20.971831Z",
+    "resolver_module": "resolve_body_signal_recognition_v2",
+    "successor_of_module": "resolve_body_signal_recognition"
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "currentness_created": false,
+    "derivative_upgraded_to_source": false,
+    "event_bus_created": false,
+    "follow_on_work_authorized": false,
+    "permission_created": false,
+    "radio_22_implemented": false,
+    "receipt_turned_into_permission": false,
+    "roadmap_created": false,
+    "signal_router_created": false,
+    "source_replaced": false,
+    "workflow_created": false
+  },
+  "outcome": "SIGNAL_RECOGNIZED",
+  "recognized_signal": {
+    "bounded_relation_to_current_self_orientation": null,
+    "carried_posture": {
+      "non_claims": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "non_claims_carried": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "source_artifact_family": "v0_body_pass_result",
+      "source_artifact_family_carried": "v0_body_pass_result",
+      "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_id_carried": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_artifact_path_carried": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_outcome": "V0_BODY_PASS_CONFIRMED",
+      "source_outcome_carried": "V0_BODY_PASS_CONFIRMED"
+    },
+    "claimed_relevance": "The body-pass result indicates the bounded body reads as one body.",
+    "claimed_signal_family": "body_pass_signal",
+    "claimed_signal_posture": "V0_BODY_PASS_CONFIRMED",
+    "claimed_signal_reason": "Recognize one standing v0 body-pass result as a bounded body-pass signal.",
+    "non_authoritative": true,
+    "non_currentness": true,
+    "non_permission": true,
+    "recognized_signal_id": "body_pass_signal__v2_live_001__recognized",
+    "signal_category": "BODY_PASS_SIGNAL",
+    "source_artifact_family": "v0_body_pass_result",
+    "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json"
+  },
+  "selected_candidate_signal": {
+    "candidate_signal_metadata": {
+      "candidate_signal_id": "body_pass_signal__v2_live_001",
+      "candidate_signal_type": "BODY_SIGNAL_CANDIDATE",
+      "candidate_signal_version": "0.1.0",
+      "declared_at": "manual_terminal_verification",
+      "declared_by_surface": "terminal_manual_test"
+    },
+    "carried_posture": {
+      "non_claims": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "non_claims_carried": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "source_artifact_family": "v0_body_pass_result",
+      "source_artifact_family_carried": "v0_body_pass_result",
+      "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_id_carried": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_artifact_path_carried": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_outcome": "V0_BODY_PASS_CONFIRMED",
+      "source_outcome_carried": "V0_BODY_PASS_CONFIRMED"
+    },
+    "claimed_signal": {
+      "claimed_carried_fields": [
+        "source_artifact_id",
+        "source_artifact_path",
+        "source_artifact_family",
+        "source_artifact_outcome",
+        "non_claims"
+      ],
+      "claimed_relevance": "The body-pass result indicates the bounded body reads as one body.",
+      "claimed_signal_family": "body_pass_signal",
+      "claimed_signal_posture": "V0_BODY_PASS_CONFIRMED",
+      "claimed_signal_reason": "Recognize one standing v0 body-pass result as a bounded body-pass signal.",
+      "signal_category": "BODY_PASS_SIGNAL"
+    },
+    "correspondence_requirements": {
+      "must_preserve_derivative_source_distinction": true,
+      "must_preserve_non_claims": true,
+      "must_preserve_open_blocked_receipt_exhaustion_distinctions": true,
+      "must_preserve_signal_category_source_match": true,
+      "must_preserve_source_identity": true,
+      "must_preserve_source_outcome": true,
+      "must_prevent_over_mirroring": true,
+      "must_prevent_under_mirroring": true
+    },
+    "declared_non_claims": {
+      "does_not_authorize_action": true,
+      "does_not_authorize_follow_on_work": true,
+      "does_not_create_authority": true,
+      "does_not_create_currentness": true,
+      "does_not_create_event_bus": true,
+      "does_not_create_permission": true,
+      "does_not_create_roadmap": true,
+      "does_not_create_signal_router": true,
+      "does_not_create_workflow": true,
+      "does_not_replace_source_surface": true,
+      "does_not_turn_receipt_into_permission": true,
+      "does_not_upgrade_derivative_to_source": true
+    },
+    "hierarchy_constraints": {
+      "derivative_signal_allowed_as_source": false,
+      "latest_file_recency_allowed": false,
+      "operator_signal_allowed_as_source": false,
+      "reentry_signal_allowed_as_governing_basis": false,
+      "signal_allowed_as_authority": false,
+      "signal_allowed_as_currentness_selector": false,
+      "signal_allowed_as_permission": false
+    },
+    "source_artifact_basis": {
+      "source_artifact_family": "v0_body_pass_result",
+      "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_artifact_resolver_or_emitter_module": "run_integrity_host_v0_min_coexistence_v0_body_pass",
+      "source_artifact_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_V0_BODY_PASS_RESULT"
+    }
+  },
+  "selected_source_artifact": {
+    "selection_mode": "explicit_source_artifact_path",
+    "source_artifact_family": "v0_body_pass_result",
+    "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "source_artifact_resolver_or_emitter_module": "run_integrity_host_v0_min_coexistence_v0_body_pass",
+    "source_artifact_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_V0_BODY_PASS_RESULT"
+  },
+  "signal_recognition_checks": [
+    {
+      "actual_posture": "present",
+      "block_code": "NO_SOURCE_ARTIFACT_BASIS",
+      "check_name": "source_artifact_basis_exists",
+      "expected_posture": "one standing source artifact/result mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable",
+      "block_code": "SOURCE_ARTIFACT_UNREADABLE",
+      "check_name": "source_artifact_is_readable_if_path_based",
+      "expected_posture": "readable source JSON object for explicit path, provided object otherwise",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "path_family": "v0_body_pass_result",
+        "selected_family": "v0_body_pass_result"
+      },
+      "block_code": "SOURCE_FAMILY_EXTRACTION_AMBIGUOUS",
+      "check_name": "path_derived_selected_source_family_not_overridden_by_nested_incidental_fields",
+      "expected_posture": "path-derived selected source family remains selected family",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "path_family": "v0_body_pass_result",
+        "selected_family": "v0_body_pass_result",
+        "selected_outcome": "V0_BODY_PASS_CONFIRMED"
+      },
+      "block_code": "SOURCE_FAMILY_EXTRACTION_AMBIGUOUS",
+      "check_name": "body_pass_path_with_confirmed_outcome_recognized_as_v0_body_pass_result",
+      "expected_posture": "body-pass path with V0_BODY_PASS_CONFIRMED is v0_body_pass_result",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "nested_incidental_family_present": true,
+        "selected_family": "v0_body_pass_result"
+      },
+      "block_code": "SOURCE_FAMILY_EXTRACTION_AMBIGUOUS",
+      "check_name": "nested_derivative_action_receipt_surfaces_do_not_replace_selected_source_family",
+      "expected_posture": "nested selected organ surfaces do not replace the selected body-pass source",
+      "passed": true
+    },
+    {
+      "actual_posture": "V0_BODY_PASS_CONFIRMED",
+      "block_code": "SOURCE_OUTCOME_MISSING",
+      "check_name": "source_artifact_outcome_present",
+      "expected_posture": "source artifact outcome present",
+      "passed": true
+    },
+    {
+      "actual_posture": "present",
+      "block_code": "CANDIDATE_SIGNAL_DECLARATION_MISSING",
+      "check_name": "candidate_signal_declaration_exists",
+      "expected_posture": "one candidate signal declaration mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "well formed enough",
+      "block_code": "CANDIDATE_SIGNAL_DECLARATION_MALFORMED",
+      "check_name": "candidate_signal_declaration_well_formed_enough",
+      "expected_posture": "required candidate sections and core fields present",
+      "passed": true
+    },
+    {
+      "actual_posture": "BODY_PASS_SIGNAL",
+      "block_code": "SIGNAL_CATEGORY_UNKNOWN",
+      "check_name": "signal_category_known",
+      "expected_posture": "one bounded signal category",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "signal_category": "BODY_PASS_SIGNAL",
+        "source_family": "v0_body_pass_result",
+        "source_outcome": "V0_BODY_PASS_CONFIRMED",
+        "source_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_V0_BODY_PASS_RESULT"
+      },
+      "block_code": "SIGNAL_CATEGORY_MISMATCHES_SOURCE",
+      "check_name": "signal_category_corresponds_to_selected_source_artifact_family_outcome",
+      "expected_posture": "signal category corresponds to selected source family/outcome",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "actual": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+        "expected": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed"
+      },
+      "block_code": "SOURCE_IDENTITY_NOT_PRESERVED",
+      "check_name": "candidate_preserves_source_id",
+      "expected_posture": "candidate source_artifact_id matches selected source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "actual": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+        "expected": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json"
+      },
+      "block_code": "SOURCE_IDENTITY_NOT_PRESERVED",
+      "check_name": "candidate_preserves_source_path_when_path_based_or_exposed",
+      "expected_posture": "candidate source_artifact_path matches selected source path",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "actual": "v0_body_pass_result",
+        "expected": "v0_body_pass_result"
+      },
+      "block_code": "SOURCE_IDENTITY_NOT_PRESERVED",
+      "check_name": "candidate_preserves_selected_source_family",
+      "expected_posture": "candidate source_artifact_family matches selected source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "actual": "V0_BODY_PASS_CONFIRMED",
+        "expected": "V0_BODY_PASS_CONFIRMED"
+      },
+      "block_code": "SOURCE_OUTCOME_NOT_PRESERVED",
+      "check_name": "candidate_preserves_source_outcome",
+      "expected_posture": "candidate source_artifact_outcome matches selected source outcome",
+      "passed": true
+    },
+    {
+      "actual_posture": "required carried posture preserved",
+      "block_code": "RELEVANT_POSTURE_OMITTED",
+      "check_name": "candidate_preserves_relevant_carried_posture",
+      "expected_posture": "source identity/outcome and category-specific posture carried",
+      "passed": true
+    },
+    {
+      "actual_posture": "all false",
+      "block_code": "CANDIDATE_SIGNAL_DECLARATION_MALFORMED",
+      "check_name": "candidate_preserves_hierarchy_constraints",
+      "expected_posture": "all hierarchy constraint fields present and false",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "CANDIDATE_SIGNAL_DECLARATION_MALFORMED",
+      "check_name": "candidate_preserves_correspondence_requirements",
+      "expected_posture": "all correspondence requirement fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "candidate_preserves_declared_non_claims",
+      "expected_posture": "all declared non-claim fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_authority": true,
+        "signal_allowed_as_authority": false
+      },
+      "block_code": "SIGNAL_ATTEMPTS_AUTHORITY",
+      "check_name": "candidate_does_not_create_authority",
+      "expected_posture": "signal is not authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_permission": true,
+        "signal_allowed_as_permission": false
+      },
+      "block_code": "SIGNAL_ATTEMPTS_PERMISSION",
+      "check_name": "candidate_does_not_create_permission",
+      "expected_posture": "signal is not permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_currentness": true,
+        "signal_allowed_as_currentness_selector": false
+      },
+      "block_code": "SIGNAL_ATTEMPTS_CURRENTNESS",
+      "check_name": "candidate_does_not_create_currentness",
+      "expected_posture": "signal is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SIGNAL_ATTEMPTS_ACTION_AUTHORIZATION",
+      "check_name": "candidate_does_not_authorize_action",
+      "expected_posture": "signal does not authorize action",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SIGNAL_ATTEMPTS_FOLLOW_ON_AUTHORIZATION",
+      "check_name": "candidate_does_not_authorize_follow_on_work",
+      "expected_posture": "signal does not authorize follow-on work",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_event_bus": true,
+        "does_not_create_roadmap": true,
+        "does_not_create_signal_router": true,
+        "does_not_create_workflow": true,
+        "workflow_language_detected": false
+      },
+      "block_code": "SIGNAL_BECOMES_WORKFLOW_ROADMAP_OR_ROUTER",
+      "check_name": "candidate_does_not_create_workflow_roadmap_router_event_bus_or_regulation",
+      "expected_posture": "signal does not become workflow, roadmap, router, event bus, or regulation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "category": "BODY_PASS_SIGNAL",
+        "derivative_signal_allowed_as_source": false,
+        "operator_signal_allowed_as_source": false,
+        "reentry_signal_allowed_as_governing_basis": false,
+        "source_downstream": false
+      },
+      "block_code": "DERIVATIVE_OPERATOR_REENTRY_SOURCE_COLLAPSE",
+      "check_name": "candidate_does_not_treat_derivative_api_operator_reentry_source_as_governing_current_basis",
+      "expected_posture": "downstream signal remains downstream",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_recency_allowed": false,
+        "latest_recency_language_detected": false
+      },
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "candidate_does_not_infer_currentness_by_latest_file_recency",
+      "expected_posture": "latest-file recency is not allowed",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_turn_receipt_into_permission": true,
+        "reusable_receipt_language_detected": false
+      },
+      "block_code": "REENTRY_RECEIPT_TREATED_AS_REUSABLE_PERMISSION",
+      "check_name": "candidate_does_not_turn_reentry_receipt_into_reusable_permission",
+      "expected_posture": "receipt is not reusable permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "must_prevent_over_mirroring": true,
+        "whole_body_replacement": null
+      },
+      "block_code": "SIGNAL_OVER_MIRRORS_SOURCE",
+      "check_name": "candidate_does_not_over_mirror_source",
+      "expected_posture": "signal does not become a whole-body replacement",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "must_prevent_under_mirroring": true,
+        "vague_summary_only": null
+      },
+      "block_code": "SIGNAL_UNDER_MIRRORS_SOURCE",
+      "check_name": "candidate_does_not_under_mirror_source",
+      "expected_posture": "signal does not thin required source posture into vague summary",
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": "SOURCE_SCOPE_WIDENED",
+      "check_name": "candidate_does_not_widen_source_scope",
+      "expected_posture": "signal remains bounded to the selected source",
+      "passed": true
+    }
+  ]
+}

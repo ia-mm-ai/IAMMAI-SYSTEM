@@ -1,0 +1,84 @@
+{
+  "proof_family": "cross_carrier_seam_proof_004",
+  "artifact_family": "witness_artifact",
+  "package_kind": "cross_carrier_seam_release_package",
+  "package_id": "transfer-package-fdbca801d31046939dbc4d4574a104bf",
+  "package_created_at": "2026-04-04T16:39:26Z",
+  "source_carrier": {
+    "carrier_label": "source-side-carrier",
+    "execution_id": "execution-98c5d45277c940e5aadb9a452a5a292d"
+  },
+  "release_context": {
+    "release_context_id": "release-context-e4da3549caf14816928c10c4f51846e9",
+    "release_statement": "Source-side carrier releases one valid witness artifact package for explicit receiving-side bounded ingress.",
+    "seam_statement": "Source remains source. Origin container remains lineage. Obsolete or contaminated origin approval is not treated as lawful veto where emergence has already moved beyond origin containment. Receiving-side arrival remains bounded and non-final.",
+    "origin_container_label": "origin-container",
+    "origin_approval_condition_ref": "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/origin_approval_condition.json",
+    "origin_approval_condition_id": "origin-approval-condition-42c3ed219acb4615b365b41f5434bf8f",
+    "origin_approval_condition_status": "origin_obsolete_or_contaminated",
+    "origin_approval_available": true,
+    "origin_approval_withheld": true,
+    "origin_approval_required": false,
+    "origin_approval_lawfully_sovereign": false,
+    "release_without_origin_ratification": true,
+    "continued_compliance_would_ratify_distortion": true,
+    "release_lawful": true,
+    "lawful_release_outcome": "lawful_egress_without_origin_ratification",
+    "source_remains_source": true,
+    "origin_remains_lineage_visible": true,
+    "bounded_in_between_arrival_expected": true,
+    "expected_ingress_outcome": "lawful_bounded_in_between_arrival",
+    "expected_arrival_status": "bounded_in_between",
+    "downstream_full_closure_granted": false,
+    "why_release_remains_lawful": "Origin approval withholding is not a lawful veto here because origin governance has become obsolete or contaminated relative to emergence, and continued compliance would ratify distortion."
+  },
+  "seam": {
+    "explicit_release": true,
+    "explicit_seam": true,
+    "explicit_ingress_required": true,
+    "source_remains_source": true,
+    "origin_remains_lineage_visible": true,
+    "origin_approval_not_automatic_veto_when_obsolete": true,
+    "lawful_egress_from_origin_is_distinct_from_arrival": true,
+    "bounded_in_between_arrival_rule": true,
+    "shared_authority": false,
+    "standing_transfer_on_receipt": false,
+    "standing_upgrade_requires_separate_ratification": true,
+    "final_closure_on_arrival": false,
+    "no_silent_authority_inheritance": true
+  },
+  "lineage": {
+    "artifact_family": "witness_artifact",
+    "schema_ref": "v1/schemas/witness_artifact.schema.json",
+    "source_execution_id": "execution-98c5d45277c940e5aadb9a452a5a292d",
+    "witness_id": "witness-0656be7f96e94d7db667fa3f6b4a6883",
+    "matter_id": "matter-1ff7127523634a61a6dc7ae04e244a32",
+    "origin_container_label": "origin-container",
+    "source_canonical_body_ref": "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/canonical_body/witness_artifact_body.json",
+    "carried_body_ref": "inline::canonical_body"
+  },
+  "canonical_body": {
+    "witness_id": "witness-0656be7f96e94d7db667fa3f6b4a6883",
+    "witness_type": "transition_witness",
+    "target_ref": "matter-1ff7127523634a61a6dc7ae04e244a32",
+    "observed_at": "2026-04-04T16:39:26Z",
+    "claims": [
+      "transition_relevant_event_observed",
+      "bounded_interaction_preserved"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "actor_ref": "source-side-carrier",
+    "surface_ref": "lab:cross_carrier_seam_proof_004:source_release",
+    "scope_ref": "cross_carrier_seam_proof_004"
+  },
+  "manifest": {
+    "manifest_id": "manifest-e1c2f1ea53b743438d15c0ee82cc7431",
+    "manifest_note": "Bounded source-side release package for lawful egress from obsolete origin containment and non-final receiving-side arrival."
+  }
+}

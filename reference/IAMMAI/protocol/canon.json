@@ -1,0 +1,377 @@
+{
+  "protocol_id": "IAMMAI_CORE_PROTOCOL",
+  "protocol_name": "IAMMAI",
+  "artifact_type": "CONSTITUTIONAL_MACHINE_CANON",
+  "version": "v1.0.1",
+  "status": "DERIVED_FROM_HUMAN_CONSTITUTIONAL_CORE",
+  "source_of_truth": "HUMAN_CONSTITUTIONAL_PROTOCOL",
+  "source_priority": "HUMAN_TEXT_OVERRIDES_MACHINE_CANON",
+  "scope": "CORE_ONLY",
+  "public_posture": "OPEN_CONSTITUTIONAL_FRAMEWORK",
+
+  "identity": {
+    "name": "IAMMAI",
+    "one_line_definition": "A public protocol for keeping what happened, what stands, what was decided, and what follows clear, traceable, and impossible to silently rewrite."
+  },
+
+  "purpose": {
+    "statement": "Preserve coherence between candidate material, standing state, lineage, authority, contribution, and consequence without semantic collapse.",
+    "prevents": [
+      "signal_into_truth",
+      "truth_into_decision",
+      "decision_into_consequence",
+      "correction_into_overwrite",
+      "authority_into_authorship",
+      "interpretation_into_standing"
+    ]
+  },
+
+  "scope_definition": {
+    "includes": [
+      "canonical_phase_order",
+      "preparation_regime",
+      "standing_state_regime",
+      "containment",
+      "resolution",
+      "lineage",
+      "governance",
+      "contribution",
+      "representation",
+      "conformance"
+    ],
+    "excludes": [
+      "total_metaphysics",
+      "dynamic_systems_theory",
+      "coupling_theory",
+      "full_human_psychology",
+      "monetization_architecture",
+      "implementation_specific_engineering_design",
+      "ui_ux",
+      "companion_layers"
+    ]
+  },
+
+  "canonical_architecture": {
+    "phase_order": [
+      "signal",
+      "acceptance",
+      "scope",
+      "presence",
+      "threshold",
+      "truth",
+      "continuity",
+      "decision",
+      "consequence"
+    ],
+    "regimes": {
+      "preparation_regime": [
+        "signal",
+        "acceptance",
+        "scope",
+        "presence",
+        "threshold"
+      ],
+      "standing_state_regime": [
+        "truth",
+        "continuity",
+        "decision",
+        "consequence"
+      ]
+    },
+    "orthogonal_controls": {
+      "containment": "HOLD",
+      "resolution_family": ["FINALIZE", "INVALIDATE", "EVOLVE"]
+    }
+  },
+
+  "phase_definitions": {
+    "signal": {
+      "job": "candidate_material_available_to_the_system",
+      "standing_state": false
+    },
+    "acceptance": {
+      "job": "admissible_intake",
+      "standing_state": false
+    },
+    "scope": {
+      "job": "matter_bound_applicability",
+      "standing_state": false
+    },
+    "presence": {
+      "job": "relevant_occurrence_within_scope",
+      "standing_state": false
+    },
+    "threshold": {
+      "job": "eligibility_for_truth_formation",
+      "standing_state": false
+    },
+    "truth": {
+      "job": "standing_claim_formation",
+      "standing_state": true
+    },
+    "continuity": {
+      "job": "lineage_bearing_preservation_of_standing_truth",
+      "standing_state": true
+    },
+    "decision": {
+      "job": "committed_direction_on_basis_of_preserved_state",
+      "standing_state": true
+    },
+    "consequence": {
+      "job": "applied_effect_of_lawful_decision",
+      "standing_state": true
+    }
+  },
+
+  "containment": {
+    "canonical_expression": "HOLD",
+    "properties": {
+      "orthogonal": true,
+      "is_phase": false,
+      "is_resolution": false,
+      "non_standing_in_semantic_kind": true,
+      "release_restores_permissibility_only": true
+    }
+  },
+
+  "resolution": {
+    "family_closed": true,
+    "members": {
+      "FINALIZE": {
+        "job": "lawful_closure_in_current_form",
+        "erases_history": false,
+        "creates_successor": false
+      },
+      "INVALIDATE": {
+        "job": "remove_standing_without_erasing_trace",
+        "erases_history": false,
+        "creates_successor": false
+      },
+      "EVOLVE": {
+        "job": "lawful_successor_creation_in_explicit_relation_to_prior_state",
+        "erases_history": false,
+        "requires_predecessor_reference": true
+      }
+    }
+  },
+
+  "lineage": {
+    "principles": {
+      "no_silent_reset": true,
+      "no_overwrite": true,
+      "no_orphan_successor": true,
+      "correction_enters_as_successor": true
+    },
+    "continuity_rule": "continuity_is_preserved_by_lawful_successor_reference_not_surface_similarity"
+  },
+
+  "governance": {
+    "job": "bounded_authority_for_protocol_significant_action",
+    "requirements": {
+      "authority_class": true,
+      "legitimacy_basis": true,
+      "matter_relation": true,
+      "attribution": true,
+      "scope_fit": true
+    },
+    "principles": {
+      "authority_is_not_semantic_source": true,
+      "delegation_preserves_traceability": true,
+      "opaque_force_is_nonconformant": true
+    }
+  },
+
+  "contribution": {
+    "job": "preserve_distinct_semantic_roles_in_co_produced_material",
+    "roles": [
+      "ORIGIN",
+      "ELICITATION",
+      "FORMALIZATION",
+      "AUTHORIZATION",
+      "RENDERING",
+      "TRANSMISSION"
+    ],
+    "principles": {
+      "no_silent_role_impersonation": true,
+      "origin_must_not_be_overwritten_by_formalization": true,
+      "authorization_is_not_semantic_source": true,
+      "rendering_is_not_authorship_by_default": true,
+      "transmission_is_not_creation": true
+    }
+  },
+
+  "representation": {
+    "job": "preserve_semantic_distinctions_in_implementable_form",
+    "must_preserve": [
+      "matter_references",
+      "phase_state_relation",
+      "transition_references",
+      "predecessor_successor_references",
+      "governance_action_references",
+      "legitimacy_basis_references",
+      "containment_references",
+      "resolution_references",
+      "contribution_role_references",
+      "temporal_order"
+    ],
+    "anti_collapse": {
+      "no_phase_flattening": true,
+      "no_resolution_flattening": true,
+      "no_governance_flattening": true,
+      "no_contribution_flattening": true,
+      "no_lineage_flattening": true
+    }
+  },
+
+  "conformance": {
+    "principle": "variation_allowed_collapse_forbidden",
+    "core_invariants": [
+      "fixed_phase_order",
+      "no_phase_collapse",
+      "no_dark_standing",
+      "no_dark_consequence",
+      "no_silent_overwrite",
+      "no_hidden_fourth_outcome",
+      "no_authority_source_collapse",
+      "no_contribution_role_collapse",
+      "protocol_before_convenience"
+    ],
+    "prohibited_patterns": [
+      "phase_collapse",
+      "dark_standing",
+      "dark_consequence",
+      "hidden_fourth_outcome",
+      "silent_overwrite",
+      "opaque_governance_act",
+      "collapsed_contribution_roles",
+      "representation_flattening",
+      "retroactive_proof_collapse"
+    ]
+  },
+
+  "required_distinctions": [
+    "signal_not_truth",
+    "admissibility_not_standing",
+    "threshold_not_truth",
+    "truth_not_continuity",
+    "continuity_not_decision",
+    "decision_not_consequence",
+    "interpretation_not_standing",
+    "authority_not_authorship",
+    "correction_not_overwrite",
+    "effect_not_proof_of_upstream_validity"
+  ],
+
+  "minimal_formal_boundaries": {
+    "preparation_regime": [
+      "signal(x) -> candidate(x)",
+      "accepted(x) -> signal(x)",
+      "scoped(x) -> accepted(x) and exists matter_ref(x,m)",
+      "present(x) -> scoped(x)",
+      "threshold_met(x) -> present(x) and scoped(x)",
+      "threshold_met(x) -> truth_eligible(x)",
+      "threshold_met(x) and held(x) -> not truth_transition_permitted(x)"
+    ],
+    "standing_state_regime": [
+      "truth(x) -> standing_claim(x)",
+      "truth(x) -> standing(x)",
+      "continuity(x) -> standing(x) and traceable(x)",
+      "continuity(x) -> truth(x) or references_truth(x)",
+      "decision(x) -> commitment(x)",
+      "decision(x) -> references_continuity(x) or references_truth(x)",
+      "consequence(x) -> decision(x)",
+      "consequence(x) -> applied_effect(x)"
+    ],
+    "containment": [
+      "held(x) -> not resolvable(x)",
+      "held(x) -> not finalizable(x)",
+      "held(x) not_implies phase(x)",
+      "released(x) and truth_eligible(x) -> resolvable(x)"
+    ],
+    "resolution": [
+      "finalize(x) -> standing(x) and closed(x)",
+      "invalidate(x) -> not standing(x) and trace(x)",
+      "state_n_plus_1 = evolve(state_n, delta)",
+      "ref(state_n_plus_1) = state_n",
+      "evolve(state_n, delta) not_equals overwrite(state_n)"
+    ],
+    "lineage": [
+      "valid(state_n_plus_1) -> ref(state_n_plus_1) = state_n",
+      "not exists valid(state_n_plus_1) with predecessor_ref = null",
+      "correction(state_n) = evolve(state_n, delta)",
+      "continuity(state_n_plus_1) -> traceable_to(state_n_plus_1, state_n)"
+    ],
+    "governance": [
+      "authorized(a, act, m) -> legitimate(a, act, m)",
+      "not authorized(a, act, m) -> not valid_governance_act(a, act, m)",
+      "delegated(a2, a1, act) -> traceable(a2, a1, act)",
+      "authorized(a, act, m1) and m2 != m1 -> not authorized(a, act, m2)",
+      "authorized(a, act, x) not_implies semantic_source(a, x)"
+    ],
+    "contribution": [
+      "origin(a, x) = formalization(a, x) only_if explicitly_recorded(a, x)",
+      "elicitation(a, x) not_implies origin(a, x)",
+      "authorization(a, x) not_implies semantic_source(a, x)",
+      "rendering(a, x) not_implies authorship(a, x)",
+      "transmission(a, x) not_implies creation(a, x)",
+      "materially_distinct_roles(r1, r2, x) -> r1 != r2"
+    ],
+    "conformance": [
+      "truth(x) -> threshold_met(x)",
+      "decision(x) -> truth(x) or references_truth(x)",
+      "consequence(x) -> decision(x)",
+      "held(x) -> not resolution(x)",
+      "resolution(x) in {FINALIZE, INVALIDATE, EVOLVE}",
+      "valid_governance_act(a, act, m) -> authorized(a, act, m) and legitimate(a, act, m)",
+      "materially_distinct_roles(x) -> preserved_distinction(x)"
+    ]
+  },
+
+  "reference_objects": {
+    "governance_action_record": {
+      "required_fields": [
+        "governance_action_id",
+        "matter_ref",
+        "action_type",
+        "authority_class"
+      ],
+      "optional_fields": [
+        "actor_ref",
+        "legitimacy_basis_ref",
+        "delegated_from_ref",
+        "target_transition_ref",
+        "target_state_ref",
+        "contribution_role_map_ref",
+        "acted_at"
+      ]
+    },
+    "contribution_role_record": {
+      "required_fields": ["contribution_role_id", "matter_ref", "role_type"],
+      "optional_fields": [
+        "artifact_ref",
+        "actor_ref",
+        "related_governance_action_ref",
+        "basis_ref",
+        "recorded_at"
+      ]
+    },
+    "resolution_record": {
+      "required_fields": [
+        "resolution_id",
+        "target_state_ref",
+        "resolution_type"
+      ],
+      "optional_fields": ["predecessor_ref", "legitimacy_basis_ref", "acted_at"]
+    }
+  },
+
+  "canonical_constraints": {
+    "phases_must_not_be_skipped": true,
+    "phases_must_not_be_reordered": true,
+    "phases_must_not_absorb_each_other": true,
+    "silent_change_is_forbidden": true,
+    "deletion_of_standing_history_is_forbidden": true,
+    "reinterpretation_does_not_create_standing": true,
+    "effect_does_not_back_authorize_upstream_validity": true
+  }
+}

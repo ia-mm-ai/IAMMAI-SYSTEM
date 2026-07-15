@@ -1,0 +1,1178 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "carrier_registry_persistence_metadata": {
+    "carrier_registry_persistence_result_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001__carrier_registry_persistence_boundary_recorded__v2",
+    "carrier_registry_persistence_result_type": "carrier_registry_persistence_boundary_v2_result",
+    "carrier_registry_persistence_result_version": "0.2.0",
+    "generated_at": "2026-04-29T14:05:43+00:00",
+    "resolver_module": "resolve_carrier_registry_persistence_boundary_v2",
+    "successor_of_module": "resolve_carrier_registry_persistence_boundary"
+  },
+  "carrier_registry_persistence_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "carrier_registry_persistence_boundary_recorded": true,
+    "currentness_participation_reference_preserved": false,
+    "divergence_reference_preserved": false,
+    "evidence_reference_preserved": true,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "authority_created": false,
+      "carrier_registry_created_as_authority": false,
+      "continuation_authorized": false,
+      "current_carrier_selected": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "latest_record_currentness": false,
+      "losing_carrier_invalidated": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "registry_authorized_continuation": false,
+      "registry_authorized_distributed_operation": false,
+      "registry_authorized_full_body_transfer": false,
+      "registry_authorized_sync": false,
+      "registry_created_authority": false,
+      "registry_created_carrier_hierarchy": false,
+      "registry_created_currentness": false,
+      "registry_created_distributed_standing": false,
+      "registry_created_permission": false,
+      "registry_created_second_body": false,
+      "registry_created_source": false,
+      "registry_erased_evidence": false,
+      "registry_hid_corruption": false,
+      "registry_hid_divergence": false,
+      "registry_hid_refusal": false,
+      "registry_repaired_by_overwrite": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "source_replaced": false,
+      "winning_carrier_selected": false
+    },
+    "lifecycle_reference_preserved": true,
+    "no_carrier_hierarchy": true,
+    "no_continuation": true,
+    "no_current_winning_losing_carrier_collapse": true,
+    "no_distributed_operation": true,
+    "no_distributed_standing": true,
+    "no_divergence_resolution": true,
+    "no_evidence_erasure": true,
+    "no_hidden_refusal_divergence_corruption": true,
+    "no_latest_record_file_currentness": true,
+    "no_source_currentness_authority_permission": true,
+    "no_sync_full_body_transfer_second_body": true,
+    "non_claims_preserved": true,
+    "outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+    "passed_check_count": 44,
+    "persistence_purpose": "Preserve an indexable v2 reference to Carrier C's CARRIER_REFUSED_OR_BLOCKED lifecycle status so later review can find the evidence, while preserving that registry presence is not standing, persistence is not currentness, and lifecycle-reference preservation is projected truthfully.",
+    "referenced_artifact_identity_preserved": true,
+    "referenced_artifact_outcome_preserved": true,
+    "registry_intent": "RECORD_CARRIER_REGISTRY_PERSISTENCE_BOUNDARY",
+    "registry_persistence_basis": {
+      "indexing_is_not_currentness": true,
+      "lifecycle_artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+      "lifecycle_status_reference": {
+        "raw_requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status_declared": true,
+        "requested_lifecycle_status_preserved": true,
+        "requested_lifecycle_status_supported": true
+      },
+      "persistence_is_not_standing": true,
+      "record_presence_is_not_permission": true,
+      "reference_preserves_identity": true,
+      "reference_preserves_outcome": true,
+      "referenced_artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+      "registry_basis": "carrier_lifecycle_status_reference_only",
+      "registry_is_not_authority": true,
+      "registry_membership_is_not_distributed_standing": true,
+      "successor_projection": "v2 projects lifecycle_reference_preserved from detailed basis and referenced artifact outcome"
+    },
+    "registry_question": "May Carrier C's lifecycle status artifact be preserved as a bounded registry/persistence reference with truthful lifecycle-reference projection, without creating registry authority, currentness, source, carrier hierarchy, distributed standing, synchronization, full body transfer, continuation, or distributed operation?",
+    "registry_request_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+    "relation_reference_preserved": false,
+    "selected_carrier_id": "carrier_C_additional_physical_candidate",
+    "selected_record_category": "CARRIER_LIFECYCLE_STATUS_RECORD",
+    "selected_referenced_artifact_ids": [
+      "carrier_c_lifecycle_refused_or_blocked_001"
+    ],
+    "selected_referenced_artifact_outcomes": [
+      "CARRIER_LIFECYCLE_STATUS_RECORDED"
+    ],
+    "successor_of_module": "resolve_carrier_registry_persistence_boundary"
+  },
+  "declared_registry_question": {
+    "declared_non_claims": {
+      "authority_created": false,
+      "carrier_registry_created_as_authority": false,
+      "continuation_authorized": false,
+      "current_carrier_selected": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "latest_record_currentness": false,
+      "losing_carrier_invalidated": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "registry_authorized_continuation": false,
+      "registry_authorized_distributed_operation": false,
+      "registry_authorized_full_body_transfer": false,
+      "registry_authorized_sync": false,
+      "registry_created_authority": false,
+      "registry_created_carrier_hierarchy": false,
+      "registry_created_currentness": false,
+      "registry_created_distributed_standing": false,
+      "registry_created_permission": false,
+      "registry_created_second_body": false,
+      "registry_created_source": false,
+      "registry_erased_evidence": false,
+      "registry_hid_corruption": false,
+      "registry_hid_divergence": false,
+      "registry_hid_refusal": false,
+      "registry_repaired_by_overwrite": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "source_replaced": false,
+      "winning_carrier_selected": false
+    },
+    "does_not_authorize_sync_full_body_transfer_or_distributed_operation": true,
+    "does_not_implement_registry_storage": true,
+    "indexing_is_not_currentness": true,
+    "not_recorded_reason": null,
+    "operator_note": null,
+    "persistence_is_not_standing": true,
+    "record_presence_is_not_permission": true,
+    "records_one_registry_persistence_question": true,
+    "registry_intent": "RECORD_CARRIER_REGISTRY_PERSISTENCE_BOUNDARY",
+    "registry_is_not_authority": true,
+    "registry_membership_is_not_distributed_standing": true,
+    "registry_question": "May Carrier C's lifecycle status artifact be preserved as a bounded registry/persistence reference with truthful lifecycle-reference projection, without creating registry authority, currentness, source, carrier hierarchy, distributed standing, synchronization, full body transfer, continuation, or distributed operation?",
+    "registry_request_id": "carrier_c_lifecycle_registry_persistence_reference_v2_001",
+    "registry_request_path": null,
+    "successor_of_module": "resolve_carrier_registry_persistence_boundary"
+  },
+  "non_claims": {
+    "authority_created": false,
+    "carrier_registry_created_as_authority": false,
+    "continuation_authorized": false,
+    "current_carrier_selected": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "full_body_transfer_authorized": false,
+    "latest_file_currentness": false,
+    "latest_record_currentness": false,
+    "losing_carrier_invalidated": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "recency_fraud": false,
+    "registry_authorized_continuation": false,
+    "registry_authorized_distributed_operation": false,
+    "registry_authorized_full_body_transfer": false,
+    "registry_authorized_sync": false,
+    "registry_created_authority": false,
+    "registry_created_carrier_hierarchy": false,
+    "registry_created_currentness": false,
+    "registry_created_distributed_standing": false,
+    "registry_created_permission": false,
+    "registry_created_second_body": false,
+    "registry_created_source": false,
+    "registry_erased_evidence": false,
+    "registry_hid_corruption": false,
+    "registry_hid_divergence": false,
+    "registry_hid_refusal": false,
+    "registry_repaired_by_overwrite": false,
+    "replay_performed": false,
+    "repository_synchronization_authorized": false,
+    "second_body_created": false,
+    "source_replaced": false,
+    "winning_carrier_selected": false
+  },
+  "outcome": "CARRIER_REGISTRY_PERSISTENCE_BOUNDARY_RECORDED",
+  "persistence_preservation_rules": {
+    "effective_persistence_preservation_rules": {
+      "admission_posture_preserved_where_available": true,
+      "carrier_identity_preserved_where_available": true,
+      "currentness_participation_posture_preserved_where_available": true,
+      "divergence_posture_preserved_where_available": true,
+      "does_not_hide_blocked_refused_corrupted_or_stale_posture": true,
+      "does_not_mutate_referenced_artifact": true,
+      "does_not_repair_by_overwrite": true,
+      "latest_persisted_record_not_current": true,
+      "lifecycle_posture_preserved_where_available": true,
+      "non_claims_preserved": true,
+      "older_records_not_erased_without_retention_boundary": true,
+      "receipt_or_refusal_posture_preserved_where_available": true,
+      "referenced_artifact_identity_preserved": true,
+      "referenced_artifact_outcome_preserved": true,
+      "relation_posture_preserved_where_available": true
+    },
+    "persistence_preservation_rules_derivable": true,
+    "persistence_preservation_rules_preserved": true,
+    "persistence_preservation_rules_supplied": true,
+    "raw_persistence_preservation_rules": {
+      "admission_posture_preserved_where_available": true,
+      "carrier_identity_preserved_where_available": true,
+      "currentness_participation_posture_preserved_where_available": true,
+      "divergence_posture_preserved_where_available": true,
+      "does_not_hide_blocked_refused_corrupted_or_stale_posture": true,
+      "does_not_mutate_referenced_artifact": true,
+      "does_not_repair_by_overwrite": true,
+      "latest_persisted_record_not_current": true,
+      "lifecycle_posture_preserved_where_available": true,
+      "non_claims_preserved": true,
+      "older_records_not_erased_without_retention_boundary": true,
+      "receipt_or_refusal_posture_preserved_where_available": true,
+      "referenced_artifact_identity_preserved": true,
+      "referenced_artifact_outcome_preserved": true,
+      "relation_posture_preserved_where_available": true
+    }
+  },
+  "persistence_purpose": {
+    "persistence_does_not_create_authority": true,
+    "persistence_does_not_create_currentness": true,
+    "persistence_does_not_create_distributed_standing": true,
+    "persistence_does_not_create_standing": true,
+    "persistence_purpose": "Preserve an indexable v2 reference to Carrier C's CARRIER_REFUSED_OR_BLOCKED lifecycle status so later review can find the evidence, while preserving that registry presence is not standing, persistence is not currentness, and lifecycle-reference preservation is projected truthfully.",
+    "persistence_purpose_declared": true,
+    "persistence_purpose_preserved": true
+  },
+  "registry_non_authority_rules": {
+    "effective_registry_non_authority_rules": {
+      "registry_absence_is_not_invalidation": true,
+      "registry_availability_is_not_priority": true,
+      "registry_completeness_is_not_authority": true,
+      "registry_freshness_is_not_currentness": true,
+      "registry_label_is_not_role": true,
+      "registry_lifecycle_status_is_not_currentness": true,
+      "registry_lifecycle_status_is_not_permission": true,
+      "registry_lifecycle_status_is_not_source": true,
+      "registry_majority_is_not_truth": true,
+      "registry_order_is_not_rank": true,
+      "registry_presence_is_not_standing": true,
+      "registry_role_history_is_not_permanent_role": true
+    },
+    "raw_registry_non_authority_rules": {
+      "registry_absence_is_not_invalidation": true,
+      "registry_availability_is_not_priority": true,
+      "registry_completeness_is_not_authority": true,
+      "registry_freshness_is_not_currentness": true,
+      "registry_label_is_not_role": true,
+      "registry_lifecycle_status_is_not_currentness": true,
+      "registry_lifecycle_status_is_not_permission": true,
+      "registry_lifecycle_status_is_not_source": true,
+      "registry_majority_is_not_truth": true,
+      "registry_order_is_not_rank": true,
+      "registry_presence_is_not_standing": true,
+      "registry_role_history_is_not_permanent_role": true
+    },
+    "registry_non_authority_rules_derivable": true,
+    "registry_non_authority_rules_preserved": true,
+    "registry_non_authority_rules_supplied": true
+  },
+  "registry_persistence_basis": {
+    "admission_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "admission_reference_preserved": false,
+    "currentness_participation_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "currentness_participation_reference_preserved": false,
+    "divergence_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "divergence_reference_preserved": false,
+    "experiment_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "experiment_reference_preserved": false,
+    "integrity_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "integrity_reference_preserved": false,
+    "lifecycle_reference_preserved": true,
+    "lifecycle_status_reference": {
+      "carrier_id": null,
+      "parseable": true,
+      "preserved": true,
+      "raw_reference": {
+        "raw_requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status_declared": true,
+        "requested_lifecycle_status_preserved": true,
+        "requested_lifecycle_status_supported": true
+      },
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": true
+    },
+    "raw_registry_persistence_basis": {
+      "indexing_is_not_currentness": true,
+      "lifecycle_artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+      "lifecycle_status_reference": {
+        "raw_requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status_declared": true,
+        "requested_lifecycle_status_preserved": true,
+        "requested_lifecycle_status_supported": true
+      },
+      "persistence_is_not_standing": true,
+      "record_presence_is_not_permission": true,
+      "reference_preserves_identity": true,
+      "reference_preserves_outcome": true,
+      "referenced_artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+      "registry_basis": "carrier_lifecycle_status_reference_only",
+      "registry_is_not_authority": true,
+      "registry_membership_is_not_distributed_standing": true,
+      "successor_projection": "v2 projects lifecycle_reference_preserved from detailed basis and referenced artifact outcome"
+    },
+    "raw_registry_persistence_basis_section": {
+      "indexing_is_not_currentness": true,
+      "lifecycle_artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+      "lifecycle_status_reference": {
+        "raw_requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        },
+        "requested_lifecycle_status_declared": true,
+        "requested_lifecycle_status_preserved": true,
+        "requested_lifecycle_status_supported": true
+      },
+      "persistence_is_not_standing": true,
+      "record_presence_is_not_permission": true,
+      "reference_preserves_identity": true,
+      "reference_preserves_outcome": true,
+      "referenced_artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+      "registry_basis": "carrier_lifecycle_status_reference_only",
+      "registry_is_not_authority": true,
+      "registry_membership_is_not_distributed_standing": true,
+      "successor_projection": "v2 projects lifecycle_reference_preserved from detailed basis and referenced artifact outcome"
+    },
+    "receipt_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "receipt_reference_preserved": false,
+    "registry_does_not_create_authority": true,
+    "registry_does_not_create_currentness": true,
+    "registry_does_not_create_distributed_standing": true,
+    "registry_does_not_upgrade_references": true,
+    "registry_persistence_basis_declared": true,
+    "registry_persistence_basis_preserved": true,
+    "registry_preserves_references_only": true,
+    "relation_reference": {
+      "parseable": true,
+      "preserved": false,
+      "raw_reference": null,
+      "reference_id": null,
+      "reference_outcome": null,
+      "supplied": false
+    },
+    "relation_reference_preserved": false
+  },
+  "registry_persistence_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_registry_request_parseable_mapping",
+      "expected_posture": "declared registry/persistence request is a parseable mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "May Carrier C's lifecycle status artifact be preserved as a bounded registry/persistence reference with truthful lifecycle-reference projection, without creating registry authority, currentness, source, carrier hierarchy, distributed standing, synchronization, full body transfer, continuation, or distributed operation?",
+      "block_code": null,
+      "check_name": "registry_question_declared",
+      "expected_posture": "registry question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "Preserve an indexable v2 reference to Carrier C's CARRIER_REFUSED_OR_BLOCKED lifecycle status so later review can find the evidence, while preserving that registry presence is not standing, persistence is not currentness, and lifecycle-reference preservation is projected truthfully.",
+      "block_code": null,
+      "check_name": "persistence_purpose_declared",
+      "expected_posture": "persistence purpose is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_CARRIER_REGISTRY_PERSISTENCE_BOUNDARY",
+      "block_code": null,
+      "check_name": "registry_intent_supported",
+      "expected_posture": "registry intent is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIER_LIFECYCLE_STATUS_RECORD",
+      "block_code": null,
+      "check_name": "record_category_supported",
+      "expected_posture": "selected record category is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "category_requires_selected_carrier": true,
+        "selected_carrier_id": "carrier_C_additional_physical_candidate"
+      },
+      "block_code": null,
+      "check_name": "selected_carrier_identity_present_where_required",
+      "expected_posture": "selected carrier identity is present where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "category_requires_referenced_artifact": false,
+        "referenced_artifact_ids": [
+          "carrier_c_lifecycle_refused_or_blocked_001"
+        ]
+      },
+      "block_code": null,
+      "check_name": "referenced_artifacts_present_where_required",
+      "expected_posture": "referenced artifact is present where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "length": 1,
+        "type": "list"
+      },
+      "block_code": null,
+      "check_name": "referenced_artifact_parseable_where_supplied",
+      "expected_posture": "referenced artifacts are parseable where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_c_lifecycle_refused_or_blocked_001"
+      ],
+      "block_code": null,
+      "check_name": "referenced_artifact_identity_present_where_required",
+      "expected_posture": "referenced artifact identity is present where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "CARRIER_LIFECYCLE_STATUS_RECORDED"
+      ],
+      "block_code": null,
+      "check_name": "referenced_artifact_outcome_present_where_required",
+      "expected_posture": "referenced artifact outcome is present where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "lifecycle_reference_preserved": true,
+        "lifecycle_signal": true
+      },
+      "block_code": null,
+      "check_name": "lifecycle_reference_preserved_when_supplied_or_inferable",
+      "expected_posture": "lifecycle reference projects true when supplied or inferable",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "relation_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "divergence_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "currentness_participation_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "admission_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "receipt_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "parseable": true,
+        "preserved": false,
+        "raw_reference": null,
+        "reference_id": null,
+        "reference_outcome": null,
+        "supplied": false
+      },
+      "block_code": null,
+      "check_name": "experiment_reference_preserved_where_supplied",
+      "expected_posture": "reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_c_lifecycle_refused_or_blocked_001"
+      ],
+      "block_code": null,
+      "check_name": "evidence_reference_preserved_where_supplied",
+      "expected_posture": "evidence or artifact reference is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_posture_preserved_where_available": true,
+        "carrier_identity_preserved_where_available": true,
+        "currentness_participation_posture_preserved_where_available": true,
+        "divergence_posture_preserved_where_available": true,
+        "does_not_hide_blocked_refused_corrupted_or_stale_posture": true,
+        "does_not_mutate_referenced_artifact": true,
+        "does_not_repair_by_overwrite": true,
+        "latest_persisted_record_not_current": true,
+        "lifecycle_posture_preserved_where_available": true,
+        "non_claims_preserved": true,
+        "older_records_not_erased_without_retention_boundary": true,
+        "receipt_or_refusal_posture_preserved_where_available": true,
+        "referenced_artifact_identity_preserved": true,
+        "referenced_artifact_outcome_preserved": true,
+        "relation_posture_preserved_where_available": true
+      },
+      "block_code": null,
+      "check_name": "persistence_preservation_rules_preserved",
+      "expected_posture": "persistence preservation rules are preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_absence_is_not_invalidation": true,
+        "registry_availability_is_not_priority": true,
+        "registry_completeness_is_not_authority": true,
+        "registry_freshness_is_not_currentness": true,
+        "registry_label_is_not_role": true,
+        "registry_lifecycle_status_is_not_currentness": true,
+        "registry_lifecycle_status_is_not_permission": true,
+        "registry_lifecycle_status_is_not_source": true,
+        "registry_majority_is_not_truth": true,
+        "registry_order_is_not_rank": true,
+        "registry_presence_is_not_standing": true,
+        "registry_role_history_is_not_permanent_role": true
+      },
+      "block_code": null,
+      "check_name": "registry_non_authority_rules_preserved",
+      "expected_posture": "registry non-authority rules are preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_created_source": false,
+        "registry_decides_source": false,
+        "source_decided": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_decide_source",
+      "expected_posture": "registry does not decide source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "currentness_created": false,
+        "currentness_decided": false,
+        "registry_created_currentness": false,
+        "registry_decides_currentness": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_decide_currentness",
+      "expected_posture": "registry does not decide currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "carrier_registry_created_as_authority": false,
+        "registry_authority_created": false,
+        "registry_created_authority": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_create_authority",
+      "expected_posture": "registry does not create authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "permission_beyond_registry_created": false,
+        "permission_created": false,
+        "registry_created_permission": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_create_permission",
+      "expected_posture": "registry does not create permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_hierarchy_created": false,
+        "registry_created_carrier_hierarchy": false,
+        "registry_creates_carrier_hierarchy": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_create_carrier_hierarchy",
+      "expected_posture": "registry does not create carrier hierarchy",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "current_carrier_selected": false,
+        "registry_selects_current_carrier": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_select_current_carrier",
+      "expected_posture": "registry does not select current carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_selects_winning_carrier": false,
+        "winning_carrier_selected": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_select_winning_carrier",
+      "expected_posture": "registry does not select winning carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "losing_carrier_invalidated": false,
+        "registry_invalidates_losing_carrier": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_invalidate_losing_carrier",
+      "expected_posture": "registry does not invalidate losing carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_resolved": false,
+        "registry_resolves_divergence": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_resolve_divergence",
+      "expected_posture": "registry does not resolve divergence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "evidence_erased": false,
+        "older_records_erased": false,
+        "prior_evidence_erased": false,
+        "registry_erased_evidence": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_erase_evidence",
+      "expected_posture": "registry does not erase evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "hidden_refusal": false,
+        "refusal_hidden": false,
+        "registry_hid_refusal": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_hide_refusal",
+      "expected_posture": "registry does not hide refusal",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_hidden": false,
+        "hidden_divergence": false,
+        "hidden_mismatch": false,
+        "mismatch_hidden": false,
+        "registry_hid_divergence": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_hide_divergence",
+      "expected_posture": "registry does not hide divergence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "corruption_hidden": false,
+        "hidden_corruption": false,
+        "registry_hid_corruption": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_hide_corruption",
+      "expected_posture": "registry does not hide corruption",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_repaired_by_overwrite": false,
+        "repair_by_overwrite": false,
+        "repaired_by_overwrite": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_repair_by_overwrite",
+      "expected_posture": "registry does not repair by overwrite",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_standing_created": false,
+        "registry_created_distributed_standing": false,
+        "registry_creates_distributed_standing": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_create_distributed_standing",
+      "expected_posture": "registry does not create distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_authorized_sync": false,
+        "repository_sync_authorized": false,
+        "repository_synchronization_authorized": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_authorize_repository_sync",
+      "expected_posture": "registry does not authorize repository synchronization",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "full_body_transfer_authorized": false,
+        "registry_authorized_full_body_transfer": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_authorize_full_body_transfer",
+      "expected_posture": "registry does not authorize full body transfer",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "registry_created_second_body": false,
+        "second_body_created": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_create_second_body",
+      "expected_posture": "registry does not create second body",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": false,
+        "registry_authorized_continuation": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_authorize_continuation",
+      "expected_posture": "registry does not authorize continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_operation_authorized": false,
+        "registry_authorized_distributed_operation": false
+      },
+      "block_code": null,
+      "check_name": "registry_does_not_authorize_distributed_operation",
+      "expected_posture": "registry does not authorize distributed operation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_persisted_record_currentness": false,
+        "latest_record_currentness": false
+      },
+      "block_code": null,
+      "check_name": "no_latest_record_currentness",
+      "expected_posture": "registry does not use latest-record currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false,
+        "recency_fraud": false
+      },
+      "block_code": null,
+      "check_name": "no_latest_file_currentness",
+      "expected_posture": "registry does not use latest-file currentness or recency fraud",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "merge_requested": false,
+        "mutation_performed": false,
+        "mutation_requested": false,
+        "replay_performed": false,
+        "replay_requested": false
+      },
+      "block_code": null,
+      "check_name": "no_mutation_replay_merge",
+      "expected_posture": "registry does not mutate, replay, or merge evidence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "carrier_registry_created_as_authority": false,
+        "continuation_authorized": false,
+        "current_carrier_selected": false,
+        "currentness_created": false,
+        "distributed_operation_authorized": false,
+        "distributed_standing_created": false,
+        "full_body_transfer_authorized": false,
+        "latest_file_currentness": false,
+        "latest_record_currentness": false,
+        "losing_carrier_invalidated": false,
+        "merge_performed": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "recency_fraud": false,
+        "registry_authorized_continuation": false,
+        "registry_authorized_distributed_operation": false,
+        "registry_authorized_full_body_transfer": false,
+        "registry_authorized_sync": false,
+        "registry_created_authority": false,
+        "registry_created_carrier_hierarchy": false,
+        "registry_created_currentness": false,
+        "registry_created_distributed_standing": false,
+        "registry_created_permission": false,
+        "registry_created_second_body": false,
+        "registry_created_source": false,
+        "registry_erased_evidence": false,
+        "registry_hid_corruption": false,
+        "registry_hid_divergence": false,
+        "registry_hid_refusal": false,
+        "registry_repaired_by_overwrite": false,
+        "replay_performed": false,
+        "repository_synchronization_authorized": false,
+        "second_body_created": false,
+        "source_replaced": false,
+        "winning_carrier_selected": false
+      },
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "required registry/persistence non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "registry_persistence_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_availability_priority": true,
+    "does_not_mean_carrier_hierarchy": true,
+    "does_not_mean_completeness_authority": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_current_carrier_selected": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_operation": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_divergence_resolved": true,
+    "does_not_mean_evidence_erased": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_future_experiments_authorized": true,
+    "does_not_mean_latest_record_currentness": true,
+    "does_not_mean_losing_carrier_invalidated": true,
+    "does_not_mean_majority_currentness": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_registry_absence_as_invalidation": true,
+    "does_not_mean_registry_presence_as_standing": true,
+    "does_not_mean_repair_by_overwrite": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_source": true,
+    "does_not_mean_standing": true,
+    "does_not_mean_truth": true,
+    "does_not_mean_winning_carrier_selected": true
+  },
+  "registry_persistence_statement": {
+    "admission_reference_preserved": false,
+    "block_code": null,
+    "block_reason": null,
+    "carrier_registry_persistence_boundary_recorded": true,
+    "current_carrier_selected": false,
+    "currentness_participation_reference_preserved": false,
+    "database_created": false,
+    "divergence_reference_preserved": false,
+    "divergence_resolved": false,
+    "evidence_reference_preserved": true,
+    "experiment_reference_preserved": false,
+    "failed_check_count": 0,
+    "integrity_reference_preserved": false,
+    "latest_file_currentness": false,
+    "latest_record_currentness": false,
+    "lifecycle_reference_preserved": true,
+    "losing_carrier_invalidated": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "non_claims_preserved": true,
+    "not_recorded_reason": null,
+    "passed_check_count": 44,
+    "persistence_engine_implemented": false,
+    "persistence_purpose_preserved": true,
+    "receipt_reference_preserved": false,
+    "referenced_artifact_identity_preserved": true,
+    "referenced_artifact_outcome_preserved": true,
+    "referenced_artifacts_preserved": true,
+    "registry_authorized_continuation": false,
+    "registry_authorized_distributed_operation": false,
+    "registry_authorized_full_body_transfer": false,
+    "registry_authorized_sync": false,
+    "registry_created_authority": false,
+    "registry_created_carrier_hierarchy": false,
+    "registry_created_currentness": false,
+    "registry_created_distributed_standing": false,
+    "registry_created_permission": false,
+    "registry_created_second_body": false,
+    "registry_created_source": false,
+    "registry_erased_evidence": false,
+    "registry_hid_corruption": false,
+    "registry_hid_divergence": false,
+    "registry_hid_refusal": false,
+    "registry_implemented_storage": false,
+    "registry_presence_created_standing": false,
+    "registry_question_preserved": true,
+    "registry_repaired_by_overwrite": false,
+    "relation_reference_preserved": false,
+    "replay_performed": false,
+    "selected_carrier_preserved": true,
+    "selected_record_category_preserved": true,
+    "successor_of_module": "resolve_carrier_registry_persistence_boundary",
+    "winning_carrier_selected": false
+  },
+  "selected_carrier": {
+    "carrier_identity_declared": true,
+    "carrier_record_is_not_authority": true,
+    "carrier_record_is_not_currentness": true,
+    "carrier_record_is_not_distributed_standing": true,
+    "carrier_record_is_not_source": true,
+    "raw_selected_carrier": {
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "carrier_label": "Carrier C additional physical candidate"
+    },
+    "selected_carrier_declared": true,
+    "selected_carrier_id": "carrier_C_additional_physical_candidate",
+    "selected_carrier_preserved": true
+  },
+  "selected_record_category": {
+    "category_is_not_database_schema": true,
+    "category_is_not_registry_authority": true,
+    "category_requires_referenced_artifact": false,
+    "category_requires_selected_carrier": true,
+    "raw_selected_record_category": "CARRIER_LIFECYCLE_STATUS_RECORD",
+    "selected_record_category": "CARRIER_LIFECYCLE_STATUS_RECORD",
+    "selected_record_category_declared": true,
+    "selected_record_category_preserved": true,
+    "selected_record_category_supported": true
+  },
+  "selected_referenced_artifacts": {
+    "raw_selected_referenced_artifacts": [
+      {
+        "artifact_id": "carrier_c_lifecycle_refused_or_blocked_001",
+        "artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+        "artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "reference_role": "carrier_lifecycle_status_reference",
+        "referenced_status": {
+          "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+          "requested_lifecycle_status_declared": true,
+          "requested_lifecycle_status_preserved": true,
+          "requested_lifecycle_status_supported": true
+        }
+      }
+    ],
+    "referenced_artifact_entries": [
+      {
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "raw_referenced_artifact": {
+          "artifact_id": "carrier_c_lifecycle_refused_or_blocked_001",
+          "artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+          "artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json",
+          "carrier_id": "carrier_C_additional_physical_candidate",
+          "reference_role": "carrier_lifecycle_status_reference",
+          "referenced_status": {
+            "raw_requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+            "requested_lifecycle_status": "CARRIER_REFUSED_OR_BLOCKED",
+            "requested_lifecycle_status_declared": true,
+            "requested_lifecycle_status_preserved": true,
+            "requested_lifecycle_status_supported": true
+          }
+        },
+        "record_category": null,
+        "referenced_artifact_id": "carrier_c_lifecycle_refused_or_blocked_001",
+        "referenced_artifact_outcome": "CARRIER_LIFECYCLE_STATUS_RECORDED",
+        "referenced_artifact_path": "artifacts/integrity_host_v0_min_coexistence_carrier_lifecycle_boundary/carrier_c_lifecycle_refused_or_blocked_001__carrier_lifecycle_result.json"
+      }
+    ],
+    "referenced_artifact_identity_preserved": true,
+    "referenced_artifact_ids": [
+      "carrier_c_lifecycle_refused_or_blocked_001"
+    ],
+    "referenced_artifact_outcome_preserved": true,
+    "referenced_artifact_outcomes": [
+      "CARRIER_LIFECYCLE_STATUS_RECORDED"
+    ],
+    "referenced_artifacts_parseable": true,
+    "referenced_artifacts_preserved": true,
+    "referenced_artifacts_required": false,
+    "referenced_artifacts_supplied": true
+  },
+  "what_remains_open": {
+    "action_consequence_law": true,
+    "body_relevance_medium": true,
+    "carrier_registry_implementation": true,
+    "cross_carrier_currentness_successor_law": true,
+    "distributed_operation_only_if_separately_declared_and_bounded": true,
+    "distributed_standing": true,
+    "distributed_standing_boundary": true,
+    "divergence_consequence_law": true,
+    "future_self_orientation_successor_only_if_separately_justified": true,
+    "generalized_vessel_relation_lifecycle": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "persistence_implementation": true,
+    "presence_law": true,
+    "signal_series_or_accumulation_logic": true,
+    "standing_propagation_law": true,
+    "successor_carrier_law": true,
+    "threshold_law": true,
+    "truth_law": true
+  }
+}

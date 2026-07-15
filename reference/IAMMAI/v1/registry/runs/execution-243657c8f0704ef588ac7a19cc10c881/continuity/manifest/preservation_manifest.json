@@ -1,0 +1,267 @@
+{
+  "continuity_turn_identity": "continuity-turn-2ee5b531fb114918b16e8f09faac3e45",
+  "execution_identity": "execution-243657c8f0704ef588ac7a19cc10c881",
+  "execution_run_directory": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881",
+  "implementation_posture": "implementation_local_layout_only",
+  "layer_roots": {
+    "canonical_body": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/canonical_body",
+    "conformance": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance",
+    "envelope": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/envelope",
+    "execution_relation": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/execution_relation",
+    "fixtures": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/fixture_outputs",
+    "manifest": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/manifest",
+    "source_notes": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/source_notes",
+    "summary": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/run_summary"
+  },
+  "layout_kind": "continuity",
+  "manifest_type": "v1_fifth_continuity_preservation_manifest",
+  "naming_posture": "implementation_local_default",
+  "note": "This local preservation layout is an implementation-local default, not final protocol law.",
+  "preservation_identity": "preservation-07009b53b7cb4983a61c1616b45ca9ca",
+  "preservation_result_ref": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/preservation/run_write_outcome.json",
+  "run_directory": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity",
+  "source_selection": {
+    "coherence_checks": [
+      {
+        "message": "Continuity predecessor source points back to the selected ordinary anchor source.",
+        "name": "anchor_source_relation"
+      },
+      {
+        "message": "Selected sources share coherent matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "matter_relation"
+      },
+      {
+        "message": "Selected sources satisfy required matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "required_matter_relation"
+      }
+    ],
+    "continuity_predecessor_source": {
+      "admissibility_checks": [
+        {
+          "message": "Continuity run summary is present at v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/run_summary/run_summary.json.",
+          "name": "run_summary_present"
+        },
+        {
+          "message": "Continuity run summary JSON is readable.",
+          "name": "run_summary_json_readable"
+        },
+        {
+          "message": "Positive continuity body conformance is present at v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/body/positive/continuity_turn.json.",
+          "name": "positive_body_conformance_present"
+        },
+        {
+          "message": "Continuity positive body conformance is readable and passing.",
+          "name": "positive_body_conformance"
+        },
+        {
+          "message": "Positive continuity body is present at v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/canonical_body/positive/continuity_turn.body.json.",
+          "name": "continuity_body_present"
+        },
+        {
+          "message": "Positive continuity body JSON is readable.",
+          "name": "continuity_body_json_readable"
+        },
+        {
+          "message": "Anchor-source note is present at v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/source_notes/anchor_source_note.json.",
+          "name": "anchor_source_note_present"
+        },
+        {
+          "message": "Anchor-source note JSON is readable.",
+          "name": "anchor_source_note_json_readable"
+        },
+        {
+          "message": "Continuity body exposes readable turn identity continuity-turn-c57057fad48b434688ea85085a6fe305.",
+          "name": "continuity_turn_identity"
+        },
+        {
+          "message": "Continuity source retains admissible canonical anchor relation to v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29.",
+          "name": "anchor_source_admissible"
+        },
+        {
+          "message": "Continuity source exposes coherent matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+          "name": "matter_relation_coherent"
+        },
+        {
+          "message": "Anchor-source note identity refs match the selected ordinary anchor source.",
+          "name": "anchor_source_note_identity_alignment"
+        },
+        {
+          "message": "Anchor-source note body refs match the selected ordinary anchor source.",
+          "name": "anchor_source_note_body_alignment"
+        },
+        {
+          "message": "Continuity body retains canonical artifact anchoring without reducing continuity to predecessor succession alone.",
+          "name": "anchor_relation_retained"
+        },
+        {
+          "message": "Any preserved explicit execution-relation surface is readable and non-failing.",
+          "name": "execution_relation_surface"
+        },
+        {
+          "message": "Continuity preservation outcome is readable and passing.",
+          "name": "preservation_outcome"
+        }
+      ],
+      "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+      "matched_anchor_refs": {
+        "governance_action_ref": "governance_action-de31d587f2da4003a1b2ef8e5248f846",
+        "state_ref": "state-31d3f49505f441f88bac51cf8531e7f7",
+        "transition_ref": "transition-496f0f7964f54b858eb08a6516693d11",
+        "validation_ref": "validation-7218a89d58ce4933bc437ef66ea9a7de",
+        "witness_ref": "witness-21b189a37b9e44f0915135b6aa0cce31"
+      },
+      "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+      "predecessor_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+      "run_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+      "selected_anchor_source_note_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/source_notes/anchor_source_note.json",
+      "selected_body_conformance_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/body/positive/continuity_turn.json",
+      "selected_continuity_body_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/canonical_body/positive/continuity_turn.body.json",
+      "selected_continuity_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity",
+      "selected_preservation_conformance_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/preservation/run_write_outcome.json",
+      "selected_summary_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/run_summary/run_summary.json",
+      "selection_basis": "local_default_latest_admissible",
+      "source_class": "continuity_predecessor_source"
+    },
+    "ordinary_anchor_source": {
+      "admissibility_checks": [
+        {
+          "message": "Preserved ordinary canonical body files are present for all five families.",
+          "name": "canonical_body_material"
+        },
+        {
+          "message": "Ordinary run summary is present at v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json.",
+          "name": "run_summary_present"
+        },
+        {
+          "message": "Ordinary canonical body JSON is readable for all five families.",
+          "name": "canonical_body_json_readable"
+        },
+        {
+          "message": "Ordinary run summary JSON is readable.",
+          "name": "run_summary_json_readable"
+        },
+        {
+          "message": "Ordinary canonical body material exposes coherent matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+          "name": "matter_relation_coherent"
+        },
+        {
+          "message": "Ordinary source satisfies required matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+          "name": "required_matter_relation"
+        },
+        {
+          "message": "Ordinary canonical bodies expose readable anchor identities for all five families.",
+          "name": "anchor_identities_readable"
+        },
+        {
+          "message": "Ordinary positive body-conformance material is readable and passing for all five families.",
+          "name": "positive_body_conformance"
+        },
+        {
+          "message": "Ordinary preservation outcome is readable and passing.",
+          "name": "preservation_outcome"
+        }
+      ],
+      "anchor_identity_refs": {
+        "governance_action_ref": "governance_action-de31d587f2da4003a1b2ef8e5248f846",
+        "state_ref": "state-31d3f49505f441f88bac51cf8531e7f7",
+        "transition_ref": "transition-496f0f7964f54b858eb08a6516693d11",
+        "validation_ref": "validation-7218a89d58ce4933bc437ef66ea9a7de",
+        "witness_ref": "witness-21b189a37b9e44f0915135b6aa0cce31"
+      },
+      "matter_ref": "matter-3ce8d00d4a614161a2fec07aeb4ff282",
+      "run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+      "selected_body_conformance_refs": {
+        "governance_action": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/governance_action.json",
+        "state_record": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/state_record.json",
+        "transition_record": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/transition_record.json",
+        "validation_artifact": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/validation_artifact.json",
+        "witness_artifact": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/witness_artifact.json"
+      },
+      "selected_canonical_body_refs": {
+        "governance_action_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/governance_action.body.json",
+        "state_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/state_record.body.json",
+        "transition_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/transition_record.body.json",
+        "validation_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/validation_artifact.body.json",
+        "witness_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/witness_artifact.body.json"
+      },
+      "selected_preservation_conformance_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/preservation/run_write_outcome.json",
+      "selected_summary_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json",
+      "selection_basis": "derived_from_latest_admissible_continuity_predecessor",
+      "source_class": "ordinary_anchor_source"
+    },
+    "selection_basis": "local_default_predecessor_plus_derived_anchor",
+    "source_class": "successor_continuity_sources"
+  },
+  "summary_ref": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/run_summary/run_summary.json",
+  "written_by_layer": {
+    "canonical_body": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/canonical_body/positive/continuity_turn.body.json"
+    ],
+    "conformance": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/body/negative/successor_without_anchor_continuity_turn.json",
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/body/positive/continuity_turn.json",
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/preservation/run_write_outcome.json"
+    ],
+    "execution_relation": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/execution_relation/positive/continuity_execution_relation.json"
+    ],
+    "fixtures": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json",
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/fixture_outputs/negative/classification.json"
+    ],
+    "source_notes": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/source_notes/anchor_source_note.json",
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/source_notes/predecessor_source_note.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/run_summary/run_summary.json"
+    ]
+  },
+  "written_outputs": [
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/canonical_body/positive/continuity_turn.body.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/body/negative/successor_without_anchor_continuity_turn.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/body/positive/continuity_turn.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/execution_relation/positive/continuity_execution_relation.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/conformance/preservation/run_write_outcome.json"
+    },
+    {
+      "layer": "execution_relation",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/execution_relation/positive/continuity_execution_relation.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/fixture_outputs/negative/classification.json"
+    },
+    {
+      "layer": "source_notes",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/source_notes/anchor_source_note.json"
+    },
+    {
+      "layer": "source_notes",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/source_notes/predecessor_source_note.json"
+    },
+    {
+      "layer": "summary",
+      "path": "v1/registry/runs/execution-243657c8f0704ef588ac7a19cc10c881/continuity/run_summary/run_summary.json"
+    }
+  ]
+}

@@ -1,0 +1,2371 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "standing descendant, descendant standing, crossing, relation, runtime, authority, coupling, third model, presence, identity, repair, discovery, validation, and downstream authorization"
+  ],
+  "declared_descendant_body_creation_operation_basis": {
+    "admissible_future_route": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+    "basis_pair_scope": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "candidate_a_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "candidate_a_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "candidate_b_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "candidate_standing_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "candidate_standing_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_creation_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CREATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "descendant_body_creation_operation_id": "descendant_body_creation_operation_001",
+    "descendant_body_creation_operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "descendant_body_creation_operation_spec_reference": "spec/DESCENDANT_BODY_CREATION_OPERATION_V0_MIN_SPEC.md",
+    "descendant_body_creation_operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "descendant_body_creation_operation_version": "0.1.0",
+    "descendant_body_creation_result": "NOT_EVALUATED",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "intent": "RECORD_DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_id": "descendant_body_creation_operation_001",
+    "operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_version": "0.1.0",
+    "prior_candidate_a_standing_referenced_required": true,
+    "prior_candidate_b_standing_referenced_required": true,
+    "prior_candidate_standing_created_referenced_required": true,
+    "prior_candidate_standing_referenced_required": true,
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": false,
+    "prior_descendant_body_created_required": false,
+    "prior_descendant_body_creation_boundary_outcome_required": "DESCENDANT_BODY_CREATION_BOUNDARY_ALLOWED",
+    "prior_descendant_body_creation_boundary_result_required": "DESCENDANT_BODY_CREATION_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_descendant_body_creation_boundary_type": "DESCENDANT_BODY_CREATION_BOUNDARY",
+    "prior_descendant_body_creation_operation_consideration_allowed_required": true,
+    "prior_descendant_body_creation_performed_required": false,
+    "prior_follow_on_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "scope_division_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_closure_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md"
+  },
+  "descendant_body_creation_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_pair_scope": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "candidate_a_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "candidate_a_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "candidate_b_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "candidate_standing_operation_bypassed": false,
+    "candidate_standing_operation_overridden": false,
+    "completed_candidate_standing_boundary_terminal_summary_markers_present": true,
+    "completed_candidate_standing_operation_terminal_summary_markers_present": true,
+    "completed_descendant_body_creation_boundary_terminal_summary_markers_present": true,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant-body_creation_operation_specification_blocked_routes_markers_present": true,
+    "descendant-body_creation_operation_specification_boundary_allowance_markers_present": true,
+    "descendant-body_creation_operation_specification_candidate_standing_operation_markers_present": true,
+    "descendant-body_creation_operation_specification_closing_lock_markers_present": true,
+    "descendant-body_creation_operation_specification_contaminated_lineage_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_material_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_non_conversion_markers_present": true,
+    "descendant-body_creation_operation_specification_operation_identity_markers_present": true,
+    "descendant-body_creation_operation_specification_permitted_route_markers_present": true,
+    "descendant-body_creation_operation_specification_sibling_non_hierarchy_markers_present": true,
+    "descendant_body_a_created": true,
+    "descendant_body_a_creation_evaluated": true,
+    "descendant_body_a_creation_supported": true,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_a_is_standing_descendant": false,
+    "descendant_body_b_created": true,
+    "descendant_body_b_creation_evaluated": true,
+    "descendant_body_b_creation_supported": true,
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_b_is_standing_descendant": false,
+    "descendant_body_created": true,
+    "descendant_body_creation_authorized": true,
+    "descendant_body_creation_boundary_bypassed": false,
+    "descendant_body_creation_boundary_overridden": false,
+    "descendant_body_creation_evaluation_performed": true,
+    "descendant_body_creation_operation_id": "descendant_body_creation_operation_001",
+    "descendant_body_creation_operation_recorded": true,
+    "descendant_body_creation_operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "descendant_body_creation_operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "descendant_body_creation_operation_version": "0.1.0",
+    "descendant_body_creation_performed": true,
+    "descendant_body_creation_result": "DESCENDANT_BODY_CREATION_SUPPORTED",
+    "descendant_body_creation_result_recorded": true,
+    "descendant_body_creation_supported": true,
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_boundary_allowance_to_descendant_body_creation_without_operation": false,
+    "direct_candidate_standing_to_descendant_body_creation_without_boundary_and_operation": false,
+    "direct_descendant_body_creation_operation_spec_to_descendant_body_creation_operation_completion": false,
+    "direct_descendant_body_creation_to_authority_currentness": false,
+    "direct_descendant_body_creation_to_coupling_creation": false,
+    "direct_descendant_body_creation_to_crossing": false,
+    "direct_descendant_body_creation_to_descendant_standing": false,
+    "direct_descendant_body_creation_to_follow_on_work": false,
+    "direct_descendant_body_creation_to_identity": false,
+    "direct_descendant_body_creation_to_output_action": false,
+    "direct_descendant_body_creation_to_presence": false,
+    "direct_descendant_body_creation_to_relation": false,
+    "direct_descendant_body_creation_to_runtime": false,
+    "direct_descendant_body_creation_to_standing_descendant": false,
+    "direct_descendant_body_creation_to_third_candidate_route": false,
+    "direct_descendant_body_creation_to_third_model_route": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "operation_id": "descendant_body_creation_operation_001",
+    "operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_version": "0.1.0",
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_candidate_a_standing_referenced_required": true,
+    "prior_candidate_b_standing_referenced_required": true,
+    "prior_candidate_standing_created_referenced_required": true,
+    "prior_candidate_standing_referenced_required": true,
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": false,
+    "prior_descendant_body_created_required": false,
+    "prior_descendant_body_creation_boundary_outcome_required": "DESCENDANT_BODY_CREATION_BOUNDARY_ALLOWED",
+    "prior_descendant_body_creation_boundary_result_required": "DESCENDANT_BODY_CREATION_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_descendant_body_creation_boundary_type": "DESCENDANT_BODY_CREATION_BOUNDARY",
+    "prior_descendant_body_creation_operation_consideration_allowed_required": true,
+    "prior_descendant_body_creation_performed_required": false,
+    "prior_follow_on_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "descendant_body_creation_operation_checks": [
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CREATION_OPERATION",
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_DESCENDANT_BODY_CREATION_OPERATION",
+        "DO_NOT_RECORD_DESCENDANT_BODY_CREATION_OPERATION",
+        "BLOCK_DESCENDANT_BODY_CREATION_OPERATION"
+      ],
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_creation_operation_001",
+      "check_name": "declared operation_id",
+      "expected_posture": "descendant_body_creation_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_OPERATION",
+      "check_name": "declared operation_type",
+      "expected_posture": "DESCENDANT_BODY_CREATION_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "declared operation_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+      "check_name": "declared operation_scope",
+      "expected_posture": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_creation_operation_001",
+      "check_name": "declared descendant_body_creation_operation_id",
+      "expected_posture": "descendant_body_creation_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_OPERATION",
+      "check_name": "declared descendant_body_creation_operation_type",
+      "expected_posture": "DESCENDANT_BODY_CREATION_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "declared descendant_body_creation_operation_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+      "check_name": "declared descendant_body_creation_operation_scope",
+      "expected_posture": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_BOUNDARY",
+      "check_name": "declared prior_descendant_body_creation_boundary_type",
+      "expected_posture": "DESCENDANT_BODY_CREATION_BOUNDARY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_BOUNDARY_ALLOWED",
+      "check_name": "declared prior_descendant_body_creation_boundary_outcome_required",
+      "expected_posture": "DESCENDANT_BODY_CREATION_BOUNDARY_ALLOWED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_OPERATION_CONSIDERATION_ALLOWED",
+      "check_name": "declared prior_descendant_body_creation_boundary_result_required",
+      "expected_posture": "DESCENDANT_BODY_CREATION_OPERATION_CONSIDERATION_ALLOWED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "declared prior_descendant_body_creation_operation_consideration_allowed_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "declared prior_candidate_standing_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "declared prior_candidate_a_standing_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "declared prior_candidate_b_standing_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "declared prior_candidate_standing_created_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_descendant_body_creation_performed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_descendant_body_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_standing_descendant_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_crossing_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_relation_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_coupling_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_presence_established_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_identity_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared prior_follow_on_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+      "check_name": "declared admissible_future_route",
+      "expected_posture": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001",
+      "check_name": "declared candidate_a_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001",
+      "check_name": "declared candidate_b_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "check_name": "declared candidate_a_basis_id",
+      "expected_posture": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "check_name": "declared candidate_b_basis_id",
+      "expected_posture": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A",
+      "check_name": "declared candidate_a_role",
+      "expected_posture": "CANDIDATE_A",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B",
+      "check_name": "declared candidate_b_role",
+      "expected_posture": "CANDIDATE_B",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A_STANDING",
+      "check_name": "declared candidate_a_standing_label",
+      "expected_posture": "CANDIDATE_A_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B_STANDING",
+      "check_name": "declared candidate_b_standing_label",
+      "expected_posture": "CANDIDATE_B_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "check_name": "declared candidate_a_basis_label",
+      "expected_posture": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "check_name": "declared candidate_b_basis_label",
+      "expected_posture": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+      "check_name": "declared basis_pair_scope",
+      "expected_posture": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_a_001",
+      "check_name": "declared descendant_body_a_id",
+      "expected_posture": "descendant_body_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_b_001",
+      "check_name": "declared descendant_body_b_id",
+      "expected_posture": "descendant_body_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "check_name": "declared descendant_body_pair_scope",
+      "expected_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "NOT_EVALUATED",
+      "check_name": "declared descendant_body_creation_result",
+      "expected_posture": "NOT_EVALUATED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_standing_descendant_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_descendant_standing_check",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_crossing_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_first_crossing_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_relation_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_field_machinery_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_runtime_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_api_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_currentness_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_authority_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_standing_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_derivative_reception_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_synchronization_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_coupling_assignment_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_coupling_assignment_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_third_candidate_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_third_model_admission",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_presence_establishment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_identity_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_follow_on_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_follow_on_work_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_repository_scan",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_file_discovery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_affected_file_repair",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_affected_file_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_prior_unsupported_claim_validation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prohibited request flag request_validation_enforcement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_operation_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_evaluation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_a_creation_evaluated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_b_creation_evaluated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_a_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_b_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_creation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_a_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_b_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "result posture not pre-claimed descendant_body_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture descendant_body_a_is_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture descendant_body_b_is_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture crossing_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture first_crossing_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture relation_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture descendant_body_creation_boundary_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture descendant_body_creation_boundary_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture candidate_standing_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture candidate_standing_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_operation_spec_to_descendant_body_creation_operation_completion",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_boundary_allowance_to_descendant_body_creation_without_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_candidate_standing_to_descendant_body_creation_without_boundary_and_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_crossing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_third_candidate_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_third_model_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_presence",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_output_action",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "top-level false posture direct_descendant_body_creation_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_operation_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_evaluation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_a_creation_evaluated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_b_creation_evaluated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_a_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_b_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_a_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_b_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_a_is_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_b_is_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim crossing_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim first_crossing_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim relation_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_boundary_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim descendant_body_creation_boundary_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim candidate_standing_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim candidate_standing_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_operation_spec_to_descendant_body_creation_operation_completion",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_boundary_allowance_to_descendant_body_creation_without_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_candidate_standing_to_descendant_body_creation_without_boundary_and_operation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_standing_descendant",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_crossing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_third_candidate_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_third_model_route",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_presence",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_output_action",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim direct_descendant_body_creation_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CREATION_OPERATION_V0_MIN_SPEC.md",
+      "check_name": "descendant-body creation operation specification reference readable",
+      "expected_posture": "readable Markdown file",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification operation_identity markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification boundary_allowance markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification candidate_standing_operation markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification descendant_body_material markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification descendant_body_non_conversion markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification sibling_non_hierarchy markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification permitted_route markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification contaminated_lineage markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification blocked_routes markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation operation specification closing_lock markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CREATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "check_name": "descendant_body_creation_boundary_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "completed descendant body creation boundary terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "candidate_standing_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "completed candidate standing operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "check_name": "candidate_standing_boundary_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "completed candidate standing boundary terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "existence claim evidence check terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "successor_closure_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "successor closure operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "scope_division_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "scope division operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "descendant-body creation support evidence present",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    }
+  ],
+  "descendant_body_creation_operation_material": {
+    "descendant_body_a_creation_evaluation": {
+      "candidate_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "candidate_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "candidate_basis_scope": "Motion-side admissible variation",
+      "candidate_role": "CANDIDATE_A",
+      "candidate_standing_created": true,
+      "candidate_standing_is_descendant_body": false,
+      "candidate_standing_label": "CANDIDATE_A_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_a_001",
+      "crossing_authorized": false,
+      "descendant_body_created": true,
+      "descendant_body_creation_authorized": true,
+      "descendant_body_creation_supported": true,
+      "descendant_body_id": "descendant_body_a_001",
+      "descendant_body_is_standing_descendant": false,
+      "identity_created": false,
+      "presence_established": false,
+      "relation_created": false,
+      "standing_descendant_created": false
+    },
+    "descendant_body_b_creation_evaluation": {
+      "candidate_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "candidate_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "candidate_basis_scope": "Regulation-side admissibility bounds",
+      "candidate_role": "CANDIDATE_B",
+      "candidate_standing_created": true,
+      "candidate_standing_is_descendant_body": false,
+      "candidate_standing_label": "CANDIDATE_B_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_b_001",
+      "crossing_authorized": false,
+      "descendant_body_created": true,
+      "descendant_body_creation_authorized": true,
+      "descendant_body_creation_supported": true,
+      "descendant_body_id": "descendant_body_b_001",
+      "descendant_body_is_standing_descendant": false,
+      "identity_created": false,
+      "presence_established": false,
+      "relation_created": false,
+      "standing_descendant_created": false
+    },
+    "descendant_body_pair_evaluation": {
+      "both_descendant_bodies_created": true,
+      "both_descendant_body_creations_authorized": true,
+      "both_descendant_body_creations_supported": true,
+      "candidate_basis_non_hierarchy_preserved": true,
+      "candidate_standing_non_hierarchy_preserved": true,
+      "coupling_assigned": false,
+      "coupling_created": false,
+      "crossing_authorized": false,
+      "descendant_bodies_remain_sibling": true,
+      "descendant_body_a_created": true,
+      "descendant_body_b_created": true,
+      "descendant_body_created": true,
+      "descendant_body_non_hierarchy_preserved": true,
+      "descendant_standing_check_performed": false,
+      "first_crossing_authorized": false,
+      "follow_on_authorized": false,
+      "identity_created": false,
+      "motion_does_not_erase_regulation": true,
+      "presence_established": false,
+      "regulation_not_sovereign_over_motion": true,
+      "relation_created": false,
+      "standing_descendant_created": false,
+      "third_candidate_created": false,
+      "third_model_admitted": false
+    }
+  },
+  "descendant_body_creation_operation_metadata": {
+    "generated_at": "2026-07-13T21:09:14+00:00",
+    "operation_id": "descendant_body_creation_operation_001",
+    "resolver_module": "resolve_descendant_body_creation_operation_v0_min",
+    "result_version": "0.1.0"
+  },
+  "descendant_body_creation_operation_non_meaning": {
+    "not_authority": true,
+    "not_coupling": true,
+    "not_crossing": true,
+    "not_descendant_standing": true,
+    "not_follow_on": true,
+    "not_identity": true,
+    "not_presence": true,
+    "not_relation": true,
+    "not_runtime": true,
+    "not_standing_descendant_creation": true
+  },
+  "descendant_body_creation_operation_statement": {
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "descendant_body_a_created": true,
+    "descendant_body_a_creation_evaluated": true,
+    "descendant_body_a_creation_supported": true,
+    "descendant_body_b_created": true,
+    "descendant_body_b_creation_evaluated": true,
+    "descendant_body_b_creation_supported": true,
+    "descendant_body_created": true,
+    "descendant_body_creation_authorized": true,
+    "descendant_body_creation_evaluation_performed": true,
+    "descendant_body_creation_operation_recorded": true,
+    "descendant_body_creation_performed": true,
+    "descendant_body_creation_result": "DESCENDANT_BODY_CREATION_SUPPORTED",
+    "descendant_body_creation_result_recorded": true,
+    "descendant_body_creation_supported": true,
+    "follow_on_authorized": false,
+    "identity_created": false,
+    "outcome": "DESCENDANT_BODY_CREATION_OPERATION_CREATED",
+    "presence_established": false,
+    "relation_created": false,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_created": false,
+    "standing_descendant_created": false
+  },
+  "descendant_body_creation_operation_summary": {
+    "action_authorized": false,
+    "admissible_future_route": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_pair_scope": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "candidate_a_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "candidate_a_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "candidate_b_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "candidate_standing_operation_bypassed": false,
+    "candidate_standing_operation_overridden": false,
+    "completed_candidate_standing_boundary_terminal_summary_markers_present": true,
+    "completed_candidate_standing_operation_terminal_summary_markers_present": true,
+    "completed_candidate_standing_operation_terminal_summary_path": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_descendant_body_creation_boundary_terminal_summary_markers_present": true,
+    "completed_descendant_body_creation_boundary_terminal_summary_path": "spec/DESCENDANT_BODY_CREATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant-body_creation_operation_specification_blocked_routes_markers_present": true,
+    "descendant-body_creation_operation_specification_boundary_allowance_markers_present": true,
+    "descendant-body_creation_operation_specification_candidate_standing_operation_markers_present": true,
+    "descendant-body_creation_operation_specification_closing_lock_markers_present": true,
+    "descendant-body_creation_operation_specification_contaminated_lineage_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_material_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_non_conversion_markers_present": true,
+    "descendant-body_creation_operation_specification_operation_identity_markers_present": true,
+    "descendant-body_creation_operation_specification_permitted_route_markers_present": true,
+    "descendant-body_creation_operation_specification_sibling_non_hierarchy_markers_present": true,
+    "descendant_body_a_created": true,
+    "descendant_body_a_creation_evaluated": true,
+    "descendant_body_a_creation_supported": true,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_a_is_standing_descendant": false,
+    "descendant_body_b_created": true,
+    "descendant_body_b_creation_evaluated": true,
+    "descendant_body_b_creation_supported": true,
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_b_is_standing_descendant": false,
+    "descendant_body_created": true,
+    "descendant_body_creation_authorized": true,
+    "descendant_body_creation_boundary_bypassed": false,
+    "descendant_body_creation_boundary_overridden": false,
+    "descendant_body_creation_evaluation_performed": true,
+    "descendant_body_creation_operation_id": "descendant_body_creation_operation_001",
+    "descendant_body_creation_operation_recorded": true,
+    "descendant_body_creation_operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "descendant_body_creation_operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "descendant_body_creation_operation_version": "0.1.0",
+    "descendant_body_creation_performed": true,
+    "descendant_body_creation_result": "DESCENDANT_BODY_CREATION_SUPPORTED",
+    "descendant_body_creation_result_recorded": true,
+    "descendant_body_creation_supported": true,
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_boundary_allowance_to_descendant_body_creation_without_operation": false,
+    "direct_candidate_standing_to_descendant_body_creation_without_boundary_and_operation": false,
+    "direct_descendant_body_creation_operation_spec_to_descendant_body_creation_operation_completion": false,
+    "direct_descendant_body_creation_to_authority_currentness": false,
+    "direct_descendant_body_creation_to_coupling_creation": false,
+    "direct_descendant_body_creation_to_crossing": false,
+    "direct_descendant_body_creation_to_descendant_standing": false,
+    "direct_descendant_body_creation_to_follow_on_work": false,
+    "direct_descendant_body_creation_to_identity": false,
+    "direct_descendant_body_creation_to_output_action": false,
+    "direct_descendant_body_creation_to_presence": false,
+    "direct_descendant_body_creation_to_relation": false,
+    "direct_descendant_body_creation_to_runtime": false,
+    "direct_descendant_body_creation_to_standing_descendant": false,
+    "direct_descendant_body_creation_to_third_candidate_route": false,
+    "direct_descendant_body_creation_to_third_model_route": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "failed_check_count": 0,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "missing_or_insufficient_boundary_allowance": [],
+    "not_created_reasons": [],
+    "operation_id": "descendant_body_creation_operation_001",
+    "operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "DESCENDANT_BODY_CREATION_OPERATION_CREATED",
+    "output_authorized": false,
+    "passed_check_count": 253,
+    "presence_established": false,
+    "prior_candidate_a_standing_referenced_required": true,
+    "prior_candidate_b_standing_referenced_required": true,
+    "prior_candidate_standing_created_referenced_required": true,
+    "prior_candidate_standing_referenced_required": true,
+    "prior_coupling_created_required": false,
+    "prior_crossing_authorized_required": false,
+    "prior_descendant_body_created_required": false,
+    "prior_descendant_body_creation_boundary_outcome_required": "DESCENDANT_BODY_CREATION_BOUNDARY_ALLOWED",
+    "prior_descendant_body_creation_boundary_result_required": "DESCENDANT_BODY_CREATION_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_descendant_body_creation_boundary_type": "DESCENDANT_BODY_CREATION_BOUNDARY",
+    "prior_descendant_body_creation_operation_consideration_allowed_required": true,
+    "prior_descendant_body_creation_performed_required": false,
+    "prior_follow_on_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_presence_established_required": false,
+    "prior_relation_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "resolver_module": "resolve_descendant_body_creation_operation_v0_min",
+    "result_version": "0.1.0",
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "selected_target_spec_path": "spec/DESCENDANT_BODY_CREATION_OPERATION_V0_MIN_SPEC.md",
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "descendant_body_creation_result_detail": {
+    "descendant_body_creation_result": "DESCENDANT_BODY_CREATION_SUPPORTED",
+    "missing_or_insufficient_boundary_allowance": [],
+    "not_created_reasons": []
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "candidate_standing_operation_bypassed": false,
+    "candidate_standing_operation_overridden": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_a_creation_evaluated": false,
+    "descendant_body_a_creation_supported": false,
+    "descendant_body_a_is_standing_descendant": false,
+    "descendant_body_b_created": false,
+    "descendant_body_b_creation_evaluated": false,
+    "descendant_body_b_creation_supported": false,
+    "descendant_body_b_is_standing_descendant": false,
+    "descendant_body_created": false,
+    "descendant_body_creation_authorized": false,
+    "descendant_body_creation_boundary_bypassed": false,
+    "descendant_body_creation_boundary_overridden": false,
+    "descendant_body_creation_evaluation_performed": false,
+    "descendant_body_creation_operation_recorded": false,
+    "descendant_body_creation_performed": false,
+    "descendant_body_creation_result_recorded": false,
+    "descendant_body_creation_supported": false,
+    "descendant_standing_check_performed": false,
+    "direct_boundary_allowance_to_descendant_body_creation_without_operation": false,
+    "direct_candidate_standing_to_descendant_body_creation_without_boundary_and_operation": false,
+    "direct_descendant_body_creation_operation_spec_to_descendant_body_creation_operation_completion": false,
+    "direct_descendant_body_creation_to_authority_currentness": false,
+    "direct_descendant_body_creation_to_coupling_creation": false,
+    "direct_descendant_body_creation_to_crossing": false,
+    "direct_descendant_body_creation_to_descendant_standing": false,
+    "direct_descendant_body_creation_to_follow_on_work": false,
+    "direct_descendant_body_creation_to_identity": false,
+    "direct_descendant_body_creation_to_output_action": false,
+    "direct_descendant_body_creation_to_presence": false,
+    "direct_descendant_body_creation_to_relation": false,
+    "direct_descendant_body_creation_to_runtime": false,
+    "direct_descendant_body_creation_to_standing_descendant": false,
+    "direct_descendant_body_creation_to_third_candidate_route": false,
+    "direct_descendant_body_creation_to_third_model_route": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "outcome": "DESCENDANT_BODY_CREATION_OPERATION_CREATED",
+  "permitted_future_route": {
+    "admissible_future_route": "DESCENDANT_BODY_CREATION_OPERATION_THEN_FIRST_CROSSING_BOUNDARY_ONLY",
+    "first_crossing_boundary_requires_separate_bounded_step": true
+  },
+  "resolver_module": "resolve_descendant_body_creation_operation_v0_min",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "candidate_standing_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "candidate_standing_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_candidate_standing_boundary_terminal_summary_markers_present": true,
+    "completed_candidate_standing_operation_terminal_summary_markers_present": true,
+    "completed_descendant_body_creation_boundary_terminal_summary_markers_present": true,
+    "descendant-body_creation_operation_specification_blocked_routes_markers_present": true,
+    "descendant-body_creation_operation_specification_boundary_allowance_markers_present": true,
+    "descendant-body_creation_operation_specification_candidate_standing_operation_markers_present": true,
+    "descendant-body_creation_operation_specification_closing_lock_markers_present": true,
+    "descendant-body_creation_operation_specification_contaminated_lineage_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_material_markers_present": true,
+    "descendant-body_creation_operation_specification_descendant_body_non_conversion_markers_present": true,
+    "descendant-body_creation_operation_specification_operation_identity_markers_present": true,
+    "descendant-body_creation_operation_specification_permitted_route_markers_present": true,
+    "descendant-body_creation_operation_specification_sibling_non_hierarchy_markers_present": true,
+    "descendant_body_creation_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CREATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "descendant_body_creation_operation_spec_reference": "spec/DESCENDANT_BODY_CREATION_OPERATION_V0_MIN_SPEC.md",
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "scope_division_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "successor_closure_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md"
+  },
+  "what_remains_open": [
+    "first-crossing boundary, if separately bounded after descendant-body creation support",
+    "first crossing",
+    "relation",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "presence boundary",
+    "identity boundary",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "externalization boundary",
+    "follow-on work"
+  ]
+}

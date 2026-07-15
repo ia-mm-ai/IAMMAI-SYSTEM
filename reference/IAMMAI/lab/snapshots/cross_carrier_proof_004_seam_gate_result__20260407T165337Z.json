@@ -1,0 +1,181 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-07T16:53:37Z",
+    "builder_path": "lab/build_cross_carrier_proof_004_seam_gate_result.py",
+    "result_path": "lab/snapshots/cross_carrier_proof_004_seam_gate_result__20260407T165337Z.json",
+    "proof_id": "cross_carrier_seam_proof_004",
+    "proof_name": "Fourth Cross-Carrier Seam Proof",
+    "proof_root": "lab/cross_carrier_seam_proof_004",
+    "governing_proof_spec_path": "v1/32_PROOF_004_SEAM_GATE_PROOF_SPEC__POST_31.md",
+    "bounded_matter_note": "the current v1/ line's standing-facing review pressure after lawful egress and the current cross-carrier threshold, without treating that pressure as final standing, canon, or total closure.",
+    "implementation_posture": "implementation_local_proof_004_seam_gate_result_only",
+    "proof_scope": "proof_004_only",
+    "source_of_truth_note": "Direct proof-004 artifact surfaces remain primary. Readability companions are supporting surfaces only."
+  },
+  "direct_artifact_paths_inspected": {
+    "source_side_runs": [
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/canonical_body/witness_artifact_body.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/conformance/canonical_body_conformance.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/conformance/transfer_package_conformance.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/package/transfer_package.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/release/origin_approval_condition.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/release/release_record.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/summary/summary.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/canonical_body/witness_artifact_body.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/canonical_body_conformance.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/transfer_package_conformance.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/package/transfer_package.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/origin_approval_condition.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/release_record.json",
+      "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/summary/summary.json"
+    ],
+    "receiving_side_clean_import": [
+      "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/conformance/carried_witness_body_conformance.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/conformance/transfer_package_conformance.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/ingress/ingress_record.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/package/origin_approval_condition_snapshot.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/summary/summary.json"
+    ],
+    "receiving_side_obsolete_origin_import": [
+      "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/carried_witness_body_conformance.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/transfer_package_conformance.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/ingress/ingress_record.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/package/origin_approval_condition_snapshot.json",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/summary/summary.json"
+    ],
+    "supporting_surfaces": [
+      "SEAM_CASE_LAW__LAWFUL_EGRESS_FROM_OBSOLETE_CONTAINER.md",
+      "admissibility/TRANSITION_ADMISSIBILITY.md",
+      "continuity/LAWFUL_TRANSFER_SEAM_v0.md",
+      "continuity/RELEASE_AND_INGRESS_v0.md",
+      "lab/cross_carrier_seam_proof_004/receiving_imports/IMPORT_NOTE.md",
+      "lab/snapshots/cross_carrier_seam_proof_004_report__20260404T231436Z.md",
+      "lab/snapshots/cross_carrier_seam_proof_004_snapshot__20260404T214817Z.json",
+      "v1/01_SEAM_DECLARATION.md",
+      "v1/20_TRANSFER_ACCOUNT_ENTRY__LAWFUL_EGRESS_FROM_OBSOLETE_CONTAINER_PROOF.md",
+      "v1/31_MINIMAL_SEAM_LAW_CROSS_CARRIER_GATE__POST_30.md",
+      "v1/32_PROOF_004_SEAM_GATE_PROOF_SPEC__POST_31.md"
+    ]
+  },
+  "question_results": {
+    "origin_side_object": {
+      "question_id": 1,
+      "question_name": "origin_side_object",
+      "status": "supported",
+      "inspected_paths": [
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/canonical_body/witness_artifact_body.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/canonical_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/origin_approval_condition.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/release_record.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/package/transfer_package.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/transfer_package_conformance.json"
+      ],
+      "reason": "The obsolete-origin branch preserves one schema-valid source-side witness artifact whose family, witness identity, and source execution lineage remain coherent across canonical body, summary, and transfer package.",
+      "does_not_authorize": [
+        "final standing",
+        "source-side sovereignty by adjacency alone",
+        "native authority on the receiving side"
+      ],
+      "inspection_notes": []
+    },
+    "lawful_egress": {
+      "question_id": 2,
+      "question_name": "lawful_egress",
+      "status": "supported",
+      "inspected_paths": [
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/canonical_body/witness_artifact_body.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/canonical_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/origin_approval_condition.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/release_record.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/package/transfer_package.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/transfer_package_conformance.json"
+      ],
+      "reason": "The obsolete-origin branch preserves lawful egress in bounded form: origin approval is obsolete or contaminated, withholding is visible but non-sovereign, release proceeds without ratification, and the package remains valid without granting downstream closure.",
+      "does_not_authorize": [
+        "final downstream standing",
+        "native origin on the far side",
+        "full transfer-stack closure"
+      ],
+      "inspection_notes": []
+    },
+    "arrival_posture": {
+      "question_id": 3,
+      "question_name": "arrival_posture",
+      "status": "supported",
+      "inspected_paths": [
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/ingress/ingress_record.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/package/origin_approval_condition_snapshot.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/carried_witness_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/transfer_package_conformance.json"
+      ],
+      "reason": "The obsolete-origin receiving branch preserves bounded carried arrival: receipt and package validity are real, ingress is lawful, arrival remains bounded in-between, and no shared authority, standing upgrade, or final closure is claimed.",
+      "does_not_authorize": [
+        "native standing",
+        "native authority",
+        "final closure"
+      ],
+      "inspection_notes": []
+    },
+    "origin_legibility_after_crossing": {
+      "question_id": 4,
+      "question_name": "origin_legibility_after_crossing",
+      "status": "supported",
+      "inspected_paths": [
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/canonical_body/witness_artifact_body.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/canonical_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/origin_approval_condition.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/release/release_record.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/package/transfer_package.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-98c5d45277c940e5aadb9a452a5a292d/conformance/transfer_package_conformance.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/canonical_body/witness_artifact_body.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/conformance/canonical_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/release/origin_approval_condition.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/release/release_record.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/package/transfer_package.json",
+        "lab/cross_carrier_seam_proof_004/source_runs/execution-7f48b1ff3ec1456aa803553b10a02d51/conformance/transfer_package_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/ingress/ingress_record.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/package/origin_approval_condition_snapshot.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/carried_witness_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/obsolete_origin/execution-592fd6601aad4565aa4dd94a69ddcf59/conformance/transfer_package_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/summary/summary.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/ingress/ingress_record.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/package/origin_approval_condition_snapshot.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/conformance/carried_witness_body_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/clean/execution-ae3be271825b44fda431ccec146b384d/conformance/transfer_package_conformance.json",
+        "lab/cross_carrier_seam_proof_004/receiving_imports/IMPORT_NOTE.md",
+        "lab/snapshots/cross_carrier_seam_proof_004_snapshot__20260404T214817Z.json",
+        "lab/snapshots/cross_carrier_seam_proof_004_report__20260404T231436Z.md"
+      ],
+      "reason": "Origin remains recoverable after crossing: source-side release and receiving-side arrival stay distinct, the same origin condition remains visible on both sides, and the clean and obsolete receiving branches remain separately identifiable.",
+      "does_not_authorize": [
+        "source-side constitutional force on the receiving side",
+        "shared authority",
+        "final standing"
+      ],
+      "inspection_notes": []
+    }
+  },
+  "anti_collapse_boundary_statement": {
+    "statement": "This performed seam-gate result keeps lawful egress, bounded arrival, and origin legibility distinct from native standing, native origin, and native authority.",
+    "lawful_egress_is_not_native_standing": true,
+    "bounded_arrival_is_not_native_origin": true,
+    "origin_legibility_is_not_native_authority": true,
+    "performed_result_is_not_final_standing": true,
+    "performed_result_is_not_canon": true,
+    "implementation_local_only": true
+  },
+  "present_consequence": "This performed proof strengthens the bounded seam-law / cross-carrier reading for proof 004 by supporting a typed origin-side object, lawful egress, bounded arrival, and recoverable origin legibility without upgrading the crossing into native force.",
+  "non_closed_remainder": [
+    "wider seam-law blocker class not settled",
+    "whole-line closure not settled",
+    "final standing not settled",
+    "canon not settled",
+    "continuity-wide realization not selected by this result"
+  ]
+}

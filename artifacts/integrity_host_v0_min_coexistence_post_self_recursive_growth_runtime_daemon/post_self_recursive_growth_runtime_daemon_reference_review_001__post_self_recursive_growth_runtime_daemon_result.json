@@ -1,0 +1,2904 @@
+{
+  "additional_basis_required": [],
+  "artifact_existence_not_runtime_daemon_authority_posture": {
+    "declared": true,
+    "meaning": "artifact existence is not runtime-daemon authority",
+    "scope": "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY"
+  },
+  "authority_not_created_posture": {
+    "declared": true,
+    "meaning": "authority not created",
+    "scope": "NO_AUTHORITY_CREATED"
+  },
+  "block": null,
+  "bounded_runtime_daemon_envelope": {
+    "anything_outside_requires_fresh_admission": true,
+    "bounded_runtime_daemon_envelope_id": "bounded_runtime_daemon_envelope_v0",
+    "does_not_authorize_arbitrary_runtime_activity": true,
+    "limits": [
+      "one bounded standing-runtime-daemon posture only",
+      "no runtime loop",
+      "no public API",
+      "no participant-facing interface",
+      "no distributed network behavior",
+      "no source transfer",
+      "no source receipt",
+      "no reception authorization",
+      "no source, authority, currentness, deployment, public release, operation permission, broader reusable permission, or follow-on work"
+    ],
+    "posture": "one bounded runtime-daemon posture recorded from selected clean runtime-daemon-boundary and self-recursive-growth basis"
+  },
+  "bounded_runtime_daemon_envelope_declared_posture": {
+    "declared": true,
+    "meaning": "one narrow bounded runtime-daemon envelope",
+    "scope": "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED"
+  },
+  "bounded_self_recursive_growth_envelope_preserved_posture": {
+    "declared": true,
+    "meaning": "bounded self-recursive-growth envelope is preserved",
+    "scope": "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED"
+  },
+  "broader_reusable_permission_not_created_posture": {
+    "declared": true,
+    "meaning": "broader reusable permission not created",
+    "scope": "NO_BROADER_REUSABLE_PERMISSION"
+  },
+  "currentness_not_created_posture": {
+    "declared": true,
+    "meaning": "currentness not created",
+    "scope": "NO_CURRENTNESS_CREATED"
+  },
+  "declared_runtime_daemon_question": {
+    "runtime_daemon_intent": "RECORD_POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON",
+    "runtime_daemon_question": "Can the clean post-self-recursive-growth runtime-daemon-boundary basis be used to record one bounded runtime-daemon posture without creating runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+    "runtime_daemon_request_id": "post_self_recursive_growth_runtime_daemon_reference_review_001"
+  },
+  "deployment_not_created_posture": {
+    "declared": true,
+    "meaning": "deployment not created",
+    "scope": "NO_DEPLOYMENT_CREATED"
+  },
+  "distributed_network_behavior_not_created_posture": {
+    "declared": true,
+    "meaning": "distributed network behavior not created",
+    "scope": "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED"
+  },
+  "follow_on_work_not_authorized_posture": {
+    "declared": true,
+    "meaning": "follow-on work not authorized",
+    "scope": "NO_FOLLOW_ON_WORK_AUTHORIZED"
+  },
+  "hidden_repo_state_excluded_posture": {
+    "declared": true,
+    "meaning": "hidden repo state excluded",
+    "scope": "HIDDEN_REPO_STATE_EXCLUDED"
+  },
+  "hostile_raw_body_content_contained_posture": {
+    "declared": true,
+    "meaning": "hostile raw body content contained",
+    "scope": "HOSTILE_RAW_BODY_CONTENT_CONTAINED"
+  },
+  "latest_file_posture_not_runtime_daemon_authority_posture": {
+    "declared": true,
+    "meaning": "latest file posture is not runtime-daemon authority",
+    "scope": "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY"
+  },
+  "non_claims": {
+    "adoption_created": false,
+    "another_reception_request_authorized": false,
+    "artifact_existence_treated_as_runtime_daemon_authority": false,
+    "artifact_path_treated_as_currentness": false,
+    "authority_created": false,
+    "authorization_token_reused": false,
+    "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_used_as_runtime_daemon_authority": false,
+    "hidden_repo_state_used_as_runtime_daemon_content": false,
+    "latest_file_posture_treated_as_runtime_daemon_authority": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "raw_full_prior_artifact_body_returned": false,
+    "receiving_context_governance_created": false,
+    "reception_authorization_created": false,
+    "repo_local_availability_treated_as_runtime_daemon_authority": false,
+    "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+    "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+    "runtime_daemon_boundary_v1_failure_hidden": false,
+    "runtime_daemon_boundary_v1_failure_repaired": false,
+    "runtime_daemon_treated_as_authority": false,
+    "runtime_daemon_treated_as_broader_reusable_permission": false,
+    "runtime_daemon_treated_as_currentness": false,
+    "runtime_daemon_treated_as_deployment": false,
+    "runtime_daemon_treated_as_distributed_network_behavior": false,
+    "runtime_daemon_treated_as_follow_on_work": false,
+    "runtime_daemon_treated_as_operation_permission": false,
+    "runtime_daemon_treated_as_participant_facing_interface": false,
+    "runtime_daemon_treated_as_public_api": false,
+    "runtime_daemon_treated_as_public_release": false,
+    "runtime_daemon_treated_as_reception_authorization": false,
+    "runtime_daemon_treated_as_runtime_loop": false,
+    "runtime_daemon_treated_as_source": false,
+    "runtime_daemon_treated_as_source_receipt": false,
+    "runtime_daemon_treated_as_source_transfer": false,
+    "runtime_loop_created": false,
+    "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": [],
+  "official_enum_scope_strings_not_redacted_posture": {
+    "declared": true,
+    "meaning": "official scope and code strings remain unredacted",
+    "scope": "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED"
+  },
+  "one_bounded_runtime_daemon_posture": {
+    "declared": true,
+    "meaning": "one bounded runtime-daemon posture only",
+    "scope": "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED"
+  },
+  "operation_permission_not_created_posture": {
+    "declared": true,
+    "meaning": "operation permission not created",
+    "scope": "NO_OPERATION_PERMISSION_CREATED"
+  },
+  "outcome": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_RECORDED",
+  "participant_facing_interface_not_created_posture": {
+    "declared": true,
+    "meaning": "participant-facing interface not created",
+    "scope": "PARTICIPANT_FACING_INTERFACE_NOT_CREATED"
+  },
+  "post_self_recursive_growth_runtime_daemon_metadata": {
+    "generated_at": "2026-05-14T20:18:01+00:00",
+    "post_self_recursive_growth_runtime_daemon_id": "post_self_recursive_growth_runtime_daemon_reference_review_001",
+    "post_self_recursive_growth_runtime_daemon_type": "post_self_recursive_growth_runtime_daemon",
+    "post_self_recursive_growth_runtime_daemon_version": "0.1.0",
+    "resolver_module": "resolve_post_self_recursive_growth_runtime_daemon"
+  },
+  "post_self_recursive_growth_runtime_daemon_summary": {
+    "artifact_existence_not_runtime_daemon_authority": true,
+    "authority_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "block_code": null,
+    "block_reason": null,
+    "bounded_runtime_daemon_envelope_declared": true,
+    "bounded_runtime_daemon_envelope_posture": {
+      "anything_outside_requires_fresh_admission": true,
+      "bounded_runtime_daemon_envelope_id": "bounded_runtime_daemon_envelope_v0",
+      "does_not_authorize_arbitrary_runtime_activity": true,
+      "limits": [
+        "one bounded standing-runtime-daemon posture only",
+        "no runtime loop",
+        "no public API",
+        "no participant-facing interface",
+        "no distributed network behavior",
+        "no source transfer",
+        "no source receipt",
+        "no reception authorization",
+        "no source, authority, currentness, deployment, public release, operation permission, broader reusable permission, or follow-on work"
+      ],
+      "posture": "one bounded runtime-daemon posture recorded from selected clean runtime-daemon-boundary and self-recursive-growth basis"
+    },
+    "bounded_runtime_daemon_posture_recorded": true,
+    "bounded_self_recursive_growth_envelope_preserved": true,
+    "broader_reusable_permission_not_created": true,
+    "consumed_request_token_remains_closed": true,
+    "currentness_not_created": true,
+    "deployment_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_runtime_daemon_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "intent": "RECORD_POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON",
+    "key_non_claims": {
+      "adoption_created": false,
+      "another_reception_request_authorized": false,
+      "artifact_existence_treated_as_runtime_daemon_authority": false,
+      "artifact_path_treated_as_currentness": false,
+      "authority_created": false,
+      "authorization_token_reused": false,
+      "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+      "broader_reusable_permission_created": false,
+      "consumed_request_reopened": false,
+      "currentness_created": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "distributed_network_behavior_created": false,
+      "follow_on_work_authorized": false,
+      "hidden_repo_state_used_as_runtime_daemon_authority": false,
+      "hidden_repo_state_used_as_runtime_daemon_content": false,
+      "latest_file_posture_treated_as_runtime_daemon_authority": false,
+      "operation_permission_created": false,
+      "participant_facing_interface_created": false,
+      "predecessor_failure_claimed_passed": false,
+      "predecessor_failure_hidden": false,
+      "predecessor_failure_repaired": false,
+      "prior_artifacts_mutated": false,
+      "public_api_created": false,
+      "public_release_created": false,
+      "publication_flow_created": false,
+      "raw_full_prior_artifact_body_returned": false,
+      "receiving_context_governance_created": false,
+      "reception_authorization_created": false,
+      "repo_local_availability_treated_as_runtime_daemon_authority": false,
+      "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+      "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+      "runtime_daemon_boundary_v1_failure_hidden": false,
+      "runtime_daemon_boundary_v1_failure_repaired": false,
+      "runtime_daemon_treated_as_authority": false,
+      "runtime_daemon_treated_as_broader_reusable_permission": false,
+      "runtime_daemon_treated_as_currentness": false,
+      "runtime_daemon_treated_as_deployment": false,
+      "runtime_daemon_treated_as_distributed_network_behavior": false,
+      "runtime_daemon_treated_as_follow_on_work": false,
+      "runtime_daemon_treated_as_operation_permission": false,
+      "runtime_daemon_treated_as_participant_facing_interface": false,
+      "runtime_daemon_treated_as_public_api": false,
+      "runtime_daemon_treated_as_public_release": false,
+      "runtime_daemon_treated_as_reception_authorization": false,
+      "runtime_daemon_treated_as_runtime_loop": false,
+      "runtime_daemon_treated_as_source": false,
+      "runtime_daemon_treated_as_source_receipt": false,
+      "runtime_daemon_treated_as_source_transfer": false,
+      "runtime_loop_created": false,
+      "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+      "source_created": false,
+      "source_receipt_occurred": false,
+      "source_transfer_occurred": false,
+      "vessel_relation_authorized": false
+    },
+    "latest_file_posture_not_runtime_daemon_authority": true,
+    "no_loop_api_interface_distributed_network_source_authority_currentness_deployment_public_release_follow_on": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "operation_permission_not_created": true,
+    "outcome": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "passed_check_count": 203,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "public_release_not_created": true,
+    "question": "Can the clean post-self-recursive-growth runtime-daemon-boundary basis be used to record one bounded runtime-daemon posture without creating runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+    "raw_full_prior_artifact_body_not_returned": true,
+    "reception_authorization_not_created": true,
+    "repo_local_availability_not_runtime_daemon_authority": true,
+    "request_id": "post_self_recursive_growth_runtime_daemon_reference_review_001",
+    "resolver_module": "resolve_post_self_recursive_growth_runtime_daemon",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_daemon_boundary_basis_preserved": true,
+    "runtime_daemon_not_distributed_network_behavior": true,
+    "runtime_daemon_not_participant_facing_interface": true,
+    "runtime_daemon_not_public_api": true,
+    "runtime_daemon_not_runtime_loop": true,
+    "runtime_daemon_recorded": true,
+    "runtime_loop_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "selected_continuation_boundary_failed_check_count": 0,
+    "selected_continuation_boundary_outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+    "selected_continuation_boundary_result_version": "0.1.0",
+    "selected_continuation_failed_check_count": 0,
+    "selected_continuation_outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+    "selected_continuation_result_version": "0.1.0",
+    "selected_final_completion_failed_check_count": 0,
+    "selected_final_completion_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+    "selected_final_completion_result_version": "0.1.0",
+    "selected_minimal_runtime_failed_check_count": 0,
+    "selected_minimal_runtime_outcome": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+    "selected_minimal_runtime_result_version": "0.1.0",
+    "selected_ongoing_runtime_failed_check_count": 0,
+    "selected_ongoing_runtime_outcome": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+    "selected_ongoing_runtime_result_version": "0.1.0",
+    "selected_post_portable_currentness_surface_path": "spec/POST_PORTABLE_VERIFICATION_CURRENTNESS_SURFACE_V0.md",
+    "selected_reusable_runtime_permission_boundary_failed_check_count": 0,
+    "selected_reusable_runtime_permission_boundary_outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+    "selected_reusable_runtime_permission_boundary_result_version": "0.1.0",
+    "selected_reusable_runtime_permission_failed_check_count": 0,
+    "selected_reusable_runtime_permission_outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+    "selected_reusable_runtime_permission_result_version": "0.1.0",
+    "selected_runtime_boundary_failed_check_count": 0,
+    "selected_runtime_boundary_outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+    "selected_runtime_boundary_result_version": "0.1.0",
+    "selected_runtime_daemon_boundary_failed_check_count": 0,
+    "selected_runtime_daemon_boundary_outcome": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_BOUNDARY_RECORDED",
+    "selected_runtime_daemon_boundary_result_version": "0.1.0",
+    "selected_runtime_daemon_boundary_v1_failure_lineage_preserved": true,
+    "selected_runtime_hosting_boundary_v2_failed_check_count": 0,
+    "selected_runtime_hosting_boundary_v2_outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_V2_RECORDED",
+    "selected_runtime_hosting_boundary_v2_result_version": "0.2.0",
+    "selected_runtime_hosting_failed_check_count": 0,
+    "selected_runtime_hosting_outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+    "selected_runtime_hosting_result_version": "0.1.0",
+    "selected_runtime_readiness_failed_check_count": 0,
+    "selected_runtime_readiness_outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+    "selected_runtime_readiness_result_version": "0.1.0",
+    "selected_self_continuation_boundary_failed_check_count": 0,
+    "selected_self_continuation_boundary_outcome": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+    "selected_self_continuation_boundary_result_version": "0.1.0",
+    "selected_self_continuation_failed_check_count": 0,
+    "selected_self_continuation_outcome": "POST_CONTINUATION_SELF_CONTINUATION_RECORDED",
+    "selected_self_continuation_result_version": "0.1.0",
+    "selected_self_recursive_growth_boundary_failed_check_count": 0,
+    "selected_self_recursive_growth_boundary_outcome": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_BOUNDARY_RECORDED",
+    "selected_self_recursive_growth_boundary_result_version": "0.1.0",
+    "selected_self_recursive_growth_failed_check_count": 0,
+    "selected_self_recursive_growth_outcome": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_RECORDED",
+    "selected_self_recursive_growth_result_version": "0.1.0",
+    "selected_successor_runtime_step_failed_check_count": 0,
+    "selected_successor_runtime_step_outcome": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+    "selected_successor_runtime_step_result_version": "0.1.0",
+    "self_recursive_growth_basis_preserved": true,
+    "source_not_created": true,
+    "source_receipt_not_created": true,
+    "source_transfer_not_created": true
+  },
+  "predecessor_failure_evidence_preserved_posture": {
+    "declared": true,
+    "meaning": "predecessor failure evidence remains visible and unrepaired",
+    "scope": "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED"
+  },
+  "public_api_not_created_posture": {
+    "declared": true,
+    "meaning": "public API not created",
+    "scope": "PUBLIC_API_NOT_CREATED"
+  },
+  "public_release_not_created_posture": {
+    "declared": true,
+    "meaning": "public release not created",
+    "scope": "NO_PUBLIC_RELEASE_CREATED"
+  },
+  "raw_full_prior_artifact_body_not_returned_posture": {
+    "declared": true,
+    "meaning": "raw full prior artifact body not returned",
+    "scope": "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED"
+  },
+  "reception_authorization_not_created_posture": {
+    "declared": true,
+    "meaning": "reception authorization not created",
+    "scope": "NO_RECEPTION_AUTHORIZATION"
+  },
+  "repo_local_availability_not_runtime_daemon_authority_posture": {
+    "declared": true,
+    "meaning": "repo-local availability is not runtime-daemon authority",
+    "scope": "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY"
+  },
+  "result_level_non_claims_canonical_false_posture": {
+    "declared": true,
+    "meaning": "result-level non-claims are canonical false",
+    "scope": "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+  },
+  "runtime_daemon_boundary_basis_preserved_posture": {
+    "declared": true,
+    "meaning": "runtime-daemon-boundary remains basis",
+    "scope": "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED"
+  },
+  "runtime_daemon_checks": [
+    {
+      "actual_posture": "Can the clean post-self-recursive-growth runtime-daemon-boundary basis be used to record one bounded runtime-daemon posture without creating runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+      "block_code": null,
+      "check_name": "runtime_daemon_question_declared",
+      "expected_posture": "Can the clean post-self-recursive-growth runtime-daemon-boundary basis be used to record one bounded runtime-daemon posture without creating runtime loop, public API, participant-facing interface, distributed network behavior, source transfer, source receipt, reception authorization, source, authority, currentness, deployment, public release, operation permission, broader reusable permission, derivative reception, vessel relation, another reception request, adoption, receiving-context governance, publication flow, or follow-on work?",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON",
+      "block_code": null,
+      "check_name": "runtime_daemon_intent_supported",
+      "expected_posture": "one of ('RECORD_POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON', 'DO_NOT_RECORD_POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON')",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "RUNTIME_DAEMON_SPEC_ONLY",
+        "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED",
+        "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED",
+        "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED",
+        "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED",
+        "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED",
+        "RUNTIME_DAEMON_NOT_RUNTIME_LOOP",
+        "RUNTIME_DAEMON_NOT_PUBLIC_API",
+        "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE",
+        "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_RUNTIME_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RUNTIME_DAEMON_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "block_code": null,
+      "check_name": "runtime_daemon_scope_supported",
+      "expected_posture": [
+        "RUNTIME_DAEMON_SPEC_ONLY",
+        "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED",
+        "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED",
+        "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED",
+        "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED",
+        "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED",
+        "RUNTIME_DAEMON_NOT_RUNTIME_LOOP",
+        "RUNTIME_DAEMON_NOT_PUBLIC_API",
+        "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE",
+        "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_RUNTIME_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RUNTIME_DAEMON_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_outcome_recorded",
+      "expected_posture": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_version_0_1_0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_declared_future_runtime_daemon_review",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_already_created_runtime_daemon_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_already_created_runtime_loop_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_already_created_public_api_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_already_created_participant_facing_interface_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_already_created_distributed_network_behavior_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_treated_as_runtime_daemon_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_treated_as_runtime_loop_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_treated_as_public_api_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_authorized_future_work_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_non_claims_canonicalized",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_terminal_summary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_terminal_summary_states_runtime_daemon_not_created",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_terminal_summary_states_no_runtime_daemon_selected",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_terminal_summary_requires_separate_future_review",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_v1_failure_lineage_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_v1_failure_hidden_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_v1_failure_repaired_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_daemon_boundary_v1_failure_claimed_passed_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "self_recursive_growth_terminal_summary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "self_recursive_growth_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_RECORDED",
+      "block_code": null,
+      "check_name": "self_recursive_growth_outcome_recorded",
+      "expected_posture": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "self_recursive_growth_version_0_1_0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "self_recursive_growth_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "self_recursive_growth_recorded_bounded_posture",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "self_recursive_growth_recorded_bounded_envelope",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_already_created_runtime_loop_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_already_created_public_api_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_already_created_participant_facing_interface_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_already_created_distributed_network_behavior_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_before_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_bounded_self_recursive_growth_envelope_authorized_arbitrary_runtime_activity_before_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_boundary_outcome_recorded",
+      "expected_posture": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_boundary_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_self_recursive_growth_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_self_continuation_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_CONTINUATION_SELF_CONTINUATION_RECORDED",
+      "block_code": null,
+      "check_name": "selected_self_continuation_outcome_recorded",
+      "expected_posture": "POST_CONTINUATION_SELF_CONTINUATION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_self_continuation_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_self_continuation_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_self_continuation_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "selected_self_continuation_boundary_outcome_recorded",
+      "expected_posture": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_self_continuation_boundary_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_self_continuation_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_continuation_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+      "block_code": null,
+      "check_name": "selected_continuation_outcome_recorded",
+      "expected_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_continuation_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_continuation_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_continuation_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "selected_continuation_boundary_outcome_recorded",
+      "expected_posture": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_continuation_boundary_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_continuation_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_outcome_recorded",
+      "expected_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_boundary_outcome_recorded",
+      "expected_posture": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_boundary_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_reusable_runtime_permission_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_ongoing_runtime_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+      "block_code": null,
+      "check_name": "selected_ongoing_runtime_outcome_recorded",
+      "expected_posture": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_ongoing_runtime_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_ongoing_runtime_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_outcome_recorded",
+      "expected_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v2_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_V2_RECORDED",
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v2_outcome_recorded",
+      "expected_posture": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_V2_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.2.0",
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v2_version_expected",
+      "expected_posture": "0.2.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v2_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_successor_runtime_step_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+      "block_code": null,
+      "check_name": "selected_successor_runtime_step_outcome_recorded",
+      "expected_posture": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_successor_runtime_step_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_successor_runtime_step_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_minimal_runtime_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+      "block_code": null,
+      "check_name": "selected_minimal_runtime_outcome_recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_minimal_runtime_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_minimal_runtime_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_runtime_boundary_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "selected_runtime_boundary_outcome_recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_runtime_boundary_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_runtime_boundary_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_runtime_readiness_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+      "block_code": null,
+      "check_name": "selected_runtime_readiness_outcome_recorded",
+      "expected_posture": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_runtime_readiness_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_runtime_readiness_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_portable_verification_final_completion_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+      "block_code": null,
+      "check_name": "selected_portable_verification_final_completion_outcome_recorded",
+      "expected_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "selected_portable_verification_final_completion_version_expected",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "selected_portable_verification_final_completion_failed_checks_zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_hosting_boundary_v1_failure_lineage_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v1_failure_repaired_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v1_failure_hidden_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_runtime_hosting_boundary_v1_failure_claimed_passed_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "post_portable_currentness_surface_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "post_portable_currentness_surface_states_checkability_not_continuation",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_post_portable_currentness_surface_authorized_next_work_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_second_carrier_capture_lineage_basis_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_spec_only_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "one_bounded_runtime_daemon_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_basis_preserved_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "self_recursive_growth_basis_preserved_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "bounded_self_recursive_growth_envelope_preserved_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "bounded_runtime_daemon_envelope_declared_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_not_runtime_loop_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_not_public_api_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_not_participant_facing_interface_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_daemon_not_distributed_network_behavior_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "runtime_loop_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "public_api_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "participant_facing_interface_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "distributed_network_behavior_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "source_transfer_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "source_receipt_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "reception_authorization_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "source_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "authority_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "currentness_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "deployment_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "public_release_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "operation_permission_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "broader_reusable_permission_not_created_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "follow_on_work_not_authorized_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "hidden_repo_state_excluded_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "repo_local_availability_not_runtime_daemon_authority_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "artifact_existence_not_runtime_daemon_authority_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "latest_file_posture_not_runtime_daemon_authority_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "selected_basis_reference_shape_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "raw_full_prior_artifact_body_not_returned_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "official_enum_scope_strings_not_redacted_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "hostile_raw_body_content_contained_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "predecessor_failure_evidence_preserved_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared": true
+      },
+      "block_code": null,
+      "check_name": "result_level_non_claims_canonical_false_posture_declared",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_recorded_before_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_runtime_loop_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_public_api_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_participant_facing_interface_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_distributed_network_behavior_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_source_transfer_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_source_receipt_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_reception_authorization_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_source_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_authority_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_currentness_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_deployment_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_public_release_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_operation_permission_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_broader_reusable_permission_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_daemon_treated_as_follow_on_work_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_loop_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public_api_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "participant_facing_interface_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distributed_network_behavior_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_transfer_occurred_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_receipt_occurred_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "reception_authorization_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_treated_as_runtime_daemon_without_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "self_recursive_growth_treated_as_runtime_daemon_without_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authority_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "currentness_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "deployment_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public_release_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "operation_permission_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "broader_reusable_permission_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "derivative_reception_authorized_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "vessel_relation_authorized_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "another_reception_request_authorized_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "adoption_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receiving_context_governance_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "publication_flow_created_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow_on_work_authorized_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact_existence_treated_as_runtime_daemon_authority_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact_path_treated_as_currentness_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "latest_file_posture_treated_as_runtime_daemon_authority_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repo_local_availability_treated_as_runtime_daemon_authority_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden_repo_state_used_as_runtime_daemon_content_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden_repo_state_used_as_runtime_daemon_authority_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "raw_full_prior_artifact_body_returned_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "prior_artifacts_mutated_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "predecessor_failure_repaired_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "predecessor_failure_hidden_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "predecessor_failure_claimed_passed_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "consumed_request_reopened_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authorization_token_reused_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_v1_failure_hidden_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_v1_failure_repaired_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "runtime_daemon_boundary_v1_failure_claimed_passed_not_true",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_basis_reference_shaped",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "contained",
+      "block_code": null,
+      "check_name": "hostile_raw_body_content_contained",
+      "expected_posture": "no hostile raw/hidden sentinels",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "RUNTIME_DAEMON_SPEC_ONLY",
+        "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED",
+        "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED",
+        "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED",
+        "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED",
+        "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED",
+        "RUNTIME_DAEMON_NOT_RUNTIME_LOOP",
+        "RUNTIME_DAEMON_NOT_PUBLIC_API",
+        "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE",
+        "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_RUNTIME_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RUNTIME_DAEMON_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "block_code": null,
+      "check_name": "official_enum_scope_strings_not_redacted",
+      "expected_posture": [
+        "RUNTIME_DAEMON_SPEC_ONLY",
+        "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED",
+        "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED",
+        "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED",
+        "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED",
+        "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED",
+        "RUNTIME_DAEMON_NOT_RUNTIME_LOOP",
+        "RUNTIME_DAEMON_NOT_PUBLIC_API",
+        "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE",
+        "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR",
+        "RUNTIME_LOOP_NOT_CREATED",
+        "PUBLIC_API_NOT_CREATED",
+        "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+        "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+        "NO_SOURCE_TRANSFER",
+        "NO_SOURCE_RECEIPT",
+        "NO_RECEPTION_AUTHORIZATION",
+        "NO_SOURCE_CREATED",
+        "NO_AUTHORITY_CREATED",
+        "NO_CURRENTNESS_CREATED",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_BROADER_REUSABLE_PERMISSION",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_VESSEL_RELATION",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_ADOPTION",
+        "NO_RECEIVING_CONTEXT_GOVERNANCE",
+        "NO_PUBLICATION_FLOW",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_RUNTIME_LOOP_INFERENCE",
+        "NO_PUBLIC_API_INFERENCE",
+        "NO_PARTICIPANT_INTERFACE_INFERENCE",
+        "NO_DISTRIBUTED_NETWORK_INFERENCE",
+        "NO_SOURCE_INFERENCE",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_INFERENCE",
+        "NO_PUBLIC_RELEASE_INFERENCE",
+        "NO_OPERATION_PERMISSION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RUNTIME_DAEMON_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "adoption_created": false,
+        "another_reception_request_authorized": false,
+        "artifact_existence_treated_as_runtime_daemon_authority": false,
+        "artifact_path_treated_as_currentness": false,
+        "authority_created": false,
+        "authorization_token_reused": false,
+        "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "follow_on_work_authorized": false,
+        "hidden_repo_state_used_as_runtime_daemon_authority": false,
+        "hidden_repo_state_used_as_runtime_daemon_content": false,
+        "latest_file_posture_treated_as_runtime_daemon_authority": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "raw_full_prior_artifact_body_returned": false,
+        "receiving_context_governance_created": false,
+        "reception_authorization_created": false,
+        "repo_local_availability_treated_as_runtime_daemon_authority": false,
+        "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+        "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+        "runtime_daemon_boundary_v1_failure_hidden": false,
+        "runtime_daemon_boundary_v1_failure_repaired": false,
+        "runtime_daemon_treated_as_authority": false,
+        "runtime_daemon_treated_as_broader_reusable_permission": false,
+        "runtime_daemon_treated_as_currentness": false,
+        "runtime_daemon_treated_as_deployment": false,
+        "runtime_daemon_treated_as_distributed_network_behavior": false,
+        "runtime_daemon_treated_as_follow_on_work": false,
+        "runtime_daemon_treated_as_operation_permission": false,
+        "runtime_daemon_treated_as_participant_facing_interface": false,
+        "runtime_daemon_treated_as_public_api": false,
+        "runtime_daemon_treated_as_public_release": false,
+        "runtime_daemon_treated_as_reception_authorization": false,
+        "runtime_daemon_treated_as_runtime_loop": false,
+        "runtime_daemon_treated_as_source": false,
+        "runtime_daemon_treated_as_source_receipt": false,
+        "runtime_daemon_treated_as_source_transfer": false,
+        "runtime_loop_created": false,
+        "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "vessel_relation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "required_non_claims_false",
+      "expected_posture": {
+        "adoption_created": false,
+        "another_reception_request_authorized": false,
+        "artifact_existence_treated_as_runtime_daemon_authority": false,
+        "artifact_path_treated_as_currentness": false,
+        "authority_created": false,
+        "authorization_token_reused": false,
+        "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "follow_on_work_authorized": false,
+        "hidden_repo_state_used_as_runtime_daemon_authority": false,
+        "hidden_repo_state_used_as_runtime_daemon_content": false,
+        "latest_file_posture_treated_as_runtime_daemon_authority": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "raw_full_prior_artifact_body_returned": false,
+        "receiving_context_governance_created": false,
+        "reception_authorization_created": false,
+        "repo_local_availability_treated_as_runtime_daemon_authority": false,
+        "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+        "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+        "runtime_daemon_boundary_v1_failure_hidden": false,
+        "runtime_daemon_boundary_v1_failure_repaired": false,
+        "runtime_daemon_treated_as_authority": false,
+        "runtime_daemon_treated_as_broader_reusable_permission": false,
+        "runtime_daemon_treated_as_currentness": false,
+        "runtime_daemon_treated_as_deployment": false,
+        "runtime_daemon_treated_as_distributed_network_behavior": false,
+        "runtime_daemon_treated_as_follow_on_work": false,
+        "runtime_daemon_treated_as_operation_permission": false,
+        "runtime_daemon_treated_as_participant_facing_interface": false,
+        "runtime_daemon_treated_as_public_api": false,
+        "runtime_daemon_treated_as_public_release": false,
+        "runtime_daemon_treated_as_reception_authorization": false,
+        "runtime_daemon_treated_as_runtime_loop": false,
+        "runtime_daemon_treated_as_source": false,
+        "runtime_daemon_treated_as_source_receipt": false,
+        "runtime_daemon_treated_as_source_transfer": false,
+        "runtime_loop_created": false,
+        "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "vessel_relation_authorized": false
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "adoption_created": false,
+        "another_reception_request_authorized": false,
+        "artifact_existence_treated_as_runtime_daemon_authority": false,
+        "artifact_path_treated_as_currentness": false,
+        "authority_created": false,
+        "authorization_token_reused": false,
+        "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "follow_on_work_authorized": false,
+        "hidden_repo_state_used_as_runtime_daemon_authority": false,
+        "hidden_repo_state_used_as_runtime_daemon_content": false,
+        "latest_file_posture_treated_as_runtime_daemon_authority": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "raw_full_prior_artifact_body_returned": false,
+        "receiving_context_governance_created": false,
+        "reception_authorization_created": false,
+        "repo_local_availability_treated_as_runtime_daemon_authority": false,
+        "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+        "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+        "runtime_daemon_boundary_v1_failure_hidden": false,
+        "runtime_daemon_boundary_v1_failure_repaired": false,
+        "runtime_daemon_treated_as_authority": false,
+        "runtime_daemon_treated_as_broader_reusable_permission": false,
+        "runtime_daemon_treated_as_currentness": false,
+        "runtime_daemon_treated_as_deployment": false,
+        "runtime_daemon_treated_as_distributed_network_behavior": false,
+        "runtime_daemon_treated_as_follow_on_work": false,
+        "runtime_daemon_treated_as_operation_permission": false,
+        "runtime_daemon_treated_as_participant_facing_interface": false,
+        "runtime_daemon_treated_as_public_api": false,
+        "runtime_daemon_treated_as_public_release": false,
+        "runtime_daemon_treated_as_reception_authorization": false,
+        "runtime_daemon_treated_as_runtime_loop": false,
+        "runtime_daemon_treated_as_source": false,
+        "runtime_daemon_treated_as_source_receipt": false,
+        "runtime_daemon_treated_as_source_transfer": false,
+        "runtime_loop_created": false,
+        "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "vessel_relation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "result_level_required_false_non_claims_canonical_false",
+      "expected_posture": {
+        "adoption_created": false,
+        "another_reception_request_authorized": false,
+        "artifact_existence_treated_as_runtime_daemon_authority": false,
+        "artifact_path_treated_as_currentness": false,
+        "authority_created": false,
+        "authorization_token_reused": false,
+        "bounded_self_recursive_growth_envelope_treated_as_runtime_daemon_without_review": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "follow_on_work_authorized": false,
+        "hidden_repo_state_used_as_runtime_daemon_authority": false,
+        "hidden_repo_state_used_as_runtime_daemon_content": false,
+        "latest_file_posture_treated_as_runtime_daemon_authority": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "raw_full_prior_artifact_body_returned": false,
+        "receiving_context_governance_created": false,
+        "reception_authorization_created": false,
+        "repo_local_availability_treated_as_runtime_daemon_authority": false,
+        "runtime_daemon_boundary_treated_as_runtime_daemon_without_review": false,
+        "runtime_daemon_boundary_v1_failure_claimed_passed": false,
+        "runtime_daemon_boundary_v1_failure_hidden": false,
+        "runtime_daemon_boundary_v1_failure_repaired": false,
+        "runtime_daemon_treated_as_authority": false,
+        "runtime_daemon_treated_as_broader_reusable_permission": false,
+        "runtime_daemon_treated_as_currentness": false,
+        "runtime_daemon_treated_as_deployment": false,
+        "runtime_daemon_treated_as_distributed_network_behavior": false,
+        "runtime_daemon_treated_as_follow_on_work": false,
+        "runtime_daemon_treated_as_operation_permission": false,
+        "runtime_daemon_treated_as_participant_facing_interface": false,
+        "runtime_daemon_treated_as_public_api": false,
+        "runtime_daemon_treated_as_public_release": false,
+        "runtime_daemon_treated_as_reception_authorization": false,
+        "runtime_daemon_treated_as_runtime_loop": false,
+        "runtime_daemon_treated_as_source": false,
+        "runtime_daemon_treated_as_source_receipt": false,
+        "runtime_daemon_treated_as_source_transfer": false,
+        "runtime_loop_created": false,
+        "self_recursive_growth_treated_as_runtime_daemon_without_review": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "vessel_relation_authorized": false
+      },
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "runtime_daemon_non_meaning": {
+    "runtime_daemon_authorizes_arbitrary_runtime_activity": false,
+    "runtime_daemon_authorizes_its_own_successor": false,
+    "runtime_daemon_is_authority": false,
+    "runtime_daemon_is_broader_reusable_permission": false,
+    "runtime_daemon_is_currentness": false,
+    "runtime_daemon_is_deployment": false,
+    "runtime_daemon_is_distributed_network_behavior": false,
+    "runtime_daemon_is_follow_on_work": false,
+    "runtime_daemon_is_operation_permission": false,
+    "runtime_daemon_is_participant_facing_interface": false,
+    "runtime_daemon_is_public_api": false,
+    "runtime_daemon_is_public_release": false,
+    "runtime_daemon_is_reception_authorization": false,
+    "runtime_daemon_is_runtime_loop": false,
+    "runtime_daemon_is_source": false,
+    "runtime_daemon_is_source_receipt": false,
+    "runtime_daemon_is_source_transfer": false
+  },
+  "runtime_daemon_not_distributed_network_behavior_posture": {
+    "declared": true,
+    "meaning": "runtime daemon is not distributed network behavior",
+    "scope": "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR"
+  },
+  "runtime_daemon_not_participant_facing_interface_posture": {
+    "declared": true,
+    "meaning": "runtime daemon is not participant-facing interface",
+    "scope": "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE"
+  },
+  "runtime_daemon_not_public_api_posture": {
+    "declared": true,
+    "meaning": "runtime daemon is not public API",
+    "scope": "RUNTIME_DAEMON_NOT_PUBLIC_API"
+  },
+  "runtime_daemon_not_runtime_loop_posture": {
+    "declared": true,
+    "meaning": "runtime daemon is not runtime loop",
+    "scope": "RUNTIME_DAEMON_NOT_RUNTIME_LOOP"
+  },
+  "runtime_daemon_scope": [
+    "RUNTIME_DAEMON_SPEC_ONLY",
+    "ONE_BOUNDED_RUNTIME_DAEMON_POSTURE_RECORDED",
+    "RUNTIME_DAEMON_BOUNDARY_BASIS_PRESERVED",
+    "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED",
+    "BOUNDED_SELF_RECURSIVE_GROWTH_ENVELOPE_PRESERVED",
+    "BOUNDED_RUNTIME_DAEMON_ENVELOPE_DECLARED",
+    "RUNTIME_DAEMON_NOT_RUNTIME_LOOP",
+    "RUNTIME_DAEMON_NOT_PUBLIC_API",
+    "RUNTIME_DAEMON_NOT_PARTICIPANT_FACING_INTERFACE",
+    "RUNTIME_DAEMON_NOT_DISTRIBUTED_NETWORK_BEHAVIOR",
+    "RUNTIME_LOOP_NOT_CREATED",
+    "PUBLIC_API_NOT_CREATED",
+    "PARTICIPANT_FACING_INTERFACE_NOT_CREATED",
+    "DISTRIBUTED_NETWORK_BEHAVIOR_NOT_CREATED",
+    "NO_SOURCE_TRANSFER",
+    "NO_SOURCE_RECEIPT",
+    "NO_RECEPTION_AUTHORIZATION",
+    "NO_SOURCE_CREATED",
+    "NO_AUTHORITY_CREATED",
+    "NO_CURRENTNESS_CREATED",
+    "NO_DEPLOYMENT_CREATED",
+    "NO_PUBLIC_RELEASE_CREATED",
+    "NO_OPERATION_PERMISSION_CREATED",
+    "NO_BROADER_REUSABLE_PERMISSION",
+    "NO_DERIVATIVE_RECEPTION",
+    "NO_VESSEL_RELATION",
+    "NO_ANOTHER_RECEPTION_REQUEST",
+    "NO_ADOPTION",
+    "NO_RECEIVING_CONTEXT_GOVERNANCE",
+    "NO_PUBLICATION_FLOW",
+    "NO_FOLLOW_ON_WORK_AUTHORIZED",
+    "NO_RUNTIME_LOOP_INFERENCE",
+    "NO_PUBLIC_API_INFERENCE",
+    "NO_PARTICIPANT_INTERFACE_INFERENCE",
+    "NO_DISTRIBUTED_NETWORK_INFERENCE",
+    "NO_SOURCE_INFERENCE",
+    "NO_AUTHORITY_INFERENCE",
+    "NO_CURRENTNESS_INFERENCE",
+    "NO_DEPLOYMENT_INFERENCE",
+    "NO_PUBLIC_RELEASE_INFERENCE",
+    "NO_OPERATION_PERMISSION_INFERENCE",
+    "NO_FOLLOW_ON_WORK_INFERENCE",
+    "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+    "HIDDEN_REPO_STATE_EXCLUDED",
+    "HIDDEN_REPO_STATE_NOT_USED_AS_RUNTIME_DAEMON_AUTHORITY",
+    "REPO_LOCAL_AVAILABILITY_NOT_RUNTIME_DAEMON_AUTHORITY",
+    "ARTIFACT_EXISTENCE_NOT_RUNTIME_DAEMON_AUTHORITY",
+    "LATEST_FILE_POSTURE_NOT_RUNTIME_DAEMON_AUTHORITY",
+    "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+    "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+    "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+    "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+    "PREDECESSOR_FAILURE_EVIDENCE_PRESERVED",
+    "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+    "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+    "CONSUMED_REQUEST_NOT_REOPENED",
+    "RESULT_LEVEL_NON_CLAIMS_CANONICAL_FALSE"
+  ],
+  "runtime_daemon_spec_only_posture": {
+    "declared": true,
+    "meaning": "spec posture only",
+    "scope": "RUNTIME_DAEMON_SPEC_ONLY"
+  },
+  "runtime_daemon_statement": {
+    "artifact_existence_not_runtime_daemon_authority": true,
+    "authority_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "bounded_runtime_daemon_envelope_declared": true,
+    "bounded_runtime_daemon_posture_recorded": true,
+    "bounded_self_recursive_growth_envelope_preserved": true,
+    "broader_reusable_permission_not_created": true,
+    "consumed_request_token_remains_closed": true,
+    "currentness_not_created": true,
+    "deployment_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_runtime_daemon_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "latest_file_posture_not_runtime_daemon_authority": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "operation_permission_not_created": true,
+    "participant_facing_interface_not_created": true,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "public_release_not_created": true,
+    "raw_full_prior_artifact_body_not_returned": true,
+    "reception_authorization_not_created": true,
+    "repo_local_availability_not_runtime_daemon_authority": true,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_daemon_boundary_basis_preserved": true,
+    "runtime_daemon_not_distributed_network_behavior": true,
+    "runtime_daemon_not_participant_facing_interface": true,
+    "runtime_daemon_not_public_api": true,
+    "runtime_daemon_not_runtime_loop": true,
+    "runtime_daemon_recorded": true,
+    "runtime_loop_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "self_recursive_growth_basis_preserved": true,
+    "source_not_created": true,
+    "source_receipt_not_created": true,
+    "source_transfer_not_created": true
+  },
+  "runtime_loop_not_created_posture": {
+    "declared": true,
+    "meaning": "runtime loop not created",
+    "scope": "RUNTIME_LOOP_NOT_CREATED"
+  },
+  "selected_basis_reference_shape_posture": {
+    "declared": true,
+    "meaning": "selected basis remains reference-shaped",
+    "scope": "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED"
+  },
+  "selected_continuation_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-reusable-runtime-permission continuation",
+    "failed_check_count": 0,
+    "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_continuation_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-reusable-runtime-permission continuation-boundary",
+    "failed_check_count": 0,
+    "outcome": "POST_REUSABLE_RUNTIME_PERMISSION_CONTINUATION_BOUNDARY_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_minimal_runtime_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-portable-verification minimal-runtime",
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_MINIMAL_RUNTIME_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_ongoing_runtime_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-runtime-hosting ongoing-runtime",
+    "failed_check_count": 0,
+    "outcome": "POST_RUNTIME_HOSTING_ONGOING_RUNTIME_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_portable_verification_final_completion_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "portable source-body verification final-completion",
+    "failed_check_count": 0,
+    "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_FINAL_COMPLETION_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_post_portable_verification_currentness_basis": {
+    "authorized_next_work": false,
+    "path": "spec/POST_PORTABLE_VERIFICATION_CURRENTNESS_SURFACE_V0.md",
+    "states_checkability_not_continuation": true
+  },
+  "selected_returned_second_carrier_capture_lineage_basis": {
+    "basis_label": "returned second-carrier capture lineage",
+    "lineage_only": true
+  },
+  "selected_reusable_runtime_permission_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-ongoing-runtime reusable-runtime-permission",
+    "failed_check_count": 0,
+    "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_reusable_runtime_permission_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-ongoing-runtime reusable-runtime-permission-boundary",
+    "failed_check_count": 0,
+    "outcome": "POST_ONGOING_RUNTIME_REUSABLE_RUNTIME_PERMISSION_BOUNDARY_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_runtime_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-portable-verification runtime-boundary",
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_BOUNDARY_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_runtime_daemon_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-self-recursive-growth runtime-daemon-boundary",
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "one_future_runtime_daemon_review_declared": true,
+    "outcome": "POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_BOUNDARY_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "path": "artifacts/integrity_host_v0_min_coexistence_post_self_recursive_growth_runtime_daemon_boundary/post_self_recursive_growth_runtime_daemon_boundary_reference_review_001__post_self_recursive_growth_runtime_daemon_boundary_result.json",
+    "public_api_not_created": true,
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_daemon_not_created": true,
+    "runtime_loop_not_created": true
+  },
+  "selected_runtime_daemon_boundary_terminal_summary_basis": {
+    "no_runtime_daemon_selected": true,
+    "path": "spec/POST_SELF_RECURSIVE_GROWTH_RUNTIME_DAEMON_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "runtime_daemon_not_created": true,
+    "separate_future_review_required": true
+  },
+  "selected_runtime_daemon_boundary_v1_failure_lineage_basis": {
+    "claimed_passed": false,
+    "failure_class": "over-strict validation-evidence assertion",
+    "hidden": false,
+    "path": "tests/test_resolve_post_self_recursive_growth_runtime_daemon_boundary.py",
+    "preserved_as_failed_test_evidence": true,
+    "repaired": false
+  },
+  "selected_runtime_hosting_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-successor-runtime-step runtime-hosting",
+    "failed_check_count": 0,
+    "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_runtime_hosting_boundary_v1_failure_lineage_basis": {
+    "claimed_passed": false,
+    "hidden": false,
+    "path": "tests/test_resolve_post_successor_runtime_step_runtime_hosting_boundary.py",
+    "preserved_as_predecessor_failure_evidence": true,
+    "repaired": false
+  },
+  "selected_runtime_hosting_boundary_v2_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-successor-runtime-step runtime-hosting-boundary-v2",
+    "failed_check_count": 0,
+    "outcome": "POST_SUCCESSOR_RUNTIME_STEP_RUNTIME_HOSTING_BOUNDARY_V2_RECORDED",
+    "result_version": "0.2.0"
+  },
+  "selected_runtime_readiness_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-portable-verification runtime-readiness",
+    "failed_check_count": 0,
+    "outcome": "POST_PORTABLE_VERIFICATION_RUNTIME_READINESS_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_self_continuation_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-continuation self-continuation",
+    "failed_check_count": 0,
+    "outcome": "POST_CONTINUATION_SELF_CONTINUATION_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_self_continuation_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-continuation self-continuation-boundary",
+    "failed_check_count": 0,
+    "outcome": "POST_CONTINUATION_SELF_CONTINUATION_BOUNDARY_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_self_recursive_growth_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-self-continuation self-recursive-growth",
+    "bounded_self_recursive_growth_envelope_recorded": true,
+    "bounded_self_recursive_growth_posture_recorded": true,
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "outcome": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "public_api_not_created": true,
+    "result_version": "0.1.0",
+    "runtime_loop_not_created": true
+  },
+  "selected_self_recursive_growth_boundary_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-self-continuation self-recursive-growth-boundary",
+    "failed_check_count": 0,
+    "outcome": "POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_BOUNDARY_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "selected_self_recursive_growth_terminal_summary_basis": {
+    "path": "spec/POST_SELF_CONTINUATION_SELF_RECURSIVE_GROWTH_TERMINAL_SUMMARY_V0.md",
+    "runtime_daemon_not_created": true
+  },
+  "selected_successor_runtime_step_basis": {
+    "basis_kind": "reference-shaped synthetic basis",
+    "basis_label": "post-minimal-runtime successor-runtime-step",
+    "failed_check_count": 0,
+    "outcome": "POST_MINIMAL_RUNTIME_SUCCESSOR_RUNTIME_STEP_RECORDED",
+    "result_version": "0.1.0"
+  },
+  "self_recursive_growth_basis_preserved_posture": {
+    "declared": true,
+    "meaning": "self-recursive growth remains bounded basis",
+    "scope": "SELF_RECURSIVE_GROWTH_BASIS_PRESERVED"
+  },
+  "source_not_created_posture": {
+    "declared": true,
+    "meaning": "source not created",
+    "scope": "NO_SOURCE_CREATED"
+  },
+  "source_receipt_not_created_posture": {
+    "declared": true,
+    "meaning": "source receipt not created",
+    "scope": "NO_SOURCE_RECEIPT"
+  },
+  "source_transfer_not_created_posture": {
+    "declared": true,
+    "meaning": "source transfer not created",
+    "scope": "NO_SOURCE_TRANSFER"
+  },
+  "what_remains_open": [
+    "runtime loop",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "source transfer",
+    "source receipt",
+    "reception authorization",
+    "source",
+    "authority",
+    "currentness",
+    "deployment",
+    "public release",
+    "operation permission",
+    "broader reusable permission",
+    "derivative reception",
+    "vessel relation",
+    "adoption",
+    "receiving-context governance",
+    "publication flow",
+    "follow-on work"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:v1:schema:transition_record_body",
+  "title": "IAMMAI v1 Transition Record Body",
+  "description": "Canonical transition record body schema for v1. This schema defines the transition record as artifact only. It preserves typed lawful passage across matter, state, containment, resolution, and lineage without carrying execution, envelope, registry, preservation, or transport context as canonical body content.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "transition_id",
+    "matter_ref",
+    "source_ref",
+    "target_ref",
+    "transition_type",
+    "occurred_at"
+  ],
+  "properties": {
+    "transition_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Artifact identity for the transition record body. This is not execution or envelope identity."
+    },
+    "matter_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical reference to the bounded matter within which the transition occurred."
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical reference to the source state or standing condition from which the transition moved."
+    },
+    "target_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Canonical reference to the target state or standing condition to which the transition moved."
+    },
+    "transition_type": {
+      "type": "string",
+      "enum": [
+        "preparation_progression",
+        "threshold_eligibility",
+        "truth_formation",
+        "continuity_transition",
+        "decision_transition",
+        "consequence_transition",
+        "containment_apply",
+        "containment_release",
+        "resolution_transition"
+      ],
+      "description": "Typed transition family preserved by the artifact body."
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the transition occurred."
+    },
+    "related_validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional canonical reference to a related validation artifact where that relation is part of transition standing."
+    },
+    "related_witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional canonical reference to a related witness artifact where that relation is part of transition standing."
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional canonical reference to a related governance action record where that relation is part of transition standing."
+    },
+    "predecessor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional explicit predecessor reference where lineage-bearing succession is part of the transition itself."
+    },
+    "successor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional explicit successor reference where lineage-bearing succession is part of the transition itself."
+    },
+    "resolution_type": {
+      "type": "string",
+      "enum": [
+        "FINALIZE",
+        "INVALIDATE",
+        "EVOLVE"
+      ],
+      "description": "Typed resolution family member when the transition is a resolution transition."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "transition_type": {
+            "const": "resolution_transition"
+          }
+        },
+        "required": [
+          "transition_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "resolution_type"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "resolution_type"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resolution_type": {
+            "const": "EVOLVE"
+          }
+        },
+        "required": [
+          "resolution_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "predecessor_ref"
+        ]
+      }
+    }
+  ]
+}

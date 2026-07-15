@@ -1,0 +1,112 @@
+{
+  "scenario": {
+    "accepted_action_count": 1,
+    "action_results": [
+      {
+        "accepted": true,
+        "label": "create object A",
+        "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+        "record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": false,
+        "label": "attempt object B without required cohost basis",
+        "object_id": null,
+        "record_id": "tr_853e6b00761d46beab0c38c7b507139d",
+        "refusal_code": "UNRESOLVED_COHOST_RELATION_REQUIRED",
+        "state_changed": false,
+        "successor_object_id": null
+      }
+    ],
+    "description": "Shows that distinct matter strings alone do not authorize unresolved coexistence without explicit relation basis.",
+    "generated_at": "2026-04-20T19:55:16.602543Z",
+    "refused_action_count": 1,
+    "scenario_id": "refused_missing_coexistence_basis",
+    "scenario_name": "Refused Missing Coexistence Basis"
+  },
+  "snapshot": {
+    "coexistence_relations": [],
+    "holds": [],
+    "host": {
+      "host_id": "scenario-missing-cohost-basis",
+      "open_object_ids": [
+        "obj_20bc14bbb24c413abf9017b16773bd44"
+      ]
+    },
+    "metadata": {
+      "generated_at": "2026-04-20T19:55:16.602570Z",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "objects": [
+      {
+        "created_by_record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+        "matter_ref": "matter-a",
+        "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a",
+        "phase_state": "CANDIDATE",
+        "predecessor_object_id": null,
+        "resolution_type": null,
+        "resolved_by_record_id": null
+      }
+    ],
+    "transition_records": [
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T19:55:16.602517Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-missing-cohost-basis",
+        "matter_ref": "matter-a",
+        "object_id": "obj_20bc14bbb24c413abf9017b16773bd44",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_66725cc04fe54a1cbef96f35d82f050a",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": false,
+        "acted_at": "2026-04-20T19:55:16.602532Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-b",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-missing-cohost-basis",
+        "matter_ref": "matter-b",
+        "object_id": null,
+        "occurrence_ref": null,
+        "payload_ref": "payload-b",
+        "predecessor_object_id": null,
+        "record_id": "tr_853e6b00761d46beab0c38c7b507139d",
+        "refusal_code": "UNRESOLVED_COHOST_RELATION_REQUIRED",
+        "related_open_object_ids": [
+          "obj_20bc14bbb24c413abf9017b16773bd44"
+        ],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": null,
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      }
+    ]
+  }
+}

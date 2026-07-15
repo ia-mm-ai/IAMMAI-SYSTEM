@@ -1,0 +1,349 @@
+{
+  "adopted_family_references": {
+    "adopted_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+    "adopted_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+    "adopted_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+    "adopted_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json"
+  },
+  "adoption_metadata": {
+    "adoption_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption",
+    "adoption_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_GOVERNING_SUCCESSOR_ADOPTION_RESULT",
+    "adoption_result_version": "0.1.0",
+    "generated_at": "2026-04-21T11:05:10.150519Z",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_governing_successor_adoption_v2"
+  },
+  "adoption_summary": {
+    "current_authority_run_count": 1,
+    "new_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "preserved_eligible_non_authority_count": 1,
+    "preserved_ineligible_count": 0,
+    "preserved_run_count": 2,
+    "prior_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z",
+    "successor_family_adopted": true
+  },
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "checks": [
+    {
+      "actual": true,
+      "block_code": "SUCCESSOR_FAMILY_DOES_NOT_CORRESPOND_TO_CURRENT_FAMILY",
+      "check": "input_artifact_correspondence_holds",
+      "passed": true,
+      "required": "current and successor artifacts correspond"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_reresolution_result.json",
+      "block_code": "SUCCESSOR_RESULT_UNREADABLE",
+      "check": "selected_reresolution_result_exists_and_readable",
+      "passed": true,
+      "required": "readable re-resolution result"
+    },
+    {
+      "actual": "SUCCESSOR_PROJECTION_EMITTED",
+      "block_code": "SUCCESSOR_RESULT_NOT_EMITTED",
+      "check": "selected_reresolution_result_emitted_successor",
+      "passed": true,
+      "required": "SUCCESSOR_PROJECTION_EMITTED"
+    },
+    {
+      "actual": {
+        "candidate_run_count": 2,
+        "core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+        "decision": "CURRENT_EXECUTION_AUTHORITY_RESOLVED",
+        "decision_reason": "SUCCESSOR_SELECTED_BY_ACCEPTED_GOVERNING_TRANSITION_RERESOLUTION",
+        "eligible_candidate_count": 2,
+        "selected_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+        "selected_ingress_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+        "selected_source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+      },
+      "block_code": "SUCCESSOR_FAMILY_UNREADABLE",
+      "check": "successor_authority_artifact_readable_and_coherent",
+      "passed": true,
+      "required": "successor authority summary readable"
+    },
+    {
+      "actual": {
+        "authority_decision": "CURRENT_EXECUTION_AUTHORITY_RESOLVED",
+        "authority_decision_reason": "SUCCESSOR_SELECTED_BY_ACCEPTED_GOVERNING_TRANSITION_RERESOLUTION",
+        "core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+        "current_authority_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+        "current_authority_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "eligible_run_count": 2,
+        "non_claims": {
+          "continuity_completed": false,
+          "final_system_identity_completed": false,
+          "merged_into_local_state": false,
+          "minimum_lawful_system_completed": false,
+          "replayed_into_live_host": false,
+          "standing_upgraded": false
+        },
+        "preserved_run_count": 2
+      },
+      "block_code": "SUCCESSOR_FAMILY_UNREADABLE",
+      "check": "successor_family_packet_readable_and_coherent",
+      "passed": true,
+      "required": "successor family summary readable"
+    },
+    {
+      "actual": {
+        "authority_decision": "CURRENT_EXECUTION_AUTHORITY_RESOLVED",
+        "authority_decision_reason": "SUCCESSOR_SELECTED_BY_ACCEPTED_GOVERNING_TRANSITION_RERESOLUTION",
+        "core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+        "current_authority_run_count": 1,
+        "eligible_run_count": 2,
+        "non_claims": {
+          "continuity_completed": false,
+          "final_preserved_run_governance_completed": false,
+          "final_system_identity_completed": false,
+          "merged_into_local_state": false,
+          "minimum_lawful_system_completed": false,
+          "replayed_into_live_host": false,
+          "standing_upgraded": false
+        },
+        "preserved_eligible_non_authority_count": 1,
+        "preserved_ineligible_count": 0,
+        "preserved_run_count": 2,
+        "selected_current_authority_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+      },
+      "block_code": "SUCCESSOR_FAMILY_UNREADABLE",
+      "check": "successor_status_packet_readable_and_coherent",
+      "passed": true,
+      "required": "successor status summary readable"
+    },
+    {
+      "actual": {
+        "authority_decision": "CURRENT_EXECUTION_AUTHORITY_RESOLVED",
+        "authority_decision_reason": "SUCCESSOR_SELECTED_BY_ACCEPTED_GOVERNING_TRANSITION_RERESOLUTION",
+        "core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+        "current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+        "current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "governing_scope_flags": {
+          "current_authority_does_not_erase_preserved_runs": true,
+          "governing_applies_to_current_execution_line": true,
+          "governing_is_bounded": true,
+          "preserved_non_governing_runs_remain_preserved": true
+        },
+        "non_claims": {
+          "continuity_completed": false,
+          "final_governing_scope_completed": false,
+          "final_preserved_run_governance_completed": false,
+          "final_system_identity_completed": false,
+          "merged_into_local_state": false,
+          "minimum_lawful_system_completed": false,
+          "replayed_into_live_host": false,
+          "standing_upgraded": false
+        },
+        "preserved_non_governing_run_count": 1
+      },
+      "block_code": "SUCCESSOR_FAMILY_UNREADABLE",
+      "check": "successor_governing_packet_readable_and_coherent",
+      "passed": true,
+      "required": "successor governing summary readable"
+    },
+    {
+      "actual": "src/integrity_host_v0_min_coexistence_v2.py",
+      "block_code": "CANONICAL_EXECUTION_LINE_MISMATCH",
+      "check": "canonical_core_execution_file_matches",
+      "passed": true,
+      "required": "src/integrity_host_v0_min_coexistence_v2.py"
+    },
+    {
+      "actual": true,
+      "block_code": "SUCCESSOR_FAMILY_NOT_INTERNALLY_COHERENT",
+      "check": "successor_family_internally_coherent",
+      "passed": true,
+      "required": "authority, family, status, governing successor selections align"
+    },
+    {
+      "actual": "PRESERVED_ELIGIBLE_NON_AUTHORITY",
+      "block_code": "SUCCESSOR_FAMILY_DOES_NOT_PRESERVE_PRIOR_GOVERNING_AS_NON_AUTHORITY",
+      "check": "successor_preserves_prior_governing_as_non_authority",
+      "passed": true,
+      "required": "PRESERVED_ELIGIBLE_NON_AUTHORITY"
+    },
+    {
+      "actual": {
+        "current_authority_run_count": 1,
+        "new_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "prior_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+      },
+      "block_code": "SUCCESSOR_FAMILY_DOES_NOT_NAME_ONE_NEW_CURRENT_GOVERNING_RUN",
+      "check": "successor_names_one_new_current_governing_run",
+      "passed": true,
+      "required": "one current authority different from prior governing"
+    },
+    {
+      "actual": {
+        "authority_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "family_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "governing_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "status_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+      },
+      "block_code": "SUCCESSOR_FAMILY_NOT_INTERNALLY_COHERENT",
+      "check": "successor_governing_run_matches_successor_family",
+      "passed": true,
+      "required": "successor authority/family/status/governing current paths align"
+    },
+    {
+      "actual": {
+        "family_count": 2,
+        "status_count": 2
+      },
+      "block_code": "SUCCESSOR_FAMILY_NOT_INTERNALLY_COHERENT",
+      "check": "preserved_run_multiplicity_remains_visible",
+      "passed": true,
+      "required": "successor preserved-run counts align"
+    },
+    {
+      "actual": false,
+      "block_code": "REPLAY_SHORTCUT_REFUSED",
+      "check": "successor_non_claim_replay_false",
+      "passed": true,
+      "required": false
+    },
+    {
+      "actual": false,
+      "block_code": "MERGE_SHORTCUT_REFUSED",
+      "check": "successor_non_claim_merge_false",
+      "passed": true,
+      "required": false
+    },
+    {
+      "actual": false,
+      "block_code": "CONTINUITY_COMPLETION_SHORTCUT_REFUSED",
+      "check": "successor_non_claim_continuity_false",
+      "passed": true,
+      "required": false
+    },
+    {
+      "actual": false,
+      "block_code": "SILENT_STANDING_UPGRADE_REFUSED",
+      "check": "successor_non_claim_standing_false",
+      "passed": true,
+      "required": false
+    },
+    {
+      "actual": {
+        "prior_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_execution_authority/current_execution_authority_resolution_001.json",
+        "prior_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_current_governing_packets/current_governing_packet.json",
+        "prior_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_run_family_packets/current_run_family_packet_002.json",
+        "prior_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_preserved_run_status_packets/current_preserved_run_status_packet.json"
+      },
+      "block_code": "PRIOR_FAMILY_PRESERVATION_NOT_EVIDENT",
+      "check": "prior_family_remains_preserved_after_adoption",
+      "passed": true,
+      "required": "prior current artifacts remain readable and referenced"
+    },
+    {
+      "actual": {
+        "block_code": null,
+        "block_reason": null,
+        "failed_check_count": 0,
+        "new_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "non_claims": {
+          "continuity_completed": false,
+          "final_governing_reresolution_completed": false,
+          "final_governing_scope_completed": false,
+          "final_governing_transition_law_completed": false,
+          "final_preserved_run_governance_completed": false,
+          "final_system_identity_completed": false,
+          "merged_into_local_state": false,
+          "minimum_lawful_system_completed": false,
+          "replayed_into_live_host": false,
+          "standing_upgraded": false
+        },
+        "outcome": "SUCCESSOR_PROJECTION_EMITTED",
+        "passed_check_count": 22,
+        "prior_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z",
+        "reresolution_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution",
+        "selected_transition_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result",
+        "successor_artifact_paths": {
+          "successor_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+          "successor_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+          "successor_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+          "successor_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json"
+        }
+      },
+      "block_code": "MULTIPLE_SUCCESSOR_FAMILIES_CONFLICT_UNRESOLVED",
+      "check": "adoption_result_is_explicit",
+      "passed": true,
+      "required": "explicit adoption result with selected re-resolution"
+    },
+    {
+      "actual": {
+        "successor_paths_match_reresolution": true
+      },
+      "block_code": "MULTIPLE_SUCCESSOR_FAMILIES_CONFLICT_UNRESOLVED",
+      "check": "adoption_not_inferred_from_latest_ordering",
+      "passed": true,
+      "required": "selected successor artifacts named by re-resolution result"
+    },
+    {
+      "actual": {
+        "projection_new_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "successor_governing_source": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+      },
+      "block_code": "SUCCESSOR_FAMILY_DOES_NOT_CORRESPOND_TO_CURRENT_FAMILY",
+      "check": "reresolution_projection_summary_matches_successor",
+      "passed": true,
+      "required": "projection new governing path matches successor governing"
+    },
+    {
+      "actual": "CURRENT_EXECUTION_AUTHORITY",
+      "block_code": "SUCCESSOR_FAMILY_DOES_NOT_NAME_ONE_NEW_CURRENT_GOVERNING_RUN",
+      "check": "successor_current_governing_run_has_current_authority_role",
+      "passed": true,
+      "required": "CURRENT_EXECUTION_AUTHORITY"
+    },
+    {
+      "actual": {
+        "current_authority_does_not_erase_preserved_runs": true,
+        "governing_applies_to_current_execution_line": true,
+        "governing_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+        "governing_core_execution_file": "src/integrity_host_v0_min_coexistence_v2.py",
+        "governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+        "governing_is_bounded": true,
+        "governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+        "preserved_non_governing_runs_remain_preserved": true
+      },
+      "block_code": "SUCCESSOR_FAMILY_NOT_INTERNALLY_COHERENT",
+      "check": "successor_governing_scope_matches_authority_reference",
+      "passed": true,
+      "required": "governing scope paths match authority reference"
+    }
+  ],
+  "non_claims": {
+    "continuity_completed": false,
+    "final_governing_reresolution_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_successor_adoption_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_preserved_run_governance_completed": false,
+    "final_system_identity_completed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "outcome": "ADOPTED",
+  "prior_current_family": {
+    "prior_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_execution_authority/current_execution_authority_resolution_001.json",
+    "prior_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_current_governing_packets/current_governing_packet.json",
+    "prior_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_run_family_packets/current_run_family_packet_002.json",
+    "prior_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_preserved_run_status_packets/current_preserved_run_status_packet.json"
+  },
+  "selected_reresolution_result": {
+    "outcome": "SUCCESSOR_PROJECTION_EMITTED",
+    "reresolution_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution",
+    "reresolution_result_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_reresolution_result.json",
+    "selected_transition_result_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_transition_results/proposal__successor_adoption_v2_accept_001__governing_transition_result.json"
+  },
+  "selected_successor_family": {
+    "successor_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+    "successor_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+    "successor_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+    "successor_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "canonical": false,
+  "continuity_turn_ref": "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/continuity_turn.json",
+  "input_ref": "embodiment/input/matter_007.json",
+  "matter_ref": "matter_007",
+  "message": "The bounded controlled-variation cycle completed with separate validation, witness, governance, transition, state, continuity, and registry preservation.",
+  "missing_canonical_artifacts": [],
+  "produced_canonical_artifacts": [
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/validation_artifact.json",
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/witness_artifact.json",
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/governance_action.json",
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/transition_record.json",
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/state_record.json",
+    "embodiment/registry/matter_007__20260327T122231Z__a3c14d36/continuity_turn.json"
+  ],
+  "registry_ref": "embodiment/registry/matter_007__20260327T122231Z__a3c14d36",
+  "run_id": "run:matter_007:20260327T122231Z:a3c14d36",
+  "status": "success",
+  "stopped_at": "complete",
+  "summary_type": "execution_summary",
+  "validation_outcome": "pass",
+  "validation_reason_refs": [
+    "input_file_present",
+    "input_path_within_bounded_input_area",
+    "required_fields_present",
+    "matter_id_non_empty",
+    "matter_type_matches_controlled_variation_slice",
+    "content_non_empty"
+  ],
+  "written_at": "2026-03-27T12:22:31Z"
+}

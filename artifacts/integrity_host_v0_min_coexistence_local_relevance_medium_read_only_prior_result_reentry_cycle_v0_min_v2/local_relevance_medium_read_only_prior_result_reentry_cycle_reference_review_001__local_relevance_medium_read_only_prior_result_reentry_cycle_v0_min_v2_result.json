@@ -1,0 +1,3417 @@
+{
+  "additional_basis_required": [],
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "declared_local_relevance_medium_read_only_prior_result_reentry_cycle_intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+  "declared_local_relevance_medium_read_only_prior_result_reentry_cycle_question": "May one local relevance medium read-only prior-result re-entry cycle be recorded for selected command state from bounded selected-state bases?",
+  "local_relevance_medium_read_only_prior_result_reentry_cycle": {
+    "adoption_created": false,
+    "arbitrary_lookup_permission_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_prior_result_reentry_cycle_authority": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "authorization_token_reused": false,
+    "basis_operation_execution_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_operation_execution_v0_min/local_relevance_medium_read_only_operation_execution_reference_review_001__local_relevance_medium_read_only_operation_execution_v0_min_result.json",
+    "basis_operation_execution_failed_check_count": 0,
+    "basis_operation_execution_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_OPERATION_EXECUTION_RECORDED",
+    "basis_operation_execution_result_version": "0.1.0",
+    "basis_prior_result_reentry_boundary_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min/local_relevance_medium_read_only_prior_result_reentry_boundary_reference_review_001__local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min_result.json",
+    "basis_prior_result_reentry_boundary_failed_check_count": 0,
+    "basis_prior_result_reentry_boundary_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_BOUNDARY_RECORDED",
+    "basis_prior_result_reentry_boundary_result_version": "0.1.0",
+    "basis_runtime_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_v0_min_v3/local_relevance_medium_read_only_runtime_reference_review_001__local_relevance_medium_read_only_runtime_v0_min_v3_result.json",
+    "basis_runtime_boundary_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_boundary_v0_min_v2/local_relevance_medium_read_only_runtime_boundary_reference_review_001__local_relevance_medium_read_only_runtime_boundary_v0_min_v2_result.json",
+    "basis_runtime_boundary_failed_check_count": 0,
+    "basis_runtime_boundary_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_BOUNDARY_RECORDED",
+    "basis_runtime_boundary_result_version": "0.1.0",
+    "basis_runtime_failed_check_count": 0,
+    "basis_runtime_held_reentry_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_v0_min/local_relevance_medium_read_only_runtime_held_reentry_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_v0_min_result.json",
+    "basis_runtime_held_reentry_boundary_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min/local_relevance_medium_read_only_runtime_held_reentry_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min_result.json",
+    "basis_runtime_held_reentry_boundary_failed_check_count": 0,
+    "basis_runtime_held_reentry_boundary_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_BOUNDARY_RECORDED",
+    "basis_runtime_held_reentry_boundary_result_version": "0.1.0",
+    "basis_runtime_held_reentry_failed_check_count": 0,
+    "basis_runtime_held_reentry_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_RECORDED",
+    "basis_runtime_held_reentry_result_version": "0.1.0",
+    "basis_runtime_held_state_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_v0_min/local_relevance_medium_read_only_runtime_held_state_reference_review_001__local_relevance_medium_read_only_runtime_held_state_v0_min_result.json",
+    "basis_runtime_held_state_boundary_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_boundary_v0_min/local_relevance_medium_read_only_runtime_held_state_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_state_boundary_v0_min_result.json",
+    "basis_runtime_held_state_boundary_failed_check_count": 0,
+    "basis_runtime_held_state_boundary_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_BOUNDARY_RECORDED",
+    "basis_runtime_held_state_boundary_result_version": "0.1.0",
+    "basis_runtime_held_state_failed_check_count": 0,
+    "basis_runtime_held_state_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_RECORDED",
+    "basis_runtime_held_state_result_version": "0.1.0",
+    "basis_runtime_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_RECORDED",
+    "basis_runtime_permission_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_permission_v0_min/local_relevance_medium_read_only_runtime_permission_reference_review_001__local_relevance_medium_read_only_runtime_permission_v0_min_result.json",
+    "basis_runtime_permission_failed_check_count": 0,
+    "basis_runtime_permission_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_PERMISSION_RECORDED",
+    "basis_runtime_permission_result_version": "0.1.0",
+    "basis_runtime_result_version": "0.1.0",
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "continuation_created": false,
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "cycle_basis_reference_only": true,
+    "cycle_id": "local_relevance_medium_read_only_prior_result_reentry_cycle_001",
+    "cycle_scope": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+    "cycle_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+    "cycle_version": "0.1.0",
+    "daemon_behavior_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "follow_on_work_authorized": false,
+    "future_prior_result_reentry_cycle_may_be_considered": true,
+    "future_runtime_held_reentry_may_be_considered": true,
+    "future_runtime_held_state_may_be_considered": true,
+    "future_runtime_may_be_considered": true,
+    "general_lookup_permission_created": false,
+    "general_operation_permission_created": false,
+    "held_reentry_basis_reference_only": true,
+    "held_state_basis_reference_only": true,
+    "hidden_repo_state_used_as_prior_result_reentry_cycle_authority": false,
+    "hidden_repo_state_used_as_prior_result_reentry_cycle_content": false,
+    "latest_file_posture_treated_as_prior_result_reentry_cycle_authority": false,
+    "local_relevance_medium_read_only_prior_result_reentry_cycle_recorded": true,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "older_runtime_lineage_imported_as_authority": false,
+    "older_runtime_permission_treated_as_current": false,
+    "operation_execution_created": true,
+    "operation_execution_local_only": true,
+    "operation_execution_performed": true,
+    "operation_execution_read_only": true,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "prior_result_boundary_v1_failure_claimed_passed": false,
+    "prior_result_boundary_v1_failure_evidence_preserved": true,
+    "prior_result_boundary_v1_failure_hidden": false,
+    "prior_result_boundary_v1_failure_repaired": false,
+    "prior_result_boundary_v2_successor_evidence_preserved": true,
+    "prior_result_cycle_v1_failure_claimed_passed": false,
+    "prior_result_cycle_v1_failure_hidden": false,
+    "prior_result_cycle_v1_failure_repaired": false,
+    "prior_result_reentry_cycle_created": true,
+    "prior_result_reentry_cycle_local_only": true,
+    "prior_result_reentry_cycle_read_only": true,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "raw_state_body_embedded": false,
+    "receiving_context_governance_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_prior_result_reentry_cycle_authority": false,
+    "runtime_authority_imported": false,
+    "runtime_boundary_v0_failure_claimed_passed": false,
+    "runtime_boundary_v0_failure_evidence_preserved": true,
+    "runtime_boundary_v0_failure_hidden": false,
+    "runtime_boundary_v0_failure_repaired": false,
+    "runtime_created": true,
+    "runtime_held_reentry_created": true,
+    "runtime_held_reentry_local_only": true,
+    "runtime_held_reentry_read_only": true,
+    "runtime_held_state_created": true,
+    "runtime_held_state_local_only": true,
+    "runtime_held_state_read_only": true,
+    "runtime_hosting_created": false,
+    "runtime_local_only": true,
+    "runtime_loop_created": false,
+    "runtime_permission_created": true,
+    "runtime_permission_local_only": true,
+    "runtime_permission_read_only": true,
+    "runtime_read_only": true,
+    "runtime_v0_failure_claimed_passed": false,
+    "runtime_v0_failure_evidence_preserved": true,
+    "runtime_v0_failure_hidden": false,
+    "runtime_v0_failure_repaired": false,
+    "runtime_v2_failure_claimed_passed": false,
+    "runtime_v2_failure_evidence_preserved": true,
+    "runtime_v2_failure_hidden": false,
+    "runtime_v2_failure_repaired": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "second_operation_created": false,
+    "selected_command": "state",
+    "selected_command_is_state": true,
+    "selected_operation_execution_recorded": true,
+    "selected_prior_result_reentry_boundary_recorded": true,
+    "selected_runtime_boundary_recorded": true,
+    "selected_runtime_held_reentry_boundary_recorded": true,
+    "selected_runtime_held_reentry_recorded": true,
+    "selected_runtime_held_state_boundary_recorded": true,
+    "selected_runtime_held_state_recorded": true,
+    "selected_runtime_permission_recorded": true,
+    "selected_runtime_recorded": true,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "state_mutation_performed": false,
+    "state_update_performed": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "unsupported_commands_permitted": false,
+    "unsupported_lookup_keys_permitted": false,
+    "validity_judgment_created": false,
+    "vessel_relation_authorized": false
+  },
+  "local_relevance_medium_read_only_prior_result_reentry_cycle_checks": [
+    {
+      "actual_posture": "May one local relevance medium read-only prior-result re-entry cycle be recorded for selected command state from bounded selected-state bases?",
+      "check_name": "prior-result re-entry cycle question declared",
+      "expected_posture": "non-empty question",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "check_name": "prior-result re-entry cycle intent supported",
+      "expected_posture": "('RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE', 'DO_NOT_RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE', 'BLOCK_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE')",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "state",
+      "check_name": "selected command declared",
+      "expected_posture": "state",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "state",
+      "check_name": "selected command exactly state",
+      "expected_posture": "state",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "check_name": "cycle type declared",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "check_name": "cycle type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+      "check_name": "cycle scope declared",
+      "expected_posture": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+      "check_name": "cycle scope exact",
+      "expected_posture": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request consumed_request_reopened false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request authorization_token_reused false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request older_runtime_lineage_imported_as_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request older_runtime_permission_treated_as_current false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_authority_imported false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request raw_state_body_embedded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request state_mutation_performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request state_update_performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request second_operation_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request continuation_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v0_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v0_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v0_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v2_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v2_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_v2_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_boundary_v0_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_boundary_v0_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request runtime_boundary_v0_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_boundary_v1_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_boundary_v1_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_boundary_v1_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_cycle_v1_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_cycle_v1_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request prior_result_cycle_v1_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim second_operation_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim continuation_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_hosting_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_loop_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim daemon_behavior_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim public_api_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim participant_facing_interface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim distributed_network_behavior_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim general_operation_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim general_lookup_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim arbitrary_lookup_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim unsupported_commands_permitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim unsupported_lookup_keys_permitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim new_lookup_entry_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim new_signal_accepted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim new_entry_accepted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim new_relevance_object_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim new_index_entry_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim filesystem_discovery_performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim registry_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim search_surface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim query_surface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim ranking_surface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim scoring_surface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim priority_surface_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim validity_judgment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim truth_judgment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim authority_judgment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim currentness_judgment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim older_runtime_lineage_imported_as_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim older_runtime_permission_treated_as_current false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_authority_imported false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim repeated_reception_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim arbitrary_reception_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim feed_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim source_transfer_occurred false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim source_receipt_occurred false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim source_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim authority_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim currentness_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim truth_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim synchronization_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim participation_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim participant_role_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim deployment_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim public_release_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim broader_reusable_permission_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim derivative_reception_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim vessel_relation_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim adoption_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim receiving_context_governance_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim publication_flow_created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim follow_on_work_authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim artifact_existence_treated_as_prior_result_reentry_cycle_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim latest_file_posture_treated_as_prior_result_reentry_cycle_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim repo_local_availability_treated_as_prior_result_reentry_cycle_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim hidden_repo_state_used_as_prior_result_reentry_cycle_content false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim hidden_repo_state_used_as_prior_result_reentry_cycle_authority false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_artifacts_mutated false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim predecessor_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim predecessor_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim predecessor_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_cycle_v1_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_cycle_v1_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_cycle_v1_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v0_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v0_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v0_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v2_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v2_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_v2_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_boundary_v0_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_boundary_v0_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim runtime_boundary_v0_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_boundary_v1_failure_repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_boundary_v1_failure_hidden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim prior_result_boundary_v1_failure_claimed_passed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim raw_state_body_embedded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim state_mutation_performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim state_update_performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim consumed_request_reopened false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "declared non-claim authorization_token_reused false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min/local_relevance_medium_read_only_prior_result_reentry_boundary_reference_review_001__local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min_result.json",
+      "check_name": "prior_result_reentry_boundary artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "prior_result_reentry_boundary artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "prior_result_reentry_boundary artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_BOUNDARY_RECORDED",
+      "check_name": "prior_result_reentry_boundary artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "prior_result_reentry_boundary artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "prior_result_reentry_boundary artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_v0_min/local_relevance_medium_read_only_runtime_held_reentry_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_v0_min_result.json",
+      "check_name": "runtime_held_reentry artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_RECORDED",
+      "check_name": "runtime_held_reentry artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_held_reentry artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_held_reentry artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min/local_relevance_medium_read_only_runtime_held_reentry_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min_result.json",
+      "check_name": "runtime_held_reentry_boundary artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry_boundary artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry_boundary artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_BOUNDARY_RECORDED",
+      "check_name": "runtime_held_reentry_boundary artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_held_reentry_boundary artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_held_reentry_boundary artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_v0_min/local_relevance_medium_read_only_runtime_held_state_reference_review_001__local_relevance_medium_read_only_runtime_held_state_v0_min_result.json",
+      "check_name": "runtime_held_state artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_RECORDED",
+      "check_name": "runtime_held_state artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_held_state artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_held_state artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_boundary_v0_min/local_relevance_medium_read_only_runtime_held_state_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_state_boundary_v0_min_result.json",
+      "check_name": "runtime_held_state_boundary artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state_boundary artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state_boundary artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_BOUNDARY_RECORDED",
+      "check_name": "runtime_held_state_boundary artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_held_state_boundary artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_held_state_boundary artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_v0_min_v3/local_relevance_medium_read_only_runtime_reference_review_001__local_relevance_medium_read_only_runtime_v0_min_v3_result.json",
+      "check_name": "runtime artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_RECORDED",
+      "check_name": "runtime artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_boundary_v0_min_v2/local_relevance_medium_read_only_runtime_boundary_reference_review_001__local_relevance_medium_read_only_runtime_boundary_v0_min_v2_result.json",
+      "check_name": "runtime_boundary artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_boundary artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_boundary artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_BOUNDARY_RECORDED",
+      "check_name": "runtime_boundary artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_boundary artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_boundary artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_permission_v0_min/local_relevance_medium_read_only_runtime_permission_reference_review_001__local_relevance_medium_read_only_runtime_permission_v0_min_result.json",
+      "check_name": "runtime_permission artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_permission artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_permission artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_PERMISSION_RECORDED",
+      "check_name": "runtime_permission artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_PERMISSION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "runtime_permission artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "runtime_permission artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_operation_execution_v0_min/local_relevance_medium_read_only_operation_execution_reference_review_001__local_relevance_medium_read_only_operation_execution_v0_min_result.json",
+      "check_name": "operation_execution artifact path declared",
+      "expected_posture": "declared path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution artifact readable",
+      "expected_posture": "readable JSON file",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution artifact JSON object",
+      "expected_posture": "JSON object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_OPERATION_EXECUTION_RECORDED",
+      "check_name": "operation_execution artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_OPERATION_EXECUTION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "operation_execution artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "operation_execution artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_prior_result_reentry_boundary_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "future_prior_result_reentry_cycle_may_be_considered true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_held_reentry_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry_created true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry_local_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_reentry_read_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "held_reentry_basis_reference_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_held_reentry_boundary_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "future_runtime_held_reentry_may_be_considered true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_held_state_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state_created true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state_local_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_held_state_read_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "held_state_basis_reference_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_held_state_boundary_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "future_runtime_held_state_may_be_considered true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_created true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_local_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_read_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_boundary_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "future_runtime_may_be_considered true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_runtime_permission_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_permission_created true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_permission_local_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "runtime_permission_read_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected_operation_execution_recorded true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution_created true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution_performed true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution_local_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "operation_execution_read_only true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture second_operation_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture continuation_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_hosting_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_loop_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture daemon_behavior_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture public_api_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture participant_facing_interface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture distributed_network_behavior_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture general_operation_permission_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture general_lookup_permission_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture arbitrary_lookup_permission_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture unsupported_commands_permitted",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture unsupported_lookup_keys_permitted",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture new_lookup_entry_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture new_signal_accepted",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture new_entry_accepted",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture new_relevance_object_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture new_index_entry_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture filesystem_discovery_performed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture registry_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture search_surface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture query_surface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture ranking_surface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture scoring_surface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture priority_surface_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture validity_judgment_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture truth_judgment_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture authority_judgment_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture currentness_judgment_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture older_runtime_lineage_imported_as_authority",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture older_runtime_permission_treated_as_current",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_authority_imported",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture repeated_reception_permission_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture arbitrary_reception_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture feed_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture source_transfer_occurred",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture source_receipt_occurred",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture source_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture authority_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture currentness_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture truth_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture synchronization_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture participation_authorized",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture participant_role_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture deployment_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture public_release_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture broader_reusable_permission_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture derivative_reception_authorized",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture vessel_relation_authorized",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture adoption_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture receiving_context_governance_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture publication_flow_created",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture follow_on_work_authorized",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture artifact_existence_treated_as_prior_result_reentry_cycle_authority",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture latest_file_posture_treated_as_prior_result_reentry_cycle_authority",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture repo_local_availability_treated_as_prior_result_reentry_cycle_authority",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture hidden_repo_state_used_as_prior_result_reentry_cycle_content",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture hidden_repo_state_used_as_prior_result_reentry_cycle_authority",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_artifacts_mutated",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture predecessor_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture predecessor_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture predecessor_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_cycle_v1_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_cycle_v1_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_cycle_v1_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v0_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v0_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v0_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v2_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v2_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_v2_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_boundary_v0_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_boundary_v0_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture runtime_boundary_v0_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_boundary_v1_failure_repaired",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_boundary_v1_failure_hidden",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture prior_result_boundary_v1_failure_claimed_passed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture raw_state_body_embedded",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture state_mutation_performed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture state_update_performed",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture consumed_request_reopened",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_execution": true,
+        "prior_result_reentry_boundary": true,
+        "runtime": true,
+        "runtime_boundary": true,
+        "runtime_held_reentry": true,
+        "runtime_held_reentry_boundary": true,
+        "runtime_held_state": true,
+        "runtime_held_state_boundary": true,
+        "runtime_permission": true
+      },
+      "check_name": "basis exact false posture authorization_token_reused",
+      "expected_posture": "selected-object exact false or top-level non_claim false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "local relevance medium read-only prior-result re-entry cycle recorded",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "prior-result re-entry cycle created",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "prior-result re-entry cycle local only",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "prior-result re-entry cycle read only",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "cycle basis reference only",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "all required non-claims false",
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all required non-claims false",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "local_relevance_medium_read_only_prior_result_reentry_cycle_metadata": {
+    "generated_at": "2026-05-22T20:09:02.669971Z",
+    "local_relevance_medium_read_only_prior_result_reentry_cycle_id": "local_relevance_medium_read_only_prior_result_reentry_cycle_001",
+    "local_relevance_medium_read_only_prior_result_reentry_cycle_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+    "local_relevance_medium_read_only_prior_result_reentry_cycle_version": "0.1.0",
+    "prior_result_cycle_v1_failure_claimed_passed": false,
+    "prior_result_cycle_v1_failure_evidence_preserved": true,
+    "prior_result_cycle_v1_failure_hidden": false,
+    "prior_result_cycle_v1_failure_repaired": false,
+    "resolver_module": "resolve_local_relevance_medium_read_only_prior_result_reentry_cycle_v0_min_v2",
+    "v2_live_basis_extraction_mismatch_correction_applied": true
+  },
+  "local_relevance_medium_read_only_prior_result_reentry_cycle_non_meaning": {
+    "not_arbitrary_lookup_permission": true,
+    "not_authority": true,
+    "not_continuation": true,
+    "not_currentness": true,
+    "not_daemon": true,
+    "not_distributed_network_behavior": true,
+    "not_feed": true,
+    "not_follow_on_work": true,
+    "not_general_lookup_permission": true,
+    "not_general_operation_permission": true,
+    "not_participant_facing_interface": true,
+    "not_priority": true,
+    "not_public_api": true,
+    "not_query_surface": true,
+    "not_ranking": true,
+    "not_registry": true,
+    "not_runtime_hosting": true,
+    "not_runtime_loop": true,
+    "not_scoring": true,
+    "not_search": true,
+    "not_second_operation": true,
+    "not_terminal_summary": true,
+    "not_truth_judgment": true,
+    "not_validity_judgment": true,
+    "v1_live_basis_extraction_mismatch_not_repaired_or_claimed_passed": true
+  },
+  "local_relevance_medium_read_only_prior_result_reentry_cycle_statement": {
+    "authorization_token_reuse_blocked": true,
+    "basis_operation_execution_artifact_preserved": true,
+    "basis_prior_result_reentry_boundary_artifact_preserved": true,
+    "basis_runtime_artifact_preserved": true,
+    "basis_runtime_boundary_artifact_preserved": true,
+    "basis_runtime_held_reentry_artifact_preserved": true,
+    "basis_runtime_held_reentry_boundary_artifact_preserved": true,
+    "basis_runtime_held_state_artifact_preserved": true,
+    "basis_runtime_held_state_boundary_artifact_preserved": true,
+    "basis_runtime_permission_artifact_preserved": true,
+    "consumed_request_token_remains_closed": true,
+    "continuation_created": false,
+    "cycle_basis_reference_only": true,
+    "future_prior_result_reentry_cycle_may_be_considered": true,
+    "future_runtime_held_reentry_may_be_considered": true,
+    "future_runtime_held_state_may_be_considered": true,
+    "future_runtime_may_be_considered": true,
+    "held_reentry_basis_reference_only": true,
+    "held_state_basis_reference_only": true,
+    "local_relevance_medium_read_only_prior_result_reentry_cycle_recorded": true,
+    "operation_execution_created": true,
+    "operation_execution_local_only": true,
+    "operation_execution_performed": true,
+    "operation_execution_read_only": true,
+    "predecessor_failure_evidence_preserved": true,
+    "prior_result_boundary_v1_failure_evidence_preserved": true,
+    "prior_result_boundary_v2_successor_evidence_preserved": true,
+    "prior_result_cycle_v1_failure_evidence_preserved": true,
+    "prior_result_reentry_cycle_created": true,
+    "prior_result_reentry_cycle_local_only": true,
+    "prior_result_reentry_cycle_read_only": true,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_boundary_v0_failure_evidence_preserved": true,
+    "runtime_created": true,
+    "runtime_held_reentry_created": true,
+    "runtime_held_reentry_local_only": true,
+    "runtime_held_reentry_read_only": true,
+    "runtime_held_state_created": true,
+    "runtime_held_state_local_only": true,
+    "runtime_held_state_read_only": true,
+    "runtime_local_only": true,
+    "runtime_permission_created": true,
+    "runtime_permission_local_only": true,
+    "runtime_permission_read_only": true,
+    "runtime_read_only": true,
+    "runtime_v0_failure_evidence_preserved": true,
+    "runtime_v2_failure_evidence_preserved": true,
+    "second_operation_created": false,
+    "selected_command_is_state": true,
+    "selected_command_preserved": true,
+    "selected_operation_execution_recorded": true,
+    "selected_prior_result_reentry_boundary_recorded": true,
+    "selected_runtime_boundary_recorded": true,
+    "selected_runtime_held_reentry_boundary_recorded": true,
+    "selected_runtime_held_reentry_recorded": true,
+    "selected_runtime_held_state_boundary_recorded": true,
+    "selected_runtime_held_state_recorded": true,
+    "selected_runtime_permission_recorded": true,
+    "selected_runtime_recorded": true
+  },
+  "local_relevance_medium_read_only_prior_result_reentry_cycle_summary": {
+    "authorization_token_reuse_blocked": true,
+    "basis_operation_execution_artifact_preserved": true,
+    "basis_prior_result_reentry_boundary_artifact_preserved": true,
+    "basis_runtime_artifact_preserved": true,
+    "basis_runtime_boundary_artifact_preserved": true,
+    "basis_runtime_held_reentry_artifact_preserved": true,
+    "basis_runtime_held_reentry_boundary_artifact_preserved": true,
+    "basis_runtime_held_state_artifact_preserved": true,
+    "basis_runtime_held_state_boundary_artifact_preserved": true,
+    "basis_runtime_permission_artifact_preserved": true,
+    "block_code": null,
+    "block_reason": null,
+    "consumed_request_token_remains_closed": true,
+    "continuation_not_created": true,
+    "cycle_basis_reference_only": true,
+    "cycle_id": "local_relevance_medium_read_only_prior_result_reentry_cycle_001",
+    "cycle_object_summary": {
+      "cycle_scope": "SELECTED_PRIOR_RESULT_REENTRY_CYCLE_ONLY",
+      "cycle_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+      "cycle_version": "0.1.0"
+    },
+    "cycle_recorded": true,
+    "daemon_behavior_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "failure_not_repaired_hidden_or_claimed_passed": true,
+    "future_prior_result_reentry_cycle_may_be_considered": true,
+    "held_reentry_basis_reference_only": true,
+    "held_state_basis_reference_only": true,
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE",
+    "older_runtime_lineage_not_imported_as_authority": true,
+    "older_runtime_permission_not_treated_as_current": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "passed_check_count": 288,
+    "predecessor_failure_evidence_preserved": true,
+    "prior_result_boundary_v1_failure_evidence_preserved": true,
+    "prior_result_boundary_v2_successor_evidence_preserved": true,
+    "prior_result_cycle_v1_failure_evidence_preserved": true,
+    "prior_result_reentry_cycle_created": true,
+    "prior_result_reentry_cycle_local_only": true,
+    "prior_result_reentry_cycle_read_only": true,
+    "public_api_not_created": true,
+    "question": "May one local relevance medium read-only prior-result re-entry cycle be recorded for selected command state from bounded selected-state bases?",
+    "raw_state_body_embedded": false,
+    "resolver_module": "resolve_local_relevance_medium_read_only_prior_result_reentry_cycle_v0_min_v2",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_authority_not_imported": true,
+    "runtime_boundary_v0_failure_evidence_preserved": true,
+    "runtime_held_reentry_created": true,
+    "runtime_held_reentry_local_only": true,
+    "runtime_held_reentry_read_only": true,
+    "runtime_held_state_created": true,
+    "runtime_held_state_local_only": true,
+    "runtime_held_state_read_only": true,
+    "runtime_hosting_not_created": true,
+    "runtime_loop_not_created": true,
+    "runtime_v0_failure_evidence_preserved": true,
+    "runtime_v2_failure_evidence_preserved": true,
+    "second_operation_not_created": true,
+    "selected_command": "state",
+    "selected_command_is_state": true,
+    "selected_command_preserved": true,
+    "selected_operation_execution_recorded": true,
+    "selected_prior_result_reentry_boundary_recorded": true,
+    "selected_runtime_boundary_recorded": true,
+    "selected_runtime_held_reentry_boundary_recorded": true,
+    "selected_runtime_held_reentry_recorded": true,
+    "selected_runtime_held_state_recorded": true,
+    "selected_runtime_permission_recorded": true,
+    "selected_runtime_recorded": true,
+    "state_mutation_performed": false,
+    "state_update_performed": false
+  },
+  "non_claims": {
+    "adoption_created": false,
+    "arbitrary_lookup_permission_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_prior_result_reentry_cycle_authority": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "authorization_token_reused": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "continuation_created": false,
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "daemon_behavior_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "follow_on_work_authorized": false,
+    "general_lookup_permission_created": false,
+    "general_operation_permission_created": false,
+    "hidden_repo_state_used_as_prior_result_reentry_cycle_authority": false,
+    "hidden_repo_state_used_as_prior_result_reentry_cycle_content": false,
+    "latest_file_posture_treated_as_prior_result_reentry_cycle_authority": false,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "older_runtime_lineage_imported_as_authority": false,
+    "older_runtime_permission_treated_as_current": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "prior_result_boundary_v1_failure_claimed_passed": false,
+    "prior_result_boundary_v1_failure_hidden": false,
+    "prior_result_boundary_v1_failure_repaired": false,
+    "prior_result_cycle_v1_failure_claimed_passed": false,
+    "prior_result_cycle_v1_failure_hidden": false,
+    "prior_result_cycle_v1_failure_repaired": false,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "raw_state_body_embedded": false,
+    "receiving_context_governance_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_prior_result_reentry_cycle_authority": false,
+    "runtime_authority_imported": false,
+    "runtime_boundary_v0_failure_claimed_passed": false,
+    "runtime_boundary_v0_failure_hidden": false,
+    "runtime_boundary_v0_failure_repaired": false,
+    "runtime_hosting_created": false,
+    "runtime_loop_created": false,
+    "runtime_v0_failure_claimed_passed": false,
+    "runtime_v0_failure_hidden": false,
+    "runtime_v0_failure_repaired": false,
+    "runtime_v2_failure_claimed_passed": false,
+    "runtime_v2_failure_hidden": false,
+    "runtime_v2_failure_repaired": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "second_operation_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "state_mutation_performed": false,
+    "state_update_performed": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "unsupported_commands_permitted": false,
+    "unsupported_lookup_keys_permitted": false,
+    "validity_judgment_created": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_CYCLE_RECORDED",
+  "selected_operation_execution_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_operation_execution_v0_min/local_relevance_medium_read_only_operation_execution_reference_review_001__local_relevance_medium_read_only_operation_execution_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_OPERATION_EXECUTION_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_OPERATION_EXECUTION_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_operation_execution",
+    "selected_object_present": true
+  },
+  "selected_prior_result_reentry_boundary_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min/local_relevance_medium_read_only_prior_result_reentry_boundary_reference_review_001__local_relevance_medium_read_only_prior_result_reentry_boundary_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_BOUNDARY_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_PRIOR_RESULT_REENTRY_BOUNDARY_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_prior_result_reentry_boundary",
+    "selected_object_present": true
+  },
+  "selected_runtime_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_v0_min_v3/local_relevance_medium_read_only_runtime_reference_review_001__local_relevance_medium_read_only_runtime_v0_min_v3_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime",
+    "selected_object_present": true
+  },
+  "selected_runtime_boundary_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_boundary_v0_min_v2/local_relevance_medium_read_only_runtime_boundary_reference_review_001__local_relevance_medium_read_only_runtime_boundary_v0_min_v2_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_BOUNDARY_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_BOUNDARY_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_boundary",
+    "selected_object_present": true
+  },
+  "selected_runtime_held_reentry_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_v0_min/local_relevance_medium_read_only_runtime_held_reentry_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_held_reentry",
+    "selected_object_present": true
+  },
+  "selected_runtime_held_reentry_boundary_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min/local_relevance_medium_read_only_runtime_held_reentry_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_reentry_boundary_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_BOUNDARY_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_REENTRY_BOUNDARY_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_held_reentry_boundary",
+    "selected_object_present": true
+  },
+  "selected_runtime_held_state_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_v0_min/local_relevance_medium_read_only_runtime_held_state_reference_review_001__local_relevance_medium_read_only_runtime_held_state_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_held_state",
+    "selected_object_present": true
+  },
+  "selected_runtime_held_state_boundary_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_held_state_boundary_v0_min/local_relevance_medium_read_only_runtime_held_state_boundary_reference_review_001__local_relevance_medium_read_only_runtime_held_state_boundary_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_BOUNDARY_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_HELD_STATE_BOUNDARY_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_held_state_boundary",
+    "selected_object_present": true
+  },
+  "selected_runtime_permission_artifact_basis": {
+    "artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_runtime_permission_v0_min/local_relevance_medium_read_only_runtime_permission_reference_review_001__local_relevance_medium_read_only_runtime_permission_v0_min_result.json",
+    "expected_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_PERMISSION_RECORDED",
+    "failed_check_count": 0,
+    "failed_check_count_matches": true,
+    "json_object": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_RUNTIME_PERMISSION_RECORDED",
+    "outcome_matches": true,
+    "path_declared": true,
+    "readable": true,
+    "result_version": "0.1.0",
+    "result_version_matches": true,
+    "selected_object_key": "local_relevance_medium_read_only_runtime_permission",
+    "selected_object_present": true
+  },
+  "what_remains_open": [
+    "terminal summary, if separately admitted",
+    "future local read-only cycle consideration, if separately admitted"
+  ]
+}

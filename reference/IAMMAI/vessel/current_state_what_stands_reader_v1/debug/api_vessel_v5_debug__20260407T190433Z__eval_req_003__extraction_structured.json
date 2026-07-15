@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-04-07T19:04:33.972067Z",
+  "builder_path": "vessel/current_state_what_stands_reader_v1/api_vessel_v5.py",
+  "request_id": "eval_req_003",
+  "stage": "structured",
+  "reason": "Responses API returned structured content, but no bounded internal draft was extractable.",
+  "response_summary": {
+    "response_id": "resp_094955c203fc30a60169d555280fb881969a2d20a606e150fe",
+    "model": "gpt-5-2025-08-07",
+    "has_output_text": false,
+    "has_output_parsed": false,
+    "has_parsed": false,
+    "output_count": 1,
+    "output_items": [
+      {
+        "type": "reasoning",
+        "status": null,
+        "has_output_parsed": false,
+        "has_parsed": false,
+        "content_types": []
+      }
+    ],
+    "top_level_keys": [
+      "background",
+      "billing",
+      "completed_at",
+      "conversation",
+      "created_at",
+      "error",
+      "frequency_penalty",
+      "id",
+      "incomplete_details",
+      "instructions",
+      "max_output_tokens",
+      "max_tool_calls",
+      "metadata",
+      "model",
+      "object",
+      "output",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "previous_response_id",
+      "prompt"
+    ]
+  },
+  "attempted_paths": [
+    "response.output_text",
+    "response.output[0]",
+    "dump.output",
+    "dump.output[0]",
+    "dump.output[0].content",
+    "dump.output[0].id",
+    "dump.output[0].summary",
+    "dump.output[0].type",
+    "dump.output[0].encrypted_content",
+    "dump.output[0].status"
+  ],
+  "parse_error": null,
+  "bounded_note": "This debug artifact is implementation-local extraction/finalization visibility only. It is not protocol law, standing, or authority."
+}

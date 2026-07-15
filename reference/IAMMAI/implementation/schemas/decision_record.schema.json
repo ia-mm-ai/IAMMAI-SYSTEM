@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI First-Pass Decision Record",
+  "description": "First-pass schema for one decision record. This object is an explicit, state-adjacent, non-sovereign decision envelope in the implementation schema layer. It preserves one bounded determination for one matter without collapsing into governance action, currentness, bridge carry, generic review prose, or ambient state atmosphere.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "decision_record_id",
+    "recorded_at",
+    "matter_ref",
+    "decision_posture"
+  ],
+  "properties": {
+    "decision_record_id": {
+      "type": "string",
+      "description": "Bounded identifier for this one decision record object. It makes the preserved determination referable without implying a final global identity system, runtime admission, or autonomous decision subsystem.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "recorded_at": {
+      "type": "string",
+      "description": "Recorded-at value for when this bounded decision was explicitly housed as a record. This remains a conservative non-empty string rather than a frozen final timestamp model.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": ".*\\S.*"
+    },
+    "matter_ref": {
+      "type": "string",
+      "description": "Bounded reference to the matter whose determination is being preserved. This keeps decision tied to scoped matter rather than free-floating labels or atmosphere.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "decision_posture": {
+      "type": "string",
+      "description": "Required bounded field preserving what was decided for the named matter. The vocabulary remains intentionally open and first-pass rather than frozen into a final decision ontology.",
+      "minLength": 1,
+      "maxLength": 256,
+      "pattern": ".*\\S.*"
+    },
+    "basis_refs": {
+      "type": "array",
+      "description": "Optional bounded references supporting the preserved decision posture. If present, this keeps decision from living only in atmosphere without turning the record into a full dossier or currentness object.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "artifact_ref": {
+      "type": "string",
+      "description": "Optional bounded reference to a visible decision-bearing surface or related artifact where that relation is relevant. This does not turn the decision record into bridge carry or generic artifact ownership.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "description": "Optional bounded reference to a related governance action where such relation is relevant. This preserves distinction from governance by keeping governance relation explicit rather than absorbed.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    }
+  }
+}

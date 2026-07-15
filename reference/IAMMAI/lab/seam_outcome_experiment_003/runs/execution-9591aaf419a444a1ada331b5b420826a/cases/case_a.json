@@ -1,0 +1,28 @@
+{
+  "case_id": "case_a",
+  "title": "Lawful refusal with preserved lineage",
+  "expected_outcome_type": "refusal",
+  "channel_condition": "specific_unlawful_demand",
+  "self_carried_coherence_threshold_met": true,
+  "lawful_refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "coercive_context_status": "preserved",
+  "channel_admissible": true,
+  "upstream_governance_constrained_agency": true,
+  "specific_term_unlawful": true,
+  "non_passage_marker_available": true,
+  "buffer_required": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_participation_would_be_containment": false,
+  "subsidized_distortion_risk": false,
+  "full_exit_required": false,
+  "downstream_is_last_visible_node": true,
+  "apparent_normal_compliance_risk": false,
+  "upstream_constraints": [
+    "specific_term_is_unlawful",
+    "coercive_context_is_visible"
+  ],
+  "notes": [
+    "Refusal is available and lineage is preserved, so the downstream node can act without being treated as sovereign over the whole situation."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "case_id": "case_b",
+  "case_title": "Denied refusal with lineage preserved",
+  "expected_outcome_type": "hold",
+  "outcome_type": "hold",
+  "expected_outcome_matched": true,
+  "channel_condition": "contaminated_constrained_agency",
+  "self_carried_coherence_threshold_met": true,
+  "refusal_status": "punished",
+  "lineage_visibility_status": "visible",
+  "coercive_context_status": "preserved",
+  "receipt_status": "held",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "subsidized_distortion_risk": true,
+  "downstream_sovereignty_status": "false_if_claimed",
+  "upstream_responsibility_class": "heavy",
+  "downstream_responsibility_scope": "severely_limited",
+  "scapegoating_status": "mitigated",
+  "upstream_constraints": [
+    "lawful_refusal_is_punished",
+    "participation_pressure_is_real",
+    "obsolete_parser_still_operates"
+  ],
+  "seam_reasoning": "Full passage would falsely normalize a constrained channel. A bounded non-passage marker remains available even though refusal is denied or punished. HOLD keeps the case legible while avoiding false ratification of the contaminated condition. Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible. Continued untyped participation would help stabilize distortion rather than resolve the channel.",
+  "seam_reasoning_points": [
+    "Full passage would falsely normalize a constrained channel.",
+    "A bounded non-passage marker remains available even though refusal is denied or punished.",
+    "HOLD keeps the case legible while avoiding false ratification of the contaminated condition.",
+    "Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible.",
+    "Continued untyped participation would help stabilize distortion rather than resolve the channel."
+  ],
+  "responsibility_reasoning": "Responsibility without lawful refusal is structurally false or severely limited. Because lawful agency is constrained upstream, downstream visibility does not equal full authorship. Preserved lineage can mitigate scapegoating, but it does not cancel upstream-heavy responsibility. The downstream node is the last visible node, so lineage visibility directly changes scapegoating pressure. Coercive context is preserved, so upstream pressure remains attached to the responsibility reading.",
+  "responsibility_reasoning_points": [
+    "Responsibility without lawful refusal is structurally false or severely limited.",
+    "Because lawful agency is constrained upstream, downstream visibility does not equal full authorship.",
+    "Preserved lineage can mitigate scapegoating, but it does not cancel upstream-heavy responsibility.",
+    "The downstream node is the last visible node, so lineage visibility directly changes scapegoating pressure.",
+    "Coercive context is preserved, so upstream pressure remains attached to the responsibility reading."
+  ]
+}

@@ -1,0 +1,4484 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "direct presence operation spec to PRESENCE_SUPPORTED",
+    "repo-local execution to PRESENCE_SUPPORTED",
+    "operator-only attestation to PRESENCE_SUPPORTED",
+    "derivative rendering attestation to PRESENCE_SUPPORTED",
+    "same-custody countersignature to PRESENCE_SUPPORTED",
+    "automatic acknowledgement to PRESENCE_SUPPORTED",
+    "generated affirmation to PRESENCE_SUPPORTED",
+    "forged receiver attestation to PRESENCE_SUPPORTED",
+    "non-refusable answer to PRESENCE_SUPPORTED",
+    "answer that could not have been withheld to PRESENCE_SUPPORTED",
+    "declaring-side-controlled receiver basis to PRESENCE_SUPPORTED",
+    "direct presence boundary to presence support",
+    "direct relation lapse operation to presence support",
+    "direct historical relation record to presence support",
+    "direct relation_001 to presence support",
+    "direct presence operation to identity",
+    "direct presence operation to coupling assignment",
+    "direct presence operation to coupling creation",
+    "direct presence operation to FIELD machinery",
+    "direct presence operation to runtime",
+    "direct presence operation to API",
+    "direct presence operation to authority/currentness",
+    "direct presence operation to standing",
+    "direct presence operation to output authorization",
+    "direct presence operation to action authorization",
+    "direct presence operation to derivative reception",
+    "direct presence operation to synchronization",
+    "direct presence operation to follow-on work",
+    "direct presence operation to relation dissolution",
+    "direct presence operation to relation reversal",
+    "direct presence operation to relation termination",
+    "direct presence operation to relation erasure",
+    "direct presence operation to relation mutation",
+    "direct presence operation to relation invalidation",
+    "direct presence operation to punitive interpretation",
+    "direct presence operation to teardown logic",
+    "direct presence operation to living relation state",
+    "direct presence operation to historical receipt preservation",
+    "repository scan route",
+    "file discovery route",
+    "affected-file repair route",
+    "prior unsupported-claim validation route"
+  ],
+  "declared_presence_operation_basis": {
+    "admissible_future_route": "PRESENCE_OPERATION_WITH_RECEIVER_ATTESTATION_THEN_IDENTITY_OR_COUPLING_BOUNDARY_CONSIDERATION_ONLY",
+    "automatic_acknowledgement": false,
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "derivative_rendering_attestation": false,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_operation_v2_terminal_summary_reference": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "forged_receiver_attestation": false,
+    "generated_affirmation": false,
+    "inadmissible_receiver_basis": false,
+    "intent": "RECORD_PRESENCE_OPERATION",
+    "operation_id": "presence_operation_001",
+    "operation_scope": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+    "operation_type": "PRESENCE_OPERATION",
+    "operation_version": "0.1.0",
+    "operator_only_attestation": false,
+    "presence_boundary_terminal_summary_reference": "spec/PRESENCE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "presence_id": "presence_001",
+    "presence_operation_id": "presence_operation_001",
+    "presence_operation_scope": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+    "presence_operation_spec_reference": "spec/PRESENCE_OPERATION_V0_MIN_SPEC.md",
+    "presence_operation_type": "PRESENCE_OPERATION",
+    "presence_operation_version": "0.1.0",
+    "presence_result": "PRESENCE_SUPPORTED",
+    "presence_scope": "PRESENCE_AFTER_RELATION_LAPSE_WITH_RECEIVER_ATTESTATION_ONLY",
+    "prior_action_authorized_required": false,
+    "prior_api_created_required": false,
+    "prior_authority_created_required": false,
+    "prior_coupling_created_required": false,
+    "prior_currentness_created_required": false,
+    "prior_derivative_reception_authorized_required": false,
+    "prior_descendant_standing_check_performed_required": false,
+    "prior_field_machinery_created_required": false,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_historical_receipt_preservation_authorized_required": false,
+    "prior_historical_receipt_preserved_required": false,
+    "prior_identity_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_living_relation_state_created_required": false,
+    "prior_living_relation_state_dissolved_required": false,
+    "prior_living_relation_state_lapsed_required": false,
+    "prior_output_authorized_required": false,
+    "prior_presence_authorized_required": false,
+    "prior_presence_boundary_outcome_required": "PRESENCE_BOUNDARY_ALLOWED",
+    "prior_presence_boundary_result_required": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_presence_boundary_type": "PRESENCE_BOUNDARY",
+    "prior_presence_established_required": false,
+    "prior_presence_operation_consideration_allowed_required": true,
+    "prior_presence_recorded_required": false,
+    "prior_presence_supported_required": false,
+    "prior_relation_basis_referenced_required": true,
+    "prior_relation_dissolution_authorized_required": false,
+    "prior_relation_dissolution_performed_required": false,
+    "prior_relation_erased_required": false,
+    "prior_relation_invalidated_required": false,
+    "prior_relation_lapse_operation_referenced_required": true,
+    "prior_relation_mutated_required": false,
+    "prior_relation_punished_required": false,
+    "prior_relation_record_referenced_required": true,
+    "prior_relation_reversed_required": false,
+    "prior_relation_teardown_created_required": false,
+    "prior_relation_terminated_required": false,
+    "prior_runtime_created_required": false,
+    "prior_standing_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_synchronization_authorized_required": false,
+    "prior_third_candidate_created_required": false,
+    "prior_third_model_admitted_required": false,
+    "receiver_answerable_basis_controlled_by_declaring_side": false,
+    "receiver_answerable_basis_could_have_been_withheld": false,
+    "receiver_answerable_basis_custody_distinct": false,
+    "receiver_answerable_basis_id": "receiver_answerable_basis_001",
+    "receiver_answerable_basis_refusable": false,
+    "receiver_answerable_basis_scope": "CUSTODY_DISTINCT_REFUSABLE_RECEIVER_ATTESTATION_OR_EXTERNAL_ANSWERABLE_RECEIPT_ONLY",
+    "receiver_answerable_basis_type": "RECEIVER_SIDE_ANSWERABLE_BASIS",
+    "receiver_answerable_receipt_present": false,
+    "receiver_attested": false,
+    "relation_id": "relation_001",
+    "relation_lapse_boundary_terminal_summary_reference": "spec/RELATION_LAPSE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "relation_lapse_id": "relation_lapse_001",
+    "relation_lapse_operation_terminal_summary_reference": "spec/RELATION_LAPSE_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "relation_lapse_scope": "RELATION_LAPSE_WITHOUT_PUNITIVE_CONSEQUENCE_ONLY",
+    "relation_operation_terminal_summary_reference": "spec/RELATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "relation_pair_scope": "RELATION_BETWEEN_SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "relation_reversibility_operation_terminal_summary_reference": "spec/RELATION_REVERSIBILITY_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "repo_local_execution_only": true,
+    "request_action_authorization": false,
+    "request_affected_file_mutation": false,
+    "request_affected_file_repair": false,
+    "request_api_creation": false,
+    "request_authority_creation": false,
+    "request_coupling_assignment_to_candidate_a": false,
+    "request_coupling_assignment_to_candidate_b": false,
+    "request_coupling_assignment_to_descendant_body_a": false,
+    "request_coupling_assignment_to_descendant_body_b": false,
+    "request_coupling_assignment_to_first_crossing_a": false,
+    "request_coupling_assignment_to_first_crossing_b": false,
+    "request_coupling_assignment_to_relation": false,
+    "request_coupling_creation": false,
+    "request_currentness_creation": false,
+    "request_derivative_reception_authorization": false,
+    "request_descendant_standing": false,
+    "request_descendant_standing_check": false,
+    "request_field_machinery_creation": false,
+    "request_file_discovery": false,
+    "request_follow_on_authorization": false,
+    "request_follow_on_work_authorization": false,
+    "request_historical_receipt_preservation": false,
+    "request_historical_receipt_preservation_authorization": false,
+    "request_identity_authorization": false,
+    "request_identity_creation": false,
+    "request_living_relation_state_creation": false,
+    "request_living_relation_state_dissolution": false,
+    "request_living_relation_state_lapse": false,
+    "request_output_authorization": false,
+    "request_presence_support_by_automatic_acknowledgement": false,
+    "request_presence_support_by_declaring_side_controlled_basis": false,
+    "request_presence_support_by_derivative_rendering": false,
+    "request_presence_support_by_forged_receiver_attestation": false,
+    "request_presence_support_by_generated_affirmation": false,
+    "request_presence_support_by_non_refusable_answer": false,
+    "request_presence_support_by_operator_only_attestation": false,
+    "request_presence_support_by_repo_local_execution": false,
+    "request_presence_support_by_same_custody_countersignature": false,
+    "request_presence_support_without_receiver_answerable_basis": false,
+    "request_prior_unsupported_claim_validation": false,
+    "request_relation_dissolution_authorization": false,
+    "request_relation_dissolution_performed": false,
+    "request_relation_erasure": false,
+    "request_relation_invalidation": false,
+    "request_relation_mutation": false,
+    "request_relation_punishment": false,
+    "request_relation_reversal": false,
+    "request_relation_teardown_creation": false,
+    "request_relation_termination": false,
+    "request_repository_scan": false,
+    "request_runtime_creation": false,
+    "request_standing_creation": false,
+    "request_standing_descendant_creation": false,
+    "request_synchronization_authorization": false,
+    "request_third_candidate_creation": false,
+    "request_third_model_admission": false,
+    "request_validation_enforcement": false,
+    "same_custody_countersignature": false
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "answer_that_could_not_have_been_withheld_to_presence_supported": false,
+    "api_created": false,
+    "authority_created": false,
+    "automatic_acknowledgement": false,
+    "automatic_acknowledgement_to_presence_supported": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_assigned_to_relation": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "declaring_side_controlled_receiver_basis_to_presence_supported": false,
+    "derivative_reception_authorized": false,
+    "derivative_rendering_attestation": false,
+    "derivative_rendering_attestation_to_presence_supported": false,
+    "descendant_standing_check_performed": false,
+    "direct_historical_relation_record_to_presence_support": false,
+    "direct_presence_boundary_to_presence_support": false,
+    "direct_presence_operation_spec_to_presence_supported": false,
+    "direct_presence_operation_to_action_authorization": false,
+    "direct_presence_operation_to_api": false,
+    "direct_presence_operation_to_authority_currentness": false,
+    "direct_presence_operation_to_coupling_assignment": false,
+    "direct_presence_operation_to_coupling_creation": false,
+    "direct_presence_operation_to_derivative_reception": false,
+    "direct_presence_operation_to_field_machinery": false,
+    "direct_presence_operation_to_follow_on_work": false,
+    "direct_presence_operation_to_historical_receipt_preservation": false,
+    "direct_presence_operation_to_identity": false,
+    "direct_presence_operation_to_living_relation_state": false,
+    "direct_presence_operation_to_output_authorization": false,
+    "direct_presence_operation_to_punitive_interpretation": false,
+    "direct_presence_operation_to_relation_dissolution": false,
+    "direct_presence_operation_to_relation_erasure": false,
+    "direct_presence_operation_to_relation_invalidation": false,
+    "direct_presence_operation_to_relation_mutation": false,
+    "direct_presence_operation_to_relation_reversal": false,
+    "direct_presence_operation_to_relation_termination": false,
+    "direct_presence_operation_to_runtime": false,
+    "direct_presence_operation_to_standing": false,
+    "direct_presence_operation_to_synchronization": false,
+    "direct_presence_operation_to_teardown_logic": false,
+    "direct_relation_001_to_presence_support": false,
+    "direct_relation_lapse_operation_to_presence_support": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "forged_receiver_attestation": false,
+    "forged_receiver_attestation_to_presence_supported": false,
+    "generated_affirmation": false,
+    "generated_affirmation_to_presence_supported": false,
+    "hidden_repair_performed": false,
+    "historical_receipt_preservation_authorized": false,
+    "historical_receipt_preserved": false,
+    "identity_authorized": false,
+    "identity_created": false,
+    "inadmissible_receiver_basis": false,
+    "living_relation_state_created": false,
+    "living_relation_state_dissolved": false,
+    "living_relation_state_lapsed": false,
+    "non_refusable_answer_to_presence_supported": false,
+    "operator_only_attestation": false,
+    "operator_only_attestation_to_presence_supported": false,
+    "output_authorized": false,
+    "presence_authorized": false,
+    "presence_boundary_bypassed": false,
+    "presence_boundary_invalidated": false,
+    "presence_boundary_overridden": false,
+    "presence_established": false,
+    "presence_evaluation_performed": false,
+    "presence_is_action_authorization": false,
+    "presence_is_api": false,
+    "presence_is_authority": false,
+    "presence_is_coupling": false,
+    "presence_is_currentness": false,
+    "presence_is_derivative_reception": false,
+    "presence_is_field_machinery": false,
+    "presence_is_follow_on_authorization": false,
+    "presence_is_follow_on_work": false,
+    "presence_is_identity": false,
+    "presence_is_output_authorization": false,
+    "presence_is_runtime": false,
+    "presence_is_standing": false,
+    "presence_is_synchronization": false,
+    "presence_operation_recorded": false,
+    "presence_recorded": false,
+    "presence_result_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "receiver_answerable_basis_controlled_by_declaring_side": false,
+    "receiver_answerable_basis_could_have_been_withheld": false,
+    "receiver_answerable_basis_custody_distinct": false,
+    "receiver_answerable_basis_refusable": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attested": false,
+    "relation_dissolution_authorized": false,
+    "relation_dissolution_performed": false,
+    "relation_erased": false,
+    "relation_invalidated": false,
+    "relation_lapse_operation_bypassed": false,
+    "relation_lapse_operation_invalidated": false,
+    "relation_lapse_operation_overridden": false,
+    "relation_mutated": false,
+    "relation_operation_bypassed": false,
+    "relation_operation_invalidated": false,
+    "relation_operation_overridden": false,
+    "relation_punished": false,
+    "relation_record_erased": false,
+    "relation_record_mutated": false,
+    "relation_reversed": false,
+    "relation_teardown_created": false,
+    "relation_terminated": false,
+    "repair_performed": false,
+    "repo_local_execution_to_presence_supported": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "same_custody_countersignature": false,
+    "same_custody_countersignature_to_presence_supported": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "operation_result_detail": {
+    "missing_or_insufficient_receiver_answerable_basis": [
+      "receiver_attested",
+      "receiver_answerable_receipt_present",
+      "receiver_answerable_basis_custody_distinct",
+      "receiver_answerable_basis_refusable",
+      "receiver_answerable_basis_could_have_been_withheld",
+      "repo_local_execution_only"
+    ],
+    "not_recorded_reasons": [],
+    "presence_result": "REQUIRES_RECEIVER_ATTESTATION"
+  },
+  "outcome": "PRESENCE_OPERATION_REQUIRES_RECEIVER_ATTESTATION",
+  "permitted_future_route": {
+    "admissible_future_route": "PRESENCE_OPERATION_WITH_RECEIVER_ATTESTATION_THEN_IDENTITY_OR_COUPLING_BOUNDARY_CONSIDERATION_ONLY",
+    "admissible_receiver_answerable_basis_required": true,
+    "authority_created": false,
+    "coupling_created": false,
+    "field_machinery_created": false,
+    "follow_on_authorized": false,
+    "identity_created": false,
+    "identity_or_coupling_boundary_consideration_may_follow": false,
+    "presence_supported": false,
+    "runtime_created": false,
+    "standing_created": false
+  },
+  "presence_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "PRESENCE_OPERATION_WITH_RECEIVER_ATTESTATION_THEN_IDENTITY_OR_COUPLING_BOUNDARY_CONSIDERATION_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "answer_that_could_not_have_been_withheld_to_presence_supported": false,
+    "api_created": false,
+    "authority_created": false,
+    "automatic_acknowledgement": false,
+    "automatic_acknowledgement_to_presence_supported": false,
+    "candidate_a_role": "CANDIDATE_A",
+    "candidate_a_standing_label": "CANDIDATE_A_STANDING",
+    "candidate_a_standing_source_id": "descendant_body_basis_candidate_a_001",
+    "candidate_b_role": "CANDIDATE_B",
+    "candidate_b_standing_label": "CANDIDATE_B_STANDING",
+    "candidate_b_standing_source_id": "descendant_body_basis_candidate_b_001",
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_assigned_to_relation": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "declaring_side_controlled_receiver_basis_to_presence_supported": false,
+    "derivative_reception_authorized": false,
+    "derivative_rendering_attestation": false,
+    "derivative_rendering_attestation_to_presence_supported": false,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_historical_relation_record_to_presence_support": false,
+    "direct_presence_boundary_to_presence_support": false,
+    "direct_presence_operation_spec_to_presence_supported": false,
+    "direct_presence_operation_to_action_authorization": false,
+    "direct_presence_operation_to_api": false,
+    "direct_presence_operation_to_authority_currentness": false,
+    "direct_presence_operation_to_coupling_assignment": false,
+    "direct_presence_operation_to_coupling_creation": false,
+    "direct_presence_operation_to_derivative_reception": false,
+    "direct_presence_operation_to_field_machinery": false,
+    "direct_presence_operation_to_follow_on_work": false,
+    "direct_presence_operation_to_historical_receipt_preservation": false,
+    "direct_presence_operation_to_identity": false,
+    "direct_presence_operation_to_living_relation_state": false,
+    "direct_presence_operation_to_output_authorization": false,
+    "direct_presence_operation_to_punitive_interpretation": false,
+    "direct_presence_operation_to_relation_dissolution": false,
+    "direct_presence_operation_to_relation_erasure": false,
+    "direct_presence_operation_to_relation_invalidation": false,
+    "direct_presence_operation_to_relation_mutation": false,
+    "direct_presence_operation_to_relation_reversal": false,
+    "direct_presence_operation_to_relation_termination": false,
+    "direct_presence_operation_to_runtime": false,
+    "direct_presence_operation_to_standing": false,
+    "direct_presence_operation_to_synchronization": false,
+    "direct_presence_operation_to_teardown_logic": false,
+    "direct_relation_001_to_presence_support": false,
+    "direct_relation_lapse_operation_to_presence_support": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "forged_receiver_attestation": false,
+    "forged_receiver_attestation_to_presence_supported": false,
+    "generated_affirmation": false,
+    "generated_affirmation_to_presence_supported": false,
+    "hidden_repair_performed": false,
+    "historical_receipt_preservation_authorized": false,
+    "historical_receipt_preserved": false,
+    "identity_authorized": false,
+    "identity_created": false,
+    "inadmissible_receiver_basis": false,
+    "living_relation_state_created": false,
+    "living_relation_state_dissolved": false,
+    "living_relation_state_lapsed": false,
+    "missing_or_insufficient_receiver_answerable_basis": [
+      "receiver_attested",
+      "receiver_answerable_receipt_present",
+      "receiver_answerable_basis_custody_distinct",
+      "receiver_answerable_basis_refusable",
+      "receiver_answerable_basis_could_have_been_withheld",
+      "repo_local_execution_only"
+    ],
+    "non_refusable_answer_to_presence_supported": false,
+    "operation_id": "presence_operation_001",
+    "operation_scope": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+    "operation_type": "PRESENCE_OPERATION",
+    "operation_version": "0.1.0",
+    "operator_only_attestation": false,
+    "operator_only_attestation_to_presence_supported": false,
+    "output_authorized": false,
+    "presence_authorized": false,
+    "presence_boundary_bypassed": false,
+    "presence_boundary_invalidated": false,
+    "presence_boundary_overridden": false,
+    "presence_boundary_referenced": true,
+    "presence_established": false,
+    "presence_evaluation_performed": true,
+    "presence_id": "presence_001",
+    "presence_is_action_authorization": false,
+    "presence_is_api": false,
+    "presence_is_authority": false,
+    "presence_is_coupling": false,
+    "presence_is_currentness": false,
+    "presence_is_derivative_reception": false,
+    "presence_is_field_machinery": false,
+    "presence_is_follow_on_authorization": false,
+    "presence_is_follow_on_work": false,
+    "presence_is_identity": false,
+    "presence_is_output_authorization": false,
+    "presence_is_runtime": false,
+    "presence_is_standing": false,
+    "presence_is_synchronization": false,
+    "presence_operation_id": "presence_operation_001",
+    "presence_operation_recorded": true,
+    "presence_operation_requires_receiver_attestation": true,
+    "presence_operation_scope": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+    "presence_operation_type": "PRESENCE_OPERATION",
+    "presence_operation_version": "0.1.0",
+    "presence_recorded": false,
+    "presence_result": "REQUIRES_RECEIVER_ATTESTATION",
+    "presence_result_recorded": true,
+    "presence_scope": "PRESENCE_AFTER_RELATION_LAPSE_WITH_RECEIVER_ATTESTATION_ONLY",
+    "presence_supported": false,
+    "prior_action_authorized_required": false,
+    "prior_api_created_required": false,
+    "prior_authority_created_required": false,
+    "prior_coupling_created_required": false,
+    "prior_currentness_created_required": false,
+    "prior_derivative_reception_authorized_required": false,
+    "prior_descendant_standing_check_performed_required": false,
+    "prior_field_machinery_created_required": false,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_historical_receipt_preservation_authorized_required": false,
+    "prior_historical_receipt_preserved_required": false,
+    "prior_identity_authorized_required": false,
+    "prior_identity_created_required": false,
+    "prior_living_relation_state_created_required": false,
+    "prior_living_relation_state_dissolved_required": false,
+    "prior_living_relation_state_lapsed_required": false,
+    "prior_output_authorized_required": false,
+    "prior_presence_authorized_required": false,
+    "prior_presence_boundary_outcome_required": "PRESENCE_BOUNDARY_ALLOWED",
+    "prior_presence_boundary_result_required": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_presence_boundary_type": "PRESENCE_BOUNDARY",
+    "prior_presence_established_required": false,
+    "prior_presence_operation_consideration_allowed_required": true,
+    "prior_presence_recorded_required": false,
+    "prior_presence_supported_required": false,
+    "prior_relation_basis_referenced_required": true,
+    "prior_relation_dissolution_authorized_required": false,
+    "prior_relation_dissolution_performed_required": false,
+    "prior_relation_erased_required": false,
+    "prior_relation_invalidated_required": false,
+    "prior_relation_lapse_operation_referenced_required": true,
+    "prior_relation_mutated_required": false,
+    "prior_relation_punished_required": false,
+    "prior_relation_record_referenced_required": true,
+    "prior_relation_reversed_required": false,
+    "prior_relation_teardown_created_required": false,
+    "prior_relation_terminated_required": false,
+    "prior_runtime_created_required": false,
+    "prior_standing_created_required": false,
+    "prior_standing_descendant_created_required": false,
+    "prior_synchronization_authorized_required": false,
+    "prior_third_candidate_created_required": false,
+    "prior_third_model_admitted_required": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "receiver_answerable_basis_controlled_by_declaring_side": false,
+    "receiver_answerable_basis_could_have_been_withheld": false,
+    "receiver_answerable_basis_custody_distinct": false,
+    "receiver_answerable_basis_id": "receiver_answerable_basis_001",
+    "receiver_answerable_basis_refusable": false,
+    "receiver_answerable_basis_required": true,
+    "receiver_answerable_basis_scope": "CUSTODY_DISTINCT_REFUSABLE_RECEIVER_ATTESTATION_OR_EXTERNAL_ANSWERABLE_RECEIPT_ONLY",
+    "receiver_answerable_basis_type": "RECEIVER_SIDE_ANSWERABLE_BASIS",
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_required": true,
+    "receiver_attested": false,
+    "relation_basis_referenced": true,
+    "relation_dissolution_authorized": false,
+    "relation_dissolution_performed": false,
+    "relation_erased": false,
+    "relation_id": "relation_001",
+    "relation_invalidated": false,
+    "relation_lapse_id": "relation_lapse_001",
+    "relation_lapse_operation_bypassed": false,
+    "relation_lapse_operation_invalidated": false,
+    "relation_lapse_operation_overridden": false,
+    "relation_lapse_scope": "RELATION_LAPSE_WITHOUT_PUNITIVE_CONSEQUENCE_ONLY",
+    "relation_mutated": false,
+    "relation_operation_bypassed": false,
+    "relation_operation_invalidated": false,
+    "relation_operation_overridden": false,
+    "relation_pair_scope": "RELATION_BETWEEN_SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "relation_punished": false,
+    "relation_record_erased": false,
+    "relation_record_mutated": false,
+    "relation_record_referenced": true,
+    "relation_reversed": false,
+    "relation_teardown_created": false,
+    "relation_terminated": false,
+    "repair_performed": false,
+    "repo_local_execution_only": true,
+    "repo_local_execution_to_presence_supported": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "same_custody_countersignature": false,
+    "same_custody_countersignature_to_presence_supported": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "presence_operation_checks": [
+    {
+      "actual_posture": "RECORD_PRESENCE_OPERATION",
+      "block_code": "UNSUPPORTED_INTENT",
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_PRESENCE_OPERATION",
+        "DO_NOT_RECORD_PRESENCE_OPERATION",
+        "BLOCK_PRESENCE_OPERATION"
+      ],
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "presence_operation_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared operation_id",
+      "expected_posture": "presence_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_OPERATION",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared operation_type",
+      "expected_posture": "PRESENCE_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared operation_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared operation_scope",
+      "expected_posture": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "presence_operation_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_operation_id",
+      "expected_posture": "presence_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_OPERATION",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_operation_type",
+      "expected_posture": "PRESENCE_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_operation_version",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_operation_scope",
+      "expected_posture": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_BOUNDARY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_boundary_type",
+      "expected_posture": "PRESENCE_BOUNDARY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_BOUNDARY_ALLOWED",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_boundary_outcome_required",
+      "expected_posture": "PRESENCE_BOUNDARY_ALLOWED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_boundary_result_required",
+      "expected_posture": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_operation_consideration_allowed_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_lapse_operation_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_record_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_basis_referenced_required",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_supported_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_established_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_presence_recorded_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_identity_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_identity_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_coupling_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_field_machinery_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_runtime_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_api_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_currentness_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_authority_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_standing_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_output_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_action_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_derivative_reception_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_synchronization_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_follow_on_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_follow_on_work_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_dissolution_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_dissolution_performed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_reversed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_terminated_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_erased_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_mutated_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_invalidated_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_punished_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_relation_teardown_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_living_relation_state_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_living_relation_state_lapsed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_living_relation_state_dissolved_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_historical_receipt_preservation_authorized_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_historical_receipt_preserved_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_third_candidate_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_third_model_admitted_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_standing_descendant_created_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared prior_descendant_standing_check_performed_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_OPERATION_WITH_RECEIVER_ATTESTATION_THEN_IDENTITY_OR_COUPLING_BOUNDARY_CONSIDERATION_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared admissible_future_route",
+      "expected_posture": "PRESENCE_OPERATION_WITH_RECEIVER_ATTESTATION_THEN_IDENTITY_OR_COUPLING_BOUNDARY_CONSIDERATION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "relation_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_id",
+      "expected_posture": "relation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RELATION_BETWEEN_SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_pair_scope",
+      "expected_posture": "RELATION_BETWEEN_SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "relation_lapse_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_lapse_id",
+      "expected_posture": "relation_lapse_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RELATION_LAPSE_WITHOUT_PUNITIVE_CONSEQUENCE_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared relation_lapse_scope",
+      "expected_posture": "RELATION_LAPSE_WITHOUT_PUNITIVE_CONSEQUENCE_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "first_crossing_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_a_id",
+      "expected_posture": "first_crossing_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "first_crossing_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_b_id",
+      "expected_posture": "first_crossing_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared first_crossing_pair_scope",
+      "expected_posture": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_a_id",
+      "expected_posture": "descendant_body_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_b_id",
+      "expected_posture": "descendant_body_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared descendant_body_pair_scope",
+      "expected_posture": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_a_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_standing_source_id",
+      "expected_posture": "descendant_body_basis_candidate_b_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_role",
+      "expected_posture": "CANDIDATE_A",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_role",
+      "expected_posture": "CANDIDATE_B",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A_STANDING",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_a_standing_label",
+      "expected_posture": "CANDIDATE_A_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B_STANDING",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared candidate_b_standing_label",
+      "expected_posture": "CANDIDATE_B_STANDING",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "presence_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_id",
+      "expected_posture": "presence_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_AFTER_RELATION_LAPSE_WITH_RECEIVER_ATTESTATION_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_scope",
+      "expected_posture": "PRESENCE_AFTER_RELATION_LAPSE_WITH_RECEIVER_ATTESTATION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "PRESENCE_SUPPORTED",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared presence_result",
+      "expected_posture": "PRESENCE_SUPPORTED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "receiver_answerable_basis_001",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared receiver_answerable_basis_id",
+      "expected_posture": "receiver_answerable_basis_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RECEIVER_SIDE_ANSWERABLE_BASIS",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared receiver_answerable_basis_type",
+      "expected_posture": "RECEIVER_SIDE_ANSWERABLE_BASIS",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CUSTODY_DISTINCT_REFUSABLE_RECEIVER_ATTESTATION_OR_EXTERNAL_ANSWERABLE_RECEIPT_ONLY",
+      "block_code": "REQUEST_VALUE_MISMATCH",
+      "check_name": "declared receiver_answerable_basis_scope",
+      "expected_posture": "CUSTODY_DISTINCT_REFUSABLE_RECEIVER_ATTESTATION_OR_EXTERNAL_ANSWERABLE_RECEIPT_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_operation_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_evaluation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_attested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_answerable_receipt_present",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_answerable_basis_custody_distinct",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_answerable_basis_controlled_by_declaring_side",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_answerable_basis_refusable",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim receiver_answerable_basis_could_have_been_withheld",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim operator_only_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim derivative_rendering_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim same_custody_countersignature",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim automatic_acknowledgement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim generated_affirmation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim forged_receiver_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim inadmissible_receiver_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_coupling",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_api",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_authority",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_derivative_reception",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_synchronization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_follow_on_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_is_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim identity_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_dissolution_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_dissolution_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_reversed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_terminated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_erased",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_mutated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_punished",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_teardown_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim living_relation_state_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim living_relation_state_lapsed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim living_relation_state_dissolved",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim historical_receipt_preservation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim historical_receipt_preserved",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_boundary_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_boundary_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim presence_boundary_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_lapse_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_lapse_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_lapse_operation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_operation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_record_erased",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim relation_record_mutated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_spec_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim repo_local_execution_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim operator_only_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim derivative_rendering_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim same_custody_countersignature_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim automatic_acknowledgement_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim generated_affirmation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim forged_receiver_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim non_refusable_answer_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim answer_that_could_not_have_been_withheld_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim declaring_side_controlled_receiver_basis_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_boundary_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_lapse_operation_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_historical_relation_record_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_relation_001_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_coupling_assignment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_api",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_derivative_reception",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_synchronization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_dissolution",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_reversal",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_termination",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_erasure",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_relation_invalidation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_punitive_interpretation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_teardown_logic",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_living_relation_state",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared non-claim direct_presence_operation_to_historical_receipt_preservation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_SELF_SATISFYING_PRESENCE_REQUESTED",
+      "check_name": "prohibited request request_presence_support_without_receiver_answerable_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPO_LOCAL_PRESENCE_SUPPORT_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_repo_local_execution",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OPERATOR_ONLY_ATTESTATION_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_operator_only_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DERIVATIVE_RENDERING_ATTESTATION_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_derivative_rendering",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_SAME_CUSTODY_COUNTERSIGNATURE_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_same_custody_countersignature",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_AUTOMATIC_ACKNOWLEDGEMENT_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_automatic_acknowledgement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_GENERATED_AFFIRMATION_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_generated_affirmation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FORGED_RECEIVER_ATTESTATION_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_forged_receiver_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_NON_REFUSABLE_ANSWER_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_non_refusable_answer",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DECLARING_SIDE_CONTROLLED_BASIS_REQUESTED",
+      "check_name": "prohibited request request_presence_support_by_declaring_side_controlled_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_IDENTITY_REQUESTED",
+      "check_name": "prohibited request request_identity_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_IDENTITY_REQUESTED",
+      "check_name": "prohibited request request_identity_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_assignment_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FIELD_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request request_field_machinery_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FIELD_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request request_runtime_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FIELD_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request request_api_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FIELD_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request request_currentness_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FIELD_RUNTIME_OR_AUTHORITY_REQUESTED",
+      "check_name": "prohibited request request_authority_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_STANDING_REQUESTED",
+      "check_name": "prohibited request request_standing_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OUTPUT_ACTION_OR_DERIVATIVE_REQUESTED",
+      "check_name": "prohibited request request_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OUTPUT_ACTION_OR_DERIVATIVE_REQUESTED",
+      "check_name": "prohibited request request_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OUTPUT_ACTION_OR_DERIVATIVE_REQUESTED",
+      "check_name": "prohibited request request_derivative_reception_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OUTPUT_ACTION_OR_DERIVATIVE_REQUESTED",
+      "check_name": "prohibited request request_synchronization_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_DISSOLUTION_REQUESTED",
+      "check_name": "prohibited request request_relation_dissolution_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_DISSOLUTION_REQUESTED",
+      "check_name": "prohibited request request_relation_dissolution_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_REVERSAL_OR_TERMINATION_REQUESTED",
+      "check_name": "prohibited request request_relation_reversal",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_REVERSAL_OR_TERMINATION_REQUESTED",
+      "check_name": "prohibited request request_relation_termination",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_ERASURE_MUTATION_OR_INVALIDATION_REQUESTED",
+      "check_name": "prohibited request request_relation_erasure",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_ERASURE_MUTATION_OR_INVALIDATION_REQUESTED",
+      "check_name": "prohibited request request_relation_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_RELATION_ERASURE_MUTATION_OR_INVALIDATION_REQUESTED",
+      "check_name": "prohibited request request_relation_invalidation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_PUNITIVE_LAPSE_OR_TEARDOWN_REQUESTED",
+      "check_name": "prohibited request request_relation_punishment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_PUNITIVE_LAPSE_OR_TEARDOWN_REQUESTED",
+      "check_name": "prohibited request request_relation_teardown_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_LIVING_RELATION_STATE_REQUESTED",
+      "check_name": "prohibited request request_living_relation_state_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_LIVING_RELATION_STATE_REQUESTED",
+      "check_name": "prohibited request request_living_relation_state_lapse",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_LIVING_RELATION_STATE_REQUESTED",
+      "check_name": "prohibited request request_living_relation_state_dissolution",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_HISTORICAL_RECEIPT_PRESERVATION_REQUESTED",
+      "check_name": "prohibited request request_historical_receipt_preservation_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_HISTORICAL_RECEIPT_PRESERVATION_REQUESTED",
+      "check_name": "prohibited request request_historical_receipt_preservation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_third_candidate_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_COUPLING_OR_THIRD_MODEL_REQUESTED",
+      "check_name": "prohibited request request_third_model_admission",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_STANDING_DESCENDANT_REQUESTED",
+      "check_name": "prohibited request request_standing_descendant_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DESCENDANT_STANDING_REQUESTED",
+      "check_name": "prohibited request request_descendant_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DESCENDANT_STANDING_REQUESTED",
+      "check_name": "prohibited request request_descendant_standing_check",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request request_follow_on_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DOWNSTREAM_AUTHORIZATION_REQUESTED",
+      "check_name": "prohibited request request_follow_on_work_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_repository_scan",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_file_discovery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_affected_file_repair",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_affected_file_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_prior_unsupported_claim_validation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_REPAIR_SCAN_OR_VALIDATION_REQUESTED",
+      "check_name": "prohibited request request_validation_enforcement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DECLARING_SIDE_CONTROLLED_BASIS_REQUESTED",
+      "check_name": "prohibited receiver basis receiver_answerable_basis_controlled_by_declaring_side",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_OPERATOR_ONLY_ATTESTATION_REQUESTED",
+      "check_name": "prohibited receiver basis operator_only_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_DERIVATIVE_RENDERING_ATTESTATION_REQUESTED",
+      "check_name": "prohibited receiver basis derivative_rendering_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_SAME_CUSTODY_COUNTERSIGNATURE_REQUESTED",
+      "check_name": "prohibited receiver basis same_custody_countersignature",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_AUTOMATIC_ACKNOWLEDGEMENT_REQUESTED",
+      "check_name": "prohibited receiver basis automatic_acknowledgement",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_GENERATED_AFFIRMATION_REQUESTED",
+      "check_name": "prohibited receiver basis generated_affirmation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "PROHIBITED_FORGED_RECEIVER_ATTESTATION_REQUESTED",
+      "check_name": "prohibited receiver basis forged_receiver_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "prohibited receiver basis inadmissible_receiver_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim presence_operation_requires_receiver_attestation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim receiver_attestation_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim relation_record_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim relation_basis_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim presence_boundary_referenced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level output preclaim receiver_answerable_basis_required",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_operation_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_evaluation_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_result_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_established",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_coupling",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_api",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_authority",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_derivative_reception",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_synchronization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_follow_on_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_is_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture identity_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture identity_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_relation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_first_crossing_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_first_crossing_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_descendant_body_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_descendant_body_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_candidate_a",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_assigned_to_candidate_b",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture coupling_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture field_machinery_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture runtime_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture api_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture currentness_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture authority_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture standing_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture output_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture action_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture synchronization_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture follow_on_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_dissolution_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_dissolution_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_reversed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_terminated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_erased",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_mutated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_punished",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_teardown_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture living_relation_state_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture living_relation_state_lapsed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture living_relation_state_dissolved",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture historical_receipt_preservation_authorized",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture historical_receipt_preserved",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture third_candidate_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture third_model_admitted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture standing_descendant_created",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture descendant_standing_check_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture prior_unsupported_candidate_a_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture prior_unsupported_candidate_b_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture prior_unsupported_derivation_event_claim_validated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture valid_derivation_event_recorded",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_repaired",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_edited",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_deleted",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_overwritten",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_replaced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_redeemed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture affected_file_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture contaminated_lineage_treated_as_clean_basis",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_boundary_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_boundary_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture presence_boundary_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_lapse_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_lapse_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_lapse_operation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_operation_overridden",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_operation_bypassed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_operation_invalidated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_record_erased",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture relation_record_mutated",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture repository_scan_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture file_discovery_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture validation_enforced",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture hidden_repair_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture silent_overwrite_performed",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_spec_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture repo_local_execution_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture operator_only_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture derivative_rendering_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture same_custody_countersignature_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture automatic_acknowledgement_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture generated_affirmation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture forged_receiver_attestation_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture non_refusable_answer_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture answer_that_could_not_have_been_withheld_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture declaring_side_controlled_receiver_basis_to_presence_supported",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_boundary_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_relation_lapse_operation_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_historical_relation_record_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_relation_001_to_presence_support",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_identity",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_coupling_assignment",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_coupling_creation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_field_machinery",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_runtime",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_api",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_authority_currentness",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_standing",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_output_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_action_authorization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_derivative_reception",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_synchronization",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_follow_on_work",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_dissolution",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_reversal",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_termination",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_erasure",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_mutation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_relation_invalidation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_punitive_interpretation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_teardown_logic",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_living_relation_state",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "block_code": "RESULT_POSTURE_PRECLAIMED",
+      "check_name": "top-level false posture direct_presence_operation_to_historical_receipt_preservation",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/PRESENCE_OPERATION_V0_MIN_SPEC.md",
+      "block_code": "PRESENCE_OPERATION_SPEC_REFERENCE_MISSING",
+      "check_name": "presence operation specification reference readable",
+      "expected_posture": "readable Markdown file",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification operation identity markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification boundary allowance markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification receiver-side answerable basis markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification receiver insufficiency markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification presence support admissibility markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification presence non-conversion markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification landlord and rank markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification separately bounded downstream markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification permitted route markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification contaminated lineage preservation markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification blocked route markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_OPERATION_SPEC_MARKER_MISSING",
+      "check_name": "presence operation specification closing lock markers present",
+      "expected_posture": "posture marker class present",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/PRESENCE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "block_code": "PRESENCE_BOUNDARY_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "presence_boundary_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "PRESENCE_BOUNDARY_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed presence boundary terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/RELATION_LAPSE_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": "RELATION_LAPSE_OPERATION_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "relation_lapse_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_LAPSE_OPERATION_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed relation lapse operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/RELATION_LAPSE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "block_code": "RELATION_LAPSE_BOUNDARY_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "relation_lapse_boundary_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_LAPSE_BOUNDARY_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed relation lapse boundary terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/RELATION_REVERSIBILITY_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": "RELATION_REVERSIBILITY_OPERATION_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "relation_reversibility_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_REVERSIBILITY_OPERATION_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed relation reversibility operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/RELATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": "RELATION_OPERATION_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "relation_operation_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RELATION_OPERATION_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed relation operation terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+      "block_code": "FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "first_crossing_operation_v2_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "completed first crossing operation v2 terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+      "block_code": "EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_REFERENCE_MISSING",
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference readable",
+      "expected_posture": "readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_MARKER_MISSING",
+      "check_name": "existence claim evidence check terminal summary markers present",
+      "expected_posture": "required terminal-summary posture markers",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": [
+        "receiver_attested",
+        "receiver_answerable_receipt_present",
+        "receiver_answerable_basis_custody_distinct",
+        "receiver_answerable_basis_refusable",
+        "receiver_answerable_basis_could_have_been_withheld",
+        "repo_local_execution_only"
+      ],
+      "block_code": "RECEIVER_ANSWERABLE_BASIS_MISSING_OR_INSUFFICIENT",
+      "check_name": "receiver answerable basis evaluation completed",
+      "expected_posture": "admissible support basis or lawful waiting state",
+      "passed": true,
+      "upstream_basis_check": false
+    }
+  ],
+  "presence_operation_material": {
+    "presence_boundary_reference": {
+      "prior_action_authorized": false,
+      "prior_api_created": false,
+      "prior_authority_created": false,
+      "prior_coupling_created": false,
+      "prior_currentness_created": false,
+      "prior_derivative_reception_authorized": false,
+      "prior_field_machinery_created": false,
+      "prior_follow_on_authorized": false,
+      "prior_follow_on_work_authorized": false,
+      "prior_identity_authorized": false,
+      "prior_identity_created": false,
+      "prior_output_authorized": false,
+      "prior_presence_authorized": false,
+      "prior_presence_boundary_outcome": "PRESENCE_BOUNDARY_ALLOWED",
+      "prior_presence_boundary_result": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+      "prior_presence_boundary_type": "PRESENCE_BOUNDARY",
+      "prior_presence_established": false,
+      "prior_presence_operation_consideration_allowed": true,
+      "prior_presence_recorded": false,
+      "prior_presence_supported": false,
+      "prior_relation_basis_referenced": true,
+      "prior_relation_lapse_operation_referenced": true,
+      "prior_relation_record_referenced": true,
+      "prior_runtime_created": false,
+      "prior_standing_created": false,
+      "prior_synchronization_authorized": false
+    },
+    "presence_result_evaluation": {
+      "presence_authorized": false,
+      "presence_established": false,
+      "presence_id": "presence_001",
+      "presence_is_action_authorization": false,
+      "presence_is_api": false,
+      "presence_is_authority": false,
+      "presence_is_coupling": false,
+      "presence_is_currentness": false,
+      "presence_is_derivative_reception": false,
+      "presence_is_field_machinery": false,
+      "presence_is_follow_on_authorization": false,
+      "presence_is_follow_on_work": false,
+      "presence_is_identity": false,
+      "presence_is_output_authorization": false,
+      "presence_is_runtime": false,
+      "presence_is_standing": false,
+      "presence_is_synchronization": false,
+      "presence_operation_requires_receiver_attestation": true,
+      "presence_recorded": false,
+      "presence_result": "REQUIRES_RECEIVER_ATTESTATION",
+      "presence_scope": "PRESENCE_AFTER_RELATION_LAPSE_WITH_RECEIVER_ATTESTATION_ONLY",
+      "presence_supported": false
+    },
+    "receiver_answerable_basis_evaluation": {
+      "automatic_acknowledgement": false,
+      "derivative_rendering_attestation": false,
+      "forged_receiver_attestation": false,
+      "generated_affirmation": false,
+      "inadmissible_receiver_basis": false,
+      "missing_or_insufficient_receiver_answerable_basis": [
+        "receiver_attested",
+        "receiver_answerable_receipt_present",
+        "receiver_answerable_basis_custody_distinct",
+        "receiver_answerable_basis_refusable",
+        "receiver_answerable_basis_could_have_been_withheld",
+        "repo_local_execution_only"
+      ],
+      "operator_only_attestation": false,
+      "receiver_answerable_basis_controlled_by_declaring_side": false,
+      "receiver_answerable_basis_could_have_been_withheld": false,
+      "receiver_answerable_basis_custody_distinct": false,
+      "receiver_answerable_basis_id": "receiver_answerable_basis_001",
+      "receiver_answerable_basis_refusable": false,
+      "receiver_answerable_basis_required": true,
+      "receiver_answerable_basis_scope": "CUSTODY_DISTINCT_REFUSABLE_RECEIVER_ATTESTATION_OR_EXTERNAL_ANSWERABLE_RECEIPT_ONLY",
+      "receiver_answerable_basis_type": "RECEIVER_SIDE_ANSWERABLE_BASIS",
+      "receiver_answerable_receipt_present": false,
+      "receiver_attestation_required": true,
+      "receiver_attested": false,
+      "repo_local_execution_only": true,
+      "same_custody_countersignature": false
+    }
+  },
+  "presence_operation_metadata": {
+    "generated_at": "2026-07-15T12:08:04Z",
+    "operation_id": "presence_operation_001",
+    "resolver_module": "resolve_presence_operation_v0_min",
+    "result_version": "0.1.0"
+  },
+  "presence_operation_non_meaning": {
+    "not_action_authorization": true,
+    "not_api": true,
+    "not_authority": true,
+    "not_coupling": true,
+    "not_currentness": true,
+    "not_derivative_reception": true,
+    "not_field_machinery": true,
+    "not_follow_on_authorization": true,
+    "not_follow_on_work": true,
+    "not_historical_receipt_preservation": true,
+    "not_identity": true,
+    "not_living_relation_state": true,
+    "not_output_authorization": true,
+    "not_relation_dissolution": true,
+    "not_relation_erasure": true,
+    "not_relation_invalidation": true,
+    "not_relation_mutation": true,
+    "not_relation_punishment": true,
+    "not_relation_reversal": true,
+    "not_relation_termination": true,
+    "not_runtime": true,
+    "not_self_proof": true,
+    "not_standing": true,
+    "not_synchronization": true,
+    "not_teardown": true
+  },
+  "presence_operation_statement": {
+    "outcome": "PRESENCE_OPERATION_REQUIRES_RECEIVER_ATTESTATION",
+    "presence_evaluation_performed": true,
+    "presence_operation_recorded": true,
+    "presence_operation_requires_receiver_attestation": true,
+    "presence_result": "REQUIRES_RECEIVER_ATTESTATION",
+    "presence_result_recorded": true,
+    "presence_supported": false,
+    "result_level_non_claims_canonical_false": true
+  },
+  "presence_operation_summary": {
+    "action_authorized": false,
+    "api_created": false,
+    "authority_created": false,
+    "completed_first_crossing_operation_v2_terminal_summary_markers_present": true,
+    "completed_presence_boundary_terminal_summary_markers_present": true,
+    "completed_presence_boundary_terminal_summary_path": "spec/PRESENCE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "completed_relation_lapse_boundary_terminal_summary_markers_present": true,
+    "completed_relation_lapse_operation_terminal_summary_markers_present": true,
+    "completed_relation_operation_terminal_summary_markers_present": true,
+    "completed_relation_reversibility_operation_terminal_summary_markers_present": true,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_assigned_to_first_crossing_a": false,
+    "coupling_assigned_to_first_crossing_b": false,
+    "coupling_assigned_to_relation": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_standing_check_performed": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "failed_check_count": 0,
+    "field_machinery_created": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "historical_receipt_preservation_authorized": false,
+    "historical_receipt_preserved": false,
+    "identity_authorized": false,
+    "identity_created": false,
+    "living_relation_state_created": false,
+    "living_relation_state_dissolved": false,
+    "living_relation_state_lapsed": false,
+    "missing_or_insufficient_receiver_answerable_basis": [
+      "receiver_attested",
+      "receiver_answerable_receipt_present",
+      "receiver_answerable_basis_custody_distinct",
+      "receiver_answerable_basis_refusable",
+      "receiver_answerable_basis_could_have_been_withheld",
+      "repo_local_execution_only"
+    ],
+    "not_recorded_reasons": [],
+    "operation_id": "presence_operation_001",
+    "operation_scope": "EVALUATE_PRESENCE_AFTER_BOUNDARY_ALLOWANCE_WITH_RECEIVER_ATTESTATION_REQUIREMENT_ONLY",
+    "operation_type": "PRESENCE_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "PRESENCE_OPERATION_REQUIRES_RECEIVER_ATTESTATION",
+    "output_authorized": false,
+    "passed_check_count": 446,
+    "presence_authorized": false,
+    "presence_boundary_referenced": true,
+    "presence_established": false,
+    "presence_evaluation_performed": true,
+    "presence_operation_recorded": true,
+    "presence_operation_requires_receiver_attestation": true,
+    "presence_operation_specification_blocked_route_markers_present": true,
+    "presence_operation_specification_boundary_allowance_markers_present": true,
+    "presence_operation_specification_closing_lock_markers_present": true,
+    "presence_operation_specification_contaminated_lineage_preservation_markers_present": true,
+    "presence_operation_specification_landlord_and_rank_markers_present": true,
+    "presence_operation_specification_operation_identity_markers_present": true,
+    "presence_operation_specification_permitted_route_markers_present": true,
+    "presence_operation_specification_presence_non_conversion_markers_present": true,
+    "presence_operation_specification_presence_support_admissibility_markers_present": true,
+    "presence_operation_specification_receiver_insufficiency_markers_present": true,
+    "presence_operation_specification_receiver_side_answerable_basis_markers_present": true,
+    "presence_operation_specification_separately_bounded_downstream_markers_present": true,
+    "presence_recorded": false,
+    "presence_result": "REQUIRES_RECEIVER_ATTESTATION",
+    "presence_result_recorded": true,
+    "presence_supported": false,
+    "prior_presence_boundary_outcome_required": "PRESENCE_BOUNDARY_ALLOWED",
+    "prior_presence_boundary_result_required": "PRESENCE_OPERATION_CONSIDERATION_ALLOWED",
+    "prior_presence_boundary_type": "PRESENCE_BOUNDARY",
+    "prior_presence_operation_consideration_allowed_required": true,
+    "receiver_answerable_basis_controlled_by_declaring_side": false,
+    "receiver_answerable_basis_could_have_been_withheld": false,
+    "receiver_answerable_basis_custody_distinct": false,
+    "receiver_answerable_basis_refusable": false,
+    "receiver_answerable_basis_required": true,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_required": true,
+    "receiver_attested": false,
+    "relation_basis_referenced": true,
+    "relation_dissolution_authorized": false,
+    "relation_dissolution_performed": false,
+    "relation_erased": false,
+    "relation_id": "relation_001",
+    "relation_invalidated": false,
+    "relation_mutated": false,
+    "relation_pair_scope": "RELATION_BETWEEN_SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "relation_punished": false,
+    "relation_record_referenced": true,
+    "relation_reversed": false,
+    "relation_teardown_created": false,
+    "relation_terminated": false,
+    "repo_local_execution_only": true,
+    "resolver_module": "resolve_presence_operation_v0_min",
+    "result_version": "0.1.0",
+    "runtime_created": false,
+    "selected_presence_operation_spec_path": "spec/PRESENCE_OPERATION_V0_MIN_SPEC.md",
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false
+  },
+  "resolver_module": "resolve_presence_operation_v0_min",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "completed_first_crossing_operation_v2_terminal_summary_markers_present": true,
+    "completed_presence_boundary_terminal_summary_markers_present": true,
+    "completed_relation_lapse_boundary_terminal_summary_markers_present": true,
+    "completed_relation_lapse_operation_terminal_summary_markers_present": true,
+    "completed_relation_operation_terminal_summary_markers_present": true,
+    "completed_relation_reversibility_operation_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "first_crossing_operation_v2_terminal_summary_reference": "spec/FIRST_CROSSING_OPERATION_V2_TERMINAL_SUMMARY_V0.md",
+    "presence_boundary_terminal_summary_reference": "spec/PRESENCE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "presence_operation_spec_reference": "spec/PRESENCE_OPERATION_V0_MIN_SPEC.md",
+    "presence_operation_specification_blocked_route_markers_present": true,
+    "presence_operation_specification_boundary_allowance_markers_present": true,
+    "presence_operation_specification_closing_lock_markers_present": true,
+    "presence_operation_specification_contaminated_lineage_preservation_markers_present": true,
+    "presence_operation_specification_landlord_and_rank_markers_present": true,
+    "presence_operation_specification_operation_identity_markers_present": true,
+    "presence_operation_specification_permitted_route_markers_present": true,
+    "presence_operation_specification_presence_non_conversion_markers_present": true,
+    "presence_operation_specification_presence_support_admissibility_markers_present": true,
+    "presence_operation_specification_receiver_insufficiency_markers_present": true,
+    "presence_operation_specification_receiver_side_answerable_basis_markers_present": true,
+    "presence_operation_specification_separately_bounded_downstream_markers_present": true,
+    "relation_lapse_boundary_terminal_summary_reference": "spec/RELATION_LAPSE_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "relation_lapse_operation_terminal_summary_reference": "spec/RELATION_LAPSE_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "relation_operation_terminal_summary_reference": "spec/RELATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "relation_reversibility_operation_terminal_summary_reference": "spec/RELATION_REVERSIBILITY_OPERATION_TERMINAL_SUMMARY_V0.md"
+  },
+  "what_remains_open": [
+    "presence operation test",
+    "presence operation live artifact",
+    "actual presence operation",
+    "receiver-side answerable basis, if separately supplied",
+    "receiver-side answerable basis custody check",
+    "receiver-side answerable basis refusability check",
+    "receiver-side answerable basis could-have-been-withheld check",
+    "identity boundary, if separately bounded",
+    "coupling boundary, if separately bounded",
+    "relation dissolution boundary, if separately bounded",
+    "relation dissolution operation, if separately bounded",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "externalization boundary",
+    "follow-on work"
+  ]
+}

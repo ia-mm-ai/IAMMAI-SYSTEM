@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:schema:governance_action",
+  "title": "IAMMAI Governance Action",
+  "description": "First bounded schema for governance action records that preserve attributable, legitimacy-bounded, matter-scoped lawful force without becoming semantic source, witness, or validation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "governance_action_id",
+    "action_type",
+    "authority_class",
+    "actor_ref",
+    "legitimacy_basis_ref",
+    "matter_ref",
+    "acted_at"
+  ],
+  "properties": {
+    "governance_action_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the governance action record."
+    },
+    "action_type": {
+      "type": "string",
+      "enum": [
+        "authorize",
+        "deny",
+        "hold",
+        "release",
+        "finalize",
+        "invalidate",
+        "evolve"
+      ],
+      "description": "Bounded governance action type."
+    },
+    "authority_class": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Bounded authority class under which the action was treated as lawful."
+    },
+    "actor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the actor that performed or authorized the governance action."
+    },
+    "legitimacy_basis_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the lawful basis under which the governance action counted."
+    },
+    "matter_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the bounded matter to which the governance action applies."
+    },
+    "acted_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the governance action occurred."
+    },
+    "delegated_from_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to the delegating source where the action was performed under delegation."
+    },
+    "target_state_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to the target state affected by the governance action."
+    },
+    "target_transition_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to the target transition affected by the governance action."
+    },
+    "related_validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related validation artifact."
+    },
+    "related_witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related witness artifact."
+    },
+    "contribution_role_map_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related contribution-role mapping artifact."
+    },
+    "notes_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to bounded supporting notes or related supporting material."
+    }
+  }
+}

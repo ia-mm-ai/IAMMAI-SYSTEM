@@ -1,0 +1,914 @@
+{
+  "additional_basis_required": null,
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "declared_local_relevance_medium_read_only_lookup_result_boundary_question": {
+    "boundary_scope": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+    "boundary_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+    "local_relevance_medium_read_only_lookup_result_boundary_id": "local_relevance_medium_read_only_lookup_result_boundary_001",
+    "local_relevance_medium_read_only_lookup_result_boundary_intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+    "local_relevance_medium_read_only_lookup_result_boundary_question": "Given one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED for selected command state, existing reusable read-only lookup permission, and prior lookup-pair coverage, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY be recorded that permits a future local read-only lookup result to be considered as a separately bounded step, without creating lookup result, creating operation permission, creating runtime permission, creating public API, creating participant-facing interface, creating distributed network behavior, creating general lookup permission, creating arbitrary lookup permission, permitting unsupported commands, permitting unsupported lookup keys, creating new lookup entry, accepting new entries, accepting new signals, performing filesystem discovery, creating query surface, registry, search, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, synchronization, participation authorization, participant role, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?",
+    "selected_command": "state",
+    "selected_lookup_performed_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_v0_min/local_relevance_medium_read_only_lookup_performed_reference_review_001__local_relevance_medium_read_only_lookup_performed_v0_min_result.json"
+  },
+  "local_relevance_medium_read_only_lookup_result_boundary": {
+    "arbitrary_lookup_permission_created": false,
+    "arbitrary_reception_created": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "authorization_token_reused": false,
+    "basis_lookup_performed_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_v0_min/local_relevance_medium_read_only_lookup_performed_reference_review_001__local_relevance_medium_read_only_lookup_performed_v0_min_result.json",
+    "basis_lookup_performed_failed_check_count": 0,
+    "basis_lookup_performed_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+    "basis_lookup_performed_result_version": "0.1.0",
+    "boundary_id": "local_relevance_medium_read_only_lookup_result_boundary_001",
+    "boundary_scope": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+    "boundary_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "follow_on_work_authorized": false,
+    "future_lookup_result_may_be_considered": true,
+    "general_lookup_permission_created": false,
+    "lookup_performed": true,
+    "lookup_performed_local_only": true,
+    "lookup_performed_read_only": true,
+    "lookup_result_created": false,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "runtime_permission_created": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "selected_command": "state",
+    "selected_command_is_state": true,
+    "selected_lookup_performed_recorded": true,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "unsupported_commands_permitted": false,
+    "unsupported_lookup_keys_permitted": false,
+    "validity_judgment_created": false
+  },
+  "local_relevance_medium_read_only_lookup_result_boundary_checks": [
+    {
+      "actual_posture": "Given one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED for selected command state, existing reusable read-only lookup permission, and prior lookup-pair coverage, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY be recorded that permits a future local read-only lookup result to be considered as a separately bounded step, without creating lookup result, creating operation permission, creating runtime permission, creating public API, creating participant-facing interface, creating distributed network behavior, creating general lookup permission, creating arbitrary lookup permission, permitting unsupported commands, permitting unsupported lookup keys, creating new lookup entry, accepting new entries, accepting new signals, performing filesystem discovery, creating query surface, registry, search, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, synchronization, participation authorization, participant role, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?",
+      "check_name": "lookup result boundary question declared",
+      "expected_posture": "declared lookup result boundary question",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "check_name": "boundary intent supported",
+      "expected_posture": [
+        "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+        "DO_NOT_RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+        "BLOCK_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "check_name": "lookup result boundary block not requested",
+      "expected_posture": "no explicit lookup result boundary block request",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_v0_min/local_relevance_medium_read_only_lookup_performed_reference_review_001__local_relevance_medium_read_only_lookup_performed_v0_min_result.json",
+      "check_name": "lookup performed artifact path declared",
+      "expected_posture": "declared lookup performed artifact path",
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "lookup performed artifact readable JSON object",
+      "expected_posture": "readable JSON object",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+      "check_name": "lookup performed artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "lookup performed artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "lookup performed artifact failed check count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": "state",
+      "check_name": "selected command declared",
+      "expected_posture": "state",
+      "passed": true
+    },
+    {
+      "actual_posture": "state",
+      "check_name": "selected command exactly state",
+      "expected_posture": "state",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_selected_command": "state",
+        "basis_selected_command_is_state": true,
+        "request_selected_command": "state"
+      },
+      "check_name": "selected command is state",
+      "expected_posture": "selected command state in request and lookup performed basis",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "selected lookup performed recorded",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "lookup performed true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "lookup performed local only",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "lookup performed read only",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "future lookup result may be considered",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "check_name": "boundary type declared",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "check_name": "boundary type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "passed": true
+    },
+    {
+      "actual_posture": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+      "check_name": "boundary scope declared",
+      "expected_posture": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+      "check_name": "boundary scope selected lookup result consideration only",
+      "expected_posture": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "consumed request not reopened",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authorization token not reused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: lookup_result_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: operation_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: runtime_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: public_api_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: participant_facing_interface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: distributed_network_behavior_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: general_lookup_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: arbitrary_lookup_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: unsupported_commands_permitted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: unsupported_lookup_keys_permitted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: new_lookup_entry_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: new_signal_accepted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: new_entry_accepted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: new_relevance_object_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: new_index_entry_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: filesystem_discovery_performed",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: registry_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: search_surface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: query_surface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: ranking_surface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: scoring_surface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: priority_surface_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: validity_judgment_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: truth_judgment_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: authority_judgment_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: currentness_judgment_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: repeated_reception_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: arbitrary_reception_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: feed_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: source_transfer_occurred",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: source_receipt_occurred",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: authority_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: currentness_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: truth_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: synchronization_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: participation_authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: participant_role_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: consumed_request_reopened",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: authorization_token_reused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: follow_on_work_authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: source_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: deployment_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: public_release_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: broader_reusable_permission_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: derivative_reception_authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: vessel_relation_authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: adoption_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: receiving_context_governance_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: publication_flow_created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: artifact_existence_treated_as_lookup_result_boundary_authority",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: latest_file_posture_treated_as_lookup_result_boundary_authority",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: repo_local_availability_treated_as_lookup_result_boundary_authority",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: hidden_repo_state_used_as_lookup_result_boundary_content",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: hidden_repo_state_used_as_lookup_result_boundary_authority",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: prior_artifacts_mutated",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: predecessor_failure_repaired",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: predecessor_failure_hidden",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required false posture preserved: predecessor_failure_claimed_passed",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "predecessor failure evidence preserved",
+      "expected_posture": "preserved failed-lineage evidence only",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "adoption_created": false,
+        "arbitrary_lookup_permission_created": false,
+        "arbitrary_reception_created": false,
+        "artifact_existence_treated_as_lookup_result_boundary_authority": false,
+        "authority_created": false,
+        "authority_judgment_created": false,
+        "authorization_token_reused": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "currentness_judgment_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "feed_created": false,
+        "filesystem_discovery_performed": false,
+        "follow_on_work_authorized": false,
+        "general_lookup_permission_created": false,
+        "hidden_repo_state_used_as_lookup_result_boundary_authority": false,
+        "hidden_repo_state_used_as_lookup_result_boundary_content": false,
+        "latest_file_posture_treated_as_lookup_result_boundary_authority": false,
+        "lookup_result_created": false,
+        "new_entry_accepted": false,
+        "new_index_entry_created": false,
+        "new_lookup_entry_created": false,
+        "new_relevance_object_created": false,
+        "new_signal_accepted": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "participant_role_created": false,
+        "participation_authorized": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "priority_surface_created": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "query_surface_created": false,
+        "ranking_surface_created": false,
+        "receiving_context_governance_created": false,
+        "registry_created": false,
+        "repeated_reception_permission_created": false,
+        "repo_local_availability_treated_as_lookup_result_boundary_authority": false,
+        "runtime_permission_created": false,
+        "scoring_surface_created": false,
+        "search_surface_created": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "synchronization_created": false,
+        "truth_created": false,
+        "truth_judgment_created": false,
+        "unsupported_commands_permitted": false,
+        "unsupported_lookup_keys_permitted": false,
+        "validity_judgment_created": false,
+        "vessel_relation_authorized": false
+      },
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all result-level required false non-claims are false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "adoption_created": false,
+        "arbitrary_lookup_permission_created": false,
+        "arbitrary_reception_created": false,
+        "artifact_existence_treated_as_lookup_result_boundary_authority": false,
+        "authority_created": false,
+        "authority_judgment_created": false,
+        "authorization_token_reused": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "currentness_judgment_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "feed_created": false,
+        "filesystem_discovery_performed": false,
+        "follow_on_work_authorized": false,
+        "general_lookup_permission_created": false,
+        "hidden_repo_state_used_as_lookup_result_boundary_authority": false,
+        "hidden_repo_state_used_as_lookup_result_boundary_content": false,
+        "latest_file_posture_treated_as_lookup_result_boundary_authority": false,
+        "lookup_result_created": false,
+        "new_entry_accepted": false,
+        "new_index_entry_created": false,
+        "new_lookup_entry_created": false,
+        "new_relevance_object_created": false,
+        "new_signal_accepted": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "participant_role_created": false,
+        "participation_authorized": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "priority_surface_created": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "query_surface_created": false,
+        "ranking_surface_created": false,
+        "receiving_context_governance_created": false,
+        "registry_created": false,
+        "repeated_reception_permission_created": false,
+        "repo_local_availability_treated_as_lookup_result_boundary_authority": false,
+        "runtime_permission_created": false,
+        "scoring_surface_created": false,
+        "search_surface_created": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "synchronization_created": false,
+        "truth_created": false,
+        "truth_judgment_created": false,
+        "unsupported_commands_permitted": false,
+        "unsupported_lookup_keys_permitted": false,
+        "validity_judgment_created": false,
+        "vessel_relation_authorized": false
+      },
+      "check_name": "declared required non-claims false",
+      "expected_posture": "declared required non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "local_relevance_medium_read_only_lookup_result_boundary_metadata": {
+    "generated_at": "2026-05-21T11:14:18+00:00",
+    "local_relevance_medium_read_only_lookup_result_boundary_id": "local_relevance_medium_read_only_lookup_result_boundary_001",
+    "local_relevance_medium_read_only_lookup_result_boundary_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+    "local_relevance_medium_read_only_lookup_result_boundary_version": "0.1.0",
+    "resolver_module": "resolve_local_relevance_medium_read_only_lookup_result_boundary_v0_min"
+  },
+  "local_relevance_medium_read_only_lookup_result_boundary_non_meaning": {
+    "lookup_result_boundary_only": true,
+    "not_arbitrary_lookup_permission": true,
+    "not_distributed_network_behavior": true,
+    "not_filesystem_discovery": true,
+    "not_follow_on_work": true,
+    "not_general_lookup_permission": true,
+    "not_lookup_result": true,
+    "not_new_lookup_entry": true,
+    "not_operation_permission": true,
+    "not_participant_facing_interface": true,
+    "not_public_api": true,
+    "not_query_surface": true,
+    "not_ranking": true,
+    "not_registry": true,
+    "not_runtime_permission": true,
+    "not_search": true,
+    "not_source_receipt": true,
+    "not_source_transfer": true,
+    "not_unsupported_command_permission": true,
+    "not_unsupported_lookup_key_permission": true
+  },
+  "local_relevance_medium_read_only_lookup_result_boundary_statement": {
+    "authorization_token_reuse_blocked": true,
+    "basis_lookup_performed_artifact_preserved": true,
+    "consumed_request_token_remains_closed": true,
+    "future_lookup_result_may_be_considered": true,
+    "local_relevance_medium_read_only_lookup_result_boundary_recorded": true,
+    "lookup_performed": true,
+    "lookup_performed_local_only": true,
+    "lookup_performed_read_only": true,
+    "predecessor_failure_evidence_preserved": true,
+    "result_level_non_claims_canonical_false": true,
+    "selected_command_is_state": true,
+    "selected_command_preserved": true,
+    "selected_lookup_performed_recorded": true
+  },
+  "local_relevance_medium_read_only_lookup_result_boundary_summary": {
+    "arbitrary_lookup_permission_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "basis_lookup_performed_artifact_preserved": true,
+    "block_code": null,
+    "block_reason": null,
+    "boundary_id": "local_relevance_medium_read_only_lookup_result_boundary_001",
+    "boundary_object_summary": {
+      "basis_lookup_performed_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_v0_min/local_relevance_medium_read_only_lookup_performed_reference_review_001__local_relevance_medium_read_only_lookup_performed_v0_min_result.json",
+      "boundary_scope": "SELECTED_LOOKUP_RESULT_CONSIDERATION_ONLY",
+      "boundary_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+      "future_lookup_result_may_be_considered": true,
+      "lookup_result_created": false,
+      "selected_command": "state"
+    },
+    "boundary_recorded": true,
+    "consumed_request_token_remains_closed": true,
+    "distributed_network_behavior_not_created": true,
+    "failed_check_count": 0,
+    "filesystem_discovery_not_performed": true,
+    "follow_on_not_created": true,
+    "future_lookup_result_may_be_considered": true,
+    "general_lookup_permission_not_created": true,
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY",
+    "key_non_claims": {
+      "authorization_token_reused": true,
+      "consumed_request_reopened": true,
+      "distributed_network_behavior_created": true,
+      "follow_on_work_authorized": true,
+      "lookup_result_created": true,
+      "operation_permission_created": true,
+      "participant_facing_interface_created": true,
+      "public_api_created": true,
+      "runtime_permission_created": true
+    },
+    "lookup_performed": true,
+    "lookup_performed_local_only": true,
+    "lookup_performed_read_only": true,
+    "lookup_result_not_created": true,
+    "no_new_lookup_entry_created": true,
+    "no_new_signal_entry_relevance_object_index_entry_created": true,
+    "operation_permission_not_created": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "passed_check_count": 83,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "question": "Given one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED for selected command state, existing reusable read-only lookup permission, and prior lookup-pair coverage, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY be recorded that permits a future local read-only lookup result to be considered as a separately bounded step, without creating lookup result, creating operation permission, creating runtime permission, creating public API, creating participant-facing interface, creating distributed network behavior, creating general lookup permission, creating arbitrary lookup permission, permitting unsupported commands, permitting unsupported lookup keys, creating new lookup entry, accepting new entries, accepting new signals, performing filesystem discovery, creating query surface, registry, search, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, synchronization, participation authorization, participant role, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?",
+    "registry_search_query_ranking_not_created": true,
+    "repeated_reception_permission_arbitrary_reception_feed_not_created": true,
+    "resolver_module": "resolve_local_relevance_medium_read_only_lookup_result_boundary_v0_min",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_permission_not_created": true,
+    "scoring_priority_validity_truth_authority_currentness_judgment_not_created": true,
+    "selected_command": "state",
+    "selected_command_is_state": true,
+    "selected_command_preserved": true,
+    "selected_lookup_performed_recorded": true,
+    "source_authority_currentness_truth_synchronization_participation_participant_role_not_created": true,
+    "unsupported_commands_not_permitted": true,
+    "unsupported_lookup_keys_not_permitted": true
+  },
+  "non_claims": {
+    "adoption_created": false,
+    "arbitrary_lookup_permission_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_lookup_result_boundary_authority": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "authorization_token_reused": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "follow_on_work_authorized": false,
+    "general_lookup_permission_created": false,
+    "hidden_repo_state_used_as_lookup_result_boundary_authority": false,
+    "hidden_repo_state_used_as_lookup_result_boundary_content": false,
+    "latest_file_posture_treated_as_lookup_result_boundary_authority": false,
+    "lookup_result_created": false,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "receiving_context_governance_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_lookup_result_boundary_authority": false,
+    "runtime_permission_created": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "unsupported_commands_permitted": false,
+    "unsupported_lookup_keys_permitted": false,
+    "validity_judgment_created": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": null,
+  "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT_BOUNDARY_RECORDED",
+  "selected_lookup_performed_artifact_basis": {
+    "basis_lookup_performed_artifact_preserved": true,
+    "basis_lookup_performed_failed_check_count": 0,
+    "basis_lookup_performed_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+    "basis_lookup_performed_result_version": "0.1.0",
+    "basis_lookup_performed_selected_command": "state",
+    "lookup_performed": true,
+    "lookup_performed_local_only": true,
+    "lookup_performed_read_only": true,
+    "selected_lookup_performed_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_v0_min/local_relevance_medium_read_only_lookup_performed_reference_review_001__local_relevance_medium_read_only_lookup_performed_v0_min_result.json",
+    "selected_lookup_performed_recorded": true
+  },
+  "what_remains_open": [
+    "local relevance medium read-only lookup result",
+    "operation permission",
+    "runtime permission",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "general lookup permission",
+    "arbitrary lookup permission",
+    "unsupported-command permission",
+    "unsupported-key permission",
+    "new lookup entry",
+    "registry",
+    "search surface",
+    "query surface",
+    "ranking surface",
+    "source transfer",
+    "source receipt",
+    "authority creation",
+    "currentness creation",
+    "truth creation",
+    "synchronization",
+    "participation authorization",
+    "participant role",
+    "deployment",
+    "public release",
+    "broader reusable permission",
+    "repeated reception permission",
+    "arbitrary reception",
+    "feed",
+    "follow-on work"
+  ]
+}

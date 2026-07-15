@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-04-02T11:55:29Z",
+  "checks": [
+    {
+      "message": "All preserved files recorded before preservation conformance must exist.",
+      "name": "written_files_exist",
+      "status": "pass"
+    },
+    {
+      "message": "Canonical bodies and envelope-bearing emissions must both be preserved separately.",
+      "name": "canonical_bodies_separate_from_envelopes",
+      "status": "pass"
+    },
+    {
+      "message": "Conformance material must remain explicitly preserved as its own readable layer.",
+      "name": "conformance_layer_present",
+      "status": "pass"
+    },
+    {
+      "message": "Negative fixture material must remain under an explicitly separate negative fixture branch.",
+      "name": "negative_fixture_separated",
+      "status": "pass"
+    },
+    {
+      "message": "Continuity remains out of scope for the bounded ordinary proof slice.",
+      "name": "continuity_not_emitted",
+      "status": "pass"
+    },
+    {
+      "message": "The bounded ordinary proof slice must preserve outputs through the shared implementation-local layout surface.",
+      "name": "shared_layout_surface_used",
+      "status": "pass"
+    },
+    {
+      "message": "The local preservation surface must remain bounded to v1/registry/runs/<execution-identity>/.",
+      "name": "run_directory_bounded_to_v1_registry",
+      "status": "pass"
+    }
+  ],
+  "preservation_layout": {
+    "execution_identity": "execution-9e1ab4ec88734dfcb5c257bf77976624",
+    "execution_run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+    "layer_roots": {
+      "canonical_body": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body",
+      "conformance": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance",
+      "envelope": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope",
+      "execution_relation": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/execution_relation",
+      "fixtures": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs",
+      "manifest": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/manifest",
+      "source_notes": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/source_notes",
+      "summary": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary"
+    },
+    "layout_kind": "ordinary",
+    "naming_posture": "implementation_local_default",
+    "run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624"
+  },
+  "run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+  "status": "pass",
+  "surface": "preservation_conformance"
+}

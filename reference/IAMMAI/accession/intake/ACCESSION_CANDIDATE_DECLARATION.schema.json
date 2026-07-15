@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI Accession Candidate Declaration",
+  "description": "First intake declaration schema for one bounded accession candidate slice. This schema is slice-first, provenance-oriented, strict about source/export/case/scope distinction, and limited to candidacy review rather than proof, admission, vesselhood, standing, or closure.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "external_system_name",
+    "candidate_slice_name",
+    "candidate_slice_id",
+    "slice_type",
+    "included_scope",
+    "excluded_scope",
+    "source_object_paths",
+    "export_slice_paths",
+    "clean_case_paths",
+    "blocked_case_paths",
+    "source_description",
+    "export_description",
+    "display_only_description",
+    "proof_question"
+  ],
+  "properties": {
+    "external_system_name": {
+      "type": "string",
+      "description": "Name of the outside system from which the candidate slice is being declared.",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": ".*\\S.*"
+    },
+    "candidate_slice_name": {
+      "type": "string",
+      "description": "Human-readable name for the one bounded candidate slice being submitted for first candidacy review.",
+      "minLength": 1,
+      "maxLength": 200,
+      "pattern": ".*\\S.*",
+      "not": {
+        "pattern": "^\\s*(?:[Aa]ll|[Ee]verything|[Ee]ntire\\s+[Pp]latform|[Ee]ntire\\s+[Ss]ystem|[Ww]hole\\s+[Ss]ystem)\\s*$"
+      }
+    },
+    "candidate_slice_id": {
+      "type": "string",
+      "description": "Bounded identifier for the candidate slice declaration.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "slice_type": {
+      "type": "string",
+      "description": "Typed label for the candidate slice being declared.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+    },
+    "included_scope": {
+      "type": "array",
+      "description": "Explicit bounded scope that is inside the candidate slice declaration.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300,
+        "pattern": ".*\\S.*",
+        "not": {
+          "pattern": "^\\s*(?:[Aa]ll|[Ee]verything|[Ee]ntire\\s+[Pp]latform|[Ee]ntire\\s+[Ss]ystem|[Ww]hole\\s+[Ss]ystem)\\s*$"
+        }
+      }
+    },
+    "excluded_scope": {
+      "type": "array",
+      "description": "Explicit bounded scope that is outside the candidate slice and must not be silently smuggled in by adjacency.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 300,
+        "pattern": ".*\\S.*",
+        "not": {
+          "pattern": "^\\s*(?:[Aa]ll|[Ee]verything|[Ee]ntire\\s+[Pp]latform|[Ee]ntire\\s+[Ss]ystem|[Ww]hole\\s+[Ss]ystem)\\s*$"
+        }
+      }
+    },
+    "source_object_paths": {
+      "type": "array",
+      "description": "Paths naming the source-side objects from which the candidate slice is exported or derived.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "export_slice_paths": {
+      "type": "array",
+      "description": "Paths naming the concrete exported slice surfaces being handed in for first candidacy review.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "clean_case_paths": {
+      "type": "array",
+      "description": "Paths naming bounded clean cases that show the candidate slice in an intended or legible state.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "blocked_case_paths": {
+      "type": "array",
+      "description": "Paths naming bounded blocked cases that show where the candidate slice fails, stops, or remains non-ready.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "source_description": {
+      "type": "string",
+      "description": "Bounded description of what counts as source for the candidate slice.",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": ".*\\S.*"
+    },
+    "export_description": {
+      "type": "string",
+      "description": "Bounded description of what counts as the exported or handed-in slice under review.",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": ".*\\S.*"
+    },
+    "display_only_description": {
+      "type": "string",
+      "description": "Bounded description of what is display-only or non-source presentation so source/export/display distinction remains explicit.",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": ".*\\S.*"
+    },
+    "proof_question": {
+      "type": "string",
+      "description": "One bounded proof-question seed for later candidacy review of this single declared slice.",
+      "minLength": 1,
+      "maxLength": 2000,
+      "pattern": ".*\\S.*"
+    }
+  }
+}

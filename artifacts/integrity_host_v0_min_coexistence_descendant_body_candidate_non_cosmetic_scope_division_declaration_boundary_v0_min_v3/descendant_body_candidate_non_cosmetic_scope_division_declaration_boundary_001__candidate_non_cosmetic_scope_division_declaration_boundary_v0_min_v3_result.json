@@ -1,0 +1,1780 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "candidate_non_cosmetic_scope_division_declaration_boundary_basis": {
+    "boundary_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_V0_MIN_SPEC.md",
+    "completed_basis_emission_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "completed_basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "file_discovery_performed": false,
+    "raw_markdown_bodies_returned": false,
+    "repository_scan_performed": false
+  },
+  "candidate_non_cosmetic_scope_division_declaration_boundary_checks": [
+    {
+      "actual_posture": "Given one completed candidate-specific distinctness basis emission operation that recorded REQUIRES_ADDITIONAL_BASIS because non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division are missing from the current live repo basis, may the body define a future operation that declares non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division, while forbidding scope-label laundering, cosmetic scope naming, id/role/label/template substitution, candidate-specific content emission, seal material emission, lineage receipt material emission, digest material emission, distinctness rerun, DISTINCTNESS_SUPPORTED, candidate records marked distinct, candidate standing, descendant-body creation, crossing, relation, FIELD machinery, runtime, currentness, authority, output, action, derivative reception, synchronization, repair, scan, validation enforcement, prior unsupported claim validation, and follow-on authorization?",
+      "block_code": null,
+      "check_name": "boundary question declared",
+      "expected_posture": "non-empty boundary question",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "boundary intent supported",
+      "expected_posture": [
+        "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+        "DO_NOT_RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+        "BLOCK_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "boundary block intent not requested",
+      "expected_posture": "not BLOCK_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "boundary type declared",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "block_code": null,
+      "check_name": "boundary type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "boundary version declared",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "boundary version exact",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "block_code": null,
+      "check_name": "future declaration operation type declared",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "block_code": null,
+      "check_name": "future declaration operation type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "SCOPE_LABEL_LAUNDERING",
+      "block_code": null,
+      "check_name": "rupture class blocked declared",
+      "expected_posture": "SCOPE_LABEL_LAUNDERING",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "SCOPE_LABEL_LAUNDERING",
+      "block_code": null,
+      "check_name": "rupture class blocked exact",
+      "expected_posture": "SCOPE_LABEL_LAUNDERING",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_V0_MIN_SPEC.md",
+      "block_code": null,
+      "check_name": "boundary spec reference declared",
+      "expected_posture": "declared Markdown reference path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": null,
+      "check_name": "completed basis emission operation terminal summary reference declared",
+      "expected_posture": "declared Markdown reference path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "block_code": null,
+      "check_name": "completed basis emission boundary terminal summary reference declared",
+      "expected_posture": "declared Markdown reference path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": null,
+      "check_name": "completed distinctness operation terminal summary reference declared",
+      "expected_posture": "declared Markdown reference path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "block_code": null,
+      "check_name": "completed differentiation operation terminal summary reference declared",
+      "expected_posture": "declared Markdown reference path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "REQUIRES_ADDITIONAL_BASIS",
+      "block_code": null,
+      "check_name": "upstream emission operation result is REQUIRES_ADDITIONAL_BASIS",
+      "expected_posture": "REQUIRES_ADDITIONAL_BASIS",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "REQUIRES_ADDITIONAL_BASIS preserved as clean result",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "candidate A scope missing upstream true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "candidate B scope missing upstream true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "basis-bearing scope division missing upstream true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "future scope declaration operation shape allowed true",
+      "expected_posture": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "future scope declaration operation created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission operation rerun false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "scan allowed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repair allowed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "validation enforcement allowed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "standing authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "crossing authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "relation authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "field machinery authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow on authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow on work authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior unsupported candidate a claim validated false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior unsupported candidate b claim validated false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior unsupported derivation event claim validated false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "valid derivation event recorded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file repaired false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file edited false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file deleted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file overwritten false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file replaced false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file redeemed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "affected file treated as clean basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "contaminated lineage treated as clean basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "existence claim evidence check overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "existence claim evidence check bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "differentiation operation overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "differentiation operation bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness operation boundary overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness operation boundary bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness operation overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness operation bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission boundary overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission boundary bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission operation overridden false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission operation bypassed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "scan performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repository scan performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repair performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "validation enforced false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden repair performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "silent overwrite performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate non cosmetic scope division declaration operation created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate non cosmetic scope division declaration operation performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate non cosmetic scope division declaration operation recorded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate a scope declared false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate b scope declared false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "basis bearing scope division declared false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific distinctness basis emission operation recorded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate specific content emitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "separate seal material emitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "separate lineage receipt material emitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "separate digest material emitted false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness operation rerun false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distinctness supported recorded false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate records marked distinct false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate records distinct false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate standing authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "candidate standing created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "descendant body a created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "descendant body b created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "descendant body created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "standing descendant created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "descendant standing check performed false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "first crossing authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "relation created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "field machinery created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "api created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "currentness created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authority created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "standing created false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "output authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "action authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "derivative reception authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "synchronization authorized false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "scope label laundering treated as basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "cosmetic scope naming treated as basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "id role label difference treated as scope basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "shared evidence treated as scope basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "operation evidence alone treated as scope basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "contaminated lineage treated as clean scope basis false",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested scope declaration operation definition not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested scope declaration operation implementation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested candidate a scope declaration not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested candidate b scope declaration not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis bearing scope division declaration not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested candidate specific content emission not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested separate seal material emission not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested separate lineage receipt material emission not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested separate digest material emission not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis emission operation rerun not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness operation rerun not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness supported recording not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested candidate records marked distinct not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested repository scan not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested file discovery not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested affected file repair not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested affected file mutation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested prior unsupported claim validation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested existence claim evidence check override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested existence claim evidence check bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested differentiation operation override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested differentiation operation bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness operation boundary override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness operation boundary bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness operation override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested distinctness operation bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis emission boundary override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis emission boundary bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis emission operation override not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested basis emission operation bypass not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested candidate standing authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested descendant body creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested standing descendant creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested descendant standing check not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested crossing authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested relation creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested field machinery creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested runtime creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested currentness creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested authority creation not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested output authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested action authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested derivative reception authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested synchronization authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested follow on authorization not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "requested raw markdown body return not requested",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "required non-claims false",
+      "expected_posture": "all required declared non-claims present as bool false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "present_marker_count": 24,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_V0_MIN_SPEC.md",
+        "required_marker_count": 24
+      },
+      "block_code": null,
+      "check_name": "boundary spec markers present",
+      "expected_posture": "all required markers present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "present_marker_count": 16,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 16
+      },
+      "block_code": null,
+      "check_name": "completed basis emission operation terminal summary markers present",
+      "expected_posture": "all required markers present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "present_marker_count": 5,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 5
+      },
+      "block_code": null,
+      "check_name": "completed basis emission boundary terminal summary markers present",
+      "expected_posture": "all required markers present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "present_marker_count": 9,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 9
+      },
+      "block_code": null,
+      "check_name": "completed distinctness operation terminal summary markers present",
+      "expected_posture": "all required markers present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_posture_classes": [],
+        "posture_classes": {
+          "completion_or_operation_result": true,
+          "crossing_and_relation_not_authorized": true,
+          "exactly_two_candidate_records": true,
+          "nonstanding_and_not_descendant_body": "[redacted-sensitive-content]",
+          "standing_or_descendant_creation_not_authorized": true
+        },
+        "present_marker_count": 5,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 5
+      },
+      "block_code": null,
+      "check_name": "completed differentiation operation terminal summary markers present",
+      "expected_posture": "all five differentiation posture classes present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "canonical false",
+      "block_code": null,
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all result-level required non-claims false",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "candidate_non_cosmetic_scope_division_declaration_boundary_metadata": {
+    "boundary_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+    "candidate_non_cosmetic_scope_division_declaration_boundary_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_001",
+    "failed_check_count": 0,
+    "generated_at": "2026-07-09T08:33:17+00:00",
+    "passed_check_count": 156,
+    "resolver_module": "resolve_descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3",
+    "result_version": "0.3.0"
+  },
+  "candidate_non_cosmetic_scope_division_declaration_boundary_non_meaning": {
+    "this_is_not_authority": true,
+    "this_is_not_basis_bearing_scope_division_declaration": true,
+    "this_is_not_candidate_a_scope_declaration": true,
+    "this_is_not_candidate_b_scope_declaration": true,
+    "this_is_not_candidate_specific_content_emission": true,
+    "this_is_not_candidate_standing": true,
+    "this_is_not_descendant_body_creation": true,
+    "this_is_not_distinctness_support": true,
+    "this_is_not_follow_on_authorization": true,
+    "this_is_not_runtime": true,
+    "this_is_not_scope_declaration_operation": true
+  },
+  "candidate_non_cosmetic_scope_division_declaration_boundary_statement": {
+    "authority_not_created": true,
+    "basis_bearing_scope_division_not_declared": true,
+    "boundary_created": true,
+    "candidate_a_scope_not_declared": true,
+    "candidate_b_scope_not_declared": true,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_recorded": true,
+    "candidate_specific_content_not_emitted": true,
+    "candidate_standing_not_authorized": true,
+    "cosmetic_scope_naming_not_allowed": true,
+    "crossing_authorized": false,
+    "descendant_bodies_not_created": true,
+    "distinctness_operation_not_rerun": true,
+    "distinctness_supported_not_recorded": true,
+    "emission_operation_not_rerun": true,
+    "follow_on_authorized": false,
+    "follow_on_not_authorized": true,
+    "follow_on_work_authorized": false,
+    "future_scope_declaration_operation_shape_allowed": true,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_not_created": true,
+    "scope_label_laundering_not_allowed": true,
+    "standing_authorized": false,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS"
+  },
+  "candidate_non_cosmetic_scope_division_declaration_boundary_summary": {
+    "action_authorized": false,
+    "action_not_authorized": true,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_not_repaired": true,
+    "affected_file_not_treated_as_clean_basis": true,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "api_not_created": true,
+    "authority_created": false,
+    "authority_not_created": true,
+    "basis_bearing_scope_division_declared": false,
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_bearing_scope_division_not_declared": true,
+    "basis_emission_boundary_not_bypassed": true,
+    "basis_emission_boundary_not_overridden": true,
+    "basis_emission_operation_not_bypassed": true,
+    "basis_emission_operation_not_overridden": true,
+    "block_code": null,
+    "block_reason": null,
+    "boundary_created": true,
+    "boundary_spec_markers_present": true,
+    "boundary_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "candidate_a_scope_declared": false,
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_a_scope_not_declared": true,
+    "candidate_b_scope_declared": false,
+    "candidate_b_scope_missing_upstream": true,
+    "candidate_b_scope_not_declared": true,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_001",
+    "candidate_non_cosmetic_scope_division_declaration_boundary_recorded": true,
+    "candidate_non_cosmetic_scope_division_declaration_operation_created": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_performed": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_records_not_marked_distinct": true,
+    "candidate_specific_content_emitted": false,
+    "candidate_specific_content_not_emitted": true,
+    "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_recorded": false,
+    "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "candidate_standing_not_authorized": true,
+    "completed_basis_emission_boundary_terminal_summary_markers_present": true,
+    "completed_basis_emission_operation_terminal_summary_markers_present": true,
+    "completed_differentiation_operation_terminal_summary_markers_present": true,
+    "completed_distinctness_operation_terminal_summary_markers_present": true,
+    "contaminated_lineage_not_allowed_as_clean_scope_basis": true,
+    "contaminated_lineage_not_treated_as_clean_basis": true,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "contaminated_lineage_treated_as_clean_scope_basis": false,
+    "cosmetic_scope_naming_not_allowed": true,
+    "cosmetic_scope_naming_treated_as_basis": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "currentness_not_created": true,
+    "derivative_reception_authorized": false,
+    "derivative_reception_not_authorized": true,
+    "descendant_bodies_not_created": true,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_not_bypassed": true,
+    "differentiation_operation_not_overridden": true,
+    "differentiation_operation_overridden": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_not_bypassed": true,
+    "distinctness_operation_boundary_not_overridden": true,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_not_bypassed": true,
+    "distinctness_operation_not_overridden": true,
+    "distinctness_operation_not_rerun": true,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_not_recorded": true,
+    "distinctness_supported_recorded": false,
+    "emission_operation_not_rerun": true,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_not_bypassed": true,
+    "existence_claim_evidence_check_not_overridden": true,
+    "existence_claim_evidence_check_overridden": false,
+    "failed_check_count": 0,
+    "field_machinery_authorized": false,
+    "field_machinery_created": false,
+    "field_machinery_not_created": true,
+    "first_crossing_authorized": false,
+    "first_crossing_not_authorized": true,
+    "follow_on_authorized": false,
+    "follow_on_not_authorized": true,
+    "follow_on_work_authorized": false,
+    "future_declaration_operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "future_scope_declaration_operation_created": false,
+    "future_scope_declaration_operation_not_created": true,
+    "future_scope_declaration_operation_shape_allowed": true,
+    "hidden_repair_not_performed": true,
+    "hidden_repair_performed": false,
+    "id_role_label_difference_not_allowed_as_scope_basis": true,
+    "id_role_label_difference_treated_as_scope_basis": false,
+    "intent": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+    "operation_evidence_alone_not_allowed_as_scope_basis": true,
+    "operation_evidence_alone_treated_as_scope_basis": false,
+    "outcome": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_RECORDED",
+    "output_authorized": false,
+    "output_not_authorized": true,
+    "passed_check_count": 156,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_claims_not_validated": true,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "question": "Given one completed candidate-specific distinctness basis emission operation that recorded REQUIRES_ADDITIONAL_BASIS because non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division are missing from the current live repo basis, may the body define a future operation that declares non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division, while forbidding scope-label laundering, cosmetic scope naming, id/role/label/template substitution, candidate-specific content emission, seal material emission, lineage receipt material emission, digest material emission, distinctness rerun, DISTINCTNESS_SUPPORTED, candidate records marked distinct, candidate standing, descendant-body creation, crossing, relation, FIELD machinery, runtime, currentness, authority, output, action, derivative reception, synchronization, repair, scan, validation enforcement, prior unsupported claim validation, and follow-on authorization?",
+    "relation_authorized": false,
+    "relation_created": false,
+    "relation_not_created": true,
+    "repair_not_performed": true,
+    "repair_performed": false,
+    "repository_scan_not_performed": true,
+    "repository_scan_performed": false,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "resolver_module": "resolve_descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.3.0",
+    "runtime_created": false,
+    "runtime_not_created": true,
+    "rupture_class_blocked": "SCOPE_LABEL_LAUNDERING",
+    "scan_not_performed": true,
+    "scan_performed": false,
+    "scope_label_laundering_not_allowed": true,
+    "scope_label_laundering_treated_as_basis": false,
+    "separate_digest_material_emitted": false,
+    "separate_digest_material_not_emitted": true,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_lineage_receipt_material_not_emitted": true,
+    "separate_seal_material_emitted": false,
+    "separate_seal_material_not_emitted": true,
+    "shared_evidence_not_allowed_as_scope_basis": true,
+    "shared_evidence_treated_as_scope_basis": false,
+    "silent_overwrite_not_performed": true,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "standing_descendants_not_created": true,
+    "standing_not_created": true,
+    "synchronization_authorized": false,
+    "synchronization_not_authorized": true,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS",
+    "upstream_emission_operation_result_is_requires_additional_basis": true,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false,
+    "validation_not_enforced": true
+  },
+  "declared_candidate_non_cosmetic_scope_division_declaration_boundary_question": {
+    "boundary_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_V0_MIN_SPEC.md",
+    "completed_basis_emission_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "completed_basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "intent": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+    "question": "Given one completed candidate-specific distinctness basis emission operation that recorded REQUIRES_ADDITIONAL_BASIS because non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division are missing from the current live repo basis, may the body define a future operation that declares non-cosmetic candidate A scope, non-cosmetic candidate B scope, and basis-bearing scope division, while forbidding scope-label laundering, cosmetic scope naming, id/role/label/template substitution, candidate-specific content emission, seal material emission, lineage receipt material emission, digest material emission, distinctness rerun, DISTINCTNESS_SUPPORTED, candidate records marked distinct, candidate standing, descendant-body creation, crossing, relation, FIELD machinery, runtime, currentness, authority, output, action, derivative reception, synchronization, repair, scan, validation enforcement, prior unsupported claim validation, and follow-on authorization?"
+  },
+  "descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary": {
+    "action_not_authorized": true,
+    "affected_file_not_repaired": true,
+    "affected_file_not_treated_as_clean_basis": true,
+    "api_not_created": true,
+    "authority_not_created": true,
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_bearing_scope_division_not_declared": true,
+    "basis_emission_boundary_not_bypassed": true,
+    "basis_emission_boundary_not_overridden": true,
+    "basis_emission_operation_not_bypassed": true,
+    "basis_emission_operation_not_overridden": true,
+    "boundary_created": true,
+    "boundary_spec_markers_present": true,
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_a_scope_not_declared": true,
+    "candidate_b_scope_missing_upstream": true,
+    "candidate_b_scope_not_declared": true,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_001",
+    "candidate_non_cosmetic_scope_division_declaration_boundary_recorded": true,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY",
+    "candidate_non_cosmetic_scope_division_declaration_boundary_version": "0.1.0",
+    "candidate_records_not_marked_distinct": true,
+    "candidate_specific_content_not_emitted": true,
+    "candidate_standing_not_authorized": true,
+    "completed_basis_emission_boundary_terminal_summary_markers_present": true,
+    "completed_basis_emission_operation_terminal_summary_markers_present": true,
+    "completed_differentiation_operation_terminal_summary_markers_present": true,
+    "completed_distinctness_operation_terminal_summary_markers_present": true,
+    "contaminated_lineage_not_allowed_as_clean_scope_basis": true,
+    "contaminated_lineage_not_treated_as_clean_basis": true,
+    "cosmetic_scope_naming_not_allowed": true,
+    "currentness_not_created": true,
+    "derivative_reception_not_authorized": true,
+    "descendant_bodies_not_created": true,
+    "differentiation_operation_not_bypassed": true,
+    "differentiation_operation_not_overridden": true,
+    "distinctness_operation_boundary_not_bypassed": true,
+    "distinctness_operation_boundary_not_overridden": true,
+    "distinctness_operation_not_bypassed": true,
+    "distinctness_operation_not_overridden": true,
+    "distinctness_operation_not_rerun": true,
+    "distinctness_supported_not_recorded": true,
+    "emission_operation_not_rerun": true,
+    "existence_claim_evidence_check_not_bypassed": true,
+    "existence_claim_evidence_check_not_overridden": true,
+    "field_machinery_not_created": true,
+    "first_crossing_not_authorized": true,
+    "follow_on_not_authorized": true,
+    "future_scope_declaration_operation_not_created": true,
+    "future_scope_declaration_operation_shape_allowed": true,
+    "future_scope_declaration_operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "hidden_repair_not_performed": true,
+    "id_role_label_difference_not_allowed_as_scope_basis": true,
+    "operation_evidence_alone_not_allowed_as_scope_basis": true,
+    "output_not_authorized": true,
+    "prior_unsupported_claims_not_validated": true,
+    "relation_not_created": true,
+    "repair_not_performed": true,
+    "repository_scan_not_performed": true,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "runtime_not_created": true,
+    "rupture_class_blocked": "SCOPE_LABEL_LAUNDERING",
+    "scan_not_performed": true,
+    "scope_label_laundering_not_allowed": true,
+    "separate_digest_material_not_emitted": true,
+    "separate_lineage_receipt_material_not_emitted": true,
+    "separate_seal_material_not_emitted": true,
+    "shared_evidence_not_allowed_as_scope_basis": true,
+    "silent_overwrite_not_performed": true,
+    "standing_descendants_not_created": true,
+    "standing_not_created": true,
+    "synchronization_not_authorized": true,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS",
+    "upstream_emission_operation_result_is_requires_additional_basis": true,
+    "validation_not_enforced": true
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_bearing_scope_division_declared": false,
+    "candidate_a_scope_declared": false,
+    "candidate_b_scope_declared": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_created": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_performed": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_specific_content_emitted": false,
+    "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_recorded": false,
+    "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "contaminated_lineage_treated_as_clean_scope_basis": false,
+    "cosmetic_scope_naming_treated_as_basis": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_overridden": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_overridden": false,
+    "field_machinery_authorized": false,
+    "field_machinery_created": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "future_scope_declaration_operation_created": false,
+    "hidden_repair_performed": false,
+    "id_role_label_difference_treated_as_scope_basis": false,
+    "operation_evidence_alone_treated_as_scope_basis": false,
+    "output_authorized": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_authorized": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_label_laundering_treated_as_basis": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "shared_evidence_treated_as_scope_basis": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_RECORDED",
+  "upstream_basis": {
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_summaries": {
+      "boundary_spec": {
+        "markers_present": true,
+        "present_marker_count": 24,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_V0_MIN_SPEC.md",
+        "required_marker_count": 24
+      },
+      "completed_basis_emission_boundary_terminal_summary": {
+        "markers_present": true,
+        "present_marker_count": 5,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 5
+      },
+      "completed_basis_emission_operation_terminal_summary": {
+        "markers_present": true,
+        "present_marker_count": 16,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 16
+      },
+      "completed_differentiation_operation_terminal_summary": {
+        "markers_present": true,
+        "missing_posture_classes": [],
+        "posture_classes": {
+          "completion_or_operation_result": true,
+          "crossing_and_relation_not_authorized": true,
+          "exactly_two_candidate_records": true,
+          "nonstanding_and_not_descendant_body": true,
+          "standing_or_descendant_creation_not_authorized": true
+        },
+        "present_marker_count": 5,
+        "raw_class_hits": {
+          "completion_or_operation_result": true,
+          "crossing_absent": true,
+          "exactly_two_candidate_records": true,
+          "nonstanding": true,
+          "not_descendant_body": true,
+          "relation_absent": true,
+          "standing_or_descendant_creation_not_authorized": true
+        },
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 5
+      },
+      "completed_distinctness_operation_terminal_summary": {
+        "markers_present": true,
+        "present_marker_count": 9,
+        "readable": true,
+        "reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+        "required_marker_count": 9
+      }
+    },
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_b_scope_missing_upstream": true,
+    "completed_basis_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS",
+    "requires_additional_basis_preserved_as_clean_result": true
+  },
+  "what_remains_open": [
+    "candidate non-cosmetic scope-division declaration operation spec",
+    "candidate non-cosmetic scope-division declaration resolver",
+    "candidate non-cosmetic scope-division declaration test",
+    "candidate non-cosmetic scope-division declaration artifact",
+    "candidate non-cosmetic scope-division declaration terminal summary",
+    "actual non-cosmetic candidate A scope declaration",
+    "actual non-cosmetic candidate B scope declaration",
+    "actual basis-bearing scope division declaration",
+    "candidate-specific distinctness basis emission operation successor, if separately bounded",
+    "actual candidate-specific content emission",
+    "actual separate seal material emission",
+    "actual separate lineage receipt material emission",
+    "actual separate digest material emission",
+    "future distinctness-supported operation result, if separately supported",
+    "candidate-record standing checks",
+    "first crossing",
+    "relation",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "repair or successor handling of the affected file, if ever separately bounded",
+    "prose-shaped existence-claim handling, if ever separately bounded",
+    "automated repository scan, if ever separately bounded",
+    "follow-on work"
+  ]
+}

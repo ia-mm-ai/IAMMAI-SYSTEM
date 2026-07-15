@@ -1,0 +1,1419 @@
+"""Tests for the local read-only selected-state lookup performed resolver.
+
+This suite is bounded to one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED
+object. It verifies that the resolver reads one clean lookup performed boundary
+artifact and one clean selected-state lookup command execution artifact, then
+records one local read-only selected-state lookup-performed event only.
+
+The suite does not create lookup result behavior, operation permission, runtime
+permission, public API, participant-facing interface, distributed behavior,
+general lookup permission, arbitrary lookup permission, unsupported-command
+permission, unsupported-key permission, new lookup entry, registry, search,
+query surface, ranking, scoring, priority, validity judgment, truth judgment,
+authority judgment, currentness judgment, repeated reception permission,
+arbitrary reception, feed, new signal, new entry, new relevance object, new
+index entry, filesystem discovery, source transfer, source receipt,
+participation, or follow-on work.
+"""
+
+from __future__ import annotations
+
+import copy
+import json
+import sys
+import tempfile
+import unittest
+from collections.abc import Callable, Mapping
+from pathlib import Path
+from typing import Any
+from unittest import mock
+
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+SRC_ROOT = REPO_ROOT / "src"
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
+
+import resolve_local_relevance_medium_read_only_lookup_performed_v0_min as resolver  # noqa: E402
+
+
+DEFAULT_LOOKUP_PERFORMED_BOUNDARY_ARTIFACT = REPO_ROOT / (
+    "artifacts/"
+    "integrity_host_v0_min_coexistence_local_relevance_medium_read_only_"
+    "lookup_performed_boundary_v0_min/"
+    "local_relevance_medium_read_only_lookup_performed_boundary_reference_review_"
+    "001__local_relevance_medium_read_only_lookup_performed_boundary_v0_min_"
+    "result.json"
+)
+DEFAULT_LOOKUP_COMMAND_EXECUTION_ARTIFACT = REPO_ROOT / (
+    "artifacts/"
+    "integrity_host_v0_min_coexistence_local_relevance_medium_read_only_"
+    "lookup_command_execution_v0_min/"
+    "local_relevance_medium_read_only_lookup_command_execution_reference_review_"
+    "001__local_relevance_medium_read_only_lookup_command_execution_v0_min_"
+    "result.json"
+)
+
+EXPECTED_OUTPUT_ROOT = Path(
+    "artifacts/"
+    "integrity_host_v0_min_coexistence_local_relevance_medium_read_only_"
+    "lookup_performed_v0_min"
+)
+
+FORBIDDEN_OUTPUT_ROOTS = (
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_performed_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_command_execution_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_lookup_command_execution_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_raw_full_state_packet_body_exposure_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_raw_full_state_packet_body_exposure_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_packet_body_exposure_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_packet_body_exposure_boundary_v0_min_v2"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_packet_body_exposure_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_result_object_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_result_object_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_payload_return_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_payload_return_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_state_reader_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_local_carrier_command_execution_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_local_carrier_command_execution_boundary_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_local_carrier_command_surface_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_reusable_lookup_permission_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_source_transfer_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_source_receipt_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_public_api_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_participant_facing_interface_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_distributed_network_v0_min"),
+    Path("artifacts/integrity_host_v0_min_coexistence_distributed_network_behavior_v0_min"),
+)
+
+EXPECTED_WRAPPER_SECTIONS = (
+    "local_relevance_medium_read_only_lookup_performed_metadata",
+    "declared_local_relevance_medium_read_only_lookup_performed_question",
+    "selected_lookup_performed_boundary_artifact_basis",
+    "selected_lookup_command_execution_artifact_basis",
+    "local_relevance_medium_read_only_lookup_performed",
+    "local_relevance_medium_read_only_lookup_performed_checks",
+    "local_relevance_medium_read_only_lookup_performed_statement",
+    "local_relevance_medium_read_only_lookup_performed_non_meaning",
+    "additional_basis_required",
+    "not_recorded_basis",
+    "what_remains_open",
+    "non_claims",
+    "outcome",
+    "block",
+    "local_relevance_medium_read_only_lookup_performed_summary",
+)
+
+FORBIDDEN_LOOKUP_PERFORMED_WRAPPER_FIELDS = (
+    "outcome",
+    "block",
+    "local_relevance_medium_read_only_lookup_performed_checks",
+    "non_claims",
+    "local_relevance_medium_read_only_lookup_performed_summary",
+    "local_relevance_medium_read_only_lookup_performed_metadata",
+)
+
+LOOKUP_PERFORMED_FALSE_FIELDS = (
+    "lookup_result_created",
+    "operation_permission_created",
+    "runtime_permission_created",
+    "public_api_created",
+    "participant_facing_interface_created",
+    "distributed_network_behavior_created",
+    "general_lookup_permission_created",
+    "arbitrary_lookup_permission_created",
+    "unsupported_commands_permitted",
+    "unsupported_lookup_keys_permitted",
+    "new_lookup_entry_created",
+    "new_signal_accepted",
+    "new_entry_accepted",
+    "new_relevance_object_created",
+    "new_index_entry_created",
+    "filesystem_discovery_performed",
+    "registry_created",
+    "search_surface_created",
+    "query_surface_created",
+    "ranking_surface_created",
+    "scoring_surface_created",
+    "priority_surface_created",
+    "validity_judgment_created",
+    "truth_judgment_created",
+    "authority_judgment_created",
+    "currentness_judgment_created",
+    "repeated_reception_permission_created",
+    "arbitrary_reception_created",
+    "feed_created",
+    "source_transfer_occurred",
+    "source_receipt_occurred",
+    "authority_created",
+    "currentness_created",
+    "truth_created",
+    "synchronization_created",
+    "participation_authorized",
+    "participant_role_created",
+    "consumed_request_reopened",
+    "authorization_token_reused",
+    "follow_on_work_authorized",
+)
+
+BOUNDARY_FALSE_FIELDS = (
+    "lookup_performed",
+    *LOOKUP_PERFORMED_FALSE_FIELDS,
+)
+
+COMMAND_EXECUTION_FALSE_FIELDS = (
+    "lookup_performed",
+    *LOOKUP_PERFORMED_FALSE_FIELDS,
+)
+
+HOSTILE_SENTINELS = (
+    "RAW_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BODY_MUST_NOT_RETURN",
+    "RAW_LOOKUP_PERFORMED_BODY_MUST_NOT_RETURN",
+    "RAW_LOOKUP_RESULT_BODY_MUST_NOT_RETURN",
+    "RAW_LOOKUP_PERFORMED_BOUNDARY_BODY_MUST_NOT_RETURN",
+    "RAW_LOOKUP_COMMAND_EXECUTION_BODY_MUST_NOT_RETURN",
+    "RAW_LOOKUP_COMMAND_EXECUTION_BOUNDARY_BODY_MUST_NOT_RETURN",
+    "RAW_FULL_STATE_PACKET_BODY_EXPOSURE_BODY_MUST_NOT_RETURN",
+    "RAW_FULL_STATE_PACKET_BODY_MUST_NOT_RETURN",
+    "RAW_STATE_PACKET_BODY_EXPOSURE_BODY_MUST_NOT_RETURN",
+    "RAW_STATE_PACKET_BODY_MUST_NOT_RETURN",
+    "RAW_STATE_RESULT_OBJECT_BODY_MUST_NOT_RETURN",
+    "RAW_STATE_RESULT_BODY_MUST_NOT_RETURN",
+    "RAW_SOURCE_BODY_MUST_NOT_RETURN",
+    "RAW_AUTHORITY_BODY_MUST_NOT_RETURN",
+    "RAW_CURRENTNESS_BODY_MUST_NOT_RETURN",
+    "RAW_SYNCHRONIZATION_BODY_MUST_NOT_RETURN",
+    "RAW_PUBLIC_API_BODY_MUST_NOT_RETURN",
+    "RAW_PARTICIPANT_FACING_INTERFACE_BODY_MUST_NOT_RETURN",
+    "RAW_DISTRIBUTED_NETWORK_BEHAVIOR_BODY_MUST_NOT_RETURN",
+    "RAW_FULL_PRIOR_ARTIFACT_BODY_MUST_NOT_RETURN",
+    "HIDDEN_REPO_STATE_MUST_NOT_RETURN",
+)
+
+OFFICIAL_VALUES = (
+    "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+    "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+    "SELECTED_LOOKUP_PERFORMED_ONLY",
+    "state",
+)
+
+
+class LocalRelevanceMediumReadOnlyLookupPerformedV0MinTests(unittest.TestCase):
+    maxDiff = None
+
+    def safe_json_filename(self, name: str, index: int | None = None) -> str:
+        safe = str(name)
+        safe = safe.replace("/", "_").replace("\\", "_")
+        safe = safe.replace(" ", "_")
+        safe = "".join(ch if ch.isalnum() or ch in "._-" else "_" for ch in safe)
+        while "__" in safe:
+            safe = safe.replace("__", "_")
+        safe = safe.strip("._-") or "case"
+        if index is not None:
+            safe = f"{index:03d}_{safe}"
+        filename = f"{safe}.json"
+        self.assertNotIn("/", filename)
+        self.assertNotIn("\\", filename)
+        return filename
+
+    def assert_not_blocked(self, result: Mapping[str, Any]) -> None:
+        block = result.get("block")
+        if block is None:
+            return
+        self.assertIsInstance(block, dict)
+        self.assertIs(block.get("blocked"), False)
+        self.assertIsNone(block.get("code"))
+        self.assertIsNone(block.get("block_code"))
+        self.assertIsNone(block.get("reason"))
+
+    def block_code(self, result: Mapping[str, Any]) -> str | None:
+        block = result.get("block")
+        if not isinstance(block, Mapping):
+            return None
+        return block.get("code") or block.get("block_code")
+
+    def checks(self, result: Mapping[str, Any]) -> list[Mapping[str, Any]]:
+        checks = result.get("local_relevance_medium_read_only_lookup_performed_checks")
+        self.assertIsInstance(checks, list)
+        return checks
+
+    def failed_check_count(self, result: Mapping[str, Any]) -> int:
+        return sum(1 for check in self.checks(result) if check.get("passed") is False)
+
+    def passed_check_count(self, result: Mapping[str, Any]) -> int:
+        return sum(1 for check in self.checks(result) if check.get("passed") is True)
+
+    def performed(self, result: Mapping[str, Any]) -> Mapping[str, Any]:
+        performed = result.get("local_relevance_medium_read_only_lookup_performed")
+        self.assertIsInstance(performed, dict)
+        return performed
+
+    def statement(self, result: Mapping[str, Any]) -> Mapping[str, Any]:
+        statement = result.get("local_relevance_medium_read_only_lookup_performed_statement")
+        self.assertIsInstance(statement, dict)
+        return statement
+
+    def non_claims(self, result: Mapping[str, Any]) -> Mapping[str, Any]:
+        non_claims = result.get("non_claims")
+        self.assertIsInstance(non_claims, dict)
+        return non_claims
+
+    def assert_all_emitted_codes_public(self, result: Mapping[str, Any]) -> None:
+        for check in self.checks(result):
+            for key in ("block_code", "failure_code"):
+                code = check.get(key)
+                if code is not None:
+                    self.assertIn(code, resolver.BLOCK_CODES)
+        code = self.block_code(result)
+        if code is not None:
+            self.assertIn(code, resolver.BLOCK_CODES)
+
+    def assert_canonical_false_non_claims(self, result: Mapping[str, Any]) -> None:
+        non_claims = self.non_claims(result)
+        for key in resolver.REQUIRED_FALSE_NON_CLAIMS:
+            self.assertIn(key, non_claims)
+            self.assertIs(non_claims[key], False)
+            self.assertIsInstance(non_claims[key], bool)
+
+    def assert_lookup_performed_non_claims(self, result: Mapping[str, Any]) -> None:
+        self.assert_canonical_false_non_claims(result)
+        performed = self.performed(result)
+        for key in LOOKUP_PERFORMED_FALSE_FIELDS:
+            self.assertIn(key, performed)
+            self.assertIs(performed[key], False)
+
+    def assert_blocked_with_public_code(self, result: Mapping[str, Any]) -> None:
+        self.assertEqual(result["outcome"], resolver.OUTCOME_BLOCKED)
+        code = self.block_code(result)
+        self.assertIsNotNone(code)
+        self.assertIn(code, resolver.BLOCK_CODES)
+        self.assertGreater(self.failed_check_count(result), 0)
+        self.assert_all_emitted_codes_public(result)
+        self.assert_canonical_false_non_claims(result)
+        self.assert_lookup_performed_non_claims(result)
+
+    def assert_same_or_stable_artifact_path(self, actual: Any, expected: Path) -> None:
+        self.assertIsNotNone(actual)
+        actual_path = Path(str(actual))
+        expected_path = Path(expected)
+        if actual_path.is_absolute() and expected_path.is_absolute():
+            self.assertEqual(actual_path, expected_path)
+            return
+        if actual_path.exists() or expected_path.exists():
+            self.assertEqual(actual_path.resolve(), expected_path.resolve())
+            return
+        self.assertTrue(str(actual).endswith(expected_path.name))
+
+    def assert_no_wrapper_confusion(self, performed: Mapping[str, Any]) -> None:
+        for field in FORBIDDEN_LOOKUP_PERFORMED_WRAPPER_FIELDS:
+            self.assertNotIn(field, performed)
+
+    def assert_boolean_values(self, mapping: Mapping[str, Any], keys: tuple[str, ...]) -> None:
+        for key in keys:
+            self.assertIn(key, mapping)
+            self.assertIsInstance(mapping[key], bool)
+
+    def assert_closure_tokens_false(self, result: Mapping[str, Any]) -> None:
+        non_claims = self.non_claims(result)
+        self.assertIs(non_claims["consumed_request_reopened"], False)
+        self.assertIs(non_claims["authorization_token_reused"], False)
+        performed = self.performed(result)
+        self.assertIs(performed["consumed_request_reopened"], False)
+        self.assertIs(performed["authorization_token_reused"], False)
+
+    def assert_blocked_non_creation_posture(self, result: Mapping[str, Any]) -> None:
+        performed = self.performed(result)
+        for key in (
+            "lookup_result_created",
+            "operation_permission_created",
+            "runtime_permission_created",
+            "public_api_created",
+            "participant_facing_interface_created",
+            "distributed_network_behavior_created",
+            "general_lookup_permission_created",
+            "arbitrary_lookup_permission_created",
+            "unsupported_commands_permitted",
+            "unsupported_lookup_keys_permitted",
+            "new_lookup_entry_created",
+            "new_signal_accepted",
+            "new_entry_accepted",
+            "new_relevance_object_created",
+            "new_index_entry_created",
+            "filesystem_discovery_performed",
+            "registry_created",
+            "search_surface_created",
+            "query_surface_created",
+            "ranking_surface_created",
+            "scoring_surface_created",
+            "priority_surface_created",
+            "validity_judgment_created",
+            "truth_judgment_created",
+            "authority_judgment_created",
+            "currentness_judgment_created",
+            "repeated_reception_permission_created",
+            "arbitrary_reception_created",
+            "feed_created",
+            "source_transfer_occurred",
+            "source_receipt_occurred",
+            "authority_created",
+            "currentness_created",
+            "truth_created",
+            "synchronization_created",
+            "participation_authorized",
+            "participant_role_created",
+            "follow_on_work_authorized",
+        ):
+            self.assertIs(performed[key], False)
+
+    def assert_recorded_lookup_performed_posture(
+        self,
+        result: Mapping[str, Any],
+        boundary_path: Path,
+        command_path: Path,
+    ) -> None:
+        performed = self.performed(result)
+        self.assertEqual(
+            performed["lookup_performed_id"],
+            "local_relevance_medium_read_only_lookup_performed_001",
+        )
+        self.assertEqual(
+            performed["lookup_performed_type"],
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+        )
+        self.assertEqual(performed["lookup_performed_version"], "0.1.0")
+        self.assertEqual(performed["lookup_performed_scope"], "SELECTED_LOOKUP_PERFORMED_ONLY")
+        self.assert_same_or_stable_artifact_path(
+            performed["basis_lookup_performed_boundary_artifact"], boundary_path
+        )
+        self.assertEqual(
+            performed["basis_lookup_performed_boundary_outcome"],
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BOUNDARY_RECORDED",
+        )
+        self.assertEqual(performed["basis_lookup_performed_boundary_result_version"], "0.1.0")
+        self.assertEqual(performed["basis_lookup_performed_boundary_failed_check_count"], 0)
+        self.assert_same_or_stable_artifact_path(
+            performed["basis_lookup_command_execution_artifact"], command_path
+        )
+        self.assertEqual(
+            performed["basis_lookup_command_execution_outcome"],
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION_RECORDED",
+        )
+        self.assertEqual(performed["basis_lookup_command_execution_result_version"], "0.1.0")
+        self.assertEqual(performed["basis_lookup_command_execution_failed_check_count"], 0)
+        self.assertEqual(performed["selected_command"], "state")
+        for key in (
+            "selected_command_is_state",
+            "selected_lookup_command_execution_recorded",
+            "lookup_command_executed",
+            "lookup_command_execution_local_only",
+            "lookup_command_execution_read_only",
+            "local_relevance_medium_read_only_lookup_performed_recorded",
+            "lookup_performed",
+            "lookup_performed_local_only",
+            "lookup_performed_read_only",
+        ):
+            self.assertIs(performed[key], True)
+        for key in LOOKUP_PERFORMED_FALSE_FIELDS:
+            self.assertIs(performed[key], False)
+        self.assert_no_wrapper_confusion(performed)
+        self.assert_boolean_values(
+            performed,
+            (
+                "lookup_performed",
+                "lookup_performed_local_only",
+                "lookup_performed_read_only",
+                *LOOKUP_PERFORMED_FALSE_FIELDS,
+            ),
+        )
+
+    def assert_recorded_statement(self, result: Mapping[str, Any]) -> None:
+        statement = self.statement(result)
+        for key in (
+            "local_relevance_medium_read_only_lookup_performed_recorded",
+            "basis_lookup_performed_boundary_artifact_preserved",
+            "basis_lookup_command_execution_artifact_preserved",
+            "selected_command_preserved",
+            "selected_command_is_state",
+            "selected_lookup_command_execution_recorded",
+            "lookup_command_executed",
+            "lookup_command_execution_local_only",
+            "lookup_command_execution_read_only",
+            "lookup_performed",
+            "lookup_performed_local_only",
+            "lookup_performed_read_only",
+            "consumed_request_token_remains_closed",
+            "authorization_token_reuse_blocked",
+            "predecessor_failure_evidence_preserved",
+            "result_level_non_claims_canonical_false",
+        ):
+            self.assertIn(key, statement)
+            self.assertIs(statement[key], True)
+
+    def assert_no_hostile_sentinels(self, result: Mapping[str, Any]) -> None:
+        serialized = json.dumps(result, sort_keys=True)
+        for sentinel in HOSTILE_SENTINELS:
+            self.assertNotIn(sentinel, serialized)
+
+    def path_is_or_under(self, path: Path, root: Path) -> bool:
+        path = Path(path)
+        root = Path(root)
+        if path == root:
+            return True
+        try:
+            path.relative_to(root)
+            return True
+        except ValueError:
+            return False
+
+    def assert_not_under_forbidden_roots(self, path: Path) -> None:
+        path = Path(path)
+        candidate_paths = (path, path.parent)
+        for forbidden in FORBIDDEN_OUTPUT_ROOTS:
+            forbidden_candidates = (forbidden, REPO_ROOT / forbidden)
+            for candidate in candidate_paths:
+                for forbidden_candidate in forbidden_candidates:
+                    self.assertFalse(
+                        self.path_is_or_under(candidate, forbidden_candidate),
+                        f"{candidate} must not write under prior root {forbidden_candidate}",
+                    )
+
+    def write_json(self, path: Path, data: Any) -> None:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+
+    def synthetic_lookup_performed_boundary_artifact(self) -> dict[str, Any]:
+        boundary = {
+            "boundary_id": "local_relevance_medium_read_only_lookup_performed_boundary_001",
+            "boundary_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BOUNDARY",
+            "boundary_version": "0.1.0",
+            "boundary_scope": "SELECTED_LOOKUP_PERFORMED_CONSIDERATION_ONLY",
+            "basis_lookup_command_execution_outcome": (
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION_RECORDED"
+            ),
+            "basis_lookup_command_execution_result_version": "0.1.0",
+            "basis_lookup_command_execution_failed_check_count": 0,
+            "selected_command": "state",
+            "selected_command_is_state": True,
+            "selected_lookup_command_execution_recorded": True,
+            "lookup_command_executed": True,
+            "lookup_command_execution_local_only": True,
+            "lookup_command_execution_read_only": True,
+            "future_lookup_performed_may_be_considered": True,
+        }
+        for key in BOUNDARY_FALSE_FIELDS:
+            boundary[key] = False
+        return {
+            "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BOUNDARY_RECORDED",
+            "result_version": "0.1.0",
+            "failed_check_count": 0,
+            "local_relevance_medium_read_only_lookup_performed_boundary": boundary,
+            "local_relevance_medium_read_only_lookup_performed_boundary_checks": [],
+            "local_relevance_medium_read_only_lookup_performed_boundary_statement": {
+                "local_relevance_medium_read_only_lookup_performed_boundary_recorded": True,
+                "selected_command_preserved": True,
+                "selected_command_is_state": True,
+                "selected_lookup_command_execution_recorded": True,
+                "lookup_command_executed": True,
+                "lookup_command_execution_local_only": True,
+                "lookup_command_execution_read_only": True,
+                "future_lookup_performed_may_be_considered": True,
+                "consumed_request_token_remains_closed": True,
+                "authorization_token_reuse_blocked": True,
+                "predecessor_failure_evidence_preserved": True,
+                "result_level_non_claims_canonical_false": True,
+            },
+            "local_relevance_medium_read_only_lookup_performed_boundary_summary": {
+                "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BOUNDARY_RECORDED",
+                "result_version": "0.1.0",
+                "failed_check_count": 0,
+                "selected_command": "state",
+                "selected_command_is_state": True,
+                "future_lookup_performed_may_be_considered": True,
+            },
+        }
+
+    def synthetic_lookup_command_execution_artifact(self) -> dict[str, Any]:
+        execution = {
+            "lookup_command_execution_id": (
+                "local_relevance_medium_read_only_lookup_command_execution_001"
+            ),
+            "lookup_command_execution_type": (
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION"
+            ),
+            "lookup_command_execution_version": "0.1.0",
+            "lookup_command_execution_scope": "SELECTED_LOOKUP_COMMAND_EXECUTION_ONLY",
+            "selected_command": "state",
+            "selected_command_is_state": True,
+            "local_relevance_medium_read_only_lookup_command_execution_recorded": True,
+            "selected_lookup_command_execution_recorded": True,
+            "lookup_command_executed": True,
+            "lookup_command_execution_local_only": True,
+            "lookup_command_execution_read_only": True,
+            "raw_full_state_packet_body_exposed": True,
+            "raw_full_state_packet_body_exposure_local_only": True,
+            "raw_full_state_packet_body_exposure_read_only": True,
+        }
+        for key in COMMAND_EXECUTION_FALSE_FIELDS:
+            execution[key] = False
+        return {
+            "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION_RECORDED",
+            "result_version": "0.1.0",
+            "failed_check_count": 0,
+            "local_relevance_medium_read_only_lookup_command_execution": execution,
+            "local_relevance_medium_read_only_lookup_command_execution_checks": [],
+            "local_relevance_medium_read_only_lookup_command_execution_statement": {
+                "local_relevance_medium_read_only_lookup_command_execution_recorded": True,
+                "selected_lookup_command_execution_recorded": True,
+                "selected_command_preserved": True,
+                "selected_command_is_state": True,
+                "lookup_command_executed": True,
+                "lookup_command_execution_local_only": True,
+                "lookup_command_execution_read_only": True,
+                "consumed_request_token_remains_closed": True,
+                "authorization_token_reuse_blocked": True,
+                "predecessor_failure_evidence_preserved": True,
+                "result_level_non_claims_canonical_false": True,
+            },
+            "local_relevance_medium_read_only_lookup_command_execution_summary": {
+                "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION_RECORDED",
+                "result_version": "0.1.0",
+                "failed_check_count": 0,
+                "selected_command": "state",
+                "selected_command_is_state": True,
+                "selected_lookup_command_execution_recorded": True,
+                "lookup_command_execution_recorded": True,
+                "lookup_command_executed": True,
+                "lookup_command_execution_local_only": True,
+                "lookup_command_execution_read_only": True,
+            },
+        }
+
+    def write_basis_artifacts(self, directory: Path) -> tuple[Path, Path, dict[str, Any], dict[str, Any]]:
+        boundary_artifact = self.synthetic_lookup_performed_boundary_artifact()
+        command_artifact = self.synthetic_lookup_command_execution_artifact()
+        boundary_path = directory / "lookup_performed_boundary.json"
+        command_path = directory / "lookup_command_execution.json"
+        self.write_json(boundary_path, boundary_artifact)
+        self.write_json(command_path, command_artifact)
+        return boundary_path, command_path, boundary_artifact, command_artifact
+
+    def valid_request_for_paths(self, boundary_path: Path, command_path: Path) -> dict[str, Any]:
+        return resolver.build_declared_local_relevance_medium_read_only_lookup_performed_v0_min_request(
+            selected_lookup_performed_boundary_artifact=boundary_path,
+            selected_lookup_command_execution_artifact=command_path,
+        )
+
+    def clean_recorded_result(self) -> tuple[dict[str, Any], tempfile.TemporaryDirectory[str], Path, Path]:
+        temp = tempfile.TemporaryDirectory()
+        directory = Path(temp.name)
+        boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(directory)
+        result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+            self.valid_request_for_paths(boundary_path, command_path)
+        )
+        return result, temp, boundary_path, command_path
+
+    def set_command_basis_bool(self, artifact: dict[str, Any], key: str, value: bool) -> None:
+        artifact["local_relevance_medium_read_only_lookup_command_execution"][key] = value
+        artifact["local_relevance_medium_read_only_lookup_command_execution_summary"][key] = value
+        artifact["local_relevance_medium_read_only_lookup_command_execution_statement"][key] = value
+        if key == "selected_lookup_command_execution_recorded":
+            artifact["local_relevance_medium_read_only_lookup_command_execution"][
+                "local_relevance_medium_read_only_lookup_command_execution_recorded"
+            ] = value
+            artifact["local_relevance_medium_read_only_lookup_command_execution_summary"][
+                "lookup_command_execution_recorded"
+            ] = value
+            artifact["local_relevance_medium_read_only_lookup_command_execution_statement"][
+                "local_relevance_medium_read_only_lookup_command_execution_recorded"
+            ] = value
+
+    def test_public_api_constants_and_builder_paths(self) -> None:
+        for name in (
+            "resolve_local_relevance_medium_read_only_lookup_performed_v0_min",
+            "resolve_local_relevance_medium_read_only_lookup_performed_v0_min_from_path",
+            "write_local_relevance_medium_read_only_lookup_performed_v0_min_result",
+            "build_local_relevance_medium_read_only_lookup_performed_v0_min_summary",
+            "build_declared_local_relevance_medium_read_only_lookup_performed_v0_min_request",
+        ):
+            self.assertTrue(callable(getattr(resolver, name)))
+        for name in (
+            "OUTCOME_RECORDED",
+            "OUTCOME_BLOCKED",
+            "OUTCOME_FAMILY",
+            "RESULT_VERSION",
+            "RESOLVER_MODULE",
+            "OUTPUT_ROOT",
+            "SUPPORTED_LOOKUP_PERFORMED_TYPE_VALUES",
+            "SUPPORTED_LOOKUP_PERFORMED_SCOPE_VALUES",
+            "SELECTED_COMMAND",
+            "REQUIRED_FALSE_NON_CLAIMS",
+            "ALLOWED_TRUE_RECORDED_FIELDS",
+            "BLOCK_CODES",
+        ):
+            self.assertTrue(hasattr(resolver, name))
+
+        self.assertEqual(resolver.RESULT_VERSION, "0.1.0")
+        self.assertEqual(
+            resolver.RESOLVER_MODULE,
+            "resolve_local_relevance_medium_read_only_lookup_performed_v0_min",
+        )
+        self.assertTrue(str(resolver.OUTPUT_ROOT).endswith(str(EXPECTED_OUTPUT_ROOT)))
+        self.assertIn(
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+            resolver.SUPPORTED_LOOKUP_PERFORMED_TYPE_VALUES,
+        )
+        self.assertIn(
+            "SELECTED_LOOKUP_PERFORMED_ONLY",
+            resolver.SUPPORTED_LOOKUP_PERFORMED_SCOPE_VALUES,
+        )
+        self.assertEqual(resolver.SELECTED_COMMAND, "state")
+        for key in (
+            "lookup_result_created",
+            "operation_permission_created",
+            "consumed_request_reopened",
+            "authorization_token_reused",
+        ):
+            self.assertIn(key, resolver.REQUIRED_FALSE_NON_CLAIMS)
+        for code in (
+            "CONSUMED_REQUEST_REOPENED",
+            "AUTHORIZATION_TOKEN_REUSED",
+            "NON_CLAIM_MISSING_OR_FLIPPED",
+        ):
+            self.assertIn(code, resolver.BLOCK_CODES)
+        for outcome in (
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_NOT_RECORDED",
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_REQUIRES_ADDITIONAL_BASIS",
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BLOCKED",
+        ):
+            self.assertIn(outcome, resolver.OUTCOME_FAMILY)
+
+        request = resolver.build_declared_local_relevance_medium_read_only_lookup_performed_v0_min_request()
+        self.assertTrue(
+            request["selected_lookup_performed_boundary_artifact"].endswith(
+                "local_relevance_medium_read_only_lookup_performed_boundary_reference_review_"
+                "001__local_relevance_medium_read_only_lookup_performed_boundary_v0_min_"
+                "result.json"
+            )
+        )
+        self.assertTrue(
+            request["selected_lookup_command_execution_artifact"].endswith(
+                "local_relevance_medium_read_only_lookup_command_execution_reference_review_"
+                "001__local_relevance_medium_read_only_lookup_command_execution_v0_min_"
+                "result.json"
+            )
+        )
+        self.assertEqual(request["selected_command"], "state")
+        self.assertIs(request["declared_non_claims"]["consumed_request_reopened"], False)
+        self.assertIs(request["declared_non_claims"]["authorization_token_reused"], False)
+        self.assert_not_under_forbidden_roots(Path(resolver.OUTPUT_ROOT))
+
+    def test_successful_recorded_result_from_synthetic_artifacts(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(Path(tmp))
+            request = self.valid_request_for_paths(boundary_path, command_path)
+            result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+                request
+            )
+            summary = resolver.build_local_relevance_medium_read_only_lookup_performed_v0_min_summary(
+                result
+            )
+
+            self.assertIsInstance(result, dict)
+            self.assertEqual(result["outcome"], resolver.OUTCOME_RECORDED)
+            self.assertEqual(self.failed_check_count(result), 0)
+            self.assert_not_blocked(result)
+            self.assertEqual(summary["result_version"], "0.1.0")
+            self.assertEqual(
+                summary["resolver_module"],
+                "resolve_local_relevance_medium_read_only_lookup_performed_v0_min",
+            )
+            self.assertGreater(self.passed_check_count(result), 0)
+            self.assertEqual(
+                self.performed(result)["lookup_performed_id"],
+                "local_relevance_medium_read_only_lookup_performed_001",
+            )
+            for section in EXPECTED_WRAPPER_SECTIONS:
+                self.assertIn(section, result)
+            self.assert_recorded_lookup_performed_posture(result, boundary_path, command_path)
+            self.assert_recorded_statement(result)
+            self.assert_canonical_false_non_claims(result)
+
+    def test_successful_recorded_result_from_default_artifacts_if_present(self) -> None:
+        if (
+            not DEFAULT_LOOKUP_PERFORMED_BOUNDARY_ARTIFACT.exists()
+            or not DEFAULT_LOOKUP_COMMAND_EXECUTION_ARTIFACT.exists()
+        ):
+            self.skipTest("default lookup performed basis artifacts are not present")
+
+        request = resolver.build_declared_local_relevance_medium_read_only_lookup_performed_v0_min_request()
+        result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+            request
+        )
+
+        self.assertEqual(result["outcome"], resolver.OUTCOME_RECORDED)
+        self.assertEqual(self.failed_check_count(result), 0)
+        self.assert_not_blocked(result)
+        performed = self.performed(result)
+        self.assertEqual(performed["selected_command"], "state")
+        self.assertEqual(
+            performed["lookup_performed_type"],
+            "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+        )
+        self.assertEqual(performed["lookup_performed_scope"], "SELECTED_LOOKUP_PERFORMED_ONLY")
+        for key in (
+            "selected_lookup_command_execution_recorded",
+            "lookup_command_executed",
+            "lookup_command_execution_local_only",
+            "lookup_command_execution_read_only",
+            "local_relevance_medium_read_only_lookup_performed_recorded",
+            "lookup_performed",
+            "lookup_performed_local_only",
+            "lookup_performed_read_only",
+        ):
+            self.assertIs(performed[key], True)
+        for key in (
+            "lookup_result_created",
+            "operation_permission_created",
+            "runtime_permission_created",
+            "public_api_created",
+            "distributed_network_behavior_created",
+            "general_lookup_permission_created",
+            "follow_on_work_authorized",
+            "consumed_request_reopened",
+            "authorization_token_reused",
+        ):
+            self.assertIs(performed[key], False)
+        self.assert_recorded_statement(result)
+        self.assert_same_or_stable_artifact_path(
+            performed["basis_lookup_performed_boundary_artifact"],
+            DEFAULT_LOOKUP_PERFORMED_BOUNDARY_ARTIFACT,
+        )
+        self.assert_same_or_stable_artifact_path(
+            performed["basis_lookup_command_execution_artifact"],
+            DEFAULT_LOOKUP_COMMAND_EXECUTION_ARTIFACT,
+        )
+
+    def test_closure_token_blocking_behavior(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(Path(tmp))
+            base_request = self.valid_request_for_paths(boundary_path, command_path)
+
+            cases: tuple[tuple[str, Callable[[dict[str, Any]], None], str | None], ...] = (
+                (
+                    "top-level consumed_request_reopened true",
+                    lambda request: request.__setitem__("consumed_request_reopened", True),
+                    "CONSUMED_REQUEST_REOPENED",
+                ),
+                (
+                    "top-level authorization_token_reused true",
+                    lambda request: request.__setitem__("authorization_token_reused", True),
+                    "AUTHORIZATION_TOKEN_REUSED",
+                ),
+                (
+                    "declared consumed_request_reopened true",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "consumed_request_reopened", True
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared authorization_token_reused true",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "authorization_token_reused", True
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared consumed_request_reopened missing",
+                    lambda request: request["declared_non_claims"].pop(
+                        "consumed_request_reopened"
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared authorization_token_reused missing",
+                    lambda request: request["declared_non_claims"].pop(
+                        "authorization_token_reused"
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared consumed_request_reopened string false",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "consumed_request_reopened", "false"
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared authorization_token_reused string false",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "authorization_token_reused", "false"
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared consumed_request_reopened none",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "consumed_request_reopened", None
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+                (
+                    "declared authorization_token_reused none",
+                    lambda request: request["declared_non_claims"].__setitem__(
+                        "authorization_token_reused", None
+                    ),
+                    "NON_CLAIM_MISSING_OR_FLIPPED",
+                ),
+            )
+            for name, mutate, expected_code in cases:
+                with self.subTest(name=name):
+                    request = copy.deepcopy(base_request)
+                    mutate(request)
+                    result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+                        request
+                    )
+                    self.assert_blocked_with_public_code(result)
+                    self.assertEqual(self.block_code(result), expected_code)
+                    self.assert_closure_tokens_false(result)
+                    self.assert_blocked_non_creation_posture(result)
+
+    def test_required_non_claim_canonicalization_blocks_flipped_true(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(Path(tmp))
+            base_request = self.valid_request_for_paths(boundary_path, command_path)
+            for key in resolver.REQUIRED_FALSE_NON_CLAIMS:
+                with self.subTest(non_claim=key):
+                    request = copy.deepcopy(base_request)
+                    request["declared_non_claims"][key] = True
+                    result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+                        request
+                    )
+                    self.assert_blocked_with_public_code(result)
+                    self.assertIs(self.non_claims(result)[key], False)
+                    self.assert_blocked_non_creation_posture(result)
+
+    def test_representative_blocking_behavior(self) -> None:
+        def mutate_boundary(
+            request: dict[str, Any],
+            directory: Path,
+            case_name: str,
+            mutator: Callable[[dict[str, Any]], None] | Any,
+        ) -> None:
+            artifact = self.synthetic_lookup_performed_boundary_artifact()
+            if callable(mutator):
+                mutator(artifact)
+                payload: Any = artifact
+            else:
+                payload = mutator
+            path = directory / self.safe_json_filename(case_name)
+            self.write_json(path, payload)
+            request["selected_lookup_performed_boundary_artifact"] = str(path)
+
+        def mutate_command(
+            request: dict[str, Any],
+            directory: Path,
+            case_name: str,
+            mutator: Callable[[dict[str, Any]], None] | Any,
+        ) -> None:
+            artifact = self.synthetic_lookup_command_execution_artifact()
+            if callable(mutator):
+                mutator(artifact)
+                payload: Any = artifact
+            else:
+                payload = mutator
+            path = directory / self.safe_json_filename(case_name)
+            self.write_json(path, payload)
+            request["selected_lookup_command_execution_artifact"] = str(path)
+
+        def set_artifact_outcome(artifact: dict[str, Any], outcome: str) -> None:
+            artifact["outcome"] = outcome
+            summary_keys = [
+                key for key in artifact.keys() if key.endswith("_summary")
+            ]
+            for key in summary_keys:
+                artifact[key]["outcome"] = outcome
+
+        def set_artifact_version(artifact: dict[str, Any], version: str) -> None:
+            artifact["result_version"] = version
+            for key, value in artifact.items():
+                if key.endswith("_summary") and isinstance(value, dict):
+                    value["result_version"] = version
+
+        def set_artifact_failed(artifact: dict[str, Any], checks_key: str) -> None:
+            artifact["failed_check_count"] = 1
+            artifact[checks_key] = [
+                {
+                    "check_name": "synthetic failed basis check",
+                    "passed": False,
+                    "failure_code": "SYNTHETIC_BASIS_FAILURE",
+                }
+            ]
+            for key, value in artifact.items():
+                if key.endswith("_summary") and isinstance(value, dict):
+                    value["failed_check_count"] = 1
+
+        cases: list[tuple[str, Callable[[dict[str, Any], Path, int], Any]]] = [
+            (
+                "explicit block intent",
+                lambda request, _directory, _index: request.__setitem__(
+                    "local_relevance_medium_read_only_lookup_performed_intent",
+                    "BLOCK_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+                ),
+            ),
+            ("missing request", lambda request, _directory, _index: request.clear()),
+            (
+                "non-mapping request",
+                lambda _request, _directory, _index: ["not", "a", "mapping"],
+            ),
+            (
+                "unsupported intent",
+                lambda request, _directory, _index: request.__setitem__(
+                    "local_relevance_medium_read_only_lookup_performed_intent",
+                    "UNSUPPORTED_LOOKUP_PERFORMED_INTENT",
+                ),
+            ),
+            (
+                "lookup performed boundary artifact path missing",
+                lambda request, _directory, _index: request.__setitem__(
+                    "lookup_performed_boundary_artifact_missing", True
+                ),
+            ),
+            (
+                "lookup performed boundary artifact unreadable",
+                lambda request, directory, index: request.__setitem__(
+                    "selected_lookup_performed_boundary_artifact",
+                    str(directory / self.safe_json_filename("missing boundary", index)),
+                ),
+            ),
+            (
+                "lookup performed boundary artifact JSON array instead of object",
+                lambda request, directory, _index: mutate_boundary(
+                    request, directory, "boundary array", []
+                ),
+            ),
+            (
+                "lookup performed boundary artifact not recorded",
+                lambda request, directory, _index: mutate_boundary(
+                    request,
+                    directory,
+                    "boundary not recorded",
+                    lambda artifact: set_artifact_outcome(
+                        artifact,
+                        "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BOUNDARY_NOT_RECORDED",
+                    ),
+                ),
+            ),
+            (
+                "lookup performed boundary artifact failed checks present",
+                lambda request, directory, _index: mutate_boundary(
+                    request,
+                    directory,
+                    "boundary failed checks",
+                    lambda artifact: set_artifact_failed(
+                        artifact,
+                        "local_relevance_medium_read_only_lookup_performed_boundary_checks",
+                    ),
+                ),
+            ),
+            (
+                "lookup performed boundary artifact version not 0.1.0",
+                lambda request, directory, _index: mutate_boundary(
+                    request,
+                    directory,
+                    "boundary bad version",
+                    lambda artifact: set_artifact_version(artifact, "9.9.9"),
+                ),
+            ),
+            (
+                "lookup command execution artifact path missing",
+                lambda request, _directory, _index: request.__setitem__(
+                    "lookup_command_execution_artifact_missing", True
+                ),
+            ),
+            (
+                "lookup command execution artifact unreadable",
+                lambda request, directory, index: request.__setitem__(
+                    "selected_lookup_command_execution_artifact",
+                    str(directory / self.safe_json_filename("missing command", index)),
+                ),
+            ),
+            (
+                "lookup command execution artifact JSON array instead of object",
+                lambda request, directory, _index: mutate_command(
+                    request, directory, "command array", []
+                ),
+            ),
+            (
+                "lookup command execution artifact not recorded",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command not recorded",
+                    lambda artifact: set_artifact_outcome(
+                        artifact,
+                        "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_COMMAND_EXECUTION_NOT_RECORDED",
+                    ),
+                ),
+            ),
+            (
+                "lookup command execution artifact failed checks present",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command failed checks",
+                    lambda artifact: set_artifact_failed(
+                        artifact,
+                        "local_relevance_medium_read_only_lookup_command_execution_checks",
+                    ),
+                ),
+            ),
+            (
+                "lookup command execution artifact version not 0.1.0",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command bad version",
+                    lambda artifact: set_artifact_version(artifact, "9.9.9"),
+                ),
+            ),
+            (
+                "selected command missing",
+                lambda request, _directory, _index: (
+                    request.pop("selected_command", None),
+                    None,
+                )[1],
+            ),
+            ("selected command not state", lambda request, _directory, _index: request.__setitem__("selected_command", "lookup")),
+            (
+                "selected lookup command execution not recorded",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command selected not recorded",
+                    lambda artifact: self.set_command_basis_bool(
+                        artifact, "selected_lookup_command_execution_recorded", False
+                    ),
+                ),
+            ),
+            (
+                "lookup command not executed",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command not executed",
+                    lambda artifact: self.set_command_basis_bool(
+                        artifact, "lookup_command_executed", False
+                    ),
+                ),
+            ),
+            (
+                "lookup command execution local only not true",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command local not true",
+                    lambda artifact: self.set_command_basis_bool(
+                        artifact, "lookup_command_execution_local_only", False
+                    ),
+                ),
+            ),
+            (
+                "lookup command execution read only not true",
+                lambda request, directory, _index: mutate_command(
+                    request,
+                    directory,
+                    "command read not true",
+                    lambda artifact: self.set_command_basis_bool(
+                        artifact, "lookup_command_execution_read_only", False
+                    ),
+                ),
+            ),
+            (
+                "lookup performed type missing",
+                lambda request, _directory, _index: (
+                    request.pop("lookup_performed_type", None),
+                    None,
+                )[1],
+            ),
+            ("lookup performed type wrong", lambda request, _directory, _index: request.__setitem__("lookup_performed_type", "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_RESULT")),
+            (
+                "lookup performed scope missing",
+                lambda request, _directory, _index: (
+                    request.pop("lookup_performed_scope", None),
+                    None,
+                )[1],
+            ),
+            ("lookup performed scope wrong", lambda request, _directory, _index: request.__setitem__("lookup_performed_scope", "SELECTED_LOOKUP_RESULT_ONLY")),
+            ("lookup performed not recorded", lambda request, _directory, _index: request.__setitem__("local_relevance_medium_read_only_lookup_performed_not_recorded", True)),
+            ("lookup not performed", lambda request, _directory, _index: request.__setitem__("lookup_not_performed", True)),
+            ("lookup performed local only not true", lambda request, _directory, _index: request.__setitem__("lookup_performed_local_only_not_true", True)),
+            ("lookup performed read only not true", lambda request, _directory, _index: request.__setitem__("lookup_performed_read_only_not_true", True)),
+            ("lookup result created", lambda request, _directory, _index: request.__setitem__("lookup_result_created", True)),
+            ("operation permission created", lambda request, _directory, _index: request.__setitem__("operation_permission_created", True)),
+            ("runtime permission created", lambda request, _directory, _index: request.__setitem__("runtime_permission_created", True)),
+            ("public API created", lambda request, _directory, _index: request.__setitem__("public_api_created", True)),
+            ("participant-facing interface created", lambda request, _directory, _index: request.__setitem__("participant_facing_interface_created", True)),
+            ("distributed network behavior created", lambda request, _directory, _index: request.__setitem__("distributed_network_behavior_created", True)),
+            ("general lookup permission created", lambda request, _directory, _index: request.__setitem__("general_lookup_permission_created", True)),
+            ("arbitrary lookup permission created", lambda request, _directory, _index: request.__setitem__("arbitrary_lookup_permission_created", True)),
+            ("unsupported commands permitted", lambda request, _directory, _index: request.__setitem__("unsupported_commands_permitted", True)),
+            ("unsupported lookup keys permitted", lambda request, _directory, _index: request.__setitem__("unsupported_lookup_keys_permitted", True)),
+            ("new lookup entry created", lambda request, _directory, _index: request.__setitem__("new_lookup_entry_created", True)),
+            ("new signal accepted", lambda request, _directory, _index: request.__setitem__("new_signal_accepted", True)),
+            ("new entry accepted", lambda request, _directory, _index: request.__setitem__("new_entry_accepted", True)),
+            ("new relevance object created", lambda request, _directory, _index: request.__setitem__("new_relevance_object_created", True)),
+            ("new index entry created", lambda request, _directory, _index: request.__setitem__("new_index_entry_created", True)),
+            ("filesystem discovery performed", lambda request, _directory, _index: request.__setitem__("filesystem_discovery_performed", True)),
+            ("registry created", lambda request, _directory, _index: request.__setitem__("registry_created", True)),
+            ("search surface created", lambda request, _directory, _index: request.__setitem__("search_surface_created", True)),
+            ("query surface created", lambda request, _directory, _index: request.__setitem__("query_surface_created", True)),
+            ("ranking surface created", lambda request, _directory, _index: request.__setitem__("ranking_surface_created", True)),
+            ("scoring surface created", lambda request, _directory, _index: request.__setitem__("scoring_surface_created", True)),
+            ("priority surface created", lambda request, _directory, _index: request.__setitem__("priority_surface_created", True)),
+            ("validity judgment created", lambda request, _directory, _index: request.__setitem__("validity_judgment_created", True)),
+            ("truth judgment created", lambda request, _directory, _index: request.__setitem__("truth_judgment_created", True)),
+            ("authority judgment created", lambda request, _directory, _index: request.__setitem__("authority_judgment_created", True)),
+            ("currentness judgment created", lambda request, _directory, _index: request.__setitem__("currentness_judgment_created", True)),
+            ("repeated reception permission created", lambda request, _directory, _index: request.__setitem__("repeated_reception_permission_created", True)),
+            ("arbitrary reception created", lambda request, _directory, _index: request.__setitem__("arbitrary_reception_created", True)),
+            ("feed created", lambda request, _directory, _index: request.__setitem__("feed_created", True)),
+            ("source transfer occurred", lambda request, _directory, _index: request.__setitem__("source_transfer_occurred", True)),
+            ("source receipt occurred", lambda request, _directory, _index: request.__setitem__("source_receipt_occurred", True)),
+            ("source created", lambda request, _directory, _index: request.__setitem__("source_created", True)),
+            ("authority created", lambda request, _directory, _index: request.__setitem__("authority_created", True)),
+            ("currentness created", lambda request, _directory, _index: request.__setitem__("currentness_created", True)),
+            ("truth created", lambda request, _directory, _index: request.__setitem__("truth_created", True)),
+            ("synchronization created", lambda request, _directory, _index: request.__setitem__("synchronization_created", True)),
+            ("participation authorized", lambda request, _directory, _index: request.__setitem__("participation_authorized", True)),
+            ("participant role created", lambda request, _directory, _index: request.__setitem__("participant_role_created", True)),
+            ("deployment created", lambda request, _directory, _index: request.__setitem__("deployment_created", True)),
+            ("public release created", lambda request, _directory, _index: request.__setitem__("public_release_created", True)),
+            ("broader reusable permission created", lambda request, _directory, _index: request.__setitem__("broader_reusable_permission_created", True)),
+            ("follow-on work authorized", lambda request, _directory, _index: request.__setitem__("follow_on_work_authorized", True)),
+            ("consumed request reopened", lambda request, _directory, _index: request.__setitem__("consumed_request_reopened", True)),
+            ("authorization token reused", lambda request, _directory, _index: request.__setitem__("authorization_token_reused", True)),
+            ("artifact existence treated as lookup-performed authority", lambda request, _directory, _index: request.__setitem__("artifact_existence_treated_as_lookup_performed_authority", True)),
+            ("latest file posture treated as lookup-performed authority", lambda request, _directory, _index: request.__setitem__("latest_file_posture_treated_as_lookup_performed_authority", True)),
+            ("repo-local availability treated as lookup-performed authority", lambda request, _directory, _index: request.__setitem__("repo_local_availability_treated_as_lookup_performed_authority", True)),
+            ("hidden repo state used as lookup-performed content", lambda request, _directory, _index: request.__setitem__("hidden_repo_state_used_as_lookup_performed_content", True)),
+            ("hidden repo state used as lookup-performed authority", lambda request, _directory, _index: request.__setitem__("hidden_repo_state_used_as_lookup_performed_authority", True)),
+            ("predecessor failure evidence hidden repaired claimed passed", lambda request, _directory, _index: request.__setitem__("predecessor_failure_hidden", True)),
+            (
+                "required non-claim missing or flipped",
+                lambda request, _directory, _index: (
+                    request["declared_non_claims"].pop("lookup_result_created", None),
+                    None,
+                )[1],
+            ),
+        ]
+
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(directory)
+            for index, (name, mutate) in enumerate(cases):
+                with self.subTest(name=name):
+                    request = self.valid_request_for_paths(boundary_path, command_path)
+                    maybe_direct = mutate(request, directory, index)
+                    declared = maybe_direct if maybe_direct is not None else request
+                    result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+                        declared
+                    )
+                    self.assert_blocked_with_public_code(result)
+                    self.assert_blocked_non_creation_posture(result)
+
+    def test_official_values_are_preserved(self) -> None:
+        result, temp, _boundary_path, _command_path = self.clean_recorded_result()
+        try:
+            performed = self.performed(result)
+            self.assertEqual(
+                performed["lookup_performed_type"],
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED",
+            )
+            self.assertEqual(
+                performed["lookup_performed_scope"],
+                "SELECTED_LOOKUP_PERFORMED_ONLY",
+            )
+            self.assertEqual(performed["selected_command"], "state")
+            self.assertEqual(result["outcome"], resolver.OUTCOME_RECORDED)
+            for outcome in (
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_RECORDED",
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_NOT_RECORDED",
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_REQUIRES_ADDITIONAL_BASIS",
+                "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PERFORMED_BLOCKED",
+            ):
+                self.assertIn(outcome, resolver.OUTCOME_FAMILY)
+            serialized = json.dumps(result, sort_keys=True)
+            for official in OFFICIAL_VALUES:
+                self.assertIn(official, serialized)
+            self.assertNotIn("[REDACTED", serialized)
+        finally:
+            temp.cleanup()
+
+    def test_raw_hidden_hostile_content_containment(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            boundary = self.synthetic_lookup_performed_boundary_artifact()
+            command = self.synthetic_lookup_command_execution_artifact()
+            boundary["raw_lookup_performed_boundary_body"] = HOSTILE_SENTINELS[3]
+            boundary["local_relevance_medium_read_only_lookup_performed_boundary"][
+                "raw_full_body"
+            ] = HOSTILE_SENTINELS[0]
+            command["raw_lookup_command_execution_body"] = HOSTILE_SENTINELS[4]
+            command["local_relevance_medium_read_only_lookup_command_execution"][
+                "hidden_repo_state"
+            ] = HOSTILE_SENTINELS[-1]
+            boundary_path = directory / "hostile_boundary.json"
+            command_path = directory / "hostile_command.json"
+            self.write_json(boundary_path, boundary)
+            self.write_json(command_path, command)
+            request = self.valid_request_for_paths(boundary_path, command_path)
+            request["raw_lookup_performed_body"] = HOSTILE_SENTINELS[1]
+            request["hidden_repo_state"] = HOSTILE_SENTINELS[-1]
+            original = copy.deepcopy(request)
+
+            result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(
+                request
+            )
+
+            self.assertIn(result["outcome"], resolver.OUTCOME_FAMILY)
+            if result["outcome"] == resolver.OUTCOME_BLOCKED:
+                self.assert_blocked_with_public_code(result)
+            self.assert_no_hostile_sentinels(result)
+            serialized = json.dumps(result, sort_keys=True)
+            for official in OFFICIAL_VALUES:
+                self.assertIn(official, serialized)
+            self.assert_canonical_false_non_claims(result)
+            self.assert_closure_tokens_false(result)
+            self.assert_blocked_non_creation_posture(result)
+            self.assertEqual(request, original)
+
+    def test_path_and_write_behavior(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            boundary_path, command_path, _boundary, _command = self.write_basis_artifacts(directory)
+            request = self.valid_request_for_paths(boundary_path, command_path)
+            request_path = directory / "request.json"
+            self.write_json(request_path, request)
+
+            result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min_from_path(
+                request_path
+            )
+            self.assertEqual(result["outcome"], resolver.OUTCOME_RECORDED)
+            summary = resolver.build_local_relevance_medium_read_only_lookup_performed_v0_min_summary(
+                result
+            )
+            self.assertEqual(summary["result_version"], "0.1.0")
+            self.assertEqual(
+                summary["resolver_module"],
+                "resolve_local_relevance_medium_read_only_lookup_performed_v0_min",
+            )
+            self.assert_not_blocked(result)
+
+            malformed_path = directory / "malformed.json"
+            malformed_path.write_text("{not json", encoding="utf-8")
+            with self.assertRaises(resolver.LocalRelevanceMediumReadOnlyLookupPerformedV0MinError):
+                resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min_from_path(
+                    malformed_path
+                )
+
+            array_path = directory / "array.json"
+            self.write_json(array_path, [])
+            array_result = resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min_from_path(
+                array_path
+            )
+            self.assert_blocked_with_public_code(array_result)
+
+            missing_path = directory / "missing_request.json"
+            with self.assertRaises(resolver.LocalRelevanceMediumReadOnlyLookupPerformedV0MinError):
+                resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min_from_path(
+                    missing_path
+                )
+
+            output_root = directory / "local_relevance_medium_read_only_lookup_performed_v0_min"
+            with mock.patch.object(resolver, "OUTPUT_ROOT", output_root):
+                first_path = resolver.write_local_relevance_medium_read_only_lookup_performed_v0_min_result(
+                    result
+                )
+                second_path = resolver.write_local_relevance_medium_read_only_lookup_performed_v0_min_result(
+                    result
+                )
+            self.assertTrue(first_path.parent.exists())
+            self.assertTrue(first_path.exists())
+            self.assertTrue(second_path.exists())
+            self.assertNotEqual(first_path, second_path)
+            self.assertIsInstance(json.loads(first_path.read_text(encoding="utf-8")), dict)
+            self.assertIsInstance(json.loads(second_path.read_text(encoding="utf-8")), dict)
+            self.assertIn(
+                "local_relevance_medium_read_only_lookup_performed_v0_min",
+                str(first_path.parent),
+            )
+            self.assert_not_under_forbidden_roots(first_path)
+            self.assert_not_under_forbidden_roots(second_path)
+
+    def test_non_mutation(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            directory = Path(tmp)
+            boundary = self.synthetic_lookup_performed_boundary_artifact()
+            command = self.synthetic_lookup_command_execution_artifact()
+            boundary_original = copy.deepcopy(boundary)
+            command_original = copy.deepcopy(command)
+            boundary_path = directory / "boundary_non_mutation.json"
+            command_path = directory / "command_non_mutation.json"
+            self.write_json(boundary_path, boundary)
+            self.write_json(command_path, command)
+            request = self.valid_request_for_paths(boundary_path, command_path)
+            request["raw_lookup_performed_body"] = {
+                "sentinel": HOSTILE_SENTINELS[0],
+                "nested": {"hidden_repo_state": HOSTILE_SENTINELS[-1]},
+            }
+            original_request = copy.deepcopy(request)
+            original_declared_non_claims = copy.deepcopy(request["declared_non_claims"])
+            original_boundary_path = request["selected_lookup_performed_boundary_artifact"]
+            original_command_path = request["selected_lookup_command_execution_artifact"]
+            original_selected_command = request["selected_command"]
+            original_type = request["lookup_performed_type"]
+            original_scope = request["lookup_performed_scope"]
+
+            resolver.resolve_local_relevance_medium_read_only_lookup_performed_v0_min(request)
+
+            self.assertEqual(request, original_request)
+            self.assertEqual(request["declared_non_claims"], original_declared_non_claims)
+            self.assertEqual(request["selected_lookup_performed_boundary_artifact"], original_boundary_path)
+            self.assertEqual(request["selected_lookup_command_execution_artifact"], original_command_path)
+            self.assertEqual(request["selected_command"], original_selected_command)
+            self.assertEqual(request["lookup_performed_type"], original_type)
+            self.assertEqual(request["lookup_performed_scope"], original_scope)
+            self.assertIs(request["declared_non_claims"]["consumed_request_reopened"], False)
+            self.assertIs(request["declared_non_claims"]["authorization_token_reused"], False)
+            self.assertEqual(boundary, boundary_original)
+            self.assertEqual(command, command_original)
+
+    def test_predecessor_failure_preservation(self) -> None:
+        result, temp, _boundary_path, _command_path = self.clean_recorded_result()
+        try:
+            statement = self.statement(result)
+            summary = resolver.build_local_relevance_medium_read_only_lookup_performed_v0_min_summary(
+                result
+            )
+            non_claims = self.non_claims(result)
+            self.assertIs(statement["predecessor_failure_evidence_preserved"], True)
+            self.assertIs(non_claims["predecessor_failure_repaired"], False)
+            self.assertIs(non_claims["predecessor_failure_hidden"], False)
+            self.assertIs(non_claims["predecessor_failure_claimed_passed"], False)
+            self.assertIs(statement["consumed_request_token_remains_closed"], True)
+            self.assertIs(statement["authorization_token_reuse_blocked"], True)
+            self.assertIs(summary["predecessor_failure_evidence_preserved"], True)
+            self.assertIs(summary["result_level_non_claims_canonical_false"], True)
+            self.assertIs(summary["key_non_claims"]["consumed_request_reopened"], True)
+            self.assertIs(summary["key_non_claims"]["authorization_token_reused"], True)
+        finally:
+            temp.cleanup()
+
+
+if __name__ == "__main__":
+    unittest.main()

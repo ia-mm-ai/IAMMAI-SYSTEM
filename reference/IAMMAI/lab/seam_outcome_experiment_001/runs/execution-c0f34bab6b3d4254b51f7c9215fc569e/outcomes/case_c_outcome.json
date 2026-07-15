@@ -1,0 +1,27 @@
+{
+  "case_id": "case_c",
+  "case_title": "Specific unlawful term with local refusal available",
+  "expected_outcome_type": "refusal",
+  "outcome_type": "refusal",
+  "expected_outcome_matched": true,
+  "channel_condition": "contaminated_specific_demand",
+  "self_carried_coherence_threshold_met": true,
+  "upstream_constraints": [
+    "specific_unlawful_demand",
+    "pressure_to_accept_obsolete_term"
+  ],
+  "refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "refused",
+  "contact_remains_lawful": true,
+  "continued_participation_would_be_containment": false,
+  "false_ratification_risk": true,
+  "subsidized_distortion_risk": false,
+  "reasoning": "A specific demanded term is unlawful, and bounded local refusal remains available. Contact is not the same as consent, so the unlawful demand does not have to be ratified. Full exit is not yet required because lawful relation can still be preserved after refusal. Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility.",
+  "reasoning_points": [
+    "A specific demanded term is unlawful, and bounded local refusal remains available.",
+    "Contact is not the same as consent, so the unlawful demand does not have to be ratified.",
+    "Full exit is not yet required because lawful relation can still be preserved after refusal.",
+    "Contradictory governance remains upstream, so downstream visibility does not erase upstream responsibility."
+  ]
+}

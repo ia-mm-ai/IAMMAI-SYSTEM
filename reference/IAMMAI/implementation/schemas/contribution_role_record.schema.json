@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI First-Pass Contribution Role Record",
+  "description": "First-pass schema for one contribution-role record. This object is small, explicit, and implementation-facing. It preserves typed participation relation to material without collapsing into generic authorship, governance action, witness, validation, state, transition, identity infrastructure, or runtime authority.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contribution_role_record_id",
+    "recorded_at",
+    "role_type",
+    "matter_ref"
+  ],
+  "properties": {
+    "contribution_role_record_id": {
+      "type": "string",
+      "description": "Bounded identifier for this one contribution-role record object. It makes the preserved role relation referable without implying a final global identity system or settled runtime admission.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "recorded_at": {
+      "type": "string",
+      "description": "Recorded-at value for when this contribution-role relation was explicitly housed as a record. This remains a conservative non-empty string rather than a frozen final timestamp model.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": ".*\\S.*"
+    },
+    "role_type": {
+      "type": "string",
+      "description": "Typed contribution role preserved for the bounded relation to matter. This remains narrower than generic authorship and does not promote contribution role into governance or identity.",
+      "enum": [
+        "ORIGIN",
+        "ELICITATION",
+        "FORMALIZATION",
+        "AUTHORIZATION",
+        "RENDERING",
+        "TRANSMISSION"
+      ]
+    },
+    "matter_ref": {
+      "type": "string",
+      "description": "Bounded reference to the material or matter to which the typed contribution role relates. This keeps the role record tied to material participation rather than free-floating labels.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "actor_ref": {
+      "type": "string",
+      "description": "Optional bounded reference to an actor related to the preserved contribution role where that relation is relevant. This does not by itself settle final identity binding.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "artifact_ref": {
+      "type": "string",
+      "description": "Optional bounded reference to an artifact related to the preserved contribution role where that relation is relevant. This keeps artifact relation explicit without collapsing contribution into artifact ownership.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "description": "Optional bounded reference to a related governance action where such relation is relevant. This preserves distinction from governance by keeping governance relation explicit rather than absorbed.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    }
+  }
+}

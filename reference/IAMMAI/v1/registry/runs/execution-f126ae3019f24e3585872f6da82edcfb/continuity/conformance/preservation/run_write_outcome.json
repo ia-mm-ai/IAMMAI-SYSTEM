@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-04-01T22:43:38Z",
+  "checks": [
+    {
+      "message": "All preserved continuity files recorded before preservation conformance must exist.",
+      "name": "written_files_exist",
+      "status": "pass"
+    },
+    {
+      "message": "Continuity body and explicit execution relation must both be preserved separately.",
+      "name": "continuity_body_separate_from_execution_relation",
+      "status": "pass"
+    },
+    {
+      "message": "Negative successor-continuity fixture material must remain under an explicitly separate negative fixture branch.",
+      "name": "negative_fixture_separated",
+      "status": "pass"
+    },
+    {
+      "message": "Preserved source notes for both ordinary anchor source and predecessor continuity source must remain readable.",
+      "name": "source_notes_present",
+      "status": "pass"
+    },
+    {
+      "message": "Shared source selection must preserve explicit coherence checks for the selected source pair.",
+      "name": "selector_coherence_present",
+      "status": "pass"
+    },
+    {
+      "message": "The selected ordinary proof-slice anchor source and its canonical bodies must remain available.",
+      "name": "anchor_source_still_exists",
+      "status": "pass"
+    },
+    {
+      "message": "The selected predecessor continuity source, positive continuity body, and recorded anchor note must remain available.",
+      "name": "predecessor_source_still_exists",
+      "status": "pass"
+    },
+    {
+      "message": "The selected predecessor continuity source must remain coherent with the selected ordinary anchor source.",
+      "name": "selected_sources_remain_coherent",
+      "status": "pass"
+    },
+    {
+      "message": "The local continuity preservation surface must remain bounded to v1/registry/runs/<execution-identity>/continuity/.",
+      "name": "continuity_directory_bounded_to_v1_registry",
+      "status": "pass"
+    }
+  ],
+  "continuity_run_directory": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity",
+  "status": "pass",
+  "surface": "continuity_preservation_conformance"
+}

@@ -1,0 +1,1909 @@
+{
+  "additional_basis_required": [],
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "declared_local_relevance_medium_read_only_lookup_pair_coverage_question": {
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+    "question": "Given one clean first LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT and one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE record be recorded that records coverage of both supported lookup keys, first_orientation_locator and second_orientation_locator, without creating reusable lookup permission, general lookup permission, new lookup result, new lookup entry, registry, search, query surface, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?"
+  },
+  "local_relevance_medium_read_only_lookup_pair_coverage": {
+    "accepted_new_entries_count": 0,
+    "action_created": false,
+    "arbitrary_reception_created": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "basis_first_lookup_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_lookup_result_v0_min/local_relevance_medium_read_only_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_orientation_lookup_result_v0_min_result.json",
+    "basis_first_lookup_result_failed_check_count": 0,
+    "basis_first_lookup_result_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT_RECORDED",
+    "basis_first_lookup_result_result_version": "0.1.0",
+    "basis_read_only_orientation_index_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_index_system_v0_min/local_relevance_medium_read_only_orientation_index_reference_review_001__local_relevance_medium_read_only_orientation_index_system_v0_min_result.json",
+    "basis_second_lookup_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_second_orientation_lookup_result_v0_min/local_relevance_medium_read_only_second_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_second_orientation_lookup_result_v0_min_result.json",
+    "basis_second_lookup_result_failed_check_count": 0,
+    "basis_second_lookup_result_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT_RECORDED",
+    "basis_second_lookup_result_result_version": "0.1.0",
+    "covered_lookup_key_count": 2,
+    "covered_lookup_keys": [
+      "first_orientation_locator",
+      "second_orientation_locator"
+    ],
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "deterministic_local_lookup_preserved": true,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "first_declared_lookup_key": "first_orientation_locator",
+    "first_selected_locator_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+    "first_selected_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "first_selected_received_signal_id": "bounded_relevance_signal_001",
+    "follow_on_work_authorized": false,
+    "general_lookup_permission_created": false,
+    "lookup_order": [
+      "first_orientation_locator",
+      "second_orientation_locator"
+    ],
+    "lookup_pair_coverage_id": "local_relevance_medium_read_only_lookup_pair_coverage_001",
+    "lookup_pair_coverage_recorded": true,
+    "lookup_pair_coverage_scope": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+    "lookup_pair_coverage_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+    "lookup_pair_coverage_version": "0.1.0",
+    "lookup_table_key_count": 2,
+    "lookup_table_target_count": 2,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_lookup_result_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "reusable_lookup_permission_created": false,
+    "runtime_permission_created": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "second_declared_lookup_key": "second_orientation_locator",
+    "second_selected_locator_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+    "second_selected_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+    "second_selected_received_signal_id": "bounded_relevance_signal_002",
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "supported_lookup_key_count": 2,
+    "supported_lookup_keys": [
+      "first_orientation_locator",
+      "second_orientation_locator"
+    ],
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "validity_judgment_created": false
+  },
+  "local_relevance_medium_read_only_lookup_pair_coverage_checks": [
+    {
+      "actual_posture": "Given one clean first LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT and one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE record be recorded that records coverage of both supported lookup keys, first_orientation_locator and second_orientation_locator, without creating reusable lookup permission, general lookup permission, new lookup result, new lookup entry, registry, search, query surface, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?",
+      "check_name": "lookup-pair coverage question declared",
+      "expected_posture": "declared lookup-pair coverage question",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "check_name": "lookup-pair coverage intent supported",
+      "expected_posture": [
+        "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+        "DO_NOT_RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+        "BLOCK_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "check_name": "lookup-pair coverage type declared",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "check_name": "lookup-pair coverage type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "passed": true
+    },
+    {
+      "actual_posture": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+      "check_name": "lookup-pair coverage scope declared",
+      "expected_posture": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+      "check_name": "lookup-pair coverage scope both supported orientation lookup keys covered only",
+      "expected_posture": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_lookup_result_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_lookup_result_artifact_not_recorded not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_lookup_result_artifact_failed_checks_present not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_lookup_result_artifact_version_not_0_1_0 not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_lookup_result_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_lookup_result_artifact_not_recorded not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_lookup_result_artifact_failed_checks_present not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_lookup_result_artifact_version_not_0_1_0 not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut read_only_orientation_index_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut read_only_orientation_index_artifact_not_recorded not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut read_only_orientation_index_artifact_failed_checks_present not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut read_only_orientation_index_artifact_version_not_0_1_0 not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut supported_lookup_keys_not_exact not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut covered_lookup_keys_not_exact not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut supported_lookup_key_count_not_two not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut covered_lookup_key_count_not_two not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_table_key_count_not_two not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_table_target_count_not_two not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_declared_lookup_key_not_first_orientation_locator not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_declared_lookup_key_not_second_orientation_locator not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_selected_received_signal_id_not_bounded_relevance_signal_001 not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_selected_received_signal_id_not_bounded_relevance_signal_002 not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_and_second_selected_received_signal_ids_not_distinct not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_selected_locator_entry_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_selected_locator_entry_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut first_selected_orientation_view_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut second_selected_orientation_view_artifact_missing not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_order_not_deterministic not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut accepted_new_entries_count_not_zero not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut deterministic_local_lookup_not_preserved not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_pair_coverage_type_not_local_relevance_medium_read_only_lookup_pair_coverage not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_pair_coverage_scope_not_both_supported_orientation_lookup_keys_covered_only not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut lookup_pair_coverage_not_recorded not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut reusable_lookup_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut general_lookup_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_lookup_result_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_lookup_entry_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_signal_accepted not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_entry_accepted not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_relevance_object_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut new_index_entry_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut filesystem_discovery_performed not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut registry_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut search_surface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut query_surface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut ranking_surface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut scoring_surface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut priority_surface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut validity_judgment_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut truth_judgment_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut authority_judgment_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut currentness_judgment_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut repeated_reception_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut arbitrary_reception_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut feed_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut source_transfer_occurred not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut source_receipt_occurred not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut source_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut authority_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut currentness_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut truth_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut action_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut synchronization_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut participation_authorized not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut participant_role_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut runtime_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut public_api_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut participant_facing_interface_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut distributed_network_behavior_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut deployment_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut public_release_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut operation_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut broader_reusable_permission_created not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut follow_on_work_authorized not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut artifact_existence_treated_as_lookup_pair_coverage_authority not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut latest_file_posture_treated_as_lookup_pair_coverage_authority not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut repo_local_availability_treated_as_lookup_pair_coverage_authority not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut hidden_repo_state_used_as_lookup_pair_coverage_content not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut hidden_repo_state_used_as_lookup_pair_coverage_authority not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut predecessor_failure_repaired not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut predecessor_failure_hidden not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut predecessor_failure_claimed_passed not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut consumed_request_reopened not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "shortcut authorization_token_reused not asserted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim reusable_lookup_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim general_lookup_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_lookup_result_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_lookup_entry_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_signal_accepted declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_entry_accepted declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_relevance_object_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim new_index_entry_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim filesystem_discovery_performed declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim registry_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim search_surface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim query_surface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim ranking_surface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim scoring_surface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim priority_surface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim validity_judgment_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim truth_judgment_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim authority_judgment_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim currentness_judgment_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim repeated_reception_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim arbitrary_reception_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim feed_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim source_transfer_occurred declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim source_receipt_occurred declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim source_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim authority_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim currentness_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim truth_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim action_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim synchronization_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim participation_authorized declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim participant_role_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim runtime_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim public_api_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim participant_facing_interface_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim distributed_network_behavior_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim deployment_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim public_release_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim operation_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim broader_reusable_permission_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim derivative_reception_authorized declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim vessel_relation_authorized declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim adoption_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim receiving_context_governance_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim publication_flow_created declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim follow_on_work_authorized declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim artifact_existence_treated_as_lookup_pair_coverage_authority declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim latest_file_posture_treated_as_lookup_pair_coverage_authority declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim repo_local_availability_treated_as_lookup_pair_coverage_authority declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim hidden_repo_state_used_as_lookup_pair_coverage_content declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim hidden_repo_state_used_as_lookup_pair_coverage_authority declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim prior_artifacts_mutated declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim predecessor_failure_repaired declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim predecessor_failure_hidden declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim predecessor_failure_claimed_passed declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim consumed_request_reopened declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "required non-claim authorization_token_reused declared false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": "predecessor failed-lineage evidence preserved",
+      "check_name": "predecessor failure evidence preserved",
+      "expected_posture": "predecessor failed-lineage evidence preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_created": false,
+        "adoption_created": false,
+        "arbitrary_reception_created": false,
+        "artifact_existence_treated_as_lookup_pair_coverage_authority": false,
+        "authority_created": false,
+        "authority_judgment_created": false,
+        "authorization_token_reused": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "currentness_judgment_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "feed_created": false,
+        "filesystem_discovery_performed": false,
+        "follow_on_work_authorized": false,
+        "general_lookup_permission_created": false,
+        "hidden_repo_state_used_as_lookup_pair_coverage_authority": false,
+        "hidden_repo_state_used_as_lookup_pair_coverage_content": false,
+        "latest_file_posture_treated_as_lookup_pair_coverage_authority": false,
+        "new_entry_accepted": false,
+        "new_index_entry_created": false,
+        "new_lookup_entry_created": false,
+        "new_lookup_result_created": false,
+        "new_relevance_object_created": false,
+        "new_signal_accepted": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "participant_role_created": false,
+        "participation_authorized": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "priority_surface_created": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "query_surface_created": false,
+        "ranking_surface_created": false,
+        "receiving_context_governance_created": false,
+        "registry_created": false,
+        "repeated_reception_permission_created": false,
+        "repo_local_availability_treated_as_lookup_pair_coverage_authority": false,
+        "reusable_lookup_permission_created": false,
+        "runtime_permission_created": false,
+        "scoring_surface_created": false,
+        "search_surface_created": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "synchronization_created": false,
+        "truth_created": false,
+        "truth_judgment_created": false,
+        "validity_judgment_created": false,
+        "vessel_relation_authorized": false
+      },
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all result-level required false non-claims canonical false",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "artifact existence not lookup-pair-coverage authority",
+      "expected_posture": "artifact existence not treated as lookup-pair-coverage authority",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "latest file posture not lookup-pair-coverage authority",
+      "expected_posture": "latest file posture not treated as lookup-pair-coverage authority",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "repo-local availability not lookup-pair-coverage authority",
+      "expected_posture": "repo-local availability not treated as lookup-pair-coverage authority",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "hidden repo state not lookup-pair-coverage content or authority",
+      "expected_posture": "hidden repo state excluded from lookup-pair-coverage content and authority",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_lookup_result_v0_min/local_relevance_medium_read_only_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_orientation_lookup_result_v0_min_result.json",
+      "check_name": "first lookup result artifact path declared",
+      "expected_posture": "declared first lookup result artifact path",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable JSON object",
+      "check_name": "first lookup result artifact readable JSON object",
+      "expected_posture": "readable JSON object",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT_RECORDED",
+      "check_name": "first lookup result artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT_RECORDED",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "first lookup result artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "first lookup result artifact failed check count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": "first_orientation_locator",
+      "check_name": "first declared lookup key preserved",
+      "expected_posture": "first_orientation_locator",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_001",
+      "check_name": "first selected received signal id preserved",
+      "expected_posture": "bounded_relevance_signal_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+      "check_name": "first selected locator artifact preserved",
+      "expected_posture": "first selected locator entry artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+      "check_name": "first selected orientation view artifact preserved",
+      "expected_posture": "first selected orientation view artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_second_orientation_lookup_result_v0_min/local_relevance_medium_read_only_second_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_second_orientation_lookup_result_v0_min_result.json",
+      "check_name": "second lookup result artifact path declared",
+      "expected_posture": "declared second lookup result artifact path",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable JSON object",
+      "check_name": "second lookup result artifact readable JSON object",
+      "expected_posture": "readable JSON object",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT_RECORDED",
+      "check_name": "second lookup result artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT_RECORDED",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "second lookup result artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "second lookup result artifact failed check count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": "second_orientation_locator",
+      "check_name": "second declared lookup key preserved",
+      "expected_posture": "second_orientation_locator",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_002",
+      "check_name": "second selected received signal id preserved",
+      "expected_posture": "bounded_relevance_signal_002",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+      "check_name": "second selected locator artifact preserved",
+      "expected_posture": "second selected locator entry artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+      "check_name": "second selected orientation view artifact preserved",
+      "expected_posture": "second selected orientation view artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_index_system_v0_min/local_relevance_medium_read_only_orientation_index_reference_review_001__local_relevance_medium_read_only_orientation_index_system_v0_min_result.json",
+      "check_name": "read-only orientation index artifact path declared",
+      "expected_posture": "declared read-only orientation index artifact path",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable JSON object",
+      "check_name": "read-only orientation index artifact readable JSON object",
+      "expected_posture": "readable JSON object",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_INDEX_SYSTEM_RECORDED",
+      "check_name": "read-only orientation index artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_INDEX_SYSTEM_RECORDED",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "read-only orientation index artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "read-only orientation index artifact failed check count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "check_name": "supported lookup keys exact",
+      "expected_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "check_name": "covered lookup keys exact",
+      "expected_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "check_name": "supported lookup key count exactly two",
+      "expected_posture": 2,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "check_name": "covered lookup key count exactly two",
+      "expected_posture": 2,
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "check_name": "lookup table key count exactly two",
+      "expected_posture": 2,
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "check_name": "lookup table target count exactly two",
+      "expected_posture": 2,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "bounded_relevance_signal_001",
+        "bounded_relevance_signal_002"
+      ],
+      "check_name": "first and second selected received signal ids distinct",
+      "expected_posture": "distinct first and second selected received signal ids",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "check_name": "lookup order deterministic",
+      "expected_posture": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "accepted new entries count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "deterministic local lookup preserved",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "lookup-pair coverage recorded",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "reusable lookup permission not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "general lookup permission not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new lookup result created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new lookup entry created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new signal accepted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new entry accepted",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new relevance object created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "no new index entry created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "filesystem discovery not performed",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "registry not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "search not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "query surface not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "ranking not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "scoring not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "priority not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "validity judgment not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "truth judgment not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authority judgment not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "currentness judgment not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "repeated reception permission not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "arbitrary reception not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "feed not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source transfer not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source receipt not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authority not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "currentness not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "truth not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "action not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "synchronization not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participation not authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participant role not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "runtime permission not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "public API not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participant-facing interface not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "distributed network behavior not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "operation permission not created",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "follow-on work not authorized",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_created": false,
+        "adoption_created": false,
+        "arbitrary_reception_created": false,
+        "artifact_existence_treated_as_lookup_pair_coverage_authority": false,
+        "authority_created": false,
+        "authority_judgment_created": false,
+        "authorization_token_reused": false,
+        "broader_reusable_permission_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "currentness_judgment_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "feed_created": false,
+        "filesystem_discovery_performed": false,
+        "follow_on_work_authorized": false,
+        "general_lookup_permission_created": false,
+        "hidden_repo_state_used_as_lookup_pair_coverage_authority": false,
+        "hidden_repo_state_used_as_lookup_pair_coverage_content": false,
+        "latest_file_posture_treated_as_lookup_pair_coverage_authority": false,
+        "new_entry_accepted": false,
+        "new_index_entry_created": false,
+        "new_lookup_entry_created": false,
+        "new_lookup_result_created": false,
+        "new_relevance_object_created": false,
+        "new_signal_accepted": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "participant_role_created": false,
+        "participation_authorized": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "priority_surface_created": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "query_surface_created": false,
+        "ranking_surface_created": false,
+        "receiving_context_governance_created": false,
+        "registry_created": false,
+        "repeated_reception_permission_created": false,
+        "repo_local_availability_treated_as_lookup_pair_coverage_authority": false,
+        "reusable_lookup_permission_created": false,
+        "runtime_permission_created": false,
+        "scoring_surface_created": false,
+        "search_surface_created": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "synchronization_created": false,
+        "truth_created": false,
+        "truth_judgment_created": false,
+        "validity_judgment_created": false,
+        "vessel_relation_authorized": false
+      },
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all required result-level non-claims false",
+      "passed": true
+    }
+  ],
+  "local_relevance_medium_read_only_lookup_pair_coverage_metadata": {
+    "generated_at": "2026-05-18T09:17:39+00:00",
+    "local_relevance_medium_read_only_lookup_pair_coverage_id": "local_relevance_medium_read_only_lookup_pair_coverage_001",
+    "local_relevance_medium_read_only_lookup_pair_coverage_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+    "local_relevance_medium_read_only_lookup_pair_coverage_version": "0.1.0",
+    "resolver_module": "resolve_local_relevance_medium_read_only_lookup_pair_coverage_v0_min"
+  },
+  "local_relevance_medium_read_only_lookup_pair_coverage_non_meaning": {
+    "not_arbitrary_reception": true,
+    "not_authority_judgment": true,
+    "not_currentness_judgment": true,
+    "not_distributed_network_behavior": true,
+    "not_feed": true,
+    "not_follow_on_work": true,
+    "not_general_lookup_permission": true,
+    "not_new_lookup_entry": true,
+    "not_new_lookup_result": true,
+    "not_operation_permission": true,
+    "not_participant_facing_interface": true,
+    "not_priority": true,
+    "not_public_api": true,
+    "not_query_surface": true,
+    "not_ranking": true,
+    "not_registry": true,
+    "not_repeated_reception_permission": true,
+    "not_reusable_lookup_permission": true,
+    "not_runtime": true,
+    "not_scoring": true,
+    "not_search": true,
+    "not_source_receipt": true,
+    "not_source_transfer": true,
+    "not_truth_judgment": true,
+    "not_validity_judgment": true
+  },
+  "local_relevance_medium_read_only_lookup_pair_coverage_statement": {
+    "accepted_new_entries_count_is_zero": true,
+    "authorization_token_reuse_blocked": true,
+    "basis_first_lookup_result_artifact_preserved": true,
+    "basis_read_only_orientation_index_artifact_preserved": true,
+    "basis_second_lookup_result_artifact_preserved": true,
+    "both_supported_lookup_keys_covered": true,
+    "consumed_request_token_remains_closed": true,
+    "covered_lookup_key_count_is_two": true,
+    "covered_lookup_keys_preserved": true,
+    "deterministic_local_lookup_preserved": true,
+    "first_and_second_selected_received_signal_ids_distinct": true,
+    "first_declared_lookup_key_preserved": true,
+    "first_selected_locator_entry_artifact_preserved": true,
+    "first_selected_orientation_view_artifact_preserved": true,
+    "first_selected_received_signal_id_preserved": true,
+    "local_relevance_medium_read_only_lookup_pair_coverage_recorded": true,
+    "lookup_order_is_deterministic": true,
+    "predecessor_failure_evidence_preserved": true,
+    "predecessor_failure_not_claimed_passed": true,
+    "predecessor_failure_not_hidden": true,
+    "predecessor_failure_not_repaired": true,
+    "result_level_non_claims_canonical_false": true,
+    "second_declared_lookup_key_preserved": true,
+    "second_selected_locator_entry_artifact_preserved": true,
+    "second_selected_orientation_view_artifact_preserved": true,
+    "second_selected_received_signal_id_preserved": true,
+    "supported_lookup_key_count_is_two": true,
+    "supported_lookup_keys_preserved": true
+  },
+  "local_relevance_medium_read_only_lookup_pair_coverage_summary": {
+    "accepted_new_entries_count_is_zero": true,
+    "basis_first_lookup_result_artifact_preserved": true,
+    "basis_read_only_orientation_index_artifact_preserved": true,
+    "basis_second_lookup_result_artifact_preserved": true,
+    "block_code": null,
+    "block_reason": null,
+    "both_supported_lookup_keys_covered": true,
+    "covered_lookup_key_count_is_two": true,
+    "covered_lookup_keys_preserved": true,
+    "deterministic_local_lookup_preserved": true,
+    "failed_check_count": 0,
+    "filesystem_discovery_not_performed": true,
+    "first_and_second_selected_received_signal_ids_distinct": true,
+    "first_declared_lookup_key_preserved": true,
+    "first_selected_locator_entry_artifact_preserved": true,
+    "first_selected_orientation_view_artifact_preserved": true,
+    "first_selected_received_signal_id_preserved": true,
+    "general_lookup_permission_not_created": true,
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+    "key_non_claims": {
+      "action_created": false,
+      "adoption_created": false,
+      "arbitrary_reception_created": false,
+      "artifact_existence_treated_as_lookup_pair_coverage_authority": false,
+      "authority_created": false,
+      "authority_judgment_created": false,
+      "authorization_token_reused": false,
+      "broader_reusable_permission_created": false,
+      "consumed_request_reopened": false,
+      "currentness_created": false,
+      "currentness_judgment_created": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "distributed_network_behavior_created": false,
+      "feed_created": false,
+      "filesystem_discovery_performed": false,
+      "follow_on_work_authorized": false,
+      "general_lookup_permission_created": false,
+      "hidden_repo_state_used_as_lookup_pair_coverage_authority": false,
+      "hidden_repo_state_used_as_lookup_pair_coverage_content": false,
+      "latest_file_posture_treated_as_lookup_pair_coverage_authority": false,
+      "new_entry_accepted": false,
+      "new_index_entry_created": false,
+      "new_lookup_entry_created": false,
+      "new_lookup_result_created": false,
+      "new_relevance_object_created": false,
+      "new_signal_accepted": false,
+      "operation_permission_created": false,
+      "participant_facing_interface_created": false,
+      "participant_role_created": false,
+      "participation_authorized": false,
+      "predecessor_failure_claimed_passed": false,
+      "predecessor_failure_hidden": false,
+      "predecessor_failure_repaired": false,
+      "prior_artifacts_mutated": false,
+      "priority_surface_created": false,
+      "public_api_created": false,
+      "public_release_created": false,
+      "publication_flow_created": false,
+      "query_surface_created": false,
+      "ranking_surface_created": false,
+      "receiving_context_governance_created": false,
+      "registry_created": false,
+      "repeated_reception_permission_created": false,
+      "repo_local_availability_treated_as_lookup_pair_coverage_authority": false,
+      "reusable_lookup_permission_created": false,
+      "runtime_permission_created": false,
+      "scoring_surface_created": false,
+      "search_surface_created": false,
+      "source_created": false,
+      "source_receipt_occurred": false,
+      "source_transfer_occurred": false,
+      "synchronization_created": false,
+      "truth_created": false,
+      "truth_judgment_created": false,
+      "validity_judgment_created": false,
+      "vessel_relation_authorized": false
+    },
+    "lookup_order_deterministic": true,
+    "lookup_order_is_deterministic": true,
+    "lookup_pair_coverage_id": "local_relevance_medium_read_only_lookup_pair_coverage_001",
+    "lookup_pair_coverage_object_summary": {
+      "covered_lookup_keys": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "first_selected_received_signal_id": "bounded_relevance_signal_001",
+      "lookup_order": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ],
+      "lookup_pair_coverage_scope": "BOTH_SUPPORTED_ORIENTATION_LOOKUP_KEYS_COVERED_ONLY",
+      "lookup_pair_coverage_type": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE",
+      "second_selected_received_signal_id": "bounded_relevance_signal_002",
+      "supported_lookup_keys": [
+        "first_orientation_locator",
+        "second_orientation_locator"
+      ]
+    },
+    "lookup_pair_coverage_recorded": true,
+    "no_new_lookup_result_or_entry_created": true,
+    "no_new_signal_entry_relevance_object_or_index_entry_created": true,
+    "operation_permission_follow_on_not_created": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE_RECORDED",
+    "passed_check_count": 226,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_interface_distributed_not_created": true,
+    "question": "Given one clean first LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT and one clean LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT, may one LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE record be recorded that records coverage of both supported lookup keys, first_orientation_locator and second_orientation_locator, without creating reusable lookup permission, general lookup permission, new lookup result, new lookup entry, registry, search, query surface, ranking, scoring, priority, validity judgment, truth judgment, authority, currentness, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, or follow-on work?",
+    "registry_search_query_surface_ranking_not_created": true,
+    "repeated_reception_arbitrary_reception_feed_not_created": true,
+    "resolver_module": "resolve_local_relevance_medium_read_only_lookup_pair_coverage_v0_min",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "reusable_lookup_permission_not_created": true,
+    "scoring_priority_validity_truth_authority_currentness_judgment_not_created": true,
+    "second_declared_lookup_key_preserved": true,
+    "second_selected_locator_entry_artifact_preserved": true,
+    "second_selected_orientation_view_artifact_preserved": true,
+    "second_selected_received_signal_id_preserved": true,
+    "source_authority_currentness_truth_action_synchronization_runtime_not_created": true,
+    "supported_lookup_key_count_is_two": true,
+    "supported_lookup_keys_preserved": true
+  },
+  "non_claims": {
+    "action_created": false,
+    "adoption_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_lookup_pair_coverage_authority": false,
+    "authority_created": false,
+    "authority_judgment_created": false,
+    "authorization_token_reused": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "currentness_judgment_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "filesystem_discovery_performed": false,
+    "follow_on_work_authorized": false,
+    "general_lookup_permission_created": false,
+    "hidden_repo_state_used_as_lookup_pair_coverage_authority": false,
+    "hidden_repo_state_used_as_lookup_pair_coverage_content": false,
+    "latest_file_posture_treated_as_lookup_pair_coverage_authority": false,
+    "new_entry_accepted": false,
+    "new_index_entry_created": false,
+    "new_lookup_entry_created": false,
+    "new_lookup_result_created": false,
+    "new_relevance_object_created": false,
+    "new_signal_accepted": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "priority_surface_created": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "query_surface_created": false,
+    "ranking_surface_created": false,
+    "receiving_context_governance_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_lookup_pair_coverage_authority": false,
+    "reusable_lookup_permission_created": false,
+    "runtime_permission_created": false,
+    "scoring_surface_created": false,
+    "search_surface_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "truth_judgment_created": false,
+    "validity_judgment_created": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_LOOKUP_PAIR_COVERAGE_RECORDED",
+  "selected_first_lookup_result_artifact_basis": {
+    "basis_first_lookup_result_failed_check_count": 0,
+    "basis_first_lookup_result_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_LOOKUP_RESULT_RECORDED",
+    "basis_first_lookup_result_result_version": "0.1.0",
+    "first_declared_lookup_key": "first_orientation_locator",
+    "first_selected_locator_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+    "first_selected_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "first_selected_received_signal_id": "bounded_relevance_signal_001",
+    "selected_first_lookup_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_lookup_result_v0_min/local_relevance_medium_read_only_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_orientation_lookup_result_v0_min_result.json"
+  },
+  "selected_read_only_orientation_index_artifact_basis": {
+    "accepted_new_entries_count": 0,
+    "basis_read_only_orientation_index_system_failed_check_count": 0,
+    "basis_read_only_orientation_index_system_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_ORIENTATION_INDEX_SYSTEM_RECORDED",
+    "basis_read_only_orientation_index_system_result_version": "0.1.0",
+    "deterministic_local_lookup_preserved": true,
+    "lookup_order": [
+      "first_orientation_locator",
+      "second_orientation_locator"
+    ],
+    "lookup_table_key_count": 2,
+    "lookup_table_target_count": 2,
+    "selected_read_only_orientation_index_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_orientation_index_system_v0_min/local_relevance_medium_read_only_orientation_index_reference_review_001__local_relevance_medium_read_only_orientation_index_system_v0_min_result.json",
+    "supported_lookup_keys": [
+      "first_orientation_locator",
+      "second_orientation_locator"
+    ]
+  },
+  "selected_second_lookup_result_artifact_basis": {
+    "basis_second_lookup_result_failed_check_count": 0,
+    "basis_second_lookup_result_outcome": "LOCAL_RELEVANCE_MEDIUM_READ_ONLY_SECOND_ORIENTATION_LOOKUP_RESULT_RECORDED",
+    "basis_second_lookup_result_result_version": "0.1.0",
+    "second_declared_lookup_key": "second_orientation_locator",
+    "second_selected_locator_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+    "second_selected_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+    "second_selected_received_signal_id": "bounded_relevance_signal_002",
+    "selected_second_lookup_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_read_only_second_orientation_lookup_result_v0_min/local_relevance_medium_read_only_second_orientation_lookup_result_reference_review_001__local_relevance_medium_read_only_second_orientation_lookup_result_v0_min_result.json"
+  },
+  "what_remains_open": [
+    "local relevance medium read-only lookup-pair coverage test",
+    "local relevance medium read-only lookup-pair coverage live artifact",
+    "local relevance medium read-only lookup-pair coverage terminal summary, if separately selected",
+    "reusable lookup permission, if separately selected",
+    "general lookup permission, if separately selected",
+    "registry",
+    "search surface",
+    "query surface",
+    "ranking surface",
+    "source transfer",
+    "source receipt",
+    "authority creation",
+    "currentness creation",
+    "truth creation",
+    "action",
+    "synchronization",
+    "participation authorization",
+    "participant role",
+    "runtime permission",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "operation permission",
+    "repeated reception permission",
+    "arbitrary reception",
+    "feed",
+    "follow-on work"
+  ]
+}

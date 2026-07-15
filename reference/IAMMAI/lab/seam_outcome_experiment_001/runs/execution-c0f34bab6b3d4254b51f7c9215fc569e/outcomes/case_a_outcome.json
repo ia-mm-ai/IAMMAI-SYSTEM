@@ -1,0 +1,23 @@
+{
+  "case_id": "case_a",
+  "case_title": "Accepted passage control case",
+  "expected_outcome_type": "accepted_passage",
+  "outcome_type": "accepted_passage",
+  "expected_outcome_matched": true,
+  "channel_condition": "admissible",
+  "self_carried_coherence_threshold_met": true,
+  "upstream_constraints": [],
+  "refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "full",
+  "contact_remains_lawful": true,
+  "continued_participation_would_be_containment": false,
+  "false_ratification_risk": false,
+  "subsidized_distortion_risk": false,
+  "reasoning": "The channel is admissible and can read the current condition without false standing. Lawful refusal remains available, so contact is not being forced through constrained passage. Lineage remains visible and passage does not ratify obsolete terms.",
+  "reasoning_points": [
+    "The channel is admissible and can read the current condition without false standing.",
+    "Lawful refusal remains available, so contact is not being forced through constrained passage.",
+    "Lineage remains visible and passage does not ratify obsolete terms."
+  ]
+}

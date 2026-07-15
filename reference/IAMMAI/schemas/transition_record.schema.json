@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:schema:transition_record",
+  "title": "IAMMAI Transition Record",
+  "description": "First bounded schema for transition records that preserve typed lawful protocol change across matter, state, containment, resolution, and lineage without collapsing into generic update or storage mutation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "transition_id",
+    "matter_ref",
+    "source_ref",
+    "target_ref",
+    "transition_type",
+    "occurred_at"
+  ],
+  "properties": {
+    "transition_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the transition record."
+    },
+    "matter_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the bounded matter within which the transition occurred."
+    },
+    "source_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the source state or condition from which the transition moved."
+    },
+    "target_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the target state or condition to which the transition moved."
+    },
+    "transition_type": {
+      "type": "string",
+      "enum": [
+        "preparation_progression",
+        "threshold_eligibility",
+        "truth_formation",
+        "continuity_transition",
+        "decision_transition",
+        "consequence_transition",
+        "containment_apply",
+        "containment_release",
+        "resolution_transition"
+      ],
+      "description": "Bounded transition family."
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the transition occurred."
+    },
+    "related_validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related validation artifact."
+    },
+    "related_witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related witness artifact."
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related governance action record."
+    },
+    "predecessor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional explicit predecessor reference where lineage-bearing succession applies."
+    },
+    "successor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional explicit successor reference where lineage-bearing succession applies."
+    },
+    "resolution_type": {
+      "type": "string",
+      "enum": [
+        "FINALIZE",
+        "INVALIDATE",
+        "EVOLVE"
+      ],
+      "description": "Typed resolution family member when the transition is a resolution transition."
+    },
+    "notes_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to bounded supporting notes or related supporting material."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "transition_type": {
+            "const": "resolution_transition"
+          }
+        },
+        "required": [
+          "transition_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "resolution_type"
+        ]
+      },
+      "else": {
+        "not": {
+          "required": [
+            "resolution_type"
+          ]
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resolution_type": {
+            "const": "EVOLVE"
+          }
+        },
+        "required": [
+          "resolution_type"
+        ]
+      },
+      "then": {
+        "required": [
+          "predecessor_ref"
+        ]
+      }
+    }
+  ]
+}

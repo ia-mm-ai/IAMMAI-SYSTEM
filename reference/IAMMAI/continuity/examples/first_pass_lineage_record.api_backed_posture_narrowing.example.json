@@ -1,0 +1,19 @@
+{
+  "lineage_record_id": "current_state_what_stands_reader_v1.api_backed_posture_narrowing.post_alignment_review",
+  "recorded_at": "2026-04-10",
+  "from_ref": "vessel/current_state_what_stands_reader_v1/VESSEL_FAMILY_ALIGNMENT_REVIEW__POST_PROBE.md",
+  "to_ref": "vessel/current_state_what_stands_reader_v1/API_BACKED_POSTURE_DECISION__POST_ALIGNMENT_REVIEW.md",
+  "relation_type": "narrows",
+  "preserves": [
+    "the bounded vessel family remains lawful as a family",
+    "the source boundary remains intact under source_manifest.json",
+    "the question boundary remains intact under CONTRACT.md and input_packet.schema.json",
+    "the output boundary remains intact under output_packet.schema.json",
+    "the additive API vessel lineage remains visible as lineage rather than erased"
+  ],
+  "changes": [
+    "the present API-backed lineage is temporarily narrowed",
+    "answered-mode is deferred for the present API-backed lineage",
+    "the present API-backed lineage is read as refusal / out_of_scope / insufficient_grounding-first rather than as an operative answered-mode surface"
+  ]
+}

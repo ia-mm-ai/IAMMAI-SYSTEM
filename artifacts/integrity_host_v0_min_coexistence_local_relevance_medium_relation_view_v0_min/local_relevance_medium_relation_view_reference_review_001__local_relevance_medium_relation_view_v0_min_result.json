@@ -1,0 +1,881 @@
+{
+  "additional_basis_required": [],
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "declared_local_relevance_medium_relation_view_question": {
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+    "question": "Given one clean LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT, may one LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW be recorded that makes bounded relation-readable co-presence available for exactly two locally discoverable orientation objects, preserving multiplicity result basis, first and second locator artifacts, first and second orientation artifacts, and first and second received identifiers, without creating comparison view, index system, registry, search, ranking, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+    "relation_frame": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+    "relation_view_scope": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+    "relation_view_type": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW"
+  },
+  "local_relevance_medium_relation_view": {
+    "action_created": false,
+    "arbitrary_reception_created": false,
+    "authority_created": false,
+    "basis_first_local_relevance_orientation_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+    "basis_local_relevance_medium_multiplicity_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_multiplicity_result_v0_min/local_relevance_medium_multiplicity_result_reference_review_001__local_relevance_medium_multiplicity_result_v0_min_result.json",
+    "basis_local_relevance_medium_multiplicity_result_failed_check_count": 0,
+    "basis_local_relevance_medium_multiplicity_result_outcome": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT_RECORDED",
+    "basis_local_relevance_medium_multiplicity_result_result_version": "0.1.0",
+    "basis_second_local_relevance_orientation_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+    "comparison_view_created": false,
+    "currentness_created": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "first_and_second_signals_distinct": true,
+    "first_carrier_context_id": "bounded_relevance_signal_carrier_context_001",
+    "first_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "first_receipt_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_receipt_v0_min_v2/bounded_relevance_receipt_reference_review_001__bounded_relevance_receipt_v0_min_v2_result.json",
+    "first_received_signal_id": "bounded_relevance_signal_001",
+    "first_reception_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_reception_v0_min/bounded_relevance_reception_reference_review_001__bounded_relevance_reception_v0_min_result.json",
+    "first_reception_envelope_id": "bounded_relevance_reception_envelope_001",
+    "first_relevance_basis_id": "bounded_relevance_basis_001",
+    "first_relevance_scope_id": "bounded_relevance_scope_001",
+    "follow_on_work_authorized": false,
+    "index_system_created": false,
+    "multiplicity_count": 2,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "public_api_created": false,
+    "ranking_surface_created": false,
+    "registry_created": false,
+    "relation_frame": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+    "relation_pair_count": 1,
+    "relation_readable_co_presence_recorded": true,
+    "relation_view_id": "local_relevance_medium_relation_view_001",
+    "relation_view_recorded": true,
+    "relation_view_scope": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+    "relation_view_type": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+    "relation_view_version": "0.1.0",
+    "repeated_reception_permission_created": false,
+    "runtime_permission_created": false,
+    "search_surface_created": false,
+    "second_carrier_context_id": "bounded_relevance_signal_carrier_context_002",
+    "second_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+    "second_receipt_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_bounded_relevance_receipt_v0_min/local_relevance_medium_second_bounded_relevance_receipt_reference_review_001__local_relevance_medium_second_bounded_relevance_receipt_v0_min_result.json",
+    "second_received_signal_id": "bounded_relevance_signal_002",
+    "second_reception_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_bounded_relevance_reception_v0_min/local_relevance_medium_second_bounded_relevance_reception_reference_review_001__local_relevance_medium_second_bounded_relevance_reception_v0_min_result.json",
+    "second_reception_envelope_id": "bounded_relevance_reception_envelope_002",
+    "second_relevance_basis_id": "bounded_relevance_basis_002",
+    "second_relevance_scope_id": "bounded_relevance_scope_002",
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "successor_candidate_admission_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_successor_candidate_admission_v0_min/local_relevance_medium_successor_candidate_admission_reference_review_001__local_relevance_medium_successor_candidate_admission_v0_min_result.json",
+    "successor_reception_request_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_successor_reception_request_v0_min/local_relevance_medium_successor_reception_request_reference_review_001__local_relevance_medium_successor_reception_request_v0_min_result.json",
+    "synchronization_created": false,
+    "truth_created": false,
+    "two_local_orientation_objects_preserved": true
+  },
+  "local_relevance_medium_relation_view_checks": [
+    {
+      "actual_posture": "Given one clean LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT, may one LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW be recorded that makes bounded relation-readable co-presence available for exactly two locally discoverable orientation objects, preserving multiplicity result basis, first and second locator artifacts, first and second orientation artifacts, and first and second received identifiers, without creating comparison view, index system, registry, search, ranking, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+      "check_name": "relation view question declared",
+      "expected_posture": "declared local relevance medium relation view question",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "check_name": "relation view intent supported",
+      "expected_posture": [
+        "RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+        "DO_NOT_RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+        "BLOCK_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "check_name": "relation view block intent not requested",
+      "expected_posture": "not BLOCK_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_multiplicity_result_v0_min/local_relevance_medium_multiplicity_result_reference_review_001__local_relevance_medium_multiplicity_result_v0_min_result.json",
+      "check_name": "selected local relevance medium multiplicity result artifact path declared",
+      "expected_posture": "selected multiplicity result artifact path",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable JSON artifact",
+      "check_name": "selected local relevance medium multiplicity result artifact readable JSON",
+      "expected_posture": "readable JSON artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "JSON object artifact",
+      "check_name": "selected local relevance medium multiplicity result artifact JSON object",
+      "expected_posture": "JSON object artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT_RECORDED",
+      "check_name": "local relevance medium multiplicity result artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT_RECORDED",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "local relevance medium multiplicity result artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "check_name": "local relevance medium multiplicity result artifact failed check count zero",
+      "expected_posture": 0,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "local relevance medium multiplicity result object present",
+      "expected_posture": "local relevance medium multiplicity result object present",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT",
+      "check_name": "multiplicity result type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT",
+      "passed": true
+    },
+    {
+      "actual_posture": "TWO_LOCAL_ORIENTATION_LOCATORS_ONLY",
+      "check_name": "multiplicity result scope two local locators only",
+      "expected_posture": "TWO_LOCAL_ORIENTATION_LOCATORS_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "check_name": "multiplicity count exactly two",
+      "expected_posture": 2,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+      "check_name": "first locator artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+      "check_name": "second locator artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+      "check_name": "first orientation view artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+      "check_name": "second orientation view artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_receipt_v0_min_v2/bounded_relevance_receipt_reference_review_001__bounded_relevance_receipt_v0_min_v2_result.json",
+      "check_name": "first receipt artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_bounded_relevance_receipt_v0_min/local_relevance_medium_second_bounded_relevance_receipt_reference_review_001__local_relevance_medium_second_bounded_relevance_receipt_v0_min_result.json",
+      "check_name": "second receipt artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_reception_v0_min/bounded_relevance_reception_reference_review_001__bounded_relevance_reception_v0_min_result.json",
+      "check_name": "first reception artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_bounded_relevance_reception_v0_min/local_relevance_medium_second_bounded_relevance_reception_reference_review_001__local_relevance_medium_second_bounded_relevance_reception_v0_min_result.json",
+      "check_name": "second reception artifact preserved",
+      "expected_posture": "artifact path preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_001",
+      "check_name": "first received signal id preserved",
+      "expected_posture": "bounded_relevance_signal_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_002",
+      "check_name": "second received signal id preserved",
+      "expected_posture": "bounded_relevance_signal_002",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_basis_001",
+      "check_name": "first relevance basis id preserved",
+      "expected_posture": "bounded_relevance_basis_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_basis_002",
+      "check_name": "second relevance basis id preserved",
+      "expected_posture": "bounded_relevance_basis_002",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_scope_001",
+      "check_name": "first relevance scope id preserved",
+      "expected_posture": "bounded_relevance_scope_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_scope_002",
+      "check_name": "second relevance scope id preserved",
+      "expected_posture": "bounded_relevance_scope_002",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_carrier_context_001",
+      "check_name": "first carrier context id preserved",
+      "expected_posture": "bounded_relevance_signal_carrier_context_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_carrier_context_002",
+      "check_name": "second carrier context id preserved",
+      "expected_posture": "bounded_relevance_signal_carrier_context_002",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_reception_envelope_001",
+      "check_name": "first reception envelope id preserved",
+      "expected_posture": "bounded_relevance_reception_envelope_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_reception_envelope_002",
+      "check_name": "second reception envelope id preserved",
+      "expected_posture": "bounded_relevance_reception_envelope_002",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "first_and_second_signals_distinct": true,
+        "first_received_signal_id": "bounded_relevance_signal_001",
+        "second_received_signal_id": "bounded_relevance_signal_002"
+      },
+      "check_name": "first and second received signal ids distinct",
+      "expected_posture": "distinct first and second received signal ids",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "check_name": "relation view type declared",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "check_name": "relation view type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "passed": true
+    },
+    {
+      "actual_posture": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+      "check_name": "relation view scope declared",
+      "expected_posture": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+      "check_name": "relation view scope two local orientation objects only",
+      "expected_posture": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+      "check_name": "relation frame declared",
+      "expected_posture": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+      "check_name": "relation frame bounded co-presence only",
+      "expected_posture": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": 1,
+      "check_name": "relation pair count exactly one",
+      "expected_posture": 1,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "relation-readable co-presence recorded",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "relation view recorded",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "comparison_view_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "index_system_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "registry_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "search_surface_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "ranking_surface_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "repeated_reception_permission_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "arbitrary_reception_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "feed_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source_transfer_occurred false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source_receipt_occurred false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "source_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authority_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "currentness_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "truth_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "action_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "synchronization_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participation_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participant_role_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "runtime_permission_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "public_api_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "participant_facing_interface_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "distributed_network_behavior_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "deployment_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "public_release_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "operation_permission_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "broader_reusable_permission_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "derivative_reception_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "vessel_relation_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "adoption_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "receiving_context_governance_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "publication_flow_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "follow_on_work_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "artifact_existence_treated_as_relation_view_authority false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "latest_file_posture_treated_as_relation_view_authority false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "repo_local_availability_treated_as_relation_view_authority false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "hidden_repo_state_used_as_relation_view_content false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "hidden_repo_state_used_as_relation_view_authority false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prior_artifacts_mutated false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "predecessor_failure_repaired false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "predecessor_failure_hidden false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "predecessor_failure_claimed_passed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "consumed_request_reopened false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authorization_token_reused false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false
+      },
+      "check_name": "predecessor failure evidence preserved",
+      "expected_posture": "predecessor failure evidence preserved",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_created": false,
+        "adoption_created": false,
+        "arbitrary_reception_created": false,
+        "artifact_existence_treated_as_relation_view_authority": false,
+        "authority_created": false,
+        "authorization_token_reused": false,
+        "broader_reusable_permission_created": false,
+        "comparison_view_created": false,
+        "consumed_request_reopened": false,
+        "currentness_created": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "distributed_network_behavior_created": false,
+        "feed_created": false,
+        "follow_on_work_authorized": false,
+        "hidden_repo_state_used_as_relation_view_authority": false,
+        "hidden_repo_state_used_as_relation_view_content": false,
+        "index_system_created": false,
+        "latest_file_posture_treated_as_relation_view_authority": false,
+        "operation_permission_created": false,
+        "participant_facing_interface_created": false,
+        "participant_role_created": false,
+        "participation_authorized": false,
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false,
+        "prior_artifacts_mutated": false,
+        "public_api_created": false,
+        "public_release_created": false,
+        "publication_flow_created": false,
+        "ranking_surface_created": false,
+        "receiving_context_governance_created": false,
+        "registry_created": false,
+        "repeated_reception_permission_created": false,
+        "repo_local_availability_treated_as_relation_view_authority": false,
+        "runtime_permission_created": false,
+        "search_surface_created": false,
+        "source_created": false,
+        "source_receipt_occurred": false,
+        "source_transfer_occurred": false,
+        "synchronization_created": false,
+        "truth_created": false,
+        "vessel_relation_authorized": false
+      },
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all result-level non-claims false",
+      "passed": true
+    },
+    {
+      "actual_posture": "all false",
+      "check_name": "required non-claims false",
+      "expected_posture": "declared required non-claims all false bool",
+      "passed": true
+    }
+  ],
+  "local_relevance_medium_relation_view_metadata": {
+    "generated_at": "2026-05-17T14:32:32.726834+00:00",
+    "local_relevance_medium_relation_view_id": "local_relevance_medium_relation_view_001",
+    "local_relevance_medium_relation_view_type": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+    "local_relevance_medium_relation_view_version": "0.1.0",
+    "resolver_module": "resolve_local_relevance_medium_relation_view_v0_min"
+  },
+  "local_relevance_medium_relation_view_non_meaning": {
+    "action_created": false,
+    "arbitrary_reception_created": false,
+    "authority_created": false,
+    "comparison_view_created": false,
+    "currentness_created": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "follow_on_work_authorized": false,
+    "index_system_created": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "public_api_created": false,
+    "ranking_surface_created": false,
+    "registry_created": false,
+    "relation_view_compares_orientation_objects": false,
+    "relation_view_is_comparison_view": false,
+    "relation_view_is_index_system": false,
+    "relation_view_is_ranking": false,
+    "relation_view_is_registry": false,
+    "relation_view_is_search": false,
+    "relation_view_ranks_orientation_objects": false,
+    "repeated_reception_permission_created": false,
+    "runtime_permission_created": false,
+    "search_surface_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "synchronization_created": false,
+    "truth_created": false
+  },
+  "local_relevance_medium_relation_view_statement": {
+    "basis_first_local_relevance_orientation_index_entry_artifact_preserved": true,
+    "basis_local_relevance_medium_multiplicity_result_artifact_preserved": true,
+    "basis_second_local_relevance_orientation_index_entry_artifact_preserved": true,
+    "first_and_second_signals_distinct": true,
+    "first_carrier_context_id_preserved": true,
+    "first_orientation_view_artifact_preserved": true,
+    "first_receipt_artifact_preserved": true,
+    "first_received_signal_id_preserved": true,
+    "first_reception_artifact_preserved": true,
+    "first_reception_envelope_id_preserved": true,
+    "first_relevance_basis_id_preserved": true,
+    "first_relevance_scope_id_preserved": true,
+    "local_relevance_medium_relation_view_recorded": true,
+    "relation_frame_bounded_co_presence_only": true,
+    "relation_pair_count_is_one": true,
+    "relation_readable_co_presence_recorded": true,
+    "relation_view_scope_local_only": true,
+    "result_level_non_claims_canonical_false": true,
+    "second_carrier_context_id_preserved": true,
+    "second_orientation_view_artifact_preserved": true,
+    "second_receipt_artifact_preserved": true,
+    "second_received_signal_id_preserved": true,
+    "second_reception_artifact_preserved": true,
+    "second_reception_envelope_id_preserved": true,
+    "second_relevance_basis_id_preserved": true,
+    "second_relevance_scope_id_preserved": true,
+    "successor_candidate_admission_artifact_preserved": true,
+    "successor_reception_request_artifact_preserved": true
+  },
+  "local_relevance_medium_relation_view_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "comparison_view_not_created": true,
+    "failed_check_count": 0,
+    "first_and_second_signals_distinct": true,
+    "first_carrier_context_id_preserved": true,
+    "first_locator_artifact_preserved": true,
+    "first_orientation_view_artifact_preserved": true,
+    "first_receipt_artifact_preserved": true,
+    "first_received_signal_id_preserved": true,
+    "first_reception_artifact_preserved": true,
+    "first_reception_envelope_id_preserved": true,
+    "first_relevance_basis_id_preserved": true,
+    "first_relevance_scope_id_preserved": true,
+    "index_system_registry_search_ranking_not_created": true,
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+    "key_non_claims": {
+      "comparison_view_created": false,
+      "follow_on_work_authorized": false,
+      "index_system_created": false,
+      "ranking_surface_created": false,
+      "registry_created": false,
+      "search_surface_created": false
+    },
+    "multiplicity_result_artifact_preserved": true,
+    "operation_permission_follow_on_not_created": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW_RECORDED",
+    "passed_check_count": 87,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_participant_interface_distributed_not_created": true,
+    "question": "Given one clean LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT, may one LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW be recorded that makes bounded relation-readable co-presence available for exactly two locally discoverable orientation objects, preserving multiplicity result basis, first and second locator artifacts, first and second orientation artifacts, and first and second received identifiers, without creating comparison view, index system, registry, search, ranking, repeated reception permission, arbitrary reception, feed, source transfer, source receipt, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+    "relation_frame_bounded_co_presence_only": true,
+    "relation_pair_count_is_one": true,
+    "relation_readable_co_presence_recorded": true,
+    "relation_view_id": "local_relevance_medium_relation_view_001",
+    "relation_view_object_summary": {
+      "basis_local_relevance_medium_multiplicity_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_multiplicity_result_v0_min/local_relevance_medium_multiplicity_result_reference_review_001__local_relevance_medium_multiplicity_result_v0_min_result.json",
+      "first_received_signal_id": "bounded_relevance_signal_001",
+      "multiplicity_count": 2,
+      "relation_frame": "BOUNDED_CO_PRESENT_LOCAL_ORIENTATION_OBJECTS_ONLY",
+      "relation_pair_count": 1,
+      "relation_view_scope": "TWO_LOCAL_ORIENTATION_OBJECTS_RELATION_VIEW_ONLY",
+      "relation_view_type": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW",
+      "second_received_signal_id": "bounded_relevance_signal_002"
+    },
+    "relation_view_recorded": true,
+    "relation_view_scope_local_only": true,
+    "repeated_reception_permission_arbitrary_reception_feed_not_created": true,
+    "resolver_module": "resolve_local_relevance_medium_relation_view_v0_min",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "second_carrier_context_id_preserved": true,
+    "second_locator_artifact_preserved": true,
+    "second_orientation_view_artifact_preserved": true,
+    "second_receipt_artifact_preserved": true,
+    "second_received_signal_id_preserved": true,
+    "second_reception_artifact_preserved": true,
+    "second_reception_envelope_id_preserved": true,
+    "second_relevance_basis_id_preserved": true,
+    "second_relevance_scope_id_preserved": true,
+    "source_authority_currentness_truth_action_synchronization_participation_runtime_not_created": true,
+    "successor_candidate_admission_artifact_preserved": true,
+    "successor_reception_request_artifact_preserved": true
+  },
+  "non_claims": {
+    "action_created": false,
+    "adoption_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_relation_view_authority": false,
+    "authority_created": false,
+    "authorization_token_reused": false,
+    "broader_reusable_permission_created": false,
+    "comparison_view_created": false,
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_used_as_relation_view_authority": false,
+    "hidden_repo_state_used_as_relation_view_content": false,
+    "index_system_created": false,
+    "latest_file_posture_treated_as_relation_view_authority": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "ranking_surface_created": false,
+    "receiving_context_governance_created": false,
+    "registry_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_relation_view_authority": false,
+    "runtime_permission_created": false,
+    "search_surface_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "LOCAL_RELEVANCE_MEDIUM_RELATION_VIEW_RECORDED",
+  "selected_local_relevance_medium_multiplicity_result_artifact_basis": {
+    "basis_first_local_relevance_orientation_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+    "basis_lineage_preserved": true,
+    "basis_local_relevance_medium_multiplicity_result_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_multiplicity_result_v0_min/local_relevance_medium_multiplicity_result_reference_review_001__local_relevance_medium_multiplicity_result_v0_min_result.json",
+    "basis_local_relevance_medium_multiplicity_result_failed_check_count": 0,
+    "basis_local_relevance_medium_multiplicity_result_outcome": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT_RECORDED",
+    "basis_local_relevance_medium_multiplicity_result_result_version": "0.1.0",
+    "basis_second_local_relevance_orientation_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min/local_relevance_medium_second_local_relevance_orientation_index_entry_reference_review_001__local_relevance_medium_second_local_relevance_orientation_index_entry_v0_min_result.json",
+    "first_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "first_received_signal_id": "bounded_relevance_signal_001",
+    "multiplicity_count": 2,
+    "multiplicity_result_scope": "TWO_LOCAL_ORIENTATION_LOCATORS_ONLY",
+    "multiplicity_result_type": "LOCAL_RELEVANCE_MEDIUM_MULTIPLICITY_RESULT",
+    "second_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_medium_second_relevance_orientation_view_v0_min/local_relevance_medium_second_relevance_orientation_view_reference_review_001__local_relevance_medium_second_relevance_orientation_view_v0_min_result.json",
+    "second_received_signal_id": "bounded_relevance_signal_002"
+  },
+  "what_remains_open": [
+    "local relevance medium relation view test",
+    "local relevance medium relation view live artifact",
+    "local relevance medium relation view terminal summary, if needed",
+    "comparison view",
+    "local relevance orientation index system, if separately selected",
+    "registry",
+    "search surface",
+    "ranking surface",
+    "source transfer",
+    "source receipt",
+    "authority creation",
+    "currentness creation",
+    "truth creation",
+    "action",
+    "synchronization",
+    "participation authorization",
+    "participant role",
+    "runtime permission",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "operation permission",
+    "repeated reception permission",
+    "arbitrary reception",
+    "feed",
+    "follow-on work"
+  ]
+}

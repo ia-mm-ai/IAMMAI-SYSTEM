@@ -1,0 +1,122 @@
+{
+  "block": {
+    "block_code": "WHAT_REMAINS_OPEN_REQUEST_OUT_OF_SCOPE",
+    "block_reason": "The request exceeds the bounded what-remains-open surface."
+  },
+  "checks": [
+    {
+      "actual_posture": {
+        "allowed_field_count": 32,
+        "out_of_scope_fields": [
+          "final_current_state_what_stands_now_completed"
+        ],
+        "requested_open_fields": [
+          "non_claims",
+          "continuity_completed",
+          "final_current_state_query_completed",
+          "final_current_state_what_stands_now_completed",
+          "final_current_state_delivery_completed",
+          "final_system_identity_completed",
+          "authority_resolution_is_protocol_law",
+          "final_persistence_or_registry_law",
+          "application_basis",
+          "delivery_basis"
+        ]
+      },
+      "block_code": "WHAT_REMAINS_OPEN_REQUEST_OUT_OF_SCOPE",
+      "check_name": "what_remains_open_request_within_bounded_open_surface",
+      "expected_posture": "requested fields from bounded open-surface field set",
+      "passed": false
+    }
+  ],
+  "effective_open_inputs": {
+    "effective_authority_artifact_path": null,
+    "effective_current_governing_packet_path": null,
+    "effective_family_packet_path": null,
+    "effective_ingress_run_path": null,
+    "effective_source_run_path": null,
+    "effective_status_packet_path": null
+  },
+  "non_claims": {
+    "continuity_completed": false,
+    "final_current_state_answer_read_completed": false,
+    "final_current_state_application_completed": false,
+    "final_current_state_delivery_completed": false,
+    "final_current_state_export_completed": false,
+    "final_current_state_handoff_completed": false,
+    "final_current_state_query_completed": false,
+    "final_current_state_readout_completed": false,
+    "final_current_state_what_remains_open_completed": false,
+    "final_current_state_what_stands_now_completed": false,
+    "final_current_work_input_resolution_completed": false,
+    "final_current_work_operation_completed": false,
+    "final_effective_family_consumption_completed": false,
+    "final_effective_family_resolution_completed": false,
+    "final_governing_reresolution_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_successor_adoption_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_preserved_run_governance_completed": false,
+    "final_system_identity_completed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "outcome": "BLOCKED",
+  "selected_current_state_answer_read": {
+    "current_state_answer_read_result_id": null,
+    "current_state_answer_read_result_path": null,
+    "outcome": null,
+    "selected_current_state_application_id": null
+  },
+  "what_remains_open_answer": null,
+  "what_remains_open_metadata": {
+    "generated_at": "2026-04-22T09:41:40.446316Z",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_current_state_what_remains_open",
+    "what_remains_open_result_id": "no_current_state_answer_read_result__what_remains_open__001__what_remains_open_blocked",
+    "what_remains_open_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_CURRENT_STATE_WHAT_REMAINS_OPEN_RESULT",
+    "what_remains_open_result_version": "0.1.0"
+  },
+  "what_remains_open_request": {
+    "query_basis": "manual_terminal_verification",
+    "query_family": "what_remains_open",
+    "requested_open_fields": [
+      "non_claims",
+      "continuity_completed",
+      "final_current_state_query_completed",
+      "final_current_state_what_stands_now_completed",
+      "final_current_state_delivery_completed",
+      "final_system_identity_completed",
+      "authority_resolution_is_protocol_law",
+      "final_persistence_or_registry_law",
+      "application_basis",
+      "delivery_basis"
+    ],
+    "what_remains_open_request_id": "what_remains_open__001"
+  },
+  "what_remains_open_summary": {
+    "answered_field_count": 0,
+    "answered_field_names": [],
+    "effective_current_governing_ingress_run_path": null,
+    "effective_current_governing_source_run_path": null,
+    "failed_check_count": 1,
+    "open_surface_basis": "answered_current_state_result",
+    "passed_check_count": 0,
+    "query_family": "what_remains_open",
+    "requested_field_names": [
+      "non_claims",
+      "continuity_completed",
+      "final_current_state_query_completed",
+      "final_current_state_what_stands_now_completed",
+      "final_current_state_delivery_completed",
+      "final_system_identity_completed",
+      "authority_resolution_is_protocol_law",
+      "final_persistence_or_registry_law",
+      "application_basis",
+      "delivery_basis"
+    ],
+    "selected_current_state_answer_read_id": null,
+    "what_remains_open_result_id": "no_current_state_answer_read_result__what_remains_open__001__what_remains_open_blocked"
+  }
+}

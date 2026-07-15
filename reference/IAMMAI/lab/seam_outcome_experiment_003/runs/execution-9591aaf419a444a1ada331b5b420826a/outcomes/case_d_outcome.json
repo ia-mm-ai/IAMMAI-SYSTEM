@@ -1,0 +1,38 @@
+{
+  "case_id": "case_d",
+  "case_title": "Derivative-only presence under constrained agency",
+  "expected_outcome_type": "derivative_only_presence",
+  "outcome_type": "derivative_only_presence",
+  "expected_outcome_matched": true,
+  "channel_condition": "derivative_contact_only",
+  "self_carried_coherence_threshold_met": true,
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "coercive_context_status": "preserved",
+  "receipt_status": "derivative_only",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "subsidized_distortion_risk": false,
+  "downstream_sovereignty_status": "derivative_only",
+  "upstream_responsibility_class": "heavy",
+  "downstream_responsibility_scope": "narrow_derivative_scope",
+  "scapegoating_status": "absent",
+  "upstream_constraints": [
+    "full_participation_is_not_lawful",
+    "bounded_derivative_presence_remains_possible"
+  ],
+  "seam_reasoning": "Full participation is not lawful, but bounded derivative-only presence remains possible. Derivative receipt keeps rank explicit and prevents false sovereignty from being inferred. This preserves relation without treating constrained agency as normal contained compliance. Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible.",
+  "seam_reasoning_points": [
+    "Full participation is not lawful, but bounded derivative-only presence remains possible.",
+    "Derivative receipt keeps rank explicit and prevents false sovereignty from being inferred.",
+    "This preserves relation without treating constrained agency as normal contained compliance.",
+    "Upstream governance is actively constraining lawful agency, so the seam outcome must keep that pressure visible."
+  ],
+  "responsibility_reasoning": "Derivative-only presence is explicitly non-sovereign, so downstream responsibility stays narrow and typed. Upstream governance remains heavily responsible for the channel condition that blocks lawful full participation. Coercive context is preserved, so upstream pressure remains attached to the responsibility reading.",
+  "responsibility_reasoning_points": [
+    "Derivative-only presence is explicitly non-sovereign, so downstream responsibility stays narrow and typed.",
+    "Upstream governance remains heavily responsible for the channel condition that blocks lawful full participation.",
+    "Coercive context is preserved, so upstream pressure remains attached to the responsibility reading."
+  ]
+}

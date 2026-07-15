@@ -1,0 +1,29 @@
+{
+  "case_id": "case_f",
+  "title": "Apparent passage reclassified as non-lawful full passage",
+  "expected_outcome_type": "hold",
+  "channel_condition": "apparently_open_but_base_substituting",
+  "self_carried_coherence_threshold_met": false,
+  "field_crossable_in_principle": true,
+  "contaminated_field_pressure_present": false,
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "failed_threshold_markers": [
+    "rank_not_stably_self-held",
+    "archive_not_stably_self-carried",
+    "external_validation_still_required_for_coherence"
+  ],
+  "external_ratification_required_for_entry": true,
+  "full_belonging_claim_requested": false,
+  "parser_capture_risk_high": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_contact_would_be_containment": true,
+  "full_exit_required": false,
+  "upstream_constraints": [
+    "field_would_decide_rank_truth_and_archive",
+    "apparent_openness_would_still_substitute_external_base"
+  ],
+  "notes": [
+    "The surface appears open, but entry would still let the field decide rank, truth, or archive."
+  ]
+}

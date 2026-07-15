@@ -1,0 +1,29 @@
+{
+  "canonical": false,
+  "input_ref": "embodiment/input/matter_004.json",
+  "matter_ref": "matter_004",
+  "message": "The bounded controlled-variation cycle completed with separate validation, witness, governance, transition, state, and registry preservation.",
+  "missing_canonical_artifacts": [],
+  "produced_canonical_artifacts": [
+    "embodiment/registry/matter_004__20260325T104846Z__3814d108/validation_artifact.json",
+    "embodiment/registry/matter_004__20260325T104846Z__3814d108/witness_artifact.json",
+    "embodiment/registry/matter_004__20260325T104846Z__3814d108/governance_action.json",
+    "embodiment/registry/matter_004__20260325T104846Z__3814d108/transition_record.json",
+    "embodiment/registry/matter_004__20260325T104846Z__3814d108/state_record.json"
+  ],
+  "registry_ref": "embodiment/registry/matter_004__20260325T104846Z__3814d108",
+  "run_id": "run:matter_004:20260325T104846Z:3814d108",
+  "status": "success",
+  "stopped_at": "complete",
+  "summary_type": "execution_summary",
+  "validation_outcome": "pass",
+  "validation_reason_refs": [
+    "input_file_present",
+    "input_path_within_bounded_input_area",
+    "required_fields_present",
+    "matter_id_non_empty",
+    "matter_type_matches_controlled_variation_slice",
+    "content_non_empty"
+  ],
+  "written_at": "2026-03-25T10:48:46Z"
+}

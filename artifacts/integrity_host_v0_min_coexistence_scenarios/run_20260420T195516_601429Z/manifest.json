@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-04-20T19:55:16.603804Z",
+  "output_directory": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z",
+  "scenario_count": 5,
+  "scenarios": [
+    {
+      "description": "Creates two distinct-matter open objects with explicit pairwise cohost marking, then moves them independently through presentation.",
+      "file_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+      "scenario_id": "lawful_distinct_matter_coexistence",
+      "scenario_name": "Lawful Distinct-Matter Coexistence"
+    },
+    {
+      "description": "Shows that distinct matter strings alone do not authorize unresolved coexistence without explicit relation basis.",
+      "file_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/02_refused_missing_coexistence_basis.json",
+      "scenario_id": "refused_missing_coexistence_basis",
+      "scenario_name": "Refused Missing Coexistence Basis"
+    },
+    {
+      "description": "Moves one cohosted object to standing and evolves it while preserving predecessor/successor lineage and relation marking against the remaining open object.",
+      "file_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/03_evolve_under_coexistence.json",
+      "scenario_id": "evolve_under_coexistence",
+      "scenario_name": "EVOLVE Under Coexistence"
+    },
+    {
+      "description": "Demonstrates target-specific HOLD: the held object refuses standing while the unrelated cohosted object can still stand.",
+      "file_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/04_hold_blocks_one_target_while_another_proceeds.json",
+      "scenario_id": "hold_blocks_one_target_while_another_proceeds",
+      "scenario_name": "HOLD Blocks One Target While Another Proceeds"
+    },
+    {
+      "description": "Shows that fresh same-matter creation after FINALIZE is refused because this slice keeps EVOLVE as the only same-matter successor path.",
+      "file_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/05_same_matter_post_resolution_refusal.json",
+      "scenario_id": "same_matter_post_resolution_refusal",
+      "scenario_name": "Same-Matter Post-Resolution Refusal"
+    }
+  ]
+}

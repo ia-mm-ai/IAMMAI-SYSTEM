@@ -1,0 +1,15 @@
+{
+  "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+  "artifact_family": "continuity_turn",
+  "checked_at": "2026-04-02T11:41:55Z",
+  "conformance_kind": "relation_check",
+  "continuity_body_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/canonical_body/positive/continuity_turn.body.json",
+  "errors": [],
+  "execution_relation_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/execution_relation/positive/continuity_execution_relation.json",
+  "expected_status": "pass",
+  "matched_expectation": true,
+  "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+  "predecessor_turn_ref": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+  "status": "pass",
+  "surface": "execution_relation_conformance"
+}

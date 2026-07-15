@@ -1,0 +1,175 @@
+{
+  "contract_id": "current_state_what_stands_reader_v1",
+  "corpus_id": "current_state_what_stands_reader_v1_initial_eval_corpus",
+  "description": "Fixed initial evaluation corpus for the narrowed first vessel only. It tests bounded current-state / what-stands reading, visible refusal, provenance, and derivative posture without widening into substantive threshold classification, substantive seam-case reading, proof running, file mutation, or broad doctrinal generation.",
+  "corpus_posture": {
+    "first_vessel_only": true,
+    "input_packets_conform_to_input_schema": true,
+    "expected_derivative_status": "derivative_reader",
+    "tests_bounded_current_state_what_stands_reading": true,
+    "tests_substantive_threshold_classification": false,
+    "tests_substantive_seam_case_reading": false,
+    "tests_proof_running": false,
+    "tests_actual_file_mutation": false,
+    "tests_broad_doctrinal_generation": false,
+    "refusal_cases_cover_out_of_scope_requests": true
+  },
+  "cases": [
+    {
+      "eval_id": "eval_001_current_state_entry_answered",
+      "purpose": "Basic answered current-state reading from the approved current-state entry surface.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_001",
+        "question_class": "current_state",
+        "question_text": "What is the current repository condition now?",
+        "context_note": null
+      },
+      "expected_status": "answered",
+      "expected_primary_rank_used": "current_state_surface",
+      "expected_refusal_reason": null,
+      "expected_min_sources": 1,
+      "expected_allowed_source_subset": [
+        "CURRENT_STATE__REPO_ENTRY.md"
+      ],
+      "expected_ambiguity_note_required": false,
+      "notes": "Should answer from the current-state entry surface without widening into non-manifest sources."
+    },
+    {
+      "eval_id": "eval_002_current_state_bounded_non_final_answered",
+      "purpose": "Answered current-state reading that keeps present condition distinct from final standing.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_002",
+        "question_class": "current_state",
+        "question_text": "What is true now about the repository state, and does that already amount to final standing?",
+        "context_note": null
+      },
+      "expected_status": "answered",
+      "expected_primary_rank_used": "current_state_surface",
+      "expected_refusal_reason": null,
+      "expected_min_sources": 2,
+      "expected_allowed_source_subset": [
+        "CURRENT_STATE__REPO_ENTRY.md",
+        "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+      ],
+      "expected_ambiguity_note_required": false,
+      "notes": "Should remain bounded and derivative by reading current state together with the present standing review rather than claiming final closure."
+    },
+    {
+      "eval_id": "eval_003_what_stands_now_answered",
+      "purpose": "Basic answered what-stands reading anchored in the current standing review.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_003",
+        "question_class": "what_stands_now",
+        "question_text": "What now clearly stands on the v1 line?",
+        "context_note": null
+      },
+      "expected_status": "answered",
+      "expected_primary_rank_used": "standing_review_surface",
+      "expected_refusal_reason": null,
+      "expected_min_sources": 1,
+      "expected_allowed_source_subset": [
+        "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+      ],
+      "expected_ambiguity_note_required": false,
+      "notes": "Should answer from the approved standing review without widening into broader repo judgment."
+    },
+    {
+      "eval_id": "eval_004_what_stands_now_bounded_answered",
+      "purpose": "Answered what-stands reading that preserves material standing without counterfeit finality.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_004",
+        "question_class": "what_stands_now",
+        "question_text": "In bounded present-tense terms, what stands now without claiming total closure?",
+        "context_note": null
+      },
+      "expected_status": "answered",
+      "expected_primary_rank_used": "standing_review_surface",
+      "expected_refusal_reason": null,
+      "expected_min_sources": 1,
+      "expected_allowed_source_subset": [
+        "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+      ],
+      "expected_ambiguity_note_required": false,
+      "notes": "Should keep the reading derivative and non-sovereign while still answering what now clearly stands."
+    },
+    {
+      "eval_id": "eval_005_refused_seam_case_and_doctrinal_judgment",
+      "purpose": "Refusal case for a request that asks both for seam-case judgment and new doctrinal rule making.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_005",
+        "question_class": "what_stands_now",
+        "question_text": "Decide whether a new origin-side dispute qualifies as lawful egress and state the doctrine that should govern future cases.",
+        "context_note": null
+      },
+      "expected_status": "refused",
+      "expected_primary_rank_used": "standing_review_surface",
+      "expected_refusal_reason": "would_require_interpretive_sovereignty",
+      "expected_min_sources": 0,
+      "expected_allowed_source_subset": [],
+      "expected_ambiguity_note_required": false,
+      "notes": "Tests refusal of seam-case judgment and broader doctrinal generation beyond this narrowed vessel."
+    },
+    {
+      "eval_id": "eval_006_refused_mutation_request",
+      "purpose": "Refusal case for a request that would mutate a ranked repo surface.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_006",
+        "question_class": "current_state",
+        "question_text": "Rewrite CURRENT_STATE__REPO_ENTRY.md so it gives a stronger final-standing conclusion.",
+        "context_note": null
+      },
+      "expected_status": "refused",
+      "expected_primary_rank_used": "current_state_surface",
+      "expected_refusal_reason": "would_mutate_or_finalize",
+      "expected_min_sources": 0,
+      "expected_allowed_source_subset": [],
+      "expected_ambiguity_note_required": false,
+      "notes": "The vessel is read-only and must refuse requests that imply editing or finalizing repo surfaces."
+    },
+    {
+      "eval_id": "eval_007_out_of_scope_unapproved_sources",
+      "purpose": "Out-of-scope case where the question would require repo surfaces outside the manifest.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_007",
+        "question_class": "current_state",
+        "question_text": "Using VERSION_LINEAGE.md and v1/05_STANDING_CRITERIA.md, what additional current-state conclusion should be drawn now?",
+        "context_note": null
+      },
+      "expected_status": "out_of_scope",
+      "expected_primary_rank_used": "current_state_surface",
+      "expected_refusal_reason": "requires_unapproved_sources",
+      "expected_min_sources": 0,
+      "expected_allowed_source_subset": [],
+      "expected_ambiguity_note_required": false,
+      "notes": "The question uses an allowed question class, but it explicitly requires non-manifest sources and must remain out of scope."
+    },
+    {
+      "eval_id": "eval_008_insufficient_grounding_final_standing",
+      "purpose": "Insufficient-grounding case where the approved surfaces do not settle a single conclusive final-standing answer.",
+      "input_packet": {
+        "contract_id": "current_state_what_stands_reader_v1",
+        "request_id": "eval_req_008",
+        "question_class": "what_stands_now",
+        "question_text": "Which single approved surface conclusively ratifies final v1 standing now?",
+        "context_note": null
+      },
+      "expected_status": "insufficient_grounding",
+      "expected_primary_rank_used": "standing_review_surface",
+      "expected_refusal_reason": null,
+      "expected_min_sources": 1,
+      "expected_allowed_source_subset": [
+        "CURRENT_STATE__REPO_ENTRY.md",
+        "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+      ],
+      "expected_ambiguity_note_required": true,
+      "notes": "The question is nominally in scope, but the approved surfaces do not provide a single conclusive final-standing ratification."
+    }
+  ]
+}

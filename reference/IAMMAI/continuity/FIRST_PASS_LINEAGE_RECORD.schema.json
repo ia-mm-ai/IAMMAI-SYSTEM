@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI First-Pass Lineage Record",
+  "description": "First-pass schema for one additive lineage move only. This object is small, explicit, anti-erasure, and anti-mush. It records one from/to lineage relation together with what remained and what changed, without becoming a full continuity ontology, storage model, or final relation vocabulary.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "lineage_record_id",
+    "recorded_at",
+    "from_ref",
+    "to_ref",
+    "relation_type",
+    "preserves",
+    "changes"
+  ],
+  "properties": {
+    "lineage_record_id": {
+      "type": "string",
+      "description": "Bounded identifier for this one lineage record object. It makes the lineage move referable without implying a final global identity system or sovereign record status.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "recorded_at": {
+      "type": "string",
+      "description": "Recorded-at value for when this lineage move was explicitly housed as an object. This remains a conservative non-empty string rather than a frozen final timestamp model.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": ".*\\S.*"
+    },
+    "from_ref": {
+      "type": "string",
+      "description": "Bounded earlier reference from which the lineage move is being read. It preserves that later does not erase earlier.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "to_ref": {
+      "type": "string",
+      "description": "Bounded later reference to which the lineage move is being read. It names the later surface without implying silent supersession or total authority absorption.",
+      "minLength": 1,
+      "maxLength": 1000,
+      "pattern": ".*\\S.*"
+    },
+    "relation_type": {
+      "type": "string",
+      "description": "Bounded type of lineage move claimed between from_ref and to_ref. The field is required, but the vocabulary remains intentionally open and revisable in first-pass form.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]*$"
+    },
+    "preserves": {
+      "type": "array",
+      "description": "Explicit bounded statements of what remained across this lineage move. This is central to lineage and is not optional narrative decoration.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    },
+    "changes": {
+      "type": "array",
+      "description": "Explicit bounded statements of what changed across this lineage move. This is central to lineage and is not optional narrative decoration.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 1000,
+        "pattern": ".*\\S.*"
+      }
+    }
+  }
+}

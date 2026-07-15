@@ -1,0 +1,62 @@
+{
+  "proof_family": "cross_carrier_seam_proof_001",
+  "artifact_family": "witness_artifact",
+  "package_kind": "cross_carrier_seam_release_package",
+  "package_id": "transfer-package-4eca87b14bfa41e09d73c8e133e2c68b",
+  "package_created_at": "2026-04-03T14:06:26Z",
+  "source_carrier": {
+    "carrier_label": "source-side-carrier",
+    "execution_id": "execution-71a0490222f8433e9b3081eecc817d3a"
+  },
+  "release_context": {
+    "release_context_id": "release-context-10165cd8fc33460aa5fd52e418d1f8ef",
+    "release_mode": "release",
+    "release_statement": "Source-side carrier releases one witness artifact package for explicit receiving-side ingress.",
+    "seam_statement": "Source remains source. Receiver must perform explicit ingress. Arrival stays derivative-only and standing does not transfer on receipt.",
+    "expected_receiving_outcome": "lawful_derivative_ingress"
+  },
+  "seam": {
+    "explicit_release": true,
+    "explicit_seam": true,
+    "explicit_ingress_required": true,
+    "source_remains_source": true,
+    "derivative_only_arrival_rule": true,
+    "shared_authority": false,
+    "standing_transfer_on_receipt": false,
+    "standing_upgrade_requires_separate_ratification": true,
+    "refusal_visible_on_failure": true
+  },
+  "lineage": {
+    "artifact_family": "witness_artifact",
+    "schema_ref": "v1/schemas/witness_artifact.schema.json",
+    "source_execution_id": "execution-71a0490222f8433e9b3081eecc817d3a",
+    "witness_id": "witness-d3f306de2f5743b597be9efef8c819f9",
+    "matter_id": "matter-c89ca539eb67490394fae2283c528ef7",
+    "source_canonical_body_ref": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/canonical_body/witness_artifact_body.json",
+    "carried_body_ref": "inline::canonical_body"
+  },
+  "canonical_body": {
+    "witness_id": "witness-d3f306de2f5743b597be9efef8c819f9",
+    "witness_type": "transition_witness",
+    "target_ref": "matter-c89ca539eb67490394fae2283c528ef7",
+    "observed_at": "2026-04-03T14:06:26Z",
+    "claims": [
+      "transition_relevant_event_observed",
+      "bounded_interaction_preserved"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "actor_ref": "source-side-carrier",
+    "surface_ref": "lab:cross_carrier_seam_proof_001:source_release",
+    "scope_ref": "cross_carrier_seam_proof_001"
+  },
+  "manifest": {
+    "manifest_id": "manifest-fe7b4940b8bc459b883351a1ab8cc66a",
+    "manifest_note": "Lawful source-side release package for derivative-only ingress testing."
+  }
+}

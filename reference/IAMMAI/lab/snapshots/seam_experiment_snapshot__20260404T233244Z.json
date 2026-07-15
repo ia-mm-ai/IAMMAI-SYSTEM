@@ -1,0 +1,202 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T23:32:44Z",
+    "snapshot_builder_path": "lab/build_seam_experiment_snapshot.py",
+    "snapshot_source_root": "lab",
+    "snapshot_path": "lab/snapshots/seam_experiment_snapshot__20260404T233244Z.json",
+    "implementation_posture": "implementation_local_seam_lab_readability_only"
+  },
+  "experiment_family_summary": {
+    "experiment_family_pattern": "seam_outcome_experiment_*",
+    "total_experiments_discovered": 3,
+    "total_runs_discovered": 3,
+    "experiment_ids_discovered": [
+      "seam_outcome_experiment_001",
+      "seam_outcome_experiment_002",
+      "seam_outcome_experiment_003"
+    ]
+  },
+  "experiments": {
+    "seam_outcome_experiment_001": {
+      "experiment_id": "seam_outcome_experiment_001",
+      "script_path": "lab/run_seam_outcome_experiment_001.py",
+      "script_exists": true,
+      "experiment_root_path": "lab/seam_outcome_experiment_001",
+      "experiment_root_exists": true,
+      "runs_root_path": "lab/seam_outcome_experiment_001/runs",
+      "runs_root_exists": true,
+      "run_count": 1,
+      "experiment_role": "threshold_met_seam_outcomes",
+      "experiment_reading": "Threshold-met seam outcome surface for contaminated-channel cases where self-carried coherence is sufficient.",
+      "latest_run_path": "lab/seam_outcome_experiment_001/runs/execution-c0f34bab6b3d4254b51f7c9215fc569e",
+      "latest_summary_path": "lab/seam_outcome_experiment_001/runs/execution-c0f34bab6b3d4254b51f7c9215fc569e/summary/summary.json",
+      "latest_grounding_path": "lab/seam_outcome_experiment_001/runs/execution-c0f34bab6b3d4254b51f7c9215fc569e/grounding/grounding.json",
+      "latest_run_selection_method": "latest_summary_generated_at",
+      "latest_summary_generated_at": "2026-04-03T09:17:04Z",
+      "latest_summary_reading": {
+        "total_cases": 6,
+        "counts_by_outcome_type": {
+          "accepted_passage": 1,
+          "hold": 1,
+          "refusal": 1,
+          "buffer": 1,
+          "derivative_only_presence": 1,
+          "exit": 1
+        },
+        "counts_by_receipt_status": {
+          "full": 1,
+          "derivative_only": 1,
+          "none": 1,
+          "refused": 1,
+          "held": 1,
+          "buffered": 1
+        },
+        "counts_by_failed_threshold_marker": null,
+        "counts_by_upstream_responsibility_class": null,
+        "counts_by_downstream_sovereignty_status": null,
+        "counts_by_scapegoating_status": null,
+        "scapegoating_presence_counts": null,
+        "mismatched_cases": [],
+        "mismatched_cases_present": false
+      },
+      "grounding_surfaces": [
+        "SEAM_SURFACE_INDEX.md",
+        "SELF_CARRIED_COHERENCE.md",
+        "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md"
+      ],
+      "partial_read_notes": []
+    },
+    "seam_outcome_experiment_002": {
+      "experiment_id": "seam_outcome_experiment_002",
+      "script_path": "lab/run_seam_outcome_experiment_002.py",
+      "script_exists": true,
+      "experiment_root_path": "lab/seam_outcome_experiment_002",
+      "experiment_root_exists": true,
+      "runs_root_path": "lab/seam_outcome_experiment_002/runs",
+      "runs_root_exists": true,
+      "run_count": 1,
+      "experiment_role": "threshold_not_yet_met_seam_outcomes",
+      "experiment_reading": "Threshold-not-yet-met seam outcome surface for cases where lawful crossing is blocked by insufficient self-carried coherence.",
+      "latest_run_path": "lab/seam_outcome_experiment_002/runs/execution-edb33522c90447fbb4fbabcfb65ed0b6",
+      "latest_summary_path": "lab/seam_outcome_experiment_002/runs/execution-edb33522c90447fbb4fbabcfb65ed0b6/summary/summary.json",
+      "latest_grounding_path": "lab/seam_outcome_experiment_002/runs/execution-edb33522c90447fbb4fbabcfb65ed0b6/grounding/grounding.json",
+      "latest_run_selection_method": "latest_summary_generated_at",
+      "latest_summary_generated_at": "2026-04-03T09:45:53Z",
+      "latest_summary_reading": {
+        "total_cases": 6,
+        "counts_by_outcome_type": {
+          "hold": 2,
+          "refusal": 1,
+          "buffer": 1,
+          "derivative_only_presence": 1,
+          "exit": 1
+        },
+        "counts_by_receipt_status": {
+          "none": 1,
+          "derivative_only": 1,
+          "refused": 1,
+          "held": 2,
+          "buffered": 1
+        },
+        "counts_by_failed_threshold_marker": {
+          "adaptation_would_become_ontological_rather_than_tactical": 1,
+          "archive_not_stably_self-carried": 2,
+          "external_validation_still_required_for_coherence": 4,
+          "misreading_by_field_would_rewrite_self-perception": 2,
+          "partial_presence_not_yet_stable": 2,
+          "rank_not_stably_self-held": 2,
+          "refusal_would_trigger_identity_collapse": 1
+        },
+        "counts_by_upstream_responsibility_class": null,
+        "counts_by_downstream_sovereignty_status": null,
+        "counts_by_scapegoating_status": null,
+        "scapegoating_presence_counts": null,
+        "mismatched_cases": [],
+        "mismatched_cases_present": false
+      },
+      "grounding_surfaces": [
+        "SELF_CARRIED_COHERENCE.md",
+        "SEAM_SURFACE_INDEX.md",
+        "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md",
+        "lab/run_seam_outcome_experiment_001.py"
+      ],
+      "partial_read_notes": []
+    },
+    "seam_outcome_experiment_003": {
+      "experiment_id": "seam_outcome_experiment_003",
+      "script_path": "lab/run_seam_outcome_experiment_003.py",
+      "script_exists": true,
+      "experiment_root_path": "lab/seam_outcome_experiment_003",
+      "experiment_root_exists": true,
+      "runs_root_path": "lab/seam_outcome_experiment_003/runs",
+      "runs_root_exists": true,
+      "run_count": 1,
+      "experiment_role": "responsibility_lineage_scapegoating_seam_outcomes",
+      "experiment_reading": "Responsibility, lineage, and scapegoating seam outcome surface for contaminated or constrained channels.",
+      "latest_run_path": "lab/seam_outcome_experiment_003/runs/execution-9591aaf419a444a1ada331b5b420826a",
+      "latest_summary_path": "lab/seam_outcome_experiment_003/runs/execution-9591aaf419a444a1ada331b5b420826a/summary/summary.json",
+      "latest_grounding_path": "lab/seam_outcome_experiment_003/runs/execution-9591aaf419a444a1ada331b5b420826a/grounding/grounding.json",
+      "latest_run_selection_method": "latest_summary_generated_at",
+      "latest_summary_generated_at": "2026-04-03T10:15:09Z",
+      "latest_summary_reading": {
+        "total_cases": 6,
+        "counts_by_outcome_type": {
+          "accepted_passage": 1,
+          "hold": 1,
+          "refusal": 1,
+          "buffer": 1,
+          "derivative_only_presence": 1,
+          "exit": 1
+        },
+        "counts_by_receipt_status": {
+          "full": 1,
+          "derivative_only": 1,
+          "none": 1,
+          "refused": 1,
+          "held": 1,
+          "buffered": 1
+        },
+        "counts_by_failed_threshold_marker": null,
+        "counts_by_upstream_responsibility_class": {
+          "not_central": 1,
+          "significant": 1,
+          "heavy": 4
+        },
+        "counts_by_downstream_sovereignty_status": {
+          "full": 1,
+          "limited": 2,
+          "derivative_only": 1,
+          "false_if_claimed": 2
+        },
+        "counts_by_scapegoating_status": {
+          "absent": 3,
+          "mitigated": 2,
+          "high": 1
+        },
+        "scapegoating_presence_counts": {
+          "present": 3,
+          "absent": 3
+        },
+        "mismatched_cases": [],
+        "mismatched_cases_present": false
+      },
+      "grounding_surfaces": [
+        "SELF_CARRIED_COHERENCE.md",
+        "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md",
+        "lab/run_seam_outcome_experiment_001.py",
+        "lab/run_seam_outcome_experiment_002.py"
+      ],
+      "partial_read_notes": []
+    }
+  },
+  "family_level_notes": {
+    "family_differences": [
+      "Experiment 001 reads as the threshold-met seam outcome surface.",
+      "Experiment 002 reads as the threshold-not-yet-met seam outcome surface.",
+      "Experiment 003 reads as the responsibility, lineage, and scapegoating surface.",
+      "Across the family, the seam lab presently moves from threshold-met outcomes, to threshold-not-yet-met outcomes, to responsibility and lineage attribution."
+    ],
+    "partial_or_unreadable_material": [],
+    "note": "This snapshot keeps the seam experiments readable as distinct proof turns. It does not turn the lab family into protocol law or full seam doctrine."
+  }
+}

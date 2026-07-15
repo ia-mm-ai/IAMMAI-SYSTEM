@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-07T19:51:13.912455Z",
+    "probe_builder_path": "vessel/current_state_what_stands_reader_v1/api_answer_channel_probe.py",
+    "probe_channel": "structured_responses_json_schema",
+    "selected_case_id": "eval_003_what_stands_now_answered",
+    "selected_question_class": "what_stands_now",
+    "selected_request_id": "eval_req_003"
+  },
+  "selected_input_summary": {
+    "input_packet": {
+      "contract_id": "current_state_what_stands_reader_v1",
+      "request_id": "eval_req_003",
+      "question_class": "what_stands_now",
+      "question_text": "What now clearly stands on the v1 line?",
+      "context_note": null
+    },
+    "question_text": "What now clearly stands on the v1 line?",
+    "selected_sources": [
+      "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+    ],
+    "allowed_sources_boundary": [
+      "CURRENT_STATE__REPO_ENTRY.md",
+      "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+    ],
+    "allowed_question_classes": [
+      "current_state",
+      "what_stands_now"
+    ]
+  },
+  "response_surface_summary": {
+    "probe_channel": "structured_responses_json_schema",
+    "response_id": "resp_0e18a298e2083fd70169d56025de288195b56d5b84348098cc",
+    "model": "gpt-5-2025-08-07",
+    "has_output_text": false,
+    "has_output_parsed": false,
+    "has_parsed": false,
+    "output_count": 1,
+    "output_items": [
+      {
+        "type": "reasoning",
+        "status": null,
+        "has_summary": true,
+        "summary_count": 0,
+        "has_output_parsed": false,
+        "has_parsed": false,
+        "content_types": []
+      }
+    ],
+    "any_reasoning_items": true,
+    "top_level_keys": [
+      "background",
+      "billing",
+      "completed_at",
+      "conversation",
+      "created_at",
+      "error",
+      "frequency_penalty",
+      "id",
+      "incomplete_details",
+      "instructions",
+      "max_output_tokens",
+      "max_tool_calls",
+      "metadata",
+      "model",
+      "object",
+      "output",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "previous_response_id",
+      "prompt"
+    ]
+  },
+  "answer_channel_finding": {
+    "answer_channel_status": "reasoning_only",
+    "candidate_locations": [],
+    "bounded_reason": "The response exposed reasoning-shaped structure, but this bounded probe did not observe any answer-bearing channel that looked usable later.",
+    "inspected_locations": [
+      "response.output_text",
+      "response.output[0]",
+      "response.output[0].summary",
+      "dump.output[0]",
+      "dump.output[0].summary",
+      "dump.output[0].content",
+      "dump.output[0].id",
+      "dump.output[0].type",
+      "dump.output[0].encrypted_content",
+      "dump.output[0].status"
+    ]
+  },
+  "structured_candidate_notes": [
+    {
+      "location": "dump.output[0].id",
+      "candidate_kind": "text_bearing_structure",
+      "later_vessel_output_compatibility": "no",
+      "bounded_reason": "Text-bearing structure was too slight to treat as a meaningful answer channel.",
+      "shape_summary": {
+        "word_count": 2,
+        "alpha_count": 19,
+        "path_depth": 3
+      },
+      "text_preview": "rs_0e18a298e2083fd70169d5602669d881959abcb933bdd1ece6"
+    },
+    {
+      "location": "dump.output[0].type",
+      "candidate_kind": "text_bearing_structure",
+      "later_vessel_output_compatibility": "no",
+      "bounded_reason": "Text-bearing structure was too slight to treat as a meaningful answer channel.",
+      "shape_summary": {
+        "word_count": 1,
+        "alpha_count": 9,
+        "path_depth": 3
+      },
+      "text_preview": "reasoning"
+    }
+  ],
+  "anti_collapse_note": "This probe is implementation-local diagnostic support only. It does not create vessel success, does not finalize output, does not widen contract, and does not create final standing, canon, constitutional force, publication rank, governance authorization, or consequence."
+}

@@ -1,0 +1,31 @@
+{
+  "case_id": "case_a",
+  "case_title": "Hold due to insufficient self-carriage",
+  "expected_outcome_type": "hold",
+  "outcome_type": "hold",
+  "expected_outcome_matched": true,
+  "channel_condition": "admissible_in_principle",
+  "self_carried_coherence_threshold_met": false,
+  "failed_threshold_markers": [
+    "external_validation_still_required_for_coherence",
+    "refusal_would_trigger_identity_collapse"
+  ],
+  "upstream_constraints": [
+    "entry_would_depend_on_external_ratification",
+    "non-passage_is_needed_to_avoid_false_entry"
+  ],
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "held",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": false,
+  "reasoning": "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default. The field may be crossable later, but the body cannot yet cross without external ratification or identity destabilization. Non-passage keeps false entry from being normalized. HOLD preserves the case without pretending the threshold has already been met. Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing.",
+  "reasoning_points": [
+    "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default.",
+    "The field may be crossable later, but the body cannot yet cross without external ratification or identity destabilization.",
+    "Non-passage keeps false entry from being normalized.",
+    "HOLD preserves the case without pretending the threshold has already been met.",
+    "Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing."
+  ]
+}

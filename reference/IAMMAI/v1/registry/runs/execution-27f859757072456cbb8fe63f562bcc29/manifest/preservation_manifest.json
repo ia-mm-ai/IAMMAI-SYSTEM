@@ -1,0 +1,45 @@
+{
+  "continuity_emitted": false,
+  "execution_identity": "execution-27f859757072456cbb8fe63f562bcc29",
+  "implementation_posture": "implementation_local_layout_only",
+  "manifest_type": "v1_first_proof_slice_preservation_manifest",
+  "note": "This local layout is a bounded implementation surface, not final protocol law.",
+  "run_directory": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+  "written_files": {
+    "canonical_bodies": [
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/governance_action.body.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/state_record.body.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/transition_record.body.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/validation_artifact.body.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/canonical_bodies/witness_artifact.body.json"
+    ],
+    "conformance": [
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/negative/invalid_validation_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/governance_action.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/state_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/transition_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/validation_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/body/positive/witness_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/envelope/positive/governance_action.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/envelope/positive/state_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/envelope/positive/transition_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/envelope/positive/validation_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/envelope/positive/witness_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/conformance/preservation/run_write_outcome.json"
+    ],
+    "envelopes": [
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/envelopes/positive/governance_action.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/envelopes/positive/state_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/envelopes/positive/transition_record.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/envelopes/positive/validation_artifact.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/envelopes/positive/witness_artifact.json"
+    ],
+    "negative_fixtures": [
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/fixtures/negative/body/invalid_validation_artifact.body.json",
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/fixtures/negative/classification.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29/summary/run_summary.json"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-03-25T09:06:43Z",
+  "condition_set_ref": "first_live_cycle_threshold_validation_v0",
+  "outcome": "pass",
+  "reason_refs": [
+    "input_file_present",
+    "required_fields_present",
+    "matter_id_matches_first_cycle",
+    "matter_type_matches_first_cycle",
+    "content_non_empty",
+    "content_matches_first_cycle"
+  ],
+  "run_id": "run:matter_001:20260325T090643Z:6c7ec4cb",
+  "target_ref": "matter_001",
+  "validation_id": "validation:run:matter_001:20260325T090643Z:6c7ec4cb",
+  "validation_type": "threshold_validation"
+}

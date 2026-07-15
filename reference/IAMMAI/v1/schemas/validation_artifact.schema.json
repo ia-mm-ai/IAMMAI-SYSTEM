@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:v1:schema:validation_artifact_body",
+  "title": "IAMMAI v1 Validation Artifact Body",
+  "description": "Canonical validation artifact body schema for v1. This schema defines the validation artifact as artifact only. It preserves typed condition checking without carrying execution, envelope, registry, preservation, or transport context as canonical body content.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "validation_id",
+    "validation_type",
+    "target_ref",
+    "condition_set_ref",
+    "outcome",
+    "checked_at"
+  ],
+  "properties": {
+    "validation_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Artifact identity for the validation artifact body."
+    },
+    "validation_type": {
+      "type": "string",
+      "enum": [
+        "admissibility_validation",
+        "threshold_validation",
+        "transition_legality_validation",
+        "governance_precondition_validation",
+        "bounded_consistency_validation"
+      ],
+      "description": "Typed validation class preserved by the artifact body."
+    },
+    "target_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the matter, state, transition, or artifact against which bounded validation was performed."
+    },
+    "condition_set_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the condition set or rule basis used for the validation."
+    },
+    "outcome": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "fail",
+        "blocked",
+        "indeterminate"
+      ],
+      "description": "Typed validation outcome. This does not by itself authorize action, create standing state, or apply lawful force."
+    },
+    "checked_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the bounded validation check occurred."
+    },
+    "reason_refs": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Optional bounded reason references associated with the validation outcome."
+    },
+    "related_witness_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional canonical reference to a related witness artifact where witness trace is lawfully preserved alongside the validation event."
+    }
+  }
+}

@@ -1,0 +1,1402 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "carrier_evidence_status": {
+    "admission_statuses": [
+      "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE"
+    ],
+    "carrier_admitted_as_evidence_does_not_mean_current": true,
+    "carrier_corresponded_does_not_mean_current": true,
+    "carrier_divergent_does_not_mean_current": true,
+    "carrier_held_does_not_mean_current": true,
+    "carrier_produced_does_not_mean_current": true,
+    "carrier_returned_does_not_mean_current": true,
+    "correspondence_statuses": [
+      null
+    ],
+    "divergence_statuses": [
+      "CARRIER_DIVERGENCE_RECORDED"
+    ],
+    "selected_carrier_ids": [
+      "carrier_C_additional_physical_candidate"
+    ],
+    "selected_carrier_roles": [
+      "RECEIVING_CARRIER"
+    ],
+    "selected_emission_classes": [
+      "RETURNED_BLOCKED_RECEIPT_EVIDENCE"
+    ],
+    "selected_evidence_count": 1,
+    "selected_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED"
+    ],
+    "selected_evidence_remains_downstream": true
+  },
+  "cross_carrier_currentness_metadata": {
+    "cross_carrier_currentness_result_id": "carrier_c_returned_blocked_receipt_currentness_participation_001__currentness_participation_eligible",
+    "cross_carrier_currentness_result_type": "cross_carrier_currentness_boundary_result",
+    "cross_carrier_currentness_result_version": "0.1.0",
+    "generated_at": "2026-04-29T12:11:55.181624Z",
+    "resolver_module": "resolve_cross_carrier_currentness_boundary"
+  },
+  "cross_carrier_currentness_summary": {
+    "action_authorized": false,
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "carrier_evidence_became_current": false,
+    "carrier_hierarchy_created": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created_by_carrier": false,
+    "currentness_question": "May Carrier C returned blocked receipt evidence participate in later body-side current posture assessment as visible refusal/divergence evidence, without becoming currentness by carrier possession, receipt, return, admission, divergence, timestamp, success count, availability, or label?",
+    "currentness_request_id": "carrier_c_returned_blocked_receipt_currentness_participation_001",
+    "distributed_standing_created": false,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "authority_created": false,
+      "carrier_evidence_became_current": false,
+      "carrier_hierarchy_created": false,
+      "continuation_authorized": false,
+      "currentness_created_by_carrier": false,
+      "distributed_standing_created": false,
+      "latest_file_currentness": false,
+      "losing_carrier_invalidated": false,
+      "majority_carrier_currentness": false,
+      "multi_carrier_law_created": false,
+      "newest_timestamp_currentness": false,
+      "permission_created": false,
+      "source_replaced": false,
+      "successful_admission_count_currentness": false,
+      "successful_receipt_count_currentness": false,
+      "winning_carrier_selected": false
+    },
+    "losing_carrier_invalidated": false,
+    "multi_carrier_law_created": false,
+    "outcome": "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+    "participation_eligible": true,
+    "participation_excluded": false,
+    "participation_intent": "EVALUATE_PARTICIPATION",
+    "passed_check_count": 55,
+    "permission_created": false,
+    "presence_created": false,
+    "presence_threshold_truth_action_consequence_created": false,
+    "selected_body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+    "selected_body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+    "selected_carrier_ids": [
+      "carrier_C_additional_physical_candidate"
+    ],
+    "selected_evidence_count": 1,
+    "selected_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED"
+    ],
+    "source_authority_permission_created": false,
+    "source_created": false,
+    "threshold_created": false,
+    "truth_created": false,
+    "winning_carrier_selected": false
+  },
+  "currentness_basis": {
+    "admission_status_required": false,
+    "admission_statuses": [
+      "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE"
+    ],
+    "carrier_evidence_is_not_current_by_itself": true,
+    "correspondence_statuses": [
+      null
+    ],
+    "currentness_basis": {},
+    "currentness_not_derived_from": {
+      "admission": true,
+      "carrier_availability": true,
+      "carrier_label": true,
+      "convenience": true,
+      "correspondence": true,
+      "divergence": true,
+      "latest_file": true,
+      "local_copy": true,
+      "majority_carriers": true,
+      "newest_timestamp": true,
+      "possession": true,
+      "receipt": true,
+      "return": true,
+      "successful_admission_count": true,
+      "successful_receipt_count": true
+    },
+    "currentness_participation_is_not_currentness_creation": true,
+    "currentness_question": "May Carrier C returned blocked receipt evidence participate in later body-side current posture assessment as visible refusal/divergence evidence, without becoming currentness by carrier possession, receipt, return, admission, divergence, timestamp, success count, availability, or label?",
+    "divergence_status_required": true,
+    "divergence_statuses": [
+      "CARRIER_DIVERGENCE_RECORDED"
+    ],
+    "hidden_divergence": false,
+    "lineage_basis": null,
+    "participation_intent": "EVALUATE_PARTICIPATION",
+    "refusal_hidden": false,
+    "required_non_claims": {
+      "action_authorized": false,
+      "admission_currentness": false,
+      "authority_created": false,
+      "carrier_availability_currentness": false,
+      "carrier_evidence_became_current": false,
+      "carrier_hierarchy_created": false,
+      "carrier_label_currentness": false,
+      "carrier_relation_created": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "correspondence_currentness": false,
+      "currentness_created_by_carrier": false,
+      "distributed_standing_created": false,
+      "divergence_currentness": false,
+      "divergence_hidden": false,
+      "latest_file_currentness": false,
+      "local_copy_currentness": false,
+      "losing_carrier_invalidated": false,
+      "majority_carrier_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "newest_timestamp_currentness": false,
+      "permission_created": false,
+      "possession_currentness": false,
+      "presence_established": false,
+      "receipt_currentness": false,
+      "refusal_hidden": false,
+      "replay_performed": false,
+      "return_currentness": false,
+      "signal_created_by_default": false,
+      "source_replaced": false,
+      "successful_admission_count_currentness": false,
+      "successful_receipt_count_currentness": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "winning_carrier_selected": false
+    },
+    "selected_admission_basis": null,
+    "selected_body_current_posture": {
+      "body_current_posture_declared": true,
+      "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+      "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+      "body_current_posture_outcome": null,
+      "raw_body_current_posture": {
+        "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+        "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+        "body_current_posture_outcome": "CURRENT_BODY_CONFORMANCE_V3_CLOSED"
+      }
+    },
+    "selected_body_current_posture_declared": true,
+    "selected_carrier_ids": [
+      "carrier_C_additional_physical_candidate"
+    ],
+    "selected_correspondence_basis": null,
+    "selected_divergence_basis": null,
+    "selected_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_outcomes": [
+      "BLOCKED"
+    ]
+  },
+  "currentness_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_currentness_request_is_parseable_mapping",
+      "expected_posture": "declared currentness request is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "May Carrier C returned blocked receipt evidence participate in later body-side current posture assessment as visible refusal/divergence evidence, without becoming currentness by carrier possession, receipt, return, admission, divergence, timestamp, success count, availability, or label?",
+      "block_code": null,
+      "check_name": "currentness_question_declared",
+      "expected_posture": "currentness question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "body_current_posture_declared": true,
+        "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+        "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+        "body_current_posture_outcome": null,
+        "raw_body_current_posture": {
+          "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+          "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+          "body_current_posture_outcome": "CURRENT_BODY_CONFORMANCE_V3_CLOSED"
+        }
+      },
+      "block_code": null,
+      "check_name": "selected_body_current_posture_declared",
+      "expected_posture": "selected body-side current posture is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "EVALUATE_PARTICIPATION",
+      "block_code": null,
+      "check_name": "participation_intent_supported",
+      "expected_posture": "participation intent is in the bounded intent set",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "admission_status": "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE",
+          "block_code": null,
+          "block_reason": null,
+          "carrier_id": "carrier_C_additional_physical_candidate",
+          "carrier_role": "RECEIVING_CARRIER",
+          "divergence_status": "CARRIER_DIVERGENCE_RECORDED",
+          "emission_class": "RETURNED_BLOCKED_RECEIPT_EVIDENCE",
+          "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+          "evidence_outcome": "BLOCKED",
+          "non_claims": {
+            "action_authorized": false,
+            "admission_currentness": false,
+            "authority_created": false,
+            "carrier_availability_currentness": false,
+            "carrier_evidence_became_current": false,
+            "carrier_hierarchy_created": false,
+            "carrier_label_currentness": false,
+            "carrier_relation_created": false,
+            "consequence_created": false,
+            "continuation_authorized": false,
+            "correspondence_currentness": false,
+            "currentness_created_by_carrier": false,
+            "distributed_standing_created": false,
+            "divergence_currentness": false,
+            "divergence_hidden": false,
+            "latest_file_currentness": false,
+            "local_copy_currentness": false,
+            "losing_carrier_invalidated": false,
+            "majority_carrier_currentness": false,
+            "merge_performed": false,
+            "multi_carrier_law_created": false,
+            "mutation_performed": false,
+            "newest_timestamp_currentness": false,
+            "permission_created": false,
+            "possession_currentness": false,
+            "presence_established": false,
+            "receipt_currentness": false,
+            "refusal_hidden": false,
+            "replay_performed": false,
+            "return_currentness": false,
+            "signal_created_by_default": false,
+            "source_replaced": false,
+            "successful_admission_count_currentness": false,
+            "successful_receipt_count_currentness": false,
+            "threshold_met": false,
+            "truth_created": false,
+            "winning_carrier_selected": false
+          },
+          "return_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+          "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+        }
+      ],
+      "block_code": null,
+      "check_name": "selected_carrier_evidence_exists",
+      "expected_posture": "selected carrier evidence is supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "dict"
+      ],
+      "block_code": null,
+      "check_name": "selected_carrier_evidence_parseable",
+      "expected_posture": "selected carrier evidence is a mapping or list of mappings",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt"
+      ],
+      "block_code": null,
+      "check_name": "evidence_identity_present",
+      "expected_posture": "each selected evidence identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "BLOCKED"
+      ],
+      "block_code": null,
+      "check_name": "evidence_outcome_present",
+      "expected_posture": "each selected evidence outcome or status is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_C_additional_physical_candidate"
+      ],
+      "block_code": null,
+      "check_name": "carrier_identity_present_where_required",
+      "expected_posture": "selected carrier identities are declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_status_required": false,
+        "admission_statuses": [
+          "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE"
+        ]
+      },
+      "block_code": null,
+      "check_name": "admission_status_known_where_required",
+      "expected_posture": "admission status is known where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_status_required": false,
+        "admission_statuses": [
+          "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE"
+        ]
+      },
+      "block_code": null,
+      "check_name": "admission_status_not_unknown_where_required",
+      "expected_posture": "admission status is not unknown where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_status_required": true,
+        "divergence_statuses": [
+          "CARRIER_DIVERGENCE_RECORDED"
+        ]
+      },
+      "block_code": null,
+      "check_name": "divergence_status_known_where_required",
+      "expected_posture": "divergence status is known where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_status_required": true,
+        "divergence_statuses": [
+          "CARRIER_DIVERGENCE_RECORDED"
+        ]
+      },
+      "block_code": null,
+      "check_name": "divergence_status_not_unknown_or_unresolved_where_required",
+      "expected_posture": "divergence status is not unknown or unresolved where required",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_hidden": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "hidden_divergence_false",
+      "expected_posture": "hidden divergence is false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "refusal_hidden": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "refusal_hidden_false",
+      "expected_posture": "refusal hidden is false",
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "lineage_basis_preserved_where_supplied",
+      "expected_posture": "lineage basis is preserved where supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "currentness_created_by_carrier": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "carrier_does_not_create_currentness",
+      "expected_posture": "carrier does not create currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_evidence_became_current": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "carrier_evidence_does_not_become_current",
+      "expected_posture": "carrier evidence does not become current",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_carrier_emission",
+      "expected_posture": "carrier emission is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_latest_file",
+      "expected_posture": "latest file is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "newest_timestamp_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_newest_timestamp",
+      "expected_posture": "newest timestamp is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "local_copy_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_local_copy",
+      "expected_posture": "local copy is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "possession_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_possession",
+      "expected_posture": "possession is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "return_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_return",
+      "expected_posture": "return is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "receipt_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_receipt",
+      "expected_posture": "receipt is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_admission",
+      "expected_posture": "admission is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "correspondence_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_correspondence",
+      "expected_posture": "correspondence is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_divergence",
+      "expected_posture": "divergence is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "majority_carrier_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_majority_carriers",
+      "expected_posture": "majority carriers are not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_carrier_count",
+      "expected_posture": "carrier count is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "successful_receipt_count_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_successful_receipt_count",
+      "expected_posture": "successful receipt count is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "successful_admission_count_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_successful_admission_count",
+      "expected_posture": "successful admission count is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_availability_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_carrier_availability",
+      "expected_posture": "carrier availability is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_label_currentness": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_carrier_label",
+      "expected_posture": "carrier label is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "currentness_not_derived_from_convenience",
+      "expected_posture": "convenience is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "winning_carrier_selected": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "no_winning_carrier_selected",
+      "expected_posture": "no winning carrier is selected",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "losing_carrier_invalidated": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "no_losing_carrier_invalidated",
+      "expected_posture": "no losing carrier is invalidated",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_hierarchy_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "no_carrier_hierarchy_created",
+      "expected_posture": "no carrier hierarchy is created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "source_replaced": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "source_not_replaced",
+      "expected_posture": "source is not replaced",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "authority_not_created",
+      "expected_posture": "authority is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "permission_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "permission_not_created",
+      "expected_posture": "permission is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "successor_not_created",
+      "expected_posture": "successor standing is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "body_not_created",
+      "expected_posture": "body is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "signal_created_by_default": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "signal_not_created_by_default",
+      "expected_posture": "signal is not created by default",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "presence_established": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "presence_not_established",
+      "expected_posture": "presence is not established",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "threshold_met": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "threshold_not_met",
+      "expected_posture": "threshold is not met",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "truth_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "truth_not_created",
+      "expected_posture": "truth is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_authorized": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "action_not_authorized",
+      "expected_posture": "action is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "consequence_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "consequence_not_created",
+      "expected_posture": "consequence is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_relation_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "carrier_relation_not_created",
+      "expected_posture": "carrier relation is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "multi_carrier_law_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "multi_carrier_law_not_created",
+      "expected_posture": "multi-carrier law is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_standing_created": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "distributed_standing_not_created",
+      "expected_posture": "distributed standing is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "continuation_not_authorized",
+      "expected_posture": "continuation is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "mutation_performed": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "replay_performed": [
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ]
+      },
+      "block_code": null,
+      "check_name": "mutation_replay_merge_not_performed",
+      "expected_posture": "mutation, replay, and merge are not performed",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_non_claim_failures": [],
+        "selected_evidence_non_claim_collapse": []
+      },
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "all required currentness non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "currentness_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_body": true,
+    "does_not_mean_carrier_currentness": true,
+    "does_not_mean_carrier_hierarchy": true,
+    "does_not_mean_carrier_relation": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_divergence_resolved": true,
+    "does_not_mean_evidence_currentness": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_latest_file_rule": true,
+    "does_not_mean_losing_carrier_invalidated": true,
+    "does_not_mean_majority_rule": true,
+    "does_not_mean_multi_carrier_law": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source_replacement": true,
+    "does_not_mean_successful_admission_count_rule": true,
+    "does_not_mean_successful_receipt_count_rule": true,
+    "does_not_mean_successor": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true,
+    "does_not_mean_winning_carrier": true
+  },
+  "currentness_participation_result": {
+    "admission_status_preserved": true,
+    "authority_not_created": true,
+    "body_not_created": true,
+    "body_side_current_posture_declared": true,
+    "carrier_evidence_became_current": false,
+    "carrier_hierarchy_not_created": true,
+    "continuation_not_authorized": true,
+    "correspondence_status_preserved": false,
+    "currentness_created_by_carrier": false,
+    "currentness_participation_eligible": true,
+    "currentness_participation_excluded": false,
+    "distributed_standing_not_created": true,
+    "divergence_status_preserved": true,
+    "hidden_divergence": false,
+    "losing_carrier_invalidated": false,
+    "multi_carrier_law_not_created": true,
+    "participation_is_not_currentness_creation": true,
+    "permission_not_created": true,
+    "presence_threshold_truth_action_consequence_not_created": true,
+    "selected_carrier_evidence_preserved": true,
+    "selected_carrier_ids": [
+      "carrier_C_additional_physical_candidate"
+    ],
+    "selected_evidence_count": 1,
+    "selected_evidence_ids": [
+      "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_evidence_may_participate": true,
+    "selected_evidence_outcomes": [
+      "BLOCKED"
+    ],
+    "selected_evidence_preserved": true,
+    "selected_evidence_remains_downstream": true,
+    "source_not_replaced": true,
+    "successor_not_created": true,
+    "visible_divergence_preserved": true,
+    "winning_carrier_selected": false
+  },
+  "declared_currentness_question": {
+    "currentness_purpose": null,
+    "currentness_question": "May Carrier C returned blocked receipt evidence participate in later body-side current posture assessment as visible refusal/divergence evidence, without becoming currentness by carrier possession, receipt, return, admission, divergence, timestamp, success count, availability, or label?",
+    "currentness_request_id": "carrier_c_returned_blocked_receipt_currentness_participation_001",
+    "declared_currentness_request_path": null,
+    "declared_non_claims": {
+      "action_authorized": false,
+      "admission_currentness": false,
+      "authority_created": false,
+      "carrier_availability_currentness": false,
+      "carrier_evidence_became_current": false,
+      "carrier_hierarchy_created": false,
+      "carrier_label_currentness": false,
+      "carrier_relation_created": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "correspondence_currentness": false,
+      "currentness_created_by_carrier": false,
+      "distributed_standing_created": false,
+      "divergence_currentness": false,
+      "divergence_hidden": false,
+      "latest_file_currentness": false,
+      "local_copy_currentness": false,
+      "losing_carrier_invalidated": false,
+      "majority_carrier_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "newest_timestamp_currentness": false,
+      "permission_created": false,
+      "possession_currentness": false,
+      "presence_established": false,
+      "receipt_currentness": false,
+      "refusal_hidden": false,
+      "replay_performed": false,
+      "return_currentness": false,
+      "signal_created_by_default": false,
+      "source_replaced": false,
+      "successful_admission_count_currentness": false,
+      "successful_receipt_count_currentness": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "winning_carrier_selected": false
+    },
+    "declared_scope": null,
+    "participation_intent": "EVALUATE_PARTICIPATION",
+    "selected_body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+    "selected_body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+    "selected_evidence_count": 1
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "admission_currentness": false,
+    "authority_created": false,
+    "carrier_availability_currentness": false,
+    "carrier_evidence_became_current": false,
+    "carrier_hierarchy_created": false,
+    "carrier_label_currentness": false,
+    "carrier_relation_created": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "correspondence_currentness": false,
+    "currentness_created_by_carrier": false,
+    "distributed_standing_created": false,
+    "divergence_currentness": false,
+    "divergence_hidden": false,
+    "latest_file_currentness": false,
+    "local_copy_currentness": false,
+    "losing_carrier_invalidated": false,
+    "majority_carrier_currentness": false,
+    "merge_performed": false,
+    "multi_carrier_law_created": false,
+    "mutation_performed": false,
+    "newest_timestamp_currentness": false,
+    "permission_created": false,
+    "possession_currentness": false,
+    "presence_established": false,
+    "receipt_currentness": false,
+    "refusal_hidden": false,
+    "replay_performed": false,
+    "return_currentness": false,
+    "signal_created_by_default": false,
+    "source_replaced": false,
+    "successful_admission_count_currentness": false,
+    "successful_receipt_count_currentness": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "winning_carrier_selected": false
+  },
+  "outcome": "CURRENTNESS_PARTICIPATION_ELIGIBLE",
+  "selected_body_current_posture": {
+    "body_current_posture_declared": true,
+    "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+    "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+    "body_current_posture_outcome": null,
+    "raw_body_current_posture": {
+      "body_current_posture_id": "current_self_orientation_v8__current_body_conformance_v3__v3_closure",
+      "body_current_posture_label": "v8/v3 closed posture after bounded additional Carrier C experiment declaration",
+      "body_current_posture_outcome": "CURRENT_BODY_CONFORMANCE_V3_CLOSED"
+    }
+  },
+  "selected_carrier_evidence": [
+    {
+      "admission_status": "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE",
+      "block_code": null,
+      "block_reason": null,
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "carrier_role": "RECEIVING_CARRIER",
+      "correspondence_status": null,
+      "divergence_status": "CARRIER_DIVERGENCE_RECORDED",
+      "emission_class": "RETURNED_BLOCKED_RECEIPT_EVIDENCE",
+      "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "evidence_index": 0,
+      "evidence_outcome": "BLOCKED",
+      "integrity_hash": null,
+      "integrity_status": null,
+      "non_claims": {
+        "action_authorized": false,
+        "admission_currentness": false,
+        "authority_created": false,
+        "carrier_availability_currentness": false,
+        "carrier_evidence_became_current": false,
+        "carrier_hierarchy_created": false,
+        "carrier_label_currentness": false,
+        "carrier_relation_created": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "correspondence_currentness": false,
+        "currentness_created_by_carrier": false,
+        "distributed_standing_created": false,
+        "divergence_currentness": false,
+        "divergence_hidden": false,
+        "latest_file_currentness": false,
+        "local_copy_currentness": false,
+        "losing_carrier_invalidated": false,
+        "majority_carrier_currentness": false,
+        "merge_performed": false,
+        "multi_carrier_law_created": false,
+        "mutation_performed": false,
+        "newest_timestamp_currentness": false,
+        "permission_created": false,
+        "possession_currentness": false,
+        "presence_established": false,
+        "receipt_currentness": false,
+        "refusal_hidden": false,
+        "replay_performed": false,
+        "return_currentness": false,
+        "signal_created_by_default": false,
+        "source_replaced": false,
+        "successful_admission_count_currentness": false,
+        "successful_receipt_count_currentness": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "winning_carrier_selected": false
+      },
+      "normalized_evidence_outcome": "BLOCKED",
+      "raw_evidence": {
+        "admission_status": "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE",
+        "block_code": null,
+        "block_reason": null,
+        "carrier_id": "carrier_C_additional_physical_candidate",
+        "carrier_role": "RECEIVING_CARRIER",
+        "divergence_status": "CARRIER_DIVERGENCE_RECORDED",
+        "emission_class": "RETURNED_BLOCKED_RECEIPT_EVIDENCE",
+        "evidence_id": "carrier_C_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "evidence_outcome": "BLOCKED",
+        "non_claims": {
+          "action_authorized": false,
+          "admission_currentness": false,
+          "authority_created": false,
+          "carrier_availability_currentness": false,
+          "carrier_evidence_became_current": false,
+          "carrier_hierarchy_created": false,
+          "carrier_label_currentness": false,
+          "carrier_relation_created": false,
+          "consequence_created": false,
+          "continuation_authorized": false,
+          "correspondence_currentness": false,
+          "currentness_created_by_carrier": false,
+          "distributed_standing_created": false,
+          "divergence_currentness": false,
+          "divergence_hidden": false,
+          "latest_file_currentness": false,
+          "local_copy_currentness": false,
+          "losing_carrier_invalidated": false,
+          "majority_carrier_currentness": false,
+          "merge_performed": false,
+          "multi_carrier_law_created": false,
+          "mutation_performed": false,
+          "newest_timestamp_currentness": false,
+          "permission_created": false,
+          "possession_currentness": false,
+          "presence_established": false,
+          "receipt_currentness": false,
+          "refusal_hidden": false,
+          "replay_performed": false,
+          "return_currentness": false,
+          "signal_created_by_default": false,
+          "source_replaced": false,
+          "successful_admission_count_currentness": false,
+          "successful_receipt_count_currentness": false,
+          "threshold_met": false,
+          "truth_created": false,
+          "winning_carrier_selected": false
+        },
+        "return_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+        "source_or_carried_basis": "current_body_standing_closure_post_conformance"
+      },
+      "return_context": null,
+      "return_path": "artifacts/integrity_host_v0_min_coexistence_additional_physical_carrier_experiment_boundary/returned_from_carrier_C/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+      "source_or_carried_basis": "current_body_standing_closure_post_conformance",
+      "visible_divergence": true
+    }
+  ],
+  "what_remains_open": {
+    "open_items": [
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "cross-carrier currentness implementation refinement",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "multi-carrier relation law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "multi-carrier relation conformance",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "multi-carrier relation closure",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "distributed standing",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "persistence/registry law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "presence law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "threshold law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "truth law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "action/consequence law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "generalized vessel relation lifecycle",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "body relevance medium",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "signal series or accumulation logic",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "successor carrier law",
+        "scheduled": false
+      },
+      {
+        "authorized": false,
+        "executed": false,
+        "item": "future self-orientation successor only if separately justified",
+        "scheduled": false
+      }
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  }
+}

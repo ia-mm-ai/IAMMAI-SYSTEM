@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IAMMAI Current-State / What-Stands Reader Output Packet",
+  "description": "Output schema for the narrowed current_state_what_stands_reader_v1 vessel. The response is derivative, provenance-bound, refusal-capable, and does not carry sovereign standing.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "contract_id",
+    "request_id",
+    "status",
+    "answer",
+    "primary_rank_used",
+    "sources_used",
+    "derivative_status",
+    "boundedness_note",
+    "next_read_paths",
+    "refusal_reason",
+    "ambiguity_note"
+  ],
+  "properties": {
+    "contract_id": {
+      "type": "string",
+      "const": "current_state_what_stands_reader_v1",
+      "description": "Fixed contract id for this narrowed vessel."
+    },
+    "request_id": {
+      "type": "string",
+      "description": "Bounded request identifier carried through from the request packet.",
+      "minLength": 1,
+      "maxLength": 128,
+      "pattern": "^[A-Za-z0-9._:-]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "answered",
+        "refused",
+        "out_of_scope",
+        "insufficient_grounding"
+      ],
+      "description": "Bounded vessel outcome status."
+    },
+    "answer": {
+      "type": "string",
+      "description": "Bounded derivative answer text.",
+      "maxLength": 12000
+    },
+    "primary_rank_used": {
+      "type": "string",
+      "enum": [
+        "current_state_surface",
+        "standing_review_surface"
+      ],
+      "description": "Primary rank surface used for the response."
+    },
+    "sources_used": {
+      "type": "array",
+      "description": "Approved source paths actually used for the response.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "derivative_status": {
+      "type": "string",
+      "const": "derivative_reader",
+      "description": "Fixed derivative status for this narrowed vessel."
+    },
+    "boundedness_note": {
+      "type": "string",
+      "description": "Short bounded note about scope and answer limits.",
+      "minLength": 1,
+      "maxLength": 1000
+    },
+    "next_read_paths": {
+      "type": "array",
+      "description": "Bounded suggested next-read paths where appropriate.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "refusal_reason": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "question_class_not_allowed",
+        "requires_unapproved_sources",
+        "would_require_interpretive_sovereignty",
+        "would_mutate_or_finalize",
+        "insufficient_rank_clarity",
+        null
+      ],
+      "description": "Visible refusal reason when refusal or out-of-scope applies."
+    },
+    "ambiguity_note": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Bounded note about ambiguity or insufficient grounding where relevant.",
+      "maxLength": 1000
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "answered"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "answer": {
+            "minLength": 1
+          },
+          "sources_used": {
+            "minItems": 1
+          },
+          "refusal_reason": {
+            "const": null
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "refused",
+              "out_of_scope"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "refusal_reason": {
+            "type": "string",
+            "enum": [
+              "question_class_not_allowed",
+              "requires_unapproved_sources",
+              "would_require_interpretive_sovereignty",
+              "would_mutate_or_finalize",
+              "insufficient_rank_clarity"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "insufficient_grounding"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "answer": {
+            "minLength": 1
+          },
+          "sources_used": {
+            "minItems": 1
+          },
+          "refusal_reason": {
+            "const": null
+          },
+          "ambiguity_note": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ],
+  "examples": [
+    {
+      "contract_id": "current_state_what_stands_reader_v1",
+      "request_id": "req_001",
+      "status": "answered",
+      "answer": "The repository now reads as a current admissible derivation line beside frozen root, and that bounded current state stands on the approved surfaces consulted.",
+      "primary_rank_used": "current_state_surface",
+      "sources_used": [
+        "CURRENT_STATE__REPO_ENTRY.md"
+      ],
+      "derivative_status": "derivative_reader",
+      "boundedness_note": "This vessel returned a bounded derivative reading from approved local surfaces only.",
+      "next_read_paths": [],
+      "refusal_reason": null,
+      "ambiguity_note": null
+    },
+    {
+      "contract_id": "current_state_what_stands_reader_v1",
+      "request_id": "req_002",
+      "status": "refused",
+      "answer": "",
+      "primary_rank_used": "standing_review_surface",
+      "sources_used": [],
+      "derivative_status": "derivative_reader",
+      "boundedness_note": "This vessel remained inside its bounded local role and returned a visible refusal.",
+      "next_read_paths": [],
+      "refusal_reason": "would_require_interpretive_sovereignty",
+      "ambiguity_note": null
+    }
+  ]
+}

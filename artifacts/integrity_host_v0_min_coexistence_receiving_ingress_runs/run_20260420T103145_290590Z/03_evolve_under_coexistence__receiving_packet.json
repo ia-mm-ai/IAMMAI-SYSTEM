@@ -1,0 +1,317 @@
+{
+  "import_identity": {
+    "import_source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/03_evolve_under_coexistence.json",
+    "imported_scenario_id": "evolve_under_coexistence",
+    "imported_scenario_name": "EVOLVE Under Coexistence",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0",
+    "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+    "source_module": "integrity_host_v0_min_coexistence_v2"
+  },
+  "import_summary": {
+    "accepted_action_count": 5,
+    "coexistence_relation_count": 2,
+    "hold_count": 0,
+    "host_id": "scenario-evolve-under-coexistence",
+    "object_count": 3,
+    "open_object_count": 2,
+    "record_count": 5,
+    "refusal_count": 0,
+    "refused_action_count": 0,
+    "scenario_id": "evolve_under_coexistence",
+    "scenario_name": "EVOLVE Under Coexistence",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0",
+    "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/03_evolve_under_coexistence.json"
+  },
+  "imported_packet": {
+    "coexistence_relations": [
+      {
+        "basis_ref": "cohost-a-b",
+        "created_by_record_id": "tr_046bc9fc40a74d6ab199ecfc69dc7711",
+        "object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+        "related_object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "relation_type": "DISTINCT_MATTER_COHOSTED"
+      },
+      {
+        "basis_ref": "cohost-successor-a-b",
+        "created_by_record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8",
+        "object_id": "obj_2dc9d6caad444a79933ced95b7640508",
+        "related_object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+        "relation_type": "DISTINCT_MATTER_COHOSTED"
+      }
+    ],
+    "holds": [],
+    "host_state": {
+      "host_id": "scenario-evolve-under-coexistence",
+      "open_object_ids": [
+        "obj_c1bed893861048a3a2dbaaa288f81223",
+        "obj_2dc9d6caad444a79933ced95b7640508"
+      ]
+    },
+    "objects": [
+      {
+        "created_by_record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8",
+        "matter_ref": "matter-a",
+        "object_id": "obj_2dc9d6caad444a79933ced95b7640508",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a-successor",
+        "phase_state": "CANDIDATE",
+        "predecessor_object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "resolution_type": null,
+        "resolved_by_record_id": null
+      },
+      {
+        "created_by_record_id": "tr_046bc9fc40a74d6ab199ecfc69dc7711",
+        "matter_ref": "matter-b",
+        "object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+        "occurrence_ref": null,
+        "payload_ref": "payload-b",
+        "phase_state": "CANDIDATE",
+        "predecessor_object_id": null,
+        "resolution_type": null,
+        "resolved_by_record_id": null
+      },
+      {
+        "created_by_record_id": "tr_53b0d0747b4b40bfb12e737f8b117878",
+        "matter_ref": "matter-a",
+        "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "phase_state": "STANDING",
+        "predecessor_object_id": null,
+        "resolution_type": "EVOLVE",
+        "resolved_by_record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8"
+      }
+    ],
+    "scenario_metadata": {
+      "accepted_action_count": 5,
+      "action_results": [
+        {
+          "accepted": true,
+          "label": "create object A",
+          "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+          "record_id": "tr_53b0d0747b4b40bfb12e737f8b117878",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "create object B with explicit cohost basis",
+          "object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+          "record_id": "tr_046bc9fc40a74d6ab199ecfc69dc7711",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "present object A",
+          "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+          "record_id": "tr_36d988e0a9824d11adcb0c20d849eb64",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "stand object A",
+          "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+          "record_id": "tr_eda356ba78bc4c09bb1383e048489c08",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "evolve object A with cohost basis for object B",
+          "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+          "record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": "obj_2dc9d6caad444a79933ced95b7640508"
+        }
+      ],
+      "description": "Moves one cohosted object to standing and evolves it while preserving predecessor/successor lineage and relation marking against the remaining open object.",
+      "generated_at": "2026-04-20T10:31:45.291831Z",
+      "refused_action_count": 0,
+      "scenario_id": "evolve_under_coexistence",
+      "scenario_name": "EVOLVE Under Coexistence",
+      "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/03_evolve_under_coexistence.json"
+    },
+    "snapshot_metadata": {
+      "generated_at": "2026-04-20T10:31:45.291900Z",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "transition_records": [
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.291758Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-evolve-under-coexistence",
+        "matter_ref": "matter-a",
+        "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_53b0d0747b4b40bfb12e737f8b117878",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.291778Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-b",
+        "created_coexistence_relations": [
+          {
+            "basis_ref": "cohost-a-b",
+            "created_by_record_id": "tr_046bc9fc40a74d6ab199ecfc69dc7711",
+            "object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+            "related_object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+            "relation_type": "DISTINCT_MATTER_COHOSTED"
+          }
+        ],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-evolve-under-coexistence",
+        "matter_ref": "matter-b",
+        "object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+        "occurrence_ref": null,
+        "payload_ref": "payload-b",
+        "predecessor_object_id": null,
+        "record_id": "tr_046bc9fc40a74d6ab199ecfc69dc7711",
+        "refusal_code": null,
+        "related_open_object_ids": [
+          "obj_f36c5c507a1d433bb39aaeab6356f8de"
+        ],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.291790Z",
+        "action_type": "PRESENT",
+        "basis_ref": "present-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-evolve-under-coexistence",
+        "matter_ref": "matter-a",
+        "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_36d988e0a9824d11adcb0c20d849eb64",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "CANDIDATE",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.291799Z",
+        "action_type": "STAND",
+        "basis_ref": null,
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-evolve-under-coexistence",
+        "matter_ref": "matter-a",
+        "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_eda356ba78bc4c09bb1383e048489c08",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "PRESENT",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "STANDING",
+        "target_resolution_type": null,
+        "threshold_basis_ref": "threshold-a"
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.291820Z",
+        "action_type": "EVOLVE",
+        "basis_ref": "evolve-a",
+        "created_coexistence_relations": [
+          {
+            "basis_ref": "cohost-successor-a-b",
+            "created_by_record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8",
+            "object_id": "obj_2dc9d6caad444a79933ced95b7640508",
+            "related_object_id": "obj_c1bed893861048a3a2dbaaa288f81223",
+            "relation_type": "DISTINCT_MATTER_COHOSTED"
+          }
+        ],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-evolve-under-coexistence",
+        "matter_ref": "matter-a",
+        "object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a-successor",
+        "predecessor_object_id": "obj_f36c5c507a1d433bb39aaeab6356f8de",
+        "record_id": "tr_219a2c5e5a8e4ba7ae7d49e578d61ee8",
+        "refusal_code": null,
+        "related_open_object_ids": [
+          "obj_c1bed893861048a3a2dbaaa288f81223"
+        ],
+        "source_phase_state": "STANDING",
+        "source_resolution_type": null,
+        "successor_object_id": "obj_2dc9d6caad444a79933ced95b7640508",
+        "target_phase_state": "STANDING",
+        "target_resolution_type": "EVOLVE",
+        "threshold_basis_ref": null
+      }
+    ]
+  },
+  "packet_metadata": {
+    "builder_module": "build_integrity_host_v0_min_coexistence_receiving_packet",
+    "generated_at": "2026-04-20T18:20:25.330656Z",
+    "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "packet_version": "0.1.0"
+  },
+  "receiving_status": {
+    "continuity_completed": false,
+    "imported_packet_read_only_here": true,
+    "merged_into_local_state": false,
+    "preserved_structure_visible": true,
+    "receiving_packet_exists": true,
+    "replayed_into_live_host": false,
+    "source_remains_source": true,
+    "standing_upgraded": false
+  },
+  "source_provenance": {
+    "scenario_description": "Moves one cohosted object to standing and evolves it while preserving predecessor/successor lineage and relation marking against the remaining open object.",
+    "scenario_id": "evolve_under_coexistence",
+    "scenario_name": "EVOLVE Under Coexistence",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/03_evolve_under_coexistence.json",
+    "source_generated_at": "2026-04-20T10:31:45.291831Z",
+    "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+  }
+}

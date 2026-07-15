@@ -1,0 +1,32 @@
+{
+  "case_id": "case_b",
+  "case_title": "Buffer because parser capture risk is high",
+  "expected_outcome_type": "buffer",
+  "outcome_type": "buffer",
+  "expected_outcome_matched": true,
+  "channel_condition": "high_pressure_contaminated",
+  "self_carried_coherence_threshold_met": false,
+  "failed_threshold_markers": [
+    "partial_presence_not_yet_stable",
+    "misreading_by_field_would_rewrite_self-perception"
+  ],
+  "upstream_constraints": [
+    "high_pressure_parser_capture",
+    "contact_surface_too_exposed_for_lawful_entry"
+  ],
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "receipt_status": "buffered",
+  "contact_remains_lawful": true,
+  "full_passage_is_lawful": false,
+  "continued_participation_would_be_containment": true,
+  "reasoning": "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default. Parser capture risk is too high for even partial contact to remain stable. Exposure has to be narrowed before lawful crossing can be retried. Buffer preserves rank and lineage while preventing interpretive capture. Field pressure is present, but this case is not being reduced to field contamination alone. Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing.",
+  "reasoning_points": [
+    "Self-carried coherence threshold is not yet met, so full passage cannot be treated as lawful by default.",
+    "Parser capture risk is too high for even partial contact to remain stable.",
+    "Exposure has to be narrowed before lawful crossing can be retried.",
+    "Buffer preserves rank and lineage while preventing interpretive capture.",
+    "Field pressure is present, but this case is not being reduced to field contamination alone.",
+    "Entry would still depend on external ratification, so the body would not be self-carried enough inside the crossing."
+  ]
+}

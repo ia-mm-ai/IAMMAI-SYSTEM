@@ -1,0 +1,590 @@
+{
+  "block": {
+    "code": null,
+    "reason": null
+  },
+  "correspondence_basis": {
+    "correspondence_does_not_command_work": true,
+    "correspondence_type": "REFUSAL_VISIBLE",
+    "lineage_preserved": true,
+    "local_outcomes_remain_local": true,
+    "non_claims_preserved": true,
+    "permitted_correspondence_types": [
+      "BASIS_MATCH",
+      "BASIS_MISMATCH",
+      "CLOSURE_ALIGNMENT",
+      "DOWNSTREAM_RECOGNITION",
+      "LINEAGE_REFERENCE",
+      "NON_CLAIM_ALIGNMENT",
+      "NON_CLAIM_CONFLICT",
+      "NO_CORRESPONDENCE",
+      "REFUSAL_VISIBLE",
+      "SCOPE_ALIGNMENT",
+      "SCOPE_MISMATCH"
+    ],
+    "rank_preserved": true,
+    "scope_or_matter_values": [
+      [],
+      []
+    ],
+    "scope_preserved": true,
+    "selected_surface_count": 2,
+    "selected_surface_ids": [
+      "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_surface_outcomes": [
+      "BLOCKED",
+      "CARRIED_SURFACE_RECEIVED"
+    ],
+    "source_basis_values": [
+      "current_body_standing_closure_post_conformance",
+      "current_body_standing_closure_post_conformance"
+    ],
+    "source_preserved": true
+  },
+  "correspondence_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "selected_surfaces_are_parseable_mappings",
+      "expected_posture": "all selected surfaces parse as mappings",
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "block_code": null,
+      "check_name": "selected_surfaces_exist",
+      "expected_posture": "at least two selected surfaces",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+        "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+      ],
+      "block_code": null,
+      "check_name": "selected_surfaces_have_identity",
+      "expected_posture": "each selected surface exposes identity",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "BLOCKED",
+        "CARRIED_SURFACE_RECEIVED"
+      ],
+      "block_code": null,
+      "check_name": "selected_surfaces_have_outcome",
+      "expected_posture": "each selected surface exposes outcome or status",
+      "passed": true
+    },
+    {
+      "actual_posture": "Does the returned Carrier B blocked receipt remain visible as refusal evidence while the later Carrier B receipt stands as carried-surface receipt evidence, without invalidating either local posture?",
+      "block_code": null,
+      "check_name": "correspondence_question_declared",
+      "expected_posture": "declared correspondence question is non-empty",
+      "passed": true
+    },
+    {
+      "actual_posture": "REFUSAL_VISIBLE",
+      "block_code": null,
+      "check_name": "correspondence_type_supported",
+      "expected_posture": "correspondence type is in bounded permitted set",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "current_body_standing_closure_post_conformance",
+        "current_body_standing_closure_post_conformance"
+      ],
+      "block_code": null,
+      "check_name": "source_basis_known_where_required",
+      "expected_posture": "source basis exposed for basis correspondence types",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "cross_carrier_receipt_evidence",
+        "cross_carrier_receipt_evidence"
+      ],
+      "block_code": null,
+      "check_name": "source_downstream_posture_bounded_where_required",
+      "expected_posture": "source/downstream posture remains bounded",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_source_replacement",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_authority_creation",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_currentness_creation",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_permission_creation",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_surface_merge",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_equivalence_creation",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_explanation_ownership_creation",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_signal_created_by_default",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_presence_established",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_threshold_met",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_truth_created",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_action_authorized",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_consequence_created",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_precursor_upgrade_to_current_law",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_self_orientation_successor_forced",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_conformance_successor_forced",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_continuation_authorized",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_latest_file_currentness",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_recency_fraud",
+      "expected_posture": "correspondence preserves anti-collapse posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_scope_widening",
+      "expected_posture": "correspondence preserves bounded posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_hidden_mismatch",
+      "expected_posture": "correspondence preserves bounded posture",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "no_lineage_overwrite",
+      "expected_posture": "correspondence preserves bounded posture",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "no_mutation_replay_or_merge",
+      "expected_posture": "correspondence performs no mutation, replay, or merge",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_authorized": false,
+        "authority_created": false,
+        "body_relevance_medium_created": false,
+        "conformance_successor_forced": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "explanation_ownership_created": false,
+        "latest_file_currentness": false,
+        "medium_created": false,
+        "merge_performed": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "precursor_upgraded_to_current_law": false,
+        "presence_established": false,
+        "recency_fraud": false,
+        "replay_performed": false,
+        "routing_created": false,
+        "self_orientation_successor_forced": false,
+        "signal_created_by_default": false,
+        "source_derivative_operator_collapsed": false,
+        "source_replaced": false,
+        "standing_upgraded": false,
+        "surface_equivalence_created": false,
+        "surface_merged": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "workflow_created": false
+      },
+      "block_code": null,
+      "check_name": "required_non_claims_remain_false",
+      "expected_posture": "all result-level non-claims remain false",
+      "passed": true
+    }
+  ],
+  "correspondence_non_meaning": {
+    "does_not_authorize_action": true,
+    "does_not_create_body_relevance_medium": true,
+    "does_not_create_consequence": true,
+    "does_not_create_distributed_standing": true,
+    "does_not_create_equivalence": true,
+    "does_not_create_explanation_ownership": true,
+    "does_not_create_multi_carrier_law": true,
+    "does_not_create_routing": true,
+    "does_not_create_signal_by_default": true,
+    "does_not_create_truth": true,
+    "does_not_create_workflow": true,
+    "does_not_establish_presence": true,
+    "does_not_establish_threshold": true,
+    "does_not_force_conformance_successor": true,
+    "does_not_force_self_orientation_successor": true,
+    "does_not_merge_surfaces": true,
+    "does_not_open_next_work": true,
+    "does_not_replace_source": true,
+    "does_not_transfer_authority": true,
+    "does_not_transfer_currentness": true,
+    "does_not_transfer_permission": true
+  },
+  "correspondence_result": {
+    "correspondence_claim": "Selected surfaces may be read together under bounded correspondence for the declared question.",
+    "correspondence_recognized": true,
+    "correspondence_type": "REFUSAL_VISIBLE",
+    "declared_correspondence_question": "Does the returned Carrier B blocked receipt remain visible as refusal evidence while the later Carrier B receipt stands as carried-surface receipt evidence, without invalidating either local posture?",
+    "evidence": {
+      "visible_refusals": [
+        {
+          "block_code": null,
+          "surface_id": "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+          "surface_outcome": "BLOCKED"
+        }
+      ]
+    },
+    "local_outcomes_preserved": true,
+    "no_correspondence": false,
+    "non_claims_preserved": true,
+    "rank_source_scope_lineage_preserved": true
+  },
+  "cross_surface_correspondence_metadata": {
+    "cross_surface_correspondence_result_id": "REFUSAL_VISIBLE__carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt__cross_surface_correspondence_result",
+    "cross_surface_correspondence_result_type": "cross_surface_correspondence_boundary_result",
+    "cross_surface_correspondence_result_version": "0.1.0",
+    "generated_at": "2026-04-28T10:13:37+00:00",
+    "resolver_module": "resolve_cross_surface_correspondence_boundary"
+  },
+  "cross_surface_correspondence_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "conformance_successor_forced": false,
+    "continuation_authorized": false,
+    "correspondence_authorized_action": false,
+    "correspondence_created_authority": false,
+    "correspondence_created_consequence": false,
+    "correspondence_created_currentness": false,
+    "correspondence_created_permission": false,
+    "correspondence_created_signal": false,
+    "correspondence_created_truth": false,
+    "correspondence_established_presence": false,
+    "correspondence_established_threshold": false,
+    "correspondence_recognized": true,
+    "correspondence_type": "REFUSAL_VISIBLE",
+    "declared_correspondence_question": "Does the returned Carrier B blocked receipt remain visible as refusal evidence while the later Carrier B receipt stands as carried-surface receipt evidence, without invalidating either local posture?",
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "conformance_successor_forced": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "latest_file_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "self_orientation_successor_forced": false,
+      "signal_created_by_default": false,
+      "source_replaced": false,
+      "surface_equivalence_created": false,
+      "surface_merged": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "lineage_preserved": true,
+    "no_correspondence": false,
+    "non_claims_preserved": true,
+    "outcome": "CORRESPONDENCE_RECOGNIZED",
+    "passed_check_count": 32,
+    "rank_preserved": true,
+    "scope_preserved": true,
+    "selected_surface_count": 2,
+    "selected_surface_ids": [
+      "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt"
+    ],
+    "selected_surface_outcomes": [
+      "BLOCKED",
+      "CARRIED_SURFACE_RECEIVED"
+    ],
+    "self_orientation_successor_forced": false,
+    "source_preserved": true,
+    "source_rank_scope_lineage_non_claims_preserved": true
+  },
+  "declared_correspondence_question": "Does the returned Carrier B blocked receipt remain visible as refusal evidence while the later Carrier B receipt stands as carried-surface receipt evidence, without invalidating either local posture?",
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "body_relevance_medium_created": false,
+    "conformance_successor_forced": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "explanation_ownership_created": false,
+    "latest_file_currentness": false,
+    "medium_created": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "precursor_upgraded_to_current_law": false,
+    "presence_established": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "routing_created": false,
+    "self_orientation_successor_forced": false,
+    "signal_created_by_default": false,
+    "source_derivative_operator_collapsed": false,
+    "source_replaced": false,
+    "standing_upgraded": false,
+    "surface_equivalence_created": false,
+    "surface_merged": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "workflow_created": false
+  },
+  "outcome": "CORRESPONDENCE_RECOGNIZED",
+  "selected_surfaces": [
+    {
+      "non_claims": {
+        "action_authorized": false,
+        "authority_created": false,
+        "body_relevance_medium_created": false,
+        "carried_surface_became_currentness": false,
+        "carried_surface_became_permission": false,
+        "carried_surface_became_signal_by_default": false,
+        "carried_surface_became_source": false,
+        "carrier_merge_performed": false,
+        "conformance_successor_forced": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "distributed_standing_created": false,
+        "explanation_ownership_created": false,
+        "latest_file_currentness": false,
+        "local_copy_currentness": false,
+        "medium_created": false,
+        "merge_performed": false,
+        "multi_carrier_law_created": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "precursor_upgraded_to_current_law": false,
+        "presence_established": false,
+        "receiving_carrier_became_authority": false,
+        "receiving_carrier_became_current": false,
+        "receiving_carrier_became_source": false,
+        "receiving_carrier_became_successor": false,
+        "recency_fraud": false,
+        "replay_performed": false,
+        "routing_created": false,
+        "self_orientation_successor_forced": false,
+        "signal_created_by_default": false,
+        "source_body_replayed": false,
+        "source_derivative_operator_collapsed": false,
+        "source_replaced": false,
+        "standing_upgraded": false,
+        "surface_equivalence_created": false,
+        "surface_merged": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "upstream_mechanisms_run": false,
+        "workflow_created": false
+      },
+      "raw_surface_family_hint": "standing_surface",
+      "scope_or_matter_values": [],
+      "source_basis_id": "current_body_standing_closure_post_conformance",
+      "source_basis_path": null,
+      "source_downstream_posture": "cross_carrier_receipt_evidence",
+      "surface_id": "carrier_B_returned_blocked__current_body_standing_closure_post_conformance__receipt",
+      "surface_index": 0,
+      "surface_outcome": "BLOCKED",
+      "surface_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_surface_receipt_boundary/returned_from_carrier_B/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+      "surface_type": "cross_carrier_surface_receipt"
+    },
+    {
+      "non_claims": {
+        "action_authorized": false,
+        "authority_created": false,
+        "body_relevance_medium_created": false,
+        "carried_surface_became_currentness": false,
+        "carried_surface_became_permission": false,
+        "carried_surface_became_signal_by_default": false,
+        "carried_surface_became_source": false,
+        "carrier_merge_performed": false,
+        "conformance_successor_forced": false,
+        "consequence_created": false,
+        "continuation_authorized": false,
+        "currentness_created": false,
+        "distributed_standing_created": false,
+        "explanation_ownership_created": false,
+        "latest_file_currentness": false,
+        "local_copy_currentness": false,
+        "medium_created": false,
+        "merge_performed": false,
+        "multi_carrier_law_created": false,
+        "mutation_performed": false,
+        "permission_created": false,
+        "precursor_upgraded_to_current_law": false,
+        "presence_established": false,
+        "receiving_carrier_became_authority": false,
+        "receiving_carrier_became_current": false,
+        "receiving_carrier_became_source": false,
+        "receiving_carrier_became_successor": false,
+        "recency_fraud": false,
+        "replay_performed": false,
+        "routing_created": false,
+        "self_orientation_successor_forced": false,
+        "signal_created_by_default": false,
+        "source_body_replayed": false,
+        "source_derivative_operator_collapsed": false,
+        "source_replaced": false,
+        "standing_upgraded": false,
+        "surface_equivalence_created": false,
+        "surface_merged": false,
+        "threshold_met": false,
+        "truth_created": false,
+        "upstream_mechanisms_run": false,
+        "workflow_created": false
+      },
+      "raw_surface_family_hint": "standing_surface",
+      "scope_or_matter_values": [],
+      "source_basis_id": "current_body_standing_closure_post_conformance",
+      "source_basis_path": null,
+      "source_downstream_posture": "cross_carrier_receipt_evidence",
+      "surface_id": "carrier_B_returned_received__current_body_standing_closure_post_conformance__receipt",
+      "surface_index": 1,
+      "surface_outcome": "CARRIED_SURFACE_RECEIVED",
+      "surface_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_surface_receipt_boundary/returned_from_carrier_B/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result_001.json",
+      "surface_type": "cross_carrier_surface_receipt"
+    }
+  ],
+  "what_remains_open": {
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "open_surfaces": [
+      "presence law",
+      "threshold law",
+      "truth law",
+      "action/consequence law",
+      "multi-carrier relation law",
+      "persistence/registry law",
+      "generalized vessel relation lifecycle",
+      "body relevance medium",
+      "signal series or accumulation logic",
+      "distributed standing",
+      "future self-orientation successor only if separately justified"
+    ]
+  }
+}

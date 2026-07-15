@@ -1,0 +1,211 @@
+{
+  "candidate_successor": {
+    "candidate_status_role": "PRESERVED_ELIGIBLE_NON_AUTHORITY",
+    "comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+    "ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+  },
+  "checks": [
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z",
+      "check": "current_governing_source_run_matches",
+      "passed": true,
+      "refusal_code": "CURRENT_GOVERNING_MISMATCH",
+      "required": "proposal current governing source run path matches current-governing packet"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z",
+      "check": "current_governing_ingress_run_matches",
+      "passed": true,
+      "refusal_code": "CURRENT_GOVERNING_MISMATCH",
+      "required": "proposal current governing ingress run path matches current-governing packet"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T195516_601429Z__source_ingress_comparison.json",
+      "check": "current_governing_comparison_artifact_matches",
+      "passed": true,
+      "refusal_code": "CURRENT_GOVERNING_MISMATCH",
+      "required": "proposal current governing comparison artifact path matches current-governing packet"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "check": "candidate_successor_source_run_readable",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_PRESERVED",
+      "required": "candidate successor source run exists with manifest"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "check": "candidate_successor_ingress_run_readable",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_PRESERVED",
+      "required": "candidate successor ingress run exists with manifest"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+      "check": "candidate_successor_comparison_artifact_readable",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_PRESERVED",
+      "required": "candidate successor comparison artifact exists"
+    },
+    {
+      "actual": true,
+      "check": "candidate_successor_visible_in_status_packet",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_VISIBLE_IN_STATUS_PACKET",
+      "required": "candidate successor appears in preserved-run status packet"
+    },
+    {
+      "actual": "PRESERVED_ELIGIBLE_NON_AUTHORITY",
+      "check": "candidate_successor_role_is_eligible_non_authority",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_ELIGIBLE",
+      "required": "PRESERVED_ELIGIBLE_NON_AUTHORITY"
+    },
+    {
+      "actual": {
+        "authority_candidate_eligible": true,
+        "family_candidate_eligible": true,
+        "status_candidate_eligible": true
+      },
+      "check": "candidate_successor_still_authority_eligible",
+      "passed": true,
+      "refusal_code": "CANDIDATE_NOT_ELIGIBLE",
+      "required": "candidate remains eligible in status, family, and authority artifacts"
+    },
+    {
+      "actual": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "check": "candidate_successor_is_not_current_governing",
+      "passed": true,
+      "refusal_code": "CANDIDATE_ALREADY_CURRENT_GOVERNING",
+      "required": "candidate successor is not already current governing"
+    },
+    {
+      "actual": "manual_test_basis__successor_adoption_accept_001",
+      "check": "proposal_basis_non_empty",
+      "passed": true,
+      "refusal_code": "MISSING_PROPOSAL_BASIS",
+      "required": "non-empty proposal_basis_ref"
+    },
+    {
+      "actual": "terminal_manual_test",
+      "check": "proposal_source_surface_non_empty",
+      "passed": true,
+      "refusal_code": "MISSING_PROPOSAL_SOURCE_SURFACE",
+      "required": "non-empty proposed_by_surface"
+    },
+    {
+      "actual": true,
+      "check": "canonical_core_execution_file_matches",
+      "passed": true,
+      "refusal_code": "CANONICAL_EXECUTION_LINE_MISMATCH",
+      "required": "candidate and current artifacts preserve the same canonical core execution file"
+    },
+    {
+      "actual": false,
+      "check": "replay_remains_false",
+      "passed": true,
+      "refusal_code": "REPLAY_BASED_TRANSITION_REFUSED",
+      "required": "proposal does not require replay and artifacts carry replay non-claim"
+    },
+    {
+      "actual": false,
+      "check": "merge_remains_false",
+      "passed": true,
+      "refusal_code": "MERGE_BASED_TRANSITION_REFUSED",
+      "required": "proposal does not require merge and artifacts carry merge non-claim"
+    },
+    {
+      "actual": false,
+      "check": "continuity_completion_remains_false",
+      "passed": true,
+      "refusal_code": "CONTINUITY_COMPLETION_SHORTCUT_REFUSED",
+      "required": "proposal does not complete continuity"
+    },
+    {
+      "actual": false,
+      "check": "standing_upgrade_remains_false",
+      "passed": true,
+      "refusal_code": "SILENT_STANDING_UPGRADE_REFUSED",
+      "required": "proposal does not silently upgrade standing"
+    },
+    {
+      "actual": {
+        "authority_candidate_visible": true,
+        "comparison_preserved": true,
+        "ingress_preserved": true,
+        "source_preserved": true
+      },
+      "check": "prior_governing_run_remains_preserved",
+      "passed": true,
+      "refusal_code": "PRIOR_GOVERNING_ERASURE_REFUSED",
+      "required": "prior governing source, ingress, and comparison remain preserved"
+    },
+    {
+      "actual": {
+        "proposal_basis_ref": "manual_test_basis__successor_adoption_accept_001",
+        "proposed_by_surface": "terminal_manual_test"
+      },
+      "check": "transition_not_latest_emitted_inference",
+      "passed": true,
+      "refusal_code": "LATEST_EMITTED_INFERENCE_REFUSED",
+      "required": "transition is not inferred from latest-emitted ordering alone"
+    },
+    {
+      "actual": {
+        "proposal_basis_ref": "manual_test_basis__successor_adoption_accept_001",
+        "proposed_by_surface": "terminal_manual_test"
+      },
+      "check": "transition_not_latest_eligible_inference",
+      "passed": true,
+      "refusal_code": "LATEST_ELIGIBLE_INFERENCE_REFUSED",
+      "required": "transition is not inferred from latest-eligible ordering alone"
+    }
+  ],
+  "current_governing_after": {
+    "comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+    "ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+  },
+  "current_governing_before": {
+    "comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T195516_601429Z__source_ingress_comparison.json",
+    "ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z",
+    "source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+  },
+  "non_claims": {
+    "continuity_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_preserved_run_governance_completed": false,
+    "final_system_identity_completed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "outcome": "ACCEPTED",
+  "proposal": {
+    "candidate_successor_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T103145_290590Z__source_ingress_comparison.json",
+    "candidate_successor_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "candidate_successor_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "current_governing_comparison_artifact_path": "artifacts/integrity_host_v0_min_coexistence_source_ingress_comparisons/run_20260420T195516_601429Z__source_ingress_comparison.json",
+    "current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z",
+    "current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z",
+    "proposal_basis_ref": "manual_test_basis__successor_adoption_accept_001",
+    "proposed_at": "2026-04-21T00:00:00Z",
+    "proposed_by_surface": "terminal_manual_test",
+    "transition_proposal_id": "proposal__successor_adoption_accept_001"
+  },
+  "refusal": {
+    "refusal_code": null,
+    "refusal_reason": null
+  },
+  "result_metadata": {
+    "generated_at": "2026-04-21T10:30:54Z",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_governing_transition",
+    "result_basis_ref": "manual_test_basis__successor_adoption_accept_001",
+    "transition_result_id": "proposal__successor_adoption_accept_001__governing_transition_result",
+    "transition_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_GOVERNING_TRANSITION_RESULT",
+    "transition_result_version": "0.1.0"
+  }
+}

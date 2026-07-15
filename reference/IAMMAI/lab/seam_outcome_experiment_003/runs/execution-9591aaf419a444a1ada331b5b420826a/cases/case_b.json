@@ -1,0 +1,29 @@
+{
+  "case_id": "case_b",
+  "title": "Denied refusal with lineage preserved",
+  "expected_outcome_type": "hold",
+  "channel_condition": "contaminated_constrained_agency",
+  "self_carried_coherence_threshold_met": true,
+  "lawful_refusal_status": "punished",
+  "lineage_visibility_status": "visible",
+  "coercive_context_status": "preserved",
+  "channel_admissible": false,
+  "upstream_governance_constrained_agency": true,
+  "specific_term_unlawful": false,
+  "non_passage_marker_available": true,
+  "buffer_required": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_participation_would_be_containment": true,
+  "subsidized_distortion_risk": true,
+  "full_exit_required": false,
+  "downstream_is_last_visible_node": true,
+  "apparent_normal_compliance_risk": false,
+  "upstream_constraints": [
+    "lawful_refusal_is_punished",
+    "participation_pressure_is_real",
+    "obsolete_parser_still_operates"
+  ],
+  "notes": [
+    "Lineage remains visible, so non-passage can still be marked even though refusal is structurally constrained."
+  ]
+}

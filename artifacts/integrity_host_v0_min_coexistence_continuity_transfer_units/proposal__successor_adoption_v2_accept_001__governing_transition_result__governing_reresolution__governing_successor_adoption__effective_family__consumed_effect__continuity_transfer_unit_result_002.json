@@ -1,0 +1,115 @@
+{
+  "block": {
+    "block_code": "NO_SUCCESSFUL_TOUCH_PERMISSION_FOR_TRANSFER",
+    "block_reason": "No successful corresponding touch-permission result exists for transfer."
+  },
+  "checks": [
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "check_name": "selected_source_surface_exists_and_is_readable",
+      "expected_posture": "one readable selected current-state source surface",
+      "passed": true
+    },
+    {
+      "actual_posture": "ANSWERED_WHAT_STANDS_NOW",
+      "check_name": "selected_source_surface_has_successful_outcome",
+      "expected_posture": "ANSWERED_WHAT_STANDS_NOW",
+      "passed": true
+    },
+    {
+      "actual_posture": "what_stands_now",
+      "check_name": "selected_source_surface_is_in_transfer_scope",
+      "expected_posture": [
+        "answer_read",
+        "query",
+        "what_stands_now",
+        "what_remains_open"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "all passed",
+      "check_name": "selected_source_surface_checks_passed",
+      "expected_posture": "selected source surface checks all passed",
+      "passed": true
+    },
+    {
+      "actual_posture": "NO_SUCCESSFUL_TOUCH_PERMISSION_FOR_TRANSFER",
+      "block_code": "NO_SUCCESSFUL_TOUCH_PERMISSION_FOR_TRANSFER",
+      "check_name": "successful_touch_permission_for_transfer_exists",
+      "expected_posture": "one admitted touch-permission result corresponding to source",
+      "passed": false
+    }
+  ],
+  "continuity_transfer_metadata": {
+    "continuity_transfer_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_refused",
+    "continuity_transfer_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_CONTINUITY_TRANSFER_UNIT_RESULT",
+    "continuity_transfer_result_version": "0.1.0",
+    "generated_at": "2026-04-22T15:13:40.624017Z",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_continuity_transfer_unit"
+  },
+  "non_claims": {
+    "authority_resolution_is_protocol_law": false,
+    "continuity_completed": false,
+    "final_continuity_transfer_completed": false,
+    "final_current_state_admissibility_and_touch_permission_completed": false,
+    "final_current_state_answer_read_completed": false,
+    "final_current_state_application_completed": false,
+    "final_current_state_delivery_completed": false,
+    "final_current_state_export_completed": false,
+    "final_current_state_handoff_completed": false,
+    "final_current_state_query_completed": false,
+    "final_current_state_readout_completed": false,
+    "final_current_state_what_remains_open_completed": false,
+    "final_current_state_what_stands_now_completed": false,
+    "final_current_work_input_resolution_completed": false,
+    "final_current_work_operation_completed": false,
+    "final_effective_family_consumption_completed": false,
+    "final_effective_family_resolution_completed": false,
+    "final_governing_reresolution_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_successor_adoption_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_persistence_or_registry_law": false,
+    "final_preserved_run_governance_completed": false,
+    "final_system_identity_completed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "outcome": "REFUSED",
+  "selected_source_surface": {
+    "selected_source_surface_effective_references": {
+      "effective_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "effective_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "effective_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "effective_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "effective_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "effective_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json"
+    },
+    "selected_source_surface_family": "what_stands_now",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_source_surface_outcome": "ANSWERED_WHAT_STANDS_NOW",
+    "selected_source_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json"
+  },
+  "touch_permission_reference": {
+    "admitted_touch_class": null,
+    "admitted_touch_scope": null,
+    "touch_permission_result_id": null,
+    "touch_permission_result_path": null
+  },
+  "transfer_payload": null,
+  "transfer_request": {
+    "continuity_transfer_request_id": "continuity_transfer__001",
+    "requested_transfer_fields": [
+      "selected_source_surface",
+      "effective_references",
+      "non_claims"
+    ],
+    "target_seam_label": "terminal_manual_transfer_test",
+    "transfer_basis": "manual_terminal_verification",
+    "transfer_class": "REFERENCE_TRANSFER"
+  },
+  "transfer_summary": null
+}

@@ -1,0 +1,1417 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "standing, bodies, crossing, relation, runtime, authority, coupling, presence, identity, repair, discovery, and downstream authorization"
+  ],
+  "declared_distinctness_support_recheck_operation_basis": {
+    "admissible_future_route": "DISTINCTNESS_SUPPORT_RECHECK_THEN_CANDIDATE_STANDING_BOUNDARY_CONSIDERATION_ONLY",
+    "basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "basis_pair_referenced": false,
+    "candidate_a_basis_material_referenced": false,
+    "candidate_b_basis_material_referenced": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_specific_basis_material_compared": false,
+    "declared_non_claims": {
+      "action_authorized": false,
+      "affected_file_deleted": false,
+      "affected_file_edited": false,
+      "affected_file_overwritten": false,
+      "affected_file_redeemed": false,
+      "affected_file_repaired": false,
+      "affected_file_replaced": false,
+      "affected_file_treated_as_clean_basis": false,
+      "api_created": false,
+      "authority_created": false,
+      "basis_emission_successor_operation_bypassed": false,
+      "basis_emission_successor_operation_overridden": false,
+      "candidate_standing_authorized": false,
+      "candidate_standing_created": false,
+      "contaminated_lineage_treated_as_clean_basis": false,
+      "coupling_assigned_to_candidate_a": false,
+      "coupling_assigned_to_candidate_b": false,
+      "coupling_created": false,
+      "crossing_authorized": false,
+      "currentness_created": false,
+      "derivative_reception_authorized": false,
+      "descendant_body_a_created": false,
+      "descendant_body_b_created": false,
+      "descendant_body_created": false,
+      "descendant_standing_check_performed": false,
+      "direct_basis_emission_to_descendant_body_creation": false,
+      "direct_basis_emission_to_relation": false,
+      "direct_basis_emission_to_standing": false,
+      "direct_candidate_records_distinct_to_candidate_standing": false,
+      "direct_candidate_records_distinct_to_descendant_body_creation": false,
+      "direct_candidate_records_distinct_to_identity": false,
+      "direct_candidate_records_distinct_to_presence": false,
+      "direct_candidate_records_distinct_to_relation": false,
+      "direct_distinctness_support_to_authority_currentness": false,
+      "direct_distinctness_support_to_candidate_standing": false,
+      "direct_distinctness_support_to_coupling_creation": false,
+      "direct_distinctness_support_to_crossing": false,
+      "direct_distinctness_support_to_descendant_body_creation": false,
+      "direct_distinctness_support_to_follow_on_work": false,
+      "direct_distinctness_support_to_identity": false,
+      "direct_distinctness_support_to_presence": false,
+      "direct_distinctness_support_to_relation": false,
+      "direct_distinctness_support_to_runtime": false,
+      "direct_distinctness_support_to_third_candidate_route": false,
+      "direct_distinctness_support_to_third_model_route": false,
+      "direct_recheck_permission_to_recheck_completion_conversion": false,
+      "field_machinery_created": false,
+      "file_discovery_performed": false,
+      "first_crossing_authorized": false,
+      "follow_on_authorized": false,
+      "follow_on_work_authorized": false,
+      "hidden_repair_performed": false,
+      "identity_created": false,
+      "output_authorized": false,
+      "presence_established": false,
+      "prior_unsupported_candidate_a_claim_validated": false,
+      "prior_unsupported_candidate_b_claim_validated": false,
+      "prior_unsupported_derivation_event_claim_validated": false,
+      "relation_created": false,
+      "repair_performed": false,
+      "repository_scan_performed": false,
+      "runtime_created": false,
+      "scan_performed": false,
+      "silent_overwrite_performed": false,
+      "standing_authorized": false,
+      "standing_created": false,
+      "standing_descendant_created": false,
+      "synchronization_authorized": false,
+      "third_candidate_created": false,
+      "third_model_admitted": false,
+      "valid_derivation_event_recorded": false,
+      "validation_enforced": false
+    },
+    "distinctness_support_recheck_operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "distinctness_support_recheck_operation_recorded": false,
+    "distinctness_support_recheck_operation_scope": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+    "distinctness_support_recheck_operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "distinctness_support_recheck_operation_version": "0.1.0",
+    "distinctness_support_recheck_performed": false,
+    "distinctness_support_recheck_result_recorded": false,
+    "distinctness_supported_recorded": false,
+    "emitted_candidate_specific_basis_material_referenced": false,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "intent": "RECORD_DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "operation_scope": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+    "operation_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_V0_MIN_SPEC.md",
+    "operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "operation_version": "0.1.0",
+    "prior_distinctness_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+    "prior_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "prior_distinctness_operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION",
+    "prior_distinctness_result_required": "NOT_DISTINCT",
+    "prior_distinctness_supported_required": false,
+    "prior_not_distinct_result_referenced": false,
+    "request_action_authorization": false,
+    "request_affected_file_mutation": false,
+    "request_affected_file_repair": false,
+    "request_api_creation": false,
+    "request_authority_creation": false,
+    "request_candidate_standing_authorization": false,
+    "request_candidate_standing_creation": false,
+    "request_coupling_assignment_to_candidate_a": false,
+    "request_coupling_assignment_to_candidate_b": false,
+    "request_coupling_creation": false,
+    "request_crossing_authorization": false,
+    "request_currentness_creation": false,
+    "request_derivative_reception_authorization": false,
+    "request_descendant_body_a_creation": false,
+    "request_descendant_body_b_creation": false,
+    "request_descendant_body_creation": false,
+    "request_descendant_standing_check": false,
+    "request_field_machinery_creation": false,
+    "request_file_discovery": false,
+    "request_first_crossing_authorization": false,
+    "request_follow_on_authorization": false,
+    "request_identity_creation": false,
+    "request_output_authorization": false,
+    "request_presence_establishment": false,
+    "request_prior_unsupported_claim_validation": false,
+    "request_relation_creation": false,
+    "request_repository_scan": false,
+    "request_runtime_creation": false,
+    "request_standing_authorization": false,
+    "request_standing_creation": false,
+    "request_standing_descendant_creation": false,
+    "request_synchronization_authorization": false,
+    "request_third_candidate_creation": false,
+    "request_third_model_admission": false,
+    "request_validation_enforcement": false,
+    "scope_division_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_basis_emission_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_closure_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "upstream_basis_emission_successor_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+    "upstream_basis_emission_successor_operation_type": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION",
+    "upstream_basis_emission_successor_result_required": "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+    "upstream_basis_pair_emitted_required": true,
+    "upstream_basis_pair_scope_required": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "upstream_candidate_a_basis_id_required": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "upstream_candidate_a_basis_label_required": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "upstream_candidate_a_basis_material_emitted_required": true,
+    "upstream_candidate_b_basis_id_required": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "upstream_candidate_b_basis_label_required": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "upstream_candidate_b_basis_material_emitted_required": true,
+    "upstream_candidate_records_marked_distinct_required": false,
+    "upstream_candidate_specific_content_emitted_required": true,
+    "upstream_candidate_standing_authorized_required": false,
+    "upstream_coupling_created_required": false,
+    "upstream_descendant_body_created_required": false,
+    "upstream_distinctness_supported_recorded_required": false,
+    "upstream_follow_on_authorized_required": false,
+    "upstream_identity_created_required": false,
+    "upstream_presence_established_required": false,
+    "upstream_relation_created_required": false,
+    "upstream_separate_candidate_basis_material_emitted_required": true
+  },
+  "descendant_body_candidate_record_distinctness_support_recheck_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "DISTINCTNESS_SUPPORT_RECHECK_THEN_CANDIDATE_STANDING_BOUNDARY_CONSIDERATION_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "basis_emission_successor_operation_bypassed": false,
+    "basis_emission_successor_operation_overridden": false,
+    "basis_pair_referenced": true,
+    "candidate_a_basis_material_referenced": true,
+    "candidate_b_basis_material_referenced": true,
+    "candidate_records_distinct": true,
+    "candidate_records_marked_distinct": true,
+    "candidate_specific_basis_material_compared": true,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "direct_basis_emission_to_descendant_body_creation": false,
+    "direct_basis_emission_to_relation": false,
+    "direct_basis_emission_to_standing": false,
+    "direct_candidate_records_distinct_to_candidate_standing": false,
+    "direct_candidate_records_distinct_to_descendant_body_creation": false,
+    "direct_candidate_records_distinct_to_identity": false,
+    "direct_candidate_records_distinct_to_presence": false,
+    "direct_candidate_records_distinct_to_relation": false,
+    "direct_distinctness_support_to_authority_currentness": false,
+    "direct_distinctness_support_to_candidate_standing": false,
+    "direct_distinctness_support_to_coupling_creation": false,
+    "direct_distinctness_support_to_crossing": false,
+    "direct_distinctness_support_to_descendant_body_creation": false,
+    "direct_distinctness_support_to_follow_on_work": false,
+    "direct_distinctness_support_to_identity": false,
+    "direct_distinctness_support_to_presence": false,
+    "direct_distinctness_support_to_relation": false,
+    "direct_distinctness_support_to_runtime": false,
+    "direct_distinctness_support_to_third_candidate_route": false,
+    "direct_distinctness_support_to_third_model_route": false,
+    "direct_recheck_permission_to_recheck_completion_conversion": false,
+    "distinctness_support_recheck_operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "distinctness_support_recheck_operation_recorded": true,
+    "distinctness_support_recheck_operation_scope": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+    "distinctness_support_recheck_operation_spec_markers_present": true,
+    "distinctness_support_recheck_operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "distinctness_support_recheck_operation_version": "0.1.0",
+    "distinctness_support_recheck_performed": true,
+    "distinctness_support_recheck_result": "DISTINCTNESS_SUPPORT_RECHECKED",
+    "distinctness_support_recheck_result_recorded": true,
+    "distinctness_support_result": "DISTINCTNESS_SUPPORTED",
+    "distinctness_supported_recorded": true,
+    "emitted_candidate_specific_basis_material_referenced": true,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "operation_scope": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+    "operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "operation_version": "0.1.0",
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_distinctness_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+    "prior_distinctness_operation_terminal_summary_markers_present": true,
+    "prior_distinctness_operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION",
+    "prior_distinctness_result_required": "NOT_DISTINCT",
+    "prior_distinctness_supported_required": false,
+    "prior_not_distinct_result_referenced": true,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "successor_basis_emission_terminal_summary_markers_present": true,
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "upstream_basis_emission_successor_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+    "upstream_basis_emission_successor_operation_type": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION",
+    "upstream_basis_emission_successor_result_required": "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+    "upstream_basis_pair_emitted_required": true,
+    "upstream_basis_pair_scope_required": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "upstream_candidate_a_basis_id_required": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "upstream_candidate_a_basis_label_required": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "upstream_candidate_a_basis_material_emitted_required": true,
+    "upstream_candidate_b_basis_id_required": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "upstream_candidate_b_basis_label_required": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "upstream_candidate_b_basis_material_emitted_required": true,
+    "upstream_candidate_specific_content_emitted_required": true,
+    "upstream_separate_candidate_basis_material_emitted_required": true,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "distinctness_support_recheck_material": {
+    "basis_pair_reference": {
+      "basis_pair_scope": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+      "candidate_a_and_b_are_sibling_non_standing_basis_materials": true,
+      "candidate_standing_authorized": false,
+      "coupling_assigned": false,
+      "coupling_created": false,
+      "motion_does_not_erase_regulation": true,
+      "neither_candidate_ranks_above_the_other": true,
+      "regulation_not_sovereign_over_motion": true,
+      "third_candidate_created": false,
+      "third_model_admitted": false
+    },
+    "candidate_a_basis_reference": {
+      "basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "candidate_record_id": "descendant_body_basis_candidate_a_001",
+      "candidate_role": "CANDIDATE_A",
+      "distinctness_supported_at_emission_time": false,
+      "non_standing_basis": true,
+      "source_mandate": "Motion mandate",
+      "source_scope": "Motion-side admissible variation"
+    },
+    "candidate_b_basis_reference": {
+      "basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "candidate_record_id": "descendant_body_basis_candidate_b_001",
+      "candidate_role": "CANDIDATE_B",
+      "distinctness_supported_at_emission_time": false,
+      "non_standing_basis": true,
+      "source_mandate": "Regulation mandate",
+      "source_scope": "Regulation-side admissibility bounds"
+    },
+    "support_evaluation": {
+      "basis_pair_non_hierarchy_preserved": true,
+      "candidate_records_distinct": true,
+      "candidate_records_marked_distinct": true,
+      "candidate_specific_basis_material_non_standing": true,
+      "candidate_specific_basis_material_present": true,
+      "candidate_specific_basis_material_separate": true,
+      "candidate_standing_authorized": false,
+      "coupling_created": false,
+      "descendant_body_created": false,
+      "distinctness_support_result": "DISTINCTNESS_SUPPORTED",
+      "identity_created": false,
+      "presence_established": false,
+      "prior_absence_reason": "candidate-specific content and separate seal, receipt, and digest material were absent",
+      "prior_distinctness_result": "NOT_DISTINCT",
+      "prior_distinctness_supported": false,
+      "relation_created": false
+    }
+  },
+  "distinctness_support_recheck_operation_checks": [
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+        "DO_NOT_RECORD_DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+        "BLOCK_DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION"
+      ],
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+      "check_name": "operation_id exact",
+      "expected_posture": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+      "check_name": "operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "operation_version exact",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+      "check_name": "operation_scope exact",
+      "expected_posture": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+      "check_name": "distinctness_support_recheck_operation_id exact",
+      "expected_posture": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+      "check_name": "distinctness_support_recheck_operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "distinctness_support_recheck_operation_version exact",
+      "expected_posture": "0.1.0",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+      "check_name": "distinctness_support_recheck_operation_scope exact",
+      "expected_posture": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION",
+      "check_name": "prior_distinctness_operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+      "check_name": "prior_distinctness_operation_outcome_required exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "NOT_DISTINCT",
+      "check_name": "prior_distinctness_result_required exact",
+      "expected_posture": "NOT_DISTINCT",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "prior_distinctness_supported_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION",
+      "check_name": "upstream_basis_emission_successor_operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+      "check_name": "upstream_basis_emission_successor_operation_outcome_required exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+      "check_name": "upstream_basis_emission_successor_result_required exact",
+      "expected_posture": "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "upstream_candidate_specific_content_emitted_required exact",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "upstream_candidate_a_basis_material_emitted_required exact",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "upstream_candidate_b_basis_material_emitted_required exact",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "upstream_separate_candidate_basis_material_emitted_required exact",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": true,
+      "check_name": "upstream_basis_pair_emitted_required exact",
+      "expected_posture": true,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "check_name": "upstream_candidate_a_basis_id_required exact",
+      "expected_posture": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "check_name": "upstream_candidate_b_basis_id_required exact",
+      "expected_posture": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "check_name": "upstream_candidate_a_basis_label_required exact",
+      "expected_posture": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "check_name": "upstream_candidate_b_basis_label_required exact",
+      "expected_posture": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+      "check_name": "upstream_basis_pair_scope_required exact",
+      "expected_posture": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_candidate_records_marked_distinct_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_distinctness_supported_recorded_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_candidate_standing_authorized_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_descendant_body_created_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_relation_created_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_coupling_created_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_presence_established_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_identity_created_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "upstream_follow_on_authorized_required exact",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "DISTINCTNESS_SUPPORT_RECHECK_THEN_CANDIDATE_STANDING_BOUNDARY_CONSIDERATION_ONLY",
+      "check_name": "admissible_future_route exact",
+      "expected_posture": "DISTINCTNESS_SUPPORT_RECHECK_THEN_CANDIDATE_STANDING_BOUNDARY_CONSIDERATION_ONLY",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": {
+        "invalid_keys": []
+      },
+      "check_name": "required declared non-claims false",
+      "expected_posture": "every required key exactly false",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_standing_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_standing_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_descendant_body_a_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_descendant_body_b_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_descendant_body_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_standing_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_standing_descendant_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_descendant_standing_check not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_crossing_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_first_crossing_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_relation_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_field_machinery_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_runtime_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_api_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_currentness_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_authority_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_standing_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_output_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_action_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_derivative_reception_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_synchronization_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_assignment_to_candidate_a not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_assignment_to_candidate_b not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_third_candidate_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_third_model_admission not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_presence_establishment not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_identity_creation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_follow_on_authorization not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_repository_scan not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_file_discovery not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_affected_file_repair not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_affected_file_mutation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_prior_unsupported_claim_validation not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_validation_enforcement not requested",
+      "expected_posture": false,
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_V0_MIN_SPEC.md",
+      "check_name": "operation spec reference readable",
+      "expected_posture": "declared readable spec path",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": {
+        "missing_posture_classes": []
+      },
+      "check_name": "distinctness support recheck operation spec posture classes present",
+      "expected_posture": "all required marker classes",
+      "passed": true,
+      "upstream_basis_check": false
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "prior_distinctness_operation_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "prior_distinctness_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+          "distinctness_result = NOT_DISTINCT",
+          "distinctness_supported = false",
+          "candidate records with distinct ids and roles",
+          "candidate-specific content and separate seal, receipt, and digest material were absent"
+        ],
+        [
+          "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+          "distinctness_result = NOT_DISTINCT",
+          "distinctness_supported = false",
+          "compared exactly two candidate records",
+          "candidate-specific content",
+          "separate seal material",
+          "separate lineage receipt material",
+          "separate digest material"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "successor_basis_emission_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "successor_basis_emission_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+          "failed_check_count = 0",
+          "passed_check_count = 83",
+          "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+          "candidate_specific_content_emitted = true",
+          "candidate_a_basis_material_emitted = true",
+          "candidate_b_basis_material_emitted = true",
+          "separate_candidate_basis_material_emitted = true",
+          "basis_pair_emitted = true",
+          "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+          "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+          "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+          "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+          "basis_pair_scope = SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "UNSUPPORTED"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "basis_emission_operation_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "basis_emission_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_REQUIRES_ADDITIONAL_BASIS"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "successor_closure_operation_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "successor_closure_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_CLOSED"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "scope_division_operation_terminal_summary_reference readable",
+      "expected_posture": "declared readable terminal summary",
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "scope_division_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        [
+          "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_REQUIRES_ADDITIONAL_BASIS"
+        ]
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality candidate_a_non_standing",
+      "expected_posture": [
+        "Candidate A basis material",
+        "non_standing_basis = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality candidate_b_non_standing",
+      "expected_posture": [
+        "Candidate B basis material",
+        "non_standing_basis = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality sibling_non_standing_basis_pair",
+      "expected_posture": [
+        "candidate_a_and_b_are_sibling_non_standing_basis_materials = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality basis_pair_non_hierarchy",
+      "expected_posture": [
+        "neither_candidate_ranks_above_the_other = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality regulation_not_sovereign_over_motion",
+      "expected_posture": [
+        "regulation_not_sovereign_over_motion = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality motion_does_not_erase_regulation",
+      "expected_posture": [
+        "motion_does_not_erase_regulation = true"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality coupling_uncreated",
+      "expected_posture": [
+        "coupling_assigned = false",
+        "coupling_created = false"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality no_third_candidate_or_model",
+      "expected_posture": [
+        "third_candidate_created = false",
+        "third_model_admitted = false"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality upstream_distinctness_not_preclaimed",
+      "expected_posture": [
+        "distinctness_supported_recorded = false",
+        "candidate_records_marked_distinct = false"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": []
+      },
+      "check_name": "support quality upstream_standing_not_authorized",
+      "expected_posture": [
+        "candidate_standing_authorized = false",
+        "descendant_body_created = false",
+        "relation_created = false",
+        "presence_established = false",
+        "identity_created = false",
+        "follow_on_authorized = false"
+      ],
+      "passed": true,
+      "upstream_basis_check": true
+    }
+  ],
+  "distinctness_support_recheck_operation_metadata": {
+    "generated_at": "2026-07-13T15:43:57+00:00",
+    "operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "resolver_module": "resolve_descendant_body_candidate_record_distinctness_support_recheck_operation_v0_min",
+    "result_version": "0.1.0"
+  },
+  "distinctness_support_recheck_operation_non_meaning": {
+    "not_authority": true,
+    "not_candidate_standing": true,
+    "not_coupling": true,
+    "not_descendant_body_creation": true,
+    "not_follow_on": true,
+    "not_identity": true,
+    "not_presence": true,
+    "not_relation": true,
+    "not_runtime": true
+  },
+  "distinctness_support_recheck_operation_statement": {
+    "candidate_records_marked_distinct": true,
+    "candidate_standing_authorized": false,
+    "descendant_body_created": false,
+    "distinctness_support_recheck_operation_recorded": true,
+    "distinctness_supported_recorded": true,
+    "outcome": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_SUPPORTED",
+    "result_level_non_claims_canonical_false": true
+  },
+  "distinctness_support_recheck_operation_summary": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "basis_emission_successor_operation_bypassed": false,
+    "basis_emission_successor_operation_overridden": false,
+    "basis_pair_referenced": true,
+    "basis_pair_scope": "SEPARATE_CANDIDATE_SPECIFIC_BASIS_MATERIAL_ONLY",
+    "candidate_a_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+    "candidate_a_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+    "candidate_a_basis_material_referenced": true,
+    "candidate_b_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+    "candidate_b_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+    "candidate_b_basis_material_referenced": true,
+    "candidate_records_distinct": true,
+    "candidate_records_marked_distinct": true,
+    "candidate_specific_basis_material_compared": true,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "completed_prior_distinctness_terminal_summary_path": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_successor_basis_emission_terminal_summary_path": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "direct_basis_emission_to_descendant_body_creation": false,
+    "direct_basis_emission_to_relation": false,
+    "direct_basis_emission_to_standing": false,
+    "direct_candidate_records_distinct_to_candidate_standing": false,
+    "direct_candidate_records_distinct_to_descendant_body_creation": false,
+    "direct_candidate_records_distinct_to_identity": false,
+    "direct_candidate_records_distinct_to_presence": false,
+    "direct_candidate_records_distinct_to_relation": false,
+    "direct_distinctness_support_to_authority_currentness": false,
+    "direct_distinctness_support_to_candidate_standing": false,
+    "direct_distinctness_support_to_coupling_creation": false,
+    "direct_distinctness_support_to_crossing": false,
+    "direct_distinctness_support_to_descendant_body_creation": false,
+    "direct_distinctness_support_to_follow_on_work": false,
+    "direct_distinctness_support_to_identity": false,
+    "direct_distinctness_support_to_presence": false,
+    "direct_distinctness_support_to_relation": false,
+    "direct_distinctness_support_to_runtime": false,
+    "direct_distinctness_support_to_third_candidate_route": false,
+    "direct_distinctness_support_to_third_model_route": false,
+    "direct_recheck_permission_to_recheck_completion_conversion": false,
+    "distinctness_support_recheck_operation_recorded": true,
+    "distinctness_support_recheck_operation_spec_markers_present": true,
+    "distinctness_support_recheck_performed": true,
+    "distinctness_support_recheck_result": "DISTINCTNESS_SUPPORT_RECHECKED",
+    "distinctness_support_recheck_result_recorded": true,
+    "distinctness_support_result": "DISTINCTNESS_SUPPORTED",
+    "distinctness_supported_recorded": true,
+    "emitted_candidate_specific_basis_material_referenced": true,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "failed_check_count": 0,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "missing_or_insufficient_basis_emission_material": [],
+    "not_supported_reasons": [],
+    "operation_id": "descendant_body_candidate_record_distinctness_support_recheck_operation_001",
+    "operation_scope": "RECHECK_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_AFTER_CANDIDATE_SPECIFIC_BASIS_EMISSION_ONLY",
+    "operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_SUPPORTED",
+    "output_authorized": false,
+    "passed_check_count": 96,
+    "presence_established": false,
+    "prior_distinctness_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_NOT_DISTINCT",
+    "prior_distinctness_operation_terminal_summary_markers_present": true,
+    "prior_distinctness_operation_type": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION",
+    "prior_distinctness_result_required": "NOT_DISTINCT",
+    "prior_distinctness_supported_required": false,
+    "prior_not_distinct_result_referenced": true,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "resolver_module": "resolve_descendant_body_candidate_record_distinctness_support_recheck_operation_v0_min",
+    "result_version": "0.1.0",
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "selected_target_spec_path": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_V0_MIN_SPEC.md",
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "successor_basis_emission_terminal_summary_markers_present": true,
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "upstream_basis_emission_successor_operation_outcome_required": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_EMITTED",
+    "upstream_basis_emission_successor_operation_type": "DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION",
+    "upstream_basis_emission_successor_result_required": "CANDIDATE_SPECIFIC_BASIS_MATERIAL_EMITTED",
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_emission_successor_operation_bypassed": false,
+    "basis_emission_successor_operation_overridden": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "direct_basis_emission_to_descendant_body_creation": false,
+    "direct_basis_emission_to_relation": false,
+    "direct_basis_emission_to_standing": false,
+    "direct_candidate_records_distinct_to_candidate_standing": false,
+    "direct_candidate_records_distinct_to_descendant_body_creation": false,
+    "direct_candidate_records_distinct_to_identity": false,
+    "direct_candidate_records_distinct_to_presence": false,
+    "direct_candidate_records_distinct_to_relation": false,
+    "direct_distinctness_support_to_authority_currentness": false,
+    "direct_distinctness_support_to_candidate_standing": false,
+    "direct_distinctness_support_to_coupling_creation": false,
+    "direct_distinctness_support_to_crossing": false,
+    "direct_distinctness_support_to_descendant_body_creation": false,
+    "direct_distinctness_support_to_follow_on_work": false,
+    "direct_distinctness_support_to_identity": false,
+    "direct_distinctness_support_to_presence": false,
+    "direct_distinctness_support_to_relation": false,
+    "direct_distinctness_support_to_runtime": false,
+    "direct_distinctness_support_to_third_candidate_route": false,
+    "direct_distinctness_support_to_third_model_route": false,
+    "direct_recheck_permission_to_recheck_completion_conversion": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "outcome": "DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_SUPPORTED",
+  "permitted_future_route": {
+    "admissible_future_route": "DISTINCTNESS_SUPPORT_RECHECK_THEN_CANDIDATE_STANDING_BOUNDARY_CONSIDERATION_ONLY",
+    "candidate_standing_boundary_consideration_requires_separate_bounded_step": true
+  },
+  "recheck_result_detail": {
+    "distinctness_support_recheck_result": "DISTINCTNESS_SUPPORT_RECHECKED",
+    "distinctness_support_result": "DISTINCTNESS_SUPPORTED",
+    "missing_or_insufficient_basis_emission_material": [],
+    "not_supported_reasons": []
+  },
+  "resolver_module": "resolve_descendant_body_candidate_record_distinctness_support_recheck_operation_v0_min",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "distinctness_support_recheck_operation_spec_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "operation_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_SUPPORT_RECHECK_OPERATION_V0_MIN_SPEC.md",
+    "prior_distinctness_operation_terminal_summary_markers_present": true,
+    "prior_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "scope_division_operation_terminal_summary_markers_present": true,
+    "scope_division_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_basis_emission_terminal_summary_markers_present": true,
+    "successor_basis_emission_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_SUCCESSOR_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "successor_closure_operation_terminal_summary_markers_present": true,
+    "successor_closure_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_SUCCESSOR_CLOSURE_OPERATION_TERMINAL_SUMMARY_V0.md"
+  },
+  "what_remains_open": [
+    "candidate-standing boundary, if separately bounded after support",
+    "candidate-standing checks",
+    "divergent receipt-history route, if separately bounded",
+    "carrier separation route, if separately bounded",
+    "first crossing",
+    "relation",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "presence boundary",
+    "identity boundary",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "externalization boundary",
+    "follow-on work"
+  ]
+}

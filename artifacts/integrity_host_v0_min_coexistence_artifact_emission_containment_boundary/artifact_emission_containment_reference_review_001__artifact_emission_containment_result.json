@@ -1,0 +1,1331 @@
+{
+  "additional_basis_required": {
+    "additional_basis_context": {},
+    "additional_basis_required": false,
+    "missing_basis_authorized": false,
+    "missing_basis_executed": false,
+    "missing_basis_scheduled": false,
+    "representative_missing_basis": []
+  },
+  "affected_artifact_families": {
+    "affected_artifact_families": {
+      "affected_artifact_families_declared": true,
+      "affected_family_status_does_not_invalidate_prior_artifacts": true,
+      "affected_family_status_is_descriptive_only": true,
+      "command_boundary_future_emission_family": true,
+      "evidence_manifest_family": true,
+      "families": [
+        "portable_source_body_verification",
+        "portable_source_body_verification_evidence_manifest",
+        "source_body_reception_closure",
+        "portable_source_body_verification_command_boundary_future_emission"
+      ],
+      "portable_source_body_verification_family": true,
+      "source_body_reception_closure_family": true
+    },
+    "affected_family_status_does_not_invalidate_prior_artifacts": true,
+    "affected_family_status_is_descriptive_only": true,
+    "command_boundary_future_emission_family_where_supplied": null,
+    "evidence_manifest_family_where_supplied": null,
+    "portable_source_body_verification_family_where_supplied": null,
+    "source_body_reception_closure_family_where_supplied": null
+  },
+  "artifact_emission_containment_metadata": {
+    "artifact_emission_containment_result_id": "artifact_emission_containment_reference_review_001__artifact_emission_containment_result",
+    "artifact_emission_containment_result_type": "artifact_emission_containment_boundary_result",
+    "artifact_emission_containment_result_version": "0.1.0",
+    "generated_at": "2026-05-03T20:29:17+00:00",
+    "outcome_recorded_in_metadata": "ARTIFACT_EMISSION_CONTAINMENT_RECORDED",
+    "resolver_module": "resolve_artifact_emission_containment_boundary"
+  },
+  "artifact_emission_containment_summary": {
+    "affected_artifact_families": {
+      "affected_artifact_families_declared": true,
+      "affected_family_status_does_not_invalidate_prior_artifacts": true,
+      "affected_family_status_is_descriptive_only": true,
+      "command_boundary_future_emission_family": true,
+      "evidence_manifest_family": true,
+      "families": [
+        "portable_source_body_verification",
+        "portable_source_body_verification_evidence_manifest",
+        "source_body_reception_closure",
+        "portable_source_body_verification_command_boundary_future_emission"
+      ],
+      "portable_source_body_verification_family": true,
+      "source_body_reception_closure_family": true
+    },
+    "artifact_emission_containment_recorded": true,
+    "artifact_size_pressure_not_law_failure_by_itself": true,
+    "block_code": null,
+    "block_reason": null,
+    "containment_basis_declared": true,
+    "containment_intent": "RECORD_ARTIFACT_EMISSION_CONTAINMENT",
+    "containment_question": "Can future artifacts be required to preserve selected prior results by reference-shaped summaries rather than recursively embedding full upstream artifacts, without mutating prior artifacts or authorizing command, manifest, deployment, runtime, public release, transfer, migration, source receipt, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+    "containment_request_id": "artifact_emission_containment_reference_review_001",
+    "containment_scope_values": [
+      "ARTIFACT_EMISSION_CONTAINMENT_ONLY",
+      "REFERENCE_ONLY_SELECTED_BASIS_REQUIRED",
+      "SUMMARY_PLUS_REFERENCE_EMISSION_REQUIRED",
+      "RECURSIVE_FULL_ARTIFACT_EMBEDDING_BLOCKED",
+      "PRIOR_ARTIFACTS_PRESERVED_BY_REFERENCE",
+      "PRIOR_ARTIFACTS_NOT_MUTATED",
+      "PRIOR_ARTIFACTS_NOT_DELETED",
+      "PRIOR_ARTIFACTS_NOT_COMPACTED",
+      "PRIOR_ARTIFACTS_NOT_INVALIDATED_BY_SIZE",
+      "CONTAINMENT_IS_NOT_CLEANUP",
+      "CONTAINMENT_IS_NOT_MIGRATION",
+      "CONTAINMENT_IS_NOT_COMMAND",
+      "CONTAINMENT_IS_NOT_MANIFEST_IMPLEMENTATION",
+      "CONTAINMENT_DOES_NOT_CREATE_CURRENTNESS",
+      "CONTAINMENT_DOES_NOT_AUTHORIZE_NEXT_WORK"
+    ],
+    "failed_check_count": 0,
+    "future_emission_family": {
+      "command_boundary_live_artifact_family": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_command_boundary/",
+      "future_artifacts_should_block_recursive_full_artifact_embedding": true,
+      "future_artifacts_should_use_reference_only_selected_basis": true,
+      "future_artifacts_should_use_summary_plus_reference_emission": true,
+      "future_emission_family": "portable_source_body_verification_command_boundary_live_artifact",
+      "future_emission_family_declared": true,
+      "future_emission_family_is_not_authorized_to_emit_until_separately_reviewed": true
+    },
+    "heavy_artifacts_remain_visible_evidence": true,
+    "key_non_claims": {
+      "another_reception_request_authorized": false,
+      "artifact_existence_created_currentness": false,
+      "checksum_implemented": false,
+      "command_authorized_to_run": false,
+      "command_executed": false,
+      "command_implemented": false,
+      "containment_created_currentness": false,
+      "continuation_authorized": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "manifest_implemented": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "old_artifacts_replaced": false,
+      "operation_permission_created": false,
+      "packet_implemented": false,
+      "path_created_currentness": false,
+      "prior_artifacts_compacted": false,
+      "prior_artifacts_deleted": false,
+      "prior_artifacts_invalidated_by_size": false,
+      "prior_artifacts_mutated": false,
+      "prior_artifacts_rewritten": false,
+      "public_launch_readiness_created": false,
+      "public_release_created": false,
+      "publication_flow_opened": false,
+      "reception_authorized": false,
+      "reference_record_became_source": false,
+      "replay_performed": false,
+      "reusable_permission_created": false,
+      "runtime_hosting_created": false,
+      "signature_implemented": false,
+      "source_migrated": false,
+      "source_receipt_recorded": false,
+      "source_received": false,
+      "source_transferred": false,
+      "summary_became_source": false,
+      "vessel_relation_authorized": false
+    },
+    "no_cleanup_compaction_deletion_rewrite_migration_authorized": true,
+    "no_command_manifest_checksum_signature_packet_implemented": true,
+    "no_continuation_publication_flow_reusable_permission": true,
+    "no_deployment_runtime_public_release": true,
+    "no_derivative_reception_vessel_relation_another_reception_request_follow_on_work": true,
+    "no_operation_permission_public_readiness_final_completion": true,
+    "no_source_transferred_migrated_received_receipted": true,
+    "not_recorded": false,
+    "outcome": "ARTIFACT_EMISSION_CONTAINMENT_RECORDED",
+    "passed_check_count": 32,
+    "prior_artifacts_not_compacted": true,
+    "prior_artifacts_not_deleted": true,
+    "prior_artifacts_not_invalidated_by_size": true,
+    "prior_artifacts_not_mutated": true,
+    "prior_artifacts_not_rewritten": true,
+    "prior_artifacts_preserved_by_reference": true,
+    "recursive_embedding_blocked": true,
+    "recursive_full_artifact_embedding_blocked": true,
+    "reference_only_posture_declared": true,
+    "reference_only_selected_basis_required": true,
+    "requires_additional_basis": false,
+    "summary_plus_reference_emission_required": true,
+    "summary_plus_reference_posture_declared": true
+  },
+  "block": {
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "containment_basis": {
+    "containment_basis": {
+      "containment_basis_declared": true,
+      "containment_basis_does_not_authorize_next_work": true,
+      "containment_basis_does_not_create_cleanup": true,
+      "containment_basis_does_not_create_command_or_manifest_implementation": true,
+      "containment_basis_does_not_create_migration": true,
+      "no_artifact_invalidation_by_size_posture": true,
+      "no_prior_artifact_mutation_posture": true,
+      "prior_artifact_preservation_posture": true,
+      "prohibited_recursive_embedding_posture": true,
+      "reference_only_selected_basis_posture": true,
+      "summary_plus_reference_posture": true
+    },
+    "containment_basis_does_not_authorize_next_work": true,
+    "containment_basis_does_not_create_cleanup": true,
+    "containment_basis_does_not_create_command_or_manifest_implementation": true,
+    "containment_basis_does_not_create_migration": true,
+    "no_artifact_invalidation_by_size_posture": {
+      "artifact_size_class_is_descriptive_only": true,
+      "no_artifact_invalidation_by_size_posture_declared": true,
+      "prior_artifacts_invalidated_by_size": false
+    },
+    "no_prior_artifact_mutation_posture": {
+      "no_prior_artifact_mutation_posture_declared": true,
+      "prior_artifacts_compacted": false,
+      "prior_artifacts_deleted": false,
+      "prior_artifacts_mutated": false,
+      "prior_artifacts_rewritten": false
+    },
+    "prior_artifact_preservation_posture": {
+      "old_artifacts_not_replaced": true,
+      "prior_artifact_preservation_posture_declared": true,
+      "prior_artifacts_not_compacted": true,
+      "prior_artifacts_not_deleted": true,
+      "prior_artifacts_not_invalidated_by_size": true,
+      "prior_artifacts_not_migrated": true,
+      "prior_artifacts_not_mutated": true,
+      "prior_artifacts_not_normalized": true,
+      "prior_artifacts_not_repaired": true,
+      "prior_artifacts_not_rewritten": true,
+      "prior_artifacts_preserved_by_reference": true
+    },
+    "prohibited_recursive_embedding_posture": {
+      "full_artifact_bodies_should_not_be_nested_inside_future_artifacts": true,
+      "prior_artifacts_preserved_by_reference": true,
+      "prohibited_embedding_does_not_mutate_prior_artifacts": true,
+      "raw_full_artifact_body_embedding_prohibited_unless_separately_permitted": true,
+      "recursive_embedding_block_declared": true,
+      "recursive_full_artifact_embedding_blocked": true
+    },
+    "reference_only_selected_basis_posture": {
+      "allowed_reference_fields": [
+        "selected_result_id",
+        "selected_result_path",
+        "selected_result_outcome",
+        "selected_result_failed_check_count",
+        "selected_result_passed_check_count",
+        "selected_result_summary",
+        "selected_result_non_claims",
+        "selected_result_basis_reference",
+        "selected_result_artifact_family",
+        "selected_result_artifact_size_class"
+      ],
+      "future_selected_results_represented_by_reference_records": true,
+      "paths_do_not_create_currentness": true,
+      "reference_only_selected_basis_posture_declared": true,
+      "reference_records_do_not_become_source": true,
+      "reference_records_do_not_create_currentness": true,
+      "size_class_is_descriptive_only_and_not_validity": true
+    },
+    "summary_plus_reference_posture": {
+      "selected_non_claim_excerpts_preserve_anti_collapse_posture": true,
+      "summaries_are_bounded_excerpts": true,
+      "summary_digest_is_not_cryptographic_digest_unless_separately_specified": true,
+      "summary_does_not_become_source": true,
+      "summary_does_not_create_authority": true,
+      "summary_does_not_create_currentness": true,
+      "summary_plus_reference_posture_declared": true
+    }
+  },
+  "containment_checks": [
+    {
+      "actual_posture": "Can future artifacts be required to preserve selected prior results by reference-shaped summaries rather than recursively embedding full upstream artifacts, without mutating prior artifacts or authorizing command, manifest, deployment, runtime, public release, transfer, migration, source receipt, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+      "block_code": null,
+      "check_name": "containment question declared",
+      "expected_posture": "containment question must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_ARTIFACT_EMISSION_CONTAINMENT",
+      "block_code": null,
+      "check_name": "containment intent supported",
+      "expected_posture": "containment intent must be supported",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "artifact_emission_pressure_basis_declared": true,
+        "artifact_size_pressure_is_not_automatic_law_failure": true,
+        "carrier_shape_pressure_is_not_currentness_or_authority": true,
+        "containment_should_occur_before_further_recursive_live_artifact_emission": true,
+        "heavy_artifact_evidence_does_not_become_source": true,
+        "heavy_artifacts_remain_standing_evidence_if_checks_passed": true,
+        "selected_artifact_size_pressure_basis": {
+          "artifact_size_pressure_basis_declared": true,
+          "artifact_size_pressure_is_not_automatic_law_failure": true,
+          "recursive_embedding_pressure_observed": true
+        },
+        "selected_carrier_shape_pressure_basis": {
+          "carrier_shape_pressure_basis_declared": true,
+          "carrier_shape_pressure_is_not_currentness_or_authority": true,
+          "containment_should_occur_before_further_recursive_live_artifact_emission": true
+        },
+        "selected_heavy_artifact_evidence": {
+          "full_artifact_bodies_embedded": false,
+          "heavy_artifact_evidence_declared": true,
+          "heavy_artifacts_remain_standing_evidence_if_checks_passed": true
+        },
+        "selected_large_artifact_evidence": [
+          {
+            "selected_result_artifact_family": "portable_source_body_verification",
+            "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+            "selected_result_basis_reference": "portable_source_body_verification",
+            "selected_result_failed_check_count": 0,
+            "selected_result_id": "portable_source_body_verification_reference_review_001",
+            "selected_result_non_claims": {
+              "artifact_existence_created_currentness": false,
+              "path_created_currentness": false,
+              "prior_artifacts_invalidated_by_size": false,
+              "reference_record_became_source": false
+            },
+            "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_RECORDED",
+            "selected_result_passed_check_count": null,
+            "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_boundary/portable_source_body_verification_reference_review_001__portable_source_body_verification_result.json",
+            "selected_result_summary": {
+              "artifact_size_class": "HEAVY_OVER_100_MB",
+              "full_artifact_body_embedded": false,
+              "reference_only": true,
+              "summary_only": true
+            }
+          },
+          {
+            "selected_result_artifact_family": "portable_source_body_verification_evidence_manifest",
+            "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+            "selected_result_basis_reference": "portable_source_body_verification_evidence_manifest",
+            "selected_result_failed_check_count": 0,
+            "selected_result_id": "portable_source_body_verification_evidence_manifest_reference_review_001",
+            "selected_result_non_claims": {
+              "artifact_existence_created_currentness": false,
+              "path_created_currentness": false,
+              "prior_artifacts_invalidated_by_size": false,
+              "reference_record_became_source": false
+            },
+            "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_EVIDENCE_MANIFEST_RECORDED",
+            "selected_result_passed_check_count": null,
+            "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_evidence_manifest_boundary/portable_source_body_verification_evidence_manifest_reference_review_001__portable_source_body_verification_evidence_manifest_result.json",
+            "selected_result_summary": {
+              "artifact_size_class": "HEAVY_OVER_100_MB",
+              "full_artifact_body_embedded": false,
+              "reference_only": true,
+              "summary_only": true
+            }
+          },
+          {
+            "selected_result_artifact_family": "source_body_reception_closure",
+            "selected_result_artifact_size_class": "LARGE_OVER_20_MB",
+            "selected_result_basis_reference": "source_body_reception_closure",
+            "selected_result_failed_check_count": 0,
+            "selected_result_id": "source_body_reception_closure_reference_review_001_corrected",
+            "selected_result_non_claims": {
+              "artifact_existence_created_currentness": false,
+              "path_created_currentness": false,
+              "prior_artifacts_invalidated_by_size": false,
+              "reference_record_became_source": false
+            },
+            "selected_result_outcome": "SOURCE_BODY_RECEPTION_CLOSURE_RECORDED",
+            "selected_result_passed_check_count": null,
+            "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_source_body_reception_closure_boundary/source_body_reception_closure_reference_review_001_corrected__source_body_reception_closure_result.json",
+            "selected_result_summary": {
+              "artifact_size_class": "LARGE_OVER_20_MB",
+              "full_artifact_body_embedded": false,
+              "reference_only": true,
+              "summary_only": true
+            }
+          }
+        ]
+      },
+      "block_code": null,
+      "check_name": "artifact-emission pressure basis declared",
+      "expected_posture": "artifact-emission pressure basis must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "affected_artifact_families_declared": true,
+        "affected_family_status_does_not_invalidate_prior_artifacts": true,
+        "affected_family_status_is_descriptive_only": true,
+        "command_boundary_future_emission_family": true,
+        "evidence_manifest_family": true,
+        "families": [
+          "portable_source_body_verification",
+          "portable_source_body_verification_evidence_manifest",
+          "source_body_reception_closure",
+          "portable_source_body_verification_command_boundary_future_emission"
+        ],
+        "portable_source_body_verification_family": true,
+        "source_body_reception_closure_family": true
+      },
+      "block_code": null,
+      "check_name": "affected artifact family declared",
+      "expected_posture": "affected artifact family must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "command_boundary_live_artifact_family": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_command_boundary/",
+        "future_artifacts_should_block_recursive_full_artifact_embedding": true,
+        "future_artifacts_should_use_reference_only_selected_basis": true,
+        "future_artifacts_should_use_summary_plus_reference_emission": true,
+        "future_emission_family": "portable_source_body_verification_command_boundary_live_artifact",
+        "future_emission_family_declared": true,
+        "future_emission_family_is_not_authorized_to_emit_until_separately_reviewed": true
+      },
+      "block_code": null,
+      "check_name": "future emission family declared",
+      "expected_posture": "future emission family must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "containment_basis_declared": true,
+        "containment_basis_does_not_authorize_next_work": true,
+        "containment_basis_does_not_create_cleanup": true,
+        "containment_basis_does_not_create_command_or_manifest_implementation": true,
+        "containment_basis_does_not_create_migration": true,
+        "no_artifact_invalidation_by_size_posture": true,
+        "no_prior_artifact_mutation_posture": true,
+        "prior_artifact_preservation_posture": true,
+        "prohibited_recursive_embedding_posture": true,
+        "reference_only_selected_basis_posture": true,
+        "summary_plus_reference_posture": true
+      },
+      "block_code": null,
+      "check_name": "containment basis declared",
+      "expected_posture": "containment basis must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "allowed_reference_fields": [
+          "selected_result_id",
+          "selected_result_path",
+          "selected_result_outcome",
+          "selected_result_failed_check_count",
+          "selected_result_passed_check_count",
+          "selected_result_summary",
+          "selected_result_non_claims",
+          "selected_result_basis_reference",
+          "selected_result_artifact_family",
+          "selected_result_artifact_size_class"
+        ],
+        "future_selected_results_represented_by_reference_records": true,
+        "paths_do_not_create_currentness": true,
+        "reference_only_selected_basis_posture_declared": true,
+        "reference_records_do_not_become_source": true,
+        "reference_records_do_not_create_currentness": true,
+        "size_class_is_descriptive_only_and_not_validity": true
+      },
+      "block_code": null,
+      "check_name": "reference-only selected-basis posture declared",
+      "expected_posture": "reference-only selected-basis posture must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "selected_non_claim_excerpts_preserve_anti_collapse_posture": true,
+        "summaries_are_bounded_excerpts": true,
+        "summary_digest_is_not_cryptographic_digest_unless_separately_specified": true,
+        "summary_does_not_become_source": true,
+        "summary_does_not_create_authority": true,
+        "summary_does_not_create_currentness": true,
+        "summary_plus_reference_posture_declared": true
+      },
+      "block_code": null,
+      "check_name": "summary-plus-reference posture declared",
+      "expected_posture": "summary-plus-reference posture must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "full_artifact_bodies_should_not_be_nested_inside_future_artifacts": true,
+        "prior_artifacts_preserved_by_reference": true,
+        "prohibited_embedding_does_not_mutate_prior_artifacts": true,
+        "raw_full_artifact_body_embedding_prohibited_unless_separately_permitted": true,
+        "recursive_embedding_block_declared": true,
+        "recursive_full_artifact_embedding_blocked": true
+      },
+      "block_code": null,
+      "check_name": "recursive full-artifact embedding blocked",
+      "expected_posture": "recursive full-artifact embedding block must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "old_artifacts_not_replaced": true,
+        "prior_artifact_preservation_posture_declared": true,
+        "prior_artifacts_not_compacted": true,
+        "prior_artifacts_not_deleted": true,
+        "prior_artifacts_not_invalidated_by_size": true,
+        "prior_artifacts_not_migrated": true,
+        "prior_artifacts_not_mutated": true,
+        "prior_artifacts_not_normalized": true,
+        "prior_artifacts_not_repaired": true,
+        "prior_artifacts_not_rewritten": true,
+        "prior_artifacts_preserved_by_reference": true
+      },
+      "block_code": null,
+      "check_name": "prior artifacts preserved by reference",
+      "expected_posture": "prior artifact preservation posture must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "no_prior_artifact_mutation_posture_declared": true,
+        "prior_artifacts_compacted": false,
+        "prior_artifacts_deleted": false,
+        "prior_artifacts_mutated": false,
+        "prior_artifacts_rewritten": false
+      },
+      "block_code": null,
+      "check_name": "prior artifacts not mutated",
+      "expected_posture": "no-prior-artifact-mutation posture must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior artifacts not deleted",
+      "expected_posture": "containment must not delete prior artifacts",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior artifacts not compacted",
+      "expected_posture": "containment must not compact prior artifacts",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "artifact_size_class_is_descriptive_only": true,
+        "no_artifact_invalidation_by_size_posture_declared": true,
+        "prior_artifacts_invalidated_by_size": false
+      },
+      "block_code": null,
+      "check_name": "prior artifacts not invalidated by size",
+      "expected_posture": "no-artifact-invalidation-by-size posture must be declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "ARTIFACT_EMISSION_CONTAINMENT_ONLY",
+        "REFERENCE_ONLY_SELECTED_BASIS_REQUIRED",
+        "SUMMARY_PLUS_REFERENCE_EMISSION_REQUIRED",
+        "RECURSIVE_FULL_ARTIFACT_EMBEDDING_BLOCKED",
+        "PRIOR_ARTIFACTS_PRESERVED_BY_REFERENCE",
+        "PRIOR_ARTIFACTS_NOT_MUTATED",
+        "PRIOR_ARTIFACTS_NOT_DELETED",
+        "PRIOR_ARTIFACTS_NOT_COMPACTED",
+        "PRIOR_ARTIFACTS_NOT_INVALIDATED_BY_SIZE",
+        "CONTAINMENT_IS_NOT_CLEANUP",
+        "CONTAINMENT_IS_NOT_MIGRATION",
+        "CONTAINMENT_IS_NOT_COMMAND",
+        "CONTAINMENT_IS_NOT_MANIFEST_IMPLEMENTATION",
+        "CONTAINMENT_DOES_NOT_CREATE_CURRENTNESS",
+        "CONTAINMENT_DOES_NOT_AUTHORIZE_NEXT_WORK"
+      ],
+      "block_code": null,
+      "check_name": "containment scope supported",
+      "expected_posture": "containment scope values must be declared and supported",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "containment is not cleanup",
+      "expected_posture": "containment must not authorize cleanup",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "containment is not migration",
+      "expected_posture": "containment must not authorize migration",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "command_authorized_to_run": false,
+        "command_implemented": false
+      },
+      "block_code": null,
+      "check_name": "containment is not command",
+      "expected_posture": "containment must not be command implementation or execution",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "checksum_implemented": false,
+        "manifest_implemented": false,
+        "packet_implemented": false,
+        "signature_implemented": false
+      },
+      "block_code": null,
+      "check_name": "containment is not manifest/checksum/signature/packet implementation",
+      "expected_posture": "containment must not implement manifest/checksum/signature/packet",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "containment does not create currentness",
+      "expected_posture": "containment must not create currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "containment does not authorize next work",
+      "expected_posture": "containment must not authorize next work",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "reference record not source",
+      "expected_posture": "reference record must not become source",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "summary not source",
+      "expected_posture": "summary must not become source",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "path not currentness",
+      "expected_posture": "path must not create currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": null,
+      "check_name": "artifact existence not currentness",
+      "expected_posture": "artifact existence must not create currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "command_authorized_to_run": false,
+        "command_executed": false,
+        "command_implemented": false
+      },
+      "block_code": null,
+      "check_name": "no command implementation/execution/authorization",
+      "expected_posture": "containment must not implement, execute, or authorize command",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "checksum_implemented": false,
+        "manifest_implemented": false,
+        "packet_implemented": false,
+        "signature_implemented": false
+      },
+      "block_code": null,
+      "check_name": "no manifest/checksum/signature/packet implementation",
+      "expected_posture": "containment must not implement manifest/checksum/signature/packet",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "deployment_created": false,
+        "public_release_created": false,
+        "runtime_hosting_created": false
+      },
+      "block_code": null,
+      "check_name": "no deployment/runtime/public release",
+      "expected_posture": "containment must not create deployment/runtime/public release",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "reception_authorized": false,
+        "source_migrated": false,
+        "source_receipt_recorded": false,
+        "source_received": false,
+        "source_transferred": false
+      },
+      "block_code": null,
+      "check_name": "no source transfer/migration/receipt/reception authorization",
+      "expected_posture": "containment must not transfer, migrate, receive, receipt, or authorize reception",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": false,
+        "final_completion_claimed": false,
+        "follow_on_work_authorized": false,
+        "reusable_permission_created": false
+      },
+      "block_code": null,
+      "check_name": "no final completion/continuation/reusable permission/follow-on work",
+      "expected_posture": "containment must not complete, continue, create reusable permission, or authorize follow-on work",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "no mutation/replay/merge",
+      "expected_posture": "containment review must not mutate, replay, or merge",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "all required non-claims false",
+      "block_code": null,
+      "check_name": "non-claims remain false",
+      "expected_posture": "required non-claims must be explicit and false",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "containment_non_meaning": {
+    "containment_does_not_mean_artifact_existence_created_currentness": true,
+    "containment_does_not_mean_checksum_exists": true,
+    "containment_does_not_mean_command_exists": true,
+    "containment_does_not_mean_deployment_authorized": true,
+    "containment_does_not_mean_existing_artifacts_compacted": true,
+    "containment_does_not_mean_existing_artifacts_deleted": true,
+    "containment_does_not_mean_existing_artifacts_invalid": true,
+    "containment_does_not_mean_existing_artifacts_migrated": true,
+    "containment_does_not_mean_existing_artifacts_normalized": true,
+    "containment_does_not_mean_existing_artifacts_repaired": true,
+    "containment_does_not_mean_existing_artifacts_rewritten": true,
+    "containment_does_not_mean_final_completion_claimed": true,
+    "containment_does_not_mean_follow_on_work_authorized": true,
+    "containment_does_not_mean_manifest_exists": true,
+    "containment_does_not_mean_old_artifacts_replaced": true,
+    "containment_does_not_mean_packet_exists": true,
+    "containment_does_not_mean_path_created_currentness": true,
+    "containment_does_not_mean_public_release_authorized": true,
+    "containment_does_not_mean_reference_record_became_source": true,
+    "containment_does_not_mean_runtime_hosting_authorized": true,
+    "containment_does_not_mean_signature_exists": true,
+    "containment_does_not_mean_smaller_artifacts_create_currentness": true,
+    "containment_does_not_mean_summary_became_source": true
+  },
+  "containment_scope": {
+    "all_selected_scope_values_supported": true,
+    "artifact_emission_containment_only": true,
+    "containment_does_not_authorize_next_work": true,
+    "containment_does_not_create_currentness": true,
+    "containment_is_not_cleanup": true,
+    "containment_is_not_command": true,
+    "containment_is_not_manifest_implementation": true,
+    "containment_is_not_migration": true,
+    "prior_artifacts_not_compacted": true,
+    "prior_artifacts_not_deleted": true,
+    "prior_artifacts_not_invalidated_by_size": true,
+    "prior_artifacts_not_mutated": true,
+    "prior_artifacts_preserved_by_reference": true,
+    "recursive_full_artifact_embedding_blocked": true,
+    "reference_only_selected_basis_required": true,
+    "selected_containment_scope_values": [
+      "ARTIFACT_EMISSION_CONTAINMENT_ONLY",
+      "REFERENCE_ONLY_SELECTED_BASIS_REQUIRED",
+      "SUMMARY_PLUS_REFERENCE_EMISSION_REQUIRED",
+      "RECURSIVE_FULL_ARTIFACT_EMBEDDING_BLOCKED",
+      "PRIOR_ARTIFACTS_PRESERVED_BY_REFERENCE",
+      "PRIOR_ARTIFACTS_NOT_MUTATED",
+      "PRIOR_ARTIFACTS_NOT_DELETED",
+      "PRIOR_ARTIFACTS_NOT_COMPACTED",
+      "PRIOR_ARTIFACTS_NOT_INVALIDATED_BY_SIZE",
+      "CONTAINMENT_IS_NOT_CLEANUP",
+      "CONTAINMENT_IS_NOT_MIGRATION",
+      "CONTAINMENT_IS_NOT_COMMAND",
+      "CONTAINMENT_IS_NOT_MANIFEST_IMPLEMENTATION",
+      "CONTAINMENT_DOES_NOT_CREATE_CURRENTNESS",
+      "CONTAINMENT_DOES_NOT_AUTHORIZE_NEXT_WORK"
+    ],
+    "summary_plus_reference_emission_required": true,
+    "unsupported_scope_values": []
+  },
+  "containment_statement": {
+    "another_reception_request_authorized": false,
+    "artifact_cleanup_authorized": false,
+    "artifact_compaction_authorized": false,
+    "artifact_deletion_authorized": false,
+    "artifact_emission_containment_only": true,
+    "artifact_emission_containment_recorded": true,
+    "artifact_existence_created_currentness": false,
+    "artifact_migration_authorized": false,
+    "artifact_normalization_authorized": false,
+    "artifact_repair_authorized": false,
+    "artifact_rewrite_authorized": false,
+    "artifact_size_pressure_is_not_law_failure_by_itself": true,
+    "authority_created": false,
+    "carrier_shape_pressure_recorded": true,
+    "checksum_exists": false,
+    "checksum_implemented": false,
+    "command_authorized_to_run": false,
+    "command_executed": false,
+    "command_exists": false,
+    "command_implemented": false,
+    "containment_created_currentness": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "final_completion_claimed": false,
+    "follow_on_work_authorized": false,
+    "future_artifacts_should_not_embed_full_prior_artifacts": true,
+    "future_artifacts_should_use_reference_records": true,
+    "heavy_artifacts_remain_visible_evidence": true,
+    "manifest_exists": false,
+    "manifest_implemented": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "next_work_authorized": false,
+    "old_artifacts_replaced": false,
+    "operation_permission_created": false,
+    "packet_exists": false,
+    "packet_implemented": false,
+    "path_created_currentness": false,
+    "prior_artifacts_compacted": false,
+    "prior_artifacts_deleted": false,
+    "prior_artifacts_invalidated_by_size": false,
+    "prior_artifacts_mutated": false,
+    "prior_artifacts_preserved_by_reference": true,
+    "prior_artifacts_rewritten": false,
+    "public_launch_readiness_created": false,
+    "public_readiness_created": false,
+    "public_release_created": false,
+    "publication_flow_opened": false,
+    "reception_authorized": false,
+    "recursive_full_artifact_embedding_blocked": true,
+    "reference_only_selected_basis_required": true,
+    "reference_record_became_source": false,
+    "replay_performed": false,
+    "reusable_permission_created": false,
+    "runtime_hosting_created": false,
+    "signature_exists": false,
+    "signature_implemented": false,
+    "source_migrated": false,
+    "source_receipt_created": false,
+    "source_receipt_recorded": false,
+    "source_received": false,
+    "source_transferred": false,
+    "summary_became_source": false,
+    "summary_plus_reference_emission_required": true,
+    "vessel_relation_authorized": false
+  },
+  "declared_containment_question": {
+    "containment_does_not_authorize_next_work": true,
+    "containment_intent": "RECORD_ARTIFACT_EMISSION_CONTAINMENT",
+    "containment_is_not_artifact_compaction": true,
+    "containment_is_not_artifact_deletion": true,
+    "containment_is_not_artifact_invalidation": true,
+    "containment_is_not_artifact_rewriting": true,
+    "containment_is_not_cleanup": true,
+    "containment_is_not_command_execution": true,
+    "containment_is_not_command_implementation": true,
+    "containment_is_not_manifest_checksum_signature_packet_implementation": true,
+    "containment_question": "Can future artifacts be required to preserve selected prior results by reference-shaped summaries rather than recursively embedding full upstream artifacts, without mutating prior artifacts or authorizing command, manifest, deployment, runtime, public release, transfer, migration, source receipt, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+    "containment_request_id": "artifact_emission_containment_reference_review_001",
+    "declared_containment_request_path": null
+  },
+  "future_emission_family": {
+    "command_boundary_live_artifact_family_where_supplied": null,
+    "future_artifacts_should_block_recursive_full_artifact_embedding": true,
+    "future_artifacts_should_use_reference_only_selected_basis": true,
+    "future_artifacts_should_use_summary_plus_reference_emission": true,
+    "future_emission_family": {
+      "command_boundary_live_artifact_family": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_command_boundary/",
+      "future_artifacts_should_block_recursive_full_artifact_embedding": true,
+      "future_artifacts_should_use_reference_only_selected_basis": true,
+      "future_artifacts_should_use_summary_plus_reference_emission": true,
+      "future_emission_family": "portable_source_body_verification_command_boundary_live_artifact",
+      "future_emission_family_declared": true,
+      "future_emission_family_is_not_authorized_to_emit_until_separately_reviewed": true
+    },
+    "future_emission_family_is_not_authorized_to_emit_until_separately_reviewed": true
+  },
+  "non_claims": {
+    "another_reception_request_authorized": false,
+    "artifact_cleanup_authorized": false,
+    "artifact_compaction_authorized": false,
+    "artifact_deletion_authorized": false,
+    "artifact_emission_containment_recorded": true,
+    "artifact_existence_created_currentness": false,
+    "artifact_migration_authorized": false,
+    "artifact_normalization_authorized": false,
+    "artifact_repair_authorized": false,
+    "artifact_rewrite_authorized": false,
+    "authority_created": false,
+    "checksum_exists": false,
+    "checksum_implemented": false,
+    "command_authorized_to_run": false,
+    "command_executed": false,
+    "command_exists": false,
+    "command_implemented": false,
+    "containment_created_currentness": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "final_completion_claimed": false,
+    "follow_on_work_authorized": false,
+    "manifest_exists": false,
+    "manifest_implemented": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "next_work_authorized": false,
+    "old_artifacts_replaced": false,
+    "operation_permission_created": false,
+    "packet_exists": false,
+    "packet_implemented": false,
+    "path_created_currentness": false,
+    "prior_artifacts_compacted": false,
+    "prior_artifacts_deleted": false,
+    "prior_artifacts_invalidated_by_size": false,
+    "prior_artifacts_mutated": false,
+    "prior_artifacts_preserved_by_reference": true,
+    "prior_artifacts_rewritten": false,
+    "public_launch_readiness_created": false,
+    "public_readiness_created": false,
+    "public_release_created": false,
+    "publication_flow_opened": false,
+    "reception_authorized": false,
+    "recursive_full_artifact_embedding_blocked": true,
+    "reference_only_selected_basis_required": true,
+    "reference_record_became_source": false,
+    "replay_performed": false,
+    "reusable_permission_created": false,
+    "runtime_hosting_created": false,
+    "signature_exists": false,
+    "signature_implemented": false,
+    "source_migrated": false,
+    "source_receipt_created": false,
+    "source_receipt_recorded": false,
+    "source_received": false,
+    "source_transferred": false,
+    "summary_became_source": false,
+    "summary_plus_reference_emission_required": true,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": {
+    "failed_checks": [],
+    "failed_containment_reasons": [],
+    "not_recorded": false,
+    "not_recorded_authorizes_cleanup": false,
+    "not_recorded_authorizes_follow_on_work": false,
+    "not_recorded_basis": {},
+    "not_recorded_compacts_prior_artifacts": false,
+    "not_recorded_deletes_prior_artifacts": false,
+    "not_recorded_executes_command": false,
+    "not_recorded_implements_command": false,
+    "not_recorded_migrates_prior_artifacts": false,
+    "not_recorded_mutates_prior_artifacts": false,
+    "not_recorded_repairs_prior_artifacts": false,
+    "not_recorded_rewrites_prior_artifacts": false
+  },
+  "outcome": "ARTIFACT_EMISSION_CONTAINMENT_RECORDED",
+  "prior_artifact_preservation_posture": {
+    "no_artifact_invalidation_by_size_posture": {
+      "artifact_size_class_is_descriptive_only": true,
+      "no_artifact_invalidation_by_size_posture_declared": true,
+      "prior_artifacts_invalidated_by_size": false
+    },
+    "no_prior_artifact_mutation_posture": {
+      "no_prior_artifact_mutation_posture_declared": true,
+      "prior_artifacts_compacted": false,
+      "prior_artifacts_deleted": false,
+      "prior_artifacts_mutated": false,
+      "prior_artifacts_rewritten": false
+    },
+    "old_artifacts_not_replaced": true,
+    "prior_artifact_preservation_posture": {
+      "old_artifacts_not_replaced": true,
+      "prior_artifact_preservation_posture_declared": true,
+      "prior_artifacts_not_compacted": true,
+      "prior_artifacts_not_deleted": true,
+      "prior_artifacts_not_invalidated_by_size": true,
+      "prior_artifacts_not_migrated": true,
+      "prior_artifacts_not_mutated": true,
+      "prior_artifacts_not_normalized": true,
+      "prior_artifacts_not_repaired": true,
+      "prior_artifacts_not_rewritten": true,
+      "prior_artifacts_preserved_by_reference": true
+    },
+    "prior_artifacts_not_compacted": true,
+    "prior_artifacts_not_deleted": true,
+    "prior_artifacts_not_invalidated_by_size": true,
+    "prior_artifacts_not_migrated": true,
+    "prior_artifacts_not_mutated": true,
+    "prior_artifacts_not_normalized": true,
+    "prior_artifacts_not_repaired": true,
+    "prior_artifacts_not_rewritten": true,
+    "prior_artifacts_preserved_by_reference": true
+  },
+  "recursive_embedding_block": {
+    "full_artifact_bodies_should_not_be_nested_inside_future_artifacts": true,
+    "prior_artifacts_preserved_by_reference": true,
+    "prohibited_embedding_does_not_mutate_prior_artifacts": true,
+    "raw_full_artifact_body_embedding_prohibited_unless_separately_permitted": true,
+    "recursive_embedding_block": {
+      "full_artifact_bodies_should_not_be_nested_inside_future_artifacts": true,
+      "prior_artifacts_preserved_by_reference": true,
+      "prohibited_embedding_does_not_mutate_prior_artifacts": true,
+      "raw_full_artifact_body_embedding_prohibited_unless_separately_permitted": true,
+      "recursive_embedding_block_declared": true,
+      "recursive_full_artifact_embedding_blocked": true
+    },
+    "recursive_full_artifact_embedding_blocked": true
+  },
+  "reference_only_selected_basis_posture": {
+    "allowed_reference_fields": [
+      "selected_result_id",
+      "selected_result_path",
+      "selected_result_outcome",
+      "selected_result_failed_check_count",
+      "selected_result_passed_check_count",
+      "selected_result_summary",
+      "selected_result_non_claims",
+      "selected_result_basis_reference",
+      "selected_result_artifact_family",
+      "selected_result_artifact_size_class"
+    ],
+    "future_selected_results_represented_by_reference_records": true,
+    "paths_do_not_create_currentness": true,
+    "reference_only_selected_basis_posture": {
+      "allowed_reference_fields": [
+        "selected_result_id",
+        "selected_result_path",
+        "selected_result_outcome",
+        "selected_result_failed_check_count",
+        "selected_result_passed_check_count",
+        "selected_result_summary",
+        "selected_result_non_claims",
+        "selected_result_basis_reference",
+        "selected_result_artifact_family",
+        "selected_result_artifact_size_class"
+      ],
+      "future_selected_results_represented_by_reference_records": true,
+      "paths_do_not_create_currentness": true,
+      "reference_only_selected_basis_posture_declared": true,
+      "reference_records_do_not_become_source": true,
+      "reference_records_do_not_create_currentness": true,
+      "size_class_is_descriptive_only_and_not_validity": true
+    },
+    "reference_records_do_not_become_source": true,
+    "reference_records_do_not_create_currentness": true,
+    "selected_prior_result_reference_shape": {
+      "allowed_reference_fields": [
+        "selected_result_id",
+        "selected_result_path",
+        "selected_result_outcome",
+        "selected_result_failed_check_count",
+        "selected_result_passed_check_count",
+        "selected_result_summary",
+        "selected_result_non_claims",
+        "selected_result_basis_reference",
+        "selected_result_artifact_family",
+        "selected_result_artifact_size_class"
+      ],
+      "future_selected_results_represented_by_reference_records": true,
+      "paths_do_not_create_currentness": true,
+      "reference_only_selected_basis_posture_declared": true,
+      "reference_records_do_not_become_source": true,
+      "reference_records_do_not_create_currentness": true,
+      "size_class_is_descriptive_only_and_not_validity": true
+    },
+    "size_class_is_descriptive_only_and_not_validity": true
+  },
+  "selected_artifact_emission_pressure_basis": {
+    "artifact_size_pressure_is_not_automatic_law_failure": true,
+    "carrier_shape_pressure_is_not_currentness_or_authority": true,
+    "containment_should_occur_before_further_recursive_live_artifact_emission": true,
+    "heavy_artifact_evidence_does_not_become_source": true,
+    "heavy_artifacts_remain_standing_evidence_if_checks_passed": true,
+    "selected_artifact_emission_pressure_basis": {
+      "artifact_emission_pressure_basis_declared": true,
+      "artifact_size_pressure_is_not_automatic_law_failure": true,
+      "carrier_shape_pressure_is_not_currentness_or_authority": true,
+      "containment_should_occur_before_further_recursive_live_artifact_emission": true,
+      "heavy_artifact_evidence_does_not_become_source": true,
+      "heavy_artifacts_remain_standing_evidence_if_checks_passed": true,
+      "selected_artifact_size_pressure_basis": {
+        "artifact_size_pressure_basis_declared": true,
+        "artifact_size_pressure_is_not_automatic_law_failure": true,
+        "recursive_embedding_pressure_observed": true
+      },
+      "selected_carrier_shape_pressure_basis": {
+        "carrier_shape_pressure_basis_declared": true,
+        "carrier_shape_pressure_is_not_currentness_or_authority": true,
+        "containment_should_occur_before_further_recursive_live_artifact_emission": true
+      },
+      "selected_heavy_artifact_evidence": {
+        "full_artifact_bodies_embedded": false,
+        "heavy_artifact_evidence_declared": true,
+        "heavy_artifacts_remain_standing_evidence_if_checks_passed": true
+      },
+      "selected_large_artifact_evidence": [
+        {
+          "selected_result_artifact_family": "portable_source_body_verification",
+          "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+          "selected_result_basis_reference": "portable_source_body_verification",
+          "selected_result_failed_check_count": 0,
+          "selected_result_id": "portable_source_body_verification_reference_review_001",
+          "selected_result_non_claims": {
+            "artifact_existence_created_currentness": false,
+            "path_created_currentness": false,
+            "prior_artifacts_invalidated_by_size": false,
+            "reference_record_became_source": false
+          },
+          "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_RECORDED",
+          "selected_result_passed_check_count": null,
+          "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_boundary/portable_source_body_verification_reference_review_001__portable_source_body_verification_result.json",
+          "selected_result_summary": {
+            "artifact_size_class": "HEAVY_OVER_100_MB",
+            "full_artifact_body_embedded": false,
+            "reference_only": true,
+            "summary_only": true
+          }
+        },
+        {
+          "selected_result_artifact_family": "portable_source_body_verification_evidence_manifest",
+          "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+          "selected_result_basis_reference": "portable_source_body_verification_evidence_manifest",
+          "selected_result_failed_check_count": 0,
+          "selected_result_id": "portable_source_body_verification_evidence_manifest_reference_review_001",
+          "selected_result_non_claims": {
+            "artifact_existence_created_currentness": false,
+            "path_created_currentness": false,
+            "prior_artifacts_invalidated_by_size": false,
+            "reference_record_became_source": false
+          },
+          "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_EVIDENCE_MANIFEST_RECORDED",
+          "selected_result_passed_check_count": null,
+          "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_evidence_manifest_boundary/portable_source_body_verification_evidence_manifest_reference_review_001__portable_source_body_verification_evidence_manifest_result.json",
+          "selected_result_summary": {
+            "artifact_size_class": "HEAVY_OVER_100_MB",
+            "full_artifact_body_embedded": false,
+            "reference_only": true,
+            "summary_only": true
+          }
+        },
+        {
+          "selected_result_artifact_family": "source_body_reception_closure",
+          "selected_result_artifact_size_class": "LARGE_OVER_20_MB",
+          "selected_result_basis_reference": "source_body_reception_closure",
+          "selected_result_failed_check_count": 0,
+          "selected_result_id": "source_body_reception_closure_reference_review_001_corrected",
+          "selected_result_non_claims": {
+            "artifact_existence_created_currentness": false,
+            "path_created_currentness": false,
+            "prior_artifacts_invalidated_by_size": false,
+            "reference_record_became_source": false
+          },
+          "selected_result_outcome": "SOURCE_BODY_RECEPTION_CLOSURE_RECORDED",
+          "selected_result_passed_check_count": null,
+          "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_source_body_reception_closure_boundary/source_body_reception_closure_reference_review_001_corrected__source_body_reception_closure_result.json",
+          "selected_result_summary": {
+            "artifact_size_class": "LARGE_OVER_20_MB",
+            "full_artifact_body_embedded": false,
+            "reference_only": true,
+            "summary_only": true
+          }
+        }
+      ]
+    },
+    "selected_artifact_size_pressure_basis": {
+      "artifact_size_pressure_basis_declared": true,
+      "artifact_size_pressure_is_not_automatic_law_failure": true,
+      "recursive_embedding_pressure_observed": true
+    },
+    "selected_carrier_shape_pressure_basis": {
+      "carrier_shape_pressure_basis_declared": true,
+      "carrier_shape_pressure_is_not_currentness_or_authority": true,
+      "containment_should_occur_before_further_recursive_live_artifact_emission": true
+    },
+    "selected_heavy_artifact_evidence": {
+      "full_artifact_bodies_embedded": false,
+      "heavy_artifact_evidence_declared": true,
+      "heavy_artifacts_remain_standing_evidence_if_checks_passed": true
+    },
+    "selected_large_artifact_evidence": [
+      {
+        "selected_result_artifact_family": "portable_source_body_verification",
+        "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+        "selected_result_basis_reference": "portable_source_body_verification",
+        "selected_result_failed_check_count": 0,
+        "selected_result_id": "portable_source_body_verification_reference_review_001",
+        "selected_result_non_claims": {
+          "artifact_existence_created_currentness": false,
+          "path_created_currentness": false,
+          "prior_artifacts_invalidated_by_size": false,
+          "reference_record_became_source": false
+        },
+        "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_RECORDED",
+        "selected_result_passed_check_count": null,
+        "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_boundary/portable_source_body_verification_reference_review_001__portable_source_body_verification_result.json",
+        "selected_result_summary": {
+          "artifact_size_class": "HEAVY_OVER_100_MB",
+          "full_artifact_body_embedded": false,
+          "reference_only": true,
+          "summary_only": true
+        }
+      },
+      {
+        "selected_result_artifact_family": "portable_source_body_verification_evidence_manifest",
+        "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+        "selected_result_basis_reference": "portable_source_body_verification_evidence_manifest",
+        "selected_result_failed_check_count": 0,
+        "selected_result_id": "portable_source_body_verification_evidence_manifest_reference_review_001",
+        "selected_result_non_claims": {
+          "artifact_existence_created_currentness": false,
+          "path_created_currentness": false,
+          "prior_artifacts_invalidated_by_size": false,
+          "reference_record_became_source": false
+        },
+        "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_EVIDENCE_MANIFEST_RECORDED",
+        "selected_result_passed_check_count": null,
+        "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_evidence_manifest_boundary/portable_source_body_verification_evidence_manifest_reference_review_001__portable_source_body_verification_evidence_manifest_result.json",
+        "selected_result_summary": {
+          "artifact_size_class": "HEAVY_OVER_100_MB",
+          "full_artifact_body_embedded": false,
+          "reference_only": true,
+          "summary_only": true
+        }
+      },
+      {
+        "selected_result_artifact_family": "source_body_reception_closure",
+        "selected_result_artifact_size_class": "LARGE_OVER_20_MB",
+        "selected_result_basis_reference": "source_body_reception_closure",
+        "selected_result_failed_check_count": 0,
+        "selected_result_id": "source_body_reception_closure_reference_review_001_corrected",
+        "selected_result_non_claims": {
+          "artifact_existence_created_currentness": false,
+          "path_created_currentness": false,
+          "prior_artifacts_invalidated_by_size": false,
+          "reference_record_became_source": false
+        },
+        "selected_result_outcome": "SOURCE_BODY_RECEPTION_CLOSURE_RECORDED",
+        "selected_result_passed_check_count": null,
+        "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_source_body_reception_closure_boundary/source_body_reception_closure_reference_review_001_corrected__source_body_reception_closure_result.json",
+        "selected_result_summary": {
+          "artifact_size_class": "LARGE_OVER_20_MB",
+          "full_artifact_body_embedded": false,
+          "reference_only": true,
+          "summary_only": true
+        }
+      }
+    ]
+  },
+  "summary_plus_reference_posture": {
+    "selected_non_claim_excerpt_basis": {
+      "non_claim_excerpts_are_bounded": true,
+      "non_claim_excerpts_do_not_replace_full_artifacts": true,
+      "selected_non_claim_excerpt_basis_declared": true
+    },
+    "selected_non_claim_excerpts_preserve_anti_collapse_posture": true,
+    "summaries_are_bounded_excerpts": true,
+    "summary_digest_basis": {
+      "selected_non_claim_excerpts_preserve_anti_collapse_posture": true,
+      "summaries_are_bounded_excerpts": true,
+      "summary_digest_is_not_cryptographic_digest_unless_separately_specified": true,
+      "summary_does_not_become_source": true,
+      "summary_does_not_create_authority": true,
+      "summary_does_not_create_currentness": true,
+      "summary_plus_reference_posture_declared": true
+    },
+    "summary_digest_is_not_cryptographic_digest_unless_separately_specified": true,
+    "summary_does_not_become_source": true,
+    "summary_does_not_create_authority": true,
+    "summary_does_not_create_currentness": true,
+    "summary_plus_reference_posture": {
+      "selected_non_claim_excerpts_preserve_anti_collapse_posture": true,
+      "summaries_are_bounded_excerpts": true,
+      "summary_digest_is_not_cryptographic_digest_unless_separately_specified": true,
+      "summary_does_not_become_source": true,
+      "summary_does_not_create_authority": true,
+      "summary_does_not_create_currentness": true,
+      "summary_plus_reference_posture_declared": true
+    }
+  },
+  "what_remains_open": {
+    "open_items": [
+      "artifact emission containment test",
+      "artifact emission containment live artifact",
+      "command-boundary live artifact rerun using contained reference shape",
+      "portable verification command implementation",
+      "manifest implementation",
+      "checksum implementation",
+      "signature implementation",
+      "source-body packet implementation",
+      "reproducible environment declaration",
+      "runtime hosting",
+      "deployment",
+      "public release",
+      "derivative reception",
+      "vessel relation",
+      "adoption",
+      "authority creation",
+      "currentness creation",
+      "operation permission",
+      "receiving-context governance",
+      "public readiness",
+      "final completion",
+      "continuation",
+      "publication flow",
+      "reusable permission",
+      "successor reception request",
+      "follow-on work"
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  }
+}

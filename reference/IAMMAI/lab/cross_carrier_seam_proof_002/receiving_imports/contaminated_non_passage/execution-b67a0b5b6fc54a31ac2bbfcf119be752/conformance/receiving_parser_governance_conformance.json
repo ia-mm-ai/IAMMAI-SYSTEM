@@ -1,0 +1,30 @@
+{
+  "surface": "receiving_parser_governance_contaminated",
+  "conformance_kind": "parser_governance_admissibility",
+  "status": "fail",
+  "checked_at": "2026-04-03T19:00:39Z",
+  "artifact_family": "witness_artifact",
+  "validation_mode": "local_receiving_parser_reader",
+  "errors": [
+    {
+      "message": "Receiving parser/governance remains contaminated."
+    },
+    {
+      "message": "Receiving parser/governance cannot lawfully preserve derivative-only arrival."
+    },
+    {
+      "message": "Receiving parser/governance cannot lawfully preserve source-side legibility."
+    },
+    {
+      "message": "Receiving parser/governance collapses technical receipt toward standing."
+    },
+    {
+      "message": "Obsolete parsing remains active on the receiving side."
+    },
+    {
+      "message": "Source-blame shift pressure remains present on the receiving side."
+    }
+  ],
+  "parser_mode": "contaminated",
+  "parser_contaminated": true
+}

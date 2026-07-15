@@ -1,0 +1,34 @@
+{
+  "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+  "continuity_run_directory": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity",
+  "continuity_turn_identity": "continuity-turn-da182ec5bbb24dbb9860aeb4c60755c3",
+  "execution_identity": "execution-717a6994f03d4be08e17cd776b597576",
+  "implementation_posture": "implementation_local_layout_only",
+  "manifest_type": "v1_first_continuity_preservation_manifest",
+  "note": "This local continuity layout is a bounded implementation surface, not final protocol law.",
+  "preservation_identity": "preservation-321819342cfa42b7ad1a036330d92bcd",
+  "written_files": {
+    "anchor_source": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/anchor_source/anchor_source_note.json"
+    ],
+    "conformance": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/body/negative/predecessor_only_continuity_turn.json",
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/body/positive/continuity_turn.json",
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/conformance/preservation/run_write_outcome.json"
+    ],
+    "continuity_body": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/canonical_body/positive/continuity_turn.body.json"
+    ],
+    "execution_relation": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/execution_relation/positive/continuity_execution_relation.json"
+    ],
+    "negative_fixtures": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/fixtures/negative/body/predecessor_only_continuity_turn.body.json",
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/fixtures/negative/classification.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576/continuity/summary/run_summary.json"
+    ]
+  }
+}

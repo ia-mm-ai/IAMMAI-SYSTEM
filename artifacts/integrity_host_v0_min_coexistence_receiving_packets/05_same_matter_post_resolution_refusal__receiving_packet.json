@@ -1,0 +1,259 @@
+{
+  "import_identity": {
+    "import_source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal.json",
+    "imported_scenario_id": "same_matter_post_resolution_refusal",
+    "imported_scenario_name": "Same-Matter Post-Resolution Refusal",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0",
+    "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+    "source_module": "integrity_host_v0_min_coexistence_v2"
+  },
+  "import_summary": {
+    "accepted_action_count": 4,
+    "coexistence_relation_count": 0,
+    "hold_count": 0,
+    "host_id": "scenario-same-matter-post-resolution",
+    "object_count": 1,
+    "open_object_count": 0,
+    "record_count": 5,
+    "refusal_count": 1,
+    "refused_action_count": 1,
+    "scenario_id": "same_matter_post_resolution_refusal",
+    "scenario_name": "Same-Matter Post-Resolution Refusal",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0",
+    "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal.json"
+  },
+  "imported_packet": {
+    "coexistence_relations": [],
+    "holds": [],
+    "host_state": {
+      "host_id": "scenario-same-matter-post-resolution",
+      "open_object_ids": []
+    },
+    "objects": [
+      {
+        "created_by_record_id": "tr_02d1940e835b48469c8ef2a584c5dc07",
+        "matter_ref": "matter-a",
+        "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "phase_state": "STANDING",
+        "predecessor_object_id": null,
+        "resolution_type": "FINALIZE",
+        "resolved_by_record_id": "tr_89b0f715c66a48c0ae5ac79b6c2a1aa5"
+      }
+    ],
+    "scenario_metadata": {
+      "accepted_action_count": 4,
+      "action_results": [
+        {
+          "accepted": true,
+          "label": "create object A",
+          "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+          "record_id": "tr_02d1940e835b48469c8ef2a584c5dc07",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "present object A",
+          "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+          "record_id": "tr_8c024e8e980f424db03cb3db54522fcb",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "stand object A",
+          "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+          "record_id": "tr_22b54ddfd1404b158e9228c272bd7aa5",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": true,
+          "label": "finalize object A",
+          "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+          "record_id": "tr_89b0f715c66a48c0ae5ac79b6c2a1aa5",
+          "refusal_code": null,
+          "state_changed": true,
+          "successor_object_id": null
+        },
+        {
+          "accepted": false,
+          "label": "attempt fresh same-matter creation after FINALIZE",
+          "object_id": null,
+          "record_id": "tr_587eefa983d649898936c980fa53b2b9",
+          "refusal_code": "SAME_MATTER_POST_RESOLUTION_PATH_NOT_DEFINED",
+          "state_changed": false,
+          "successor_object_id": null
+        }
+      ],
+      "description": "Shows that fresh same-matter creation after FINALIZE is refused because this slice keeps EVOLVE as the only same-matter successor path.",
+      "generated_at": "2026-04-20T10:31:45.292705Z",
+      "refused_action_count": 1,
+      "scenario_id": "same_matter_post_resolution_refusal",
+      "scenario_name": "Same-Matter Post-Resolution Refusal",
+      "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal.json"
+    },
+    "snapshot_metadata": {
+      "generated_at": "2026-04-20T10:31:45.292754Z",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "transition_records": [
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292658Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-same-matter-post-resolution",
+        "matter_ref": "matter-a",
+        "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_02d1940e835b48469c8ef2a584c5dc07",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292668Z",
+        "action_type": "PRESENT",
+        "basis_ref": "present-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-same-matter-post-resolution",
+        "matter_ref": "matter-a",
+        "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_8c024e8e980f424db03cb3db54522fcb",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "CANDIDATE",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292676Z",
+        "action_type": "STAND",
+        "basis_ref": null,
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-same-matter-post-resolution",
+        "matter_ref": "matter-a",
+        "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_22b54ddfd1404b158e9228c272bd7aa5",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "PRESENT",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "STANDING",
+        "target_resolution_type": null,
+        "threshold_basis_ref": "threshold-a"
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292687Z",
+        "action_type": "FINALIZE",
+        "basis_ref": "finalize-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-same-matter-post-resolution",
+        "matter_ref": "matter-a",
+        "object_id": "obj_1e6d10a473cc4320af7ae8983b72ab06",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_89b0f715c66a48c0ae5ac79b6c2a1aa5",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "STANDING",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "STANDING",
+        "target_resolution_type": "FINALIZE",
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": false,
+        "acted_at": "2026-04-20T10:31:45.292697Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-a-fresh",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-same-matter-post-resolution",
+        "matter_ref": "matter-a",
+        "object_id": null,
+        "occurrence_ref": null,
+        "payload_ref": "payload-a-fresh",
+        "predecessor_object_id": null,
+        "record_id": "tr_587eefa983d649898936c980fa53b2b9",
+        "refusal_code": "SAME_MATTER_POST_RESOLUTION_PATH_NOT_DEFINED",
+        "related_open_object_ids": [
+          "obj_1e6d10a473cc4320af7ae8983b72ab06"
+        ],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": null,
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      }
+    ]
+  },
+  "packet_metadata": {
+    "builder_module": "build_integrity_host_v0_min_coexistence_receiving_packet",
+    "generated_at": "2026-04-20T16:47:07.401856Z",
+    "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "packet_version": "0.1.0"
+  },
+  "receiving_status": {
+    "continuity_completed": false,
+    "imported_packet_read_only_here": true,
+    "merged_into_local_state": false,
+    "preserved_structure_visible": true,
+    "receiving_packet_exists": true,
+    "replayed_into_live_host": false,
+    "source_remains_source": true,
+    "standing_upgraded": false
+  },
+  "source_provenance": {
+    "scenario_description": "Shows that fresh same-matter creation after FINALIZE is refused because this slice keeps EVOLVE as the only same-matter successor path.",
+    "scenario_id": "same_matter_post_resolution_refusal",
+    "scenario_name": "Same-Matter Post-Resolution Refusal",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z/05_same_matter_post_resolution_refusal.json",
+    "source_generated_at": "2026-04-20T10:31:45.292705Z",
+    "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+  }
+}

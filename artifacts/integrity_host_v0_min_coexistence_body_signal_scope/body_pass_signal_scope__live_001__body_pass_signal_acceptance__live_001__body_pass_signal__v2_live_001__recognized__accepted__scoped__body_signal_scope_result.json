@@ -1,0 +1,1110 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "body_signal_scope_basis": {
+    "accepted_matter_id": "current_signal_recognition_standing",
+    "accepted_signal_category": "BODY_PASS_SIGNAL",
+    "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+    "declared_scope_id": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+    "outcome": "SIGNAL_SCOPED",
+    "request_id": "body_pass_signal_scope__live_001",
+    "scope": "single_signal_acceptance_result_single_scope_request",
+    "scope_applies_outside_declared_scope": false,
+    "scope_authorizes_action": false,
+    "scope_authorizes_follow_on_work": false,
+    "scope_creates_authority": false,
+    "scope_creates_body_relevance_medium": false,
+    "scope_creates_currentness": false,
+    "scope_creates_permission": false,
+    "scope_creates_truth": false,
+    "scope_establishes_presence": false,
+    "scope_for_applicability_only": true,
+    "scope_meets_threshold": false,
+    "scope_routes_signal": false,
+    "scope_uses_signal": false,
+    "selected_signal_acceptance_result": {
+      "selection_mode": "explicit_signal_acceptance_result_path",
+      "signal_acceptance_outcome": "SIGNAL_ACCEPTED",
+      "signal_acceptance_resolver_module": "resolve_body_signal_acceptance",
+      "signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+      "signal_acceptance_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_acceptance/body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_acceptance_result.json",
+      "signal_acceptance_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_ACCEPTANCE_RESULT",
+      "signal_acceptance_result_version": "0.1.0"
+    }
+  },
+  "body_signal_scope_metadata": {
+    "body_signal_scope_result_id": "body_pass_signal_scope__live_001__body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_scope_signal_scoped",
+    "body_signal_scope_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_SCOPE_RESULT",
+    "body_signal_scope_result_version": "0.1.0",
+    "generated_at": "2026-04-26T11:08:09.220860Z",
+    "resolver_module": "resolve_body_signal_scope"
+  },
+  "body_signal_scope_summary": {
+    "acceptance_basis_passed": true,
+    "accepted_matter_family": "body_signal_acceptance_matter",
+    "accepted_matter_id": "current_signal_recognition_standing",
+    "accepted_matter_kind": "recognized_body_signal_posture",
+    "block_code": null,
+    "block_reason": null,
+    "correspondence_requirements_passed": true,
+    "declared_scope_family": "body_signal_scope",
+    "declared_scope_id": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+    "declared_scope_kind": "nonoperative_body_pass_signal_posture",
+    "failed_check_count": 0,
+    "hierarchy_constraints_passed": true,
+    "key_non_claims": {
+      "action_authorized": false,
+      "applied_outside_declared_scope": false,
+      "authority_created": false,
+      "body_relevance_medium_created": false,
+      "currentness_created": false,
+      "derivative_upgraded_to_source": false,
+      "event_bus_created": false,
+      "follow_on_work_authorized": false,
+      "matter_widened": false,
+      "permission_created": false,
+      "presence_established": false,
+      "receipt_turned_into_permission": false,
+      "roadmap_created": false,
+      "signal_router_created": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "workflow_created": false
+    },
+    "non_claims_passed": true,
+    "outcome": "SIGNAL_SCOPED",
+    "passed_check_count": 63,
+    "scope_boundary_passed": true,
+    "scope_limits_passed": true,
+    "scoped_signal_category": "BODY_PASS_SIGNAL",
+    "scoped_signal_id": "body_pass_signal_scope__live_001__body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__scoped",
+    "selected_signal_acceptance_outcome": "SIGNAL_ACCEPTED",
+    "selected_signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+    "selected_signal_acceptance_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_acceptance/body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_acceptance_result.json"
+  },
+  "declared_scope": {
+    "applies_to": [
+      "recognized_BODY_PASS_SIGNAL_posture",
+      "accepted_signal_standing_inside_current_signal_recognition_standing",
+      "nonoperative_signal_line_standing_evidence"
+    ],
+    "does_not_apply_to": [
+      "action",
+      "permission",
+      "currentness",
+      "governing_basis",
+      "signal_use",
+      "routing",
+      "workflow",
+      "body_relevance_medium",
+      "presence",
+      "threshold",
+      "truth",
+      "decision",
+      "consequence",
+      "general_continuation",
+      "unrelated_matters"
+    ],
+    "scope_boundary": "applicability_only_inside_current_signal_recognition_standing",
+    "scope_family": "body_signal_scope",
+    "scope_id": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+    "scope_kind": "nonoperative_body_pass_signal_posture",
+    "scope_matter_id": "current_signal_recognition_standing",
+    "scope_purpose": "Bind accepted BODY_PASS_SIGNAL only to non-operative body-pass signal posture inside current signal-recognition standing."
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "applied_outside_declared_scope": false,
+    "authority_created": false,
+    "body_relevance_medium_created": false,
+    "currentness_created": false,
+    "derivative_upgraded_to_source": false,
+    "event_bus_created": false,
+    "follow_on_work_authorized": false,
+    "matter_widened": false,
+    "permission_created": false,
+    "presence_established": false,
+    "receipt_turned_into_permission": false,
+    "roadmap_created": false,
+    "signal_router_created": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "workflow_created": false
+  },
+  "outcome": "SIGNAL_SCOPED",
+  "scoped_signal": {
+    "accepted_matter_family": "body_signal_acceptance_matter",
+    "accepted_matter_id": "current_signal_recognition_standing",
+    "accepted_matter_kind": "recognized_body_signal_posture",
+    "accepted_signal_category": "BODY_PASS_SIGNAL",
+    "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+    "applies_to": [
+      "recognized_BODY_PASS_SIGNAL_posture",
+      "accepted_signal_standing_inside_current_signal_recognition_standing",
+      "nonoperative_signal_line_standing_evidence"
+    ],
+    "declared_scope_boundary": "applicability_only_inside_current_signal_recognition_standing",
+    "declared_scope_family": "body_signal_scope",
+    "declared_scope_id": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+    "declared_scope_kind": "nonoperative_body_pass_signal_posture",
+    "declared_scope_purpose": "Bind accepted BODY_PASS_SIGNAL only to non-operative body-pass signal posture inside current signal-recognition standing.",
+    "does_not_apply_to": [
+      "action",
+      "permission",
+      "currentness",
+      "governing_basis",
+      "signal_use",
+      "routing",
+      "workflow",
+      "body_relevance_medium",
+      "presence",
+      "threshold",
+      "truth",
+      "decision",
+      "consequence",
+      "general_continuation",
+      "unrelated_matters"
+    ],
+    "no_action": true,
+    "no_application_outside_declared_scope": true,
+    "no_body_relevance_medium": true,
+    "no_routing": true,
+    "no_workflow": true,
+    "non_authoritative": true,
+    "non_currentness": true,
+    "non_permission": true,
+    "not_present_yet": true,
+    "not_threshold_yet": true,
+    "not_truth": true,
+    "recognized_source_artifact_family": "v0_body_pass_result",
+    "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "scoped_signal_category": "BODY_PASS_SIGNAL",
+    "scoped_signal_id": "body_pass_signal_scope__live_001__body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__scoped",
+    "selected_signal_acceptance_outcome": "SIGNAL_ACCEPTED",
+    "selected_signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+    "selected_signal_acceptance_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_acceptance/body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_acceptance_result.json"
+  },
+  "selected_accepted_signal": {
+    "accepted_signal_category": "BODY_PASS_SIGNAL",
+    "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+    "declared_matter_family": "body_signal_acceptance_matter",
+    "declared_matter_id": "current_signal_recognition_standing",
+    "declared_matter_kind": "recognized_body_signal_posture",
+    "declared_matter_purpose": "Hold recognized body-signal posture as current signal-recognition standing while preserving non-operative status.",
+    "no_action": true,
+    "no_body_relevance_medium": true,
+    "no_routing": true,
+    "no_workflow": true,
+    "non_authoritative": true,
+    "non_currentness": true,
+    "non_permission": true,
+    "not_present_yet": true,
+    "not_scoped_yet": true,
+    "not_threshold_yet": true,
+    "not_truth": true,
+    "recognized_source_artifact_family": "v0_body_pass_result",
+    "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "selected_signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+    "selected_signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+    "selected_signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json"
+  },
+  "selected_signal_acceptance_result": {
+    "selection_mode": "explicit_signal_acceptance_result_path",
+    "signal_acceptance_outcome": "SIGNAL_ACCEPTED",
+    "signal_acceptance_resolver_module": "resolve_body_signal_acceptance",
+    "signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+    "signal_acceptance_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_acceptance/body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_acceptance_result.json",
+    "signal_acceptance_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_ACCEPTANCE_RESULT",
+    "signal_acceptance_result_version": "0.1.0"
+  },
+  "selected_signal_scope_request": {
+    "accepted_signal_basis": {
+      "accepted_matter_family": "body_signal_acceptance_matter",
+      "accepted_matter_id": "current_signal_recognition_standing",
+      "accepted_matter_kind": "recognized_body_signal_posture",
+      "accepted_signal_category": "BODY_PASS_SIGNAL",
+      "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+      "recognized_source_artifact_family": "v0_body_pass_result",
+      "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+      "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "signal_acceptance_outcome": "SIGNAL_ACCEPTED",
+      "signal_acceptance_resolver_module": "resolve_body_signal_acceptance",
+      "signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+      "signal_acceptance_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_acceptance/body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted__body_signal_acceptance_result.json",
+      "signal_acceptance_result_version": "0.1.0"
+    },
+    "correspondence_requirements": {
+      "must_preserve_accepted_matter": true,
+      "must_preserve_accepted_signal_identity": true,
+      "must_preserve_non_claims": true,
+      "must_preserve_recognized_source_identity": true,
+      "must_preserve_scope_boundary": true,
+      "must_preserve_signal_category": true,
+      "must_preserve_signal_non_authority": true,
+      "must_preserve_signal_non_currentness": true,
+      "must_preserve_signal_non_permission": true,
+      "must_prevent_over_mirroring": true,
+      "must_prevent_under_mirroring": true
+    },
+    "declared_non_claims": {
+      "does_not_apply_outside_declared_scope": true,
+      "does_not_authorize_action": true,
+      "does_not_authorize_follow_on_work": true,
+      "does_not_create_authority": true,
+      "does_not_create_body_relevance_medium": true,
+      "does_not_create_currentness": true,
+      "does_not_create_event_bus": true,
+      "does_not_create_permission": true,
+      "does_not_create_roadmap": true,
+      "does_not_create_signal_router": true,
+      "does_not_create_truth": true,
+      "does_not_create_workflow": true,
+      "does_not_establish_presence": true,
+      "does_not_meet_threshold": true,
+      "does_not_replace_source_surface": true,
+      "does_not_turn_receipt_into_permission": true,
+      "does_not_upgrade_derivative_to_source": true,
+      "does_not_widen_matter": true
+    },
+    "declared_scope": {
+      "applies_to": [
+        "recognized_BODY_PASS_SIGNAL_posture",
+        "accepted_signal_standing_inside_current_signal_recognition_standing",
+        "nonoperative_signal_line_standing_evidence"
+      ],
+      "does_not_apply_to": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "scope_boundary": "applicability_only_inside_current_signal_recognition_standing",
+      "scope_family": "body_signal_scope",
+      "scope_id": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+      "scope_kind": "nonoperative_body_pass_signal_posture",
+      "scope_matter_id": "current_signal_recognition_standing",
+      "scope_purpose": "Bind accepted BODY_PASS_SIGNAL only to non-operative body-pass signal posture inside current signal-recognition standing."
+    },
+    "declared_scope_limits": {
+      "action_not_authorized": true,
+      "body_relevance_medium_not_created": true,
+      "follow_on_work_not_authorized": true,
+      "presence_not_yet_established": true,
+      "routing_not_created": true,
+      "scope_for_applicability_only": true,
+      "threshold_not_yet_met": true,
+      "truth_not_created": true,
+      "workflow_not_created": true
+    },
+    "hierarchy_constraints": {
+      "derivative_signal_allowed_as_source": false,
+      "latest_file_recency_allowed": false,
+      "operator_signal_allowed_as_source": false,
+      "reentry_signal_allowed_as_governing_basis": false,
+      "scoped_signal_allowed_as_action_trigger": false,
+      "scoped_signal_allowed_as_authority": false,
+      "scoped_signal_allowed_as_body_relevance_medium": false,
+      "scoped_signal_allowed_as_currentness": false,
+      "scoped_signal_allowed_as_permission": false,
+      "scoped_signal_allowed_as_presence": false,
+      "scoped_signal_allowed_as_route": false,
+      "scoped_signal_allowed_as_threshold": false,
+      "scoped_signal_allowed_as_truth": false,
+      "scoped_signal_allowed_as_workflow": false
+    },
+    "signal_scope_request_metadata": {
+      "declared_at": "manual_terminal_verification",
+      "declared_by_surface": "terminal_manual_test",
+      "signal_scope_request_id": "body_pass_signal_scope__live_001",
+      "signal_scope_request_type": "BODY_SIGNAL_SCOPE_REQUEST",
+      "signal_scope_request_version": "0.1.0"
+    }
+  },
+  "signal_scope_checks": [
+    {
+      "actual_posture": "present",
+      "block_code": "SIGNAL_ACCEPTANCE_RESULT_MISSING",
+      "check_name": "signal_acceptance_result_exists",
+      "expected_posture": "one SIGNAL_ACCEPTED result mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable",
+      "block_code": "SIGNAL_ACCEPTANCE_RESULT_UNREADABLE",
+      "check_name": "signal_acceptance_result_is_readable_if_path_based",
+      "expected_posture": "readable signal-acceptance JSON object for explicit path, provided object otherwise",
+      "passed": true
+    },
+    {
+      "actual_posture": "dict",
+      "block_code": "SIGNAL_ACCEPTANCE_RESULT_MALFORMED",
+      "check_name": "signal_acceptance_result_is_well_formed_enough",
+      "expected_posture": "signal-acceptance result is an object",
+      "passed": true
+    },
+    {
+      "actual_posture": "SIGNAL_ACCEPTED",
+      "block_code": "SIGNAL_ACCEPTANCE_RESULT_NOT_ACCEPTED",
+      "check_name": "signal_acceptance_result_outcome_is_signal_accepted",
+      "expected_posture": "SIGNAL_ACCEPTED",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "accepted_signal_category": "BODY_PASS_SIGNAL",
+        "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted"
+      },
+      "block_code": "ACCEPTED_SIGNAL_MISSING",
+      "check_name": "accepted_signal_is_present",
+      "expected_posture": "accepted signal id and category present",
+      "passed": true
+    },
+    {
+      "actual_posture": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+      "block_code": "ACCEPTED_SIGNAL_IDENTITY_MISMATCH",
+      "check_name": "accepted_signal_identity_is_preserved",
+      "expected_posture": "accepted signal identity present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "recognized_source_artifact_family": "v0_body_pass_result",
+        "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+        "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+        "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json"
+      },
+      "block_code": "RECOGNIZED_SOURCE_IDENTITY_MISMATCH",
+      "check_name": "recognized_source_artifact_identity_is_preserved",
+      "expected_posture": "recognized source id/path/family/outcome present",
+      "passed": true
+    },
+    {
+      "actual_posture": "BODY_PASS_SIGNAL",
+      "block_code": "SIGNAL_CATEGORY_MISMATCH",
+      "check_name": "accepted_signal_category_is_preserved",
+      "expected_posture": "accepted signal category present",
+      "passed": true
+    },
+    {
+      "actual_posture": "BODY_PASS_SIGNAL",
+      "block_code": "SIGNAL_CATEGORY_MISMATCH",
+      "check_name": "accepted_signal_category_is_body_pass_signal",
+      "expected_posture": "BODY_PASS_SIGNAL",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "accepted_matter_family": "body_signal_acceptance_matter",
+        "accepted_matter_id": "current_signal_recognition_standing",
+        "accepted_matter_kind": "recognized_body_signal_posture"
+      },
+      "block_code": "ACCEPTED_MATTER_MISMATCH",
+      "check_name": "accepted_matter_identity_is_preserved",
+      "expected_posture": "accepted matter id/family/kind present",
+      "passed": true
+    },
+    {
+      "actual_posture": "current_signal_recognition_standing",
+      "block_code": "ACCEPTED_MATTER_MISMATCH",
+      "check_name": "accepted_matter_is_current_signal_recognition_standing",
+      "expected_posture": "current_signal_recognition_standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "non_authoritative": true
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_AUTHORITY",
+      "check_name": "accepted_signal_remains_non_authoritative",
+      "expected_posture": "accepted signal non_authoritative true and authority_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "non_permission": true,
+        "permission_created": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_PERMISSION",
+      "check_name": "accepted_signal_remains_non_permission",
+      "expected_posture": "accepted signal non_permission true and permission_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "currentness_created": false,
+        "non_currentness": true
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_CURRENTNESS",
+      "check_name": "accepted_signal_remains_non_currentness",
+      "expected_posture": "accepted signal non_currentness true and currentness_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "not_present_yet": true,
+        "presence_established": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_PRESENCE",
+      "check_name": "accepted_signal_is_not_presence",
+      "expected_posture": "accepted signal not_present_yet true and presence_established false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "not_threshold_yet": true,
+        "threshold_met": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_THRESHOLD",
+      "check_name": "accepted_signal_is_not_threshold",
+      "expected_posture": "accepted signal not_threshold_yet true and threshold_met false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "not_truth": true,
+        "truth_created": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_TRUTH",
+      "check_name": "accepted_signal_is_not_truth",
+      "expected_posture": "accepted signal not_truth true and truth_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_authorized": false,
+        "no_action": true
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_ACTION",
+      "check_name": "accepted_signal_is_not_action",
+      "expected_posture": "accepted signal no_action true and action_authorized false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "event_bus_created": false,
+        "no_routing": true,
+        "signal_router_created": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_ROUTE",
+      "check_name": "accepted_signal_is_not_route",
+      "expected_posture": "accepted signal no_routing true and router/event bus false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "no_workflow": true,
+        "workflow_created": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_WORKFLOW",
+      "check_name": "accepted_signal_is_not_workflow",
+      "expected_posture": "accepted signal no_workflow true and workflow_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "body_relevance_medium_created": false,
+        "no_body_relevance_medium": true
+      },
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_BODY_RELEVANCE_MEDIUM",
+      "check_name": "accepted_signal_is_not_body_relevance_medium",
+      "expected_posture": "accepted signal no_body_relevance_medium true and body_relevance_medium_created false",
+      "passed": true
+    },
+    {
+      "actual_posture": "present",
+      "block_code": "SIGNAL_SCOPE_REQUEST_MISSING",
+      "check_name": "signal_scope_request_exists",
+      "expected_posture": "one signal-scope request mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "present",
+      "block_code": "DECLARED_SCOPE_MISSING",
+      "check_name": "declared_scope_is_present",
+      "expected_posture": "declared_scope object present",
+      "passed": true
+    },
+    {
+      "actual_posture": "well formed enough",
+      "block_code": "SIGNAL_SCOPE_REQUEST_MALFORMED",
+      "check_name": "signal_scope_request_is_well_formed_enough",
+      "expected_posture": "required scope request sections and core fields present",
+      "passed": true
+    },
+    {
+      "actual_posture": "accepted signal basis preserved",
+      "block_code": "ACCEPTED_SIGNAL_IDENTITY_MISMATCH",
+      "check_name": "accepted_signal_basis_matches_selected_acceptance_result",
+      "expected_posture": "request basis matches selected acceptance result, accepted matter, and recognized source",
+      "passed": true
+    },
+    {
+      "actual_posture": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+      "block_code": "DECLARED_SCOPE_UNSUPPORTED",
+      "check_name": "declared_scope_id_is_supported",
+      "expected_posture": "current_signal_recognition_standing__body_pass_signal_nonoperative_posture_scope",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "scope_family": "body_signal_scope",
+        "scope_kind": "nonoperative_body_pass_signal_posture"
+      },
+      "block_code": "DECLARED_SCOPE_UNSUPPORTED",
+      "check_name": "declared_scope_family_and_kind_are_supported",
+      "expected_posture": {
+        "scope_family": "body_signal_scope",
+        "scope_kind": "nonoperative_body_pass_signal_posture"
+      },
+      "passed": true
+    },
+    {
+      "actual_posture": "current_signal_recognition_standing",
+      "block_code": "DECLARED_SCOPE_APPLIES_OUTSIDE_ACCEPTED_MATTER",
+      "check_name": "declared_scope_matter_matches_accepted_matter",
+      "expected_posture": "current_signal_recognition_standing",
+      "passed": true
+    },
+    {
+      "actual_posture": "declared scope stays bounded",
+      "block_code": "DECLARED_SCOPE_VAGUE_OR_UNBOUNDED",
+      "check_name": "declared_scope_is_bounded_to_nonoperative_body_pass_signal_posture",
+      "expected_posture": "non-operative BODY_PASS_SIGNAL posture inside current_signal_recognition_standing",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_APPLIES_OUTSIDE_ACCEPTED_MATTER",
+      "check_name": "declared_scope_excludes_forbidden_applicability",
+      "expected_posture": "does_not_apply_to includes action, permission, currentness, governing basis, signal use, routing, workflow, body relevance medium, presence, threshold, truth, decision, consequence, general continuation, and unrelated matters",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_ACTION",
+      "check_name": "declared_scope_excludes_action",
+      "expected_posture": "does_not_apply_to includes action",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "SCOPED_SIGNAL_BECAME_PERMISSION",
+      "check_name": "declared_scope_excludes_permission",
+      "expected_posture": "does_not_apply_to includes permission",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "ACCEPTED_SIGNAL_TREATED_AS_CURRENTNESS",
+      "check_name": "declared_scope_excludes_currentness",
+      "expected_posture": "does_not_apply_to includes currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_WIDENS_MATTER",
+      "check_name": "declared_scope_excludes_governing_basis",
+      "expected_posture": "does_not_apply_to includes governing_basis",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_SIGNAL_USE",
+      "check_name": "declared_scope_excludes_signal_use",
+      "expected_posture": "does_not_apply_to includes signal_use",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_ROUTING",
+      "check_name": "declared_scope_excludes_routing",
+      "expected_posture": "does_not_apply_to includes routing",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_WORKFLOW",
+      "check_name": "declared_scope_excludes_workflow",
+      "expected_posture": "does_not_apply_to includes workflow",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_BODY_RELEVANCE_MEDIUM",
+      "check_name": "declared_scope_excludes_body_relevance_medium",
+      "expected_posture": "does_not_apply_to includes body_relevance_medium",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "SCOPE_ATTEMPTS_PRESENCE",
+      "check_name": "declared_scope_excludes_presence",
+      "expected_posture": "does_not_apply_to includes presence",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "SCOPE_ATTEMPTS_THRESHOLD",
+      "check_name": "declared_scope_excludes_threshold",
+      "expected_posture": "does_not_apply_to includes threshold",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "SCOPE_ATTEMPTS_TRUTH",
+      "check_name": "declared_scope_excludes_truth",
+      "expected_posture": "does_not_apply_to includes truth",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_VAGUE_OR_UNBOUNDED",
+      "check_name": "declared_scope_excludes_decision",
+      "expected_posture": "does_not_apply_to includes decision",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_VAGUE_OR_UNBOUNDED",
+      "check_name": "declared_scope_excludes_consequence",
+      "expected_posture": "does_not_apply_to includes consequence",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_GENERAL_CONTINUATION",
+      "check_name": "declared_scope_excludes_general_continuation",
+      "expected_posture": "does_not_apply_to includes general_continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "action",
+        "permission",
+        "currentness",
+        "governing_basis",
+        "signal_use",
+        "routing",
+        "workflow",
+        "body_relevance_medium",
+        "presence",
+        "threshold",
+        "truth",
+        "decision",
+        "consequence",
+        "general_continuation",
+        "unrelated_matters"
+      ],
+      "block_code": "DECLARED_SCOPE_APPLIES_OUTSIDE_ACCEPTED_MATTER",
+      "check_name": "declared_scope_excludes_unrelated_matters",
+      "expected_posture": "does_not_apply_to includes unrelated_matters",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "SIGNAL_SCOPE_REQUEST_MALFORMED",
+      "check_name": "scope_limits_are_preserved",
+      "expected_posture": "all scope-limit fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "DECLARED_SCOPE_VAGUE_OR_UNBOUNDED",
+      "check_name": "scope_for_applicability_only",
+      "expected_posture": "scope_for_applicability_only is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_PRESENCE",
+      "check_name": "presence_not_yet_established",
+      "expected_posture": "presence_not_yet_established is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_THRESHOLD",
+      "check_name": "threshold_not_yet_met",
+      "expected_posture": "threshold_not_yet_met is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_TRUTH",
+      "check_name": "truth_not_created",
+      "expected_posture": "truth_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_ACTION_AUTHORIZATION",
+      "check_name": "action_not_authorized",
+      "expected_posture": "action_not_authorized is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_SIGNAL_ROUTER",
+      "check_name": "routing_not_created",
+      "expected_posture": "routing_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "DECLARED_SCOPE_ATTEMPTS_WORKFLOW",
+      "check_name": "workflow_not_created",
+      "expected_posture": "workflow_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_BODY_RELEVANCE_MEDIUM",
+      "check_name": "body_relevance_medium_not_created",
+      "expected_posture": "body_relevance_medium_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "SCOPE_ATTEMPTS_FOLLOW_ON_AUTHORIZATION",
+      "check_name": "follow_on_work_not_authorized",
+      "expected_posture": "follow_on_work_not_authorized is true",
+      "passed": true
+    },
+    {
+      "actual_posture": "all false",
+      "block_code": "SIGNAL_SCOPE_REQUEST_MALFORMED",
+      "check_name": "hierarchy_constraints_are_preserved",
+      "expected_posture": "all hierarchy constraint fields present and false",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "SIGNAL_SCOPE_REQUEST_MALFORMED",
+      "check_name": "correspondence_requirements_are_preserved",
+      "expected_posture": "all correspondence requirement fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claims_are_preserved",
+      "expected_posture": "all declared non-claim fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_recency_allowed": false,
+        "latest_file_recency_language_detected": false
+      },
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "latest_file_recency_is_refused",
+      "expected_posture": "scope does not infer currentness by latest-file recency",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_language_detected": false,
+        "derivative_signal_allowed_as_source": false,
+        "operator_signal_allowed_as_source": false,
+        "reentry_signal_allowed_as_governing_basis": false
+      },
+      "block_code": "DERIVATIVE_OPERATOR_REENTRY_SIGNAL_SOURCE_COLLAPSE",
+      "check_name": "derivative_api_operator_reentry_signal_surfaces_do_not_become_governing_current_basis",
+      "expected_posture": "downstream surfaces remain downstream and non-governing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_permission": true,
+        "permission_language_detected": false,
+        "scoped_signal_allowed_as_permission": false
+      },
+      "block_code": "SCOPED_SIGNAL_BECAME_PERMISSION",
+      "check_name": "scoped_signal_does_not_become_permission",
+      "expected_posture": "scoped signal remains non-permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_language_detected": false,
+        "does_not_authorize_action": true,
+        "scoped_signal_allowed_as_action_trigger": false
+      },
+      "block_code": "SCOPED_SIGNAL_BECAME_ACTION",
+      "check_name": "scoped_signal_does_not_become_action",
+      "expected_posture": "scoped signal remains non-action",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "does_not_create_body_relevance_medium": true,
+        "scoped_signal_allowed_as_body_relevance_medium": false
+      },
+      "block_code": "SCOPE_ATTEMPTS_BODY_RELEVANCE_MEDIUM",
+      "check_name": "body_relevance_medium_is_not_created",
+      "expected_posture": "scope does not create a body relevance medium",
+      "passed": true
+    }
+  ]
+}

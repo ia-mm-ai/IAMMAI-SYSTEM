@@ -1,0 +1,75 @@
+{
+  "api_runtime": {
+    "api_key_present": true,
+    "explicit_model_env_override_used": true,
+    "local_setup_present": true,
+    "model_name_used": "gpt-5.2",
+    "openai_package_present": true
+  },
+  "block": {
+    "block_code": "MODEL_OUTPUT_MALFORMED",
+    "block_reason": "The model output is malformed. Detail: model output is not valid JSON"
+  },
+  "derivative_answer": {
+    "answer": null,
+    "answer_basis": "bounded_source_payload",
+    "model_output_remains_derivative": true,
+    "source_remains_source": true
+  },
+  "model_output": {
+    "parsed_output": null,
+    "raw_output_text": null,
+    "refusal_code": null
+  },
+  "non_claims": {
+    "authority_assigned_by_model": false,
+    "continuity_completed": false,
+    "provenance_assigned_by_model": false,
+    "rank_assigned_by_model": false,
+    "source_replaced": false,
+    "source_scope_widened": false,
+    "standing_assigned_by_model": false,
+    "status_assigned_by_model": false
+  },
+  "openai_api_derivative_vessel_metadata": {
+    "generated_at": "2026-04-23T16:15:52.194696Z",
+    "resolver_module": "openai_api_vessel__bounded_current_state_read",
+    "vessel_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__bounded_current_state_read_refused",
+    "vessel_result_type": "IAMMAI_OPENAI_API_DERIVATIVE_VESSEL_BOUNDED_CURRENT_STATE_READ_RESULT",
+    "vessel_result_version": "0.1.0"
+  },
+  "outcome": "REFUSED",
+  "selected_source_surface": {
+    "selected_source_surface_family": "current_state_what_stands_now_result",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_source_surface_outcome": "ANSWERED_WHAT_STANDS_NOW",
+    "selected_source_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json"
+  },
+  "vessel_request": {
+    "admitted_use_class": "BOUNDED_DERIVATIVE_READ",
+    "allowed_source_family": "current_state_what_stands_now_result",
+    "bounded_source_payload": {
+      "answer_read_basis": "applied_current_state_result",
+      "application_basis": "delivered_current_state_result",
+      "current_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "delivery_basis": "exported_current_state_result",
+      "preserved_run_count": 2
+    },
+    "instructions": "Read only the bounded_source_payload in the provided JSON input. Do not use hidden context. Do not widen source scope. Do not assign rank, authority, provenance, status, or non-claims. Return only one JSON object with exactly one of these shapes: {\"answer\": \"<string>\"} or {\"refusal_code\": \"INSUFFICIENT_GROUNDING\"}.",
+    "question": "Using only the bounded payload, state the current governing source run path, current governing ingress run path, current authority artifact path, preserved run count, application basis, delivery basis, and answer-read basis.",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_source_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+    "vessel_request_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__bounded_current_state_read_request",
+    "vessel_use_case": "BOUNDED_CURRENT_STATE_READ"
+  },
+  "vessel_summary": {
+    "allowed_source_family": "current_state_what_stands_now_result",
+    "block_code": "MODEL_OUTPUT_MALFORMED",
+    "block_reason": "The model output is malformed. Detail: model output is not valid JSON",
+    "outcome": "REFUSED",
+    "question": "Using only the bounded payload, state the current governing source run path, current governing ingress run path, current authority artifact path, preserved run count, application basis, delivery basis, and answer-read basis.",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered"
+  }
+}

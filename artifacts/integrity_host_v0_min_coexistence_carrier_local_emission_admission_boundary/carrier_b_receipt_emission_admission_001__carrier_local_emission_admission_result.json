@@ -1,0 +1,731 @@
+{
+  "admission_basis": {
+    "admission_blocked_state_available": true,
+    "admission_intent": "ADMIT_AS_EVIDENCE",
+    "admission_is_not_currentness": true,
+    "admission_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_emission_self_admitted": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "divergence_hidden": false,
+      "emission_admission_created_authority": false,
+      "emission_admission_created_body": false,
+      "emission_admission_created_currentness": false,
+      "emission_admission_created_permission": false,
+      "emission_admission_created_signal_by_default": false,
+      "emission_admission_created_source": false,
+      "emission_admission_created_successor": false,
+      "latest_file_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "recency_fraud": false,
+      "refusal_hidden": false,
+      "replay_performed": false,
+      "returned_emission_self_admitted": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "admission_purpose": "Admit physical Carrier B's CARRIED_SURFACE_RECEIPT emission into the body line as evidence only, without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+    "admitted_as_evidence_state_requested": true,
+    "emitted_local_state_preserved": false,
+    "explicit_non_admission_requested": false,
+    "normalized_admission_intent": "ADMIT_AS_EVIDENCE",
+    "not_admitted_state_available": true,
+    "positive_admission_requested": true,
+    "returned_to_body_line_state_preserved": true
+  },
+  "admission_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_admission_request_is_parseable_mapping",
+      "expected_posture": "declared admission request is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_role": "RECEIVING_CARRIER",
+        "emission_class": "CARRIED_SURFACE_RECEIPT",
+        "emission_id": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+        "emission_outcome": "CARRIED_SURFACE_RECEIVED",
+        "emission_state": "RETURNED_TO_BODY_LINE",
+        "emitting_carrier_id": "carrier_B_physical_macbook"
+      },
+      "block_code": null,
+      "check_name": "carrier_local_emission_exists",
+      "expected_posture": "selected carrier-local emission is supplied",
+      "passed": true
+    },
+    {
+      "actual_posture": "dict",
+      "block_code": null,
+      "check_name": "carrier_local_emission_is_mapping",
+      "expected_posture": "selected carrier-local emission is a mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+      "block_code": null,
+      "check_name": "emission_identity_exists",
+      "expected_posture": "emission identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIED_SURFACE_RECEIVED",
+      "block_code": null,
+      "check_name": "emission_outcome_exists",
+      "expected_posture": "emission outcome or status is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_B_physical_macbook",
+      "block_code": null,
+      "check_name": "emitting_carrier_exists",
+      "expected_posture": "emitting carrier identity is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECEIVING_CARRIER",
+      "block_code": null,
+      "check_name": "carrier_role_exists",
+      "expected_posture": "carrier role is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECEIVING_CARRIER",
+      "block_code": null,
+      "check_name": "carrier_role_is_bounded",
+      "expected_posture": "carrier role is bounded and admitted for this version",
+      "passed": true
+    },
+    {
+      "actual_posture": "CARRIED_SURFACE_RECEIPT",
+      "block_code": null,
+      "check_name": "emission_class_exists",
+      "expected_posture": "emission class is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_class": "CARRIED_SURFACE_RECEIPT",
+        "not_admitted_by_default": false
+      },
+      "block_code": null,
+      "check_name": "emission_class_admissible",
+      "expected_posture": "emission class is admissible as evidence only",
+      "passed": true
+    },
+    {
+      "actual_posture": "Admit physical Carrier B's CARRIED_SURFACE_RECEIPT emission into the body line as evidence only, without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+      "block_code": null,
+      "check_name": "admission_purpose_declared",
+      "expected_posture": "admission purpose is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_intent": "ADMIT_AS_EVIDENCE",
+        "explicit_non_admission_requested": false,
+        "intent_declared": true,
+        "normalized_admission_intent": "ADMIT_AS_EVIDENCE",
+        "positive_admission_requested": true
+      },
+      "block_code": null,
+      "check_name": "admission_intent_declared",
+      "expected_posture": "admission intent is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_emission_self_admitted": false
+      },
+      "block_code": null,
+      "check_name": "emission_not_self_admitted",
+      "expected_posture": "emission does not self-admit by being emitted",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "returned_emission_self_admitted": false
+      },
+      "block_code": null,
+      "check_name": "return_not_mistaken_for_admission",
+      "expected_posture": "return does not create admission",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "possession_not_mistaken_for_admission",
+      "expected_posture": "possession does not create admission",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "receipt_not_mistaken_for_admission",
+      "expected_posture": "receipt does not create admission by itself",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "correspondence_not_mistaken_for_admission",
+      "expected_posture": "correspondence does not create admission by itself",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "self_orientation_recognition_not_mistaken_for_admission",
+      "expected_posture": "self-orientation recognition does not create admission by itself",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_admission_created_source": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "source_not_replaced",
+      "expected_posture": "admission does not replace source or create source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "currentness_created": false,
+        "emission_admission_created_currentness": false
+      },
+      "block_code": null,
+      "check_name": "currentness_not_created",
+      "expected_posture": "admission creates no currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_created": false,
+        "emission_admission_created_authority": false
+      },
+      "block_code": null,
+      "check_name": "authority_not_created",
+      "expected_posture": "admission creates no authority",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_admission_created_permission": false,
+        "permission_created": false
+      },
+      "block_code": null,
+      "check_name": "permission_not_created",
+      "expected_posture": "admission creates no permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_admission_created_successor": false
+      },
+      "block_code": null,
+      "check_name": "successor_not_created",
+      "expected_posture": "admission creates no successor standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_admission_created_body": false
+      },
+      "block_code": null,
+      "check_name": "body_not_created",
+      "expected_posture": "admission creates no body formation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "emission_admission_created_signal_by_default": false
+      },
+      "block_code": null,
+      "check_name": "signal_not_created_by_default",
+      "expected_posture": "admission creates no signal by default",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "presence_established": false
+      },
+      "block_code": null,
+      "check_name": "presence_not_established",
+      "expected_posture": "admission establishes no presence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "threshold_met": false
+      },
+      "block_code": null,
+      "check_name": "threshold_not_met",
+      "expected_posture": "admission establishes no threshold",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "truth_created": false
+      },
+      "block_code": null,
+      "check_name": "truth_not_created",
+      "expected_posture": "admission creates no truth",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "action_authorized": false
+      },
+      "block_code": null,
+      "check_name": "action_not_authorized",
+      "expected_posture": "admission authorizes no action",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "consequence_created": false
+      },
+      "block_code": null,
+      "check_name": "consequence_not_created",
+      "expected_posture": "admission creates no consequence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "multi_carrier_law_created": false
+      },
+      "block_code": null,
+      "check_name": "multi_carrier_law_not_created",
+      "expected_posture": "admission creates no multi-carrier law",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_standing_created": false
+      },
+      "block_code": null,
+      "check_name": "distributed_standing_not_created",
+      "expected_posture": "admission creates no distributed standing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "continuation_not_authorized",
+      "expected_posture": "admission authorizes no continuation",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "refusal_hidden": false
+      },
+      "block_code": null,
+      "check_name": "refusal_not_hidden",
+      "expected_posture": "admission does not hide refusal",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "divergence_hidden": false
+      },
+      "block_code": null,
+      "check_name": "divergence_not_hidden",
+      "expected_posture": "admission does not hide divergence",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "mutation_replay_merge_not_performed",
+      "expected_posture": "admission performs no mutation, replay, or merge",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false
+      },
+      "block_code": null,
+      "check_name": "latest_file_currentness_false",
+      "expected_posture": "latest local file is not currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "recency_fraud": false
+      },
+      "block_code": null,
+      "check_name": "recency_fraud_false",
+      "expected_posture": "recency is not used as currentness",
+      "passed": true
+    },
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "all required admission non-claims are present and false",
+      "passed": true
+    }
+  ],
+  "admission_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_body": true,
+    "does_not_mean_carrier_participation_by_default": true,
+    "does_not_mean_carrier_relation": true,
+    "does_not_mean_conformance_successor": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_correspondence": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_emission": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_multi_carrier_law": true,
+    "does_not_mean_permission": true,
+    "does_not_mean_possession": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_receipt": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_return": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_self_orientation_recognition": true,
+    "does_not_mean_self_orientation_successor": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source": true,
+    "does_not_mean_successor": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true
+  },
+  "admission_statement": {
+    "admission_blocked": false,
+    "admitted_evidence_remains_downstream": true,
+    "authority_not_created": true,
+    "block_code": null,
+    "block_reason": null,
+    "body_not_created": true,
+    "carrier_local_emission_admitted_as_evidence": true,
+    "carrier_local_emission_preserved_without_admission": false,
+    "carrier_role_preserved": true,
+    "continuation_not_authorized": true,
+    "currentness_not_created": true,
+    "distributed_standing_not_created": true,
+    "divergence_not_hidden": true,
+    "emission_class_preserved": true,
+    "emission_identity_preserved": true,
+    "emission_outcome_preserved": true,
+    "emission_return_admission_distinction": {
+      "admission_blocked": false,
+      "admitted_as_evidence": true,
+      "emitted_local": false,
+      "not_admitted": false,
+      "returned_to_body_line": true
+    },
+    "emitting_carrier_identity_preserved": true,
+    "failed_checks": [],
+    "integrity_evidence_preserved": false,
+    "multi_carrier_law_not_created": true,
+    "not_admitted_reason": null,
+    "permission_not_created": true,
+    "presence_threshold_truth_action_consequence_not_created": true,
+    "refusal_not_hidden": true,
+    "return_basis_preserved": true,
+    "selected_basis_preserved_where_available": false,
+    "source_not_replaced": true,
+    "successor_not_created": true
+  },
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "code": null,
+    "reason": null
+  },
+  "carrier_local_emission_admission_metadata": {
+    "carrier_local_emission_admission_result_id": "carrier_b_receipt_emission_admission_001__carrier_local_emission_admitted_as_evidence__carrier_local_emission_admission_result",
+    "carrier_local_emission_admission_result_type": "carrier_local_emission_admission_boundary_result",
+    "carrier_local_emission_admission_result_version": "0.1.0",
+    "generated_at": "2026-04-28T16:29:02.822063Z",
+    "resolver_module": "resolve_carrier_local_emission_admission_boundary"
+  },
+  "carrier_local_emission_admission_summary": {
+    "action_authorized": false,
+    "admission_as_evidence": true,
+    "admission_intent": "ADMIT_AS_EVIDENCE",
+    "admission_purpose": "Admit physical Carrier B's CARRIED_SURFACE_RECEIPT emission into the body line as evidence only, without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+    "admission_request_id": "carrier_b_receipt_emission_admission_001",
+    "authority_created": false,
+    "block_code": null,
+    "block_reason": null,
+    "body_created": false,
+    "carrier_role": "RECEIVING_CARRIER",
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "divergence_hidden": false,
+    "emission_class": "CARRIED_SURFACE_RECEIPT",
+    "emitting_carrier_id": "carrier_B_physical_macbook",
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_emission_self_admitted": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "divergence_hidden": false,
+      "emission_admission_created_authority": false,
+      "emission_admission_created_body": false,
+      "emission_admission_created_currentness": false,
+      "emission_admission_created_permission": false,
+      "emission_admission_created_signal_by_default": false,
+      "emission_admission_created_source": false,
+      "emission_admission_created_successor": false,
+      "multi_carrier_law_created": false,
+      "permission_created": false,
+      "presence_established": false,
+      "refusal_hidden": false,
+      "returned_emission_self_admitted": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "multi_carrier_law_created": false,
+    "not_admitted": false,
+    "outcome": "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE",
+    "passed_check_count": 39,
+    "permission_created": false,
+    "presence_established": false,
+    "refusal_hidden": false,
+    "return_context": null,
+    "return_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_surface_receipt_boundary/returned_from_carrier_B/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+    "selected_emission_id": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+    "selected_emission_outcome": "CARRIED_SURFACE_RECEIVED",
+    "signal_created_by_default": false,
+    "source_created": false,
+    "successor_created": false,
+    "threshold_met": false,
+    "truth_created": false
+  },
+  "carrier_role_basis": {
+    "admitted_carrier_roles": [
+      "HOLDING_CARRIER",
+      "RECEIVING_CARRIER",
+      "REFUSING_CARRIER",
+      "RETURNING_CARRIER",
+      "SOURCE_CARRIER_FOR_PACKET"
+    ],
+    "carrier_role": "RECEIVING_CARRIER",
+    "carrier_role_bounded": true,
+    "carrier_role_declared": true,
+    "raw_carrier_role_basis": {
+      "carrier_role": "RECEIVING_CARRIER",
+      "carrier_role_bounded": true
+    },
+    "role_does_not_create_source_currentness_authority_permission_successor_body": true,
+    "selected_emission_carrier_role": "RECEIVING_CARRIER"
+  },
+  "declared_admission_question": {
+    "admission_intent": "ADMIT_AS_EVIDENCE",
+    "admission_purpose": "Admit physical Carrier B's CARRIED_SURFACE_RECEIPT emission into the body line as evidence only, without source, currentness, authority, permission, successor, body, multi-carrier law, or distributed standing.",
+    "admission_request_id": "carrier_b_receipt_emission_admission_001",
+    "declared_admission_question": "May this carrier-local emission be admitted as body-line evidence?",
+    "declared_admission_request_path": null,
+    "declared_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "carrier_emission_self_admitted": false,
+      "consequence_created": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_standing_created": false,
+      "divergence_hidden": false,
+      "emission_admission_created_authority": false,
+      "emission_admission_created_body": false,
+      "emission_admission_created_currentness": false,
+      "emission_admission_created_permission": false,
+      "emission_admission_created_signal_by_default": false,
+      "emission_admission_created_source": false,
+      "emission_admission_created_successor": false,
+      "latest_file_currentness": false,
+      "merge_performed": false,
+      "multi_carrier_law_created": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "presence_established": false,
+      "recency_fraud": false,
+      "refusal_hidden": false,
+      "replay_performed": false,
+      "returned_emission_self_admitted": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false
+    },
+    "declared_scope": null,
+    "normalized_admission_intent": "ADMIT_AS_EVIDENCE",
+    "selected_carrier_reference": "carrier_B_physical_macbook",
+    "selected_emission_reference": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result"
+  },
+  "emission_basis": {
+    "admissible_emission_classes": [
+      "CARRIED_SURFACE_RECEIPT",
+      "INTEGRITY_EVIDENCE",
+      "PACKET_MANIFEST",
+      "RECEIPT_BLOCK",
+      "RECEIPT_REFUSAL_REASON",
+      "RETURNED_BLOCKED_RECEIPT_EVIDENCE",
+      "RETURNED_EVIDENCE_PACKET",
+      "RETURNED_RECEIPT_EVIDENCE",
+      "TRANSFER_DECLARATION"
+    ],
+    "body_line_admission_status": "requires_declared_admission_boundary",
+    "emission_class": "CARRIED_SURFACE_RECEIPT",
+    "emission_class_admissible": true,
+    "emission_class_declared": true,
+    "emission_class_not_admitted_by_default": false,
+    "emission_may_be_admitted_only_as_evidence": true,
+    "integrity_evidence": null,
+    "not_admitted_emission_classes": [
+      "ACTION",
+      "BODY_CONFORMANCE",
+      "BODY_RELEVANCE_MEDIUM",
+      "CARRIER_REGISTRY",
+      "CONSEQUENCE",
+      "CONTINUATION_AUTHORIZATION",
+      "CURRENTNESS",
+      "DISTRIBUTED_STANDING",
+      "MULTI_CARRIER_RELATION",
+      "PRESENCE",
+      "REPOSITORY_SYNCHRONIZATION",
+      "ROUTING",
+      "SELF_ORIENTATION",
+      "SIGNAL_BY_DEFAULT",
+      "SOURCE_AUTHORITY",
+      "STANDING_UPGRADE",
+      "SUCCESSOR_ARTIFACT",
+      "THRESHOLD",
+      "TRUTH",
+      "WORKFLOW"
+    ],
+    "raw_emission_basis": {
+      "emission_class": "CARRIED_SURFACE_RECEIPT",
+      "emission_class_admissible": true
+    },
+    "selected_packet_or_surface": null,
+    "selected_receipt_or_refusal": null,
+    "source_or_carried_basis": {
+      "carried_surface_id": "current_body_standing_closure_post_conformance",
+      "carried_surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+      "receiving_carrier_id": "carrier_B_physical_macbook",
+      "source_carrier_id": "carrier_A_current_macbook"
+    }
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "carrier_emission_self_admitted": false,
+    "consequence_created": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_standing_created": false,
+    "divergence_hidden": false,
+    "emission_admission_created_authority": false,
+    "emission_admission_created_body": false,
+    "emission_admission_created_currentness": false,
+    "emission_admission_created_permission": false,
+    "emission_admission_created_signal_by_default": false,
+    "emission_admission_created_source": false,
+    "emission_admission_created_successor": false,
+    "latest_file_currentness": false,
+    "merge_performed": false,
+    "multi_carrier_law_created": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "presence_established": false,
+    "recency_fraud": false,
+    "refusal_hidden": false,
+    "replay_performed": false,
+    "returned_emission_self_admitted": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false
+  },
+  "outcome": "CARRIER_LOCAL_EMISSION_ADMITTED_AS_EVIDENCE",
+  "return_basis": {
+    "raw_return_basis": {
+      "return_does_not_self_admit": true,
+      "return_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_surface_receipt_boundary/returned_from_carrier_B/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+      "return_state": "RETURNED_TO_BODY_LINE"
+    },
+    "return_basis_available": true,
+    "return_context": null,
+    "return_does_not_self_admit": true,
+    "return_path": "artifacts/integrity_host_v0_min_coexistence_cross_carrier_surface_receipt_boundary/returned_from_carrier_B/current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result.json",
+    "returned_to_body_line_is_not_admitted_by_default": true
+  },
+  "selected_carrier_emission": {
+    "carrier_role": "RECEIVING_CARRIER",
+    "emission_class": "CARRIED_SURFACE_RECEIPT",
+    "emission_id": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+    "emission_outcome": "CARRIED_SURFACE_RECEIVED",
+    "emission_state": "RETURNED_TO_BODY_LINE",
+    "emitting_carrier_id": "carrier_B_physical_macbook",
+    "raw_selected_carrier_emission": {
+      "carrier_role": "RECEIVING_CARRIER",
+      "emission_class": "CARRIED_SURFACE_RECEIPT",
+      "emission_id": "current_body_standing_closure_post_conformance__cross_carrier_surface_receipt_result",
+      "emission_outcome": "CARRIED_SURFACE_RECEIVED",
+      "emission_state": "RETURNED_TO_BODY_LINE",
+      "emitting_carrier_id": "carrier_B_physical_macbook"
+    },
+    "selected_packet_or_surface": null,
+    "selected_receipt_or_refusal": null,
+    "source_or_carried_basis": {
+      "carried_surface_id": "current_body_standing_closure_post_conformance",
+      "carried_surface_outcome": "CONFORMANCE_CLOSURE_RECORDED",
+      "receiving_carrier_id": "carrier_B_physical_macbook",
+      "source_carrier_id": "carrier_A_current_macbook"
+    }
+  },
+  "what_remains_open": {
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "open_surfaces": [
+      "carrier-local emission admission implementation refinement",
+      "cross-carrier divergence boundary",
+      "cross-carrier currentness boundary",
+      "multi-carrier relation law",
+      "multi-carrier relation conformance",
+      "multi-carrier relation closure",
+      "distributed standing",
+      "persistence/registry law",
+      "presence law",
+      "threshold law",
+      "truth law",
+      "action/consequence law",
+      "generalized vessel relation lifecycle",
+      "body relevance medium",
+      "signal series or accumulation logic",
+      "successor carrier law",
+      "future self-orientation successor only if separately justified"
+    ]
+  }
+}

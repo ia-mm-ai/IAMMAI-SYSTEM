@@ -1,0 +1,9 @@
+{
+  "artifact_family": "continuity_turn",
+  "body_ref": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json",
+  "expected_status": "fail",
+  "expected_surface": "continuity_body_conformance",
+  "fixture_class": "conformance_failure",
+  "note": "This fixture fails because predecessor succession does not replace canonical artifact anchoring.",
+  "scope": "sixth_successor_continuity_proof_slice"
+}

@@ -1,0 +1,696 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "bounded_report_statement": {
+    "checker_findings_built": true,
+    "command_executed": false,
+    "command_execution_not_authorized": true,
+    "command_invocation_not_created": true,
+    "command_output_created": false,
+    "command_output_not_created": true,
+    "command_result_created": false,
+    "command_result_not_created": true,
+    "command_success_created": false,
+    "command_success_not_created": true,
+    "final_completion_claimed": false,
+    "non_claim_checks_passed": true,
+    "portable_verification_command_report_built": true,
+    "reference_shape_checks_passed": true,
+    "report_building_is_not_command_invocation": true,
+    "report_building_is_not_command_output_from_a_run": true,
+    "report_building_is_not_live_command_execution": true,
+    "report_is_non_authoritative": true,
+    "report_status_is_not_command_success": true
+  },
+  "checker_findings": {
+    "checker_findings_built": true,
+    "failed_check_count": 0,
+    "failed_checks": [],
+    "findings_are_non_authoritative": true,
+    "findings_are_not_command_output_from_live_execution": true,
+    "passed_check_count": 26,
+    "report_statement_reference": {
+      "command_execution_not_authorized": true,
+      "portable_verification_command_report_built": true,
+      "report_is_non_authoritative": true
+    }
+  },
+  "declared_command_report_question": {
+    "command_report_question": "Can a bounded non-authoritative portable source-body verification command report be built from declared reference-shaped evidence without command execution, invocation, output, result, success, authority, currentness, final completion, continuation, or follow-on work?",
+    "command_report_question_declared": true,
+    "command_report_request_id": "portable_source_body_verification_command_report_reference_review_001_corrected"
+  },
+  "declared_evidence_references": {
+    "declared_evidence_references_present": true,
+    "evidence_references": [
+      "reference/IAMMAI/CURRENT_STATE__REPO_ENTRY.md",
+      "reference/IAMMAI/RANKED_SURFACE_INDEX.md",
+      "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_V0_MIN_SPEC.md",
+      "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "spec/ARTIFACT_EMISSION_CONTAINMENT_BOUNDARY_V0_MIN_SPEC.md",
+      "src/portable_source_body_verification_command.py",
+      "tests/test_portable_source_body_verification_command.py"
+    ],
+    "evidence_references_do_not_authorize_execution": true,
+    "evidence_references_do_not_create_authority": true,
+    "evidence_references_do_not_create_currentness": true,
+    "evidence_references_do_not_create_source": true,
+    "reference_shape_only": true
+  },
+  "non_claim_checks": [
+    {
+      "actual_posture": {
+        "another_reception_request_authorized": false,
+        "checksum_implemented": false,
+        "command_authorized_to_run": false,
+        "command_became_authority": false,
+        "command_executed": false,
+        "command_implemented": false,
+        "command_invocation_created": false,
+        "command_output_became_authority": false,
+        "command_output_became_source": false,
+        "command_output_created": false,
+        "command_result_created": false,
+        "command_success_claimed_final_completion": false,
+        "command_success_created": false,
+        "command_success_created_currentness": false,
+        "continuation_authorized": false,
+        "deployment_created": false,
+        "derivative_reception_authorized": false,
+        "final_completion_claimed": false,
+        "follow_on_work_authorized": false,
+        "full_prior_artifacts_embedded": false,
+        "manifest_implemented": false,
+        "operation_permission_created": false,
+        "packet_implemented": false,
+        "prior_artifacts_mutated": false,
+        "public_launch_readiness_created": false,
+        "public_release_created": false,
+        "publication_flow_opened": false,
+        "reusable_permission_created": false,
+        "runtime_hosting_created": false,
+        "signature_implemented": false,
+        "vessel_relation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "declared non-claims present",
+      "expected_posture": "declared_non_claims mapping present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_or_flipped": []
+      },
+      "block_code": null,
+      "check_name": "required non-claims false",
+      "expected_posture": "all required non-claims explicit and false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "command execution not authorized",
+      "expected_posture": "no command execution authorization or execution",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "command invocation not created",
+      "expected_posture": "no command invocation",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "command output not created",
+      "expected_posture": "no command output",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "command result not created",
+      "expected_posture": "no command result",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "command success not created",
+      "expected_posture": "no command success",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "report remains non-authoritative",
+      "expected_posture": "report is not source, authority, or currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "path does not create currentness",
+      "expected_posture": "path and latest-file posture do not create currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "artifact existence does not create currentness",
+      "expected_posture": "artifact existence does not create currentness",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_code": null
+      },
+      "block_code": null,
+      "check_name": "no collapse-shaped overread flags present",
+      "expected_posture": "no command, report, artifact, deployment, currentness, completion, continuation, or follow-on overread flags",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "non_claims": {
+    "account_became_authority": false,
+    "another_reception_request_authorized": false,
+    "artifact_existence_created_currentness": false,
+    "authority_created": false,
+    "carrier_possession_created_currentness": false,
+    "checksum_implemented": false,
+    "command_authorized_to_run": false,
+    "command_became_authority": false,
+    "command_executed": false,
+    "command_implemented": false,
+    "command_invocation_created": false,
+    "command_output_became_authority": false,
+    "command_output_became_source": false,
+    "command_output_created": false,
+    "command_result_created": false,
+    "command_success_claimed_final_completion": false,
+    "command_success_created": false,
+    "command_success_created_currentness": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "environment_state_created_currentness": false,
+    "final_completion_claimed": false,
+    "follow_on_work_authorized": false,
+    "full_prior_artifacts_embedded": false,
+    "latest_file_created_currentness": false,
+    "manifest_implemented": false,
+    "narration_created_currentness": false,
+    "operation_permission_created": false,
+    "os_became_authority": false,
+    "packet_implemented": false,
+    "path_created_currentness": false,
+    "prior_artifacts_mutated": false,
+    "public_launch_readiness_created": false,
+    "public_readiness_created": false,
+    "public_release_created": false,
+    "publication_flow_opened": false,
+    "reception_authorized": false,
+    "report_became_authority": false,
+    "report_became_source": false,
+    "report_created_currentness": false,
+    "repository_copy_became_body": false,
+    "reusable_permission_created": false,
+    "runtime_hosting_created": false,
+    "signature_implemented": false,
+    "source_migrated": false,
+    "source_receipt_recorded": false,
+    "source_received": false,
+    "source_transferred": false,
+    "vendor_environment_became_authority": false,
+    "vessel_relation_authorized": false
+  },
+  "portable_source_body_verification_command_report_metadata": {
+    "generated_at": "2026-05-04T10:52:18.929090Z",
+    "module": "portable_source_body_verification_command",
+    "portable_source_body_verification_command_report_id": "portable_source_body_verification_command_report_reference_review_001_corrected",
+    "portable_source_body_verification_command_report_type": "portable_source_body_verification_command_report",
+    "portable_source_body_verification_command_report_version": "0.1.0"
+  },
+  "portable_source_body_verification_command_summary": {
+    "block_code": null,
+    "block_reason": null,
+    "checker_findings_built": true,
+    "command_execution_not_authorized": true,
+    "command_invocation_not_created": true,
+    "command_output_not_created": true,
+    "command_report_question": "Can a bounded non-authoritative portable source-body verification command report be built from declared reference-shaped evidence without command execution, invocation, output, result, success, authority, currentness, final completion, continuation, or follow-on work?",
+    "command_report_request_id": "portable_source_body_verification_command_report_reference_review_001_corrected",
+    "command_result_not_created": true,
+    "command_success_not_created": true,
+    "failed_check_count": 0,
+    "key_non_claims": {
+      "another_reception_request_authorized": false,
+      "checksum_implemented": false,
+      "command_authorized_to_run": false,
+      "command_became_authority": false,
+      "command_executed": false,
+      "command_implemented": false,
+      "command_invocation_created": false,
+      "command_output_became_authority": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "continuation_authorized": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "full_prior_artifacts_embedded": false,
+      "manifest_implemented": false,
+      "operation_permission_created": false,
+      "packet_implemented": false,
+      "prior_artifacts_mutated": false,
+      "public_launch_readiness_created": false,
+      "public_release_created": false,
+      "publication_flow_opened": false,
+      "reusable_permission_created": false,
+      "runtime_hosting_created": false,
+      "signature_implemented": false,
+      "vessel_relation_authorized": false
+    },
+    "no_artifact_mutation": true,
+    "no_continuation_publication_flow_reusable_permission": true,
+    "no_deployment_runtime_public_release": true,
+    "no_derivative_reception_vessel_relation_another_reception_request_follow_on_work": true,
+    "no_full_prior_artifacts_embedded": true,
+    "no_operation_permission_public_readiness_final_completion": true,
+    "non_claim_checks_passed": true,
+    "passed_check_count": 26,
+    "reference_shape_checks_passed": true,
+    "report_built": true,
+    "report_non_authoritative": true,
+    "status": "PORTABLE_VERIFICATION_COMMAND_REPORT_BUILT"
+  },
+  "reference_shape_checks": [
+    {
+      "actual_posture": "dict",
+      "block_code": null,
+      "check_name": "request is mapping",
+      "expected_posture": "declared command report request is a mapping",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "portable_source_body_verification_command_report_reference_review_001_corrected",
+      "block_code": null,
+      "check_name": "command report request id declared",
+      "expected_posture": "command_report_request_id present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "Can a bounded non-authoritative portable source-body verification command report be built from declared reference-shaped evidence without command execution, invocation, output, result, success, authority, currentness, final completion, continuation, or follow-on work?",
+      "block_code": null,
+      "check_name": "command report question declared",
+      "expected_posture": "command_report_question present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "command implementation-boundary reference present",
+      "expected_posture": "selected_command_implementation_boundary_reference present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "command-boundary reference present",
+      "expected_posture": "selected_command_boundary_reference present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "artifact emission containment reference present",
+      "expected_posture": "selected_artifact_emission_containment_reference present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "evidence-manifest reference present",
+      "expected_posture": "selected_evidence_manifest_reference present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "portable verification reference present",
+      "expected_posture": "selected_portable_verification_reference present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_evidence_references_present": true,
+        "evidence_references": [
+          "reference/IAMMAI/CURRENT_STATE__REPO_ENTRY.md",
+          "reference/IAMMAI/RANKED_SURFACE_INDEX.md",
+          "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_V0_MIN_SPEC.md",
+          "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+          "spec/PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+          "spec/ARTIFACT_EMISSION_CONTAINMENT_BOUNDARY_V0_MIN_SPEC.md",
+          "src/portable_source_body_verification_command.py",
+          "tests/test_portable_source_body_verification_command.py"
+        ],
+        "evidence_references_do_not_authorize_execution": true,
+        "evidence_references_do_not_create_authority": true,
+        "evidence_references_do_not_create_currentness": true,
+        "evidence_references_do_not_create_source": true,
+        "reference_shape_only": true
+      },
+      "block_code": null,
+      "check_name": "declared evidence references present",
+      "expected_posture": "declared_evidence_references present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "command_execution_not_authorized": true,
+        "command_invocation_created": false,
+        "command_output_created": false,
+        "command_result_created": false,
+        "command_success_created": false,
+        "execution_non_authorization_posture_declared": true,
+        "execution_requires_separate_boundary": true
+      },
+      "block_code": null,
+      "check_name": "execution non-authorization posture declared",
+      "expected_posture": "execution_non_authorization_posture present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "all_references_mapping": true,
+        "selected_references_have_no_full_bodies": true
+      },
+      "block_code": null,
+      "check_name": "all selected references are reference-shaped",
+      "expected_posture": "selected references are mappings without full artifact bodies",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "selected_artifact_emission_containment_reference": [],
+        "selected_command_boundary_reference": [],
+        "selected_command_implementation_boundary_reference": [],
+        "selected_evidence_manifest_reference": [],
+        "selected_portable_verification_reference": []
+      },
+      "block_code": null,
+      "check_name": "required selected result fields present",
+      "expected_posture": "selected references include ['selected_result_id', 'selected_result_path', 'selected_result_outcome', 'selected_result_failed_check_count', 'selected_result_passed_check_count', 'selected_result_summary', 'selected_result_non_claims', 'selected_result_basis_reference', 'selected_result_artifact_family', 'selected_result_artifact_size_class']",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "selected_artifact_emission_containment_reference": "ARTIFACT_EMISSION_CONTAINMENT_RECORDED",
+        "selected_command_boundary_reference": "PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_BOUNDARY_RECORDED",
+        "selected_command_implementation_boundary_reference": "PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_BOUNDARY_RECORDED",
+        "selected_evidence_manifest_reference": "PORTABLE_SOURCE_BODY_VERIFICATION_EVIDENCE_MANIFEST_RECORDED",
+        "selected_portable_verification_reference": "PORTABLE_SOURCE_BODY_VERIFICATION_RECORDED"
+      },
+      "block_code": null,
+      "check_name": "expected outcomes declared where supplied",
+      "expected_posture": "selected_result_outcome present on selected references",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "selected_artifact_emission_containment_reference": 0,
+        "selected_command_boundary_reference": 0,
+        "selected_command_implementation_boundary_reference": 0,
+        "selected_evidence_manifest_reference": 0,
+        "selected_portable_verification_reference": 0
+      },
+      "block_code": null,
+      "check_name": "failed check counts are zero where required",
+      "expected_posture": "selected_result_failed_check_count is zero on selected references",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "full_prior_artifact_body_embedded": false
+      },
+      "block_code": null,
+      "check_name": "no full prior artifact body embedded",
+      "expected_posture": "no full prior artifact body keys in selected references or declared evidence",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "report_non_meaning": {
+    "report_built_does_not_mean_command_executed": true,
+    "report_built_does_not_mean_command_invoked": true,
+    "report_built_does_not_mean_command_output_became_authority": true,
+    "report_built_does_not_mean_command_output_became_source": true,
+    "report_built_does_not_mean_command_output_created": true,
+    "report_built_does_not_mean_command_result_created": true,
+    "report_built_does_not_mean_command_success_claimed_final_completion": true,
+    "report_built_does_not_mean_command_success_created": true,
+    "report_built_does_not_mean_command_success_created_currentness": true,
+    "report_built_does_not_mean_continuation_authorized": true,
+    "report_built_does_not_mean_deployment_created": true,
+    "report_built_does_not_mean_follow_on_work_authorized": true,
+    "report_built_does_not_mean_public_release_created": true,
+    "report_built_does_not_mean_report_became_authority": true,
+    "report_built_does_not_mean_report_became_source": true,
+    "report_built_does_not_mean_report_created_currentness": true,
+    "report_built_does_not_mean_runtime_hosting_created": true
+  },
+  "selected_artifact_emission_containment_reference": {
+    "selected_result_artifact_family": "artifact_emission_containment",
+    "selected_result_artifact_size_class": "SMALL_OR_MODERATE",
+    "selected_result_basis_reference": "artifact_emission_containment",
+    "selected_result_failed_check_count": 0,
+    "selected_result_id": "artifact_emission_containment_reference_review_001",
+    "selected_result_non_claims": {
+      "artifact_existence_created_currentness": false,
+      "command_executed": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "path_created_currentness": false,
+      "prior_artifacts_mutated": false
+    },
+    "selected_result_outcome": "ARTIFACT_EMISSION_CONTAINMENT_RECORDED",
+    "selected_result_passed_check_count": 0,
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_artifact_emission_containment_boundary/artifact_emission_containment_reference_review_001__artifact_emission_containment_result.json",
+    "selected_result_summary": {
+      "artifact_size_class": "SMALL_OR_MODERATE",
+      "reference_only": true,
+      "summary_only": true
+    }
+  },
+  "selected_command_boundary_reference": {
+    "selected_result_artifact_family": "portable_source_body_verification_command_boundary",
+    "selected_result_artifact_size_class": "SMALL_OR_MODERATE",
+    "selected_result_basis_reference": "portable_source_body_verification_command_boundary",
+    "selected_result_failed_check_count": 0,
+    "selected_result_id": "portable_source_body_verification_command_boundary_reference_review_001_contained",
+    "selected_result_non_claims": {
+      "artifact_existence_created_currentness": false,
+      "command_executed": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "path_created_currentness": false,
+      "prior_artifacts_mutated": false
+    },
+    "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_BOUNDARY_RECORDED",
+    "selected_result_passed_check_count": 56,
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_command_boundary/portable_source_body_verification_command_boundary_reference_review_001_contained__portable_source_body_verification_command_boundary_result.json",
+    "selected_result_summary": {
+      "artifact_size_class": "SMALL_OR_MODERATE",
+      "reference_only": true,
+      "summary_only": true
+    }
+  },
+  "selected_command_implementation_boundary_reference": {
+    "selected_result_artifact_family": "portable_source_body_verification_command_implementation_boundary",
+    "selected_result_artifact_size_class": "SMALL_OR_MODERATE",
+    "selected_result_basis_reference": "portable_source_body_verification_command_implementation_boundary",
+    "selected_result_failed_check_count": 0,
+    "selected_result_id": "portable_source_body_verification_command_implementation_boundary_reference_review_001",
+    "selected_result_non_claims": {
+      "artifact_existence_created_currentness": false,
+      "command_executed": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "path_created_currentness": false,
+      "prior_artifacts_mutated": false
+    },
+    "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_COMMAND_IMPLEMENTATION_BOUNDARY_RECORDED",
+    "selected_result_passed_check_count": 53,
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_command_implementation_boundary/portable_source_body_verification_command_implementation_boundary_reference_review_001__portable_source_body_verification_command_implementation_boundary_result__portable_source_body_verification_command_implementation_boundary_result.json",
+    "selected_result_summary": {
+      "artifact_size_class": "SMALL_OR_MODERATE",
+      "reference_only": true,
+      "summary_only": true
+    }
+  },
+  "selected_evidence_manifest_reference": {
+    "selected_result_artifact_family": "portable_source_body_verification_evidence_manifest",
+    "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+    "selected_result_basis_reference": "portable_source_body_verification_evidence_manifest",
+    "selected_result_failed_check_count": 0,
+    "selected_result_id": "portable_source_body_verification_evidence_manifest_reference_review_001",
+    "selected_result_non_claims": {
+      "artifact_existence_created_currentness": false,
+      "command_executed": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "path_created_currentness": false,
+      "prior_artifacts_mutated": false
+    },
+    "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_EVIDENCE_MANIFEST_RECORDED",
+    "selected_result_passed_check_count": 0,
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_evidence_manifest_boundary/portable_source_body_verification_evidence_manifest_reference_review_001__portable_source_body_verification_evidence_manifest_result.json",
+    "selected_result_summary": {
+      "artifact_size_class": "HEAVY_OVER_100_MB",
+      "reference_only": true,
+      "summary_only": true
+    }
+  },
+  "selected_portable_verification_reference": {
+    "selected_result_artifact_family": "portable_source_body_verification",
+    "selected_result_artifact_size_class": "HEAVY_OVER_100_MB",
+    "selected_result_basis_reference": "portable_source_body_verification",
+    "selected_result_failed_check_count": 0,
+    "selected_result_id": "portable_source_body_verification_reference_review_001",
+    "selected_result_non_claims": {
+      "artifact_existence_created_currentness": false,
+      "command_executed": false,
+      "command_output_became_source": false,
+      "command_output_created": false,
+      "command_result_created": false,
+      "command_success_claimed_final_completion": false,
+      "command_success_created": false,
+      "command_success_created_currentness": false,
+      "final_completion_claimed": false,
+      "follow_on_work_authorized": false,
+      "path_created_currentness": false,
+      "prior_artifacts_mutated": false
+    },
+    "selected_result_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_RECORDED",
+    "selected_result_passed_check_count": 0,
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_boundary/portable_source_body_verification_reference_review_001__portable_source_body_verification_result.json",
+    "selected_result_summary": {
+      "artifact_size_class": "HEAVY_OVER_100_MB",
+      "reference_only": true,
+      "summary_only": true
+    }
+  },
+  "status": "PORTABLE_VERIFICATION_COMMAND_REPORT_BUILT",
+  "what_remains_open": {
+    "open_items": [
+      "command execution boundary",
+      "command invocation",
+      "command output from live execution",
+      "command result from live execution",
+      "command success",
+      "manifest implementation",
+      "checksum implementation",
+      "signature implementation",
+      "source-body packet implementation",
+      "reproducible environment declaration",
+      "runtime hosting",
+      "deployment",
+      "public release",
+      "source transfer",
+      "source migration",
+      "source receipt",
+      "reception authorization",
+      "derivative reception",
+      "vessel relation",
+      "operation permission",
+      "public readiness",
+      "final completion",
+      "continuation",
+      "publication flow",
+      "reusable permission",
+      "successor reception request",
+      "follow-on work"
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  }
+}

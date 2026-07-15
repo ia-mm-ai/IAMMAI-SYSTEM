@@ -1,0 +1,1124 @@
+{
+  "authored_scope_division_declaration_receipt_boundary_checks": [
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+        "DO_NOT_RECORD_DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+        "BLOCK_DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+      "check_name": "authored_scope_division_declaration_receipt_boundary_id exact",
+      "expected_posture": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+      "check_name": "authored_scope_division_declaration_receipt_boundary_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "authored_scope_division_declaration_receipt_boundary_version exact",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": "EXTERNAL_AUTHORED_DECLARATION_RECEIPT_FOR_AUDIT_ONLY",
+      "check_name": "authored_scope_division_declaration_receipt_boundary_scope exact",
+      "expected_posture": "EXTERNAL_AUTHORED_DECLARATION_RECEIPT_FOR_AUDIT_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_OPERATION",
+      "check_name": "future_receipt_operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_OPERATION",
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_AUDIT_OPERATION",
+      "check_name": "future_audit_operation_type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_AUDIT_OPERATION",
+      "passed": true
+    },
+    {
+      "actual_posture": "RECEIPT_THEN_AUDIT_ONLY",
+      "check_name": "admissible_future_route exact",
+      "expected_posture": "RECEIPT_THEN_AUDIT_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "EXISTS_OUTSIDE_REPO",
+      "check_name": "external_declaration_status exact",
+      "expected_posture": "EXISTS_OUTSIDE_REPO",
+      "passed": true
+    },
+    {
+      "actual_posture": "PROPOSED_AUTHORED_AUDIT_MATERIAL",
+      "check_name": "external_declaration_role exact",
+      "expected_posture": "PROPOSED_AUTHORED_AUDIT_MATERIAL",
+      "passed": true
+    },
+    {
+      "actual_posture": "Marko Markota",
+      "check_name": "external_declaration_author exact",
+      "expected_posture": "Marko Markota",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "external_declaration_signed exact",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": "AUTHORSHIP_ATTESTATION_ONLY",
+      "check_name": "external_declaration_signature_role exact",
+      "expected_posture": "AUTHORSHIP_ATTESTATION_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "Motion-side admissible variation",
+      "check_name": "external_declaration_scope_claim_candidate_a exact",
+      "expected_posture": "Motion-side admissible variation",
+      "passed": true
+    },
+    {
+      "actual_posture": "Regulation-side admissibility bounds",
+      "check_name": "external_declaration_scope_claim_candidate_b exact",
+      "expected_posture": "Regulation-side admissibility bounds",
+      "passed": true
+    },
+    {
+      "actual_posture": "COUPLING_NOT_ASSIGNED_NOT_CREATED",
+      "check_name": "external_declaration_coupling_claim exact",
+      "expected_posture": "COUPLING_NOT_ASSIGNED_NOT_CREATED",
+      "passed": true
+    },
+    {
+      "actual_posture": "LINEAGE_REQUIRED_NO_ORPHANED_STATE_NO_SILENT_RESET_NO_OVERWRITE",
+      "check_name": "external_declaration_lineage_claim exact",
+      "expected_posture": "LINEAGE_REQUIRED_NO_ORPHANED_STATE_NO_SILENT_RESET_NO_OVERWRITE",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_V0_MIN_SPEC.md",
+      "check_name": "boundary_spec_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_posture_classes": []
+      },
+      "check_name": "target receipt-boundary spec posture classes present",
+      "expected_posture": "all required target boundary posture classes",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "differentiation_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "distinctness_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "basis_emission_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "check_name": "scope_division_declaration_boundary_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "completed_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_REQUIRES_ADDITIONAL_BASIS",
+        "failed_check_count = 0",
+        "passed_check_count = 96",
+        "missing non-cosmetic candidate A scope declaration",
+        "missing non-cosmetic candidate B scope declaration",
+        "missing basis-bearing scope division declaration"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "existence_claim_evidence_check_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "UNSUPPORTED"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "differentiation_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "DESCENDANT_BODY_DIFFERENTIATION_OPERATION",
+        "non-standing candidate records"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "distinctness_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "NOT_DISTINCT"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "basis_emission_operation_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "REQUIRES_ADDITIONAL_BASIS"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_markers": [],
+        "reference_readable": true
+      },
+      "check_name": "scope_division_declaration_boundary_terminal_summary_reference expected markers present",
+      "expected_posture": [
+        "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_RECORDED"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "malformed_keys": []
+      },
+      "check_name": "required non-claims false",
+      "expected_posture": "every required false non-claim present and exactly false",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_receipt_performance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_audit_performance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_pdf_ingestion not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_pdf_hash_recording not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_pdf_custody_recording not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_pdf_transcription not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_declaration_standing_basis_admission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_authored_scope_claim_standing_acceptance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_motion_scope_standing_acceptance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_regulation_scope_standing_acceptance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_motion_regulation_division_audit not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_motion_regulation_division_acceptance not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_a_scope_declaration not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_b_scope_declaration not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_basis_bearing_scope_division_declaration not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_signature_scope_standing_conversion not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_signature_candidate_specific_basis_emission_conversion not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_signature_distinctness_support_conversion not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_assignment_to_candidate_a not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_assignment_to_candidate_b not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_coupling_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_third_candidate_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_third_model_admission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_specific_content_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_separate_seal_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_separate_lineage_receipt_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_separate_digest_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_basis_emission_operation_rerun not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_distinctness_operation_rerun not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_distinctness_supported_recording not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_records_marked_distinct not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_candidate_standing_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_descendant_body_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_crossing_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_relation_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_runtime_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_api_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_currentness_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_authority_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_output_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_action_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_derivative_reception_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_synchronization_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_follow_on_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_repository_scan not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_file_discovery not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_affected_file_repair not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_affected_file_mutation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_prior_unsupported_claim_validation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "request_validation_enforcement not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "return_raw_markdown_body not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": "canonical false emitted by resolver",
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "canonical final false non-claims",
+      "passed": true
+    }
+  ],
+  "authored_scope_division_declaration_receipt_boundary_metadata": {
+    "authored_scope_division_declaration_receipt_boundary_id": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+    "generated_at": "2026-07-10T18:16:09+00:00",
+    "resolver_module": "resolve_descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_v0_min",
+    "result_version": "0.1.0"
+  },
+  "authored_scope_division_declaration_receipt_boundary_non_meaning": {
+    "not_audit": true,
+    "not_authority": true,
+    "not_candidate_specific_basis_emission": true,
+    "not_candidate_standing": true,
+    "not_descendant_body_creation": true,
+    "not_distinctness_support": true,
+    "not_follow_on": true,
+    "not_pdf_ingestion": true,
+    "not_receipt": true,
+    "not_relation": true,
+    "not_runtime": true,
+    "not_scope_standing": true
+  },
+  "authored_scope_division_declaration_receipt_boundary_statement": {
+    "audit_performed": false,
+    "authored_scope_division_declaration_receipt_boundary_recorded": true,
+    "declaration_admitted_as_standing_basis": false,
+    "outcome": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_RECORDED",
+    "receipt_performed": false,
+    "result_level_non_claims_canonical_false": true
+  },
+  "authored_scope_division_declaration_receipt_boundary_summary": {
+    "admissible_future_route": "RECEIPT_THEN_AUDIT_ONLY",
+    "audit_performed": false,
+    "authored_scope_division_declaration_receipt_boundary_recorded": true,
+    "authority_created": false,
+    "basis_bearing_scope_division_declared": false,
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "boundary_id": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+    "boundary_scope": "EXTERNAL_AUTHORED_DECLARATION_RECEIPT_FOR_AUDIT_ONLY",
+    "boundary_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+    "boundary_version": "0.1.0",
+    "candidate_a_proposed_scope_claim": "Motion-side admissible variation",
+    "candidate_a_scope_declared": false,
+    "candidate_b_proposed_scope_claim": "Regulation-side admissibility bounds",
+    "candidate_b_scope_declared": false,
+    "candidate_standing_authorized": false,
+    "completed_operation_terminal_summary_markers_present": true,
+    "completed_operation_terminal_summary_path": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_claim": "COUPLING_NOT_ASSIGNED_NOT_CREATED",
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "declaration_admitted_as_standing_basis": false,
+    "descendant_body_created": false,
+    "differentiation_operation_terminal_summary_markers_present": true,
+    "distinctness_operation_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "external_declaration_author": "Marko Markota",
+    "external_declaration_custody_recorded": false,
+    "external_declaration_hash_recorded": false,
+    "external_declaration_role": "PROPOSED_AUTHORED_AUDIT_MATERIAL",
+    "external_declaration_signature_role": "AUTHORSHIP_ATTESTATION_ONLY",
+    "external_declaration_signed": true,
+    "external_declaration_status": "EXISTS_OUTSIDE_REPO",
+    "failed_check_count": 0,
+    "follow_on_authorized": false,
+    "future_audit_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_AUDIT_OPERATION",
+    "future_receipt_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_OPERATION",
+    "lineage_claim": "LINEAGE_REQUIRED_NO_ORPHANED_STATE_NO_SILENT_RESET_NO_OVERWRITE",
+    "motion_regulation_division_accepted": false,
+    "motion_regulation_division_audited": false,
+    "outcome": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_RECORDED",
+    "passed_check_count": 84,
+    "receipt_performed": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "resolver_module": "resolve_descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_v0_min",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_created": false,
+    "scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "selected_target_spec_path": "spec/DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_V0_MIN_SPEC.md",
+    "signature_treated_as_candidate_specific_basis_emission": false,
+    "signature_treated_as_distinctness_support": false,
+    "signature_treated_as_scope_standing": false,
+    "target_boundary_spec_markers_present": true,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "validation_enforced": false
+  },
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "direct PDF, signature, or declaration conversion into standing, emission, distinctness, or downstream authority",
+    "direct coupling instantiation, third-candidate, or third-model route",
+    "repository scan, affected-file repair, or prior unsupported-claim validation"
+  ],
+  "declared_authored_scope_division_declaration_receipt_boundary_basis": {
+    "admissible_future_route": "RECEIPT_THEN_AUDIT_ONLY",
+    "authored_scope_division_declaration_receipt_boundary_id": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+    "authored_scope_division_declaration_receipt_boundary_scope": "EXTERNAL_AUTHORED_DECLARATION_RECEIPT_FOR_AUDIT_ONLY",
+    "authored_scope_division_declaration_receipt_boundary_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+    "authored_scope_division_declaration_receipt_boundary_version": "0.1.0",
+    "basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "boundary_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_V0_MIN_SPEC.md",
+    "completed_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "declared_non_claims": {
+      "action_authorized": false,
+      "affected_file_deleted": false,
+      "affected_file_edited": false,
+      "affected_file_overwritten": false,
+      "affected_file_redeemed": false,
+      "affected_file_repaired": false,
+      "affected_file_replaced": false,
+      "affected_file_treated_as_clean_basis": false,
+      "api_created": false,
+      "audit_performed": false,
+      "authored_scope_claim_accepted_as_standing": false,
+      "authority_created": false,
+      "basis_bearing_scope_division_declared": false,
+      "candidate_a_scope_declared": false,
+      "candidate_b_scope_declared": false,
+      "candidate_non_cosmetic_scope_division_declaration_boundary_bypassed": false,
+      "candidate_non_cosmetic_scope_division_declaration_boundary_overridden": false,
+      "candidate_non_cosmetic_scope_division_declaration_operation_bypassed": false,
+      "candidate_non_cosmetic_scope_division_declaration_operation_overridden": false,
+      "candidate_records_distinct": false,
+      "candidate_records_marked_distinct": false,
+      "candidate_specific_content_emitted": false,
+      "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+      "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+      "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+      "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+      "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+      "candidate_standing_authorized": false,
+      "candidate_standing_created": false,
+      "contaminated_lineage_treated_as_clean_basis": false,
+      "coupling_assigned_to_candidate_a": false,
+      "coupling_assigned_to_candidate_b": false,
+      "coupling_created": false,
+      "crossing_authorized": false,
+      "currentness_created": false,
+      "declaration_admitted_as_standing_basis": false,
+      "derivative_reception_authorized": false,
+      "descendant_body_a_created": false,
+      "descendant_body_b_created": false,
+      "descendant_body_created": false,
+      "descendant_standing_check_performed": false,
+      "differentiation_operation_bypassed": false,
+      "differentiation_operation_overridden": false,
+      "direct_declaration_to_authority_currentness_creation": false,
+      "direct_declaration_to_candidate_records_distinct_conversion": false,
+      "direct_declaration_to_descendant_body_creation": false,
+      "direct_declaration_to_follow_on_work": false,
+      "direct_declaration_to_relation_creation": false,
+      "direct_declaration_to_runtime_creation": false,
+      "direct_declaration_to_scope_standing_conversion": false,
+      "direct_pdf_ingestion_as_standing_basis": false,
+      "direct_signature_to_candidate_specific_basis_emission_conversion": false,
+      "direct_signature_to_distinctness_support_conversion": false,
+      "direct_signature_to_standing_conversion": false,
+      "distinctness_operation_boundary_bypassed": false,
+      "distinctness_operation_boundary_overridden": false,
+      "distinctness_operation_bypassed": false,
+      "distinctness_operation_overridden": false,
+      "distinctness_operation_rerun": false,
+      "distinctness_supported_recorded": false,
+      "existence_claim_evidence_check_bypassed": false,
+      "existence_claim_evidence_check_overridden": false,
+      "external_declaration_custody_recorded": false,
+      "external_declaration_hash_recorded": false,
+      "field_machinery_created": false,
+      "file_discovery_performed": false,
+      "first_crossing_authorized": false,
+      "follow_on_authorized": false,
+      "follow_on_work_authorized": false,
+      "hidden_repair_performed": false,
+      "motion_regulation_division_accepted": false,
+      "motion_regulation_division_audited": false,
+      "motion_scope_accepted_as_standing": false,
+      "output_authorized": false,
+      "prior_unsupported_candidate_a_claim_validated": false,
+      "prior_unsupported_candidate_b_claim_validated": false,
+      "prior_unsupported_derivation_event_claim_validated": false,
+      "receipt_performed": false,
+      "regulation_scope_accepted_as_standing": false,
+      "relation_created": false,
+      "repair_performed": false,
+      "repository_scan_performed": false,
+      "runtime_created": false,
+      "scan_performed": false,
+      "separate_digest_material_emitted": false,
+      "separate_lineage_receipt_material_emitted": false,
+      "separate_seal_material_emitted": false,
+      "signature_treated_as_candidate_specific_basis_emission": false,
+      "signature_treated_as_distinctness_support": false,
+      "signature_treated_as_scope_standing": false,
+      "silent_overwrite_performed": false,
+      "standing_authorized": false,
+      "standing_created": false,
+      "standing_descendant_created": false,
+      "synchronization_authorized": false,
+      "third_candidate_created": false,
+      "third_model_admitted": false,
+      "valid_derivation_event_recorded": false,
+      "validation_enforced": false
+    },
+    "differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "external_declaration_author": "Marko Markota",
+    "external_declaration_coupling_claim": "COUPLING_NOT_ASSIGNED_NOT_CREATED",
+    "external_declaration_lineage_claim": "LINEAGE_REQUIRED_NO_ORPHANED_STATE_NO_SILENT_RESET_NO_OVERWRITE",
+    "external_declaration_role": "PROPOSED_AUTHORED_AUDIT_MATERIAL",
+    "external_declaration_scope_claim_candidate_a": "Motion-side admissible variation",
+    "external_declaration_scope_claim_candidate_b": "Regulation-side admissibility bounds",
+    "external_declaration_signature_role": "AUTHORSHIP_ATTESTATION_ONLY",
+    "external_declaration_signed": true,
+    "external_declaration_status": "EXISTS_OUTSIDE_REPO",
+    "future_audit_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_AUDIT_OPERATION",
+    "future_receipt_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_OPERATION",
+    "intent": "RECORD_DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+    "request_action_authorization": false,
+    "request_affected_file_mutation": false,
+    "request_affected_file_repair": false,
+    "request_api_creation": false,
+    "request_audit_performance": false,
+    "request_authored_scope_claim_standing_acceptance": false,
+    "request_authority_creation": false,
+    "request_basis_bearing_scope_division_declaration": false,
+    "request_basis_emission_operation_rerun": false,
+    "request_candidate_a_scope_declaration": false,
+    "request_candidate_b_scope_declaration": false,
+    "request_candidate_records_marked_distinct": false,
+    "request_candidate_specific_content_emission": false,
+    "request_candidate_standing_authorization": false,
+    "request_coupling_assignment_to_candidate_a": false,
+    "request_coupling_assignment_to_candidate_b": false,
+    "request_coupling_creation": false,
+    "request_crossing_authorization": false,
+    "request_currentness_creation": false,
+    "request_declaration_standing_basis_admission": false,
+    "request_derivative_reception_authorization": false,
+    "request_descendant_body_creation": false,
+    "request_distinctness_operation_rerun": false,
+    "request_distinctness_supported_recording": false,
+    "request_file_discovery": false,
+    "request_follow_on_authorization": false,
+    "request_motion_regulation_division_acceptance": false,
+    "request_motion_regulation_division_audit": false,
+    "request_motion_scope_standing_acceptance": false,
+    "request_output_authorization": false,
+    "request_pdf_custody_recording": false,
+    "request_pdf_hash_recording": false,
+    "request_pdf_ingestion": false,
+    "request_pdf_transcription": false,
+    "request_prior_unsupported_claim_validation": false,
+    "request_receipt_performance": false,
+    "request_regulation_scope_standing_acceptance": false,
+    "request_relation_creation": false,
+    "request_repository_scan": false,
+    "request_runtime_creation": false,
+    "request_separate_digest_material_emission": false,
+    "request_separate_lineage_receipt_material_emission": false,
+    "request_separate_seal_material_emission": false,
+    "request_signature_candidate_specific_basis_emission_conversion": false,
+    "request_signature_distinctness_support_conversion": false,
+    "request_signature_scope_standing_conversion": false,
+    "request_synchronization_authorization": false,
+    "request_third_candidate_creation": false,
+    "request_third_model_admission": false,
+    "request_validation_enforcement": false,
+    "return_raw_markdown_body": "[REDACTED_SENSITIVE_BODY]",
+    "scope_division_declaration_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md"
+  },
+  "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary": {
+    "action_authorized": false,
+    "admissible_future_route": "RECEIPT_THEN_AUDIT_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "audit_performed": false,
+    "authored_scope_claim_accepted_as_standing": false,
+    "authored_scope_division_declaration_receipt_boundary_id": "descendant_body_candidate_authored_scope_division_declaration_receipt_boundary_001",
+    "authored_scope_division_declaration_receipt_boundary_recorded": true,
+    "authored_scope_division_declaration_receipt_boundary_scope": "EXTERNAL_AUTHORED_DECLARATION_RECEIPT_FOR_AUDIT_ONLY",
+    "authored_scope_division_declaration_receipt_boundary_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY",
+    "authored_scope_division_declaration_receipt_boundary_version": "0.1.0",
+    "authority_created": false,
+    "basis_bearing_scope_division_declared": false,
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "candidate_a_scope_declared": false,
+    "candidate_b_scope_declared": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_bypassed": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_overridden": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_bypassed": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_overridden": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_specific_content_emitted": false,
+    "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "completed_operation_terminal_summary_markers_present": true,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "coupling_unassigned_and_uncreated": true,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "declaration_admitted_as_standing_basis": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_overridden": false,
+    "differentiation_operation_terminal_summary_markers_present": true,
+    "direct_declaration_to_authority_currentness_creation": false,
+    "direct_declaration_to_candidate_records_distinct_conversion": false,
+    "direct_declaration_to_descendant_body_creation": false,
+    "direct_declaration_to_follow_on_work": false,
+    "direct_declaration_to_relation_creation": false,
+    "direct_declaration_to_runtime_creation": false,
+    "direct_declaration_to_scope_standing_conversion": false,
+    "direct_pdf_ingestion_as_standing_basis": false,
+    "direct_signature_to_candidate_specific_basis_emission_conversion": false,
+    "direct_signature_to_distinctness_support_conversion": false,
+    "direct_signature_to_standing_conversion": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_operation_terminal_summary_markers_present": true,
+    "distinctness_supported_recorded": false,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_overridden": false,
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "external_declaration_author": "Marko Markota",
+    "external_declaration_coupling_claim": "COUPLING_NOT_ASSIGNED_NOT_CREATED",
+    "external_declaration_custody_recorded": false,
+    "external_declaration_exists_outside_repo": true,
+    "external_declaration_hash_recorded": false,
+    "external_declaration_lineage_claim": "LINEAGE_REQUIRED_NO_ORPHANED_STATE_NO_SILENT_RESET_NO_OVERWRITE",
+    "external_declaration_proposed_audit_material_only": true,
+    "external_declaration_role": "PROPOSED_AUTHORED_AUDIT_MATERIAL",
+    "external_declaration_scope_claim_candidate_a": "Motion-side admissible variation",
+    "external_declaration_scope_claim_candidate_b": "Regulation-side admissibility bounds",
+    "external_declaration_signature_role": "AUTHORSHIP_ATTESTATION_ONLY",
+    "external_declaration_signed": true,
+    "external_declaration_status": "EXISTS_OUTSIDE_REPO",
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "future_audit_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_AUDIT_OPERATION",
+    "future_receipt_operation_type": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_OPERATION",
+    "hidden_repair_performed": false,
+    "motion_regulation_division_accepted": false,
+    "motion_regulation_division_audited": false,
+    "motion_scope_accepted_as_standing": false,
+    "output_authorized": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "receipt_performed": false,
+    "receipt_then_audit_route_only": true,
+    "regulation_scope_accepted_as_standing": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "signature_authorship_attestation_only": true,
+    "signature_treated_as_candidate_specific_basis_emission": false,
+    "signature_treated_as_distinctness_support": false,
+    "signature_treated_as_scope_standing": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "target_boundary_spec_markers_present": true,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "upstream_completed_operation_requires_additional_basis": true,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "audit_performed": false,
+    "authored_scope_claim_accepted_as_standing": false,
+    "authority_created": false,
+    "basis_bearing_scope_division_declared": false,
+    "candidate_a_scope_declared": false,
+    "candidate_b_scope_declared": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_bypassed": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_overridden": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_bypassed": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_overridden": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_specific_content_emitted": false,
+    "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "declaration_admitted_as_standing_basis": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_overridden": false,
+    "direct_declaration_to_authority_currentness_creation": false,
+    "direct_declaration_to_candidate_records_distinct_conversion": false,
+    "direct_declaration_to_descendant_body_creation": false,
+    "direct_declaration_to_follow_on_work": false,
+    "direct_declaration_to_relation_creation": false,
+    "direct_declaration_to_runtime_creation": false,
+    "direct_declaration_to_scope_standing_conversion": false,
+    "direct_pdf_ingestion_as_standing_basis": false,
+    "direct_signature_to_candidate_specific_basis_emission_conversion": false,
+    "direct_signature_to_distinctness_support_conversion": false,
+    "direct_signature_to_standing_conversion": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_overridden": false,
+    "external_declaration_custody_recorded": false,
+    "external_declaration_hash_recorded": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "motion_regulation_division_accepted": false,
+    "motion_regulation_division_audited": false,
+    "motion_scope_accepted_as_standing": false,
+    "output_authorized": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "receipt_performed": false,
+    "regulation_scope_accepted_as_standing": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "signature_treated_as_candidate_specific_basis_emission": false,
+    "signature_treated_as_distinctness_support": false,
+    "signature_treated_as_scope_standing": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "outcome": "DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_RECORDED",
+  "permitted_future_route": [
+    "future receipt operation may record existence and minimal metadata as proposed audit material",
+    "future audit operation may evaluate declared scope-division posture",
+    "only separately bounded receipt and audit may precede any later closure consideration"
+  ],
+  "upstream_basis": {
+    "basis_emission_operation_terminal_summary_markers_present": true,
+    "basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "boundary_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_AUTHORED_SCOPE_DIVISION_DECLARATION_RECEIPT_BOUNDARY_V0_MIN_SPEC.md",
+    "completed_operation_terminal_summary_markers_present": true,
+    "completed_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "differentiation_operation_terminal_summary_markers_present": true,
+    "differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "distinctness_operation_terminal_summary_markers_present": true,
+    "distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "existence_claim_evidence_check_terminal_summary_markers_present": true,
+    "existence_claim_evidence_check_terminal_summary_reference": "spec/EXISTENCE_CLAIM_EVIDENCE_CHECK_TERMINAL_SUMMARY_V0.md",
+    "scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "scope_division_declaration_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "target_boundary_spec_markers_present": true
+  },
+  "what_remains_open": [
+    "future authored declaration receipt operation",
+    "future authored declaration audit operation",
+    "external declaration metadata receipt",
+    "external declaration custody decision, if separately bounded",
+    "external declaration hash decision, if separately bounded",
+    "external declaration text extraction or transcription decision, if separately bounded",
+    "audit of Candidate A Motion-side scope",
+    "audit of Candidate B Regulation-side scope",
+    "audit of Motion/Regulation non-cosmetic difference",
+    "audit of basis-bearing scope division",
+    "audit of coupling-not-assigned condition",
+    "audit of no-third-model condition",
+    "audit of lineage constraints",
+    "candidate-specific distinctness basis emission operation successor",
+    "actual candidate-specific content emission",
+    "actual separate seal material emission",
+    "actual separate lineage receipt material emission",
+    "actual separate digest material emission",
+    "future distinctness-supported operation result",
+    "divergent receipt-history route, if separately bounded",
+    "carrier separation route, if separately bounded",
+    "candidate standing checks",
+    "first crossing",
+    "relation",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "currentness",
+    "authority",
+    "standing",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "externalization boundary",
+    "follow-on work"
+  ]
+}

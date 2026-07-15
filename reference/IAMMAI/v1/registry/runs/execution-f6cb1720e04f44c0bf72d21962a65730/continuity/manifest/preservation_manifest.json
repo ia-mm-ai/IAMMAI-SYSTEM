@@ -1,0 +1,37 @@
+{
+  "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+  "continuity_run_directory": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity",
+  "continuity_turn_identity": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+  "execution_identity": "execution-f6cb1720e04f44c0bf72d21962a65730",
+  "implementation_posture": "implementation_local_layout_only",
+  "manifest_type": "v1_second_continuity_preservation_manifest",
+  "note": "This local continuity layout is a bounded implementation surface, not final protocol law.",
+  "predecessor_source_run_ref": "v1/registry/runs/execution-717a6994f03d4be08e17cd776b597576",
+  "predecessor_turn_ref": "continuity-turn-da182ec5bbb24dbb9860aeb4c60755c3",
+  "preservation_identity": "preservation-9ffbfb81ee83451eb904abb63e966e54",
+  "written_files": {
+    "conformance": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/body/negative/successor_without_anchor_continuity_turn.json",
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/body/positive/continuity_turn.json",
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/conformance/preservation/run_write_outcome.json"
+    ],
+    "continuity_body": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/canonical_body/positive/continuity_turn.body.json"
+    ],
+    "execution_relation": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/execution_relation/positive/continuity_execution_relation.json"
+    ],
+    "negative_fixtures": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json",
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/fixture_outputs/negative/classification.json"
+    ],
+    "source_notes": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/source_notes/anchor_source_note.json",
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/source_notes/predecessor_source_note.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730/continuity/run_summary/run_summary.json"
+    ]
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:iammai:schema:witness_artifact",
+  "title": "IAMMAI Witness Artifact",
+  "description": "First bounded schema for witness artifacts that preserve contact as trace without becoming semantic source, governance force, or authorship.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "witness_id",
+    "witness_type",
+    "target_ref",
+    "observed_at",
+    "claims",
+    "non_claims"
+  ],
+  "properties": {
+    "witness_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Stable identifier for the witness artifact."
+    },
+    "witness_type": {
+      "type": "string",
+      "enum": [
+        "interaction_witness",
+        "validation_witness",
+        "transition_witness",
+        "publication_witness",
+        "state_observation_witness"
+      ],
+      "description": "Bounded witness type."
+    },
+    "target_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Reference to the target matter, state, artifact, or interaction the witness preserves."
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Time at which the witnessed contact or observation occurred."
+    },
+    "claims": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "contact_occurred",
+          "observation_occurred",
+          "registration_occurred",
+          "bounded_interaction_preserved",
+          "validation_event_observed",
+          "transition_relevant_event_observed"
+        ]
+      },
+      "description": "Bounded claims about preserved contact or occurrence."
+    },
+    "non_claims": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "not_authorship",
+          "not_semantic_source",
+          "not_final_authority",
+          "not_automatic_truth_creation",
+          "not_governance_force"
+        ]
+      },
+      "description": "Explicit non-claims that keep the witness bounded."
+    },
+    "actor_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to the actor associated with the witnessed contact."
+    },
+    "surface_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to the surface on which the witnessed contact occurred."
+    },
+    "scope_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional bounded scope reference for the witnessed contact."
+    },
+    "related_validation_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related validation artifact."
+    },
+    "related_transition_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related transition record."
+    },
+    "related_governance_action_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Optional reference to a related governance action record."
+    }
+  },
+  "allOf": [
+    {
+      "properties": {
+        "non_claims": {
+          "contains": {
+            "const": "not_authorship"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "non_claims": {
+          "contains": {
+            "const": "not_semantic_source"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "non_claims": {
+          "contains": {
+            "const": "not_final_authority"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "non_claims": {
+          "contains": {
+            "const": "not_automatic_truth_creation"
+          }
+        }
+      }
+    },
+    {
+      "properties": {
+        "non_claims": {
+          "contains": {
+            "const": "not_governance_force"
+          }
+        }
+      }
+    }
+  ]
+}

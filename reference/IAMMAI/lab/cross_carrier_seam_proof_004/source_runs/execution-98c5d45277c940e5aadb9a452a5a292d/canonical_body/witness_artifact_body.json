@@ -1,0 +1,20 @@
+{
+  "witness_id": "witness-0656be7f96e94d7db667fa3f6b4a6883",
+  "witness_type": "transition_witness",
+  "target_ref": "matter-1ff7127523634a61a6dc7ae04e244a32",
+  "observed_at": "2026-04-04T16:39:26Z",
+  "claims": [
+    "transition_relevant_event_observed",
+    "bounded_interaction_preserved"
+  ],
+  "non_claims": [
+    "not_authorship",
+    "not_semantic_source",
+    "not_final_authority",
+    "not_automatic_truth_creation",
+    "not_governance_force"
+  ],
+  "actor_ref": "source-side-carrier",
+  "surface_ref": "lab:cross_carrier_seam_proof_004:source_release",
+  "scope_ref": "cross_carrier_seam_proof_004"
+}

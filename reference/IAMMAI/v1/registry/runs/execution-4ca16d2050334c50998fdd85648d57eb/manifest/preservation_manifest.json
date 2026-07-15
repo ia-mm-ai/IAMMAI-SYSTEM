@@ -1,0 +1,163 @@
+{
+  "continuity_emitted": false,
+  "execution_identity": "execution-4ca16d2050334c50998fdd85648d57eb",
+  "execution_run_directory": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb",
+  "implementation_posture": "implementation_local_layout_only",
+  "layer_roots": {
+    "canonical_body": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body",
+    "conformance": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance",
+    "envelope": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope",
+    "execution_relation": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/execution_relation",
+    "fixtures": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/fixture_outputs",
+    "manifest": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/manifest",
+    "source_notes": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/source_notes",
+    "summary": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/run_summary"
+  },
+  "layout_kind": "ordinary",
+  "manifest_type": "v1_third_proof_slice_preservation_manifest",
+  "matter_identity": "matter-25e3d706a71c480a935ecac8f0221c52",
+  "naming_posture": "implementation_local_default",
+  "note": "This local preservation layout is an implementation-local default, not final protocol law.",
+  "preservation_result_ref": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/preservation/run_write_outcome.json",
+  "run_directory": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb",
+  "summary_ref": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/run_summary/run_summary.json",
+  "written_by_layer": {
+    "canonical_body": [
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/governance_action.body.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/state_record.body.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/transition_record.body.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/validation_artifact.body.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/witness_artifact.body.json"
+    ],
+    "conformance": [
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/negative/invalid_validation_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/governance_action.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/state_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/transition_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/validation_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/witness_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/governance_action.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/state_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/transition_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/validation_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/witness_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/preservation/run_write_outcome.json"
+    ],
+    "envelope": [
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/governance_action.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/state_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/transition_record.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/validation_artifact.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/witness_artifact.json"
+    ],
+    "fixtures": [
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/fixture_outputs/negative/body/invalid_validation_artifact.body.json",
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/fixture_outputs/negative/classification.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/run_summary/run_summary.json"
+    ]
+  },
+  "written_outputs": [
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/governance_action.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/state_record.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/transition_record.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/validation_artifact.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/witness_artifact.body.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/negative/invalid_validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/governance_action.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/state_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/transition_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/body/positive/witness_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/governance_action.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/state_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/transition_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/envelope/positive/witness_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/conformance/preservation/run_write_outcome.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/governance_action.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/state_record.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/transition_record.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/validation_artifact.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/envelope/positive/witness_artifact.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/fixture_outputs/negative/body/invalid_validation_artifact.body.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/fixture_outputs/negative/classification.json"
+    },
+    {
+      "layer": "summary",
+      "path": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/run_summary/run_summary.json"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_002",
+  "mode": "release",
+  "execution_id": "execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+  "generated_at": "2026-04-03T18:49:21Z",
+  "run_directory": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+  "artifact_family": "witness_artifact",
+  "source_carrier_label": "source-side-carrier",
+  "canonical_witness_id": "witness-64c99575691e430aa81ed62b64c90576",
+  "source_remains_source": true,
+  "shared_authority": false,
+  "standing_transferred": false,
+  "canonical_body_schema_valid": true,
+  "package_valid": true,
+  "technical_receipt_not_equal_lawful_ingress": true,
+  "expected_clean_ingress_outcome": "lawful_derivative_ingress",
+  "expected_contaminated_ingress_outcome": "contaminated_parser_non_passage",
+  "package_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/package/transfer_package.json",
+  "identity_generation_mode": "repo_helper",
+  "note": "Bounded source-side release summary only. The same valid package is intended for clean-ingress and contaminated-parser reading without silent authority transfer."
+}

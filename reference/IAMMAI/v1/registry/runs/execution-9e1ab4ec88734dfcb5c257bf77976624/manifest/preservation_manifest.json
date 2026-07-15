@@ -1,0 +1,165 @@
+{
+  "continuity_emitted": false,
+  "execution_identity": "execution-9e1ab4ec88734dfcb5c257bf77976624",
+  "execution_run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+  "implementation_posture": "implementation_local_layout_only",
+  "layer_roots": {
+    "canonical_body": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body",
+    "conformance": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance",
+    "envelope": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope",
+    "execution_relation": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/execution_relation",
+    "fixtures": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs",
+    "manifest": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/manifest",
+    "source_notes": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/source_notes",
+    "summary": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary"
+  },
+  "layout_kind": "ordinary",
+  "manifest_identity": "manifest-fb3813d4c08d4f63b2854fac9aabb4ac",
+  "manifest_type": "v1_fourth_proof_slice_preservation_manifest",
+  "matter_identity": "matter-e70f5dc0b1e94b6dbc37e9d347a591bc",
+  "naming_posture": "implementation_local_default",
+  "note": "This local preservation layout is an implementation-local default, not final protocol law.",
+  "preservation_identity": "preservation-8f0b534fbd7b4574ba815e2605c3b3ea",
+  "preservation_result_ref": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/preservation/run_write_outcome.json",
+  "run_directory": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624",
+  "summary_ref": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary/run_summary.json",
+  "written_by_layer": {
+    "canonical_body": [
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/governance_action.body.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/state_record.body.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/transition_record.body.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/validation_artifact.body.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/witness_artifact.body.json"
+    ],
+    "conformance": [
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/negative/invalid_validation_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/governance_action.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/state_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/transition_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/validation_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/witness_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/governance_action.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/state_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/transition_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/validation_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/witness_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/preservation/run_write_outcome.json"
+    ],
+    "envelope": [
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/governance_action.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/state_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/transition_record.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/validation_artifact.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/witness_artifact.json"
+    ],
+    "fixtures": [
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs/negative/body/invalid_validation_artifact.body.json",
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs/negative/classification.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary/run_summary.json"
+    ]
+  },
+  "written_outputs": [
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/governance_action.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/state_record.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/transition_record.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/validation_artifact.body.json"
+    },
+    {
+      "layer": "canonical_body",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/canonical_body/witness_artifact.body.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/negative/invalid_validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/governance_action.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/state_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/transition_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/body/positive/witness_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/governance_action.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/state_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/transition_record.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/validation_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/envelope/positive/witness_artifact.json"
+    },
+    {
+      "layer": "conformance",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/conformance/preservation/run_write_outcome.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/governance_action.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/state_record.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/transition_record.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/validation_artifact.json"
+    },
+    {
+      "layer": "envelope",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/envelope/positive/witness_artifact.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs/negative/body/invalid_validation_artifact.body.json"
+    },
+    {
+      "layer": "fixtures",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/fixture_outputs/negative/classification.json"
+    },
+    {
+      "layer": "summary",
+      "path": "v1/registry/runs/execution-9e1ab4ec88734dfcb5c257bf77976624/run_summary/run_summary.json"
+    }
+  ]
+}

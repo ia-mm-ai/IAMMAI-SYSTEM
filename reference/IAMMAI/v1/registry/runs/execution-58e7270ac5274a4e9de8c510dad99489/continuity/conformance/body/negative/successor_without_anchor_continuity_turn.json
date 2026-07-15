@@ -1,0 +1,21 @@
+{
+  "artifact_family": "continuity_turn",
+  "body_ref": "v1/registry/runs/execution-58e7270ac5274a4e9de8c510dad99489/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json",
+  "checked_at": "2026-04-01T23:27:19Z",
+  "errors": [
+    {
+      "instance_path": [],
+      "message": "{'turn_id': 'continuity-turn-82379b946e824c9cb6f7b9a5a1f4a2d7', 'matter_ref': 'matter-3ce8d00d4a614161a2fec07aeb4ff282', 'recorded_at': '2026-04-01T23:27:19Z', 'predecessor_turn_ref': 'continuity-turn-c57057fad48b434688ea85085a6fe305'} is not valid under any of the given schemas",
+      "schema_path": [
+        "anyOf"
+      ],
+      "validator": "anyOf"
+    }
+  ],
+  "expected_status": "fail",
+  "fixture_classification": "conformance_failure",
+  "matched_expectation": true,
+  "schema_ref": "v1/schemas/continuity_turn.schema.json",
+  "status": "fail",
+  "surface": "continuity_body_conformance"
+}

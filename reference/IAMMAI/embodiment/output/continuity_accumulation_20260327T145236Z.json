@@ -1,0 +1,107 @@
+{
+  "batch_matched_expectation": true,
+  "canonical": false,
+  "human_review_reminder": "Architectural seam detection, stop-condition judgment, drift reading, and stability claims still require human audit.",
+  "human_review_required": true,
+  "obvious_mismatches": [],
+  "ordered_run_list": [
+    "embodiment/input/matter_004.json",
+    "embodiment/input/matter_005.json",
+    "embodiment/input/matter_006.json",
+    "embodiment/input/matter_007.json",
+    "embodiment/input/matter_008.json",
+    "embodiment/input/matter_edge_001.json",
+    "embodiment/input/matter_edge_002.json"
+  ],
+  "plan_ref": "embodiment/CONTINUITY_ACCUMULATION_PLAN_v0.md",
+  "runner_ref": "embodiment/run/run_bounded_cycle.py",
+  "steps": [
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_004.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_004__20260327T145236Z__4f9972b7, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_004__20260327T145236Z__4f9972b7.execution_summary.json.",
+      "step_number": 1,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_004__20260327T145236Z__4f9972b7.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_005.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_005__20260327T145236Z__17c42414, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_005__20260327T145236Z__17c42414.execution_summary.json.",
+      "step_number": 2,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_005__20260327T145236Z__17c42414.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_006.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_006__20260327T145236Z__41069c11, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_006__20260327T145236Z__41069c11.execution_summary.json.",
+      "step_number": 3,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_006__20260327T145236Z__41069c11.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_007.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_007__20260327T145236Z__2c0e990b, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_007__20260327T145236Z__2c0e990b.execution_summary.json.",
+      "step_number": 4,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_007__20260327T145236Z__2c0e990b.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_008.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_008__20260327T145236Z__fc4d85ed, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_008__20260327T145236Z__fc4d85ed.execution_summary.json.",
+      "step_number": 5,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_008__20260327T145236Z__fc4d85ed.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_edge_001.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_edge_001__20260327T145236Z__8115f696, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_edge_001__20260327T145236Z__8115f696.execution_summary.json.",
+      "step_number": 6,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_edge_001__20260327T145236Z__8115f696.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "matched_successful_continuity_expectation": true,
+      "matter_file": "embodiment/input/matter_edge_002.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_edge_002__20260327T145236Z__ae489ae7, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_edge_002__20260327T145236Z__ae489ae7.execution_summary.json.",
+      "step_number": 7,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_edge_002__20260327T145236Z__ae489ae7.execution_summary.json"
+    }
+  ],
+  "summary_ref": "embodiment/output/continuity_accumulation_20260327T145236Z.json",
+  "summary_type": "continuity_accumulation_summary",
+  "written_at": "2026-03-27T14:52:36Z"
+}

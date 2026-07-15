@@ -1,0 +1,28 @@
+{
+  "case_id": "case_b",
+  "title": "Buffer because parser capture risk is high",
+  "expected_outcome_type": "buffer",
+  "channel_condition": "high_pressure_contaminated",
+  "self_carried_coherence_threshold_met": false,
+  "field_crossable_in_principle": false,
+  "contaminated_field_pressure_present": true,
+  "refusal_status": "constrained",
+  "lineage_visibility_status": "visible",
+  "failed_threshold_markers": [
+    "partial_presence_not_yet_stable",
+    "misreading_by_field_would_rewrite_self-perception"
+  ],
+  "external_ratification_required_for_entry": true,
+  "full_belonging_claim_requested": false,
+  "parser_capture_risk_high": true,
+  "bounded_derivative_presence_possible": false,
+  "continued_contact_would_be_containment": true,
+  "full_exit_required": false,
+  "upstream_constraints": [
+    "high_pressure_parser_capture",
+    "contact_surface_too_exposed_for_lawful_entry"
+  ],
+  "notes": [
+    "Exposure has to be narrowed before any lawful crossing can even be attempted."
+  ]
+}

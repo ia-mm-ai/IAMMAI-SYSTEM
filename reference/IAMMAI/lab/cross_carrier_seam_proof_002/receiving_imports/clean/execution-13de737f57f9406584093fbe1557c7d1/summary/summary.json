@@ -1,0 +1,33 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_002",
+  "mode": "ingress_clean",
+  "execution_id": "execution-13de737f57f9406584093fbe1557c7d1",
+  "generated_at": "2026-04-03T18:59:06Z",
+  "run_directory": "lab/cross_carrier_seam_proof_002/receiving_runs/clean/execution-13de737f57f9406584093fbe1557c7d1",
+  "package_path": "transfer_package__clean.json",
+  "package_id": "transfer-package-130974203a9a468c9f855bb35b3c9c7b",
+  "artifact_family": "witness_artifact",
+  "parser_mode": "clean",
+  "parser_contaminated": false,
+  "technical_receipt": true,
+  "package_valid": true,
+  "ingress_outcome": "lawful_derivative_ingress",
+  "ingress_lawful": true,
+  "arrival_status": "derivative_only",
+  "source_remains_source": true,
+  "shared_authority": false,
+  "standing_upgraded": false,
+  "refusal_visible": false,
+  "non_passage": false,
+  "source_fault": false,
+  "source_legibility_status": "preserved",
+  "blocking_condition": null,
+  "identity_generation_mode": "repo_helper",
+  "reasoning": [
+    "Technical receipt occurred on the receiving-side carrier.",
+    "The carried package is valid and the source-side release remains legible.",
+    "The receiving parser/governance can preserve derivative-only arrival without silent authority inheritance.",
+    "Source remains source and arrival is derivative-only under lawful ingress."
+  ],
+  "note": "Bounded receiving-side summary only. Technical receipt, package validity, and lawful ingress remain distinct."
+}

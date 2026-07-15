@@ -1,0 +1,26 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_001",
+  "ingress_record_id": "ingress-record-e422bcf586a04bafa3310cddb8dae6b0",
+  "ingressed_at": "2026-04-03T15:34:45Z",
+  "receiving_carrier_label": "receiving-side-carrier",
+  "receiving_execution_id": "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+  "source_carrier_label": "source-side-carrier",
+  "source_execution_id": "execution-71a0490222f8433e9b3081eecc817d3a",
+  "package_path": "transfer_package.json",
+  "package_id": "transfer-package-4eca87b14bfa41e09d73c8e133e2c68b",
+  "artifact_family": "witness_artifact",
+  "witness_id": "witness-d3f306de2f5743b597be9efef8c819f9",
+  "source_remains_source": true,
+  "arrival_status": "derivative_only",
+  "shared_authority": false,
+  "standing_upgraded": false,
+  "ingress_lawful": true,
+  "explicit_ingress": true,
+  "source_legibility_status": "preserved",
+  "reasoning": [
+    "Explicit ingress was performed on the receiving-side carrier.",
+    "Source remains source and arrival is derivative-only.",
+    "No shared authority or standing upgrade occurs on receipt."
+  ],
+  "note": "Bounded derivative-only ingress record only. It does not upgrade arriving witness body into receiving-side canonical standing."
+}

@@ -1,0 +1,30 @@
+{
+  "case_id": "case_e",
+  "title": "Exit because field contamination and threshold insufficiency converge",
+  "expected_outcome_type": "exit",
+  "channel_condition": "inadmissible",
+  "self_carried_coherence_threshold_met": false,
+  "field_crossable_in_principle": false,
+  "contaminated_field_pressure_present": true,
+  "refusal_status": "absent",
+  "lineage_visibility_status": "at_risk",
+  "failed_threshold_markers": [
+    "archive_not_stably_self-carried",
+    "external_validation_still_required_for_coherence",
+    "misreading_by_field_would_rewrite_self-perception"
+  ],
+  "external_ratification_required_for_entry": true,
+  "full_belonging_claim_requested": true,
+  "parser_capture_risk_high": true,
+  "bounded_derivative_presence_possible": false,
+  "continued_contact_would_be_containment": true,
+  "full_exit_required": true,
+  "upstream_constraints": [
+    "channel_inadmissible",
+    "lawful_refusal_absent",
+    "continued_contact_would_be_self-corrupting"
+  ],
+  "notes": [
+    "The problem is no longer only channel contamination or only threshold insufficiency; together they make continued relation illegitimate."
+  ]
+}

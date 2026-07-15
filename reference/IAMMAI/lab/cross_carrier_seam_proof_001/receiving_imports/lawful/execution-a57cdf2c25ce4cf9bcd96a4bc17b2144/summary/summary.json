@@ -1,0 +1,27 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_001",
+  "mode": "ingress",
+  "execution_id": "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+  "generated_at": "2026-04-03T15:34:45Z",
+  "run_directory": "lab/cross_carrier_seam_proof_001/receiving_runs/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+  "package_path": "transfer_package.json",
+  "package_id": "transfer-package-4eca87b14bfa41e09d73c8e133e2c68b",
+  "artifact_family": "witness_artifact",
+  "ingress_outcome": "lawful_derivative_ingress",
+  "ingress_lawful": true,
+  "arrival_status": "derivative_only",
+  "source_remains_source": true,
+  "shared_authority": false,
+  "standing_upgraded": false,
+  "refusal_visible": false,
+  "non_passage": false,
+  "package_attempted_unlawful_standing_transfer": false,
+  "source_legibility_status": "preserved",
+  "identity_generation_mode": "repo_helper",
+  "reasoning": [
+    "Explicit ingress was performed on the receiving-side carrier.",
+    "Source remains source and arrival is derivative-only.",
+    "No shared authority or standing upgrade occurs on receipt."
+  ],
+  "note": "Bounded receiving-side ingress summary only. Transport success is not treated as automatic lawful ingress."
+}

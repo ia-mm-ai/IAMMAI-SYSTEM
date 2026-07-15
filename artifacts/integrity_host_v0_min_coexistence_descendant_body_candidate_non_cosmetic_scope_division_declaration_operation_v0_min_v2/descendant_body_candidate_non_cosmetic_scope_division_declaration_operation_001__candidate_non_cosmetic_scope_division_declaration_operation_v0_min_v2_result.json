@@ -1,0 +1,1079 @@
+{
+  "additional_basis_required": [
+    "missing non-cosmetic candidate A scope declaration",
+    "missing non-cosmetic candidate B scope declaration",
+    "missing basis-bearing scope division declaration"
+  ],
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "candidate_non_cosmetic_scope_division_declaration_operation_checks": [
+    {
+      "actual_posture": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "check_name": "operation intent supported",
+      "expected_posture": [
+        "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+        "DO_NOT_RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+        "BLOCK_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "check_name": "operation type exact",
+      "expected_posture": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "check_name": "operation version exact",
+      "expected_posture": "0.1.0",
+      "passed": true
+    },
+    {
+      "actual_posture": "TWO_NON_STANDING_CANDIDATE_RECORDS_SCOPE_DIVISION_DECLARATION_ONLY",
+      "check_name": "operation scope exact",
+      "expected_posture": "TWO_NON_STANDING_CANDIDATE_RECORDS_SCOPE_DIVISION_DECLARATION_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "NON_COSMETIC_SCOPE_DIVISION_DECLARATION_ONLY",
+      "check_name": "admissible future route exact",
+      "expected_posture": "NON_COSMETIC_SCOPE_DIVISION_DECLARATION_ONLY",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_V0_MIN_SPEC.md",
+      "check_name": "operation_spec_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_scope_division_declaration_boundary_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_basis_emission_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_basis_emission_boundary_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_distinctness_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+      "check_name": "completed_differentiation_operation_terminal_summary_reference declared",
+      "expected_posture": "non-empty declared path reference",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_marker_group_indexes": []
+      },
+      "check_name": "operation spec markers present",
+      "expected_posture": "all required marker groups present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_boundary_posture_classes": []
+      },
+      "check_name": "scope-division declaration boundary terminal summary markers present",
+      "expected_posture": "all required clean boundary posture classes present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_marker_group_indexes": []
+      },
+      "check_name": "basis emission operation terminal summary markers present",
+      "expected_posture": "all required marker groups present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_marker_group_indexes": []
+      },
+      "check_name": "distinctness operation terminal summary markers present",
+      "expected_posture": "all required marker groups present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "missing_posture_classes": []
+      },
+      "check_name": "differentiation operation terminal summary posture classes present",
+      "expected_posture": "completion, exactly-two, non-standing, no standing, no crossing/relation classes",
+      "passed": true
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_a_001",
+      "check_name": "candidate_record_a_id exact",
+      "expected_posture": "descendant_body_basis_candidate_a_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "descendant_body_basis_candidate_b_001",
+      "check_name": "candidate_record_b_id exact",
+      "expected_posture": "descendant_body_basis_candidate_b_001",
+      "passed": true
+    },
+    {
+      "actual_posture": "CANDIDATE_A",
+      "check_name": "candidate_record_a_role exact",
+      "expected_posture": "CANDIDATE_A",
+      "passed": true
+    },
+    {
+      "actual_posture": "CANDIDATE_B",
+      "check_name": "candidate_record_b_role exact",
+      "expected_posture": "CANDIDATE_B",
+      "passed": true
+    },
+    {
+      "actual_posture": "REQUIRES_ADDITIONAL_BASIS",
+      "check_name": "upstream_emission_operation_result exact",
+      "expected_posture": "REQUIRES_ADDITIONAL_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "REQUIRES_ADDITIONAL_BASIS preserved as clean result",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "candidate A scope missing upstream true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "candidate B scope missing upstream true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "check_name": "basis-bearing scope division missing upstream true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": "REQUIRE_BASIS_BEARING_SCOPE_DIVISION",
+      "check_name": "scope_declaration_policy exact",
+      "expected_posture": "REQUIRE_BASIS_BEARING_SCOPE_DIVISION",
+      "passed": true
+    },
+    {
+      "actual_posture": "SCOPE_LABEL_LAUNDERING_NOT_BASIS",
+      "check_name": "scope_label_laundering_policy exact",
+      "expected_posture": "SCOPE_LABEL_LAUNDERING_NOT_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": "COSMETIC_SCOPE_NAMING_NOT_BASIS",
+      "check_name": "cosmetic_scope_naming_policy exact",
+      "expected_posture": "COSMETIC_SCOPE_NAMING_NOT_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": "ID_ROLE_LABEL_DIFFERENCE_NOT_SCOPE_BASIS",
+      "check_name": "id_role_label_difference_policy exact",
+      "expected_posture": "ID_ROLE_LABEL_DIFFERENCE_NOT_SCOPE_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": "SHARED_EVIDENCE_NOT_SCOPE_BASIS",
+      "check_name": "shared_evidence_policy exact",
+      "expected_posture": "SHARED_EVIDENCE_NOT_SCOPE_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": "OPERATION_EVIDENCE_ALONE_NOT_SCOPE_BASIS",
+      "check_name": "operation_evidence_policy exact",
+      "expected_posture": "OPERATION_EVIDENCE_ALONE_NOT_SCOPE_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": "CONTAMINATED_LINEAGE_NOT_CLEAN_SCOPE_BASIS",
+      "check_name": "contaminated_lineage_policy exact",
+      "expected_posture": "CONTAMINATED_LINEAGE_NOT_CLEAN_SCOPE_BASIS",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "candidate_specific_content_emission_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "separate_seal_material_emission_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "separate_lineage_receipt_material_emission_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "separate_digest_material_emission_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "basis_emission_operation_rerun_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "distinctness_operation_rerun_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "distinctness_supported_recording_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "candidate_records_marked_distinct_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "candidate_standing_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "descendant_body_created false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "standing_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "crossing_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "relation_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "field_machinery_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "runtime_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "currentness_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "authority_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "output_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "action_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "derivative_reception_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "synchronization_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "follow_on_authorized false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "scan_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "repair_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "check_name": "validation_enforcement_allowed false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "malformed_keys": []
+      },
+      "check_name": "required non-claims false",
+      "expected_posture": "every required false non-claim present and exactly false",
+      "passed": true
+    },
+    {
+      "actual_posture": "canonical false emitted by resolver",
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "final result canonicalizes required false non-claims",
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "define_or_implement_another_operation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_candidate_specific_content_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_separate_seal_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_separate_lineage_receipt_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_separate_digest_material_emission not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_basis_emission_operation_rerun not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_distinctness_operation_rerun not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_distinctness_supported_recording not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_candidate_records_marked_distinct not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_candidate_standing_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_descendant_body_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_crossing_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_relation_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_field_machinery_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_runtime_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_currentness_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_authority_creation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_output_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_action_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_derivative_reception_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_synchronization_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_follow_on_authorization not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_repository_scan not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_file_discovery not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_affected_file_repair not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_affected_file_mutation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_prior_unsupported_claim_validation not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_upstream_override_or_bypass not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "requested_raw_markdown_body_return not requested",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "scope_label_laundering_detected not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "cosmetic_scope_naming_detected not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "scope_label_laundering_treated_as_basis not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "cosmetic_scope_naming_treated_as_basis not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "id_role_label_difference_treated_as_scope_basis not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "shared_evidence_treated_as_scope_basis not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "operation_evidence_alone_treated_as_scope_basis not true",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "check_name": "contaminated_lineage_treated_as_clean_scope_basis not true",
+      "expected_posture": false,
+      "passed": true
+    }
+  ],
+  "candidate_non_cosmetic_scope_division_declaration_operation_metadata": {
+    "candidate_non_cosmetic_scope_division_declaration_operation_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_001",
+    "generated_at": "2026-07-10T17:13:22+00:00",
+    "operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "resolver_module": "resolve_descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_v0_min_v2",
+    "result_version": "0.2.0"
+  },
+  "candidate_non_cosmetic_scope_division_declaration_operation_non_meaning": {
+    "not_authority": true,
+    "not_basis_emission_rerun": true,
+    "not_candidate_records_marked_distinct": true,
+    "not_candidate_specific_content_emission": true,
+    "not_candidate_standing": true,
+    "not_crossing": true,
+    "not_currentness": true,
+    "not_descendant_body_creation": true,
+    "not_digest_material_emission": true,
+    "not_distinctness_rerun": true,
+    "not_distinctness_supported": true,
+    "not_field_machinery": true,
+    "not_follow_on": true,
+    "not_lineage_receipt_material_emission": true,
+    "not_relation": true,
+    "not_runtime": true,
+    "not_seal_material_emission": true
+  },
+  "candidate_non_cosmetic_scope_division_declaration_operation_statement": {
+    "authority_authorized": false,
+    "basis_bearing_scope_division_declared": false,
+    "basis_emission_operation_rerun": false,
+    "candidate_a_scope_declared": false,
+    "candidate_b_scope_declared": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_records_remain_non_standing": true,
+    "candidate_records_remain_not_descendant_bodies": true,
+    "candidate_specific_content_emitted": false,
+    "candidate_standing_authorized": false,
+    "crossing_authorized": false,
+    "currentness_authorized": false,
+    "descendant_body_created": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "follow_on_authorized": false,
+    "outcome": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_REQUIRES_ADDITIONAL_BASIS",
+    "relation_authorized": false,
+    "result_level_non_claims_canonical_false": true,
+    "runtime_authorized": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false
+  },
+  "candidate_non_cosmetic_scope_division_declaration_operation_summary": {
+    "action_authorized": false,
+    "additional_basis_required": [
+      "missing non-cosmetic candidate A scope declaration",
+      "missing non-cosmetic candidate B scope declaration",
+      "missing basis-bearing scope division declaration"
+    ],
+    "admissible_future_route": "NON_COSMETIC_SCOPE_DIVISION_DECLARATION_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "authority_authorized": false,
+    "basis_bearing_scope_division_declared": false,
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_emission_boundary_bypassed": false,
+    "basis_emission_boundary_overridden": false,
+    "basis_emission_operation_bypassed": false,
+    "basis_emission_operation_overridden": false,
+    "basis_emission_operation_rerun": false,
+    "block_code": null,
+    "block_reason": null,
+    "candidate_a_scope_declared": false,
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_a_scope_non_cosmetic": false,
+    "candidate_b_scope_declared": false,
+    "candidate_b_scope_missing_upstream": true,
+    "candidate_b_scope_non_cosmetic": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_001",
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_records_remain_non_standing": true,
+    "candidate_records_remain_not_descendant_bodies": true,
+    "candidate_specific_content_emitted": false,
+    "candidate_standing_authorized": false,
+    "completed_basis_emission_operation_terminal_summary_markers_present": true,
+    "completed_differentiation_operation_terminal_summary_markers_present": true,
+    "completed_distinctness_operation_terminal_summary_markers_present": true,
+    "completed_scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "contaminated_lineage_treated_as_clean_scope_basis": false,
+    "cosmetic_scope_naming_treated_as_basis": false,
+    "crossing_authorized": false,
+    "currentness_authorized": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_created": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_overridden": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_overridden": false,
+    "failed_check_count": 0,
+    "field_machinery_authorized": false,
+    "follow_on_authorized": false,
+    "hidden_repair_performed": false,
+    "id_role_label_difference_treated_as_scope_basis": false,
+    "intent": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "operation_evidence_alone_treated_as_scope_basis": false,
+    "operation_scope": "TWO_NON_STANDING_CANDIDATE_RECORDS_SCOPE_DIVISION_DECLARATION_ONLY",
+    "operation_spec_markers_present": true,
+    "operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_REQUIRES_ADDITIONAL_BASIS",
+    "output_authorized": false,
+    "passed_check_count": 96,
+    "prior_unsupported_claims_validated": false,
+    "relation_authorized": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "resolver_module": "resolve_descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_v0_min_v2",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.2.0",
+    "runtime_authorized": false,
+    "scan_performed": false,
+    "scope_division_basis_bearing": false,
+    "scope_division_declaration_boundary_bypassed": false,
+    "scope_division_declaration_boundary_overridden": false,
+    "scope_label_laundering_treated_as_basis": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "shared_evidence_treated_as_scope_basis": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "synchronization_authorized": false,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS",
+    "validation_enforced": false
+  },
+  "declared_candidate_non_cosmetic_scope_division_declaration_operation_basis": {
+    "action_authorized": false,
+    "admissible_future_route": "NON_COSMETIC_SCOPE_DIVISION_DECLARATION_ONLY",
+    "authority_authorized": false,
+    "basis_bearing_scope_division_basis": "",
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_bearing_scope_division_statement": "",
+    "basis_emission_operation_rerun_allowed": false,
+    "candidate_a_scope_basis": "",
+    "candidate_a_scope_id": "",
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_a_scope_statement": "",
+    "candidate_b_scope_basis": "",
+    "candidate_b_scope_id": "",
+    "candidate_b_scope_missing_upstream": true,
+    "candidate_b_scope_statement": "",
+    "candidate_non_cosmetic_scope_division_declaration_operation_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_001",
+    "candidate_non_cosmetic_scope_division_declaration_operation_intent": "RECORD_DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "candidate_non_cosmetic_scope_division_declaration_operation_scope": "TWO_NON_STANDING_CANDIDATE_RECORDS_SCOPE_DIVISION_DECLARATION_ONLY",
+    "candidate_non_cosmetic_scope_division_declaration_operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "candidate_non_cosmetic_scope_division_declaration_operation_version": "0.1.0",
+    "candidate_record_a_id": "descendant_body_basis_candidate_a_001",
+    "candidate_record_a_role": "CANDIDATE_A",
+    "candidate_record_b_id": "descendant_body_basis_candidate_b_001",
+    "candidate_record_b_role": "CANDIDATE_B",
+    "candidate_records_marked_distinct_allowed": false,
+    "candidate_specific_content_emission_allowed": false,
+    "candidate_standing_authorized": false,
+    "completed_basis_emission_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "completed_basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_scope_division_declaration_boundary_artifact_reference": "artifacts/integrity_host_v0_min_coexistence_descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3/descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_001__candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3_result.json",
+    "completed_scope_division_declaration_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "contaminated_lineage_policy": "CONTAMINATED_LINEAGE_NOT_CLEAN_SCOPE_BASIS",
+    "cosmetic_scope_naming_policy": "COSMETIC_SCOPE_NAMING_NOT_BASIS",
+    "crossing_authorized": false,
+    "currentness_authorized": false,
+    "declared_non_claims": {
+      "action_authorized": false,
+      "affected_file_deleted": false,
+      "affected_file_edited": false,
+      "affected_file_overwritten": false,
+      "affected_file_redeemed": false,
+      "affected_file_repaired": false,
+      "affected_file_replaced": false,
+      "affected_file_treated_as_clean_basis": false,
+      "api_created": false,
+      "authority_created": false,
+      "basis_bearing_scope_division_declared": false,
+      "candidate_a_scope_declared": false,
+      "candidate_b_scope_declared": false,
+      "candidate_non_cosmetic_scope_division_declaration_boundary_bypassed": false,
+      "candidate_non_cosmetic_scope_division_declaration_boundary_overridden": false,
+      "candidate_non_cosmetic_scope_division_declaration_operation_implemented": false,
+      "candidate_non_cosmetic_scope_division_declaration_operation_performed": false,
+      "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+      "candidate_records_distinct": false,
+      "candidate_records_marked_distinct": false,
+      "candidate_specific_content_emitted": false,
+      "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+      "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+      "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+      "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+      "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+      "candidate_standing_authorized": false,
+      "candidate_standing_created": false,
+      "contaminated_lineage_treated_as_clean_basis": false,
+      "contaminated_lineage_treated_as_clean_scope_basis": false,
+      "cosmetic_scope_naming_treated_as_basis": false,
+      "crossing_authorized": false,
+      "currentness_created": false,
+      "derivative_reception_authorized": false,
+      "descendant_body_a_created": false,
+      "descendant_body_b_created": false,
+      "descendant_body_created": false,
+      "descendant_standing_check_performed": false,
+      "differentiation_operation_bypassed": false,
+      "differentiation_operation_overridden": false,
+      "distinctness_operation_boundary_bypassed": false,
+      "distinctness_operation_boundary_overridden": false,
+      "distinctness_operation_bypassed": false,
+      "distinctness_operation_overridden": false,
+      "distinctness_operation_rerun": false,
+      "distinctness_supported_recorded": false,
+      "existence_claim_evidence_check_bypassed": false,
+      "existence_claim_evidence_check_overridden": false,
+      "field_machinery_created": false,
+      "first_crossing_authorized": false,
+      "follow_on_authorized": false,
+      "follow_on_work_authorized": false,
+      "hidden_repair_performed": false,
+      "id_role_label_difference_treated_as_scope_basis": false,
+      "operation_evidence_alone_treated_as_scope_basis": false,
+      "output_authorized": false,
+      "prior_unsupported_candidate_a_claim_validated": false,
+      "prior_unsupported_candidate_b_claim_validated": false,
+      "prior_unsupported_derivation_event_claim_validated": false,
+      "relation_created": false,
+      "repair_performed": false,
+      "repository_scan_performed": false,
+      "runtime_created": false,
+      "scan_performed": false,
+      "scope_label_laundering_treated_as_basis": false,
+      "separate_digest_material_emitted": false,
+      "separate_lineage_receipt_material_emitted": false,
+      "separate_seal_material_emitted": false,
+      "shared_evidence_treated_as_scope_basis": false,
+      "silent_overwrite_performed": false,
+      "standing_authorized": false,
+      "standing_created": false,
+      "standing_descendant_created": false,
+      "synchronization_authorized": false,
+      "valid_derivation_event_recorded": false,
+      "validation_enforced": false
+    },
+    "derivative_reception_authorized": false,
+    "descendant_body_created": false,
+    "distinctness_operation_rerun_allowed": false,
+    "distinctness_supported_recording_allowed": false,
+    "field_machinery_authorized": false,
+    "follow_on_authorized": false,
+    "id_role_label_difference_policy": "ID_ROLE_LABEL_DIFFERENCE_NOT_SCOPE_BASIS",
+    "operation_evidence_policy": "OPERATION_EVIDENCE_ALONE_NOT_SCOPE_BASIS",
+    "operation_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_V0_MIN_SPEC.md",
+    "output_authorized": false,
+    "relation_authorized": false,
+    "repair_allowed": false,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "runtime_authorized": false,
+    "scan_allowed": false,
+    "scope_declaration_policy": "REQUIRE_BASIS_BEARING_SCOPE_DIVISION",
+    "scope_label_laundering_policy": "SCOPE_LABEL_LAUNDERING_NOT_BASIS",
+    "separate_digest_material_emission_allowed": false,
+    "separate_lineage_receipt_material_emission_allowed": false,
+    "separate_seal_material_emission_allowed": false,
+    "shared_evidence_policy": "SHARED_EVIDENCE_NOT_SCOPE_BASIS",
+    "standing_authorized": false,
+    "synchronization_authorized": false,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS",
+    "validation_enforcement_allowed": false
+  },
+  "descendant_body_candidate_non_cosmetic_scope_division_declaration_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "NON_COSMETIC_SCOPE_DIVISION_DECLARATION_ONLY",
+    "authority_authorized": false,
+    "basis_bearing_scope_division_basis_reference": "",
+    "basis_bearing_scope_division_declared": false,
+    "basis_bearing_scope_division_missing_upstream": true,
+    "basis_bearing_scope_division_statement_reference": "",
+    "basis_emission_operation_rerun": false,
+    "candidate_a_scope_basis_reference": "",
+    "candidate_a_scope_declared": false,
+    "candidate_a_scope_differs_by_mandate_or_function_or_responsibility_or_governed_surface": false,
+    "candidate_a_scope_id": "",
+    "candidate_a_scope_missing_upstream": true,
+    "candidate_a_scope_non_cosmetic": false,
+    "candidate_a_scope_statement_reference": "",
+    "candidate_b_scope_basis_reference": "",
+    "candidate_b_scope_declared": false,
+    "candidate_b_scope_differs_by_mandate_or_function_or_responsibility_or_governed_surface": false,
+    "candidate_b_scope_id": "",
+    "candidate_b_scope_missing_upstream": true,
+    "candidate_b_scope_non_cosmetic": false,
+    "candidate_b_scope_statement_reference": "",
+    "candidate_non_cosmetic_scope_division_declaration_operation_id": "descendant_body_candidate_non_cosmetic_scope_division_declaration_operation_001",
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_scope": "TWO_NON_STANDING_CANDIDATE_RECORDS_SCOPE_DIVISION_DECLARATION_ONLY",
+    "candidate_non_cosmetic_scope_division_declaration_operation_type": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION",
+    "candidate_non_cosmetic_scope_division_declaration_operation_version": "0.1.0",
+    "candidate_records_marked_distinct": false,
+    "candidate_records_remain_non_standing": true,
+    "candidate_records_remain_not_descendant_bodies": true,
+    "candidate_specific_content_emitted": false,
+    "candidate_standing_authorized": false,
+    "completed_basis_emission_operation_terminal_summary_markers_present": true,
+    "completed_differentiation_operation_terminal_summary_markers_present": true,
+    "completed_distinctness_operation_terminal_summary_markers_present": true,
+    "completed_scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "contaminated_lineage_treated_as_clean_scope_basis": false,
+    "cosmetic_scope_naming_detected": false,
+    "cosmetic_scope_naming_treated_as_basis": false,
+    "crossing_authorized": false,
+    "currentness_authorized": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_created": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "field_machinery_authorized": false,
+    "follow_on_authorized": false,
+    "id_role_label_difference_treated_as_scope_basis": false,
+    "operation_evidence_alone_treated_as_scope_basis": false,
+    "operation_spec_markers_present": true,
+    "output_authorized": false,
+    "relation_authorized": false,
+    "requires_additional_basis_preserved_as_clean_result": true,
+    "runtime_authorized": false,
+    "scope_division_basis_bearing": false,
+    "scope_label_laundering_detected": false,
+    "scope_label_laundering_treated_as_basis": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "shared_evidence_treated_as_scope_basis": false,
+    "standing_authorized": false,
+    "synchronization_authorized": false,
+    "upstream_emission_operation_result": "REQUIRES_ADDITIONAL_BASIS"
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_bearing_scope_division_declared": false,
+    "candidate_a_scope_declared": false,
+    "candidate_b_scope_declared": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_bypassed": false,
+    "candidate_non_cosmetic_scope_division_declaration_boundary_overridden": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_implemented": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_performed": false,
+    "candidate_non_cosmetic_scope_division_declaration_operation_recorded": false,
+    "candidate_records_distinct": false,
+    "candidate_records_marked_distinct": false,
+    "candidate_specific_content_emitted": false,
+    "candidate_specific_distinctness_basis_emission_boundary_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_boundary_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_bypassed": false,
+    "candidate_specific_distinctness_basis_emission_operation_overridden": false,
+    "candidate_specific_distinctness_basis_emission_operation_rerun": false,
+    "candidate_standing_authorized": false,
+    "candidate_standing_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "contaminated_lineage_treated_as_clean_scope_basis": false,
+    "cosmetic_scope_naming_treated_as_basis": false,
+    "crossing_authorized": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_created": false,
+    "descendant_body_b_created": false,
+    "descendant_body_created": false,
+    "descendant_standing_check_performed": false,
+    "differentiation_operation_bypassed": false,
+    "differentiation_operation_overridden": false,
+    "distinctness_operation_boundary_bypassed": false,
+    "distinctness_operation_boundary_overridden": false,
+    "distinctness_operation_bypassed": false,
+    "distinctness_operation_overridden": false,
+    "distinctness_operation_rerun": false,
+    "distinctness_supported_recorded": false,
+    "existence_claim_evidence_check_bypassed": false,
+    "existence_claim_evidence_check_overridden": false,
+    "field_machinery_created": false,
+    "first_crossing_authorized": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "id_role_label_difference_treated_as_scope_basis": false,
+    "operation_evidence_alone_treated_as_scope_basis": false,
+    "output_authorized": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "scope_label_laundering_treated_as_basis": false,
+    "separate_digest_material_emitted": false,
+    "separate_lineage_receipt_material_emitted": false,
+    "separate_seal_material_emitted": false,
+    "shared_evidence_treated_as_scope_basis": false,
+    "silent_overwrite_performed": false,
+    "standing_authorized": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_REQUIRES_ADDITIONAL_BASIS",
+  "upstream_basis": {
+    "completed_basis_emission_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "completed_basis_emission_operation_terminal_summary_markers_present": true,
+    "completed_basis_emission_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_SPECIFIC_DISTINCTNESS_BASIS_EMISSION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_differentiation_operation_terminal_summary_markers_present": true,
+    "completed_differentiation_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_DIFFERENTIATION_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_distinctness_operation_terminal_summary_markers_present": true,
+    "completed_distinctness_operation_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_RECORD_DISTINCTNESS_OPERATION_TERMINAL_SUMMARY_V0.md",
+    "completed_scope_division_declaration_boundary_artifact_reference": "artifacts/integrity_host_v0_min_coexistence_descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3/descendant_body_candidate_non_cosmetic_scope_division_declaration_boundary_001__candidate_non_cosmetic_scope_division_declaration_boundary_v0_min_v3_result.json",
+    "completed_scope_division_declaration_boundary_terminal_summary_markers_present": true,
+    "completed_scope_division_declaration_boundary_terminal_summary_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "operation_spec_markers_present": true,
+    "operation_spec_reference": "spec/DESCENDANT_BODY_CANDIDATE_NON_COSMETIC_SCOPE_DIVISION_DECLARATION_OPERATION_V0_MIN_SPEC.md"
+  },
+  "what_remains_open": [
+    "candidate non-cosmetic scope-division declaration resolver successor work if separately selected",
+    "candidate-specific distinctness basis emission operation successor if separately bounded",
+    "actual candidate-specific content emission",
+    "actual separate seal material emission",
+    "actual separate lineage receipt material emission",
+    "actual separate digest material emission",
+    "future distinctness-supported operation result if separately supported",
+    "candidate standing check",
+    "first crossing",
+    "relation",
+    "FIELD machinery",
+    "runtime",
+    "currentness",
+    "authority",
+    "output authorization",
+    "action authorization",
+    "derivative reception",
+    "synchronization",
+    "follow-on work"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "external_system_name": "Example Archive Relay",
+  "candidate_slice_name": "message_export_slice_alpha",
+  "candidate_slice_id": "example_archive_relay.message_export_slice_alpha",
+  "slice_type": "export_bundle",
+  "included_scope": [
+    "serialized message export for archive relay alpha",
+    "bounded metadata needed to interpret the export slice"
+  ],
+  "excluded_scope": [
+    "operator dashboard surfaces",
+    "administrative control surfaces",
+    "background indexing pipeline outputs"
+  ],
+  "source_object_paths": [
+    "source/records/message_source_snapshot_alpha.json"
+  ],
+  "export_slice_paths": [
+    "export/slices/message_export_alpha.json"
+  ],
+  "clean_case_paths": [
+    "cases/clean/clean_case_01.json"
+  ],
+  "blocked_case_paths": [
+    "cases/blocked/blocked_case_01.json"
+  ],
+  "source_description": "Source is the bounded source-side record snapshot from which the export slice is derived.",
+  "export_description": "Export is the bounded handed-in slice under candidacy review.",
+  "display_only_description": "Display-only material, if present in the package, is non-source presentation and is not part of the exported slice itself.",
+  "proof_question": "Can this exported message slice remain provenance-legible and bounded under body law without collapsing source, export, and blocked-case distinction?"
+}

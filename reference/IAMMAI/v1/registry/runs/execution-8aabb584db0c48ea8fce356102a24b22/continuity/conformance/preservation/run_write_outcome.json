@@ -1,0 +1,80 @@
+{
+  "checked_at": "2026-04-02T11:41:55Z",
+  "checks": [
+    {
+      "message": "All preserved continuity files recorded before preservation conformance must exist.",
+      "name": "written_files_exist",
+      "status": "pass"
+    },
+    {
+      "message": "Continuity body and explicit execution relation must both be preserved separately.",
+      "name": "continuity_body_separate_from_execution_relation",
+      "status": "pass"
+    },
+    {
+      "message": "Conformance material must remain explicitly preserved as its own readable layer.",
+      "name": "conformance_layer_present",
+      "status": "pass"
+    },
+    {
+      "message": "Preserved source notes for both ordinary anchor source and predecessor continuity source must remain readable.",
+      "name": "source_notes_present",
+      "status": "pass"
+    },
+    {
+      "message": "Negative successor-continuity fixture material must remain under an explicitly separate negative fixture branch.",
+      "name": "negative_fixture_separated",
+      "status": "pass"
+    },
+    {
+      "message": "Continuity outputs must be preserved through the shared implementation-local layout surface.",
+      "name": "shared_layout_surface_used",
+      "status": "pass"
+    },
+    {
+      "message": "Shared source selection must preserve explicit coherence checks for the selected source pair.",
+      "name": "selector_coherence_present",
+      "status": "pass"
+    },
+    {
+      "message": "The selected ordinary proof-slice anchor source and its canonical bodies must remain available.",
+      "name": "anchor_source_still_exists",
+      "status": "pass"
+    },
+    {
+      "message": "The selected predecessor continuity source, positive continuity body, and recorded anchor note must remain available.",
+      "name": "predecessor_source_still_exists",
+      "status": "pass"
+    },
+    {
+      "message": "The selected predecessor continuity source must remain coherent with the selected ordinary anchor source.",
+      "name": "selected_sources_remain_coherent",
+      "status": "pass"
+    },
+    {
+      "message": "The local continuity preservation surface must remain bounded to v1/registry/runs/<execution-identity>/continuity/.",
+      "name": "continuity_directory_bounded_to_v1_registry",
+      "status": "pass"
+    }
+  ],
+  "continuity_run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity",
+  "preservation_layout": {
+    "execution_identity": "execution-8aabb584db0c48ea8fce356102a24b22",
+    "execution_run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22",
+    "layer_roots": {
+      "canonical_body": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/canonical_body",
+      "conformance": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/conformance",
+      "envelope": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/envelope",
+      "execution_relation": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/execution_relation",
+      "fixtures": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/fixture_outputs",
+      "manifest": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/manifest",
+      "source_notes": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/source_notes",
+      "summary": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity/run_summary"
+    },
+    "layout_kind": "continuity",
+    "naming_posture": "implementation_local_default",
+    "run_directory": "v1/registry/runs/execution-8aabb584db0c48ea8fce356102a24b22/continuity"
+  },
+  "status": "pass",
+  "surface": "continuity_preservation_conformance"
+}

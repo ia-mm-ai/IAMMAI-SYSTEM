@@ -1,0 +1,617 @@
+{
+  "accepted_signal": {
+    "accepted_signal_category": "BODY_PASS_SIGNAL",
+    "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+    "declared_matter_family": "body_signal_acceptance_matter",
+    "declared_matter_id": "current_signal_recognition_standing",
+    "declared_matter_kind": "recognized_body_signal_posture",
+    "declared_matter_purpose": "Hold recognized body-signal posture as current signal-recognition standing while preserving non-operative status.",
+    "no_action": true,
+    "no_body_relevance_medium": true,
+    "no_routing": true,
+    "no_workflow": true,
+    "non_authoritative": true,
+    "non_currentness": true,
+    "non_permission": true,
+    "not_present_yet": true,
+    "not_scoped_yet": true,
+    "not_threshold_yet": true,
+    "not_truth": true,
+    "recognized_source_artifact_family": "v0_body_pass_result",
+    "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "selected_signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+    "selected_signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+    "selected_signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json"
+  },
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "body_signal_acceptance_basis": {
+    "acceptance_assigns_scope": false,
+    "acceptance_authorizes_action": false,
+    "acceptance_authorizes_follow_on_work": false,
+    "acceptance_creates_authority": false,
+    "acceptance_creates_body_relevance_medium": false,
+    "acceptance_creates_currentness": false,
+    "acceptance_creates_permission": false,
+    "acceptance_creates_truth": false,
+    "acceptance_establishes_presence": false,
+    "acceptance_for_structured_handling_only": true,
+    "acceptance_meets_threshold": false,
+    "acceptance_routes_signal": false,
+    "acceptance_scope": "single_signal_recognition_result_single_acceptance_request",
+    "declared_matter_id": "current_signal_recognition_standing",
+    "outcome": "SIGNAL_ACCEPTED",
+    "recognized_signal_category": "BODY_PASS_SIGNAL",
+    "recognized_signal_id": "body_pass_signal__v2_live_001__recognized",
+    "request_id": "body_pass_signal_acceptance__live_001",
+    "selected_signal_recognition_result": {
+      "selection_mode": "explicit_signal_recognition_result_path",
+      "signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+      "signal_recognition_resolver_module": "resolve_body_signal_recognition_v2",
+      "signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+      "signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json",
+      "signal_recognition_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_RECOGNITION_V2_RESULT",
+      "signal_recognition_result_version": "0.2.0"
+    }
+  },
+  "body_signal_acceptance_metadata": {
+    "body_signal_acceptance_result_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__body_signal_acceptance_signal_accepted",
+    "body_signal_acceptance_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_ACCEPTANCE_RESULT",
+    "body_signal_acceptance_result_version": "0.1.0",
+    "generated_at": "2026-04-26T09:18:00.018942Z",
+    "resolver_module": "resolve_body_signal_acceptance"
+  },
+  "body_signal_acceptance_summary": {
+    "acceptance_scope_passed": true,
+    "accepted_signal_category": "BODY_PASS_SIGNAL",
+    "accepted_signal_id": "body_pass_signal_acceptance__live_001__body_pass_signal__v2_live_001__recognized__accepted",
+    "block_code": null,
+    "block_reason": null,
+    "correspondence_requirements_passed": true,
+    "declared_matter_family": "body_signal_acceptance_matter",
+    "declared_matter_id": "current_signal_recognition_standing",
+    "declared_matter_kind": "recognized_body_signal_posture",
+    "failed_check_count": 0,
+    "hierarchy_constraints_passed": true,
+    "key_non_claims": {
+      "action_authorized": false,
+      "authority_created": false,
+      "body_relevance_medium_created": false,
+      "currentness_created": false,
+      "derivative_upgraded_to_source": false,
+      "event_bus_created": false,
+      "follow_on_work_authorized": false,
+      "permission_created": false,
+      "presence_established": false,
+      "receipt_turned_into_permission": false,
+      "roadmap_created": false,
+      "scope_assigned": false,
+      "signal_router_created": false,
+      "source_replaced": false,
+      "threshold_met": false,
+      "truth_created": false,
+      "workflow_created": false
+    },
+    "matter_boundary_passed": true,
+    "non_claims_passed": true,
+    "outcome": "SIGNAL_ACCEPTED",
+    "passed_check_count": 35,
+    "recognition_basis_passed": true,
+    "selected_signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+    "selected_signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+    "selected_signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json"
+  },
+  "declared_matter": {
+    "matter_boundary": "structured_handling_only_for_current_signal_recognition_standing",
+    "matter_family": "body_signal_acceptance_matter",
+    "matter_id": "current_signal_recognition_standing",
+    "matter_kind": "recognized_body_signal_posture",
+    "matter_purpose": "Hold recognized body-signal posture as current signal-recognition standing while preserving non-operative status."
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "authority_created": false,
+    "body_relevance_medium_created": false,
+    "currentness_created": false,
+    "derivative_upgraded_to_source": false,
+    "event_bus_created": false,
+    "follow_on_work_authorized": false,
+    "permission_created": false,
+    "presence_established": false,
+    "receipt_turned_into_permission": false,
+    "roadmap_created": false,
+    "scope_assigned": false,
+    "signal_router_created": false,
+    "source_replaced": false,
+    "threshold_met": false,
+    "truth_created": false,
+    "workflow_created": false
+  },
+  "outcome": "SIGNAL_ACCEPTED",
+  "selected_recognized_signal": {
+    "bounded_relation_to_current_self_orientation": null,
+    "carried_posture": {
+      "non_claims": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "non_claims_carried": {
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false
+      },
+      "source_artifact_family": "v0_body_pass_result",
+      "source_artifact_family_carried": "v0_body_pass_result",
+      "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_id_carried": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_artifact_path_carried": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "source_outcome": "V0_BODY_PASS_CONFIRMED",
+      "source_outcome_carried": "V0_BODY_PASS_CONFIRMED"
+    },
+    "claimed_relevance": "The body-pass result indicates the bounded body reads as one body.",
+    "claimed_signal_family": "body_pass_signal",
+    "claimed_signal_posture": "V0_BODY_PASS_CONFIRMED",
+    "claimed_signal_reason": "Recognize one standing v0 body-pass result as a bounded body-pass signal.",
+    "non_authoritative": true,
+    "non_currentness": true,
+    "non_permission": true,
+    "recognized_signal_id": "body_pass_signal__v2_live_001__recognized",
+    "signal_category": "BODY_PASS_SIGNAL",
+    "source_artifact_family": "v0_body_pass_result",
+    "source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json"
+  },
+  "selected_signal_acceptance_request": {
+    "correspondence_requirements": {
+      "must_preserve_matter_boundary": true,
+      "must_preserve_non_claims": true,
+      "must_preserve_recognized_signal_identity": true,
+      "must_preserve_recognized_source_identity": true,
+      "must_preserve_signal_category": true,
+      "must_preserve_signal_non_authority": true,
+      "must_preserve_signal_non_currentness": true,
+      "must_preserve_signal_non_permission": true,
+      "must_prevent_over_mirroring": true,
+      "must_prevent_under_mirroring": true
+    },
+    "declared_acceptance_scope": {
+      "acceptance_for_structured_handling_only": true,
+      "action_not_authorized": true,
+      "follow_on_work_not_authorized": true,
+      "presence_not_yet_established": true,
+      "routing_not_created": true,
+      "scope_not_yet_assigned": true,
+      "threshold_not_yet_met": true,
+      "truth_not_created": true,
+      "workflow_not_created": true
+    },
+    "declared_matter": {
+      "matter_boundary": "structured_handling_only_for_current_signal_recognition_standing",
+      "matter_family": "body_signal_acceptance_matter",
+      "matter_id": "current_signal_recognition_standing",
+      "matter_kind": "recognized_body_signal_posture",
+      "matter_purpose": "Hold recognized body-signal posture as current signal-recognition standing while preserving non-operative status."
+    },
+    "declared_non_claims": {
+      "does_not_authorize_action": true,
+      "does_not_authorize_follow_on_work": true,
+      "does_not_create_authority": true,
+      "does_not_create_body_relevance_medium": true,
+      "does_not_create_currentness": true,
+      "does_not_create_event_bus": true,
+      "does_not_create_permission": true,
+      "does_not_create_roadmap": true,
+      "does_not_create_scope": true,
+      "does_not_create_signal_router": true,
+      "does_not_create_truth": true,
+      "does_not_create_workflow": true,
+      "does_not_establish_presence": true,
+      "does_not_meet_threshold": true,
+      "does_not_replace_source_surface": true,
+      "does_not_turn_receipt_into_permission": true,
+      "does_not_upgrade_derivative_to_source": true
+    },
+    "hierarchy_constraints": {
+      "accepted_signal_allowed_as_action_trigger": false,
+      "accepted_signal_allowed_as_authority": false,
+      "accepted_signal_allowed_as_body_relevance_medium": false,
+      "accepted_signal_allowed_as_currentness": false,
+      "accepted_signal_allowed_as_permission": false,
+      "accepted_signal_allowed_as_presence": false,
+      "accepted_signal_allowed_as_route": false,
+      "accepted_signal_allowed_as_scope": false,
+      "accepted_signal_allowed_as_threshold": false,
+      "accepted_signal_allowed_as_truth": false,
+      "accepted_signal_allowed_as_workflow": false,
+      "derivative_signal_allowed_as_source": false,
+      "latest_file_recency_allowed": false,
+      "operator_signal_allowed_as_source": false,
+      "reentry_signal_allowed_as_governing_basis": false
+    },
+    "recognized_signal_basis": {
+      "recognized_signal_category": "BODY_PASS_SIGNAL",
+      "recognized_source_artifact_family": "v0_body_pass_result",
+      "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+      "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+      "signal_recognition_resolver_module": "resolve_body_signal_recognition_v2",
+      "signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+      "signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json",
+      "signal_recognition_result_version": "0.2.0"
+    },
+    "signal_acceptance_request_metadata": {
+      "declared_at": "manual_terminal_verification",
+      "declared_by_surface": "terminal_manual_test",
+      "signal_acceptance_request_id": "body_pass_signal_acceptance__live_001",
+      "signal_acceptance_request_type": "BODY_SIGNAL_ACCEPTANCE_REQUEST",
+      "signal_acceptance_request_version": "0.1.0"
+    }
+  },
+  "selected_signal_recognition_result": {
+    "selection_mode": "explicit_signal_recognition_result_path",
+    "signal_recognition_outcome": "SIGNAL_RECOGNIZED",
+    "signal_recognition_resolver_module": "resolve_body_signal_recognition_v2",
+    "signal_recognition_result_id": "body_pass_signal__v2_live_001__proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumpti__body_signal_recognition_v2_signal_recognized",
+    "signal_recognition_result_path": "artifacts/integrity_host_v0_min_coexistence_body_signal_recognition_v2/body_pass_signal__v2_live_001__body_signal_recognition_v2_result.json",
+    "signal_recognition_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_BODY_SIGNAL_RECOGNITION_V2_RESULT",
+    "signal_recognition_result_version": "0.2.0"
+  },
+  "signal_acceptance_checks": [
+    {
+      "actual_posture": "present",
+      "block_code": "SIGNAL_RECOGNITION_RESULT_MISSING",
+      "check_name": "signal_recognition_result_exists",
+      "expected_posture": "one SIGNAL_RECOGNIZED result mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "readable",
+      "block_code": "SIGNAL_RECOGNITION_RESULT_UNREADABLE",
+      "check_name": "signal_recognition_result_is_readable_if_path_based",
+      "expected_posture": "readable signal-recognition JSON object for explicit path, provided object otherwise",
+      "passed": true
+    },
+    {
+      "actual_posture": "dict",
+      "block_code": "SIGNAL_RECOGNITION_RESULT_MALFORMED",
+      "check_name": "signal_recognition_result_is_well_formed_enough",
+      "expected_posture": "signal-recognition result is an object",
+      "passed": true
+    },
+    {
+      "actual_posture": "SIGNAL_RECOGNIZED",
+      "block_code": "SIGNAL_RECOGNITION_RESULT_NOT_RECOGNIZED",
+      "check_name": "signal_recognition_result_outcome_is_signal_recognized",
+      "expected_posture": "SIGNAL_RECOGNIZED",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "recognized_signal_category": "BODY_PASS_SIGNAL",
+        "recognized_signal_id": "body_pass_signal__v2_live_001__recognized"
+      },
+      "block_code": "RECOGNIZED_SIGNAL_MISSING",
+      "check_name": "recognized_signal_is_present",
+      "expected_posture": "recognized signal id and category present",
+      "passed": true
+    },
+    {
+      "actual_posture": "body_pass_signal__v2_live_001__recognized",
+      "block_code": "RECOGNIZED_SIGNAL_IDENTITY_MISMATCH",
+      "check_name": "recognized_signal_identity_is_preserved",
+      "expected_posture": "recognized signal identity present",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "recognized_source_artifact_family": "v0_body_pass_result",
+        "recognized_source_artifact_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+        "recognized_source_artifact_outcome": "V0_BODY_PASS_CONFIRMED",
+        "recognized_source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json"
+      },
+      "block_code": "RECOGNIZED_SOURCE_IDENTITY_MISMATCH",
+      "check_name": "recognized_source_artifact_identity_is_preserved",
+      "expected_posture": "recognized source id/path/family/outcome present",
+      "passed": true
+    },
+    {
+      "actual_posture": "BODY_PASS_SIGNAL",
+      "block_code": "SIGNAL_CATEGORY_MISMATCH",
+      "check_name": "recognized_signal_category_is_preserved",
+      "expected_posture": "recognized signal category present",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RECOGNIZED_SIGNAL_TREATED_AS_AUTHORITY",
+      "check_name": "recognized_signal_remains_non_authoritative",
+      "expected_posture": "recognized signal non_authoritative is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RECOGNIZED_SIGNAL_TREATED_AS_PERMISSION",
+      "check_name": "recognized_signal_remains_non_permission",
+      "expected_posture": "recognized signal non_permission is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "RECOGNIZED_SIGNAL_TREATED_AS_CURRENTNESS",
+      "check_name": "recognized_signal_remains_non_currentness",
+      "expected_posture": "recognized signal non_currentness is true",
+      "passed": true
+    },
+    {
+      "actual_posture": "present",
+      "block_code": "SIGNAL_ACCEPTANCE_REQUEST_MISSING",
+      "check_name": "signal_acceptance_request_exists",
+      "expected_posture": "one signal-acceptance request mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "present",
+      "block_code": "DECLARED_MATTER_MISSING",
+      "check_name": "declared_matter_is_present",
+      "expected_posture": "declared_matter object present",
+      "passed": true
+    },
+    {
+      "actual_posture": "well formed enough",
+      "block_code": "SIGNAL_ACCEPTANCE_REQUEST_MALFORMED",
+      "check_name": "signal_acceptance_request_is_well_formed_enough",
+      "expected_posture": "required acceptance request sections and core fields present",
+      "passed": true
+    },
+    {
+      "actual_posture": "recognized signal basis preserved",
+      "block_code": "RECOGNIZED_SIGNAL_IDENTITY_MISMATCH",
+      "check_name": "recognized_signal_basis_matches_selected_recognition_result",
+      "expected_posture": "request basis matches selected recognition result and recognized source",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "matter_family": "body_signal_acceptance_matter",
+        "matter_kind": "recognized_body_signal_posture"
+      },
+      "block_code": "DECLARED_MATTER_UNSUPPORTED",
+      "check_name": "declared_matter_is_supported",
+      "expected_posture": {
+        "matter_family": "body_signal_acceptance_matter",
+        "matter_kind": "recognized_body_signal_posture"
+      },
+      "passed": true
+    },
+    {
+      "actual_posture": "current_signal_recognition_standing",
+      "block_code": "DECLARED_MATTER_UNSUPPORTED",
+      "check_name": "declared_matter_is_current_signal_recognition_standing",
+      "expected_posture": "current_signal_recognition_standing",
+      "passed": true
+    },
+    {
+      "actual_posture": "declared matter stays bounded",
+      "block_code": "DECLARED_MATTER_VAGUE_OR_UNBOUNDED",
+      "check_name": "declared_matter_purpose_is_bounded_to_current_signal_recognition_posture",
+      "expected_posture": "bounded current signal-recognition standing posture",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "SIGNAL_ACCEPTANCE_REQUEST_MALFORMED",
+      "check_name": "acceptance_scope_is_structured_handling_only",
+      "expected_posture": "all acceptance-scope fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_SCOPE",
+      "check_name": "scope_not_yet_assigned",
+      "expected_posture": "scope_not_yet_assigned is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_PRESENCE",
+      "check_name": "presence_not_yet_established",
+      "expected_posture": "presence_not_yet_established is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_THRESHOLD",
+      "check_name": "threshold_not_yet_met",
+      "expected_posture": "threshold_not_yet_met is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_TRUTH",
+      "check_name": "truth_not_created",
+      "expected_posture": "truth_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_ACTION_AUTHORIZATION",
+      "check_name": "action_not_authorized",
+      "expected_posture": "action_not_authorized is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_SIGNAL_ROUTER",
+      "check_name": "routing_not_created",
+      "expected_posture": "routing_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "DECLARED_MATTER_ATTEMPTS_WORKFLOW",
+      "check_name": "workflow_not_created",
+      "expected_posture": "workflow_not_created is true",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "ACCEPTANCE_ATTEMPTS_FOLLOW_ON_AUTHORIZATION",
+      "check_name": "follow_on_work_not_authorized",
+      "expected_posture": "follow_on_work_not_authorized is true",
+      "passed": true
+    },
+    {
+      "actual_posture": "all false",
+      "block_code": "SIGNAL_ACCEPTANCE_REQUEST_MALFORMED",
+      "check_name": "hierarchy_constraints_are_preserved",
+      "expected_posture": "all hierarchy constraint fields present and false",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "SIGNAL_ACCEPTANCE_REQUEST_MALFORMED",
+      "check_name": "correspondence_requirements_are_preserved",
+      "expected_posture": "all correspondence requirement fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": "all true",
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claims_are_preserved",
+      "expected_posture": "all declared non-claim fields present and true",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_recency_allowed": false,
+        "latest_file_recency_language_detected": false
+      },
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "latest_file_recency_is_refused",
+      "expected_posture": "acceptance does not infer currentness by latest-file recency",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "collapse_language_detected": false,
+        "derivative_signal_allowed_as_source": false,
+        "operator_signal_allowed_as_source": false,
+        "reentry_signal_allowed_as_governing_basis": false
+      },
+      "block_code": "DERIVATIVE_OPERATOR_REENTRY_SOURCE_COLLAPSE",
+      "check_name": "derivative_api_operator_reentry_surfaces_do_not_become_governing_current_basis",
+      "expected_posture": "downstream surfaces remain downstream and non-governing",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "accepted_signal_allowed_as_permission": false,
+        "does_not_create_permission": true,
+        "permission_language_detected": false
+      },
+      "block_code": "ACCEPTED_SIGNAL_BECAME_PERMISSION",
+      "check_name": "accepted_signal_does_not_become_permission",
+      "expected_posture": "accepted signal remains non-permission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "accepted_signal_allowed_as_action_trigger": false,
+        "action_language_detected": false,
+        "does_not_authorize_action": true
+      },
+      "block_code": "ACCEPTED_SIGNAL_BECAME_ACTION",
+      "check_name": "accepted_signal_does_not_become_action",
+      "expected_posture": "accepted signal remains non-action",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "accepted_signal_allowed_as_body_relevance_medium": false,
+        "does_not_create_body_relevance_medium": true
+      },
+      "block_code": "ACCEPTANCE_ATTEMPTS_BODY_RELEVANCE_MEDIUM",
+      "check_name": "body_relevance_medium_is_not_created",
+      "expected_posture": "acceptance does not create a body relevance medium",
+      "passed": true
+    }
+  ]
+}

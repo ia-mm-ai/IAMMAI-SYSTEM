@@ -1,0 +1,19 @@
+{
+  "body": {
+    "acted_at": "2026-04-02T10:38:29Z",
+    "action_type": "authorize",
+    "actor_ref": "actor-v1-local-operator",
+    "authority_class": "local_operator_governor",
+    "governance_action_id": "governance_action-ba17d5cb7dec449e996870b8b3117490",
+    "legitimacy_basis_ref": "legitimacy-basis-v1-third-proof-slice",
+    "matter_ref": "matter-25e3d706a71c480a935ecac8f0221c52",
+    "related_validation_ref": "validation-3cec41c4d8124da79171ae429a14c65e",
+    "related_witness_ref": "witness-f983e050576c4b52b69cfb0b38cb8502"
+  },
+  "envelope": {
+    "artifact_family": "governance_action",
+    "canonical_body_ref": "v1/registry/runs/execution-4ca16d2050334c50998fdd85648d57eb/canonical_body/governance_action.body.json",
+    "emitted_at": "2026-04-02T10:38:29Z",
+    "execution_id": "execution-4ca16d2050334c50998fdd85648d57eb"
+  }
+}

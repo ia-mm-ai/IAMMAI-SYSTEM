@@ -1,0 +1,68 @@
+{
+  "proof_family": "cross_carrier_seam_proof_003",
+  "artifact_family": "witness_artifact",
+  "package_kind": "cross_carrier_seam_release_package",
+  "package_id": "transfer-package-02af9dff5a6a44518c823d2957976490",
+  "package_created_at": "2026-04-03T19:54:15Z",
+  "source_carrier": {
+    "carrier_label": "source-side-carrier",
+    "execution_id": "execution-bf52e3aefeb1433cbf69f11598f1dd59"
+  },
+  "release_context": {
+    "release_context_id": "release-context-6c076a5aa3e243d69a308405fedfa868",
+    "release_statement": "Source-side carrier releases one valid witness artifact package for explicit receiving-side ingress.",
+    "seam_statement": "Source remains source. The same valid package may be technically receivable on different receivers while lawful ingress still depends on the receiver-local parser/governance condition.",
+    "receiver_local_condition_required": true,
+    "same_valid_package_may_diverge_by_receiver_local_condition": true,
+    "expected_ingress_under_admissible_receiver_local_condition": "lawful_derivative_ingress",
+    "expected_ingress_under_contaminated_receiver_local_condition": "receiver_local_contamination_non_passage",
+    "do_not_blame_source_for_receiver_local_contamination": true,
+    "receiver_local_condition_ref": "lab/cross_carrier_seam_proof_003/receiver_local_condition.json"
+  },
+  "seam": {
+    "explicit_release": true,
+    "explicit_seam": true,
+    "explicit_ingress_required": true,
+    "receiver_local_condition_controls_admissibility": true,
+    "source_remains_source": true,
+    "derivative_only_arrival_rule": true,
+    "shared_authority": false,
+    "standing_transfer_on_receipt": false,
+    "standing_upgrade_requires_separate_ratification": true,
+    "refusal_visible_on_failure": true,
+    "technical_receipt_not_equal_lawful_ingress": true
+  },
+  "lineage": {
+    "artifact_family": "witness_artifact",
+    "schema_ref": "v1/schemas/witness_artifact.schema.json",
+    "source_execution_id": "execution-bf52e3aefeb1433cbf69f11598f1dd59",
+    "witness_id": "witness-fb0af49008764f0f96d6df6b01a0e341",
+    "matter_id": "matter-679699cca8664f0cbdf28b01587ae2b7",
+    "source_canonical_body_ref": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/canonical_body/witness_artifact_body.json",
+    "carried_body_ref": "inline::canonical_body"
+  },
+  "canonical_body": {
+    "witness_id": "witness-fb0af49008764f0f96d6df6b01a0e341",
+    "witness_type": "transition_witness",
+    "target_ref": "matter-679699cca8664f0cbdf28b01587ae2b7",
+    "observed_at": "2026-04-03T19:54:15Z",
+    "claims": [
+      "transition_relevant_event_observed",
+      "bounded_interaction_preserved"
+    ],
+    "non_claims": [
+      "not_authorship",
+      "not_semantic_source",
+      "not_final_authority",
+      "not_automatic_truth_creation",
+      "not_governance_force"
+    ],
+    "actor_ref": "source-side-carrier",
+    "surface_ref": "lab:cross_carrier_seam_proof_003:source_release",
+    "scope_ref": "cross_carrier_seam_proof_003"
+  },
+  "manifest": {
+    "manifest_id": "manifest-c2380e3679e446f59246bcda188295a1",
+    "manifest_note": "Lawful source-side release package for receiver-local condition-dependent cross-carrier reading."
+  }
+}

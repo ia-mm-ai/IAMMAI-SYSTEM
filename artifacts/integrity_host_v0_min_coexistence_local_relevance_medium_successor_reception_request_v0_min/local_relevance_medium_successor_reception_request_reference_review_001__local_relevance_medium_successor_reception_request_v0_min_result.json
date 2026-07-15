@@ -1,0 +1,896 @@
+{
+  "additional_basis_required": [],
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "declared_local_relevance_medium_successor_reception_question": "Given one clean local relevance orientation index entry and its completed upstream reception -> receipt v2 -> orientation view -> local index-entry chain, may one LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST be recorded for one additional bounded relevance reception candidate, solely so local medium multiplicity may later become testable, without creating second reception, successor admission, repeated reception permission, arbitrary reception, feed, relation view, index system, registry, search, ranking, source transfer, source receipt, reception authorization, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+  "local_relevance_medium_successor_reception_request_checks": [
+    {
+      "actual_posture": "Given one clean local relevance orientation index entry and its completed upstream reception -> receipt v2 -> orientation view -> local index-entry chain, may one LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST be recorded for one additional bounded relevance reception candidate, solely so local medium multiplicity may later become testable, without creating second reception, successor admission, repeated reception permission, arbitrary reception, feed, relation view, index system, registry, search, ranking, source transfer, source receipt, reception authorization, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+      "block_code": null,
+      "check_name": "request question declared",
+      "expected_posture": "declared local relevance medium successor reception request question",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "block_code": null,
+      "check_name": "intent supported",
+      "expected_posture": [
+        "RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+        "DO_NOT_RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+        "BLOCK_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "block_code": null,
+      "check_name": "block intent not requested",
+      "expected_posture": "intent is not block request",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+      "block_code": null,
+      "check_name": "selected local relevance orientation index entry artifact path declared",
+      "expected_posture": "declared local relevance orientation index entry artifact path",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected local relevance orientation index entry artifact readable JSON",
+      "expected_posture": "readable JSON artifact",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected local relevance orientation index entry artifact JSON object",
+      "expected_posture": "JSON object artifact",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY_RECORDED",
+      "block_code": null,
+      "check_name": "index entry artifact outcome recorded",
+      "expected_posture": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.1.0",
+      "block_code": null,
+      "check_name": "index entry artifact result version 0.1.0",
+      "expected_posture": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "index entry artifact failed check count zero",
+      "expected_posture": 0,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "index entry present",
+      "expected_posture": "one index entry object",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY",
+      "block_code": null,
+      "check_name": "index entry type exact",
+      "expected_posture": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_INDEX_ENTRY_ONLY",
+      "block_code": null,
+      "check_name": "index entry scope local only",
+      "expected_posture": "LOCAL_INDEX_ENTRY_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+      "block_code": null,
+      "check_name": "existing orientation view artifact present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_receipt_v0_min_v2/bounded_relevance_receipt_reference_review_001__bounded_relevance_receipt_v0_min_v2_result.json",
+      "block_code": null,
+      "check_name": "existing source receipt artifact present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_reception_v0_min/bounded_relevance_reception_reference_review_001__bounded_relevance_reception_v0_min_result.json",
+      "block_code": null,
+      "check_name": "existing referenced reception artifact present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_001",
+      "block_code": null,
+      "check_name": "existing received signal id present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_basis_001",
+      "block_code": null,
+      "check_name": "existing received relevance basis id present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_scope_001",
+      "block_code": null,
+      "check_name": "existing received relevance scope id present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_carrier_context_001",
+      "block_code": null,
+      "check_name": "existing received carrier context id present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_reception_envelope_001",
+      "block_code": null,
+      "check_name": "existing received reception envelope id present",
+      "expected_posture": "present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "bounded_relevance_signal_candidate_002",
+      "block_code": null,
+      "check_name": "successor candidate id declared",
+      "expected_posture": "declared successor candidate id",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "existing_received_signal_id": "bounded_relevance_signal_001",
+        "successor_candidate_id": "bounded_relevance_signal_candidate_002"
+      },
+      "block_code": null,
+      "check_name": "successor candidate differs from existing signal",
+      "expected_posture": "successor candidate differs from existing received signal id",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY",
+      "block_code": null,
+      "check_name": "successor candidate scope declared",
+      "expected_posture": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY",
+      "block_code": null,
+      "check_name": "successor candidate scope bounded only",
+      "expected_posture": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+      "block_code": null,
+      "check_name": "request scope declared",
+      "expected_posture": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+      "block_code": null,
+      "check_name": "request scope one successor only",
+      "expected_posture": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "block_code": null,
+      "check_name": "request type declared",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "block_code": null,
+      "check_name": "request type exact",
+      "expected_posture": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+      "block_code": null,
+      "check_name": "multiplicity purpose declared",
+      "expected_posture": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+      "block_code": null,
+      "check_name": "multiplicity purpose local only",
+      "expected_posture": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 2,
+      "block_code": null,
+      "check_name": "max local orientation objects after successor is two",
+      "expected_posture": 2,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second reception not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "successor candidate not admitted",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repeated reception permission not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "arbitrary reception not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "feed not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "relation view not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "index system not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "registry not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "search not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "ranking not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source transfer not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source receipt not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "reception authorization not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authority not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "currentness not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "truth not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "action not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "synchronization not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "participation not authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "participant role not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime permission not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public API not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "participant-facing interface not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "distributed network behavior not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "deployment not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public release not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "operation permission not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "broader reusable permission not created",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow-on work not authorized",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact existence not request authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "latest file posture not request authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repo-local availability not request authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden repo state not request content",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden repo state not request authority",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "consumed request remains closed",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authorization token not reused",
+      "expected_posture": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false
+      },
+      "block_code": null,
+      "check_name": "predecessor failure evidence preserved",
+      "expected_posture": {
+        "predecessor_failure_claimed_passed": false,
+        "predecessor_failure_hidden": false,
+        "predecessor_failure_repaired": false
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result-level required false non-claims canonical false",
+      "expected_posture": "all result-level required false non-claims are false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "declared_non_claims_present": true,
+        "flipped_or_invalid_keys": [],
+        "missing_keys": []
+      },
+      "block_code": null,
+      "check_name": "required non-claims false",
+      "expected_posture": "all declared required non-claims present and false",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "local_relevance_medium_successor_reception_request_metadata": {
+    "failed_check_count": 0,
+    "generated_at": "2026-05-16T18:47:08+00:00",
+    "local_relevance_medium_successor_reception_intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+    "local_relevance_medium_successor_reception_request_id": "local_relevance_medium_successor_reception_request_reference_review_001",
+    "local_relevance_medium_successor_reception_request_type": "local_relevance_medium_successor_reception_request_result",
+    "local_relevance_medium_successor_reception_request_version": "0.1.0",
+    "passed_check_count": 71,
+    "resolver_module": "resolve_local_relevance_medium_successor_reception_request_v0_min"
+  },
+  "local_relevance_medium_successor_reception_request_non_meaning": {
+    "request_is_action": false,
+    "request_is_arbitrary_reception": false,
+    "request_is_authority": false,
+    "request_is_currentness": false,
+    "request_is_distributed_network_behavior": false,
+    "request_is_feed": false,
+    "request_is_follow_on_work": false,
+    "request_is_index_system": false,
+    "request_is_operation_permission": false,
+    "request_is_participant_facing_interface": false,
+    "request_is_participant_role": false,
+    "request_is_participation_authorization": false,
+    "request_is_public_api": false,
+    "request_is_ranking": false,
+    "request_is_reception_authorization": false,
+    "request_is_registry": false,
+    "request_is_relation_view": false,
+    "request_is_repeated_reception_permission": false,
+    "request_is_runtime_permission": false,
+    "request_is_search": false,
+    "request_is_second_reception": false,
+    "request_is_source_receipt": false,
+    "request_is_source_transfer": false,
+    "request_is_successor_admission": false,
+    "request_is_synchronization": false,
+    "request_is_truth": false
+  },
+  "local_relevance_medium_successor_reception_request_statement": {
+    "basis_index_entry_artifact_preserved": true,
+    "existing_orientation_view_artifact_preserved": true,
+    "existing_received_carrier_context_id_preserved": true,
+    "existing_received_reception_envelope_id_preserved": true,
+    "existing_received_relevance_basis_id_preserved": true,
+    "existing_received_relevance_scope_id_preserved": true,
+    "existing_received_signal_id_preserved": true,
+    "existing_referenced_reception_artifact_preserved": true,
+    "existing_source_receipt_artifact_preserved": true,
+    "local_relevance_medium_successor_reception_request_recorded": true,
+    "max_local_orientation_objects_after_successor_is_two": true,
+    "multiplicity_purpose_local_only": true,
+    "request_scope_one_successor_only": true,
+    "result_level_non_claims_canonical_false": true,
+    "successor_candidate_differs_from_existing_signal": true,
+    "successor_candidate_id_declared": true,
+    "successor_candidate_scope_bounded_only": true
+  },
+  "local_relevance_medium_successor_reception_request_summary": {
+    "action_not_created": true,
+    "arbitrary_reception_not_created": true,
+    "authority_not_created": true,
+    "basis_index_entry_artifact_preserved": true,
+    "block_code": null,
+    "block_reason": null,
+    "currentness_not_created": true,
+    "distributed_network_behavior_not_created": true,
+    "existing_orientation_view_artifact_preserved": true,
+    "existing_received_carrier_context_id_preserved": true,
+    "existing_received_reception_envelope_id_preserved": true,
+    "existing_received_relevance_basis_id_preserved": true,
+    "existing_received_relevance_scope_id_preserved": true,
+    "existing_received_signal_id_preserved": true,
+    "existing_referenced_reception_artifact_preserved": true,
+    "existing_source_receipt_artifact_preserved": true,
+    "failed_check_count": 0,
+    "feed_not_created": true,
+    "follow_on_not_authorized": true,
+    "index_system_not_created": true,
+    "intent": "RECORD_LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+    "key_non_claims": {
+      "action_created": false,
+      "authority_created": false,
+      "currentness_created": false,
+      "distributed_network_behavior_created": false,
+      "feed_created": false,
+      "follow_on_work_authorized": false,
+      "index_system_created": false,
+      "public_api_created": false,
+      "ranking_surface_created": false,
+      "registry_created": false,
+      "relation_view_created": false,
+      "runtime_permission_created": false,
+      "search_surface_created": false,
+      "second_reception_created": false,
+      "successor_candidate_admitted": false,
+      "synchronization_created": false,
+      "truth_created": false
+    },
+    "local_relevance_medium_successor_reception_request_recorded": true,
+    "max_local_orientation_objects_after_successor_is_two": true,
+    "multiplicity_purpose_local_only": true,
+    "operation_permission_not_created": true,
+    "outcome": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST_RECORDED",
+    "participant_facing_interface_not_created": true,
+    "participant_role_not_created": true,
+    "participation_authorization_not_created": true,
+    "passed_check_count": 71,
+    "predecessor_failure_evidence_preserved": true,
+    "public_api_not_created": true,
+    "question": "Given one clean local relevance orientation index entry and its completed upstream reception -> receipt v2 -> orientation view -> local index-entry chain, may one LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST be recorded for one additional bounded relevance reception candidate, solely so local medium multiplicity may later become testable, without creating second reception, successor admission, repeated reception permission, arbitrary reception, feed, relation view, index system, registry, search, ranking, source transfer, source receipt, reception authorization, authority, currentness, truth, action, synchronization, participation authorization, participant role, runtime permission, public API, participant-facing interface, distributed network behavior, operation permission, or follow-on work?",
+    "ranking_not_created": true,
+    "registry_not_created": true,
+    "relation_view_not_created": true,
+    "repeated_reception_permission_not_created": true,
+    "request_id": "local_relevance_medium_successor_reception_request_reference_review_001",
+    "request_object_summary": {
+      "basis_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+      "existing_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+      "existing_received_signal_id": "bounded_relevance_signal_001",
+      "max_local_orientation_objects_after_successor": 2,
+      "multiplicity_purpose": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+      "request_scope": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+      "request_type": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+      "successor_candidate_id": "bounded_relevance_signal_candidate_002",
+      "successor_candidate_scope": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY"
+    },
+    "request_recorded": true,
+    "request_scope_one_successor_only": true,
+    "resolver_module": "resolve_local_relevance_medium_successor_reception_request_v0_min",
+    "result_level_non_claims_canonical_false": true,
+    "result_version": "0.1.0",
+    "runtime_permission_not_created": true,
+    "search_not_created": true,
+    "second_reception_not_created": true,
+    "source_not_created": true,
+    "successor_admission_not_created": true,
+    "successor_candidate_differs_from_existing_signal": true,
+    "successor_candidate_id_declared": true,
+    "successor_candidate_scope_bounded_only": true,
+    "synchronization_not_created": true,
+    "truth_not_created": true
+  },
+  "non_claims": {
+    "action_created": false,
+    "adoption_created": false,
+    "arbitrary_reception_created": false,
+    "artifact_existence_treated_as_request_authority": false,
+    "authority_created": false,
+    "authorization_token_reused": false,
+    "broader_reusable_permission_created": false,
+    "consumed_request_reopened": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "distributed_network_behavior_created": false,
+    "feed_created": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_used_as_request_authority": false,
+    "hidden_repo_state_used_as_request_content": false,
+    "index_system_created": false,
+    "latest_file_posture_treated_as_request_authority": false,
+    "operation_permission_created": false,
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "predecessor_failure_claimed_passed": false,
+    "predecessor_failure_hidden": false,
+    "predecessor_failure_repaired": false,
+    "prior_artifacts_mutated": false,
+    "public_api_created": false,
+    "public_release_created": false,
+    "publication_flow_created": false,
+    "ranking_surface_created": false,
+    "receiving_context_governance_created": false,
+    "reception_authorization_created": false,
+    "registry_created": false,
+    "relation_view_created": false,
+    "repeated_reception_permission_created": false,
+    "repo_local_availability_treated_as_request_authority": false,
+    "runtime_permission_created": false,
+    "search_surface_created": false,
+    "second_reception_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "successor_candidate_admitted": false,
+    "synchronization_created": false,
+    "truth_created": false,
+    "vessel_relation_authorized": false
+  },
+  "not_recorded_basis": [],
+  "outcome": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST_RECORDED",
+  "selected_local_relevance_orientation_index_entry_artifact_basis": {
+    "artifact_existence_is_request_authority": false,
+    "artifact_is_json_object": true,
+    "artifact_readable": true,
+    "existing_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "existing_received_carrier_context_id": "bounded_relevance_signal_carrier_context_001",
+    "existing_received_reception_envelope_id": "bounded_relevance_reception_envelope_001",
+    "existing_received_relevance_basis_id": "bounded_relevance_basis_001",
+    "existing_received_relevance_scope_id": "bounded_relevance_scope_001",
+    "existing_received_signal_id": "bounded_relevance_signal_001",
+    "existing_referenced_reception_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_reception_v0_min/bounded_relevance_reception_reference_review_001__bounded_relevance_reception_v0_min_result.json",
+    "existing_source_receipt_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_receipt_v0_min_v2/bounded_relevance_receipt_reference_review_001__bounded_relevance_receipt_v0_min_v2_result.json",
+    "hidden_repo_state_used": false,
+    "index_entry_artifact_failed_check_count": 0,
+    "index_entry_artifact_outcome": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY_RECORDED",
+    "index_entry_artifact_result_version": "0.1.0",
+    "index_entry_present": true,
+    "index_entry_scope": "LOCAL_INDEX_ENTRY_ONLY",
+    "index_entry_type": "LOCAL_RELEVANCE_ORIENTATION_INDEX_ENTRY",
+    "latest_file_posture_is_request_authority": false,
+    "read_error": null,
+    "repo_local_availability_is_request_authority": false,
+    "selected_local_relevance_orientation_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json"
+  },
+  "successor_reception_request_object": {
+    "action_created": false,
+    "arbitrary_reception_created": false,
+    "authority_created": false,
+    "basis_index_entry_artifact": "artifacts/integrity_host_v0_min_coexistence_local_relevance_orientation_index_entry_v0_min/local_relevance_orientation_index_entry_reference_review_001__local_relevance_orientation_index_entry_v0_min_result.json",
+    "currentness_created": false,
+    "distributed_network_behavior_created": false,
+    "existing_orientation_view_artifact": "artifacts/integrity_host_v0_min_coexistence_relevance_orientation_view_v0_min/relevance_orientation_view_reference_review_001__relevance_orientation_view_v0_min_result.json",
+    "existing_received_carrier_context_id": "bounded_relevance_signal_carrier_context_001",
+    "existing_received_reception_envelope_id": "bounded_relevance_reception_envelope_001",
+    "existing_received_relevance_basis_id": "bounded_relevance_basis_001",
+    "existing_received_relevance_scope_id": "bounded_relevance_scope_001",
+    "existing_received_signal_id": "bounded_relevance_signal_001",
+    "existing_referenced_reception_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_reception_v0_min/bounded_relevance_reception_reference_review_001__bounded_relevance_reception_v0_min_result.json",
+    "existing_source_receipt_artifact": "artifacts/integrity_host_v0_min_coexistence_bounded_relevance_receipt_v0_min_v2/bounded_relevance_receipt_reference_review_001__bounded_relevance_receipt_v0_min_v2_result.json",
+    "feed_created": false,
+    "follow_on_work_authorized": false,
+    "index_system_created": false,
+    "max_local_orientation_objects_after_successor": 2,
+    "multiplicity_purpose": "LOCAL_MEDIUM_MULTIPLICITY_TEST_ONLY",
+    "participant_facing_interface_created": false,
+    "participant_role_created": false,
+    "participation_authorized": false,
+    "public_api_created": false,
+    "ranking_surface_created": false,
+    "registry_created": false,
+    "relation_view_created": false,
+    "repeated_reception_permission_created": false,
+    "request_id": "local_relevance_medium_successor_reception_request_001",
+    "request_scope": "ONE_SUCCESSOR_RECEPTION_REQUEST_ONLY",
+    "request_type": "LOCAL_RELEVANCE_MEDIUM_SUCCESSOR_RECEPTION_REQUEST",
+    "request_version": "0.1.0",
+    "runtime_permission_created": false,
+    "search_surface_created": false,
+    "second_reception_created": false,
+    "successor_candidate_admitted": false,
+    "successor_candidate_id": "bounded_relevance_signal_candidate_002",
+    "successor_candidate_scope": "BOUNDED_RELEVANCE_RECEPTION_CANDIDATE_ONLY",
+    "synchronization_created": false,
+    "truth_created": false
+  },
+  "what_remains_open": [
+    "local relevance medium successor reception request resolver successor work",
+    "local relevance medium successor reception request test",
+    "local relevance medium successor reception request live artifact",
+    "local relevance medium successor reception request terminal summary, if needed",
+    "second bounded relevance reception",
+    "successor candidate admission",
+    "local medium multiplicity result",
+    "relation view",
+    "comparison view",
+    "local relevance orientation index system, if ever separately selected",
+    "registry",
+    "search surface",
+    "ranking surface",
+    "source transfer",
+    "source receipt",
+    "reception authorization",
+    "derivative reception",
+    "vessel relation",
+    "adoption",
+    "authority creation",
+    "currentness creation",
+    "truth creation",
+    "action",
+    "synchronization",
+    "participation authorization",
+    "participant role",
+    "runtime permission",
+    "public API",
+    "participant-facing interface",
+    "distributed network behavior",
+    "operation permission",
+    "receiving-context governance",
+    "deployment",
+    "public release",
+    "publication flow",
+    "broader reusable permission",
+    "successor reception request reuse",
+    "follow-on work"
+  ]
+}

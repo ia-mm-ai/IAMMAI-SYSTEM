@@ -1,0 +1,246 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "checks": [
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_current_state_readout/current_state_readout_result.json",
+      "check_name": "current_state_readout_result_readable",
+      "expected_posture": "readable emitted current-state readout result",
+      "passed": true
+    },
+    {
+      "actual_posture": "EMITTED",
+      "block_code": "CURRENT_STATE_READOUT_NOT_EMITTED",
+      "check_name": "current_state_readout_outcome_emitted",
+      "expected_posture": "EMITTED",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "block_code": "EFFECTIVE_HANDOFF_ARTIFACT_UNREADABLE",
+      "check_name": "effective_execution_authority_artifact_readable_and_coherent",
+      "expected_posture": "readable coherent effective authority artifact",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "block_code": "EFFECTIVE_HANDOFF_ARTIFACT_UNREADABLE",
+      "check_name": "effective_run_family_packet_readable_and_coherent",
+      "expected_posture": "readable coherent effective family packet",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+      "block_code": "EFFECTIVE_HANDOFF_ARTIFACT_UNREADABLE",
+      "check_name": "effective_preserved_run_status_packet_readable_and_coherent",
+      "expected_posture": "readable coherent effective status packet",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "block_code": "EFFECTIVE_HANDOFF_ARTIFACT_UNREADABLE",
+      "check_name": "effective_current_governing_packet_readable_and_coherent",
+      "expected_posture": "readable coherent effective current-governing packet",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "effective_input_paths_correspond": true,
+        "readout_output_paths_correspond": true
+      },
+      "block_code": "EFFECTIVE_HANDOFF_INPUT_DOES_NOT_CORRESPOND_TO_RESULT",
+      "check_name": "effective_handoff_inputs_correspond_to_current_state_readout_result",
+      "expected_posture": "effective inputs named by current-state readout result",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "src/integrity_host_v0_min_coexistence_v2.py",
+        "src/integrity_host_v0_min_coexistence_v2.py",
+        "src/integrity_host_v0_min_coexistence_v2.py",
+        "src/integrity_host_v0_min_coexistence_v2.py"
+      ],
+      "block_code": "CANONICAL_EXECUTION_LINE_MISMATCH",
+      "check_name": "effective_family_canonical_core_execution_file_matches",
+      "expected_posture": "src/integrity_host_v0_min_coexistence_v2.py",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z"
+      ],
+      "block_code": "EFFECTIVE_HANDOFF_INPUT_NOT_INTERNALLY_COHERENT",
+      "check_name": "effective_inputs_share_current_governing_source_run_where_exposed",
+      "expected_posture": "same current governing source run where exposed",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z"
+      ],
+      "block_code": "EFFECTIVE_HANDOFF_INPUT_NOT_INTERNALLY_COHERENT",
+      "check_name": "effective_inputs_share_current_governing_ingress_run_where_exposed",
+      "expected_posture": "same current governing ingress run where exposed",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "REPLAY_SHORTCUT_REFUSED",
+      "check_name": "replay_shortcut_refused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "MERGE_SHORTCUT_REFUSED",
+      "check_name": "merge_shortcut_refused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "CONTINUITY_COMPLETION_SHORTCUT_REFUSED",
+      "check_name": "continuity_completion_shortcut_refused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "SILENT_STANDING_UPGRADE_REFUSED",
+      "check_name": "silent_standing_upgrade_refused",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuity_completed": false,
+        "merged_into_local_state": false,
+        "replayed_into_live_host": false,
+        "standing_upgraded": false
+      },
+      "block_code": "EFFECTIVE_HANDOFF_INPUT_NOT_INTERNALLY_COHERENT",
+      "check_name": "bounded_non_claims_remain_false",
+      "expected_posture": "replay, merge, continuity completion, and standing upgrade remain false",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "readout_output": {
+          "current_authority_artifact_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+          "current_authority_candidate_run_count": 2,
+          "current_authority_run_count": 1,
+          "current_family_packet_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+          "current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+          "current_governing_packet_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+          "current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+          "current_status_packet_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+          "current_work_basis": "ADOPTED_SUCCESSOR_FAMILY_EFFECTIVE",
+          "preserved_eligible_non_authority_count": 1,
+          "preserved_ineligible_count": 0,
+          "preserved_run_count": 2,
+          "readout_basis": "completed_current_work_operation"
+        },
+        "readout_summary": {
+          "current_authority_run_count": 1,
+          "current_work_basis": "ADOPTED_SUCCESSOR_FAMILY_EFFECTIVE",
+          "effective_current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+          "effective_current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+          "preserved_run_count": 2,
+          "readout_basis": "completed_current_work_operation",
+          "selected_current_work_operation_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation"
+        }
+      },
+      "block_code": "EFFECTIVE_HANDOFF_INPUT_NOT_INTERNALLY_COHERENT",
+      "check_name": "prior_family_preservation_visible_where_exposed",
+      "expected_posture": "prior family remains preserved where exposed",
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_current_state_readout/current_state_readout_result.json",
+      "check_name": "uses_emitted_current_state_readout_explicitly",
+      "expected_posture": "handoff selected from emitted current-state readout result",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "fallback_attempted": false
+      },
+      "block_code": "STALE_PRIOR_FAMILY_FALLBACK_REFUSED",
+      "check_name": "stale_prior_family_fallback_refused",
+      "expected_posture": "no stale prior-family fallback",
+      "passed": true
+    }
+  ],
+  "effective_handoff_inputs": {
+    "effective_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+    "effective_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+    "effective_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+    "effective_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "effective_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "effective_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json"
+  },
+  "handoff_metadata": {
+    "generated_at": "2026-04-21T18:59:50.593322Z",
+    "handoff_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off",
+    "handoff_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_CURRENT_STATE_HANDOFF_RESULT",
+    "handoff_result_version": "0.1.0",
+    "resolver_module": "resolve_integrity_host_v0_min_coexistence_current_state_handoff"
+  },
+  "handoff_output": {
+    "current_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+    "current_authority_candidate_run_count": 2,
+    "current_authority_run_count": 1,
+    "current_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+    "current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+    "current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "current_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+    "current_work_basis": "ADOPTED_SUCCESSOR_FAMILY_EFFECTIVE",
+    "handoff_basis": "emitted_current_state_readout",
+    "preserved_eligible_non_authority_count": 1,
+    "preserved_ineligible_count": 0,
+    "preserved_run_count": 2,
+    "readout_basis": "completed_current_work_operation"
+  },
+  "handoff_summary": {
+    "current_authority_run_count": 1,
+    "effective_current_governing_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "effective_current_governing_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "failed_check_count": 0,
+    "handoff_basis": "emitted_current_state_readout",
+    "passed_check_count": 18,
+    "preserved_run_count": 2,
+    "readout_basis": "completed_current_work_operation",
+    "selected_current_state_readout_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout"
+  },
+  "non_claims": {
+    "authority_resolution_is_protocol_law": false,
+    "continuity_completed": false,
+    "final_current_state_handoff_completed": false,
+    "final_current_state_readout_completed": false,
+    "final_current_work_input_resolution_completed": false,
+    "final_current_work_operation_completed": false,
+    "final_effective_family_consumption_completed": false,
+    "final_effective_family_resolution_completed": false,
+    "final_governing_reresolution_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_successor_adoption_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_persistence_or_registry_law": false,
+    "final_preserved_run_governance_completed": false,
+    "final_system_identity_completed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "replayed_into_live_host": false,
+    "standing_upgraded": false
+  },
+  "outcome": "HANDED_OFF",
+  "selected_current_state_readout": {
+    "current_state_readout_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout",
+    "current_state_readout_result_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_current_state_readout/current_state_readout_result.json",
+    "outcome": "EMITTED",
+    "selected_current_work_operation_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation"
+  }
+}

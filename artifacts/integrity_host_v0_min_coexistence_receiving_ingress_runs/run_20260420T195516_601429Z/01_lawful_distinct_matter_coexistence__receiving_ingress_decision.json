@@ -1,0 +1,564 @@
+{
+  "decision_metadata": {
+    "decision_builder_module": "build_integrity_host_v0_min_coexistence_receiving_ingress_decision",
+    "decision_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_INGRESS_DECISION",
+    "decision_version": "0.1.0",
+    "generated_at": "2026-04-20T19:55:16.635826Z"
+  },
+  "ingress_decision": {
+    "continuity_completed": false,
+    "decision": "RECEIVE_BOUNDED_PACKET",
+    "decision_reason": "VALIDATION_PASSED_FOR_BOUNDED_RECEIVING_HANDLING",
+    "eligible_for_bounded_receiving_handling": true,
+    "requires_merge": false,
+    "requires_replay": false,
+    "standing_upgraded": false,
+    "validation_passed": true
+  },
+  "packet_identity": {
+    "expected_packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "expected_packet_version": "0.1.0",
+    "host_id": "scenario-lawful-coexistence",
+    "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+    "packet_version": "0.1.0",
+    "receiving_packet_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence__receiving_packet.json",
+    "scenario_id": "lawful_distinct_matter_coexistence",
+    "scenario_name": "Lawful Distinct-Matter Coexistence",
+    "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+    "snapshot_version": "0.1.0"
+  },
+  "receiving_packet": {
+    "import_identity": {
+      "import_source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+      "imported_scenario_id": "lawful_distinct_matter_coexistence",
+      "imported_scenario_name": "Lawful Distinct-Matter Coexistence",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "import_summary": {
+      "accepted_action_count": 5,
+      "coexistence_relation_count": 1,
+      "hold_count": 0,
+      "host_id": "scenario-lawful-coexistence",
+      "object_count": 2,
+      "open_object_count": 2,
+      "record_count": 5,
+      "refusal_count": 0,
+      "refused_action_count": 0,
+      "scenario_id": "lawful_distinct_matter_coexistence",
+      "scenario_name": "Lawful Distinct-Matter Coexistence",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json"
+    },
+    "imported_packet": {
+      "coexistence_relations": [
+        {
+          "basis_ref": "cohost-a-b",
+          "created_by_record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+          "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+          "related_object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "relation_type": "DISTINCT_MATTER_COHOSTED"
+        }
+      ],
+      "holds": [],
+      "host_state": {
+        "host_id": "scenario-lawful-coexistence",
+        "open_object_ids": [
+          "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "obj_acc0aca790e640f0b7f635c3ec6155fa"
+        ]
+      },
+      "objects": [
+        {
+          "created_by_record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+          "matter_ref": "matter-b",
+          "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+          "occurrence_ref": "occurrence-b",
+          "payload_ref": "payload-b",
+          "phase_state": "PRESENT",
+          "predecessor_object_id": null,
+          "resolution_type": null,
+          "resolved_by_record_id": null
+        },
+        {
+          "created_by_record_id": "tr_cf0e2617175e4e559be16a7ff45931e5",
+          "matter_ref": "matter-a",
+          "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "occurrence_ref": "occurrence-a",
+          "payload_ref": "payload-a",
+          "phase_state": "STANDING",
+          "predecessor_object_id": null,
+          "resolution_type": null,
+          "resolved_by_record_id": null
+        }
+      ],
+      "scenario_metadata": {
+        "accepted_action_count": 5,
+        "action_results": [
+          {
+            "accepted": true,
+            "label": "create object A",
+            "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+            "record_id": "tr_cf0e2617175e4e559be16a7ff45931e5",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          },
+          {
+            "accepted": true,
+            "label": "create object B with explicit cohost basis",
+            "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+            "record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          },
+          {
+            "accepted": true,
+            "label": "present object A",
+            "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+            "record_id": "tr_4157aabfab7243d992bb24c605fc8ea5",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          },
+          {
+            "accepted": true,
+            "label": "stand object A",
+            "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+            "record_id": "tr_388ac6eac4624fe591fac0d12b4a14c4",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          },
+          {
+            "accepted": true,
+            "label": "present object B",
+            "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+            "record_id": "tr_c8fd06fd07744490a06f540367224027",
+            "refusal_code": null,
+            "state_changed": true,
+            "successor_object_id": null
+          }
+        ],
+        "description": "Creates two distinct-matter open objects with explicit pairwise cohost marking, then moves them independently through presentation.",
+        "generated_at": "2026-04-20T19:55:16.602084Z",
+        "refused_action_count": 0,
+        "scenario_id": "lawful_distinct_matter_coexistence",
+        "scenario_name": "Lawful Distinct-Matter Coexistence",
+        "source_path": "/Users/markomarkota/IAMMAI-SYSTEM/artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json"
+      },
+      "snapshot_metadata": {
+        "generated_at": "2026-04-20T19:55:16.602155Z",
+        "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+        "snapshot_version": "0.1.0",
+        "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+        "source_module": "integrity_host_v0_min_coexistence_v2"
+      },
+      "transition_records": [
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602014Z",
+          "action_type": "CREATE_OBJECT",
+          "basis_ref": "create-a",
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-lawful-coexistence",
+          "matter_ref": "matter-a",
+          "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "occurrence_ref": null,
+          "payload_ref": "payload-a",
+          "predecessor_object_id": null,
+          "record_id": "tr_cf0e2617175e4e559be16a7ff45931e5",
+          "refusal_code": null,
+          "related_open_object_ids": [],
+          "source_phase_state": null,
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "CANDIDATE",
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        },
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602042Z",
+          "action_type": "CREATE_OBJECT",
+          "basis_ref": "create-b",
+          "created_coexistence_relations": [
+            {
+              "basis_ref": "cohost-a-b",
+              "created_by_record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+              "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+              "related_object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+              "relation_type": "DISTINCT_MATTER_COHOSTED"
+            }
+          ],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-lawful-coexistence",
+          "matter_ref": "matter-b",
+          "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+          "occurrence_ref": null,
+          "payload_ref": "payload-b",
+          "predecessor_object_id": null,
+          "record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+          "refusal_code": null,
+          "related_open_object_ids": [
+            "obj_cd3b9ed589094e068a5b122a37abeb4b"
+          ],
+          "source_phase_state": null,
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "CANDIDATE",
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        },
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602058Z",
+          "action_type": "PRESENT",
+          "basis_ref": "present-a",
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-lawful-coexistence",
+          "matter_ref": "matter-a",
+          "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "occurrence_ref": "occurrence-a",
+          "payload_ref": "payload-a",
+          "predecessor_object_id": null,
+          "record_id": "tr_4157aabfab7243d992bb24c605fc8ea5",
+          "refusal_code": null,
+          "related_open_object_ids": [],
+          "source_phase_state": "CANDIDATE",
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "PRESENT",
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        },
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602067Z",
+          "action_type": "STAND",
+          "basis_ref": null,
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-lawful-coexistence",
+          "matter_ref": "matter-a",
+          "object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+          "occurrence_ref": "occurrence-a",
+          "payload_ref": "payload-a",
+          "predecessor_object_id": null,
+          "record_id": "tr_388ac6eac4624fe591fac0d12b4a14c4",
+          "refusal_code": null,
+          "related_open_object_ids": [],
+          "source_phase_state": "PRESENT",
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "STANDING",
+          "target_resolution_type": null,
+          "threshold_basis_ref": "threshold-a"
+        },
+        {
+          "accepted": true,
+          "acted_at": "2026-04-20T19:55:16.602076Z",
+          "action_type": "PRESENT",
+          "basis_ref": "present-b",
+          "created_coexistence_relations": [],
+          "hold_after": false,
+          "hold_before": false,
+          "host_id": "scenario-lawful-coexistence",
+          "matter_ref": "matter-b",
+          "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+          "occurrence_ref": "occurrence-b",
+          "payload_ref": "payload-b",
+          "predecessor_object_id": null,
+          "record_id": "tr_c8fd06fd07744490a06f540367224027",
+          "refusal_code": null,
+          "related_open_object_ids": [],
+          "source_phase_state": "CANDIDATE",
+          "source_resolution_type": null,
+          "successor_object_id": null,
+          "target_phase_state": "PRESENT",
+          "target_resolution_type": null,
+          "threshold_basis_ref": null
+        }
+      ]
+    },
+    "packet_metadata": {
+      "builder_module": "build_integrity_host_v0_min_coexistence_receiving_packet",
+      "generated_at": "2026-04-20T19:55:16.635112Z",
+      "packet_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET",
+      "packet_version": "0.1.0"
+    },
+    "receiving_status": {
+      "continuity_completed": false,
+      "imported_packet_read_only_here": true,
+      "merged_into_local_state": false,
+      "preserved_structure_visible": true,
+      "receiving_packet_exists": true,
+      "replayed_into_live_host": false,
+      "source_remains_source": true,
+      "standing_upgraded": false
+    },
+    "source_provenance": {
+      "scenario_description": "Creates two distinct-matter open objects with explicit pairwise cohost marking, then moves them independently through presentation.",
+      "scenario_id": "lawful_distinct_matter_coexistence",
+      "scenario_name": "Lawful Distinct-Matter Coexistence",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+      "source_generated_at": "2026-04-20T19:55:16.602084Z",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+    }
+  },
+  "receiving_status_carry_forward": {
+    "continuity_completed": false,
+    "imported_packet_read_only_here": true,
+    "merged_into_local_state": false,
+    "preserved_structure_visible": true,
+    "receiving_packet_exists": true,
+    "replayed_into_live_host": false,
+    "source_remains_source": true,
+    "standing_upgraded": false
+  },
+  "source_provenance": {
+    "scenario_description": "Creates two distinct-matter open objects with explicit pairwise cohost marking, then moves them independently through presentation.",
+    "scenario_id": "lawful_distinct_matter_coexistence",
+    "scenario_name": "Lawful Distinct-Matter Coexistence",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+    "source_generated_at": "2026-04-20T19:55:16.602084Z",
+    "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+  },
+  "validation_result": {
+    "all_passed": true,
+    "count_checks": {
+      "accepted_action_count": {
+        "actual": 5,
+        "basis": "import_summary.accepted_action_count",
+        "expected": 5,
+        "matched": true
+      },
+      "coexistence_relation_count": {
+        "actual": 1,
+        "basis": "import_summary.coexistence_relation_count",
+        "expected": 1,
+        "matched": true
+      },
+      "evolve_record_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "hold_count": {
+        "actual": 0,
+        "basis": "import_summary.hold_count",
+        "expected": 0,
+        "matched": true
+      },
+      "object_count": {
+        "actual": 2,
+        "basis": "import_summary.object_count",
+        "expected": 2,
+        "matched": true
+      },
+      "open_object_count": {
+        "actual": 2,
+        "basis": "import_summary.open_object_count",
+        "expected": 2,
+        "matched": true
+      },
+      "refusal_count": {
+        "actual": 0,
+        "basis": "import_summary.refusal_count",
+        "expected": 0,
+        "matched": true
+      },
+      "refused_action_count": {
+        "actual": 0,
+        "basis": "import_summary.refused_action_count",
+        "expected": 0,
+        "matched": true
+      },
+      "resolved_object_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "successor_object_count": {
+        "actual": 0,
+        "basis": "derived_from_imported_packet_only",
+        "expected": 0,
+        "matched": true
+      },
+      "transition_record_count": {
+        "actual": 5,
+        "basis": "import_summary.record_count",
+        "expected": 5,
+        "matched": true
+      }
+    },
+    "packet_identity": {
+      "host_id": "scenario-lawful-coexistence",
+      "scenario_id": "lawful_distinct_matter_coexistence",
+      "scenario_name": "Lawful Distinct-Matter Coexistence",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+      "source_run_directory_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z"
+    },
+    "status_checks": {
+      "continuity_completed": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "imported_packet_read_only_here": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "merged_into_local_state": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "preserved_structure_visible": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "receiving_packet_exists": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "replayed_into_live_host": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      },
+      "source_remains_source": {
+        "actual": true,
+        "expected": true,
+        "matched": true
+      },
+      "standing_upgraded": {
+        "actual": false,
+        "expected": false,
+        "matched": true
+      }
+    },
+    "structural_checks": {
+      "builder_summary_readable": true,
+      "host_id_present": true,
+      "import_identity": true,
+      "import_identity_matches_source_provenance": true,
+      "import_identity_scenario_id_present": true,
+      "import_identity_scenario_name_present": true,
+      "import_summary": true,
+      "imported_coexistence_relations": true,
+      "imported_holds": true,
+      "imported_host_state": true,
+      "imported_metadata_matches_source_provenance": true,
+      "imported_objects": true,
+      "imported_packet": true,
+      "imported_scenario_metadata": true,
+      "imported_snapshot_metadata": true,
+      "imported_transition_records": true,
+      "packet_builder_module_present": true,
+      "packet_generated_at_present": true,
+      "packet_metadata": true,
+      "packet_type_matches_builder": true,
+      "packet_version_matches_builder": true,
+      "receiving_status": true,
+      "scenario_id_present": true,
+      "scenario_name_present": true,
+      "snapshot_type_present": true,
+      "snapshot_version_present": true,
+      "source_artifact_path_present": true,
+      "source_provenance": true,
+      "source_run_directory_path_present": true,
+      "summary_matches_source_provenance": true
+    },
+    "validation_metadata": {
+      "generated_at": "2026-04-20T19:55:16.635768Z",
+      "validation_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_RECEIVING_PACKET_VALIDATION",
+      "validation_version": "0.1.0",
+      "validator_module": "validate_integrity_host_v0_min_coexistence_receiving_packet"
+    },
+    "visibility_checks": {
+      "coexistence_relations_visible": {
+        "count": 1,
+        "matched": true,
+        "relations": [
+          {
+            "basis_ref": "cohost-a-b",
+            "created_by_record_id": "tr_9d2e71aed5e043ee911baefa054fbc5d",
+            "object_id": "obj_acc0aca790e640f0b7f635c3ec6155fa",
+            "related_object_id": "obj_cd3b9ed589094e068a5b122a37abeb4b",
+            "relation_type": "DISTINCT_MATTER_COHOSTED"
+          }
+        ]
+      },
+      "holds_visible": {
+        "count": 0,
+        "holds": [],
+        "matched": true
+      },
+      "object_ids_visible": {
+        "count": 2,
+        "matched": true,
+        "object_ids": [
+          "obj_acc0aca790e640f0b7f635c3ec6155fa",
+          "obj_cd3b9ed589094e068a5b122a37abeb4b"
+        ]
+      },
+      "predecessor_successor_lineage_visible": {
+        "evolve_record_lineage": [],
+        "evolve_record_lineage_count": 0,
+        "matched": true,
+        "object_lineage": [],
+        "object_lineage_count": 0
+      },
+      "refusal_records_visible": {
+        "count": 0,
+        "matched": true,
+        "refusal_records": []
+      }
+    }
+  },
+  "validation_summary": {
+    "accepted_action_count": 5,
+    "all_passed": true,
+    "coexistence_relation_count": 1,
+    "failed_check_count": 0,
+    "hold_count": 0,
+    "host_id": "scenario-lawful-coexistence",
+    "object_count": 2,
+    "open_object_count": 2,
+    "receiving_status": {
+      "continuity_completed": false,
+      "imported_packet_read_only_here": true,
+      "merged_into_local_state": false,
+      "preserved_structure_visible": true,
+      "receiving_packet_exists": true,
+      "replayed_into_live_host": false,
+      "source_remains_source": true,
+      "standing_upgraded": false
+    },
+    "refusal_count": 0,
+    "refused_action_count": 0,
+    "scenario_id": "lawful_distinct_matter_coexistence",
+    "scenario_name": "Lawful Distinct-Matter Coexistence",
+    "source_artifact_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T195516_601429Z/01_lawful_distinct_matter_coexistence.json",
+    "total_check_count": 54,
+    "transition_record_count": 5
+  }
+}

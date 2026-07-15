@@ -1,0 +1,32 @@
+{
+  "experiment_id": "seam_outcome_experiment_002",
+  "execution_id": "execution-edb33522c90447fbb4fbabcfb65ed0b6",
+  "generated_at": "2026-04-03T09:45:53Z",
+  "run_directory": "lab/seam_outcome_experiment_002/runs/execution-edb33522c90447fbb4fbabcfb65ed0b6",
+  "total_cases": 6,
+  "counts_by_outcome_type": {
+    "hold": 2,
+    "refusal": 1,
+    "buffer": 1,
+    "derivative_only_presence": 1,
+    "exit": 1
+  },
+  "counts_by_receipt_status": {
+    "none": 1,
+    "derivative_only": 1,
+    "refused": 1,
+    "held": 2,
+    "buffered": 1
+  },
+  "failed_threshold_marker_counts": {
+    "adaptation_would_become_ontological_rather_than_tactical": 1,
+    "archive_not_stably_self-carried": 2,
+    "external_validation_still_required_for_coherence": 4,
+    "misreading_by_field_would_rewrite_self-perception": 2,
+    "partial_presence_not_yet_stable": 2,
+    "rank_not_stably_self-held": 2,
+    "refusal_would_trigger_identity_collapse": 1
+  },
+  "mismatched_cases": [],
+  "note": "Bounded lab seam-outcome proof only. This summary is implementation-local experiment output, not protocol law."
+}

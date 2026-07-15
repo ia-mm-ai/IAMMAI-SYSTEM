@@ -1,0 +1,36 @@
+{
+  "contract_identity": {
+    "contract_id": "current_state_what_stands_reader_v1",
+    "contract_name": "IAMMAI Current-State / What-Stands Reader",
+    "version": "v1",
+    "vessel_role": "read_only_current_state_what_stands_reader"
+  },
+  "access_posture": {
+    "read_only": true,
+    "derivative_only": true,
+    "web_access": false,
+    "mutation_allowed": false
+  },
+  "allowed_sources": [
+    "CURRENT_STATE__REPO_ENTRY.md",
+    "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md"
+  ],
+  "allowed_question_classes": [
+    "current_state",
+    "what_stands_now"
+  ],
+  "out_of_scope_rule": {
+    "non_listed_sources_out_of_scope": true,
+    "non_listed_sources_note": "Any repo surface outside allowed_sources is out of scope for this vessel.",
+    "non_allowed_question_classes_out_of_scope": true,
+    "non_allowed_question_classes_note": "Any question class outside allowed_question_classes is out of scope for this vessel."
+  },
+  "authority_note": {
+    "local_shell_source_access_governing": true,
+    "local_shell_source_access_note": "This manifest governs local source access for this vessel.",
+    "changes_source_rank_in_repo": false,
+    "source_rank_note": "This manifest does not change source rank in the repository.",
+    "narrower_additive_vessel_family_member": true,
+    "family_note": "This manifest defines a narrower additive vessel family member and does not replace the earlier wider current-state / standing reader manifest."
+  }
+}

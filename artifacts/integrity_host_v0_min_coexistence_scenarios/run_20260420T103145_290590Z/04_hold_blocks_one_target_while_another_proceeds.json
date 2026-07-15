@@ -1,0 +1,312 @@
+{
+  "scenario": {
+    "accepted_action_count": 6,
+    "action_results": [
+      {
+        "accepted": true,
+        "label": "create object A",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "record_id": "tr_adab2048a8a946fdb7106d7e98fe2376",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": true,
+        "label": "create object B with explicit cohost basis",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "record_id": "tr_e7b08692b1064b7082b572238e720627",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": true,
+        "label": "present object A",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "record_id": "tr_10bb1bf71cbc4855bec6c937fb2a3354",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": true,
+        "label": "present object B",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "record_id": "tr_8b9ca5242b9f4287acc67cc5be8b984b",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": true,
+        "label": "set HOLD on object A",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "record_id": "tr_444bf4a26cb04dd58fa76c7df5db128e",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      },
+      {
+        "accepted": false,
+        "label": "attempt STAND on held object A",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "record_id": "tr_260c7d70e5704eaf89cddad0e1611c45",
+        "refusal_code": "HOLD_BLOCKS_TRANSITION",
+        "state_changed": false,
+        "successor_object_id": null
+      },
+      {
+        "accepted": true,
+        "label": "stand unheld object B",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "record_id": "tr_d9e18de314f64627bf6d62e99642d0b4",
+        "refusal_code": null,
+        "state_changed": true,
+        "successor_object_id": null
+      }
+    ],
+    "description": "Demonstrates target-specific HOLD: the held object refuses standing while the unrelated cohosted object can still stand.",
+    "generated_at": "2026-04-20T10:31:45.292279Z",
+    "refused_action_count": 1,
+    "scenario_id": "hold_blocks_one_target_while_another_proceeds",
+    "scenario_name": "HOLD Blocks One Target While Another Proceeds"
+  },
+  "snapshot": {
+    "coexistence_relations": [
+      {
+        "basis_ref": "cohost-a-b",
+        "created_by_record_id": "tr_e7b08692b1064b7082b572238e720627",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "related_object_id": "obj_57198560843f48a383e093a47311eb65",
+        "relation_type": "DISTINCT_MATTER_COHOSTED"
+      }
+    ],
+    "holds": [
+      {
+        "active": true,
+        "basis_ref": "hold-a",
+        "set_by_record_id": "tr_444bf4a26cb04dd58fa76c7df5db128e",
+        "target_object_id": "obj_57198560843f48a383e093a47311eb65"
+      }
+    ],
+    "host": {
+      "host_id": "scenario-target-specific-hold",
+      "open_object_ids": [
+        "obj_57198560843f48a383e093a47311eb65",
+        "obj_f8589acf487949dfa009ef708e8048ed"
+      ]
+    },
+    "metadata": {
+      "generated_at": "2026-04-20T10:31:45.292354Z",
+      "snapshot_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COHOST_SNAPSHOT",
+      "snapshot_version": "0.1.0",
+      "source_host_class": "IntegrityHostV0MinCoexistenceV2",
+      "source_module": "integrity_host_v0_min_coexistence_v2"
+    },
+    "objects": [
+      {
+        "created_by_record_id": "tr_adab2048a8a946fdb7106d7e98fe2376",
+        "matter_ref": "matter-a",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "phase_state": "PRESENT",
+        "predecessor_object_id": null,
+        "resolution_type": null,
+        "resolved_by_record_id": null
+      },
+      {
+        "created_by_record_id": "tr_e7b08692b1064b7082b572238e720627",
+        "matter_ref": "matter-b",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "occurrence_ref": "occurrence-b",
+        "payload_ref": "payload-b",
+        "phase_state": "STANDING",
+        "predecessor_object_id": null,
+        "resolution_type": null,
+        "resolved_by_record_id": null
+      }
+    ],
+    "transition_records": [
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292207Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-a",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "occurrence_ref": null,
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_adab2048a8a946fdb7106d7e98fe2376",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292225Z",
+        "action_type": "CREATE_OBJECT",
+        "basis_ref": "create-b",
+        "created_coexistence_relations": [
+          {
+            "basis_ref": "cohost-a-b",
+            "created_by_record_id": "tr_e7b08692b1064b7082b572238e720627",
+            "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+            "related_object_id": "obj_57198560843f48a383e093a47311eb65",
+            "relation_type": "DISTINCT_MATTER_COHOSTED"
+          }
+        ],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-b",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "occurrence_ref": null,
+        "payload_ref": "payload-b",
+        "predecessor_object_id": null,
+        "record_id": "tr_e7b08692b1064b7082b572238e720627",
+        "refusal_code": null,
+        "related_open_object_ids": [
+          "obj_57198560843f48a383e093a47311eb65"
+        ],
+        "source_phase_state": null,
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "CANDIDATE",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292234Z",
+        "action_type": "PRESENT",
+        "basis_ref": "present-a",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-a",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_10bb1bf71cbc4855bec6c937fb2a3354",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "CANDIDATE",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292242Z",
+        "action_type": "PRESENT",
+        "basis_ref": "present-b",
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-b",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "occurrence_ref": "occurrence-b",
+        "payload_ref": "payload-b",
+        "predecessor_object_id": null,
+        "record_id": "tr_8b9ca5242b9f4287acc67cc5be8b984b",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "CANDIDATE",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292252Z",
+        "action_type": "SET_HOLD",
+        "basis_ref": "hold-a",
+        "created_coexistence_relations": [],
+        "hold_after": true,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-a",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_444bf4a26cb04dd58fa76c7df5db128e",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "PRESENT",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": null
+      },
+      {
+        "accepted": false,
+        "acted_at": "2026-04-20T10:31:45.292261Z",
+        "action_type": "STAND",
+        "basis_ref": null,
+        "created_coexistence_relations": [],
+        "hold_after": true,
+        "hold_before": true,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-a",
+        "object_id": "obj_57198560843f48a383e093a47311eb65",
+        "occurrence_ref": "occurrence-a",
+        "payload_ref": "payload-a",
+        "predecessor_object_id": null,
+        "record_id": "tr_260c7d70e5704eaf89cddad0e1611c45",
+        "refusal_code": "HOLD_BLOCKS_TRANSITION",
+        "related_open_object_ids": [],
+        "source_phase_state": "PRESENT",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "PRESENT",
+        "target_resolution_type": null,
+        "threshold_basis_ref": "threshold-a"
+      },
+      {
+        "accepted": true,
+        "acted_at": "2026-04-20T10:31:45.292270Z",
+        "action_type": "STAND",
+        "basis_ref": null,
+        "created_coexistence_relations": [],
+        "hold_after": false,
+        "hold_before": false,
+        "host_id": "scenario-target-specific-hold",
+        "matter_ref": "matter-b",
+        "object_id": "obj_f8589acf487949dfa009ef708e8048ed",
+        "occurrence_ref": "occurrence-b",
+        "payload_ref": "payload-b",
+        "predecessor_object_id": null,
+        "record_id": "tr_d9e18de314f64627bf6d62e99642d0b4",
+        "refusal_code": null,
+        "related_open_object_ids": [],
+        "source_phase_state": "PRESENT",
+        "source_resolution_type": null,
+        "successor_object_id": null,
+        "target_phase_state": "STANDING",
+        "target_resolution_type": null,
+        "threshold_basis_ref": "threshold-b"
+      }
+    ]
+  }
+}

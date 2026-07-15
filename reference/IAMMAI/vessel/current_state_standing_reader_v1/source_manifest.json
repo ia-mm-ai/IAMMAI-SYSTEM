@@ -1,0 +1,44 @@
+{
+  "contract_identity": {
+    "contract_id": "current_state_standing_reader_v1",
+    "contract_name": "IAMMAI Current-State / Standing Reader",
+    "version": "v1",
+    "vessel_role": "read_only_current_state_standing_reader"
+  },
+  "access_posture": {
+    "read_only": true,
+    "derivative_only": true,
+    "web_access": false,
+    "mutation_allowed": false
+  },
+  "allowed_sources": [
+    "CURRENT_STATE__REPO_ENTRY.md",
+    "RANKED_SURFACE_INDEX.md",
+    "CURRENT_READABILITY_SURFACES.md",
+    "CONSTITUTIONAL_VERSION_NOTE.md",
+    "v1/22_STANDING_REVIEW__POST_LAWFUL_EGRESS_AND_CROSS_CARRIER_LINE.md",
+    "v1/21_TRANSFER_ACCOUNT_ENTRY__LAWFUL_EGRESS_PROOF_READABILITY_THRESHOLD.md",
+    "v1/20_TRANSFER_ACCOUNT_ENTRY__LAWFUL_EGRESS_FROM_OBSOLETE_CONTAINER_PROOF.md",
+    "v1/18_TRANSFER_ACCOUNT_ENTRY__CROSS_CARRIER_FAMILY_READABILITY_THRESHOLD.md"
+  ],
+  "allowed_question_classes": [
+    "current_state",
+    "current_governing_surfaces",
+    "what_stands_now",
+    "latest_thresholds",
+    "what_remains_open",
+    "where_to_read_next"
+  ],
+  "out_of_scope_rule": {
+    "non_listed_sources_out_of_scope": true,
+    "non_listed_sources_note": "Any repo surface outside allowed_sources is out of scope for this vessel.",
+    "non_allowed_question_classes_out_of_scope": true,
+    "non_allowed_question_classes_note": "Any question class outside allowed_question_classes is out of scope for this vessel."
+  },
+  "authority_note": {
+    "local_shell_source_access_governing": true,
+    "local_shell_source_access_note": "This manifest governs local source access for this vessel.",
+    "changes_source_rank_in_repo": false,
+    "source_rank_note": "This manifest does not change source rank in the repository."
+  }
+}

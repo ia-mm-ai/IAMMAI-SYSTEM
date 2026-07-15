@@ -1,0 +1,86 @@
+{
+  "basic_plan_match": true,
+  "canonical": false,
+  "human_review_reminder": "Architectural stop conditions, drift signals, continuity truthfulness, and stability judgment still require human audit.",
+  "human_review_required": true,
+  "obvious_mismatches": [],
+  "ordered_run_list": [
+    "embodiment/input/matter_006.json",
+    "embodiment/input/matter_edge_001.json",
+    "embodiment/input/matter_invalid_002.json",
+    "embodiment/input/matter_004.json",
+    "embodiment/input/matter_edge_002.json"
+  ],
+  "plan_ref": "embodiment/SEQUENTIAL_PRESSURE_PLAN_v0.md",
+  "runner_ref": "embodiment/run/run_bounded_cycle.py",
+  "steps": [
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "expected_class": "success",
+      "matched_expected_status": true,
+      "matter_file": "embodiment/input/matter_006.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_006__20260327T141716Z__f693116a, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_006__20260327T141716Z__f693116a.execution_summary.json.",
+      "step_number": 1,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_006__20260327T141716Z__f693116a.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "expected_class": "success",
+      "matched_expected_status": true,
+      "matter_file": "embodiment/input/matter_edge_001.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_edge_001__20260327T141716Z__f1baf31e, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_edge_001__20260327T141716Z__f1baf31e.execution_summary.json.",
+      "step_number": 2,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_edge_001__20260327T141716Z__f1baf31e.execution_summary.json"
+    },
+    {
+      "actual_status": "non_passing",
+      "continuity_emitted": false,
+      "expected_class": "non_passing",
+      "matched_expected_status": true,
+      "matter_file": "embodiment/input/matter_invalid_002.json",
+      "stderr": "Validation did not pass. Governance, transition, and state artifacts were not lawfully produced.",
+      "stdout": "",
+      "step_number": 3,
+      "stopped_at": "validation",
+      "subprocess_exit_code": 1,
+      "summary_ref": "embodiment/output/matter_invalid_002__20260327T141716Z__3201bf37.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "expected_class": "success",
+      "matched_expected_status": true,
+      "matter_file": "embodiment/input/matter_004.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_004__20260327T141716Z__8c0befdb, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_004__20260327T141716Z__8c0befdb.execution_summary.json.",
+      "step_number": 4,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_004__20260327T141716Z__8c0befdb.execution_summary.json"
+    },
+    {
+      "actual_status": "success",
+      "continuity_emitted": true,
+      "expected_class": "success",
+      "matched_expected_status": true,
+      "matter_file": "embodiment/input/matter_edge_002.json",
+      "stderr": "",
+      "stdout": "Bounded controlled-variation cycle completed. Canonical artifacts were preserved in embodiment/registry/matter_edge_002__20260327T141716Z__8554e129, including a continuity turn for this successful run, and derivative summary output in embodiment/output/matter_edge_002__20260327T141716Z__8554e129.execution_summary.json.",
+      "step_number": 5,
+      "stopped_at": "complete",
+      "subprocess_exit_code": 0,
+      "summary_ref": "embodiment/output/matter_edge_002__20260327T141716Z__8554e129.execution_summary.json"
+    }
+  ],
+  "summary_ref": "embodiment/output/sequential_pressure_20260327T141716Z.json",
+  "summary_type": "sequential_pressure_summary",
+  "written_at": "2026-03-27T14:17:16Z"
+}

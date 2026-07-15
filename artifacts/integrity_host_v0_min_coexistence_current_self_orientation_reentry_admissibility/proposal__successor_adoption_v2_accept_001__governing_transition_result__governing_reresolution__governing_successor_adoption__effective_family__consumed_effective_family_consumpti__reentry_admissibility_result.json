@@ -1,0 +1,906 @@
+{
+  "block": {
+    "block_code": null,
+    "block_reason": null
+  },
+  "current_self_orientation_reentry_admissibility_metadata": {
+    "generated_at": "2026-04-25T10:09:36.873735Z",
+    "reentry_admissibility_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented__reentry_admitted",
+    "reentry_admissibility_result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_CURRENT_SELF_ORIENTATION_REENTRY_ADMISSIBILITY_RESULT",
+    "reentry_admissibility_result_version": "0.1.0",
+    "resolver_module": "resolve_current_self_orientation_reentry_admissibility"
+  },
+  "current_self_orientation_reentry_admissibility_summary": {
+    "basis_lock_matched": true,
+    "block_code": null,
+    "block_reason": null,
+    "correspondence_checks_passed": true,
+    "failed_check_count": 0,
+    "hierarchy_checks_passed": true,
+    "key_non_claims": {
+      "authority_created": false,
+      "continuity_completed": false,
+      "derivative_outputs_upgraded_to_source": false,
+      "final_governance_completed": false,
+      "final_system_identity_completed": false,
+      "follow_on_steps_authorized": false,
+      "general_permission_created": false,
+      "latest_file_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "recency_fraud": false,
+      "replay_performed": false,
+      "self_orientation_became_authority": false,
+      "source_replaced": false,
+      "standing_upgraded": false
+    },
+    "locked_selected_body_pass_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "locked_selected_current_state_answer_read_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+    "locked_selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "locked_selected_what_stands_now_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "next_step_family": "SPEC_BOUNDARY",
+    "next_step_kind": "CREATE_SPEC",
+    "outcome": "REENTRY_ADMITTED",
+    "permissions_single_step_bounded": true,
+    "selected_self_orientation_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+    "selected_self_orientation_result_path": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json"
+  },
+  "locked_orientation_basis": {
+    "effective_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+    "effective_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+    "effective_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+    "effective_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+    "effective_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+    "effective_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+    "selected_body_pass_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "selected_body_pass_result_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+    "selected_current_state_answer_read_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+    "selected_current_state_answer_read_path": "artifacts/integrity_host_v0_min_coexistence_current_state_answer_surface/current_state_answer_read_result.json",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_source_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+    "selected_what_stands_now_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_what_stands_now_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json"
+  },
+  "non_claims": {
+    "authority_assigned_by_brief": false,
+    "authority_assigned_by_model": false,
+    "authority_created": false,
+    "authority_resolution_is_protocol_law": false,
+    "continuity_completed": false,
+    "derivative_outputs_upgraded_to_source": false,
+    "final_continuity_memory_seam_completed": false,
+    "final_continuity_transfer_completed": false,
+    "final_continuity_transfer_receipt_completed": false,
+    "final_current_state_admissibility_and_touch_permission_completed": false,
+    "final_current_state_answer_read_completed": false,
+    "final_current_state_application_completed": false,
+    "final_current_state_delivery_completed": false,
+    "final_current_state_export_completed": false,
+    "final_current_state_handoff_completed": false,
+    "final_current_state_query_completed": false,
+    "final_current_state_readout_completed": false,
+    "final_current_state_what_remains_open_completed": false,
+    "final_current_state_what_stands_now_completed": false,
+    "final_current_work_input_resolution_completed": false,
+    "final_current_work_operation_completed": false,
+    "final_effective_family_consumption_completed": false,
+    "final_effective_family_resolution_completed": false,
+    "final_governance_completed": false,
+    "final_governing_reresolution_completed": false,
+    "final_governing_scope_completed": false,
+    "final_governing_successor_adoption_completed": false,
+    "final_governing_transition_law_completed": false,
+    "final_persistence_or_registry_law": false,
+    "final_preserved_run_governance_completed": false,
+    "final_received_derivative_action_permission_completed": false,
+    "final_received_derivative_participation_completed": false,
+    "final_system_identity_completed": false,
+    "final_v0_body_pass_completed": false,
+    "follow_on_steps_authorized": false,
+    "general_permission_created": false,
+    "latest_file_currentness": false,
+    "merge_performed": false,
+    "merged_into_local_state": false,
+    "minimum_lawful_system_completed": false,
+    "mutation_performed": false,
+    "next_organ_self_generated": false,
+    "overwrite_style_correction": false,
+    "provenance_assigned_by_model": false,
+    "rank_assigned_by_brief": false,
+    "rank_assigned_by_model": false,
+    "recency_fraud": false,
+    "replay_performed": false,
+    "replayed_into_live_host": false,
+    "roadmap_generated": false,
+    "self_orientation_became_authority": false,
+    "source_replaced": false,
+    "source_scope_widened": false,
+    "standing_assigned_by_brief": false,
+    "standing_assigned_by_model": false,
+    "standing_memory_collapsed_with_interpretation": false,
+    "standing_upgraded": false,
+    "status_assigned_by_model": false,
+    "workflow_engine_created": false
+  },
+  "outcome": "REENTRY_ADMITTED",
+  "reentry_admissibility_basis": {
+    "admission_scope": "single_declared_step_only",
+    "authorization_scope": "single_declared_step_only",
+    "basis_kind": "single_self_orientation_result_plus_single_reentry_request",
+    "next_step_family": "SPEC_BOUNDARY",
+    "next_step_kind": "CREATE_SPEC",
+    "selected_body_pass_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+    "selected_current_state_answer_read_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+    "selected_self_orientation_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+    "selected_self_orientation_result_path": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json",
+    "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "selected_what_stands_now_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+    "self_orientation_remains_non_authoritative": true
+  },
+  "reentry_admissibility_checks": [
+    {
+      "actual_posture": "SELF_ORIENTED",
+      "block_code": "SELF_ORIENTATION_RESULT_NOT_SELF_ORIENTED",
+      "check_name": "self_orientation_result_is_self_oriented",
+      "expected_posture": "SELF_ORIENTED",
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "block",
+        "bounded_correspondence_checks",
+        "current_self_orientation_summary",
+        "current_self_orientation_v2_metadata",
+        "non_claims",
+        "outcome",
+        "recognized_blocked_or_refused_surfaces",
+        "recognized_continuity_surfaces",
+        "recognized_current_executable_core_line",
+        "recognized_current_state_surfaces",
+        "recognized_derivative_surfaces",
+        "recognized_governing_effective_basis",
+        "recognized_open_surfaces",
+        "recognized_operator_facing_surfaces",
+        "recognized_touch_admissibility_surfaces",
+        "selected_orientation_inputs",
+        "self_orientation_basis"
+      ],
+      "block_code": "SELF_ORIENTATION_RESULT_BASIS_THIN",
+      "check_name": "self_orientation_result_preserves_required_sections",
+      "expected_posture": [
+        "block",
+        "bounded_correspondence_checks",
+        "current_self_orientation_summary",
+        "current_self_orientation_v2_metadata",
+        "non_claims",
+        "outcome",
+        "recognized_blocked_or_refused_surfaces",
+        "recognized_continuity_surfaces",
+        "recognized_current_executable_core_line",
+        "recognized_current_state_surfaces",
+        "recognized_derivative_surfaces",
+        "recognized_governing_effective_basis",
+        "recognized_open_surfaces",
+        "recognized_operator_facing_surfaces",
+        "recognized_touch_admissibility_surfaces",
+        "selected_orientation_inputs",
+        "self_orientation_basis"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "request_names_selected_self_orientation_id",
+      "expected_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "request_names_selected_self_orientation_path",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "SELF_ORIENTED",
+      "block_code": "SELF_ORIENTATION_RESULT_NOT_SELF_ORIENTED",
+      "check_name": "request_names_self_oriented_outcome",
+      "expected_posture": "SELF_ORIENTED",
+      "passed": true
+    },
+    {
+      "actual_posture": "resolve_current_self_orientation_v2",
+      "block_code": "SELF_ORIENTATION_RESULT_MALFORMED",
+      "check_name": "request_names_self_orientation_resolver_module",
+      "expected_posture": "resolve_current_self_orientation_v2",
+      "passed": true
+    },
+    {
+      "actual_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_body_pass_basis_matches_self_orientation",
+      "expected_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_body_pass_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_source_surface_basis_matches_self_orientation",
+      "expected_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_source_surface_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_answer_read_basis_matches_self_orientation",
+      "expected_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_answer_surface/current_state_answer_read_result.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_answer_read_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_answer_surface/current_state_answer_read_result.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_what_stands_now_basis_matches_self_orientation",
+      "expected_posture": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_what_stands_now_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_authority_artifact_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_family_packet_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_status_packet_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_current_governing_packet_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_source_run_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_effective_ingress_run_path_matches_self_orientation",
+      "expected_posture": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "checked_basis_count": 14,
+        "failed_basis_checks": []
+      },
+      "block_code": "LOCKED_ORIENTATION_BASIS_MISMATCH",
+      "check_name": "locked_orientation_basis_matches_self_orientation",
+      "expected_posture": "locked request basis equals selected self-orientation basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_selected_body_pass_result_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_selected_source_surface_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_answer_surface/current_state_answer_read_result.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_selected_current_state_answer_read_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_selected_what_stands_now_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_authority_artifact_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_family_packet_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_status_packet_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_current_governing_packet_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_source_run_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "block_code": "LOCKED_UPSTREAM_BASIS_UNREADABLE",
+      "check_name": "locked_upstream_effective_ingress_run_path_is_readable",
+      "expected_posture": "existing path from locked basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "SPEC_BOUNDARY",
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "next_step_family_is_allowed",
+      "expected_posture": [
+        "ARTIFACT_EXECUTION",
+        "CONTINUITY_TOUCH",
+        "DERIVATIVE_READ",
+        "OPERATOR_FACING_DERIVATIVE",
+        "RESOLVER_IMPLEMENTATION",
+        "SPEC_BOUNDARY",
+        "TEST_SURFACE"
+      ],
+      "passed": true
+    },
+    {
+      "actual_posture": "spec_successor_from_self_orientation",
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "requested_relation_to_basis_is_explicit",
+      "expected_posture": "non-empty requested relation to selected basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "Create one bounded spec for current self-orientation re-entry admissibility.",
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "declared_purpose_is_bounded",
+      "expected_posture": "bounded purpose without continue/advance/self-generation language",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "request_is_one_step_only",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "OVERWRITE_OR_SOURCE_REPLACEMENT_ATTEMPTED",
+      "check_name": "request_output_is_additive_only",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": "single_declared_step_only",
+      "block_code": "FOLLOW_ON_AUTHORIZATION_ATTEMPTED",
+      "check_name": "request_does_not_attempt_follow_on_authorization",
+      "expected_posture": "single_declared_step_only",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec_boundary create_spec spec_surface spec/current_self_orientation_reentry_admissibility_v0_min_spec.md current_self_orientation_reentry_admissibility_v0_min_spec create one bounded spec for current self-orientation re-entry admissibility. spec_markdown spec_successor_from_self_orientation true true ['spec/current_self_orientation_reentry_admissibility_v0_min_spec.md'] [] ['current_self_orientation_v2', 'current_state_surfaces', 'continuity_surfaces', 'derivative_surfaces', 'operator_surfaces'] ['broad_latest_file_inference'] ['reference/', 'existing_artifacts/', 'existing_source_files/'] true true true false false false single_declared_step_only",
+      "block_code": "GENERAL_FUTURE_WORK_PERMISSION_ATTEMPTED",
+      "check_name": "request_does_not_attempt_general_future_work_permission",
+      "expected_posture": "no broad future-work permission",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec_boundary create_spec spec_surface spec/current_self_orientation_reentry_admissibility_v0_min_spec.md current_self_orientation_reentry_admissibility_v0_min_spec create one bounded spec for current self-orientation re-entry admissibility. spec_markdown spec_successor_from_self_orientation true true ['spec/current_self_orientation_reentry_admissibility_v0_min_spec.md'] [] ['current_self_orientation_v2', 'current_state_surfaces', 'continuity_surfaces', 'derivative_surfaces', 'operator_surfaces'] ['broad_latest_file_inference'] ['reference/', 'existing_artifacts/', 'existing_source_files/'] true true true false false false single_declared_step_only",
+      "block_code": "ROADMAP_AUTONOMY_SIGNALING_REFUSED",
+      "check_name": "request_does_not_become_roadmap_autonomy_or_signaling",
+      "expected_posture": "no roadmap/autonomy/signaling/workflow language",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec_boundary create_spec spec_surface spec/current_self_orientation_reentry_admissibility_v0_min_spec.md current_self_orientation_reentry_admissibility_v0_min_spec create one bounded spec for current self-orientation re-entry admissibility. spec_markdown spec_successor_from_self_orientation true true ['spec/current_self_orientation_reentry_admissibility_v0_min_spec.md'] [] ['current_self_orientation_v2', 'current_state_surfaces', 'continuity_surfaces', 'derivative_surfaces', 'operator_surfaces'] ['broad_latest_file_inference'] ['reference/', 'existing_artifacts/', 'existing_source_files/'] true true true false false false single_declared_step_only",
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "request_does_not_use_latest_file_recency",
+      "expected_posture": "no latest-file or recency basis",
+      "passed": true
+    },
+    {
+      "actual_posture": "spec_boundary create_spec spec_surface spec/current_self_orientation_reentry_admissibility_v0_min_spec.md current_self_orientation_reentry_admissibility_v0_min_spec create one bounded spec for current self-orientation re-entry admissibility. spec_markdown spec_successor_from_self_orientation true true ['spec/current_self_orientation_reentry_admissibility_v0_min_spec.md'] [] ['current_self_orientation_v2', 'current_state_surfaces', 'continuity_surfaces', 'derivative_surfaces', 'operator_surfaces'] ['broad_latest_file_inference'] ['reference/', 'existing_artifacts/', 'existing_source_files/'] true true true false false false single_declared_step_only",
+      "block_code": "HUMAN_NARRATION_FALLBACK_REFUSED",
+      "check_name": "request_does_not_fall_back_to_human_narration",
+      "expected_posture": "bounded internal gate, not external-reader narration",
+      "passed": true
+    },
+    {
+      "actual_posture": "upstream_current_effective_governing_current_state_surfaces",
+      "block_code": "CURRENT_GOVERNING_BASIS_INFERRED_FROM_DERIVATIVE_API_OPERATOR_SURFACES",
+      "check_name": "current_governing_basis_source_is_upstream",
+      "expected_posture": "upstream current/effective/governing/current-state basis",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "CURRENT_GOVERNING_BASIS_INFERRED_FROM_DERIVATIVE_API_OPERATOR_SURFACES",
+      "check_name": "derivative_surfaces_are_not_allowed_as_basis",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "CURRENT_GOVERNING_BASIS_INFERRED_FROM_DERIVATIVE_API_OPERATOR_SURFACES",
+      "check_name": "operator_surfaces_are_not_allowed_as_basis",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "SELF_ORIENTATION_TREATED_AS_SOURCE_AUTHORITY",
+      "check_name": "self_orientation_is_not_allowed_as_authority",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "currentness_may_not_be_inferred_by_recency",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_EXCEEDS_RECOGNIZED_POSTURE",
+      "check_name": "request_must_preserve_current_basis",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "OPEN_SURFACE_TREATED_AS_COMPLETED",
+      "check_name": "request_must_preserve_open_surfaces",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "ANSWERED_WHAT_REMAINS_OPEN"
+      ],
+      "block_code": "OPEN_SURFACE_TREATED_AS_COMPLETED",
+      "check_name": "recognized_open_surfaces_remain_open_or_blocked",
+      "expected_posture": "open surfaces stay open or blocked",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "BLOCKED_REFUSED_SURFACE_HIDDEN",
+      "check_name": "request_must_preserve_blocked_refused_surfaces",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        {
+          "surface_family": "current_state_query_result",
+          "surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__query__current_state_governing_paths_001__current_state_query_blocked",
+          "surface_outcome": "BLOCKED",
+          "surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_query/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_query_result.json"
+        },
+        {
+          "surface_family": "openai_api_derivative_vessel_bounded_current_state_read_v3_result",
+          "surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__bounded_current_state_read_v3_refused",
+          "surface_outcome": "REFUSED",
+          "surface_path": "artifacts/openai_api_derivative_vessel__bounded_current_state_read_v3/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__bounded_current_state_vessel_v3_result.json"
+        }
+      ],
+      "block_code": "BLOCKED_REFUSED_SURFACE_HIDDEN",
+      "check_name": "blocked_refused_surfaces_remain_visible",
+      "expected_posture": "recognized blocked/refused list remains present",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_EXCEEDS_RECOGNIZED_POSTURE",
+      "check_name": "request_must_preserve_derivative_source_distinction",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "request_must_preserve_non_claims",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "authority_assigned_by_brief": false,
+        "authority_assigned_by_model": false,
+        "authority_resolution_is_protocol_law": false,
+        "continuity_completed": false,
+        "final_continuity_memory_seam_completed": false,
+        "final_continuity_transfer_completed": false,
+        "final_continuity_transfer_receipt_completed": false,
+        "final_current_state_admissibility_and_touch_permission_completed": false,
+        "final_current_state_answer_read_completed": false,
+        "final_current_state_application_completed": false,
+        "final_current_state_delivery_completed": false,
+        "final_current_state_export_completed": false,
+        "final_current_state_handoff_completed": false,
+        "final_current_state_query_completed": false,
+        "final_current_state_readout_completed": false,
+        "final_current_state_what_remains_open_completed": false,
+        "final_current_state_what_stands_now_completed": false,
+        "final_current_work_input_resolution_completed": false,
+        "final_current_work_operation_completed": false,
+        "final_effective_family_consumption_completed": false,
+        "final_effective_family_resolution_completed": false,
+        "final_governing_reresolution_completed": false,
+        "final_governing_scope_completed": false,
+        "final_governing_successor_adoption_completed": false,
+        "final_governing_transition_law_completed": false,
+        "final_persistence_or_registry_law": false,
+        "final_preserved_run_governance_completed": false,
+        "final_received_derivative_action_permission_completed": false,
+        "final_received_derivative_participation_completed": false,
+        "final_system_identity_completed": false,
+        "final_v0_body_pass_completed": false,
+        "latest_file_currentness": false,
+        "merged_into_local_state": false,
+        "minimum_lawful_system_completed": false,
+        "overwrite_style_correction": false,
+        "provenance_assigned_by_model": false,
+        "rank_assigned_by_brief": false,
+        "rank_assigned_by_model": false,
+        "recency_fraud": false,
+        "replayed_into_live_host": false,
+        "source_replaced": false,
+        "source_scope_widened": false,
+        "standing_assigned_by_brief": false,
+        "standing_assigned_by_model": false,
+        "standing_memory_collapsed_with_interpretation": false,
+        "standing_upgraded": false,
+        "status_assigned_by_model": false
+      },
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "self_orientation_non_claims_remain_false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_EXCEEDS_RECOGNIZED_POSTURE",
+      "check_name": "request_must_prevent_over_mirroring",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_EXCEEDS_RECOGNIZED_POSTURE",
+      "check_name": "request_must_prevent_under_mirroring",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "read_permission_is_boolean_and_bounded",
+      "expected_posture": "boolean",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "derive_permission_is_boolean_and_bounded",
+      "expected_posture": "boolean",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "allowed_artifact_output_roots": [],
+        "allowed_new_file_paths": [
+          "spec/CURRENT_SELF_ORIENTATION_REENTRY_ADMISSIBILITY_V0_MIN_SPEC.md"
+        ],
+        "emit_permission_requested": true
+      },
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "emit_permission_is_limited_to_one_additive_output_when_requested",
+      "expected_posture": "zero output targets when emit is false, one additive target when emit is true",
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "MUTATION_REPLAY_MERGE_ATTEMPTED",
+      "check_name": "mutate_permission_is_false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "MUTATION_REPLAY_MERGE_ATTEMPTED",
+      "check_name": "replay_permission_is_false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": "MUTATION_REPLAY_MERGE_ATTEMPTED",
+      "check_name": "merge_permission_is_false",
+      "expected_posture": false,
+      "passed": true
+    },
+    {
+      "actual_posture": "single_declared_step_only",
+      "block_code": "FOLLOW_ON_AUTHORIZATION_ATTEMPTED",
+      "check_name": "authorization_scope_is_single_declared_step_only",
+      "expected_posture": "single_declared_step_only",
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_create_authority_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_complete_continuity_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_complete_final_governance_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_complete_final_system_identity_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_upgrade_standing_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_replace_source_surfaces_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_upgrade_derivative_outputs_to_source_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_create_general_permission_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "NON_CLAIM_MISSING_OR_FLIPPED",
+      "check_name": "declared_non_claim_does_not_authorize_follow_on_steps_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "refusal_acknowledgement_request_may_be_blocked_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "REQUEST_VAGUE_OR_UNBOUNDED",
+      "check_name": "refusal_acknowledgement_blocked_result_must_preserve_basis_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "HUMAN_NARRATION_FALLBACK_REFUSED",
+      "check_name": "refusal_acknowledgement_no_fallback_to_human_narration_is_true",
+      "expected_posture": true,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": "LATEST_FILE_RECENCY_REFUSED",
+      "check_name": "refusal_acknowledgement_no_fallback_to_latest_file_is_true",
+      "expected_posture": true,
+      "passed": true
+    }
+  ],
+  "selected_reentry_request": {
+    "correspondence_requirements": {
+      "must_preserve_blocked_refused_surfaces": true,
+      "must_preserve_current_basis": true,
+      "must_preserve_derivative_source_distinction": true,
+      "must_preserve_non_claims": true,
+      "must_preserve_open_surfaces": true,
+      "must_prevent_over_mirroring": true,
+      "must_prevent_under_mirroring": true
+    },
+    "declared_next_step": {
+      "declared_expected_output_family": "spec_markdown",
+      "declared_purpose": "Create one bounded spec for current self-orientation re-entry admissibility.",
+      "next_step_family": "SPEC_BOUNDARY",
+      "next_step_kind": "CREATE_SPEC",
+      "requested_relation_to_basis": "spec_successor_from_self_orientation",
+      "target_surface_family": "spec_surface",
+      "target_surface_id": "current_self_orientation_reentry_admissibility_v0_min_spec",
+      "target_surface_path": "spec/CURRENT_SELF_ORIENTATION_REENTRY_ADMISSIBILITY_V0_MIN_SPEC.md"
+    },
+    "declared_non_claims": {
+      "does_not_authorize_follow_on_steps": true,
+      "does_not_complete_continuity": true,
+      "does_not_complete_final_governance": true,
+      "does_not_complete_final_system_identity": true,
+      "does_not_create_authority": true,
+      "does_not_create_general_permission": true,
+      "does_not_replace_source_surfaces": true,
+      "does_not_upgrade_derivative_outputs_to_source": true,
+      "does_not_upgrade_standing": true
+    },
+    "declared_scope_bounds": {
+      "additive_output_only": true,
+      "allowed_artifact_output_roots": [],
+      "allowed_new_file_paths": [
+        "spec/CURRENT_SELF_ORIENTATION_REENTRY_ADMISSIBILITY_V0_MIN_SPEC.md"
+      ],
+      "allowed_read_surfaces": [
+        "current_self_orientation_v2",
+        "current_state_surfaces",
+        "continuity_surfaces",
+        "derivative_surfaces",
+        "operator_surfaces"
+      ],
+      "forbidden_read_surfaces": [
+        "broad_latest_file_inference"
+      ],
+      "forbidden_write_surfaces": [
+        "reference/",
+        "existing_artifacts/",
+        "existing_source_files/"
+      ],
+      "one_step_only": true
+    },
+    "hierarchy_constraints": {
+      "current_governing_basis_source": "upstream_current_effective_governing_current_state_surfaces",
+      "currentness_may_be_inferred_by_recency": false,
+      "derivative_surfaces_allowed_as_basis": false,
+      "operator_surfaces_allowed_as_basis": false,
+      "self_orientation_allowed_as_authority": false
+    },
+    "locked_orientation_basis": {
+      "effective_authority_artifact_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_execution_authority_resolution.json",
+      "effective_current_governing_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_current_governing_packet.json",
+      "effective_family_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_run_family_packet.json",
+      "effective_ingress_run_path": "artifacts/integrity_host_v0_min_coexistence_receiving_ingress_runs/run_20260420T103145_290590Z",
+      "effective_source_run_path": "artifacts/integrity_host_v0_min_coexistence_scenarios/run_20260420T103145_290590Z",
+      "effective_status_packet_path": "artifacts/integrity_host_v0_min_coexistence_governing_reresolutions/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution/successor_preserved_run_status_packet.json",
+      "selected_body_pass_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed",
+      "selected_body_pass_result_path": "artifacts/integrity_host_v0_min_coexistence_v0_body_pass/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__v0_body_pass_result.json",
+      "selected_current_state_answer_read_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered",
+      "selected_current_state_answer_read_path": "artifacts/integrity_host_v0_min_coexistence_current_state_answer_surface/current_state_answer_read_result.json",
+      "selected_source_surface_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "selected_source_surface_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json",
+      "selected_what_stands_now_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered",
+      "selected_what_stands_now_path": "artifacts/integrity_host_v0_min_coexistence_current_state_what_stands_now/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_state_what_stands_now_result.json"
+    },
+    "reentry_request_metadata": {
+      "declared_at": "manual_terminal_verification",
+      "declared_by_surface": "terminal_manual_test",
+      "reentry_request_id": "reentry_request__001",
+      "reentry_request_type": "CURRENT_SELF_ORIENTATION_REENTRY_REQUEST",
+      "reentry_request_version": "0.1.0"
+    },
+    "refusal_acknowledgement": {
+      "blocked_result_must_preserve_basis": true,
+      "no_fallback_to_human_narration": true,
+      "no_fallback_to_latest_file": true,
+      "request_may_be_blocked": true
+    },
+    "requested_permissions": {
+      "authorization_scope": "single_declared_step_only",
+      "derive_permission_requested": true,
+      "emit_permission_requested": true,
+      "merge_permission_requested": false,
+      "mutate_permission_requested": false,
+      "read_permission_requested": true,
+      "replay_permission_requested": false
+    },
+    "self_orientation_basis": {
+      "self_orientation_outcome": "SELF_ORIENTED",
+      "self_orientation_resolver_module": "resolve_current_self_orientation_v2",
+      "self_orientation_result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+      "self_orientation_result_path": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json",
+      "self_orientation_result_version": "0.2.0"
+    }
+  },
+  "selected_self_orientation_result": {
+    "outcome": "SELF_ORIENTED",
+    "resolver_module": "resolve_current_self_orientation_v2",
+    "result_id": "proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effective_family_consumption__resolved_current_work_input__completed_current_work_operation__emitted_current_state_readout__current_state_handoff_handed_off__current_state_export_exported__current_state_delivery_delivered__current_state_application_applied__current_state_answer_read_answered__what_stands_now__001__what_stands_now_answered__continuity_transfer__001__continuity_transfer_unit_transferred__continuity_transfer_receipt__001__continuity_transfer_receipt_received__received_derivative_participation__001__received_derivative_participation_participated__received_derivative_action_permission__001__received_derivative_action_permission_permitted__continuity_memory_seam_closed__v0_body_pass_confirmed__current_self_orientation_v2_self_oriented",
+    "result_path": "artifacts/integrity_host_v0_min_coexistence_current_self_orientation_v2/proposal__successor_adoption_v2_accept_001__governing_transition_result__governing_reresolution__governing_successor_adoption__effective_family__consumed_effect__current_self_orientation_v2_result.json",
+    "result_type": "IAMMAI_INTEGRITY_HOST_V0_MIN_COEXISTENCE_CURRENT_SELF_ORIENTATION_V2_RESULT",
+    "result_version": "0.2.0",
+    "selection_mode": "explicit_self_orientation_result_path"
+  }
+}

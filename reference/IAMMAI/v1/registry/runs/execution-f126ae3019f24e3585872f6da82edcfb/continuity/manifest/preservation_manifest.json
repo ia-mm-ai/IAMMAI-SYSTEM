@@ -1,0 +1,54 @@
+{
+  "continuity_run_directory": "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity",
+  "continuity_turn_identity": "continuity-turn-cfe06fc97d8b49969fe3e32d811d43dc",
+  "execution_identity": "execution-f126ae3019f24e3585872f6da82edcfb",
+  "implementation_posture": "implementation_local_layout_only",
+  "manifest_type": "v1_third_continuity_preservation_manifest",
+  "note": "This local continuity layout is a bounded implementation surface, not final protocol law.",
+  "preservation_identity": "preservation-179b697d4eac4f7e9b4cd51fd25c891e",
+  "source_selection": {
+    "anchor_source_run_ref": "v1/registry/runs/execution-27f859757072456cbb8fe63f562bcc29",
+    "coherence_checks": [
+      {
+        "message": "Continuity predecessor source points back to the selected ordinary anchor source.",
+        "name": "anchor_source_relation"
+      },
+      {
+        "message": "Selected sources share coherent matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "matter_relation"
+      },
+      {
+        "message": "Selected sources satisfy required matter relation matter-3ce8d00d4a614161a2fec07aeb4ff282.",
+        "name": "required_matter_relation"
+      }
+    ],
+    "predecessor_source_run_ref": "v1/registry/runs/execution-f6cb1720e04f44c0bf72d21962a65730",
+    "predecessor_turn_ref": "continuity-turn-c57057fad48b434688ea85085a6fe305",
+    "selection_basis": "local_default_predecessor_plus_derived_anchor"
+  },
+  "written_files": {
+    "conformance": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/conformance/body/negative/successor_without_anchor_continuity_turn.json",
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/conformance/body/positive/continuity_turn.json",
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/conformance/execution_relation/positive/continuity_execution_relation.json",
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/conformance/preservation/run_write_outcome.json"
+    ],
+    "continuity_body": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/canonical_body/positive/continuity_turn.body.json"
+    ],
+    "execution_relation": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/execution_relation/positive/continuity_execution_relation.json"
+    ],
+    "negative_fixtures": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/fixture_outputs/negative/body/successor_without_anchor.body.json",
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/fixture_outputs/negative/classification.json"
+    ],
+    "source_notes": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/source_notes/anchor_source_note.json",
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/source_notes/predecessor_source_note.json"
+    ],
+    "summary": [
+      "v1/registry/runs/execution-f126ae3019f24e3585872f6da82edcfb/continuity/run_summary/run_summary.json"
+    ]
+  }
+}

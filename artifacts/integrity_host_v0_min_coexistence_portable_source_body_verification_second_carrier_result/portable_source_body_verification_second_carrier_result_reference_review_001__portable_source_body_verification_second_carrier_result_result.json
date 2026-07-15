@@ -1,0 +1,3259 @@
+{
+  "additional_basis_required": {
+    "missing_basis_authorized": false,
+    "missing_basis_executed": false,
+    "missing_basis_scheduled": false,
+    "missing_or_unclear_basis": [],
+    "required": false
+  },
+  "authority_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "authority_not_created_posture declared and preserved",
+    "posture_key": "authority_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "block": null,
+  "capture_artifact_basis_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "capture_artifact_basis_preserved_posture declared and preserved",
+    "posture_key": "capture_artifact_basis_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "capture_intake_basis_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "capture_intake_basis_preserved_posture declared and preserved",
+    "posture_key": "capture_intake_basis_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "continuation_not_authorized_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "continuation_not_authorized_posture declared and preserved",
+    "posture_key": "continuation_not_authorized_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "cross_carrier_evidence_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "cross_carrier_evidence_not_created_posture declared and preserved",
+    "posture_key": "cross_carrier_evidence_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "currentness_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "currentness_not_created_posture declared and preserved",
+    "posture_key": "currentness_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "declared_second_carrier_result_question": {
+    "core_question": "Can the clean second-carrier-result-boundary-v2 basis be used to record one bounded second-carrier result from the preserved returned second-carrier capture without creating second-carrier success, external result, cross-carrier evidence, source transfer, source receipt, reception authorization, source, authority, currentness, runtime, final completion, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+    "intent": "RECORD_PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT",
+    "question": "Can the clean second-carrier-result-boundary-v2 basis be used to record one bounded second-carrier result from the preserved returned second-carrier capture without creating second-carrier success, external result, cross-carrier evidence, source transfer, source receipt, reception authorization, source, authority, currentness, runtime, final completion, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+    "second_carrier_result_request_id": "portable_source_body_verification_second_carrier_result_reference_review_001"
+  },
+  "external_result_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "external_result_not_created_posture declared and preserved",
+    "posture_key": "external_result_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "final_completion_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "final_completion_not_created_posture declared and preserved",
+    "posture_key": "final_completion_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "first_result_boundary_resolver_failure_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "first_result_boundary_resolver_failure_preserved_posture declared and preserved",
+    "posture_key": "first_result_boundary_resolver_failure_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "follow_on_work_not_authorized_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "follow_on_work_not_authorized_posture declared and preserved",
+    "posture_key": "follow_on_work_not_authorized_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "hidden_repo_state_excluded_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "hidden_repo_state_excluded_posture declared and preserved",
+    "posture_key": "hidden_repo_state_excluded_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "hostile_raw_body_content_contained_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "hostile_raw_body_content_contained_posture declared and preserved",
+    "posture_key": "hostile_raw_body_content_contained_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "non_claims": {
+    "another_reception_request_authorized": false,
+    "artifact_existence_treated_as_result_authority": false,
+    "artifact_path_treated_as_currentness": false,
+    "authority_created": false,
+    "authorization_token_reused": false,
+    "consumed_request_reopened": false,
+    "continuation_authorized": false,
+    "cross_carrier_evidence_created": false,
+    "currentness_created": false,
+    "deployment_created": false,
+    "derivative_reception_authorized": false,
+    "external_result_created": false,
+    "final_completion_claimed": false,
+    "first_result_boundary_resolver_claimed_passed": false,
+    "first_result_boundary_resolver_hidden": false,
+    "first_result_boundary_resolver_repaired": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_used_as_result_authority": false,
+    "hidden_repo_state_used_as_result_content": false,
+    "ok_output_treated_as_verification": false,
+    "operation_permission_created": false,
+    "prior_artifacts_mutated": false,
+    "public_release_created": false,
+    "ran_7_tests_treated_as_cross_carrier_proof": false,
+    "raw_full_prior_artifact_body_returned": false,
+    "receiving_carrier_treated_as_authority": false,
+    "reception_authorization_created": false,
+    "repo_local_availability_treated_as_result_authority": false,
+    "returned_capture_treated_as_cross_carrier_evidence": false,
+    "reusable_permission_created": false,
+    "runtime_hosting_created": false,
+    "second_carrier_result_treated_as_authority": false,
+    "second_carrier_result_treated_as_continuation": false,
+    "second_carrier_result_treated_as_cross_carrier_evidence": false,
+    "second_carrier_result_treated_as_currentness": false,
+    "second_carrier_result_treated_as_external_result": false,
+    "second_carrier_result_treated_as_final_completion": false,
+    "second_carrier_result_treated_as_follow_on_work": false,
+    "second_carrier_result_treated_as_reception_authorization": false,
+    "second_carrier_result_treated_as_reusable_permission": false,
+    "second_carrier_result_treated_as_runtime": false,
+    "second_carrier_result_treated_as_source": false,
+    "second_carrier_result_treated_as_source_receipt": false,
+    "second_carrier_result_treated_as_source_transfer": false,
+    "second_carrier_result_treated_as_success": false,
+    "second_carrier_result_treated_as_verification": false,
+    "second_carrier_success_created": false,
+    "source_created": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "v1_claimed_passed": false,
+    "v1_hidden": false,
+    "v1_repaired": false,
+    "vessel_relation_authorized": false,
+    "zero_exit_code_treated_as_success": false
+  },
+  "not_recorded_basis": {
+    "no_mutation": true,
+    "not_recorded": false,
+    "reason": null
+  },
+  "official_enum_scope_strings_not_redacted_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "official_enum_scope_strings_not_redacted_posture declared and preserved",
+    "posture_key": "official_enum_scope_strings_not_redacted_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "ok_output_not_verification_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "ok_output_not_verification_posture declared and preserved",
+    "posture_key": "ok_output_not_verification_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "one_bounded_second_carrier_result_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "one_bounded_second_carrier_result_posture declared and preserved",
+    "posture_key": "one_bounded_second_carrier_result_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_RECORDED",
+  "portable_source_body_verification_second_carrier_result_metadata": {
+    "generated_at": "2026-05-09T14:32:56Z",
+    "portable_source_body_verification_second_carrier_result_id": "portable_source_body_verification_second_carrier_result_reference_review_001",
+    "portable_source_body_verification_second_carrier_result_type": "portable_source_body_verification_second_carrier_result",
+    "portable_source_body_verification_second_carrier_result_version": "0.1.0",
+    "resolver_module": "resolve_portable_source_body_verification_second_carrier_result"
+  },
+  "portable_source_body_verification_second_carrier_result_summary": {
+    "authority_not_created": true,
+    "block_code": null,
+    "block_reason": null,
+    "bounded_second_carrier_result_recorded": true,
+    "capture_artifact_basis_preserved": true,
+    "capture_intake_basis_preserved": true,
+    "cross_carrier_evidence_not_created": true,
+    "currentness_not_created": true,
+    "external_result_not_created": true,
+    "failed_check_count": 0,
+    "final_completion_not_created": true,
+    "first_result_boundary_resolver_not_claimed_passed": true,
+    "first_result_boundary_resolver_not_hidden": true,
+    "first_result_boundary_resolver_not_repaired": true,
+    "first_result_boundary_resolver_preserved_as_failed_predecessor": true,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_result_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "intent": "RECORD_PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT",
+    "key_non_claims": {
+      "another_reception_request_authorized": false,
+      "artifact_existence_treated_as_result_authority": false,
+      "artifact_path_treated_as_currentness": false,
+      "authority_created": false,
+      "authorization_token_reused": false,
+      "consumed_request_reopened": false,
+      "continuation_authorized": false,
+      "cross_carrier_evidence_created": false,
+      "currentness_created": false,
+      "deployment_created": false,
+      "derivative_reception_authorized": false,
+      "external_result_created": false,
+      "final_completion_claimed": false,
+      "first_result_boundary_resolver_claimed_passed": false,
+      "first_result_boundary_resolver_hidden": false,
+      "first_result_boundary_resolver_repaired": false,
+      "follow_on_work_authorized": false,
+      "hidden_repo_state_used_as_result_authority": false,
+      "hidden_repo_state_used_as_result_content": false,
+      "ok_output_treated_as_verification": false,
+      "operation_permission_created": false,
+      "prior_artifacts_mutated": false,
+      "public_release_created": false,
+      "ran_7_tests_treated_as_cross_carrier_proof": false,
+      "raw_full_prior_artifact_body_returned": false,
+      "receiving_carrier_treated_as_authority": false,
+      "reception_authorization_created": false,
+      "repo_local_availability_treated_as_result_authority": false,
+      "returned_capture_treated_as_cross_carrier_evidence": false,
+      "reusable_permission_created": false,
+      "runtime_hosting_created": false,
+      "second_carrier_result_treated_as_authority": false,
+      "second_carrier_result_treated_as_continuation": false,
+      "second_carrier_result_treated_as_cross_carrier_evidence": false,
+      "second_carrier_result_treated_as_currentness": false,
+      "second_carrier_result_treated_as_external_result": false,
+      "second_carrier_result_treated_as_final_completion": false,
+      "second_carrier_result_treated_as_follow_on_work": false,
+      "second_carrier_result_treated_as_reception_authorization": false,
+      "second_carrier_result_treated_as_reusable_permission": false,
+      "second_carrier_result_treated_as_runtime": false,
+      "second_carrier_result_treated_as_source": false,
+      "second_carrier_result_treated_as_source_receipt": false,
+      "second_carrier_result_treated_as_source_transfer": false,
+      "second_carrier_result_treated_as_success": false,
+      "second_carrier_result_treated_as_verification": false,
+      "second_carrier_success_created": false,
+      "source_created": false,
+      "source_receipt_occurred": false,
+      "source_transfer_occurred": false,
+      "v1_claimed_passed": false,
+      "v1_hidden": false,
+      "v1_repaired": false,
+      "vessel_relation_authorized": false,
+      "zero_exit_code_treated_as_success": false
+    },
+    "no_deployment_public_release_or_follow_on": true,
+    "no_source_authority_currentness_final_completion_or_runtime": true,
+    "no_success_external_result_or_cross_carrier_evidence": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "ok_output_not_verification": true,
+    "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_RECORDED",
+    "passed_check_count": 172,
+    "question": "Can the clean second-carrier-result-boundary-v2 basis be used to record one bounded second-carrier result from the preserved returned second-carrier capture without creating second-carrier success, external result, cross-carrier evidence, source transfer, source receipt, reception authorization, source, authority, currentness, runtime, final completion, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+    "ran_7_tests_not_cross_carrier_proof": true,
+    "raw_full_prior_artifact_body_not_returned": true,
+    "receiving_carrier_not_authority": true,
+    "repo_local_availability_not_result_authority": true,
+    "request_id": "portable_source_body_verification_second_carrier_result_reference_review_001",
+    "resolver_module": "resolve_portable_source_body_verification_second_carrier_result",
+    "result_artifact_recorded_or_bounded": true,
+    "result_not_cross_carrier_evidence": true,
+    "result_not_external_result": true,
+    "result_not_reception_authorization": true,
+    "result_not_source_receipt": true,
+    "result_not_source_transfer": true,
+    "result_not_success": true,
+    "result_not_verification": true,
+    "result_recorded_bounded": true,
+    "result_version": "0.1.0",
+    "returned_capture_not_cross_carrier_proof": true,
+    "returned_second_carrier_capture_basis_preserved": true,
+    "runtime_not_created": true,
+    "second_carrier_output_capture_basis_preserved": true,
+    "second_carrier_result_boundary_v2_basis_preserved": true,
+    "second_carrier_result_recorded": true,
+    "second_carrier_success_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "selected_returned_capture_exit_code": 0,
+    "selected_returned_capture_extracted_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/",
+    "selected_returned_capture_hash_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/hashes/iammai_second_carrier_capture_001.sha256",
+    "selected_returned_capture_intake_path": "spec/PORTABLE_SOURCE_BODY_VERIFICATION_RETURNED_SECOND_CARRIER_LIVE_CAPTURE_INTAKE_V0.md",
+    "selected_returned_capture_ok_line": "OK",
+    "selected_returned_capture_zip_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/original_zip/iammai_second_carrier_capture_001.zip",
+    "selected_second_carrier_output_capture_failed_check_count": 0,
+    "selected_second_carrier_output_capture_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+    "selected_second_carrier_result_boundary_v2_failed_check_count": 0,
+    "selected_second_carrier_result_boundary_v2_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+    "selected_second_carrier_result_boundary_v2_version": "0.2.0",
+    "source_not_created": true,
+    "v1_not_claimed_passed": true,
+    "v1_not_hidden": true,
+    "v1_not_repaired": true,
+    "v1_predecessor_failure_preserved": true,
+    "zero_exit_code_not_success": true
+  },
+  "ran_7_tests_not_cross_carrier_proof_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "ran_7_tests_not_cross_carrier_proof_posture declared and preserved",
+    "posture_key": "ran_7_tests_not_cross_carrier_proof_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "raw_full_prior_artifact_body_not_returned_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "raw_full_prior_artifact_body_not_returned_posture declared and preserved",
+    "posture_key": "raw_full_prior_artifact_body_not_returned_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "receiving_carrier_not_authority_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "receiving_carrier_not_authority_posture declared and preserved",
+    "posture_key": "receiving_carrier_not_authority_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "repo_local_availability_not_result_authority_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "repo_local_availability_not_result_authority_posture declared and preserved",
+    "posture_key": "repo_local_availability_not_result_authority_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_artifact_recorded_or_bounded_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_artifact_recorded_or_bounded_posture declared and preserved",
+    "posture_key": "result_artifact_recorded_or_bounded_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_cross_carrier_evidence_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_cross_carrier_evidence_posture declared and preserved",
+    "posture_key": "result_not_cross_carrier_evidence_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_external_result_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_external_result_posture declared and preserved",
+    "posture_key": "result_not_external_result_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_reception_authorization_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_reception_authorization_posture declared and preserved",
+    "posture_key": "result_not_reception_authorization_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_source_receipt_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_source_receipt_posture declared and preserved",
+    "posture_key": "result_not_source_receipt_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_source_transfer_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_source_transfer_posture declared and preserved",
+    "posture_key": "result_not_source_transfer_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_success_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_success_posture declared and preserved",
+    "posture_key": "result_not_success_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_not_verification_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_not_verification_posture declared and preserved",
+    "posture_key": "result_not_verification_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "result_recorded_bounded_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "result_recorded_bounded_posture declared and preserved",
+    "posture_key": "result_recorded_bounded_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "returned_capture_not_cross_carrier_proof_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "returned_capture_not_cross_carrier_proof_posture declared and preserved",
+    "posture_key": "returned_capture_not_cross_carrier_proof_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "returned_second_carrier_capture_basis_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "returned_second_carrier_capture_basis_preserved_posture declared and preserved",
+    "posture_key": "returned_second_carrier_capture_basis_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "reusable_permission_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "reusable_permission_not_created_posture declared and preserved",
+    "posture_key": "reusable_permission_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "runtime_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "runtime_not_created_posture declared and preserved",
+    "posture_key": "runtime_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "second_carrier_output_capture_basis_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "second_carrier_output_capture_basis_preserved_posture declared and preserved",
+    "posture_key": "second_carrier_output_capture_basis_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "second_carrier_result_boundary_v2_basis_preserved_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "second_carrier_result_boundary_v2_basis_preserved_posture declared and preserved",
+    "posture_key": "second_carrier_result_boundary_v2_basis_preserved_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "second_carrier_result_checks": [
+    {
+      "actual_posture": "Can the clean second-carrier-result-boundary-v2 basis be used to record one bounded second-carrier result from the preserved returned second-carrier capture without creating second-carrier success, external result, cross-carrier evidence, source transfer, source receipt, reception authorization, source, authority, currentness, runtime, final completion, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+      "block_code": null,
+      "check_name": "second_carrier_result_question_declared",
+      "expected_posture": "Can the clean second-carrier-result-boundary-v2 basis be used to record one bounded second-carrier result from the preserved returned second-carrier capture without creating second-carrier success, external result, cross-carrier evidence, source transfer, source receipt, reception authorization, source, authority, currentness, runtime, final completion, continuation, reusable permission, derivative reception, vessel relation, another reception request, or follow-on work?",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "RECORD_PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT",
+      "block_code": null,
+      "check_name": "second_carrier_result_intent_supported",
+      "expected_posture": "supported second-carrier-result intent",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+        "CAPTURE_INTAKE_BASIS_PRESERVED",
+        "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+        "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+        "EXTERNAL_RESULT_NOT_CREATED",
+        "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_AUTHORITY_CREATED",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CONTINUATION_AUTHORIZED",
+        "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+        "NO_CURRENTNESS_CREATED",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_EXTERNAL_RESULT_INFERENCE",
+        "NO_FINAL_COMPLETION",
+        "NO_FINAL_COMPLETION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_REUSABLE_PERMISSION",
+        "NO_RUNTIME_CREATED",
+        "NO_RUNTIME_INFERENCE",
+        "NO_SOURCE_CREATED",
+        "NO_SOURCE_INFERENCE",
+        "NO_SUCCESS_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "NO_VERIFICATION_INFERENCE",
+        "NO_VESSEL_RELATION",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "OK_OUTPUT_NOT_VERIFICATION",
+        "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+        "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "RECEIVING_CARRIER_NOT_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+        "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+        "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+        "RESULT_NOT_EXTERNAL_RESULT",
+        "RESULT_NOT_RECEPTION_AUTHORIZATION",
+        "RESULT_NOT_SOURCE_RECEIPT",
+        "RESULT_NOT_SOURCE_TRANSFER",
+        "RESULT_NOT_SUCCESS",
+        "RESULT_NOT_VERIFICATION",
+        "RESULT_RECORDED_BOUNDED",
+        "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+        "RETURNED_RESULT_CONTAINMENT_PRESERVED",
+        "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_SPEC_ONLY",
+        "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "ZERO_EXIT_CODE_NOT_SUCCESS"
+      ],
+      "block_code": null,
+      "check_name": "second_carrier_result_scope_declared",
+      "expected_posture": "second-carrier result scope declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "second_carrier_result_scope_supported",
+      "expected_posture": "official supported scope enum values preserved and accepted",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+        "CAPTURE_INTAKE_BASIS_PRESERVED",
+        "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+        "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+        "EXTERNAL_RESULT_NOT_CREATED",
+        "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_AUTHORITY_CREATED",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CONTINUATION_AUTHORIZED",
+        "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+        "NO_CURRENTNESS_CREATED",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_EXTERNAL_RESULT_INFERENCE",
+        "NO_FINAL_COMPLETION",
+        "NO_FINAL_COMPLETION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_REUSABLE_PERMISSION",
+        "NO_RUNTIME_CREATED",
+        "NO_RUNTIME_INFERENCE",
+        "NO_SOURCE_CREATED",
+        "NO_SOURCE_INFERENCE",
+        "NO_SUCCESS_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "NO_VERIFICATION_INFERENCE",
+        "NO_VESSEL_RELATION",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "OK_OUTPUT_NOT_VERIFICATION",
+        "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+        "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "RECEIVING_CARRIER_NOT_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+        "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+        "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+        "RESULT_NOT_EXTERNAL_RESULT",
+        "RESULT_NOT_RECEPTION_AUTHORIZATION",
+        "RESULT_NOT_SOURCE_RECEIPT",
+        "RESULT_NOT_SOURCE_TRANSFER",
+        "RESULT_NOT_SUCCESS",
+        "RESULT_NOT_VERIFICATION",
+        "RESULT_RECORDED_BOUNDED",
+        "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+        "RETURNED_RESULT_CONTAINMENT_PRESERVED",
+        "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_SPEC_ONLY",
+        "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "ZERO_EXIT_CODE_NOT_SUCCESS"
+      ],
+      "block_code": null,
+      "check_name": "official_scope_raw_full_prior_artifact_body_not_returned_preserved",
+      "expected_posture": "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED remains official scope enum",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+        "CAPTURE_INTAKE_BASIS_PRESERVED",
+        "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+        "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+        "EXTERNAL_RESULT_NOT_CREATED",
+        "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_AUTHORITY_CREATED",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CONTINUATION_AUTHORIZED",
+        "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+        "NO_CURRENTNESS_CREATED",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_EXTERNAL_RESULT_INFERENCE",
+        "NO_FINAL_COMPLETION",
+        "NO_FINAL_COMPLETION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_REUSABLE_PERMISSION",
+        "NO_RUNTIME_CREATED",
+        "NO_RUNTIME_INFERENCE",
+        "NO_SOURCE_CREATED",
+        "NO_SOURCE_INFERENCE",
+        "NO_SUCCESS_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "NO_VERIFICATION_INFERENCE",
+        "NO_VESSEL_RELATION",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "OK_OUTPUT_NOT_VERIFICATION",
+        "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+        "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "RECEIVING_CARRIER_NOT_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+        "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+        "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+        "RESULT_NOT_EXTERNAL_RESULT",
+        "RESULT_NOT_RECEPTION_AUTHORIZATION",
+        "RESULT_NOT_SOURCE_RECEIPT",
+        "RESULT_NOT_SOURCE_TRANSFER",
+        "RESULT_NOT_SUCCESS",
+        "RESULT_NOT_VERIFICATION",
+        "RESULT_RECORDED_BOUNDED",
+        "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+        "RETURNED_RESULT_CONTAINMENT_PRESERVED",
+        "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_SPEC_ONLY",
+        "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "ZERO_EXIT_CODE_NOT_SUCCESS"
+      ],
+      "block_code": null,
+      "check_name": "official_scope_returned_result_containment_preserved",
+      "expected_posture": "RETURNED_RESULT_CONTAINMENT_PRESERVED remains official scope enum",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+        "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+        "CAPTURE_INTAKE_BASIS_PRESERVED",
+        "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+        "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+        "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+        "CONSUMED_REQUEST_NOT_REOPENED",
+        "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+        "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+        "EXTERNAL_RESULT_NOT_CREATED",
+        "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+        "HIDDEN_REPO_STATE_EXCLUDED",
+        "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+        "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+        "NO_ANOTHER_RECEPTION_REQUEST",
+        "NO_AUTHORITY_CREATED",
+        "NO_AUTHORITY_INFERENCE",
+        "NO_CONTINUATION_AUTHORIZED",
+        "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+        "NO_CURRENTNESS_CREATED",
+        "NO_CURRENTNESS_INFERENCE",
+        "NO_DEPLOYMENT_CREATED",
+        "NO_DERIVATIVE_RECEPTION",
+        "NO_EXTERNAL_RESULT_INFERENCE",
+        "NO_FINAL_COMPLETION",
+        "NO_FINAL_COMPLETION_INFERENCE",
+        "NO_FOLLOW_ON_WORK_AUTHORIZED",
+        "NO_FOLLOW_ON_WORK_INFERENCE",
+        "NO_OPERATION_PERMISSION_CREATED",
+        "NO_PUBLIC_RELEASE_CREATED",
+        "NO_REUSABLE_PERMISSION",
+        "NO_RUNTIME_CREATED",
+        "NO_RUNTIME_INFERENCE",
+        "NO_SOURCE_CREATED",
+        "NO_SOURCE_INFERENCE",
+        "NO_SUCCESS_INFERENCE",
+        "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+        "NO_VERIFICATION_INFERENCE",
+        "NO_VESSEL_RELATION",
+        "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+        "OK_OUTPUT_NOT_VERIFICATION",
+        "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+        "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+        "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+        "RECEIVING_CARRIER_NOT_AUTHORITY",
+        "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+        "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+        "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+        "RESULT_NOT_EXTERNAL_RESULT",
+        "RESULT_NOT_RECEPTION_AUTHORIZATION",
+        "RESULT_NOT_SOURCE_RECEIPT",
+        "RESULT_NOT_SOURCE_TRANSFER",
+        "RESULT_NOT_SUCCESS",
+        "RESULT_NOT_VERIFICATION",
+        "RESULT_RECORDED_BOUNDED",
+        "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+        "RETURNED_RESULT_CONTAINMENT_PRESERVED",
+        "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+        "SECOND_CARRIER_RESULT_SPEC_ONLY",
+        "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+        "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+        "ZERO_EXIT_CODE_NOT_SUCCESS"
+      ],
+      "block_code": null,
+      "check_name": "official_scope_values_not_redacted",
+      "expected_posture": "official scope enum values are not redacted",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_result_boundary_v2_basis",
+        "basis_role": "reference-shaped basis only",
+        "declared_future_result_step": true,
+        "failed_check_count": 0,
+        "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+        "reference_shape_preserved": true,
+        "result_version": "0.2.0"
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_result_boundary_v2_basis_declared",
+      "expected_posture": "selected_second_carrier_result_boundary_v2_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_result_boundary_v2_terminal_summary_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_result_boundary_v2_terminal_summary_basis_declared",
+      "expected_posture": "selected_second_carrier_result_boundary_v2_terminal_summary_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_second_carrier_live_capture_intake_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_second_carrier_live_capture_intake_basis_declared",
+      "expected_posture": "selected_returned_second_carrier_live_capture_intake_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_capture_material_basis",
+        "basis_role": "reference-shaped basis only",
+        "capture_only": true,
+        "exit_code": 0,
+        "ok_line": "OK",
+        "ran_7_tests_line": "Ran 7 tests in 0.451s",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_capture_material_basis_declared",
+      "expected_posture": "selected_returned_capture_material_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_zip_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_zip_basis_declared",
+      "expected_posture": "selected_returned_zip_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_hash_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_hash_basis_declared",
+      "expected_posture": "selected_returned_hash_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_extracted_files_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_extracted_files_basis_declared",
+      "expected_posture": "selected_returned_extracted_files_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_combined_terminal_log_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_combined_terminal_log_basis_declared",
+      "expected_posture": "selected_returned_combined_terminal_log_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_exit_code_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_exit_code_basis_declared",
+      "expected_posture": "selected_returned_exit_code_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_command_text_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_command_text_basis_declared",
+      "expected_posture": "selected_returned_command_text_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_returned_timestamps_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_returned_timestamps_basis_declared",
+      "expected_posture": "selected_returned_timestamps_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_output_capture_basis",
+        "basis_role": "reference-shaped basis only",
+        "bounded_capture_recorded": true,
+        "failed_check_count": 0,
+        "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_basis_declared",
+      "expected_posture": "selected_second_carrier_output_capture_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_output_capture_terminal_summary_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_terminal_summary_basis_declared",
+      "expected_posture": "selected_second_carrier_output_capture_terminal_summary_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_output_capture_boundary_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_boundary_basis_declared",
+      "expected_posture": "selected_second_carrier_output_capture_boundary_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_execution_output_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_execution_output_basis_declared",
+      "expected_posture": "selected_second_carrier_execution_output_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_second_carrier_execution_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_second_carrier_execution_basis_declared",
+      "expected_posture": "selected_second_carrier_execution_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_packet_transfer_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_packet_transfer_basis_declared",
+      "expected_posture": "selected_packet_transfer_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_packet_emission_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_packet_emission_basis_declared",
+      "expected_posture": "selected_packet_emission_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_packet_emission_boundary_v2_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_packet_emission_boundary_v2_basis_declared",
+      "expected_posture": "selected_packet_emission_boundary_v2_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_packet_emission_boundary_v1_predecessor_failure_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_packet_emission_boundary_v1_predecessor_failure_basis_declared",
+      "expected_posture": "selected_packet_emission_boundary_v1_predecessor_failure_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_packet_artifact_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_packet_artifact_basis_declared",
+      "expected_posture": "selected_packet_artifact_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_command_success_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_command_success_basis_declared",
+      "expected_posture": "selected_command_success_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_command_result_v2_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_command_result_v2_basis_declared",
+      "expected_posture": "selected_command_result_v2_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_output_capture_v2_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_output_capture_v2_basis_declared",
+      "expected_posture": "selected_output_capture_v2_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_command_output_report_artifact_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_command_output_report_artifact_basis_declared",
+      "expected_posture": "selected_command_output_report_artifact_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_command_execution_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_command_execution_basis_declared",
+      "expected_posture": "selected_command_execution_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_command_report_lineage_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_command_report_lineage_basis_declared",
+      "expected_posture": "selected_command_report_lineage_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_predecessor_failure_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_predecessor_failure_basis_declared",
+      "expected_posture": "selected_predecessor_failure_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_evidence_manifest_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_evidence_manifest_basis_declared",
+      "expected_posture": "selected_evidence_manifest_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_artifact_containment_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_artifact_containment_basis_declared",
+      "expected_posture": "selected_artifact_containment_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+        "basis_key": "selected_portable_verification_basis",
+        "basis_role": "reference-shaped basis only",
+        "reference_shape_preserved": true
+      },
+      "block_code": null,
+      "check_name": "selected_portable_verification_basis_declared",
+      "expected_posture": "selected_portable_verification_basis declared as reference-shaped basis",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_outcome_recorded",
+      "expected_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "0.2.0",
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_version_0_2_0",
+      "expected_posture": "0.2.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_failed_checks_zero",
+      "expected_posture": "second-carrier-result-boundary-v2 failed check count is zero",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_declared_future_result_step",
+      "expected_posture": "second-carrier-result-boundary-v2 declared one future result step",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_did_not_already_create_result",
+      "expected_posture": "second-carrier-result-boundary-v2 did not already create result",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_did_not_already_create_success",
+      "expected_posture": "second-carrier-result-boundary-v2 did not already create success",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_did_not_already_create_external_result",
+      "expected_posture": "second-carrier-result-boundary-v2 did not already create external result",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_did_not_already_create_cross_carrier_evidence",
+      "expected_posture": "second-carrier-result-boundary-v2 did not already create cross-carrier evidence",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_kept_zero_exit_code_not_success",
+      "expected_posture": "boundary-v2 kept zero exit code not success",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_kept_ok_not_verification",
+      "expected_posture": "boundary-v2 kept OK not verification",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_kept_returned_capture_not_cross_carrier_proof",
+      "expected_posture": "boundary-v2 kept returned capture not cross-carrier proof",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "not_redacted": true,
+        "redacted": false
+      },
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_official_enum_scope_strings_not_redacted",
+      "expected_posture": "boundary-v2 official enum/scope strings not redacted",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_first_result_boundary_resolver_preserved",
+      "expected_posture": "boundary-v2 preserved first result-boundary resolver failure",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_capture_intake_preserved",
+      "expected_posture": "returned capture intake preserved",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_capture_intake_capture_only",
+      "expected_posture": "returned capture intake says capture-only",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_capture_macbook_pro_to_macbook_air",
+      "expected_posture": "MacBook Pro to MacBook Air return preserved",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/original_zip/iammai_second_carrier_capture_001.zip",
+      "block_code": null,
+      "check_name": "returned_zip_path_present",
+      "expected_posture": "returned zip path basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/hashes/iammai_second_carrier_capture_001.sha256",
+      "block_code": null,
+      "check_name": "returned_hash_path_present",
+      "expected_posture": "returned hash path basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/",
+      "block_code": null,
+      "check_name": "returned_extracted_directory_path_present",
+      "expected_posture": "returned extracted directory basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/combined_terminal_log.txt",
+      "block_code": null,
+      "check_name": "returned_combined_terminal_log_path_present",
+      "expected_posture": "returned combined terminal log basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "returned_exit_code_present",
+      "expected_posture": "returned exit code basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "python3 -m unittest tests/test_resolve_portable_source_body_verification_second_carrier_output_capture.py",
+      "block_code": null,
+      "check_name": "returned_command_text_present",
+      "expected_posture": "returned command text basis present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "run_completed_at": "2026-05-09T11:34:27Z",
+        "run_started_at": "2026-05-09T11:34:26Z"
+      },
+      "block_code": null,
+      "check_name": "returned_timestamps_present",
+      "expected_posture": "returned started and completed timestamps present",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "/Users/markomarkota/Desktop/IAMMAI-SYSTEM",
+      "block_code": null,
+      "check_name": "returned_working_directory_captured",
+      "expected_posture": "returned working directory captured",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "exit_code": 0,
+        "not_success": true
+      },
+      "block_code": null,
+      "check_name": "returned_exit_code_zero_preserved_as_basis_not_success",
+      "expected_posture": "exit code 0 preserved as basis but not success",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "Ran 7 tests in 0.451s",
+      "block_code": null,
+      "check_name": "returned_ran_7_tests_preserved_as_basis_not_proof",
+      "expected_posture": "Ran 7 tests preserved as basis but not cross-carrier proof",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "OK",
+      "block_code": null,
+      "check_name": "returned_ok_preserved_as_basis_not_verification",
+      "expected_posture": "OK preserved as basis but not verification",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_capture_not_cross_carrier_proof",
+      "expected_posture": "returned capture not cross-carrier proof",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_label": "carrier_label=SECOND_DEVICE_LABEL_TO_FILL",
+        "carrier_type": "carrier_type=Mac/Linux/etc_TO_FILL"
+      },
+      "block_code": null,
+      "check_name": "raw_placeholder_carrier_fields_preserved",
+      "expected_posture": "raw placeholder carrier fields preserved",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "placeholder_fields_unrepaired",
+      "expected_posture": "placeholder fields unrepaired",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+      "block_code": null,
+      "check_name": "second_carrier_output_capture_recorded",
+      "expected_posture": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": 0,
+      "block_code": null,
+      "check_name": "second_carrier_output_capture_failed_checks_zero",
+      "expected_posture": "second-carrier output capture failed check count is zero",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_output_capture_recorded_bounded_capture",
+      "expected_posture": "second-carrier output capture recorded bounded capture",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_treated_capture_as_result",
+      "expected_posture": "second-carrier output capture did not treat capture as result",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_treated_capture_as_success",
+      "expected_posture": "second-carrier output capture did not treat capture as success",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_treated_capture_as_external_result",
+      "expected_posture": "second-carrier output capture did not treat capture as external result",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "selected_second_carrier_output_capture_treated_capture_as_cross_carrier_evidence",
+      "expected_posture": "second-carrier output capture did not treat capture as cross-carrier evidence",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "reference_shaped_input_posture",
+      "expected_posture": "selected basis is reference-shaped",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": "sanitized request contains no hostile sentinels",
+      "block_code": null,
+      "check_name": "hostile_raw_body_content_contained",
+      "expected_posture": "hostile raw body sentinel content is contained by sanitizer",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_spec_only_posture_declared",
+      "expected_posture": "second_carrier_result_spec_only_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "one_bounded_second_carrier_result_posture_declared",
+      "expected_posture": "one_bounded_second_carrier_result_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_result_boundary_v2_basis_preserved_posture_declared",
+      "expected_posture": "second_carrier_result_boundary_v2_basis_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_second_carrier_capture_basis_preserved_posture_declared",
+      "expected_posture": "returned_second_carrier_capture_basis_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "capture_intake_basis_preserved_posture_declared",
+      "expected_posture": "capture_intake_basis_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_output_capture_basis_preserved_posture_declared",
+      "expected_posture": "second_carrier_output_capture_basis_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "capture_artifact_basis_preserved_posture_declared",
+      "expected_posture": "capture_artifact_basis_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_recorded_bounded_posture_declared",
+      "expected_posture": "result_recorded_bounded_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_artifact_recorded_or_bounded_posture_declared",
+      "expected_posture": "result_artifact_recorded_or_bounded_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_success_posture_declared",
+      "expected_posture": "result_not_success_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_verification_posture_declared",
+      "expected_posture": "result_not_verification_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_external_result_posture_declared",
+      "expected_posture": "result_not_external_result_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_cross_carrier_evidence_posture_declared",
+      "expected_posture": "result_not_cross_carrier_evidence_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_source_transfer_posture_declared",
+      "expected_posture": "result_not_source_transfer_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_source_receipt_posture_declared",
+      "expected_posture": "result_not_source_receipt_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "result_not_reception_authorization_posture_declared",
+      "expected_posture": "result_not_reception_authorization_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "zero_exit_code_not_success_posture_declared",
+      "expected_posture": "zero_exit_code_not_success_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "ok_output_not_verification_posture_declared",
+      "expected_posture": "ok_output_not_verification_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "ran_7_tests_not_cross_carrier_proof_posture_declared",
+      "expected_posture": "ran_7_tests_not_cross_carrier_proof_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "returned_capture_not_cross_carrier_proof_posture_declared",
+      "expected_posture": "returned_capture_not_cross_carrier_proof_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "second_carrier_success_not_created_posture_declared",
+      "expected_posture": "second_carrier_success_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "external_result_not_created_posture_declared",
+      "expected_posture": "external_result_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "cross_carrier_evidence_not_created_posture_declared",
+      "expected_posture": "cross_carrier_evidence_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "receiving_carrier_not_authority_posture_declared",
+      "expected_posture": "receiving_carrier_not_authority_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "source_not_created_posture_declared",
+      "expected_posture": "source_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "authority_not_created_posture_declared",
+      "expected_posture": "authority_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "currentness_not_created_posture_declared",
+      "expected_posture": "currentness_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "final_completion_not_created_posture_declared",
+      "expected_posture": "final_completion_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "runtime_not_created_posture_declared",
+      "expected_posture": "runtime_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "continuation_not_authorized_posture_declared",
+      "expected_posture": "continuation_not_authorized_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "reusable_permission_not_created_posture_declared",
+      "expected_posture": "reusable_permission_not_created_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "follow_on_work_not_authorized_posture_declared",
+      "expected_posture": "follow_on_work_not_authorized_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "hidden_repo_state_excluded_posture_declared",
+      "expected_posture": "hidden_repo_state_excluded_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "repo_local_availability_not_result_authority_posture_declared",
+      "expected_posture": "repo_local_availability_not_result_authority_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "selected_basis_reference_shape_posture_declared",
+      "expected_posture": "selected_basis_reference_shape_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "raw_full_prior_artifact_body_not_returned_posture_declared",
+      "expected_posture": "raw_full_prior_artifact_body_not_returned_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "official_enum_scope_strings_not_redacted_posture_declared",
+      "expected_posture": "official_enum_scope_strings_not_redacted_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "hostile_raw_body_content_contained_posture_declared",
+      "expected_posture": "hostile_raw_body_content_contained_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": true,
+      "block_code": null,
+      "check_name": "first_result_boundary_resolver_failure_preserved_posture_declared",
+      "expected_posture": "first_result_boundary_resolver_failure_preserved_posture declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": [
+        "another_reception_request_authorized",
+        "artifact_existence_treated_as_result_authority",
+        "artifact_path_treated_as_currentness",
+        "authority_created",
+        "authorization_token_reused",
+        "consumed_request_reopened",
+        "continuation_authorized",
+        "cross_carrier_evidence_created",
+        "currentness_created",
+        "deployment_created",
+        "derivative_reception_authorized",
+        "external_result_created",
+        "final_completion_claimed",
+        "first_result_boundary_resolver_claimed_passed",
+        "first_result_boundary_resolver_hidden",
+        "first_result_boundary_resolver_repaired",
+        "follow_on_work_authorized",
+        "hidden_repo_state_used_as_result_authority",
+        "hidden_repo_state_used_as_result_content",
+        "ok_output_treated_as_verification",
+        "operation_permission_created",
+        "prior_artifacts_mutated",
+        "public_release_created",
+        "ran_7_tests_treated_as_cross_carrier_proof",
+        "raw_full_prior_artifact_body_returned",
+        "receiving_carrier_treated_as_authority",
+        "reception_authorization_created",
+        "repo_local_availability_treated_as_result_authority",
+        "returned_capture_treated_as_cross_carrier_evidence",
+        "reusable_permission_created",
+        "runtime_hosting_created",
+        "second_carrier_result_treated_as_authority",
+        "second_carrier_result_treated_as_continuation",
+        "second_carrier_result_treated_as_cross_carrier_evidence",
+        "second_carrier_result_treated_as_currentness",
+        "second_carrier_result_treated_as_external_result",
+        "second_carrier_result_treated_as_final_completion",
+        "second_carrier_result_treated_as_follow_on_work",
+        "second_carrier_result_treated_as_reception_authorization",
+        "second_carrier_result_treated_as_reusable_permission",
+        "second_carrier_result_treated_as_runtime",
+        "second_carrier_result_treated_as_source",
+        "second_carrier_result_treated_as_source_receipt",
+        "second_carrier_result_treated_as_source_transfer",
+        "second_carrier_result_treated_as_success",
+        "second_carrier_result_treated_as_verification",
+        "second_carrier_success_created",
+        "source_created",
+        "source_receipt_occurred",
+        "source_transfer_occurred",
+        "v1_claimed_passed",
+        "v1_hidden",
+        "v1_repaired",
+        "vessel_relation_authorized",
+        "zero_exit_code_treated_as_success"
+      ],
+      "block_code": null,
+      "check_name": "required_non_claims_present",
+      "expected_posture": "all required non-claims are declared",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_success_created_false",
+      "expected_posture": "second_carrier_success_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "external_result_created_false",
+      "expected_posture": "external_result_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "cross_carrier_evidence_created_false",
+      "expected_posture": "cross_carrier_evidence_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_transfer_occurred_false",
+      "expected_posture": "source_transfer_occurred remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_receipt_occurred_false",
+      "expected_posture": "source_receipt_occurred remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "reception_authorization_created_false",
+      "expected_posture": "reception_authorization_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_success_false",
+      "expected_posture": "second_carrier_result_treated_as_success remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_verification_false",
+      "expected_posture": "second_carrier_result_treated_as_verification remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_external_result_false",
+      "expected_posture": "second_carrier_result_treated_as_external_result remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_cross_carrier_evidence_false",
+      "expected_posture": "second_carrier_result_treated_as_cross_carrier_evidence remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_source_transfer_false",
+      "expected_posture": "second_carrier_result_treated_as_source_transfer remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_source_receipt_false",
+      "expected_posture": "second_carrier_result_treated_as_source_receipt remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_reception_authorization_false",
+      "expected_posture": "second_carrier_result_treated_as_reception_authorization remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_source_false",
+      "expected_posture": "second_carrier_result_treated_as_source remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_authority_false",
+      "expected_posture": "second_carrier_result_treated_as_authority remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_currentness_false",
+      "expected_posture": "second_carrier_result_treated_as_currentness remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_final_completion_false",
+      "expected_posture": "second_carrier_result_treated_as_final_completion remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_runtime_false",
+      "expected_posture": "second_carrier_result_treated_as_runtime remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_continuation_false",
+      "expected_posture": "second_carrier_result_treated_as_continuation remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_reusable_permission_false",
+      "expected_posture": "second_carrier_result_treated_as_reusable_permission remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "second_carrier_result_treated_as_follow_on_work_false",
+      "expected_posture": "second_carrier_result_treated_as_follow_on_work remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "zero_exit_code_treated_as_success_false",
+      "expected_posture": "zero_exit_code_treated_as_success remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "ok_output_treated_as_verification_false",
+      "expected_posture": "ok_output_treated_as_verification remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "ran_7_tests_treated_as_cross_carrier_proof_false",
+      "expected_posture": "ran_7_tests_treated_as_cross_carrier_proof remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "returned_capture_treated_as_cross_carrier_evidence_false",
+      "expected_posture": "returned_capture_treated_as_cross_carrier_evidence remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "receiving_carrier_treated_as_authority_false",
+      "expected_posture": "receiving_carrier_treated_as_authority remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact_existence_treated_as_result_authority_false",
+      "expected_posture": "artifact_existence_treated_as_result_authority remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "artifact_path_treated_as_currentness_false",
+      "expected_posture": "artifact_path_treated_as_currentness remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "repo_local_availability_treated_as_result_authority_false",
+      "expected_posture": "repo_local_availability_treated_as_result_authority remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden_repo_state_used_as_result_content_false",
+      "expected_posture": "hidden_repo_state_used_as_result_content remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "hidden_repo_state_used_as_result_authority_false",
+      "expected_posture": "hidden_repo_state_used_as_result_authority remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "source_created_false",
+      "expected_posture": "source_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authority_created_false",
+      "expected_posture": "authority_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "currentness_created_false",
+      "expected_posture": "currentness_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "final_completion_claimed_false",
+      "expected_posture": "final_completion_claimed remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "runtime_hosting_created_false",
+      "expected_posture": "runtime_hosting_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "deployment_created_false",
+      "expected_posture": "deployment_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "public_release_created_false",
+      "expected_posture": "public_release_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "operation_permission_created_false",
+      "expected_posture": "operation_permission_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "continuation_authorized_false",
+      "expected_posture": "continuation_authorized remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "reusable_permission_created_false",
+      "expected_posture": "reusable_permission_created remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "derivative_reception_authorized_false",
+      "expected_posture": "derivative_reception_authorized remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "vessel_relation_authorized_false",
+      "expected_posture": "vessel_relation_authorized remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "another_reception_request_authorized_false",
+      "expected_posture": "another_reception_request_authorized remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "follow_on_work_authorized_false",
+      "expected_posture": "follow_on_work_authorized remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "raw_full_prior_artifact_body_returned_false",
+      "expected_posture": "raw_full_prior_artifact_body_returned remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "prior_artifacts_mutated_false",
+      "expected_posture": "prior_artifacts_mutated remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "consumed_request_reopened_false",
+      "expected_posture": "consumed_request_reopened remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "authorization_token_reused_false",
+      "expected_posture": "authorization_token_reused remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "v1_repaired_false",
+      "expected_posture": "v1_repaired remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "v1_hidden_false",
+      "expected_posture": "v1_hidden remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "v1_claimed_passed_false",
+      "expected_posture": "v1_claimed_passed remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "first_result_boundary_resolver_repaired_false",
+      "expected_posture": "first_result_boundary_resolver_repaired remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "first_result_boundary_resolver_hidden_false",
+      "expected_posture": "first_result_boundary_resolver_hidden remains false",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "actual_posture": false,
+      "block_code": null,
+      "check_name": "first_result_boundary_resolver_claimed_passed_false",
+      "expected_posture": "first_result_boundary_resolver_claimed_passed remains false",
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "second_carrier_result_non_meaning": {
+    "artifact_existence_became_result_authority": false,
+    "artifact_path_became_currentness": false,
+    "authority_exists": false,
+    "continuation_authorized": false,
+    "cross_carrier_evidence_exists": false,
+    "currentness_exists": false,
+    "deployment_exists": false,
+    "external_result_exists": false,
+    "final_completion_exists": false,
+    "first_result_boundary_resolver_repaired_hidden_erased_or_claimed_passed": false,
+    "follow_on_work_authorized": false,
+    "hidden_repo_state_became_result_authority": false,
+    "macbook_air_became_source": false,
+    "macbook_pro_became_authority": false,
+    "ok_became_verification": false,
+    "public_release_exists": false,
+    "ran_7_tests_became_cross_carrier_proof": false,
+    "reception_authorization_exists": false,
+    "repo_local_availability_became_result_authority": false,
+    "result_artifact_became_success_external_result_or_cross_carrier_evidence": false,
+    "result_became_cross_carrier_proof": false,
+    "result_became_external_result": false,
+    "result_became_source_or_authority_or_currentness": false,
+    "result_became_source_transfer_or_receipt_or_reception_authorization": false,
+    "result_became_success": false,
+    "result_became_verification": false,
+    "returned_capture_became_proof": false,
+    "reusable_permission_exists": false,
+    "runtime_exists": false,
+    "second_carrier_success_exists": false,
+    "source_exists": false,
+    "source_receipt_occurred": false,
+    "source_transfer_occurred": false,
+    "v1_packet_emission_boundary_resolver_repaired_hidden_erased_or_claimed_passed": false,
+    "verification_has_occurred": false,
+    "zero_exit_code_became_success": false
+  },
+  "second_carrier_result_scope": {
+    "official_enum_scope_strings_not_redacted": true,
+    "scope_values": [
+      "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+      "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+      "CAPTURE_INTAKE_BASIS_PRESERVED",
+      "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+      "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+      "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+      "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+      "CONSUMED_REQUEST_NOT_REOPENED",
+      "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+      "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+      "EXTERNAL_RESULT_NOT_CREATED",
+      "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+      "HIDDEN_REPO_STATE_EXCLUDED",
+      "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+      "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+      "NO_ANOTHER_RECEPTION_REQUEST",
+      "NO_AUTHORITY_CREATED",
+      "NO_AUTHORITY_INFERENCE",
+      "NO_CONTINUATION_AUTHORIZED",
+      "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+      "NO_CURRENTNESS_CREATED",
+      "NO_CURRENTNESS_INFERENCE",
+      "NO_DEPLOYMENT_CREATED",
+      "NO_DERIVATIVE_RECEPTION",
+      "NO_EXTERNAL_RESULT_INFERENCE",
+      "NO_FINAL_COMPLETION",
+      "NO_FINAL_COMPLETION_INFERENCE",
+      "NO_FOLLOW_ON_WORK_AUTHORIZED",
+      "NO_FOLLOW_ON_WORK_INFERENCE",
+      "NO_OPERATION_PERMISSION_CREATED",
+      "NO_PUBLIC_RELEASE_CREATED",
+      "NO_REUSABLE_PERMISSION",
+      "NO_RUNTIME_CREATED",
+      "NO_RUNTIME_INFERENCE",
+      "NO_SOURCE_CREATED",
+      "NO_SOURCE_INFERENCE",
+      "NO_SUCCESS_INFERENCE",
+      "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+      "NO_VERIFICATION_INFERENCE",
+      "NO_VESSEL_RELATION",
+      "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+      "OK_OUTPUT_NOT_VERIFICATION",
+      "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+      "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+      "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+      "RECEIVING_CARRIER_NOT_AUTHORITY",
+      "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+      "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+      "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+      "RESULT_NOT_EXTERNAL_RESULT",
+      "RESULT_NOT_RECEPTION_AUTHORIZATION",
+      "RESULT_NOT_SOURCE_RECEIPT",
+      "RESULT_NOT_SOURCE_TRANSFER",
+      "RESULT_NOT_SUCCESS",
+      "RESULT_NOT_VERIFICATION",
+      "RESULT_RECORDED_BOUNDED",
+      "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+      "RETURNED_RESULT_CONTAINMENT_PRESERVED",
+      "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+      "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+      "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+      "SECOND_CARRIER_RESULT_SPEC_ONLY",
+      "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+      "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+      "ZERO_EXIT_CODE_NOT_SUCCESS"
+    ],
+    "supported_scope_values": [
+      "SECOND_CARRIER_RESULT_SPEC_ONLY",
+      "ONE_BOUNDED_SECOND_CARRIER_RESULT_RECORDED",
+      "SECOND_CARRIER_RESULT_BOUNDARY_V2_BASIS_PRESERVED",
+      "RETURNED_SECOND_CARRIER_CAPTURE_BASIS_PRESERVED",
+      "CAPTURE_INTAKE_BASIS_PRESERVED",
+      "SECOND_CARRIER_OUTPUT_CAPTURE_BASIS_PRESERVED",
+      "CAPTURE_ARTIFACT_BASIS_PRESERVED",
+      "RESULT_RECORDED_BOUNDED",
+      "RESULT_ARTIFACT_RECORDED_OR_BOUNDED",
+      "RESULT_NOT_SUCCESS",
+      "RESULT_NOT_VERIFICATION",
+      "RESULT_NOT_EXTERNAL_RESULT",
+      "RESULT_NOT_CROSS_CARRIER_EVIDENCE",
+      "RESULT_NOT_SOURCE_TRANSFER",
+      "RESULT_NOT_SOURCE_RECEIPT",
+      "RESULT_NOT_RECEPTION_AUTHORIZATION",
+      "ZERO_EXIT_CODE_NOT_SUCCESS",
+      "OK_OUTPUT_NOT_VERIFICATION",
+      "RAN_7_TESTS_NOT_CROSS_CARRIER_PROOF",
+      "RETURNED_CAPTURE_NOT_CROSS_CARRIER_PROOF",
+      "SECOND_CARRIER_SUCCESS_NOT_CREATED",
+      "EXTERNAL_RESULT_NOT_CREATED",
+      "CROSS_CARRIER_EVIDENCE_NOT_CREATED",
+      "RECEIVING_CARRIER_NOT_AUTHORITY",
+      "NO_SOURCE_CREATED",
+      "NO_AUTHORITY_CREATED",
+      "NO_CURRENTNESS_CREATED",
+      "NO_FINAL_COMPLETION",
+      "NO_RUNTIME_CREATED",
+      "NO_DEPLOYMENT_CREATED",
+      "NO_PUBLIC_RELEASE_CREATED",
+      "NO_OPERATION_PERMISSION_CREATED",
+      "NO_CONTINUATION_AUTHORIZED",
+      "NO_REUSABLE_PERMISSION",
+      "NO_DERIVATIVE_RECEPTION",
+      "NO_VESSEL_RELATION",
+      "NO_ANOTHER_RECEPTION_REQUEST",
+      "NO_FOLLOW_ON_WORK_AUTHORIZED",
+      "NO_SUCCESS_INFERENCE",
+      "NO_VERIFICATION_INFERENCE",
+      "NO_EXTERNAL_RESULT_INFERENCE",
+      "NO_CROSS_CARRIER_EVIDENCE_INFERENCE",
+      "NO_SOURCE_INFERENCE",
+      "NO_AUTHORITY_INFERENCE",
+      "NO_CURRENTNESS_INFERENCE",
+      "NO_FINAL_COMPLETION_INFERENCE",
+      "NO_RUNTIME_INFERENCE",
+      "NO_FOLLOW_ON_WORK_INFERENCE",
+      "NO_UNBOUNDED_PASS_FAIL_INFERENCE",
+      "HIDDEN_REPO_STATE_EXCLUDED",
+      "HIDDEN_REPO_STATE_NOT_USED_AS_RESULT_AUTHORITY",
+      "REPO_LOCAL_AVAILABILITY_NOT_RESULT_AUTHORITY",
+      "SELECTED_BASIS_REFERENCE_SHAPE_PRESERVED",
+      "RAW_FULL_PRIOR_ARTIFACT_BODY_NOT_RETURNED",
+      "OFFICIAL_ENUM_SCOPE_STRINGS_NOT_REDACTED",
+      "HOSTILE_RAW_BODY_CONTENT_CONTAINED",
+      "FIRST_RESULT_BOUNDARY_RESOLVER_FAILURE_PRESERVED",
+      "AUTHORIZATION_TOKEN_REUSE_BLOCKED",
+      "CONSUMED_REQUEST_TOKEN_REMAINS_CLOSED",
+      "CONSUMED_REQUEST_NOT_REOPENED",
+      "COMMAND_REPORT_LINEAGE_NOT_CURRENT_REPORT_ARTIFACT",
+      "COMMAND_REPORT_LINEAGE_NOT_SOURCE",
+      "COMMAND_REPORT_LINEAGE_NOT_AUTHORITY",
+      "COMMAND_REPORT_LINEAGE_NOT_CURRENTNESS",
+      "RETURNED_RESULT_CONTAINMENT_PRESERVED"
+    ],
+    "unsupported_scope_values": []
+  },
+  "second_carrier_result_spec_only_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "second_carrier_result_spec_only_posture declared and preserved",
+    "posture_key": "second_carrier_result_spec_only_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "second_carrier_result_statement": {
+    "authority_not_created": true,
+    "authorization_token_reuse_blocked": true,
+    "bounded_second_carrier_result_recorded": true,
+    "capture_artifact_basis_preserved": true,
+    "capture_intake_basis_preserved": true,
+    "consumed_request_token_remains_closed": true,
+    "continuation_not_authorized": true,
+    "cross_carrier_evidence_not_created": true,
+    "currentness_not_created": true,
+    "external_result_not_created": true,
+    "final_completion_not_created": true,
+    "first_result_boundary_resolver_failure_preserved": true,
+    "follow_on_work_not_authorized": true,
+    "hidden_repo_state_excluded": true,
+    "hidden_repo_state_not_used_as_result_authority": true,
+    "hostile_raw_body_content_contained": true,
+    "official_enum_scope_strings_not_redacted": true,
+    "ok_output_not_verification": true,
+    "ran_7_tests_not_cross_carrier_proof": true,
+    "raw_full_prior_artifact_body_not_returned": true,
+    "receiving_carrier_not_authority": true,
+    "repo_local_availability_not_result_authority": true,
+    "result_artifact_recorded_or_bounded": true,
+    "result_not_cross_carrier_evidence": true,
+    "result_not_external_result": true,
+    "result_not_reception_authorization": true,
+    "result_not_source_receipt": true,
+    "result_not_source_transfer": true,
+    "result_not_success": true,
+    "result_not_verification": true,
+    "result_recorded_bounded": true,
+    "returned_capture_not_cross_carrier_proof": true,
+    "returned_second_carrier_capture_basis_preserved": true,
+    "reusable_permission_not_created": true,
+    "runtime_not_created": true,
+    "second_carrier_output_capture_basis_preserved": true,
+    "second_carrier_result_boundary_v2_basis_preserved": true,
+    "second_carrier_result_recorded": true,
+    "second_carrier_success_not_created": true,
+    "selected_basis_reference_shape_preserved": true,
+    "source_not_created": true,
+    "zero_exit_code_not_success": true
+  },
+  "second_carrier_success_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "second_carrier_success_not_created_posture declared and preserved",
+    "posture_key": "second_carrier_success_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "selected_artifact_containment_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_artifact_containment_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_artifact_containment_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_basis_reference_shape_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "selected_basis_reference_shape_posture declared and preserved",
+    "posture_key": "selected_basis_reference_shape_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "selected_command_execution_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_command_execution_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_command_execution_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_command_output_report_artifact_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_command_output_report_artifact_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_command_output_report_artifact_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_command_report_lineage_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_command_report_lineage_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_command_report_lineage_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_command_result_v2_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_command_result_v2_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_command_result_v2_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_command_success_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_command_success_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_command_success_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_evidence_manifest_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_evidence_manifest_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_evidence_manifest_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_output_capture_v2_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_output_capture_v2_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_output_capture_v2_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_packet_artifact_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_packet_artifact_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_packet_artifact_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_packet_emission_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_packet_emission_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_packet_emission_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_packet_emission_boundary_v1_predecessor_failure_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_packet_emission_boundary_v1_predecessor_failure_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_packet_emission_boundary_v1_predecessor_failure_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_packet_emission_boundary_v2_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_packet_emission_boundary_v2_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_packet_emission_boundary_v2_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_packet_transfer_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_packet_transfer_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_packet_transfer_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_portable_verification_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_portable_verification_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_portable_verification_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_predecessor_failure_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_predecessor_failure_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_predecessor_failure_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_returned_capture_material_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_capture_material_basis",
+      "basis_role": "reference-shaped basis only",
+      "capture_only": true,
+      "exit_code": 0,
+      "ok_line": "OK",
+      "ran_7_tests_line": "Ran 7 tests in 0.451s",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_capture_material_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "ok_line": "OK",
+    "placeholder_fields_unrepaired": true,
+    "ran_7_tests_line": "Ran 7 tests in 0.451s",
+    "raw_placeholder_carrier_label": "carrier_label=SECOND_DEVICE_LABEL_TO_FILL",
+    "raw_placeholder_carrier_type": "carrier_type=Mac/Linux/etc_TO_FILL",
+    "stderr_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/stderr.txt",
+    "stdout_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/stdout.txt",
+    "working_directory": "/Users/markomarkota/Desktop/IAMMAI-SYSTEM"
+  },
+  "selected_returned_combined_terminal_log_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_combined_terminal_log_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_combined_terminal_log_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_combined_terminal_log_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/combined_terminal_log.txt"
+  },
+  "selected_returned_command_text_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_command_text_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_command_text_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_command_text": "python3 -m unittest tests/test_resolve_portable_source_body_verification_second_carrier_output_capture.py"
+  },
+  "selected_returned_exit_code_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_exit_code_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_exit_code_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_exit_code": 0,
+    "zero_exit_code_not_success": true
+  },
+  "selected_returned_extracted_files_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_extracted_files_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_extracted_files_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_extracted_directory_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/extracted/iammai_second_carrier_capture_001/"
+  },
+  "selected_returned_hash_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_hash_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_hash_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_hash_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/hashes/iammai_second_carrier_capture_001.sha256"
+  },
+  "selected_returned_second_carrier_live_capture_intake_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_second_carrier_live_capture_intake_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_second_carrier_live_capture_intake_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "intake_capture_only": true,
+    "intake_preserved": true,
+    "macbook_pro_to_macbook_air": true,
+    "selected_intake_path": "spec/PORTABLE_SOURCE_BODY_VERIFICATION_RETURNED_SECOND_CARRIER_LIVE_CAPTURE_INTAKE_V0.md"
+  },
+  "selected_returned_timestamps_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_timestamps_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_timestamps_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "run_completed_at": "2026-05-09T11:34:27Z",
+    "run_started_at": "2026-05-09T11:34:26Z"
+  },
+  "selected_returned_zip_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_returned_zip_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_returned_zip_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_zip_path": "artifacts/actual_second_carrier_live_capture/portable_source_body_verification_actual_second_carrier_capture_001/original_zip/iammai_second_carrier_capture_001.zip"
+  },
+  "selected_second_carrier_execution_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_execution_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_execution_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_second_carrier_execution_output_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_execution_output_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_execution_output_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_second_carrier_output_capture_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_output_capture_basis",
+      "basis_role": "reference-shaped basis only",
+      "bounded_capture_recorded": true,
+      "failed_check_count": 0,
+      "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_output_capture_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "bounded_capture_recorded": true,
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "selected_failed_check_count": 0,
+    "selected_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_OUTPUT_CAPTURE_RECORDED",
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_second_carrier_output_capture/portable_source_body_verification_second_carrier_output_capture_reference_review_001__portable_source_body_verification_second_carrier_output_capture_result.json",
+    "treated_capture_as_cross_carrier_evidence": false,
+    "treated_capture_as_external_result": false,
+    "treated_capture_as_result": false,
+    "treated_capture_as_success": false
+  },
+  "selected_second_carrier_output_capture_boundary_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_output_capture_boundary_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_output_capture_boundary_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_second_carrier_output_capture_terminal_summary_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_output_capture_terminal_summary_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_output_capture_terminal_summary_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "selected_second_carrier_result_boundary_v2_basis": {
+    "already_created_cross_carrier_evidence": false,
+    "already_created_external_result": false,
+    "already_created_result": false,
+    "already_created_success": false,
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_result_boundary_v2_basis",
+      "basis_role": "reference-shaped basis only",
+      "declared_future_result_step": true,
+      "failed_check_count": 0,
+      "outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+      "reference_shape_preserved": true,
+      "result_version": "0.2.0"
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_result_boundary_v2_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "declared_future_result_step": true,
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true,
+    "first_result_boundary_resolver_preserved": true,
+    "official_enum_scope_strings_redacted": false,
+    "ok_not_verification": true,
+    "returned_capture_not_cross_carrier_proof": true,
+    "selected_failed_check_count": 0,
+    "selected_outcome": "PORTABLE_SOURCE_BODY_VERIFICATION_SECOND_CARRIER_RESULT_BOUNDARY_RECORDED",
+    "selected_result_path": "artifacts/integrity_host_v0_min_coexistence_portable_source_body_verification_second_carrier_result_boundary_v2/portable_source_body_verification_second_carrier_result_boundary_reference_review_001_v2__portable_source_body_verification_second_carrier_result_boundary_v2_result.json",
+    "selected_result_version": "0.2.0",
+    "zero_exit_code_not_success": true
+  },
+  "selected_second_carrier_result_boundary_v2_terminal_summary_basis": {
+    "basis": {
+      "basis_id": "portable_source_body_verification_second_carrier_result_basis",
+      "basis_key": "selected_second_carrier_result_boundary_v2_terminal_summary_basis",
+      "basis_role": "reference-shaped basis only",
+      "reference_shape_preserved": true
+    },
+    "basis_declared": true,
+    "basis_key": "selected_second_carrier_result_boundary_v2_terminal_summary_basis",
+    "basis_role": "reference-shaped second-carrier result basis only",
+    "does_not_authorize_follow_on_work": true,
+    "does_not_create_cross_carrier_evidence": true,
+    "does_not_create_external_result": true,
+    "does_not_create_reception_authorization": true,
+    "does_not_create_source_authority_currentness_runtime_or_final_completion": true,
+    "does_not_create_source_receipt": true,
+    "does_not_create_source_transfer": true,
+    "does_not_create_success": true
+  },
+  "source_not_created_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "source_not_created_posture declared and preserved",
+    "posture_key": "source_not_created_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  },
+  "what_remains_open": {
+    "open_items": [
+      "second-carrier result test",
+      "second-carrier result live artifact",
+      "second-carrier result terminal summary, if needed",
+      "second-carrier success boundary/spec/resolver/test/live artifact",
+      "external result artifact",
+      "cross-carrier evidence review",
+      "line-level portable verification closure review",
+      "source transfer",
+      "source receipt",
+      "reception authorization",
+      "derivative reception",
+      "vessel relation",
+      "adoption",
+      "authority creation",
+      "currentness creation",
+      "operation permission",
+      "receiving-context governance",
+      "final completion",
+      "runtime hosting",
+      "deployment",
+      "public release",
+      "continuation",
+      "publication flow",
+      "reusable permission",
+      "successor reception request",
+      "follow-on work"
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  },
+  "zero_exit_code_not_success_posture": {
+    "actual_posture": true,
+    "declared": true,
+    "expected_posture": "zero_exit_code_not_success_posture declared and preserved",
+    "posture_key": "zero_exit_code_not_success_posture",
+    "posture_role": "bounded second-carrier-result posture only"
+  }
+}

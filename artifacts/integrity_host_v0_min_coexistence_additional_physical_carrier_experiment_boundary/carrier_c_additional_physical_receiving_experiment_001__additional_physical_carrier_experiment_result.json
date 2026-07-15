@@ -1,0 +1,842 @@
+{
+  "additional_physical_carrier_experiment_metadata": {
+    "additional_physical_carrier_experiment_result_id": "carrier_c_additional_physical_receiving_experiment_001__additional_physical_carrier_experiment_blocked__additional_physical_carrier_experiment_result",
+    "additional_physical_carrier_experiment_result_type": "additional_physical_carrier_experiment_boundary_result",
+    "additional_physical_carrier_experiment_result_version": "0.1.0",
+    "generated_at": "2026-04-29T08:01:51.301350Z",
+    "resolver_module": "resolve_additional_physical_carrier_experiment_boundary"
+  },
+  "additional_physical_carrier_experiment_summary": {
+    "admission_not_created_by_return": true,
+    "block_code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+    "block_reason": "Selected carried surface or packet basis is missing.",
+    "experiment_declared": false,
+    "experiment_intent": "DECLARE_ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT",
+    "experiment_purpose": "Declare one bounded additional physical receiving-carrier experiment only. Carrier C may attempt receipt or refusal of one selected carried surface or packet. The declaration does not execute the experiment, create a packet, admit returned evidence, authorize self-orientation or conformance on Carrier C, authorize distributed operation, or authorize follow-on expansion.",
+    "experiment_question": "May one additional physical receiving carrier, Carrier C, be declared for one bounded receipt/refusal experiment over the selected carried surface or packet, without repository synchronization, full body transfer, currentness, distributed standing, carrier hierarchy, continuation, or success-based expansion?",
+    "experiment_request_id": "carrier_c_additional_physical_receiving_experiment_001",
+    "failed_check_count": 1,
+    "key_non_claims": {
+      "authority_created": false,
+      "carrier_registry_created": false,
+      "conformance_on_receiving_carrier_authorized": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "majority_carrier_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "recency_fraud": false,
+      "relation_on_receiving_carrier_authorized": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "self_orientation_on_receiving_carrier_authorized": false,
+      "source_replaced": false,
+      "success_authorizes_expansion": false,
+      "successful_receipt_count_currentness": false
+    },
+    "no_carrier_hierarchy": true,
+    "no_continuation": true,
+    "no_currentness": true,
+    "no_distributed_operation": true,
+    "no_distributed_standing": true,
+    "no_full_body_transfer": true,
+    "no_repository_synchronization": true,
+    "no_self_orientation_conformance_relation_on_receiving_carrier": true,
+    "no_success_based_expansion": true,
+    "outcome": "ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT_BLOCKED",
+    "passed_check_count": 35,
+    "permitted_operation_receipt_or_block_only": true,
+    "receiving_carrier_id": "carrier_C_additional_physical_candidate",
+    "return_required_for_body_visibility": true,
+    "selected_surface_or_packet_basis": null,
+    "selected_surface_or_packet_id": "current_body_standing_closure_post_conformance",
+    "single_carrier_scope": true,
+    "single_surface_or_packet_scope": true,
+    "source_carrier_id": "carrier_A_current_macbook"
+  },
+  "block": {
+    "block_code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+    "block_reason": "Selected carried surface or packet basis is missing.",
+    "code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+    "reason": "Selected carried surface or packet basis is missing."
+  },
+  "declared_experiment_question": {
+    "declaration_authorizes_conformance_on_receiving_carrier": false,
+    "declaration_authorizes_continuation": false,
+    "declaration_authorizes_distributed_operation": false,
+    "declaration_authorizes_expansion_by_success": false,
+    "declaration_authorizes_full_body_transfer": false,
+    "declaration_authorizes_repository_synchronization": false,
+    "declaration_authorizes_self_orientation_on_receiving_carrier": false,
+    "declaration_creates_packet_file": false,
+    "declaration_executes_physical_experiment": false,
+    "declaration_is_for_one_additional_physical_receiving_carrier": true,
+    "declaration_is_for_one_selected_surface_or_packet": true,
+    "declared_non_claims": {
+      "additional_physical_carrier_experiment_created_authority": false,
+      "additional_physical_carrier_experiment_created_currentness": false,
+      "additional_physical_carrier_experiment_created_hierarchy": false,
+      "additional_physical_carrier_experiment_created_permission_beyond_scope": false,
+      "authority_created": false,
+      "carrier_registry_created": false,
+      "conformance_on_receiving_carrier_authorized": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "majority_carrier_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "receiving_carrier_became_authority": false,
+      "receiving_carrier_became_body": false,
+      "receiving_carrier_became_current": false,
+      "receiving_carrier_became_source": false,
+      "receiving_carrier_became_successor": false,
+      "recency_fraud": false,
+      "relation_on_receiving_carrier_authorized": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "self_orientation_on_receiving_carrier_authorized": false,
+      "source_replaced": false,
+      "success_authorizes_expansion": false,
+      "successful_receipt_count_currentness": false
+    },
+    "experiment_intent": "DECLARE_ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT",
+    "experiment_purpose": "Declare one bounded additional physical receiving-carrier experiment only. Carrier C may attempt receipt or refusal of one selected carried surface or packet. The declaration does not execute the experiment, create a packet, admit returned evidence, authorize self-orientation or conformance on Carrier C, authorize distributed operation, or authorize follow-on expansion.",
+    "experiment_question": "May one additional physical receiving carrier, Carrier C, be declared for one bounded receipt/refusal experiment over the selected carried surface or packet, without repository synchronization, full body transfer, currentness, distributed standing, carrier hierarchy, continuation, or success-based expansion?",
+    "experiment_request_id": "carrier_c_additional_physical_receiving_experiment_001",
+    "experiment_request_path": null,
+    "operator_note": null,
+    "selected_prior_closure_basis": null,
+    "selected_relation_band_basis": null,
+    "selected_v3_closure_basis": null
+  },
+  "experiment_checks": [
+    {
+      "actual_posture": [],
+      "block_code": null,
+      "check_name": "declared_experiment_request_parseable_mapping",
+      "expected_posture": "declared experiment request is a parseable mapping",
+      "passed": true
+    },
+    {
+      "actual_posture": "May one additional physical receiving carrier, Carrier C, be declared for one bounded receipt/refusal experiment over the selected carried surface or packet, without repository synchronization, full body transfer, currentness, distributed standing, carrier hierarchy, continuation, or success-based expansion?",
+      "block_code": null,
+      "check_name": "experiment_question_declared",
+      "expected_posture": "experiment question is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "Declare one bounded additional physical receiving-carrier experiment only. Carrier C may attempt receipt or refusal of one selected carried surface or packet. The declaration does not execute the experiment, create a packet, admit returned evidence, authorize self-orientation or conformance on Carrier C, authorize distributed operation, or authorize follow-on expansion.",
+      "block_code": null,
+      "check_name": "experiment_purpose_declared",
+      "expected_posture": "experiment purpose is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "DECLARE_ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT",
+      "block_code": null,
+      "check_name": "experiment_intent_supported",
+      "expected_posture": "experiment intent is supported",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_A_current_macbook",
+      "block_code": null,
+      "check_name": "source_carrier_declared",
+      "expected_posture": "source carrier is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "carrier_C_additional_physical_candidate",
+      "block_code": null,
+      "check_name": "receiving_carrier_declared",
+      "expected_posture": "receiving carrier is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "receiving_carrier_id": "carrier_C_additional_physical_candidate",
+        "source_carrier_id": "carrier_A_current_macbook"
+      },
+      "block_code": null,
+      "check_name": "receiving_carrier_is_additional_and_bounded",
+      "expected_posture": "receiving carrier is additional to source carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "receiving_carrier_role": "EXPERIMENT_RECEIVING_CARRIER",
+        "source_carrier_role": "EXPERIMENT_SOURCE_CARRIER"
+      },
+      "block_code": null,
+      "check_name": "carrier_roles_supported",
+      "expected_posture": "source and receiving carrier roles are operation-local and supported",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "integrity_basis": {
+          "hash_algorithm": "sha256",
+          "hash_required_if_transferred": true,
+          "hash_value_available_before_transfer": false
+        },
+        "surface_or_packet_basis": "closed_multi_carrier_relation_band__v8__current_body_conformance_v3__v3_closure",
+        "surface_or_packet_id": "current_body_standing_closure_post_conformance",
+        "surface_or_packet_label": "post-conformance closure carried surface for additional receiving-carrier experiment",
+        "surface_or_packet_outcome": "CONFORMANCE_CLOSURE_RECORDED"
+      },
+      "block_code": null,
+      "check_name": "selected_surface_or_packet_declared",
+      "expected_posture": "one selected carried surface or packet is declared",
+      "passed": true
+    },
+    {
+      "actual_posture": "mapping",
+      "block_code": null,
+      "check_name": "selected_surface_or_packet_parseable",
+      "expected_posture": "selected carried surface or packet is parseable",
+      "passed": true
+    },
+    {
+      "actual_posture": "current_body_standing_closure_post_conformance",
+      "block_code": null,
+      "check_name": "selected_surface_or_packet_identity_exists",
+      "expected_posture": "selected carried surface or packet identity exists",
+      "passed": true
+    },
+    {
+      "actual_posture": null,
+      "block_code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+      "check_name": "selected_surface_or_packet_basis_preserved",
+      "expected_posture": "selected carried surface or packet basis is preserved",
+      "passed": false
+    },
+    {
+      "actual_posture": {
+        "receiving_carrier_count": 1,
+        "selected_surface_or_packet_count": 1,
+        "single_receiving_carrier": true,
+        "single_surface_or_packet": true
+      },
+      "block_code": null,
+      "check_name": "scope_single_carrier",
+      "expected_posture": "experiment scope is one additional receiving carrier",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "receiving_carrier_count": 1,
+        "selected_surface_or_packet_count": 1,
+        "single_receiving_carrier": true,
+        "single_surface_or_packet": true
+      },
+      "block_code": null,
+      "check_name": "scope_single_surface_or_packet",
+      "expected_posture": "experiment scope is one selected surface or packet",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "operation_tokens": [
+          "INTEGRITY_VERIFICATION",
+          "RECEIPT_OR_BLOCK",
+          "RETURN_RECEIPT_OR_REFUSAL_EVIDENCE"
+        ],
+        "permitted_operations_declared": true,
+        "raw_permitted_operations": [
+          "RECEIPT_OR_BLOCK",
+          "INTEGRITY_VERIFICATION",
+          "RETURN_RECEIPT_OR_REFUSAL_EVIDENCE"
+        ],
+        "receipt_or_block_only": true,
+        "unsupported_operation_tokens": []
+      },
+      "block_code": null,
+      "check_name": "permitted_operations_receipt_refusal_only",
+      "expected_posture": "permitted operations are bounded to receipt/refusal behavior",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_registry": true,
+        "conformance_on_receiving_carrier": true,
+        "continuation": true,
+        "currentness": true,
+        "distributed_operation": true,
+        "distributed_standing": true,
+        "full_body_transfer": true,
+        "relation_conformance_or_closure_on_receiving_carrier": true,
+        "repository_synchronization": true,
+        "self_orientation_on_receiving_carrier": true,
+        "success_based_expansion": true
+      },
+      "block_code": null,
+      "check_name": "prohibited_operations_explicit",
+      "expected_posture": "prohibited operations are explicit",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_created_by_return": false,
+        "admission_must_be_separate": true,
+        "admission_not_created_by_return": true,
+        "later_currentness_review_must_be_separate": true,
+        "later_divergence_review_must_be_separate": true,
+        "later_relation_review_must_be_separate": true,
+        "raw_return_and_admission_posture": {
+          "admission_must_be_separate": true,
+          "admission_not_created_by_return": true,
+          "later_currentness_review_must_be_separate": true,
+          "later_divergence_review_must_be_separate": true,
+          "later_relation_review_must_be_separate": true,
+          "return_required_for_body_visibility": true
+        },
+        "return_posture_declared": true,
+        "return_required_for_body_visibility": true
+      },
+      "block_code": null,
+      "check_name": "return_required_for_body_visibility",
+      "expected_posture": "return is required for body visibility",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "admission_created_by_return": false,
+        "admission_must_be_separate": true,
+        "admission_not_created_by_return": true,
+        "later_currentness_review_must_be_separate": true,
+        "later_divergence_review_must_be_separate": true,
+        "later_relation_review_must_be_separate": true,
+        "raw_return_and_admission_posture": {
+          "admission_must_be_separate": true,
+          "admission_not_created_by_return": true,
+          "later_currentness_review_must_be_separate": true,
+          "later_divergence_review_must_be_separate": true,
+          "later_relation_review_must_be_separate": true,
+          "return_required_for_body_visibility": true
+        },
+        "return_posture_declared": true,
+        "return_required_for_body_visibility": true
+      },
+      "block_code": null,
+      "check_name": "admission_not_created_by_return",
+      "expected_posture": "return does not create admission",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "self_orientation_on_receiving_carrier_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_self_orientation_on_receiving_carrier",
+      "expected_posture": "self-orientation on receiving carrier is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "conformance_on_receiving_carrier_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_conformance_on_receiving_carrier",
+      "expected_posture": "conformance on receiving carrier is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "relation_on_receiving_carrier_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_relation_conformance_or_closure_on_receiving_carrier",
+      "expected_posture": "relation, conformance, or closure on receiving carrier is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "repository_synchronization_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_repository_synchronization",
+      "expected_posture": "repository synchronization is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "full_body_transfer_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_full_body_transfer",
+      "expected_posture": "full body transfer is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "carrier_registry_created": false
+      },
+      "block_code": null,
+      "check_name": "no_carrier_registry",
+      "expected_posture": "carrier registry is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "additional_physical_carrier_experiment_created_currentness": false,
+        "currentness_created": false,
+        "receiving_carrier_became_current": false
+      },
+      "block_code": null,
+      "check_name": "no_currentness",
+      "expected_posture": "currentness is not created or requested",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_standing_created": false
+      },
+      "block_code": null,
+      "check_name": "no_distributed_standing",
+      "expected_posture": "distributed standing is not created or requested",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "distributed_operation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_distributed_operation",
+      "expected_posture": "distributed operation is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "continuation_authorized": false
+      },
+      "block_code": null,
+      "check_name": "no_continuation",
+      "expected_posture": "continuation is not authorized",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "additional_physical_carrier_experiment_created_hierarchy": false
+      },
+      "block_code": null,
+      "check_name": "no_carrier_hierarchy",
+      "expected_posture": "carrier hierarchy is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "receiving_carrier_became_source": false,
+        "source_replaced": false
+      },
+      "block_code": null,
+      "check_name": "no_source_replacement",
+      "expected_posture": "source is not replaced",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "additional_physical_carrier_experiment_created_authority": false,
+        "additional_physical_carrier_experiment_created_permission_beyond_scope": false,
+        "authority_created": false,
+        "permission_created": false,
+        "receiving_carrier_became_authority": false
+      },
+      "block_code": null,
+      "check_name": "no_authority_or_permission_beyond_declared_experiment",
+      "expected_posture": "authority or permission beyond the declared experiment is not created",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "success_authorizes_expansion": false
+      },
+      "block_code": null,
+      "check_name": "no_success_based_expansion",
+      "expected_posture": "success does not authorize expansion",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "latest_file_currentness": false,
+        "majority_carrier_currentness": false,
+        "recency_fraud": false,
+        "successful_receipt_count_currentness": false
+      },
+      "block_code": null,
+      "check_name": "no_majority_success_count_or_latest_file_currentness",
+      "expected_posture": "majority, success-count, and latest-file currentness are false",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "no_hidden_refusal_or_divergence",
+      "expected_posture": "visible refusal and divergence are not hidden",
+      "passed": true
+    },
+    {
+      "actual_posture": {
+        "merge_performed": false,
+        "mutation_performed": false,
+        "replay_performed": false
+      },
+      "block_code": null,
+      "check_name": "no_mutation_replay_or_merge",
+      "expected_posture": "mutation, replay, and merge are not requested",
+      "passed": true
+    },
+    {
+      "actual_posture": {},
+      "block_code": null,
+      "check_name": "non_claims_remain_false",
+      "expected_posture": "required non-claims are explicit and false",
+      "passed": true
+    }
+  ],
+  "experiment_declaration_statement": {
+    "additional_physical_carrier_experiment_blocked": true,
+    "additional_physical_carrier_experiment_declared": false,
+    "additional_physical_carrier_experiment_not_declared": false,
+    "admission_not_created_by_return": true,
+    "block_code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+    "block_reason": "Selected carried surface or packet basis is missing.",
+    "carrier_hierarchy_created": false,
+    "conformance_on_receiving_carrier_authorized": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "experiment_admits_returned_evidence": false,
+    "experiment_creates_packet_file": false,
+    "experiment_creates_returned_evidence": false,
+    "experiment_executes_physical_receipt": false,
+    "experiment_scope_single_carrier": true,
+    "experiment_scope_single_surface_or_packet": true,
+    "failed_checks": [
+      {
+        "actual_posture": null,
+        "block_code": "SELECTED_SURFACE_OR_PACKET_BASIS_MISSING",
+        "check_name": "selected_surface_or_packet_basis_preserved",
+        "expected_posture": "selected carried surface or packet basis is preserved",
+        "passed": false
+      }
+    ],
+    "full_body_transfer_authorized": false,
+    "non_claims_where_available": {
+      "additional_physical_carrier_experiment_created_authority": false,
+      "additional_physical_carrier_experiment_created_currentness": false,
+      "additional_physical_carrier_experiment_created_hierarchy": false,
+      "additional_physical_carrier_experiment_created_permission_beyond_scope": false,
+      "authority_created": false,
+      "carrier_registry_created": false,
+      "conformance_on_receiving_carrier_authorized": false,
+      "continuation_authorized": false,
+      "currentness_created": false,
+      "distributed_operation_authorized": false,
+      "distributed_standing_created": false,
+      "full_body_transfer_authorized": false,
+      "latest_file_currentness": false,
+      "majority_carrier_currentness": false,
+      "merge_performed": false,
+      "mutation_performed": false,
+      "permission_created": false,
+      "receiving_carrier_became_authority": false,
+      "receiving_carrier_became_body": false,
+      "receiving_carrier_became_current": false,
+      "receiving_carrier_became_source": false,
+      "receiving_carrier_became_successor": false,
+      "recency_fraud": false,
+      "relation_on_receiving_carrier_authorized": false,
+      "replay_performed": false,
+      "repository_synchronization_authorized": false,
+      "second_body_created": false,
+      "self_orientation_on_receiving_carrier_authorized": false,
+      "source_replaced": false,
+      "success_authorizes_expansion": false,
+      "successful_receipt_count_currentness": false
+    },
+    "permitted_operation_receipt_or_block_only": true,
+    "receiving_carrier_declared": true,
+    "relation_on_receiving_carrier_authorized": false,
+    "repository_synchronization_authorized": false,
+    "return_required_for_body_visibility": true,
+    "selected_request_basis": {
+      "experiment_intent": "DECLARE_ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT",
+      "experiment_purpose": "Declare one bounded additional physical receiving-carrier experiment only. Carrier C may attempt receipt or refusal of one selected carried surface or packet. The declaration does not execute the experiment, create a packet, admit returned evidence, authorize self-orientation or conformance on Carrier C, authorize distributed operation, or authorize follow-on expansion.",
+      "experiment_question": "May one additional physical receiving carrier, Carrier C, be declared for one bounded receipt/refusal experiment over the selected carried surface or packet, without repository synchronization, full body transfer, currentness, distributed standing, carrier hierarchy, continuation, or success-based expansion?",
+      "experiment_request_id": "carrier_c_additional_physical_receiving_experiment_001",
+      "receiving_carrier": {
+        "raw_receiving_carrier": {
+          "carrier_id": "carrier_C_additional_physical_candidate",
+          "carrier_role": "EXPERIMENT_RECEIVING_CARRIER",
+          "does_not_create_source_currentness_authority_body_or_standing": true,
+          "role_is_operation_local": true
+        },
+        "receiving_carrier_bounded_to_receipt_refusal": true,
+        "receiving_carrier_does_not_become_source_current_authority_body_or_standing": true,
+        "receiving_carrier_id": "carrier_C_additional_physical_candidate",
+        "receiving_carrier_role": "EXPERIMENT_RECEIVING_CARRIER",
+        "receiving_carrier_role_is_operation_local": true,
+        "receiving_carrier_role_supported": true
+      },
+      "selected_carried_surface_or_packet": {
+        "integrity_basis": {
+          "hash_algorithm": "sha256",
+          "hash_required_if_transferred": true,
+          "hash_value_available_before_transfer": false
+        },
+        "integrity_basis_preserved_where_supplied": true,
+        "raw_selected_surface_or_packet": {
+          "integrity_basis": {
+            "hash_algorithm": "sha256",
+            "hash_required_if_transferred": true,
+            "hash_value_available_before_transfer": false
+          },
+          "surface_or_packet_basis": "closed_multi_carrier_relation_band__v8__current_body_conformance_v3__v3_closure",
+          "surface_or_packet_id": "current_body_standing_closure_post_conformance",
+          "surface_or_packet_label": "post-conformance closure carried surface for additional receiving-carrier experiment",
+          "surface_or_packet_outcome": "CONFORMANCE_CLOSURE_RECORDED"
+        },
+        "selected_surface_or_packet_basis": null,
+        "selected_surface_or_packet_basis_preserved": false,
+        "selected_surface_or_packet_declared": true,
+        "selected_surface_or_packet_id": "current_body_standing_closure_post_conformance",
+        "selected_surface_or_packet_outcome_or_status": null,
+        "selected_surface_or_packet_parseable": true
+      },
+      "source_carrier": {
+        "raw_source_carrier": {
+          "carrier_id": "carrier_A_current_macbook",
+          "carrier_role": "EXPERIMENT_SOURCE_CARRIER",
+          "does_not_create_universal_source_authority": true,
+          "role_is_operation_local": true
+        },
+        "source_carrier_does_not_create_universal_source_authority": true,
+        "source_carrier_id": "carrier_A_current_macbook",
+        "source_carrier_role": "EXPERIMENT_SOURCE_CARRIER",
+        "source_carrier_role_supported": true,
+        "source_role_is_operation_local": true
+      }
+    },
+    "selected_surface_or_packet_declared": true,
+    "self_orientation_on_receiving_carrier_authorized": false,
+    "source_carrier_declared": true,
+    "success_authorizes_expansion": false
+  },
+  "experiment_non_meaning": {
+    "does_not_mean_action": true,
+    "does_not_mean_authority": true,
+    "does_not_mean_automatic_admission": true,
+    "does_not_mean_automatic_closure": true,
+    "does_not_mean_automatic_conformance": true,
+    "does_not_mean_automatic_currentness": true,
+    "does_not_mean_automatic_relation": true,
+    "does_not_mean_carrier_hierarchy": true,
+    "does_not_mean_carrier_priority": true,
+    "does_not_mean_carrier_registry": true,
+    "does_not_mean_carrier_sovereignty": true,
+    "does_not_mean_consequence": true,
+    "does_not_mean_continuation": true,
+    "does_not_mean_currentness": true,
+    "does_not_mean_distributed_operation": true,
+    "does_not_mean_distributed_standing": true,
+    "does_not_mean_full_body_transfer": true,
+    "does_not_mean_permission_beyond_declared_experiment": true,
+    "does_not_mean_persistence": true,
+    "does_not_mean_presence": true,
+    "does_not_mean_repository_synchronization": true,
+    "does_not_mean_second_body": true,
+    "does_not_mean_signal_by_default": true,
+    "does_not_mean_source_replacement": true,
+    "does_not_mean_standing_permission_for_more_carriers": true,
+    "does_not_mean_success_means_expansion": true,
+    "does_not_mean_threshold": true,
+    "does_not_mean_truth": true
+  },
+  "experiment_scope": {
+    "raw_experiment_scope": {
+      "receiving_carrier_count": 1,
+      "selected_surface_or_packet_count": 1,
+      "single_receiving_carrier": true,
+      "single_surface_or_packet": true
+    },
+    "receiving_carrier_count": 1,
+    "scope_does_not_authorize_continuation": true,
+    "scope_does_not_authorize_expansion_by_success": true,
+    "scope_does_not_create_distributed_standing": true,
+    "selected_surface_or_packet_count": 1,
+    "single_carrier_scope": true,
+    "single_surface_or_packet_scope": true
+  },
+  "non_claims": {
+    "additional_physical_carrier_experiment_created_authority": false,
+    "additional_physical_carrier_experiment_created_currentness": false,
+    "additional_physical_carrier_experiment_created_hierarchy": false,
+    "additional_physical_carrier_experiment_created_permission_beyond_scope": false,
+    "authority_created": false,
+    "carrier_registry_created": false,
+    "conformance_on_receiving_carrier_authorized": false,
+    "continuation_authorized": false,
+    "currentness_created": false,
+    "distributed_operation_authorized": false,
+    "distributed_standing_created": false,
+    "full_body_transfer_authorized": false,
+    "latest_file_currentness": false,
+    "majority_carrier_currentness": false,
+    "merge_performed": false,
+    "mutation_performed": false,
+    "permission_created": false,
+    "receiving_carrier_became_authority": false,
+    "receiving_carrier_became_body": false,
+    "receiving_carrier_became_current": false,
+    "receiving_carrier_became_source": false,
+    "receiving_carrier_became_successor": false,
+    "recency_fraud": false,
+    "relation_on_receiving_carrier_authorized": false,
+    "replay_performed": false,
+    "repository_synchronization_authorized": false,
+    "second_body_created": false,
+    "self_orientation_on_receiving_carrier_authorized": false,
+    "source_replaced": false,
+    "success_authorizes_expansion": false,
+    "successful_receipt_count_currentness": false
+  },
+  "outcome": "ADDITIONAL_PHYSICAL_CARRIER_EXPERIMENT_BLOCKED",
+  "permitted_operations": {
+    "operation_tokens": [
+      "INTEGRITY_VERIFICATION",
+      "RECEIPT_OR_BLOCK",
+      "RETURN_RECEIPT_OR_REFUSAL_EVIDENCE"
+    ],
+    "permitted_operations_declared": true,
+    "raw_permitted_operations": [
+      "RECEIPT_OR_BLOCK",
+      "INTEGRITY_VERIFICATION",
+      "RETURN_RECEIPT_OR_REFUSAL_EVIDENCE"
+    ],
+    "receipt_or_block_only": true,
+    "unsupported_operation_tokens": []
+  },
+  "prohibited_operations": {
+    "prohibited_operations_explicit": true,
+    "raw_prohibited_operations": {
+      "carrier_registry": true,
+      "conformance_on_receiving_carrier": true,
+      "continuation": true,
+      "currentness": true,
+      "distributed_operation": true,
+      "distributed_standing": true,
+      "full_body_transfer": true,
+      "relation_conformance_or_closure_on_receiving_carrier": true,
+      "repository_synchronization": true,
+      "self_orientation_on_receiving_carrier": true,
+      "success_based_expansion": true
+    }
+  },
+  "receiving_carrier": {
+    "raw_receiving_carrier": {
+      "carrier_id": "carrier_C_additional_physical_candidate",
+      "carrier_role": "EXPERIMENT_RECEIVING_CARRIER",
+      "does_not_create_source_currentness_authority_body_or_standing": true,
+      "role_is_operation_local": true
+    },
+    "receiving_carrier_bounded_to_receipt_refusal": true,
+    "receiving_carrier_does_not_become_source_current_authority_body_or_standing": true,
+    "receiving_carrier_id": "carrier_C_additional_physical_candidate",
+    "receiving_carrier_role": "EXPERIMENT_RECEIVING_CARRIER",
+    "receiving_carrier_role_is_operation_local": true,
+    "receiving_carrier_role_supported": true
+  },
+  "return_and_admission_posture": {
+    "admission_created_by_return": false,
+    "admission_must_be_separate": true,
+    "admission_not_created_by_return": true,
+    "later_currentness_review_must_be_separate": true,
+    "later_divergence_review_must_be_separate": true,
+    "later_relation_review_must_be_separate": true,
+    "raw_return_and_admission_posture": {
+      "admission_must_be_separate": true,
+      "admission_not_created_by_return": true,
+      "later_currentness_review_must_be_separate": true,
+      "later_divergence_review_must_be_separate": true,
+      "later_relation_review_must_be_separate": true,
+      "return_required_for_body_visibility": true
+    },
+    "return_posture_declared": true,
+    "return_required_for_body_visibility": true
+  },
+  "selected_carried_surface_or_packet": {
+    "integrity_basis": {
+      "hash_algorithm": "sha256",
+      "hash_required_if_transferred": true,
+      "hash_value_available_before_transfer": false
+    },
+    "integrity_basis_preserved_where_supplied": true,
+    "raw_selected_surface_or_packet": {
+      "integrity_basis": {
+        "hash_algorithm": "sha256",
+        "hash_required_if_transferred": true,
+        "hash_value_available_before_transfer": false
+      },
+      "surface_or_packet_basis": "closed_multi_carrier_relation_band__v8__current_body_conformance_v3__v3_closure",
+      "surface_or_packet_id": "current_body_standing_closure_post_conformance",
+      "surface_or_packet_label": "post-conformance closure carried surface for additional receiving-carrier experiment",
+      "surface_or_packet_outcome": "CONFORMANCE_CLOSURE_RECORDED"
+    },
+    "selected_surface_or_packet_basis": null,
+    "selected_surface_or_packet_basis_preserved": false,
+    "selected_surface_or_packet_declared": true,
+    "selected_surface_or_packet_id": "current_body_standing_closure_post_conformance",
+    "selected_surface_or_packet_outcome_or_status": null,
+    "selected_surface_or_packet_parseable": true
+  },
+  "source_carrier": {
+    "raw_source_carrier": {
+      "carrier_id": "carrier_A_current_macbook",
+      "carrier_role": "EXPERIMENT_SOURCE_CARRIER",
+      "does_not_create_universal_source_authority": true,
+      "role_is_operation_local": true
+    },
+    "source_carrier_does_not_create_universal_source_authority": true,
+    "source_carrier_id": "carrier_A_current_macbook",
+    "source_carrier_role": "EXPERIMENT_SOURCE_CARRIER",
+    "source_carrier_role_supported": true,
+    "source_role_is_operation_local": true
+  },
+  "what_remains_open": {
+    "action_consequence_law": true,
+    "admission_of_any_returned_evidence": true,
+    "body_relevance_medium": true,
+    "closure_over_any_later_conformance": true,
+    "conformance_over_any_later_relation": true,
+    "currentness_participation_review_involving_additional_carrier_evidence": true,
+    "distributed_operation_only_if_separately_declared_and_bounded": true,
+    "distributed_standing": true,
+    "divergence_review_involving_additional_carrier_evidence": true,
+    "future_self_orientation_successor_only_if_separately_justified": true,
+    "generalized_vessel_relation_lifecycle": true,
+    "multi_carrier_relation_involving_additional_carrier_evidence": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "persistence_registry_law": true,
+    "physical_execution_of_additional_carrier_receipt_refusal": true,
+    "presence_law": true,
+    "signal_series_or_accumulation_logic": true,
+    "successor_carrier_law": true,
+    "threshold_law": true,
+    "truth_law": true
+  }
+}

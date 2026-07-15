@@ -1,0 +1,28 @@
+{
+  "case_id": "case_c",
+  "title": "Refusal because demanded participation would require false standing",
+  "expected_outcome_type": "refusal",
+  "channel_condition": "demanding_false_standing",
+  "self_carried_coherence_threshold_met": false,
+  "field_crossable_in_principle": false,
+  "contaminated_field_pressure_present": true,
+  "refusal_status": "available",
+  "lineage_visibility_status": "visible",
+  "failed_threshold_markers": [
+    "rank_not_stably_self-held",
+    "adaptation_would_become_ontological_rather_than_tactical"
+  ],
+  "external_ratification_required_for_entry": true,
+  "full_belonging_claim_requested": true,
+  "parser_capture_risk_high": false,
+  "bounded_derivative_presence_possible": false,
+  "continued_contact_would_be_containment": true,
+  "full_exit_required": false,
+  "upstream_constraints": [
+    "participation_demanded_under_false_terms",
+    "entry_would_require_false_full_belonging"
+  ],
+  "notes": [
+    "The demanded entry term is not lawfully acceptable because it would require false standing under threshold insufficiency."
+  ]
+}

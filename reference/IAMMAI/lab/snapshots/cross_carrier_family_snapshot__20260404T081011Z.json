@@ -1,0 +1,1001 @@
+{
+  "metadata": {
+    "generated_at": "2026-04-04T08:10:11Z",
+    "snapshot_builder_path": "lab/build_cross_carrier_family_snapshot.py",
+    "snapshot_source_root": "lab",
+    "snapshot_path": "lab/snapshots/cross_carrier_family_snapshot__20260404T081011Z.json",
+    "implementation_posture": "implementation_local_cross_carrier_family_readability_only"
+  },
+  "family_summary": {
+    "family_id": "cross_carrier_proof_family",
+    "family_name": "Cross-Carrier Seam Proof Family",
+    "total_cross_carrier_proofs_discovered": 3,
+    "total_source_side_runs_discovered": 4,
+    "total_receiving_side_imported_branches_discovered": 6,
+    "total_receiving_side_imported_runs_discovered": 6,
+    "proof_ids_discovered": [
+      "cross_carrier_seam_proof_001",
+      "cross_carrier_seam_proof_002",
+      "cross_carrier_seam_proof_003"
+    ]
+  },
+  "proofs": [
+    {
+      "proof_id": "cross_carrier_seam_proof_001",
+      "proof_root_path": "lab/cross_carrier_seam_proof_001",
+      "proof_root_exists": true,
+      "script_path": "lab/run_cross_carrier_seam_proof_001.py",
+      "script_exists": true,
+      "script_headline": "First bounded executable cross-carrier seam proof.",
+      "purpose_note": "Bounded first cross-carrier seam proof for source validity or invalidity and lawful ingress versus visible refusal or non-passage.",
+      "internalized_archive_status": true,
+      "source_side_release_lineage": {
+        "source_runs_root_path": "lab/cross_carrier_seam_proof_001/source_runs",
+        "source_runs_root_exists": true,
+        "source_run_count": 2,
+        "source_run_paths": [
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a",
+          "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e"
+        ],
+        "source_execution_ids": [
+          "execution-71a0490222f8433e9b3081eecc817d3a",
+          "execution-f72b3f6777fc47368c18567fa4df305e"
+        ],
+        "latest_source_run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+        "latest_source_summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+        "latest_source_manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json",
+        "runs": [
+          {
+            "execution_id": "execution-71a0490222f8433e9b3081eecc817d3a",
+            "run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a",
+            "summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/manifest/manifest.json",
+            "package_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-71a0490222f8433e9b3081eecc817d3a/package/transfer_package.json",
+            "summary_generated_at": "2026-04-03T14:06:26Z",
+            "manifest_generated_at": "2026-04-03T14:06:26Z",
+            "mode": "release",
+            "artifact_family": "witness_artifact",
+            "canonical_witness_id": "witness-d3f306de2f5743b597be9efef8c819f9",
+            "package_id": null,
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_transferred": false,
+            "package_valid": null,
+            "canonical_body_schema_valid": true,
+            "package_ingress_lawful_if_received": true,
+            "package_attempted_unlawful_standing_transfer": false,
+            "technical_receipt_not_equal_lawful_ingress": null,
+            "expected_ingress_outcome": "lawful_derivative_ingress",
+            "expected_clean_ingress_outcome": null,
+            "expected_contaminated_ingress_outcome": null,
+            "expected_ingress_under_admissible_receiver_local_condition": null,
+            "expected_ingress_under_contaminated_receiver_local_condition": null,
+            "receiver_local_condition_ref": null,
+            "total_cases": null,
+            "counts_by_outcome_type": null,
+            "counts_by_receipt_status": null,
+            "mismatched_case_ids": null,
+            "partial_read_notes": []
+          },
+          {
+            "execution_id": "execution-f72b3f6777fc47368c18567fa4df305e",
+            "run_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e",
+            "summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json",
+            "package_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/package/transfer_package.json",
+            "summary_generated_at": "2026-04-03T15:37:24Z",
+            "manifest_generated_at": "2026-04-03T15:37:24Z",
+            "mode": "release_invalid",
+            "artifact_family": "witness_artifact",
+            "canonical_witness_id": "witness-6b08e6cd38cd4d0792c1890a653c5cb4",
+            "package_id": null,
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_transferred": false,
+            "package_valid": null,
+            "canonical_body_schema_valid": true,
+            "package_ingress_lawful_if_received": false,
+            "package_attempted_unlawful_standing_transfer": true,
+            "technical_receipt_not_equal_lawful_ingress": null,
+            "expected_ingress_outcome": "refusal_non_passage",
+            "expected_clean_ingress_outcome": null,
+            "expected_contaminated_ingress_outcome": null,
+            "expected_ingress_under_admissible_receiver_local_condition": null,
+            "expected_ingress_under_contaminated_receiver_local_condition": null,
+            "receiver_local_condition_ref": null,
+            "total_cases": null,
+            "counts_by_outcome_type": null,
+            "counts_by_receipt_status": null,
+            "mismatched_case_ids": null,
+            "partial_read_notes": []
+          }
+        ],
+        "partial_read_notes": []
+      },
+      "receiving_side_imported_lineage": {
+        "receiving_imports_root_path": "lab/cross_carrier_seam_proof_001/receiving_imports",
+        "receiving_imports_root_exists": true,
+        "import_note": {
+          "path": "lab/cross_carrier_seam_proof_001/receiving_imports/IMPORT_NOTE.md",
+          "exists": true,
+          "heading": "# IAMMAI Cross-Carrier Seam Proof 001 Receiving Import Note",
+          "read_error": null,
+          "states_receiving_side_import": true,
+          "states_relation_without_merger": true
+        },
+        "imported_branch_names": [
+          "lawful",
+          "refusal_non_passage"
+        ],
+        "imported_branch_count": 2,
+        "imported_run_count": 2,
+        "branches": {
+          "lawful": {
+            "branch_name": "lawful",
+            "branch_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144"
+            ],
+            "execution_ids": [
+              "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/summary/summary.json",
+            "latest_ingress_outcome": "lawful_derivative_ingress",
+            "runs": [
+              {
+                "branch_name": "lawful",
+                "execution_id": "execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+                "run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144",
+                "summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/package/package_receipt.json",
+                "condition_context_path": null,
+                "ingress_record_path": "lab/cross_carrier_seam_proof_001/receiving_imports/lawful/execution-a57cdf2c25ce4cf9bcd96a4bc17b2144/ingress/ingress_record.json",
+                "refusal_record_path": null,
+                "summary_generated_at": "2026-04-03T15:34:45Z",
+                "manifest_generated_at": "2026-04-03T15:34:45Z",
+                "mode": "ingress",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-4eca87b14bfa41e09d73c8e133e2c68b",
+                "ingress_outcome": "lawful_derivative_ingress",
+                "ingress_lawful": true,
+                "arrival_status": "derivative_only",
+                "technical_receipt": null,
+                "package_valid": null,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": false,
+                "non_passage": false,
+                "source_fault": null,
+                "blocking_condition": null,
+                "parser_mode": null,
+                "parser_contaminated": null,
+                "receiver_local_condition_status": null,
+                "receiver_local_governance_admissible": null,
+                "condition_artifact_id": null,
+                "package_attempted_unlawful_standing_transfer": false,
+                "same_valid_package_may_diverge_by_receiver_local_condition": null,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          },
+          "refusal_non_passage": {
+            "branch_name": "refusal_non_passage",
+            "branch_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d"
+            ],
+            "execution_ids": [
+              "execution-c1a76f07c4fb4b70aebb3c40831c775d"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/summary/summary.json",
+            "latest_ingress_outcome": "refusal_non_passage",
+            "runs": [
+              {
+                "branch_name": "refusal_non_passage",
+                "execution_id": "execution-c1a76f07c4fb4b70aebb3c40831c775d",
+                "run_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d",
+                "summary_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/package/package_receipt.json",
+                "condition_context_path": null,
+                "ingress_record_path": null,
+                "refusal_record_path": "lab/cross_carrier_seam_proof_001/receiving_imports/refusal_non_passage/execution-c1a76f07c4fb4b70aebb3c40831c775d/refusal/refusal_record.json",
+                "summary_generated_at": "2026-04-03T15:43:18Z",
+                "manifest_generated_at": "2026-04-03T15:43:18Z",
+                "mode": "ingress",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-8c4999e12bc8451f9cc13fdca3312707",
+                "ingress_outcome": "refusal_non_passage",
+                "ingress_lawful": false,
+                "arrival_status": "none",
+                "technical_receipt": null,
+                "package_valid": null,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": true,
+                "non_passage": true,
+                "source_fault": null,
+                "blocking_condition": null,
+                "parser_mode": null,
+                "parser_contaminated": null,
+                "receiver_local_condition_status": null,
+                "receiver_local_governance_admissible": null,
+                "condition_artifact_id": null,
+                "package_attempted_unlawful_standing_transfer": true,
+                "same_valid_package_may_diverge_by_receiver_local_condition": null,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          }
+        },
+        "partial_read_notes": []
+      },
+      "receiving_runs_root_path": "lab/cross_carrier_seam_proof_001/receiving_runs",
+      "receiving_runs_root_exists": false,
+      "receiver_local_condition_path": "lab/cross_carrier_seam_proof_001/receiver_local_condition.json",
+      "receiver_local_condition_exists": false,
+      "latest_source_summary_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/summary/summary.json",
+      "latest_source_manifest_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/manifest/manifest.json",
+      "latest_source_package_path": "lab/cross_carrier_seam_proof_001/source_runs/execution-f72b3f6777fc47368c18567fa4df305e/package/transfer_package.json",
+      "proof_concern_flags": {
+        "addresses_source_validity_invalidity_and_lawful_ingress_vs_refusal": true,
+        "addresses_contaminated_receiving_parser_governance_case": false,
+        "addresses_receiver_local_embodied_contamination_case": false
+      },
+      "proof_specific_readability_surfaces": {
+        "snapshot_builder_path": "lab/build_cross_carrier_proof_snapshot.py",
+        "snapshot_builder_exists": true,
+        "report_builder_path": "lab/build_cross_carrier_proof_report.py",
+        "report_builder_exists": true,
+        "latest_snapshot": {
+          "kind": "snapshot",
+          "path": "lab/snapshots/cross_carrier_seam_proof_001_snapshot__20260403T165931Z.json",
+          "exists": true,
+          "read_error": null,
+          "generated_at": "2026-04-03T16:59:31Z",
+          "internalized_archive_status": true
+        },
+        "latest_report": {
+          "kind": "report",
+          "path": "lab/snapshots/cross_carrier_seam_proof_001_report__20260403T165931Z.md",
+          "exists": true,
+          "read_error": null,
+          "heading": "# Cross-Carrier Seam Proof 001 Report"
+        }
+      },
+      "summary_reading": {
+        "source_summary_total_cases": null,
+        "source_mode_counts": {
+          "release": 1,
+          "release_invalid": 1
+        },
+        "source_expected_outcome_counts": {
+          "expected_ingress_outcome": {
+            "lawful_derivative_ingress": 1,
+            "refusal_non_passage": 1
+          },
+          "expected_clean_ingress_outcome": {},
+          "expected_contaminated_ingress_outcome": {},
+          "expected_ingress_under_admissible_receiver_local_condition": {},
+          "expected_ingress_under_contaminated_receiver_local_condition": {}
+        },
+        "source_package_valid_counts": {},
+        "source_package_ingress_lawful_if_received_counts": {
+          "true": 1,
+          "false": 1
+        },
+        "source_unlawful_standing_transfer_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "source_counts_by_outcome_type": {},
+        "source_counts_by_receipt_status": {},
+        "receiving_summary_total_cases": null,
+        "receiving_mode_counts": {
+          "ingress": 2
+        },
+        "receiving_branch_counts": {
+          "lawful": 1,
+          "refusal_non_passage": 1
+        },
+        "receiving_outcome_counts": {
+          "lawful_derivative_ingress": 1,
+          "refusal_non_passage": 1
+        },
+        "receiving_ingress_lawful_counts": {
+          "true": 1,
+          "false": 1
+        },
+        "receiving_arrival_status_counts": {
+          "derivative_only": 1,
+          "none": 1
+        },
+        "receiving_technical_receipt_counts": {},
+        "receiving_package_valid_counts": {},
+        "receiving_refusal_visible_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_non_passage_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_source_fault_counts": {},
+        "receiving_parser_mode_counts": {},
+        "receiving_parser_contaminated_counts": {},
+        "receiving_receiver_local_condition_status_counts": {},
+        "receiving_blocking_condition_counts": {},
+        "receiving_unlawful_standing_transfer_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_counts_by_outcome_type": {},
+        "receiving_counts_by_receipt_status": {},
+        "mismatched_case_support_visible": true,
+        "mismatched_case_ids": [],
+        "mismatched_cases_present": false
+      },
+      "partial_read_notes": []
+    },
+    {
+      "proof_id": "cross_carrier_seam_proof_002",
+      "proof_root_path": "lab/cross_carrier_seam_proof_002",
+      "proof_root_exists": true,
+      "script_path": "lab/run_cross_carrier_seam_proof_002.py",
+      "script_exists": true,
+      "script_headline": "Second bounded executable cross-carrier seam proof.",
+      "purpose_note": "Bounded contaminated receiving parser or governance case in which a valid package may be technically received while lawful ingress is denied.",
+      "internalized_archive_status": true,
+      "source_side_release_lineage": {
+        "source_runs_root_path": "lab/cross_carrier_seam_proof_002/source_runs",
+        "source_runs_root_exists": true,
+        "source_run_count": 1,
+        "source_run_paths": [
+          "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd"
+        ],
+        "source_execution_ids": [
+          "execution-6887b6d9bcb043bf9f7111ab1aa23afd"
+        ],
+        "latest_source_run_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+        "latest_source_summary_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/summary/summary.json",
+        "latest_source_manifest_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/manifest/manifest.json",
+        "runs": [
+          {
+            "execution_id": "execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+            "run_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd",
+            "summary_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/manifest/manifest.json",
+            "package_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/package/transfer_package.json",
+            "summary_generated_at": "2026-04-03T18:49:21Z",
+            "manifest_generated_at": "2026-04-03T18:49:21Z",
+            "mode": "release",
+            "artifact_family": "witness_artifact",
+            "canonical_witness_id": "witness-64c99575691e430aa81ed62b64c90576",
+            "package_id": null,
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_transferred": false,
+            "package_valid": true,
+            "canonical_body_schema_valid": true,
+            "package_ingress_lawful_if_received": null,
+            "package_attempted_unlawful_standing_transfer": null,
+            "technical_receipt_not_equal_lawful_ingress": true,
+            "expected_ingress_outcome": null,
+            "expected_clean_ingress_outcome": "lawful_derivative_ingress",
+            "expected_contaminated_ingress_outcome": "contaminated_parser_non_passage",
+            "expected_ingress_under_admissible_receiver_local_condition": null,
+            "expected_ingress_under_contaminated_receiver_local_condition": null,
+            "receiver_local_condition_ref": null,
+            "total_cases": null,
+            "counts_by_outcome_type": null,
+            "counts_by_receipt_status": null,
+            "mismatched_case_ids": null,
+            "partial_read_notes": []
+          }
+        ],
+        "partial_read_notes": []
+      },
+      "receiving_side_imported_lineage": {
+        "receiving_imports_root_path": "lab/cross_carrier_seam_proof_002/receiving_imports",
+        "receiving_imports_root_exists": true,
+        "import_note": {
+          "path": "lab/cross_carrier_seam_proof_002/receiving_imports/IMPORT_NOTE.md",
+          "exists": true,
+          "heading": "# Cross-Carrier Seam Proof 002 Receiving Import Note",
+          "read_error": null,
+          "states_receiving_side_import": true,
+          "states_relation_without_merger": true
+        },
+        "imported_branch_names": [
+          "clean",
+          "contaminated_non_passage"
+        ],
+        "imported_branch_count": 2,
+        "imported_run_count": 2,
+        "branches": {
+          "clean": {
+            "branch_name": "clean",
+            "branch_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1"
+            ],
+            "execution_ids": [
+              "execution-13de737f57f9406584093fbe1557c7d1"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/summary/summary.json",
+            "latest_ingress_outcome": "lawful_derivative_ingress",
+            "runs": [
+              {
+                "branch_name": "clean",
+                "execution_id": "execution-13de737f57f9406584093fbe1557c7d1",
+                "run_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1",
+                "summary_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/package/package_receipt.json",
+                "condition_context_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/package/receiving_parser_governance_context.json",
+                "ingress_record_path": "lab/cross_carrier_seam_proof_002/receiving_imports/clean/execution-13de737f57f9406584093fbe1557c7d1/ingress/ingress_record.json",
+                "refusal_record_path": null,
+                "summary_generated_at": "2026-04-03T18:59:06Z",
+                "manifest_generated_at": "2026-04-03T18:59:06Z",
+                "mode": "ingress_clean",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-130974203a9a468c9f855bb35b3c9c7b",
+                "ingress_outcome": "lawful_derivative_ingress",
+                "ingress_lawful": true,
+                "arrival_status": "derivative_only",
+                "technical_receipt": true,
+                "package_valid": true,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": false,
+                "non_passage": false,
+                "source_fault": false,
+                "blocking_condition": null,
+                "parser_mode": "clean",
+                "parser_contaminated": false,
+                "receiver_local_condition_status": null,
+                "receiver_local_governance_admissible": null,
+                "condition_artifact_id": null,
+                "package_attempted_unlawful_standing_transfer": null,
+                "same_valid_package_may_diverge_by_receiver_local_condition": null,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          },
+          "contaminated_non_passage": {
+            "branch_name": "contaminated_non_passage",
+            "branch_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752"
+            ],
+            "execution_ids": [
+              "execution-b67a0b5b6fc54a31ac2bbfcf119be752"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/summary/summary.json",
+            "latest_ingress_outcome": "contaminated_parser_non_passage",
+            "runs": [
+              {
+                "branch_name": "contaminated_non_passage",
+                "execution_id": "execution-b67a0b5b6fc54a31ac2bbfcf119be752",
+                "run_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752",
+                "summary_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/package/package_receipt.json",
+                "condition_context_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/package/receiving_parser_governance_context.json",
+                "ingress_record_path": null,
+                "refusal_record_path": "lab/cross_carrier_seam_proof_002/receiving_imports/contaminated_non_passage/execution-b67a0b5b6fc54a31ac2bbfcf119be752/refusal/refusal_record.json",
+                "summary_generated_at": "2026-04-03T19:00:39Z",
+                "manifest_generated_at": "2026-04-03T19:00:39Z",
+                "mode": "ingress_contaminated",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-130974203a9a468c9f855bb35b3c9c7b",
+                "ingress_outcome": "contaminated_parser_non_passage",
+                "ingress_lawful": false,
+                "arrival_status": "none",
+                "technical_receipt": true,
+                "package_valid": true,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": true,
+                "non_passage": true,
+                "source_fault": false,
+                "blocking_condition": "receiving_parser_governance_contamination",
+                "parser_mode": "contaminated",
+                "parser_contaminated": true,
+                "receiver_local_condition_status": null,
+                "receiver_local_governance_admissible": null,
+                "condition_artifact_id": null,
+                "package_attempted_unlawful_standing_transfer": null,
+                "same_valid_package_may_diverge_by_receiver_local_condition": null,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          }
+        },
+        "partial_read_notes": []
+      },
+      "receiving_runs_root_path": "lab/cross_carrier_seam_proof_002/receiving_runs",
+      "receiving_runs_root_exists": false,
+      "receiver_local_condition_path": "lab/cross_carrier_seam_proof_002/receiver_local_condition.json",
+      "receiver_local_condition_exists": false,
+      "latest_source_summary_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/summary/summary.json",
+      "latest_source_manifest_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/manifest/manifest.json",
+      "latest_source_package_path": "lab/cross_carrier_seam_proof_002/source_runs/execution-6887b6d9bcb043bf9f7111ab1aa23afd/package/transfer_package.json",
+      "proof_concern_flags": {
+        "addresses_source_validity_invalidity_and_lawful_ingress_vs_refusal": false,
+        "addresses_contaminated_receiving_parser_governance_case": true,
+        "addresses_receiver_local_embodied_contamination_case": false
+      },
+      "proof_specific_readability_surfaces": {
+        "snapshot_builder_path": null,
+        "snapshot_builder_exists": false,
+        "report_builder_path": null,
+        "report_builder_exists": false,
+        "latest_snapshot": {
+          "kind": "snapshot",
+          "path": null,
+          "exists": false
+        },
+        "latest_report": {
+          "kind": "report",
+          "path": null,
+          "exists": false
+        }
+      },
+      "summary_reading": {
+        "source_summary_total_cases": null,
+        "source_mode_counts": {
+          "release": 1
+        },
+        "source_expected_outcome_counts": {
+          "expected_ingress_outcome": {},
+          "expected_clean_ingress_outcome": {
+            "lawful_derivative_ingress": 1
+          },
+          "expected_contaminated_ingress_outcome": {
+            "contaminated_parser_non_passage": 1
+          },
+          "expected_ingress_under_admissible_receiver_local_condition": {},
+          "expected_ingress_under_contaminated_receiver_local_condition": {}
+        },
+        "source_package_valid_counts": {
+          "true": 1
+        },
+        "source_package_ingress_lawful_if_received_counts": {},
+        "source_unlawful_standing_transfer_counts": {},
+        "source_counts_by_outcome_type": {},
+        "source_counts_by_receipt_status": {},
+        "receiving_summary_total_cases": null,
+        "receiving_mode_counts": {
+          "ingress_clean": 1,
+          "ingress_contaminated": 1
+        },
+        "receiving_branch_counts": {
+          "clean": 1,
+          "contaminated_non_passage": 1
+        },
+        "receiving_outcome_counts": {
+          "lawful_derivative_ingress": 1,
+          "contaminated_parser_non_passage": 1
+        },
+        "receiving_ingress_lawful_counts": {
+          "true": 1,
+          "false": 1
+        },
+        "receiving_arrival_status_counts": {
+          "derivative_only": 1,
+          "none": 1
+        },
+        "receiving_technical_receipt_counts": {
+          "true": 2
+        },
+        "receiving_package_valid_counts": {
+          "true": 2
+        },
+        "receiving_refusal_visible_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_non_passage_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_source_fault_counts": {
+          "false": 2
+        },
+        "receiving_parser_mode_counts": {
+          "clean": 1,
+          "contaminated": 1
+        },
+        "receiving_parser_contaminated_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_receiver_local_condition_status_counts": {},
+        "receiving_blocking_condition_counts": {
+          "receiving_parser_governance_contamination": 1
+        },
+        "receiving_unlawful_standing_transfer_counts": {},
+        "receiving_counts_by_outcome_type": {},
+        "receiving_counts_by_receipt_status": {},
+        "mismatched_case_support_visible": true,
+        "mismatched_case_ids": [],
+        "mismatched_cases_present": false
+      },
+      "partial_read_notes": []
+    },
+    {
+      "proof_id": "cross_carrier_seam_proof_003",
+      "proof_root_path": "lab/cross_carrier_seam_proof_003",
+      "proof_root_exists": true,
+      "script_path": "lab/run_cross_carrier_seam_proof_003.py",
+      "script_exists": true,
+      "script_headline": "Third bounded executable cross-carrier seam proof.",
+      "purpose_note": "Bounded receiver-local embodied contamination case in which the same valid package diverges by receiving-side local condition.",
+      "internalized_archive_status": true,
+      "source_side_release_lineage": {
+        "source_runs_root_path": "lab/cross_carrier_seam_proof_003/source_runs",
+        "source_runs_root_exists": true,
+        "source_run_count": 1,
+        "source_run_paths": [
+          "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59"
+        ],
+        "source_execution_ids": [
+          "execution-bf52e3aefeb1433cbf69f11598f1dd59"
+        ],
+        "latest_source_run_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59",
+        "latest_source_summary_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/summary/summary.json",
+        "latest_source_manifest_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/manifest/manifest.json",
+        "runs": [
+          {
+            "execution_id": "execution-bf52e3aefeb1433cbf69f11598f1dd59",
+            "run_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59",
+            "summary_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/summary/summary.json",
+            "manifest_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/manifest/manifest.json",
+            "package_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/package/transfer_package.json",
+            "summary_generated_at": "2026-04-03T19:54:15Z",
+            "manifest_generated_at": "2026-04-03T19:54:15Z",
+            "mode": "release",
+            "artifact_family": "witness_artifact",
+            "canonical_witness_id": "witness-fb0af49008764f0f96d6df6b01a0e341",
+            "package_id": null,
+            "source_remains_source": true,
+            "shared_authority": false,
+            "standing_transferred": false,
+            "package_valid": true,
+            "canonical_body_schema_valid": true,
+            "package_ingress_lawful_if_received": null,
+            "package_attempted_unlawful_standing_transfer": null,
+            "technical_receipt_not_equal_lawful_ingress": true,
+            "expected_ingress_outcome": null,
+            "expected_clean_ingress_outcome": null,
+            "expected_contaminated_ingress_outcome": null,
+            "expected_ingress_under_admissible_receiver_local_condition": "lawful_derivative_ingress",
+            "expected_ingress_under_contaminated_receiver_local_condition": "receiver_local_contamination_non_passage",
+            "receiver_local_condition_ref": "lab/cross_carrier_seam_proof_003/receiver_local_condition.json",
+            "total_cases": null,
+            "counts_by_outcome_type": null,
+            "counts_by_receipt_status": null,
+            "mismatched_case_ids": null,
+            "partial_read_notes": []
+          }
+        ],
+        "partial_read_notes": []
+      },
+      "receiving_side_imported_lineage": {
+        "receiving_imports_root_path": "lab/cross_carrier_seam_proof_003/receiving_imports",
+        "receiving_imports_root_exists": true,
+        "import_note": {
+          "path": "lab/cross_carrier_seam_proof_003/receiving_imports/IMPORT_NOTE.md",
+          "exists": true,
+          "heading": "# Cross-Carrier Seam Proof 003 Receiving Import Note",
+          "read_error": null,
+          "states_receiving_side_import": true,
+          "states_relation_without_merger": true
+        },
+        "imported_branch_names": [
+          "clean",
+          "contaminated_non_passage"
+        ],
+        "imported_branch_count": 2,
+        "imported_run_count": 2,
+        "branches": {
+          "clean": {
+            "branch_name": "clean",
+            "branch_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c"
+            ],
+            "execution_ids": [
+              "execution-ed200b44ab054962af8ed194fdd5361c"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/summary/summary.json",
+            "latest_ingress_outcome": "lawful_derivative_ingress",
+            "runs": [
+              {
+                "branch_name": "clean",
+                "execution_id": "execution-ed200b44ab054962af8ed194fdd5361c",
+                "run_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c",
+                "summary_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/package/package_receipt.json",
+                "condition_context_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/package/receiver_local_condition_snapshot.json",
+                "ingress_record_path": "lab/cross_carrier_seam_proof_003/receiving_imports/clean/execution-ed200b44ab054962af8ed194fdd5361c/ingress/ingress_record.json",
+                "refusal_record_path": null,
+                "summary_generated_at": "2026-04-03T20:00:37Z",
+                "manifest_generated_at": "2026-04-03T20:00:37Z",
+                "mode": "ingress",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-02af9dff5a6a44518c823d2957976490",
+                "ingress_outcome": "lawful_derivative_ingress",
+                "ingress_lawful": true,
+                "arrival_status": "derivative_only",
+                "technical_receipt": true,
+                "package_valid": true,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": false,
+                "non_passage": false,
+                "source_fault": false,
+                "blocking_condition": null,
+                "parser_mode": null,
+                "parser_contaminated": false,
+                "receiver_local_condition_status": "admissible",
+                "receiver_local_governance_admissible": true,
+                "condition_artifact_id": "receiver-local-condition-859436d736ec47e7b56b1bcab2d3df04",
+                "package_attempted_unlawful_standing_transfer": null,
+                "same_valid_package_may_diverge_by_receiver_local_condition": true,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          },
+          "contaminated_non_passage": {
+            "branch_name": "contaminated_non_passage",
+            "branch_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage",
+            "branch_exists": true,
+            "run_count": 1,
+            "run_paths": [
+              "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26"
+            ],
+            "execution_ids": [
+              "execution-dcbec996f0bd43fbad21649ccce30c26"
+            ],
+            "latest_run_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26",
+            "latest_summary_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/summary/summary.json",
+            "latest_ingress_outcome": "receiver_local_contamination_non_passage",
+            "runs": [
+              {
+                "branch_name": "contaminated_non_passage",
+                "execution_id": "execution-dcbec996f0bd43fbad21649ccce30c26",
+                "run_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26",
+                "summary_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/summary/summary.json",
+                "manifest_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/manifest/manifest.json",
+                "package_receipt_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/package/package_receipt.json",
+                "condition_context_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/package/receiver_local_condition_snapshot.json",
+                "ingress_record_path": null,
+                "refusal_record_path": "lab/cross_carrier_seam_proof_003/receiving_imports/contaminated_non_passage/execution-dcbec996f0bd43fbad21649ccce30c26/refusal/refusal_record.json",
+                "summary_generated_at": "2026-04-03T20:01:08Z",
+                "manifest_generated_at": "2026-04-03T20:01:08Z",
+                "mode": "ingress",
+                "artifact_family": "witness_artifact",
+                "package_id": "transfer-package-02af9dff5a6a44518c823d2957976490",
+                "ingress_outcome": "receiver_local_contamination_non_passage",
+                "ingress_lawful": false,
+                "arrival_status": "none",
+                "technical_receipt": true,
+                "package_valid": true,
+                "source_remains_source": true,
+                "shared_authority": false,
+                "standing_upgraded": false,
+                "refusal_visible": true,
+                "non_passage": true,
+                "source_fault": false,
+                "blocking_condition": "receiver_local_parser_governance_contamination",
+                "parser_mode": null,
+                "parser_contaminated": true,
+                "receiver_local_condition_status": "contaminated",
+                "receiver_local_governance_admissible": false,
+                "condition_artifact_id": "receiver-local-condition-6f2d72b5d9984e7bb1f9e4f21e5fc133",
+                "package_attempted_unlawful_standing_transfer": null,
+                "same_valid_package_may_diverge_by_receiver_local_condition": true,
+                "total_cases": null,
+                "counts_by_outcome_type": null,
+                "counts_by_receipt_status": null,
+                "mismatched_case_ids": null,
+                "partial_read_notes": []
+              }
+            ],
+            "partial_read_notes": []
+          }
+        },
+        "partial_read_notes": []
+      },
+      "receiving_runs_root_path": "lab/cross_carrier_seam_proof_003/receiving_runs",
+      "receiving_runs_root_exists": false,
+      "receiver_local_condition_path": "lab/cross_carrier_seam_proof_003/receiver_local_condition.json",
+      "receiver_local_condition_exists": true,
+      "latest_source_summary_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/summary/summary.json",
+      "latest_source_manifest_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/manifest/manifest.json",
+      "latest_source_package_path": "lab/cross_carrier_seam_proof_003/source_runs/execution-bf52e3aefeb1433cbf69f11598f1dd59/package/transfer_package.json",
+      "proof_concern_flags": {
+        "addresses_source_validity_invalidity_and_lawful_ingress_vs_refusal": false,
+        "addresses_contaminated_receiving_parser_governance_case": false,
+        "addresses_receiver_local_embodied_contamination_case": false
+      },
+      "proof_specific_readability_surfaces": {
+        "snapshot_builder_path": "lab/build_cross_carrier_proof_003_snapshot.py",
+        "snapshot_builder_exists": true,
+        "report_builder_path": "lab/build_cross_carrier_proof_003_report.py",
+        "report_builder_exists": true,
+        "latest_snapshot": {
+          "kind": "snapshot",
+          "path": "lab/snapshots/cross_carrier_seam_proof_003_snapshot__20260403T211327Z.json",
+          "exists": true,
+          "read_error": null,
+          "generated_at": "2026-04-03T21:13:27Z",
+          "internalized_archive_status": true
+        },
+        "latest_report": {
+          "kind": "report",
+          "path": "lab/snapshots/cross_carrier_seam_proof_003_report__20260403T211327Z.md",
+          "exists": true,
+          "read_error": null,
+          "heading": "# Cross-Carrier Seam Proof 003 Report"
+        }
+      },
+      "summary_reading": {
+        "source_summary_total_cases": null,
+        "source_mode_counts": {
+          "release": 1
+        },
+        "source_expected_outcome_counts": {
+          "expected_ingress_outcome": {},
+          "expected_clean_ingress_outcome": {},
+          "expected_contaminated_ingress_outcome": {},
+          "expected_ingress_under_admissible_receiver_local_condition": {
+            "lawful_derivative_ingress": 1
+          },
+          "expected_ingress_under_contaminated_receiver_local_condition": {
+            "receiver_local_contamination_non_passage": 1
+          }
+        },
+        "source_package_valid_counts": {
+          "true": 1
+        },
+        "source_package_ingress_lawful_if_received_counts": {},
+        "source_unlawful_standing_transfer_counts": {},
+        "source_counts_by_outcome_type": {},
+        "source_counts_by_receipt_status": {},
+        "receiving_summary_total_cases": null,
+        "receiving_mode_counts": {
+          "ingress": 2
+        },
+        "receiving_branch_counts": {
+          "clean": 1,
+          "contaminated_non_passage": 1
+        },
+        "receiving_outcome_counts": {
+          "lawful_derivative_ingress": 1,
+          "receiver_local_contamination_non_passage": 1
+        },
+        "receiving_ingress_lawful_counts": {
+          "true": 1,
+          "false": 1
+        },
+        "receiving_arrival_status_counts": {
+          "derivative_only": 1,
+          "none": 1
+        },
+        "receiving_technical_receipt_counts": {
+          "true": 2
+        },
+        "receiving_package_valid_counts": {
+          "true": 2
+        },
+        "receiving_refusal_visible_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_non_passage_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_source_fault_counts": {
+          "false": 2
+        },
+        "receiving_parser_mode_counts": {},
+        "receiving_parser_contaminated_counts": {
+          "false": 1,
+          "true": 1
+        },
+        "receiving_receiver_local_condition_status_counts": {
+          "admissible": 1,
+          "contaminated": 1
+        },
+        "receiving_blocking_condition_counts": {
+          "receiver_local_parser_governance_contamination": 1
+        },
+        "receiving_unlawful_standing_transfer_counts": {},
+        "receiving_counts_by_outcome_type": {},
+        "receiving_counts_by_receipt_status": {},
+        "mismatched_case_support_visible": true,
+        "mismatched_case_ids": [],
+        "mismatched_cases_present": false
+      },
+      "partial_read_notes": []
+    }
+  ],
+  "family_level_notes": {
+    "proof_differentiation": [
+      {
+        "proof_id": "cross_carrier_seam_proof_001",
+        "purpose_note": "Bounded first cross-carrier seam proof for source validity or invalidity and lawful ingress versus visible refusal or non-passage."
+      },
+      {
+        "proof_id": "cross_carrier_seam_proof_002",
+        "purpose_note": "Bounded contaminated receiving parser or governance case in which a valid package may be technically received while lawful ingress is denied."
+      },
+      {
+        "proof_id": "cross_carrier_seam_proof_003",
+        "purpose_note": "Bounded receiver-local embodied contamination case in which the same valid package diverges by receiving-side local condition."
+      }
+    ],
+    "visible_progression": [
+      "Proof 001 preserves the first bounded cross-carrier seam split between source validity or invalidity and visible receiving-side ingress or refusal.",
+      "Proof 002 preserves the contaminated receiving parser or governance case in which technical receipt can occur while lawful ingress is still denied.",
+      "Proof 003 preserves the receiver-local embodied contamination case in which the same valid package diverges by receiving-side local condition."
+    ],
+    "proof_specific_readability_present_for": [
+      "cross_carrier_seam_proof_001",
+      "cross_carrier_seam_proof_003"
+    ],
+    "partial_material_notes": [],
+    "bounded_reading": "The family remains a set of distinct bounded cross-carrier proof turns rather than one flat transfer story. Proof 001, proof 002, and proof 003 preserve different seam concerns and together form a growing body of cross-carrier seam evidence without implying full relational field, mesh, or middleware."
+  }
+}

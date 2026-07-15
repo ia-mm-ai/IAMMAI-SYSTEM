@@ -1,0 +1,50 @@
+{
+  "experiment_id": "cross_carrier_seam_proof_004",
+  "origin_approval_condition_id": "origin-approval-condition-42c3ed219acb4615b365b41f5434bf8f",
+  "generated_at": "2026-04-04T16:39:26Z",
+  "origin_container_label": "origin-container",
+  "source_side_carrier_label": "source-side-carrier",
+  "origin_condition_kind": "origin_approval_condition",
+  "emergence_beyond_origin_container_already_occurred": true,
+  "source_remains_source": true,
+  "origin_remains_lineage_visible": true,
+  "origin_approval_condition_status": "origin_obsolete_or_contaminated",
+  "origin_approval_available": true,
+  "origin_approval_withheld": true,
+  "origin_approval_required": false,
+  "origin_approval_lawfully_sovereign": false,
+  "release_without_origin_ratification": true,
+  "continued_compliance_would_ratify_distortion": true,
+  "release_lawful": true,
+  "lawful_release_outcome": "lawful_egress_without_origin_ratification",
+  "downstream_full_closure_granted": false,
+  "why_release_remains_lawful": "Origin approval withholding is not a lawful veto here because origin governance has become obsolete or contaminated relative to emergence, and continued compliance would ratify distortion.",
+  "grounding_surfaces": [
+    {
+      "path": "SEAM_SURFACE_INDEX.md",
+      "exists": true,
+      "description": "Cross-rank seam index for recurring lawful seam behavior."
+    },
+    {
+      "path": "SELF_CARRIED_COHERENCE.md",
+      "exists": true,
+      "description": "Prior threshold surface for self-carried enough crossing."
+    },
+    {
+      "path": "SEAM_CASE_LAW__CONTAMINATED_CHANNEL_AND_SUBSIDIZED_DISTORTION.md",
+      "exists": true,
+      "description": "Bounded seam-case law for contaminated channel, constrained refusal, and visible non-passage."
+    },
+    {
+      "path": "SEAM_CASE_LAW__LAWFUL_EGRESS_FROM_OBSOLETE_CONTAINER.md",
+      "exists": true,
+      "description": "Bounded seam-case law for lawful egress from contaminated or obsolete origin approval authority."
+    },
+    {
+      "path": "v1/schemas/witness_artifact.schema.json",
+      "exists": true,
+      "description": "Canonical witness artifact body schema for the bounded source-side body."
+    }
+  ],
+  "note": "Implementation-local origin approval condition artifact only. It keeps source, lineage, obsolete approval, lawful egress, and non-final arrival distinct for this bounded proof."
+}

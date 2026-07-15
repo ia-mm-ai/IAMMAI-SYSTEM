@@ -1,0 +1,123 @@
+{
+  "execution_identity": "execution-6c999f5c0ead421f9b4b115c3805330a",
+  "layer_outcomes": {
+    "body_conformance": {
+      "negative": [
+        {
+          "artifact_family": "validation_artifact",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/negative/invalid_validation_artifact.json",
+          "status": "fail"
+        }
+      ],
+      "positive": [
+        {
+          "artifact_family": "validation_artifact",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/positive/validation_artifact.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "witness_artifact",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/positive/witness_artifact.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "governance_action",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/positive/governance_action.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "transition_record",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/positive/transition_record.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "state_record",
+          "matched_expectation": true,
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/body/positive/state_record.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "envelope_bearing_conformance": {
+      "positive": [
+        {
+          "artifact_family": "validation_artifact",
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/envelope/positive/validation_artifact.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "witness_artifact",
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/envelope/positive/witness_artifact.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "governance_action",
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/envelope/positive/governance_action.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "transition_record",
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/envelope/positive/transition_record.json",
+          "status": "pass"
+        },
+        {
+          "artifact_family": "state_record",
+          "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/envelope/positive/state_record.json",
+          "status": "pass"
+        }
+      ]
+    },
+    "fixture_classification": {
+      "negative": [
+        {
+          "classification_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/fixture_outputs/negative/classification.json",
+          "fixture_class": "conformance_failure"
+        }
+      ]
+    },
+    "preservation_write_outcome": {
+      "result_ref": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance/preservation/run_write_outcome.json",
+      "status": "pass"
+    }
+  },
+  "matter_identity": "matter-18e7dde8ddd0455dae6dc25b29a84908",
+  "preservation_layout": {
+    "execution_identity": "execution-6c999f5c0ead421f9b4b115c3805330a",
+    "execution_run_directory": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a",
+    "layer_roots": {
+      "canonical_body": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/canonical_body",
+      "conformance": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/conformance",
+      "envelope": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/envelope",
+      "execution_relation": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/execution_relation",
+      "fixtures": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/fixture_outputs",
+      "manifest": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/manifest",
+      "source_notes": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/source_notes",
+      "summary": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a/run_summary"
+    },
+    "layout_kind": "ordinary",
+    "naming_posture": "implementation_local_default",
+    "run_directory": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a"
+  },
+  "reading_posture": {
+    "negative_fixture": "read as an expected conformance failure, not as accidental architectural incoherence",
+    "positive_path": "read by body, envelope, and preservation layers"
+  },
+  "run_directory": "v1/registry/runs/execution-6c999f5c0ead421f9b4b115c3805330a",
+  "scope": {
+    "artifact_families": [
+      "validation_artifact",
+      "witness_artifact",
+      "governance_action",
+      "transition_record",
+      "state_record"
+    ],
+    "continuity_emitted": false,
+    "note": "This bounded runner implements the ordinary proof slice only."
+  },
+  "summary_type": "v1_second_proof_slice_summary"
+}
