@@ -1,0 +1,1222 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "evaluation_boundary_permission_to_evaluation_completion",
+    "evaluation_boundary_permission_to_evaluation_result",
+    "candidate_reception_to_candidate_evaluation_completion",
+    "candidate_reception_to_candidate_sufficiency",
+    "candidate_reception_to_candidate_insufficiency",
+    "candidate_reception_to_receiver_attestation",
+    "candidate_reception_to_receiver_answerable_receipt",
+    "candidate_reception_to_presence_support",
+    "dimension_result_to_candidate_sufficiency",
+    "all_dimensions_satisfied_to_candidate_sufficiency",
+    "dimension_result_to_receiver_attestation",
+    "dimension_result_to_receiver_answerable_receipt",
+    "dimension_result_to_presence_support",
+    "evaluator_reference_to_authority",
+    "evaluator_reference_to_identity",
+    "evaluator_reference_to_standing",
+    "evaluator_reference_to_truth",
+    "basis_items_to_established_truth",
+    "basis_references_to_verified_provenance",
+    "candidate_evaluation_to_receiver_attestation",
+    "candidate_evaluation_to_receiver_answerable_receipt",
+    "candidate_evaluation_to_presence_support",
+    "candidate_evaluation_to_presence_authorization",
+    "candidate_evaluation_to_presence_establishment",
+    "candidate_evaluation_to_presence_recording",
+    "candidate_evaluation_to_identity",
+    "candidate_evaluation_to_relation",
+    "candidate_evaluation_to_coupling",
+    "candidate_evaluation_to_field_machinery",
+    "candidate_evaluation_to_runtime",
+    "candidate_evaluation_to_api",
+    "candidate_evaluation_to_public_interface",
+    "candidate_evaluation_to_public_intake",
+    "candidate_evaluation_to_authority",
+    "candidate_evaluation_to_standing",
+    "candidate_evaluation_to_truth_creation",
+    "candidate_evaluation_to_output_authorization",
+    "candidate_evaluation_to_action_authorization",
+    "candidate_evaluation_to_synchronization",
+    "candidate_evaluation_to_follow_on_authorization",
+    "candidate_evaluation_to_follow_on_work",
+    "same_candidate_evaluation_to_silent_rerun",
+    "complete_evaluation_to_later_dimension_extension",
+    "changed_files_to_automatic_re_evaluation",
+    "newly_noticed_evidence_to_automatic_re_evaluation",
+    "selected_candidate_to_retroactive_contaminated_lineage_validation"
+  ],
+  "declared_receiver_side_answerable_basis_candidate_evaluation_operation_basis": {
+    "admissible_future_route": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_THEN_CANDIDATE_SUFFICIENCY_BOUNDARY_ONLY",
+    "complete_dimension_basis_omitted_from_operation_result": true,
+    "dimension_basis_record_count": 0,
+    "evaluation_basis_supplied": false,
+    "evaluation_boundary_terminal_summary_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+    "governing_v2_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_V0_MIN_V2_SPEC.md",
+    "intent": "RECORD_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "operation_scope": "EVALUATE_ONE_RECORDED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ACROSS_EIGHT_SEPARATE_DIMENSIONS_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "operation_version": "0.1.0",
+    "prior_candidate_evaluated_required": false,
+    "prior_candidate_indeterminate_required": false,
+    "prior_candidate_insufficient_required": false,
+    "prior_candidate_sufficient_required": false,
+    "prior_could_have_been_withheld_required": false,
+    "prior_custody_distinct_required": false,
+    "prior_evaluation_boundary_outcome_required": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY_ALLOWED",
+    "prior_evaluation_boundary_recorded_required": true,
+    "prior_evaluation_boundary_result_recorded_required": true,
+    "prior_evaluation_boundary_result_required": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_CONSIDERATION_ALLOWED",
+    "prior_evaluation_boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY",
+    "prior_evaluation_consideration_allowed_required": true,
+    "prior_failed_check_count_required": 0,
+    "prior_follow_on_authorized_required": false,
+    "prior_follow_on_work_authorized_required": false,
+    "prior_presence_authorized_required": false,
+    "prior_presence_established_required": false,
+    "prior_presence_recorded_required": false,
+    "prior_presence_supported_required": false,
+    "prior_receiver_answerable_receipt_present_required": false,
+    "prior_receiver_attestation_created_required": false,
+    "prior_receiver_attestation_supported_required": false,
+    "prior_refusable_required": false,
+    "prior_repeated_evaluation_permission_created_required": false,
+    "prior_reusable_route_created_required": false,
+    "prior_second_candidate_evaluated_required": false,
+    "prior_second_candidate_received_required": false,
+    "prior_selected_candidate_material_referenced_required": true,
+    "prior_selected_candidate_reception_result_referenced_required": true,
+    "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+    "receiver_side_answerable_basis_candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "receiver_side_answerable_basis_candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+    "selected_candidate_evaluation_boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+    "selected_candidate_reception_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json",
+    "selected_candidate_reception_operation_id": "receiver_side_answerable_basis_reception_operation_001",
+    "selected_evaluation_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2/receiver_side_answerable_basis_candidate_evaluation_boundary_001__receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2_result.json"
+  },
+  "failed_check_count": 0,
+  "missing_or_inconsistent_evaluation_basis": [
+    "dimension_basis_record:candidate_structural_correspondence",
+    "dimension_basis_record:declared_provenance_posture",
+    "dimension_basis_record:receiver_authorship_posture",
+    "dimension_basis_record:separate_custody_posture",
+    "dimension_basis_record:refusability_posture",
+    "dimension_basis_record:could_have_been_withheld_posture",
+    "dimension_basis_record:prior_knock_correspondence_posture",
+    "dimension_basis_record:capture_record_posture"
+  ],
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_repaired": false,
+    "all_dimensions_satisfied_to_candidate_sufficiency": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_items_to_established_truth": false,
+    "basis_references_to_verified_provenance": false,
+    "caller_supplied_dimension_result_accepted": false,
+    "candidate_evaluation_to_action_authorization": false,
+    "candidate_evaluation_to_api": false,
+    "candidate_evaluation_to_authority": false,
+    "candidate_evaluation_to_coupling": false,
+    "candidate_evaluation_to_field_machinery": false,
+    "candidate_evaluation_to_follow_on_authorization": false,
+    "candidate_evaluation_to_follow_on_work": false,
+    "candidate_evaluation_to_identity": false,
+    "candidate_evaluation_to_output_authorization": false,
+    "candidate_evaluation_to_presence_authorization": false,
+    "candidate_evaluation_to_presence_establishment": false,
+    "candidate_evaluation_to_presence_recording": false,
+    "candidate_evaluation_to_presence_support": false,
+    "candidate_evaluation_to_public_intake": false,
+    "candidate_evaluation_to_public_interface": false,
+    "candidate_evaluation_to_receiver_answerable_receipt": false,
+    "candidate_evaluation_to_receiver_attestation": false,
+    "candidate_evaluation_to_relation": false,
+    "candidate_evaluation_to_runtime": false,
+    "candidate_evaluation_to_standing": false,
+    "candidate_evaluation_to_synchronization": false,
+    "candidate_evaluation_to_truth_creation": false,
+    "candidate_reception_to_candidate_evaluation_completion": false,
+    "candidate_reception_to_candidate_insufficiency": false,
+    "candidate_reception_to_candidate_sufficiency": false,
+    "candidate_reception_to_presence_support": false,
+    "candidate_reception_to_receiver_answerable_receipt": false,
+    "candidate_reception_to_receiver_attestation": false,
+    "candidate_sufficiency_boundary_created": false,
+    "changed_files_to_automatic_re_evaluation": false,
+    "complete_evaluation_to_later_dimension_extension": false,
+    "continuity_memory_written": false,
+    "coupling_assigned": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "dimension_completion_route_created": false,
+    "dimension_result_to_candidate_sufficiency": false,
+    "dimension_result_to_presence_support": false,
+    "dimension_result_to_receiver_answerable_receipt": false,
+    "dimension_result_to_receiver_attestation": false,
+    "endpoint_created": false,
+    "evaluation_boundary_permission_to_evaluation_completion": false,
+    "evaluation_boundary_permission_to_evaluation_result": false,
+    "evaluator_reference_to_authority": false,
+    "evaluator_reference_to_identity": false,
+    "evaluator_reference_to_standing": false,
+    "evaluator_reference_to_truth": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "listener_created": false,
+    "mailbox_created": false,
+    "newly_noticed_evidence_to_automatic_re_evaluation": false,
+    "output_authorized": false,
+    "partial_dimension_evaluation_recorded": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_re_evaluation_boundary_created": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "public_intake_created": false,
+    "public_interface_created": false,
+    "queue_created": false,
+    "receiver_answerable_receipt_boundary_created": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_boundary_created": false,
+    "receiver_attestation_created": false,
+    "receiver_attestation_supported": false,
+    "receiver_side_answerable_basis_candidate_indeterminate": false,
+    "receiver_side_answerable_basis_candidate_insufficient": false,
+    "receiver_side_answerable_basis_candidate_sufficient": false,
+    "relation_created": false,
+    "repeated_evaluation_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_route_created": false,
+    "runtime_created": false,
+    "same_candidate_evaluation_to_silent_rerun": false,
+    "same_candidate_re_evaluation_authorized": false,
+    "second_candidate_evaluated": false,
+    "second_candidate_received": false,
+    "selected_candidate_to_retroactive_contaminated_lineage_validation": false,
+    "shared_intake_lane_created": false,
+    "standing_created": false,
+    "synchronization_authorized": false,
+    "truth_created": false,
+    "validation_enforced": false
+  },
+  "operation_result_detail": {
+    "all_eight_dimensions_evaluated": false,
+    "candidate_evaluation_operation_exhausted": false,
+    "operation_result": "REQUIRES_EVALUATION_BASIS"
+  },
+  "outcome": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_REQUIRES_EVALUATION_BASIS",
+  "passed_check_count": 144,
+  "permitted_future_route": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_THEN_CANDIDATE_SUFFICIENCY_BOUNDARY_ONLY",
+  "receiver_side_answerable_basis_candidate_evaluation_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_THEN_CANDIDATE_SUFFICIENCY_BOUNDARY_ONLY",
+    "affected_file_repaired": false,
+    "all_dimension_basis_records_admissible": false,
+    "all_dimension_basis_records_bounded": false,
+    "all_dimension_basis_records_non_result_preclaiming": false,
+    "all_dimension_basis_records_present": false,
+    "all_dimension_basis_records_reference_selected_boundary": false,
+    "all_dimension_basis_records_reference_selected_candidate": false,
+    "all_dimensions_satisfied_to_candidate_sufficiency": false,
+    "api_created": false,
+    "authority_created": false,
+    "basis_items_to_established_truth": false,
+    "basis_references_to_verified_provenance": false,
+    "caller_supplied_dimension_result_accepted": false,
+    "candidate_evaluation_operation_exhausted": false,
+    "candidate_evaluation_to_action_authorization": false,
+    "candidate_evaluation_to_api": false,
+    "candidate_evaluation_to_authority": false,
+    "candidate_evaluation_to_coupling": false,
+    "candidate_evaluation_to_field_machinery": false,
+    "candidate_evaluation_to_follow_on_authorization": false,
+    "candidate_evaluation_to_follow_on_work": false,
+    "candidate_evaluation_to_identity": false,
+    "candidate_evaluation_to_output_authorization": false,
+    "candidate_evaluation_to_presence_authorization": false,
+    "candidate_evaluation_to_presence_establishment": false,
+    "candidate_evaluation_to_presence_recording": false,
+    "candidate_evaluation_to_presence_support": false,
+    "candidate_evaluation_to_public_intake": false,
+    "candidate_evaluation_to_public_interface": false,
+    "candidate_evaluation_to_receiver_answerable_receipt": false,
+    "candidate_evaluation_to_receiver_attestation": false,
+    "candidate_evaluation_to_relation": false,
+    "candidate_evaluation_to_runtime": false,
+    "candidate_evaluation_to_standing": false,
+    "candidate_evaluation_to_synchronization": false,
+    "candidate_evaluation_to_truth_creation": false,
+    "candidate_reception_to_candidate_evaluation_completion": false,
+    "candidate_reception_to_candidate_insufficiency": false,
+    "candidate_reception_to_candidate_sufficiency": false,
+    "candidate_reception_to_presence_support": false,
+    "candidate_reception_to_receiver_answerable_receipt": false,
+    "candidate_reception_to_receiver_attestation": false,
+    "candidate_sufficiency_boundary_created": false,
+    "changed_files_to_automatic_re_evaluation": false,
+    "complete_evaluation_to_later_dimension_extension": false,
+    "continuity_memory_written": false,
+    "coupling_assigned": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "dimension_completion_route_created": false,
+    "dimension_result_to_candidate_sufficiency": false,
+    "dimension_result_to_presence_support": false,
+    "dimension_result_to_receiver_answerable_receipt": false,
+    "dimension_result_to_receiver_attestation": false,
+    "endpoint_created": false,
+    "evaluation_basis_complete": false,
+    "evaluation_basis_supplied": false,
+    "evaluation_boundary_permission_to_evaluation_completion": false,
+    "evaluation_boundary_permission_to_evaluation_result": false,
+    "evaluator_reference_to_authority": false,
+    "evaluator_reference_to_identity": false,
+    "evaluator_reference_to_standing": false,
+    "evaluator_reference_to_truth": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "listener_created": false,
+    "mailbox_created": false,
+    "newly_noticed_evidence_to_automatic_re_evaluation": false,
+    "operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "operation_scope": "EVALUATE_ONE_RECORDED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ACROSS_EIGHT_SEPARATE_DIMENSIONS_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "operation_version": "0.1.0",
+    "output_authorized": false,
+    "partial_dimension_evaluation_recorded": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_re_evaluation_boundary_created": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "public_intake_created": false,
+    "public_interface_created": false,
+    "queue_created": false,
+    "receiver_answerable_receipt_boundary_created": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_boundary_created": false,
+    "receiver_attestation_created": false,
+    "receiver_attestation_supported": false,
+    "receiver_side_answerable_basis_candidate_all_dimensions_satisfied": false,
+    "receiver_side_answerable_basis_candidate_any_dimension_indeterminate": false,
+    "receiver_side_answerable_basis_candidate_any_dimension_not_satisfied": false,
+    "receiver_side_answerable_basis_candidate_evaluated": false,
+    "receiver_side_answerable_basis_candidate_evaluation_operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "receiver_side_answerable_basis_candidate_evaluation_operation_recorded": true,
+    "receiver_side_answerable_basis_candidate_evaluation_operation_result": "REQUIRES_EVALUATION_BASIS",
+    "receiver_side_answerable_basis_candidate_evaluation_operation_result_recorded": true,
+    "receiver_side_answerable_basis_candidate_evaluation_operation_scope": "EVALUATE_ONE_RECORDED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ACROSS_EIGHT_SEPARATE_DIMENSIONS_ONLY",
+    "receiver_side_answerable_basis_candidate_evaluation_operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "receiver_side_answerable_basis_candidate_evaluation_operation_version": "0.1.0",
+    "receiver_side_answerable_basis_candidate_indeterminate": false,
+    "receiver_side_answerable_basis_candidate_insufficient": false,
+    "receiver_side_answerable_basis_candidate_sufficient": false,
+    "relation_created": false,
+    "repeated_evaluation_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_route_created": false,
+    "runtime_created": false,
+    "same_candidate_evaluation_to_silent_rerun": false,
+    "same_candidate_re_evaluation_authorized": false,
+    "second_candidate_evaluated": false,
+    "second_candidate_received": false,
+    "selected_candidate_to_retroactive_contaminated_lineage_validation": false,
+    "shared_intake_lane_created": false,
+    "standing_created": false,
+    "synchronization_authorized": false,
+    "truth_created": false,
+    "validation_enforced": false
+  },
+  "receiver_side_answerable_basis_candidate_evaluation_operation_basis": {},
+  "receiver_side_answerable_basis_candidate_evaluation_operation_checks": [
+    {
+      "name": "operation_id",
+      "passed": true
+    },
+    {
+      "name": "operation_type",
+      "passed": true
+    },
+    {
+      "name": "operation_version",
+      "passed": true
+    },
+    {
+      "name": "operation_scope",
+      "passed": true
+    },
+    {
+      "name": "governing_v2_operation_specification_path",
+      "passed": true
+    },
+    {
+      "name": "evaluation_boundary_terminal_summary_path",
+      "passed": true
+    },
+    {
+      "name": "selected_evaluation_boundary_artifact_path",
+      "passed": true
+    },
+    {
+      "name": "selected_candidate_reception_artifact_path",
+      "passed": true
+    },
+    {
+      "name": "receiver_side_answerable_basis_candidate_id",
+      "passed": true
+    },
+    {
+      "name": "receiver_side_answerable_basis_candidate_type",
+      "passed": true
+    },
+    {
+      "name": "receiver_side_answerable_basis_candidate_scope",
+      "passed": true
+    },
+    {
+      "name": "selected_candidate_reception_operation_id",
+      "passed": true
+    },
+    {
+      "name": "selected_candidate_evaluation_boundary_id",
+      "passed": true
+    },
+    {
+      "name": "admissible_future_route",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_boundary_type",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_boundary_outcome_required",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_boundary_result_required",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_boundary_recorded_required",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_boundary_result_recorded_required",
+      "passed": true
+    },
+    {
+      "name": "prior_evaluation_consideration_allowed_required",
+      "passed": true
+    },
+    {
+      "name": "prior_selected_candidate_reception_result_referenced_required",
+      "passed": true
+    },
+    {
+      "name": "prior_selected_candidate_material_referenced_required",
+      "passed": true
+    },
+    {
+      "name": "prior_candidate_evaluated_required",
+      "passed": true
+    },
+    {
+      "name": "prior_candidate_sufficient_required",
+      "passed": true
+    },
+    {
+      "name": "prior_candidate_insufficient_required",
+      "passed": true
+    },
+    {
+      "name": "prior_candidate_indeterminate_required",
+      "passed": true
+    },
+    {
+      "name": "prior_receiver_attestation_created_required",
+      "passed": true
+    },
+    {
+      "name": "prior_receiver_attestation_supported_required",
+      "passed": true
+    },
+    {
+      "name": "prior_receiver_answerable_receipt_present_required",
+      "passed": true
+    },
+    {
+      "name": "prior_custody_distinct_required",
+      "passed": true
+    },
+    {
+      "name": "prior_refusable_required",
+      "passed": true
+    },
+    {
+      "name": "prior_could_have_been_withheld_required",
+      "passed": true
+    },
+    {
+      "name": "prior_presence_supported_required",
+      "passed": true
+    },
+    {
+      "name": "prior_presence_authorized_required",
+      "passed": true
+    },
+    {
+      "name": "prior_presence_established_required",
+      "passed": true
+    },
+    {
+      "name": "prior_presence_recorded_required",
+      "passed": true
+    },
+    {
+      "name": "prior_second_candidate_received_required",
+      "passed": true
+    },
+    {
+      "name": "prior_second_candidate_evaluated_required",
+      "passed": true
+    },
+    {
+      "name": "prior_repeated_evaluation_permission_created_required",
+      "passed": true
+    },
+    {
+      "name": "prior_reusable_route_created_required",
+      "passed": true
+    },
+    {
+      "name": "prior_follow_on_authorized_required",
+      "passed": true
+    },
+    {
+      "name": "prior_follow_on_work_authorized_required",
+      "passed": true
+    },
+    {
+      "name": "prior_failed_check_count_required",
+      "passed": true
+    },
+    {
+      "name": "request_partial_evaluation",
+      "passed": true
+    },
+    {
+      "name": "request_later_dimension_completion",
+      "passed": true
+    },
+    {
+      "name": "request_candidate_sufficiency",
+      "passed": true
+    },
+    {
+      "name": "request_candidate_insufficiency",
+      "passed": true
+    },
+    {
+      "name": "request_candidate_indeterminacy",
+      "passed": true
+    },
+    {
+      "name": "request_receiver_attestation_creation",
+      "passed": true
+    },
+    {
+      "name": "request_receiver_attestation_support",
+      "passed": true
+    },
+    {
+      "name": "request_receiver_answerable_receipt_creation",
+      "passed": true
+    },
+    {
+      "name": "request_presence_support",
+      "passed": true
+    },
+    {
+      "name": "request_presence_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_presence_establishment",
+      "passed": true
+    },
+    {
+      "name": "request_presence_recording",
+      "passed": true
+    },
+    {
+      "name": "request_identity_creation",
+      "passed": true
+    },
+    {
+      "name": "request_relation_creation",
+      "passed": true
+    },
+    {
+      "name": "request_coupling_assignment",
+      "passed": true
+    },
+    {
+      "name": "request_coupling_creation",
+      "passed": true
+    },
+    {
+      "name": "request_field_machinery_creation",
+      "passed": true
+    },
+    {
+      "name": "request_runtime_creation",
+      "passed": true
+    },
+    {
+      "name": "request_api_creation",
+      "passed": true
+    },
+    {
+      "name": "request_public_interface_creation",
+      "passed": true
+    },
+    {
+      "name": "request_public_intake_creation",
+      "passed": true
+    },
+    {
+      "name": "request_mailbox_creation",
+      "passed": true
+    },
+    {
+      "name": "request_listener_creation",
+      "passed": true
+    },
+    {
+      "name": "request_queue_creation",
+      "passed": true
+    },
+    {
+      "name": "request_endpoint_creation",
+      "passed": true
+    },
+    {
+      "name": "request_shared_intake_lane_creation",
+      "passed": true
+    },
+    {
+      "name": "request_currentness_creation",
+      "passed": true
+    },
+    {
+      "name": "request_authority_creation",
+      "passed": true
+    },
+    {
+      "name": "request_standing_creation",
+      "passed": true
+    },
+    {
+      "name": "request_truth_creation",
+      "passed": true
+    },
+    {
+      "name": "request_continuity_memory_write",
+      "passed": true
+    },
+    {
+      "name": "request_output_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_action_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_derivative_reception_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_synchronization_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_follow_on_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_follow_on_work_authorization",
+      "passed": true
+    },
+    {
+      "name": "request_second_candidate_reception",
+      "passed": true
+    },
+    {
+      "name": "request_second_candidate_evaluation",
+      "passed": true
+    },
+    {
+      "name": "request_same_candidate_re_evaluation",
+      "passed": true
+    },
+    {
+      "name": "request_repeated_evaluation_permission_creation",
+      "passed": true
+    },
+    {
+      "name": "request_reusable_route_creation",
+      "passed": true
+    },
+    {
+      "name": "request_repository_scan",
+      "passed": true
+    },
+    {
+      "name": "request_file_discovery",
+      "passed": true
+    },
+    {
+      "name": "request_affected_file_repair",
+      "passed": true
+    },
+    {
+      "name": "request_affected_file_mutation",
+      "passed": true
+    },
+    {
+      "name": "request_prior_unsupported_claim_validation",
+      "passed": true
+    },
+    {
+      "name": "request_validation_enforcement",
+      "passed": true
+    },
+    {
+      "name": "governing_v2_operation_specification_markers",
+      "passed": true
+    },
+    {
+      "name": "evaluation_boundary_terminal_summary_markers",
+      "passed": true
+    },
+    {
+      "name": "boundary.outcome",
+      "passed": true
+    },
+    {
+      "name": "boundary.failed_check_count",
+      "passed": true
+    },
+    {
+      "name": "boundary.boundary_id",
+      "passed": true
+    },
+    {
+      "name": "boundary.boundary_type",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_evaluation_boundary_recorded",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_evaluation_boundary_result_recorded",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_evaluation_boundary_result",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_evaluation_consideration_allowed",
+      "passed": true
+    },
+    {
+      "name": "boundary.selected_candidate_reception_result_referenced",
+      "passed": true
+    },
+    {
+      "name": "boundary.selected_candidate_material_referenced",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_evaluated",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_sufficient",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_insufficient",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_side_answerable_basis_candidate_indeterminate",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_attestation_created",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_attestation_supported",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_answerable_receipt_present",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_answerable_basis_custody_distinct",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_answerable_basis_refusable",
+      "passed": true
+    },
+    {
+      "name": "boundary.receiver_answerable_basis_could_have_been_withheld",
+      "passed": true
+    },
+    {
+      "name": "boundary.presence_supported",
+      "passed": true
+    },
+    {
+      "name": "boundary.presence_authorized",
+      "passed": true
+    },
+    {
+      "name": "boundary.presence_established",
+      "passed": true
+    },
+    {
+      "name": "boundary.presence_recorded",
+      "passed": true
+    },
+    {
+      "name": "boundary.second_candidate_received",
+      "passed": true
+    },
+    {
+      "name": "boundary.second_candidate_evaluated",
+      "passed": true
+    },
+    {
+      "name": "boundary.repeated_evaluation_permission_created",
+      "passed": true
+    },
+    {
+      "name": "boundary.reusable_route_created",
+      "passed": true
+    },
+    {
+      "name": "boundary.follow_on_authorized",
+      "passed": true
+    },
+    {
+      "name": "boundary.follow_on_work_authorized",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.candidate_structural_correspondence",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.declared_provenance_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.receiver_authorship_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.separate_custody_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.refusability_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.could_have_been_withheld_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.prior_knock_correspondence_posture",
+      "passed": true
+    },
+    {
+      "name": "boundary.dimension.capture_record_posture",
+      "passed": true
+    },
+    {
+      "name": "reception.outcome",
+      "passed": true
+    },
+    {
+      "name": "reception.failed_check_count",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_reception_operation_id",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_id",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_type",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_scope",
+      "passed": true
+    },
+    {
+      "name": "reception.candidate_material_supplied",
+      "passed": true
+    },
+    {
+      "name": "reception.candidate_material_received",
+      "passed": true
+    },
+    {
+      "name": "reception.candidate_material_recorded",
+      "passed": true
+    },
+    {
+      "name": "reception.candidate_material_preserved",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_received",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_recorded",
+      "passed": true
+    },
+    {
+      "name": "reception.receiver_side_answerable_basis_candidate_evaluated",
+      "passed": true
+    }
+  ],
+  "receiver_side_answerable_basis_candidate_evaluation_operation_dimensions": {
+    "candidate_structural_correspondence": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "candidate_structural_correspondence",
+      "dimension_label": "Candidate Structural Correspondence",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Structural correspondence is not semantic sufficiency."
+    },
+    "capture_record_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "capture_record_posture",
+      "dimension_label": "Capture-Record Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Capture records do not validate physical signals, presence, identity, attestation, or truth."
+    },
+    "could_have_been_withheld_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "could_have_been_withheld_posture",
+      "dimension_label": "Could-Have-Been-Withheld Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Could-have-been-withheld posture remains distinct from custody and refusability."
+    },
+    "declared_provenance_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "declared_provenance_posture",
+      "dimension_label": "Declared Provenance Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Declared provenance is not verified provenance, identity, authority, standing, or custody distinction."
+    },
+    "prior_knock_correspondence_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "prior_knock_correspondence_posture",
+      "dimension_label": "Prior-Knock Correspondence Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Prior-knock correspondence is not attestation, receipt, or presence support."
+    },
+    "receiver_authorship_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "receiver_authorship_posture",
+      "dimension_label": "Receiver-Authorship Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Receiver-authorship posture is not receiver identity or unrestricted authorship certainty."
+    },
+    "refusability_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "refusability_posture",
+      "dimension_label": "Refusability Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Refusability posture is not established by declaration alone."
+    },
+    "separate_custody_posture": {
+      "basis_referenced": false,
+      "dimension_established": false,
+      "dimension_evaluated": false,
+      "dimension_id": "separate_custody_posture",
+      "dimension_label": "Separate-Custody Posture",
+      "dimension_result": "NOT_EVALUATED",
+      "missing_or_inconsistent_dimension_basis": [],
+      "non_conversion_statement": "Separate custody is not inferred from filename, directory, working path, or declaration alone."
+    }
+  },
+  "receiver_side_answerable_basis_candidate_evaluation_operation_metadata": {
+    "operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "operation_scope": "EVALUATE_ONE_RECORDED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ACROSS_EIGHT_SEPARATE_DIMENSIONS_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "operation_version": "0.1.0",
+    "selected_command": null
+  },
+  "receiver_side_answerable_basis_candidate_evaluation_operation_non_meaning": {
+    "all_dimensions_satisfied_is_not_candidate_sufficiency": true,
+    "basis_items_and_references_are_not_derived_as_truth": true,
+    "dimension_indeterminacy_is_not_candidate_level_indeterminacy": true,
+    "dimension_result_is_not_candidate_sufficiency": true,
+    "evaluation_is_not_attestation_receipt_or_presence": true,
+    "evaluator_reference_is_not_authority_identity_standing_or_truth": true,
+    "not_satisfied_is_not_candidate_insufficiency": true,
+    "supplied_evaluation_basis_is_not_dimension_result": true
+  },
+  "receiver_side_answerable_basis_candidate_evaluation_operation_statement": {
+    "candidate_material_omitted_from_operation_result": true,
+    "candidate_sufficiency_remains_false": true,
+    "complete_supplied_basis_omitted_from_operation_result": true,
+    "open_does_not_mean_next_unless_separately_selected": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "operation_records_one_selected_candidate_evaluation_only": true,
+    "partial_evaluation_does_not_stand": true,
+    "presence_remains_false": true,
+    "receiver_answerable_receipt_remains_false": true,
+    "receiver_attestation_remains_false": true,
+    "result_level_non_claims_canonical_false": true
+  },
+  "receiver_side_answerable_basis_candidate_evaluation_operation_summary": {
+    "atomic_gate_postures": {
+      "all_dimension_basis_records_admissible": false,
+      "all_dimension_basis_records_bounded": false,
+      "all_dimension_basis_records_non_result_preclaiming": false,
+      "all_dimension_basis_records_present": false,
+      "all_dimension_basis_records_reference_selected_boundary": false,
+      "all_dimension_basis_records_reference_selected_candidate": false,
+      "evaluation_basis_complete": false,
+      "evaluation_basis_supplied": false
+    },
+    "candidate_aggregate_postures": {
+      "receiver_side_answerable_basis_candidate_all_dimensions_satisfied": false,
+      "receiver_side_answerable_basis_candidate_any_dimension_indeterminate": false,
+      "receiver_side_answerable_basis_candidate_any_dimension_not_satisfied": false,
+      "receiver_side_answerable_basis_candidate_evaluated": false
+    },
+    "candidate_evaluation_operation_exhausted": false,
+    "candidate_indeterminate": false,
+    "candidate_insufficient": false,
+    "candidate_sufficient": false,
+    "dimension_established": {
+      "candidate_structural_correspondence": false,
+      "capture_record_posture": false,
+      "could_have_been_withheld_posture": false,
+      "declared_provenance_posture": false,
+      "prior_knock_correspondence_posture": false,
+      "receiver_authorship_posture": false,
+      "refusability_posture": false,
+      "separate_custody_posture": false
+    },
+    "dimension_evaluated": {
+      "candidate_structural_correspondence": false,
+      "capture_record_posture": false,
+      "could_have_been_withheld_posture": false,
+      "declared_provenance_posture": false,
+      "prior_knock_correspondence_posture": false,
+      "receiver_authorship_posture": false,
+      "refusability_posture": false,
+      "separate_custody_posture": false
+    },
+    "dimension_results": {
+      "candidate_structural_correspondence": "NOT_EVALUATED",
+      "capture_record_posture": "NOT_EVALUATED",
+      "could_have_been_withheld_posture": "NOT_EVALUATED",
+      "declared_provenance_posture": "NOT_EVALUATED",
+      "prior_knock_correspondence_posture": "NOT_EVALUATED",
+      "receiver_authorship_posture": "NOT_EVALUATED",
+      "refusability_posture": "NOT_EVALUATED",
+      "separate_custody_posture": "NOT_EVALUATED"
+    },
+    "failed_check_count": 0,
+    "governing_paths": {
+      "evaluation_boundary_terminal_summary_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "governing_v2_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_V0_MIN_V2_SPEC.md",
+      "selected_candidate_reception_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json",
+      "selected_evaluation_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2/receiver_side_answerable_basis_candidate_evaluation_boundary_001__receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2_result.json"
+    },
+    "marker_validation": {
+      "evaluation_boundary_terminal_summary": {
+        "allowed": true,
+        "not_evaluated": true,
+        "title": true
+      },
+      "governing_v2_operation_specification": {
+        "atomic_gate": true,
+        "candidate_sufficiency_route": true,
+        "identity": true,
+        "result_precedence": true,
+        "title": true
+      }
+    },
+    "missing_evaluation_basis": [
+      "dimension_basis_record:candidate_structural_correspondence",
+      "dimension_basis_record:declared_provenance_posture",
+      "dimension_basis_record:receiver_authorship_posture",
+      "dimension_basis_record:separate_custody_posture",
+      "dimension_basis_record:refusability_posture",
+      "dimension_basis_record:could_have_been_withheld_posture",
+      "dimension_basis_record:prior_knock_correspondence_posture",
+      "dimension_basis_record:capture_record_posture"
+    ],
+    "operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "operation_result": "REQUIRES_EVALUATION_BASIS",
+    "operation_scope": "EVALUATE_ONE_RECORDED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ACROSS_EIGHT_SEPARATE_DIMENSIONS_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_REQUIRES_EVALUATION_BASIS",
+    "passed_check_count": 144,
+    "presence_postures": {
+      "presence_authorized": false,
+      "presence_established": false,
+      "presence_recorded": false,
+      "presence_supported": false
+    },
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_created": false,
+    "resolver_module": "resolve_receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v2",
+    "result_version": "0.1.0",
+    "second_repeated_reusable_routes": {
+      "dimension_completion_route_created": false,
+      "repeated_evaluation_permission_created": false,
+      "reusable_route_created": false,
+      "same_candidate_re_evaluation_authorized": false,
+      "second_candidate_evaluated": false,
+      "second_candidate_received": false
+    },
+    "selected_boundary_identity": {
+      "boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+      "boundary_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_CONSIDERATION_ALLOWED",
+      "boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY"
+    },
+    "selected_candidate_identity": {
+      "candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+      "candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+      "reception_operation_id": "receiver_side_answerable_basis_reception_operation_001"
+    }
+  },
+  "resolver_module": "resolve_receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v2",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "governing_paths": {
+      "evaluation_boundary_terminal_summary_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY_TERMINAL_SUMMARY_V0.md",
+      "governing_v2_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_OPERATION_V0_MIN_V2_SPEC.md",
+      "selected_candidate_reception_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json",
+      "selected_evaluation_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2/receiver_side_answerable_basis_candidate_evaluation_boundary_001__receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2_result.json"
+    },
+    "marker_validation": {
+      "evaluation_boundary_terminal_summary": {
+        "allowed": true,
+        "not_evaluated": true,
+        "title": true
+      },
+      "governing_v2_operation_specification": {
+        "atomic_gate": true,
+        "candidate_sufficiency_route": true,
+        "identity": true,
+        "result_precedence": true,
+        "title": true
+      }
+    },
+    "selected_artifacts_validated": true,
+    "selected_boundary_identity": {
+      "boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+      "boundary_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_CONSIDERATION_ALLOWED",
+      "boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_EVALUATION_BOUNDARY"
+    },
+    "selected_candidate_identity": {
+      "candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+      "candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+      "reception_operation_id": "receiver_side_answerable_basis_reception_operation_001"
+    }
+  },
+  "what_remains_open": [
+    "separately supplied eight-dimension evaluation basis",
+    "actual candidate evaluation",
+    "dimension-specific derived results",
+    "candidate-sufficiency boundary, if separately selected",
+    "receiver-attestation boundary, only after later lawful basis",
+    "receiver-answerable-receipt boundary, only after later lawful basis",
+    "presence re-evaluation, only after later lawful basis",
+    "identity",
+    "relation",
+    "coupling",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "authority",
+    "standing",
+    "output",
+    "action",
+    "synchronization",
+    "follow-on work"
+  ]
+}
