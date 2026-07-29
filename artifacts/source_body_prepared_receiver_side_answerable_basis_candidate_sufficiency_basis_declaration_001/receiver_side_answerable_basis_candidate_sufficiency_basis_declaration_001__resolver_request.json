@@ -1,0 +1,798 @@
+{
+  "declaration_records": {
+    "bounded_material_completeness": {
+      "basis_items": [
+        {
+          "basis_item_id": "bounded_material_completeness_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "The set is complete only for the selected bounded purpose, not complete source-body capture.",
+          "proposition": "The bundle includes the response, one-knock reference, capture method, capture limits, refusal and withholding posture, timestamp, label, custody note, and signal record."
+        },
+        {
+          "basis_item_id": "bounded_material_completeness_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Hash correspondence is not semantic sufficiency, identity, or verified provenance.",
+          "proposition": "The repository ZIP hash and the signal-member hash match the hashes recorded in the selected material and capture method."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "bounded_material_completeness_reference_001",
+          "locator": "/receiver_side_answerable_basis_reception_operation_material/supplied_candidate_material_record/candidate_material",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "bounded_material_completeness_reference_002",
+          "locator": "archive-member:receiver_attestation_001/capture_method.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "bounded_material_completeness_reference_003",
+          "locator": "archive-member:receiver_attestation_001/knock_20260727_215052.json",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "bounded_material_incomplete_for_selected_purpose": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "bounded_material_completeness",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "bounded completeness is not unrestricted completeness or candidate truth.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "bounded_material_complete_for_selected_purpose": true
+      },
+      "unresolved_postures": {
+        "bounded_material_completeness_unresolved": false
+      }
+    },
+    "provenance_capture_limitation_posture": {
+      "basis_items": [
+        {
+          "basis_item_id": "provenance_capture_limitation_posture_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Declared provenance and hashes are not verified provenance, source identity, physical validity, or truth.",
+          "proposition": "The selected material supplies one declared provenance reference, one ZIP hash, one answer-to-knock hash, and bounded capture-method metadata."
+        },
+        {
+          "basis_item_id": "provenance_capture_limitation_posture_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Capture evidence remains bounded material and does not establish presence or attestation.",
+          "proposition": "The capture-only statement and candidate lineage explicitly retain non-conversion limits around the recorded material."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "provenance_capture_limitation_posture_reference_001",
+          "locator": "/receiver_side_answerable_basis_reception_operation_material/supplied_candidate_material_record/candidate_source_provenance_reference",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "provenance_capture_limitation_posture_reference_002",
+          "locator": "archive-member:receiver_attestation_001/capture_method.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "provenance_capture_limitation_posture_reference_003",
+          "locator": "archive-member:receiver_attestation_001/capture_only_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "provenance_or_capture_limitation_materially_contradicts_selected_use": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "provenance_capture_limitation_posture",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "bounded provenance and capture limitations are not verified provenance, physical validity, or presence.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "provenance_and_capture_limitations_bounded_and_preserved": true
+      },
+      "unresolved_postures": {
+        "provenance_capture_limitation_posture_unresolved": false
+      }
+    },
+    "receiver_answerability_fit": {
+      "basis_items": [
+        {
+          "basis_item_id": "receiver_answerability_fit_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Candidate material is not attestation, receipt, presence, authority, or truth.",
+          "proposition": "The selected record carries one bounded receipt reference, one answer-to-knock hash, and the exact selected-candidate scope."
+        },
+        {
+          "basis_item_id": "receiver_answerability_fit_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Words and prior-knock correspondence do not establish presence.",
+          "proposition": "The source bundle records a response and binds it to presence_operation_001 only."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "receiver_answerability_fit_reference_001",
+          "locator": "/receiver_side_answerable_basis_reception_operation_material/supplied_candidate_material_record",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "receiver_answerability_fit_reference_002",
+          "locator": "archive-member:receiver_attestation_001/attestation_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "receiver_answerability_fit_reference_003",
+          "locator": "archive-member:receiver_attestation_001/knock_reference.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "bounded_receiver_answerability_fit_contradicted": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "receiver_answerability_fit",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "receiver-answerability fit is not attestation, receipt, or presence.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "bounded_receiver_answerability_fit_supported": true
+      },
+      "unresolved_postures": {
+        "bounded_receiver_answerability_fit_unresolved": false
+      }
+    },
+    "refusal_withholding_compatibility": {
+      "basis_items": [
+        {
+          "basis_item_id": "refusal_withholding_compatibility_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Declared refusal and withholding posture is not consent, custody distinction, attestation, or receipt.",
+          "proposition": "The source bundle records that supply could have been refused and could have been withheld."
+        },
+        {
+          "basis_item_id": "refusal_withholding_compatibility_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Preservation does not establish truth or authorize later use.",
+          "proposition": "The bounded use preserves the capture-only non-conversion statement and modifies nothing in the source body."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "refusal_withholding_compatibility_reference_001",
+          "locator": "archive-member:receiver_attestation_001/freely_given_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "refusal_withholding_compatibility_reference_002",
+          "locator": "archive-member:receiver_attestation_001/capture_only_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "refusal_withholding_compatibility_reference_003",
+          "locator": "/receiver_side_answerable_basis_candidate_evaluation_operation_dimensions/refusability_posture/non_conversion_statement",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v3/receiver_side_answerable_basis_candidate_evaluation_operation_001__receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v3_result.json"
+        }
+      ],
+      "contradiction_postures": {
+        "incompatible_with_recorded_refusal_or_withholding_posture": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "refusal_withholding_compatibility",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "refusal and withholding compatibility is not consent, attestation, or receipt.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "compatible_with_recorded_refusal_and_withholding_postures": true
+      },
+      "unresolved_postures": {
+        "refusal_withholding_compatibility_unresolved": false
+      }
+    },
+    "scope_constrained_usability": {
+      "basis_items": [
+        {
+          "basis_item_id": "scope_constrained_usability_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Use outside the selected candidate and named knock is unsupported.",
+          "proposition": "The candidate is recorded only as one separately supplied candidate and the source bundle answers presence_operation_001 only."
+        },
+        {
+          "basis_item_id": "scope_constrained_usability_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Scoped usability creates none of the excluded postures.",
+          "proposition": "The capture-only statement excludes authority, currentness, identity, standing, action, output, derivative reception, and follow-on authorization."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "scope_constrained_usability_reference_001",
+          "locator": "/receiver_side_answerable_basis_reception_operation_material/supplied_candidate_material_record/receiver_side_answerable_basis_candidate_scope",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "scope_constrained_usability_reference_002",
+          "locator": "archive-member:receiver_attestation_001/knock_reference.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "scope_constrained_usability_reference_003",
+          "locator": "archive-member:receiver_attestation_001/capture_only_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "not_usable_within_selected_scope": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "scope_constrained_usability",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "scoped usability is not general usability, output authorization, or action authorization.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "usable_within_selected_scope": true
+      },
+      "unresolved_postures": {
+        "scope_constrained_usability_unresolved": false
+      }
+    },
+    "selected_purpose_adequacy": {
+      "basis_items": [
+        {
+          "basis_item_id": "selected_purpose_adequacy_item_001",
+          "evidence_posture": "BOUNDED_INFERENCE",
+          "limitation": "Adequacy is limited to evaluation of this candidate and preselects no result.",
+          "proposition": "The one-knock reference, attestation words, and hash-addressed capture are adequate inputs for a bounded judgment about this selected candidate."
+        },
+        {
+          "basis_item_id": "selected_purpose_adequacy_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Bounded-purpose fit is not general adequacy, truth, or standing.",
+          "proposition": "The source bundle expressly limits its answer to one named knock and excludes downstream authorization."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "selected_purpose_adequacy_reference_001",
+          "locator": "archive-member:receiver_attestation_001/knock_reference.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "selected_purpose_adequacy_reference_002",
+          "locator": "archive-member:receiver_attestation_001/capture_only_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "selected_purpose_adequacy_reference_003",
+          "locator": "/receiver_side_answerable_basis_candidate_evaluation_operation_summary/selected_candidate_identity",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v3/receiver_side_answerable_basis_candidate_evaluation_operation_001__receiver_side_answerable_basis_candidate_evaluation_operation_v0_min_v3_result.json"
+        }
+      ],
+      "contradiction_postures": {
+        "selected_purpose_adequacy_contradicted": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "selected_purpose_adequacy",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "selected-purpose adequacy is bounded-purpose posture only, not truth or standing.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "selected_purpose_adequacy_supported": true
+      },
+      "unresolved_postures": {
+        "selected_purpose_adequacy_unresolved": false
+      }
+    },
+    "unresolved_contradiction_posture": {
+      "basis_items": [
+        {
+          "basis_item_id": "unresolved_contradiction_posture_item_001",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Correspondence is bounded record consistency, not verified truth.",
+          "proposition": "The answer-to-knock hash corresponds across selected material and knock reference, and the signal hash corresponds across capture method and archive member."
+        },
+        {
+          "basis_item_id": "unresolved_contradiction_posture_item_002",
+          "evidence_posture": "BOUNDED_INFERENCE",
+          "limitation": "The review is limited to cited material and does not claim exhaustive contradiction discovery.",
+          "proposition": "No conflicting proposition appears among the exact selected-candidate fields and the bounded source statements used here."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "unresolved_contradiction_posture_reference_001",
+          "locator": "/receiver_side_answerable_basis_reception_operation_material/supplied_candidate_material_record/candidate_material/answers_knock_result_sha256",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "unresolved_contradiction_posture_reference_002",
+          "locator": "archive-member:receiver_attestation_001/knock_reference.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        },
+        {
+          "basis_reference_id": "unresolved_contradiction_posture_reference_003",
+          "locator": "archive-member:receiver_attestation_001/capture_method.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "material_contradiction_present_for_selected_purpose": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "unresolved_contradiction_posture",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "no unresolved material contradiction is not verified truth.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "no_unresolved_material_contradiction_for_selected_purpose": true
+      },
+      "unresolved_postures": {
+        "material_contradiction_posture_unresolved": false
+      }
+    },
+    "unsupported_assumption_dependency": {
+      "basis_items": [
+        {
+          "basis_item_id": "unsupported_assumption_dependency_item_001",
+          "evidence_posture": "BOUNDED_INFERENCE",
+          "limitation": "No excluded conversion is needed for the bounded candidate judgment.",
+          "proposition": "The selected use can rely on exact statements, exact scope, and matching hashes without assuming identity, authority, standing, physical validity, or presence."
+        },
+        {
+          "basis_item_id": "unsupported_assumption_dependency_item_002",
+          "evidence_posture": "DIRECTLY_RECORDED",
+          "limitation": "Upstream false posture is a constraint and not positive candidate-sufficiency evidence.",
+          "proposition": "Selected reception and evaluation-boundary standing keeps source identity, provenance verification, attestation, receipt, and presence conversions false."
+        }
+      ],
+      "basis_non_claims": {
+        "basis_items_to_established_truth": false,
+        "basis_references_to_verified_provenance": false,
+        "caller_supplied_candidate_result": false,
+        "caller_supplied_dimension_result": false,
+        "declarant_reference_to_authority": false,
+        "declarant_reference_to_identity": false,
+        "declarant_reference_to_standing": false,
+        "declarant_reference_to_truth": false,
+        "declaration_readiness_to_operation_authorization": false,
+        "evaluator_reference_to_authority": false,
+        "evaluator_reference_to_identity": false,
+        "evaluator_reference_to_standing": false,
+        "evaluator_reference_to_truth": false,
+        "source_body_authorship_to_independent_custody": false
+      },
+      "basis_references": [
+        {
+          "basis_reference_id": "unsupported_assumption_dependency_reference_001",
+          "locator": "/receiver_side_answerable_basis_candidate_evaluation_boundary",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2/receiver_side_answerable_basis_candidate_evaluation_boundary_001__receiver_side_answerable_basis_candidate_evaluation_boundary_v0_min_v2_result.json"
+        },
+        {
+          "basis_reference_id": "unsupported_assumption_dependency_reference_002",
+          "locator": "/receiver_side_answerable_basis_reception_operation",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_reception_operation_v0_min/receiver_side_answerable_basis_reception_operation_001__receiver_side_answerable_basis_reception_operation_v0_min_result_001.json"
+        },
+        {
+          "basis_reference_id": "unsupported_assumption_dependency_reference_003",
+          "locator": "archive-member:receiver_attestation_001/capture_only_statement.txt",
+          "reference_posture": "EXACT_BOUNDED_EXISTING_MATERIAL",
+          "repository_path": "artifacts/actual_receiver_attestation_capture/receiver_attestation_capture_001/original_zip/receiver_attestation_001.zip"
+        }
+      ],
+      "contradiction_postures": {
+        "required_unsupported_assumption_dependency_present": false
+      },
+      "declarant_reference": {
+        "independent_preparer_claimed": false,
+        "preparer_reference": "marko_markota__source_body_human_governor",
+        "preparer_relation_to_source_body": "SOURCE_BODY_ORIGINATING_PREPARER",
+        "separate_custody_claimed_by_preparer": false,
+        "source_body_authored": true
+      },
+      "dimension_id": "unsupported_assumption_dependency",
+      "evaluator_reference": {
+        "evaluator_reference": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+        "evaluator_relation_to_declaration": "LATER_SELECTED_OPERATION_RULE_EVALUATOR_REFERENCE_ONLY",
+        "governing_evaluator_contract_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+        "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001"
+      },
+      "independent_preparer_claimed": false,
+      "non_conversion_statement": "absence of a required unsupported assumption dependency is not authority or standing.",
+      "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+      "separate_custody_claimed_by_preparer": false,
+      "source_body_authored": true,
+      "support_postures": {
+        "no_required_unsupported_assumption_dependency": true
+      },
+      "unresolved_postures": {
+        "unsupported_assumption_dependency_unresolved": false
+      }
+    }
+  },
+  "declaration_records_supplied": true,
+  "declared_non_claims": {
+    "action_authorized": false,
+    "affected_file_repaired": false,
+    "api_created": false,
+    "authority_created": false,
+    "automatic_redeclaration_created": false,
+    "basis_items_to_established_truth": false,
+    "basis_references_to_verified_provenance": false,
+    "caller_supplied_candidate_result": false,
+    "caller_supplied_dimension_result": false,
+    "candidate_indeterminacy_established": false,
+    "candidate_insufficiency_established": false,
+    "candidate_sufficiency_basis_admitted_by_operation": false,
+    "candidate_sufficiency_basis_separately_supplied": false,
+    "candidate_sufficiency_decided": false,
+    "candidate_sufficiency_established": false,
+    "candidate_sufficiency_operation_authorized": false,
+    "candidate_sufficiency_operation_created": false,
+    "candidate_sufficiency_operation_executed": false,
+    "candidate_sufficiency_operation_exhausted": false,
+    "candidate_sufficiency_operation_recorded": false,
+    "candidate_sufficiency_operation_result_recorded": false,
+    "continuity_memory_written": false,
+    "coupling_assigned": false,
+    "coupling_created": false,
+    "declarant_reference_to_authority": false,
+    "declarant_reference_to_identity": false,
+    "declarant_reference_to_standing": false,
+    "declarant_reference_to_truth": false,
+    "declaration_debt_created": false,
+    "declaration_obligation_created": false,
+    "declaration_readiness_to_operation_authorization": false,
+    "evaluator_reference_to_authority": false,
+    "evaluator_reference_to_identity": false,
+    "evaluator_reference_to_standing": false,
+    "evaluator_reference_to_truth": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "partial_dimension_evaluation_recorded": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_re_evaluation_boundary_created": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "public_intake_created": false,
+    "public_interface_created": false,
+    "receiver_answerable_receipt_boundary_created": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_boundary_created": false,
+    "receiver_attestation_created": false,
+    "receiver_attestation_supported": false,
+    "receiver_side_answerable_basis_candidate_indeterminate": false,
+    "receiver_side_answerable_basis_candidate_insufficient": false,
+    "receiver_side_answerable_basis_candidate_sufficient": false,
+    "relation_created": false,
+    "repeated_declaration_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_declaration_route_created": false,
+    "runtime_created": false,
+    "silent_declaration_replacement_authorized": false,
+    "source_body_authorship_to_independent_custody": false,
+    "standing_created": false,
+    "synchronization_authorized": false,
+    "truth_created": false,
+    "validation_enforced": false
+  },
+  "governing_declaration_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BASIS_DECLARATION_V0_MIN_SPEC.md",
+  "intent": "RECORD_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BASIS_DECLARATION",
+  "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+  "receiver_side_answerable_basis_candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+  "receiver_side_answerable_basis_candidate_sufficiency_basis_declaration_id": "receiver_side_answerable_basis_candidate_sufficiency_basis_declaration_001",
+  "receiver_side_answerable_basis_candidate_sufficiency_basis_declaration_scope": "DECLARE_ONE_BOUNDED_EIGHT_DIMENSION_CANDIDATE_SUFFICIENCY_BASIS_ONLY",
+  "receiver_side_answerable_basis_candidate_sufficiency_basis_declaration_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BASIS_DECLARATION",
+  "receiver_side_answerable_basis_candidate_sufficiency_basis_declaration_version": "0.1.0",
+  "receiver_side_answerable_basis_candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+  "request_action_authorization": false,
+  "request_affected_file_mutation": false,
+  "request_affected_file_repair": false,
+  "request_api_creation": false,
+  "request_authority_creation": false,
+  "request_automatic_redeclaration": false,
+  "request_basis_operation_admission": false,
+  "request_basis_separate_supply": false,
+  "request_candidate_indeterminate": false,
+  "request_candidate_insufficient": false,
+  "request_candidate_sufficient": false,
+  "request_coupling_assignment": false,
+  "request_coupling_creation": false,
+  "request_declaration_debt_creation": false,
+  "request_declaration_obligation_creation": false,
+  "request_declaration_ready_for_supply_preclaim": false,
+  "request_declaration_result_preclaim": false,
+  "request_dimension_result": false,
+  "request_field_machinery_creation": false,
+  "request_file_discovery": false,
+  "request_follow_on_authorization": false,
+  "request_follow_on_work_authorization": false,
+  "request_identity_creation": false,
+  "request_operation_execution": false,
+  "request_operation_exhaustion": false,
+  "request_output_authorization": false,
+  "request_presence_authorization": false,
+  "request_presence_establishment": false,
+  "request_presence_recording": false,
+  "request_presence_support": false,
+  "request_prior_unsupported_claim_validation": false,
+  "request_receiver_answerable_receipt_creation": false,
+  "request_receiver_attestation_creation": false,
+  "request_receiver_attestation_support": false,
+  "request_relation_creation": false,
+  "request_repeated_declaration_permission_creation": false,
+  "request_repository_scan": false,
+  "request_reusable_declaration_route_creation": false,
+  "request_runtime_creation": false,
+  "request_silent_declaration_replacement": false,
+  "request_standing_creation": false,
+  "request_synchronization_authorization": false,
+  "request_truth_creation": false,
+  "request_validation_enforcement": false,
+  "selected_candidate_evaluation_boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+  "selected_candidate_evaluation_operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+  "selected_candidate_reception_operation_id": "receiver_side_answerable_basis_reception_operation_001",
+  "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+  "selected_candidate_sufficiency_boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BOUNDARY",
+  "selected_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+  "selected_candidate_sufficiency_operation_result_required": "REQUIRES_SUFFICIENCY_BASIS",
+  "selected_candidate_sufficiency_operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+  "selected_candidate_sufficiency_operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+  "selected_candidate_sufficiency_operation_version": "0.1.0",
+  "selected_waiting_operation_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min/receiver_side_answerable_basis_candidate_sufficiency_operation_001__receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min_result.json"
+}

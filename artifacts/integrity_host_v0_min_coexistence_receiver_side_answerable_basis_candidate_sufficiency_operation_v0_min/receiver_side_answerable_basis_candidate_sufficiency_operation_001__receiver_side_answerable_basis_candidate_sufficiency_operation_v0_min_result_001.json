@@ -1,0 +1,1215 @@
+{
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_routes": [
+    "evaluation_result_to_candidate_sufficiency",
+    "evaluation_dimensions_to_candidate_sufficiency",
+    "boundary_result_to_candidate_sufficiency",
+    "caller_basis_to_caller_selected_result",
+    "evaluator_reference_to_authority_identity_standing_or_truth",
+    "candidate_sufficient_to_receiver_attestation_receipt_or_presence",
+    "candidate_insufficient_to_rejection_deletion_erasure_repair_or_invalidation",
+    "candidate_indeterminate_to_candidate_insufficiency",
+    "candidate_result_to_downstream_conversion",
+    "completed_operation_to_repeated_permission_reusable_route_or_silent_rerun",
+    "changed_files_or_new_evidence_to_automatic_rerun",
+    "completed_operation_to_contaminated_lineage_validation"
+  ],
+  "declared_receiver_side_answerable_basis_candidate_sufficiency_operation_basis": {
+    "admissible_future_route": "CANDIDATE_SUFFICIENCY_OPERATION_THEN_RECEIVER_ATTESTATION_BOUNDARY_ONLY_IF_CANDIDATE_SUFFICIENT",
+    "complete_supplied_basis_omitted": true,
+    "declared_non_claims_validated": true,
+    "governing_sufficiency_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+    "intent": "RECORD_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+    "operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "operation_version": "0.1.0",
+    "prohibited_request_flags_validated": true,
+    "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+    "receiver_side_answerable_basis_candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "receiver_side_answerable_basis_candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+    "selected_candidate_evaluation_boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+    "selected_candidate_evaluation_operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "selected_candidate_reception_operation_id": "receiver_side_answerable_basis_reception_operation_001",
+    "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+    "selected_candidate_sufficiency_boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BOUNDARY",
+    "selected_sufficiency_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min/receiver_side_answerable_basis_candidate_sufficiency_boundary_001__receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min_result.json",
+    "sufficiency_basis_dimension_ids": [
+      "receiver_answerability_fit",
+      "selected_purpose_adequacy",
+      "bounded_material_completeness",
+      "unresolved_contradiction_posture",
+      "unsupported_assumption_dependency",
+      "scope_constrained_usability",
+      "refusal_withholding_compatibility",
+      "provenance_capture_limitation_posture"
+    ],
+    "sufficiency_basis_record_count": 8,
+    "sufficiency_basis_supplied": true
+  },
+  "failed_check_count": 0,
+  "non_claims": {
+    "action_authorized": false,
+    "affected_file_repaired": false,
+    "api_created": false,
+    "authority_created": false,
+    "automatic_candidate_sufficiency_operation_retry_created": false,
+    "candidate_sufficiency_operation_debt_created": false,
+    "candidate_sufficiency_operation_obligation_created": false,
+    "continuity_memory_written": false,
+    "coupling_assigned": false,
+    "coupling_created": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_re_evaluation_boundary_created": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "public_intake_created": false,
+    "public_interface_created": false,
+    "receiver_answerable_receipt_boundary_created": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_boundary_created": false,
+    "receiver_attestation_created": false,
+    "receiver_attestation_supported": false,
+    "relation_created": false,
+    "repeated_candidate_sufficiency_operation_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_candidate_sufficiency_operation_route_created": false,
+    "runtime_created": false,
+    "same_candidate_sufficiency_operation_rerun_authorized": false,
+    "standing_created": false,
+    "synchronization_authorized": false,
+    "truth_created": false,
+    "validation_enforced": false
+  },
+  "operation_result_detail": {
+    "atomic_sufficiency_basis_gate_passed": true,
+    "candidate_result_posture_count": 1,
+    "candidate_result_precedence": "INDETERMINATE_THEN_INSUFFICIENT_THEN_SUFFICIENT",
+    "complete_supplied_basis_omitted": true,
+    "evaluated_dimension_count": 8,
+    "operation_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENT"
+  },
+  "outcome": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_RECORDED",
+  "passed_check_count": 140,
+  "permitted_future_route": "CANDIDATE_SUFFICIENCY_OPERATION_THEN_RECEIVER_ATTESTATION_BOUNDARY_ONLY_IF_CANDIDATE_SUFFICIENT",
+  "receiver_side_answerable_basis_candidate_sufficiency_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "CANDIDATE_SUFFICIENCY_OPERATION_THEN_RECEIVER_ATTESTATION_BOUNDARY_ONLY_IF_CANDIDATE_SUFFICIENT",
+    "affected_file_repaired": false,
+    "api_created": false,
+    "atomic_sufficiency_basis_gate_passed": true,
+    "authority_created": false,
+    "automatic_candidate_sufficiency_operation_retry_created": false,
+    "candidate_indeterminacy_established": false,
+    "candidate_insufficiency_established": false,
+    "candidate_sufficiency_decided": true,
+    "candidate_sufficiency_established": true,
+    "candidate_sufficiency_operation_debt_created": false,
+    "candidate_sufficiency_operation_exhausted": true,
+    "candidate_sufficiency_operation_obligation_created": false,
+    "candidate_sufficiency_operation_recorded": true,
+    "candidate_sufficiency_operation_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENT",
+    "candidate_sufficiency_operation_result_recorded": true,
+    "continuity_memory_written": false,
+    "coupling_assigned": false,
+    "coupling_created": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+    "operation_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENT",
+    "operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "operation_version": "0.1.0",
+    "output_authorized": false,
+    "partial_evaluation_recorded": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_re_evaluation_boundary_created": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "public_intake_created": false,
+    "public_interface_created": false,
+    "receiver_answerable_receipt_boundary_created": false,
+    "receiver_answerable_receipt_present": false,
+    "receiver_attestation_boundary_created": false,
+    "receiver_attestation_created": false,
+    "receiver_attestation_supported": false,
+    "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+    "receiver_side_answerable_basis_candidate_indeterminate": false,
+    "receiver_side_answerable_basis_candidate_insufficient": false,
+    "receiver_side_answerable_basis_candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "receiver_side_answerable_basis_candidate_sufficiency_operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+    "receiver_side_answerable_basis_candidate_sufficiency_operation_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENT",
+    "receiver_side_answerable_basis_candidate_sufficiency_operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "receiver_side_answerable_basis_candidate_sufficiency_operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "receiver_side_answerable_basis_candidate_sufficiency_operation_version": "0.1.0",
+    "receiver_side_answerable_basis_candidate_sufficient": true,
+    "receiver_side_answerable_basis_candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+    "relation_created": false,
+    "repeated_candidate_sufficiency_operation_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_candidate_sufficiency_operation_route_created": false,
+    "runtime_created": false,
+    "same_candidate_sufficiency_operation_rerun_authorized": false,
+    "selected_candidate_evaluation_boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+    "selected_candidate_evaluation_operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+    "selected_candidate_reception_operation_id": "receiver_side_answerable_basis_reception_operation_001",
+    "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+    "selected_candidate_sufficiency_boundary_result_required": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_CONSIDERATION_ALLOWED",
+    "selected_candidate_sufficiency_boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BOUNDARY",
+    "standing_created": false,
+    "sufficiency_basis_complete": true,
+    "sufficiency_basis_supplied": true,
+    "synchronization_authorized": false,
+    "truth_created": false,
+    "validation_enforced": false
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_basis": {
+    "all_dimension_basis_records_bounded": true,
+    "all_dimension_basis_records_contain_evaluator_reference": true,
+    "all_dimension_basis_records_contain_rule_input_maps": true,
+    "all_dimension_basis_records_non_conversion_validated": true,
+    "all_dimension_basis_records_non_result_preclaiming": true,
+    "all_dimension_basis_records_present": true,
+    "all_dimension_basis_records_preserve_non_claims": true,
+    "all_dimension_basis_records_reference_selected_boundary": true,
+    "all_dimension_basis_records_reference_selected_candidate": true,
+    "atomic_sufficiency_basis_gate_passed": true,
+    "complete_supplied_basis_omitted": true,
+    "dimension_basis_metadata": {
+      "bounded_material_completeness": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "bounded_material_incomplete_for_selected_purpose",
+        "dimension_id": "bounded_material_completeness",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "bounded_material_complete_for_selected_purpose",
+        "unresolved_key": "bounded_material_completeness_unresolved"
+      },
+      "provenance_capture_limitation_posture": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "provenance_or_capture_limitation_materially_contradicts_selected_use",
+        "dimension_id": "provenance_capture_limitation_posture",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "provenance_and_capture_limitations_bounded_and_preserved",
+        "unresolved_key": "provenance_capture_limitation_posture_unresolved"
+      },
+      "receiver_answerability_fit": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "bounded_receiver_answerability_fit_contradicted",
+        "dimension_id": "receiver_answerability_fit",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "bounded_receiver_answerability_fit_supported",
+        "unresolved_key": "bounded_receiver_answerability_fit_unresolved"
+      },
+      "refusal_withholding_compatibility": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "incompatible_with_recorded_refusal_or_withholding_posture",
+        "dimension_id": "refusal_withholding_compatibility",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "compatible_with_recorded_refusal_and_withholding_postures",
+        "unresolved_key": "refusal_withholding_compatibility_unresolved"
+      },
+      "scope_constrained_usability": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "not_usable_within_selected_scope",
+        "dimension_id": "scope_constrained_usability",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "usable_within_selected_scope",
+        "unresolved_key": "scope_constrained_usability_unresolved"
+      },
+      "selected_purpose_adequacy": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "selected_purpose_adequacy_contradicted",
+        "dimension_id": "selected_purpose_adequacy",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "selected_purpose_adequacy_supported",
+        "unresolved_key": "selected_purpose_adequacy_unresolved"
+      },
+      "unresolved_contradiction_posture": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "material_contradiction_present_for_selected_purpose",
+        "dimension_id": "unresolved_contradiction_posture",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "no_unresolved_material_contradiction_for_selected_purpose",
+        "unresolved_key": "material_contradiction_posture_unresolved"
+      },
+      "unsupported_assumption_dependency": {
+        "basis_items_count": 2,
+        "basis_non_claims_validated": true,
+        "basis_references_count": 3,
+        "complete_supplied_basis_omitted": true,
+        "contradiction_key": "required_unsupported_assumption_dependency_present",
+        "dimension_id": "unsupported_assumption_dependency",
+        "evaluator_reference_supplied": true,
+        "non_conversion_statement_validated": true,
+        "receiver_side_answerable_basis_candidate_id": "receiver_side_answerable_basis_candidate_001",
+        "selected_candidate_sufficiency_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+        "support_key": "no_required_unsupported_assumption_dependency",
+        "unresolved_key": "unsupported_assumption_dependency_unresolved"
+      }
+    },
+    "no_caller_supplied_operation_result": true,
+    "sufficiency_basis_complete": true,
+    "sufficiency_basis_supplied": true
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_checks": [
+    {
+      "name": "request.operation_id",
+      "passed": true
+    },
+    {
+      "name": "request.operation_type",
+      "passed": true
+    },
+    {
+      "name": "request.operation_version",
+      "passed": true
+    },
+    {
+      "name": "request.operation_scope",
+      "passed": true
+    },
+    {
+      "name": "request.receiver_side_answerable_basis_candidate_id",
+      "passed": true
+    },
+    {
+      "name": "request.receiver_side_answerable_basis_candidate_type",
+      "passed": true
+    },
+    {
+      "name": "request.receiver_side_answerable_basis_candidate_scope",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_reception_operation_id",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_evaluation_boundary_id",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_evaluation_operation_id",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_sufficiency_boundary_id",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_sufficiency_boundary_type",
+      "passed": true
+    },
+    {
+      "name": "request.selected_candidate_sufficiency_boundary_result_required",
+      "passed": true
+    },
+    {
+      "name": "request.governing_sufficiency_operation_specification_path",
+      "passed": true
+    },
+    {
+      "name": "request.selected_sufficiency_boundary_artifact_path",
+      "passed": true
+    },
+    {
+      "name": "request.admissible_future_route",
+      "passed": true
+    },
+    {
+      "name": "request.required_upstream_boundary_declarations",
+      "passed": true
+    },
+    {
+      "name": "request.request_caller_selected_dimension_result",
+      "passed": true
+    },
+    {
+      "name": "request.request_caller_selected_candidate_result",
+      "passed": true
+    },
+    {
+      "name": "request.request_partial_evaluation",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_sufficiency_preclaim",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_insufficiency_preclaim",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_indeterminacy_preclaim",
+      "passed": true
+    },
+    {
+      "name": "request.request_receiver_attestation_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_receiver_attestation_support",
+      "passed": true
+    },
+    {
+      "name": "request.request_receiver_attestation_boundary_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_receiver_answerable_receipt_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_receiver_answerable_receipt_boundary_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_presence_support",
+      "passed": true
+    },
+    {
+      "name": "request.request_presence_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_presence_establishment",
+      "passed": true
+    },
+    {
+      "name": "request.request_presence_recording",
+      "passed": true
+    },
+    {
+      "name": "request.request_presence_re_evaluation_boundary_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_identity_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_relation_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_coupling_assignment",
+      "passed": true
+    },
+    {
+      "name": "request.request_coupling_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_field_machinery_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_runtime_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_api_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_public_interface_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_public_intake_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_authority_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_standing_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_truth_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_continuity_memory_write",
+      "passed": true
+    },
+    {
+      "name": "request.request_output_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_action_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_synchronization_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_repeated_operation_permission_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_reusable_operation_route_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_same_candidate_operation_rerun",
+      "passed": true
+    },
+    {
+      "name": "request.request_automatic_operation_retry_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_operation_debt_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_operation_obligation_creation",
+      "passed": true
+    },
+    {
+      "name": "request.request_follow_on_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_follow_on_work_authorization",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_rejection",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_deletion",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_erasure",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_invalidation",
+      "passed": true
+    },
+    {
+      "name": "request.request_candidate_repair",
+      "passed": true
+    },
+    {
+      "name": "request.request_repository_scan",
+      "passed": true
+    },
+    {
+      "name": "request.request_file_discovery",
+      "passed": true
+    },
+    {
+      "name": "request.request_affected_file_mutation",
+      "passed": true
+    },
+    {
+      "name": "request.request_prior_unsupported_claim_validation",
+      "passed": true
+    },
+    {
+      "name": "request.request_validation_enforcement",
+      "passed": true
+    },
+    {
+      "name": "governing_sufficiency_operation_specification_markers",
+      "passed": true
+    },
+    {
+      "name": "upstream.resolver_module",
+      "passed": true
+    },
+    {
+      "name": "upstream.result_version",
+      "passed": true
+    },
+    {
+      "name": "upstream.outcome",
+      "passed": true
+    },
+    {
+      "name": "upstream.failed_check_count",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_type",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_version",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_scope",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_type",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_version",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_scope",
+      "passed": true
+    },
+    {
+      "name": "upstream.admissible_future_route",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_type",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_scope",
+      "passed": true
+    },
+    {
+      "name": "upstream.selected_candidate_reception_operation_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.selected_candidate_evaluation_boundary_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.selected_candidate_evaluation_operation_id",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_result",
+      "passed": true
+    },
+    {
+      "name": "upstream.boundary_result_alias",
+      "passed": true
+    },
+    {
+      "name": "upstream.candidate_sufficiency_boundary_recorded",
+      "passed": true
+    },
+    {
+      "name": "upstream.candidate_sufficiency_boundary_result_recorded",
+      "passed": true
+    },
+    {
+      "name": "upstream.candidate_sufficiency_consideration_allowed",
+      "passed": true
+    },
+    {
+      "name": "upstream.candidate_sufficiency_boundary_exhausted",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_recorded",
+      "passed": true
+    },
+    {
+      "name": "upstream.receiver_side_answerable_basis_candidate_sufficiency_boundary_result_recorded",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.atomic_gate_validated",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.eight_dimensions_validated",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.candidate_aggregate_validated",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.exhaustion_validated",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.current_false_posture_validated",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.candidate_results_false",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.receiver_receipt_presence_downstream_false",
+      "passed": true
+    },
+    {
+      "name": "upstream.summary.repeated_reusable_rerun_false",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_side_answerable_basis_candidate_sufficient",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_side_answerable_basis_candidate_insufficient",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_side_answerable_basis_candidate_indeterminate",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_decided",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_established",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_insufficiency_established",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_indeterminacy_established",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_operation_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_operation_authorized",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_operation_executed",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_attestation_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_attestation_supported",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_attestation_boundary_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_answerable_receipt_present",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.receiver_answerable_receipt_boundary_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.presence_supported",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.presence_authorized",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.presence_established",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.presence_recorded",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.presence_re_evaluation_boundary_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.repeated_candidate_sufficiency_boundary_permission_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.reusable_candidate_sufficiency_route_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.same_candidate_sufficiency_boundary_rerun_authorized",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.automatic_candidate_sufficiency_boundary_retry_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_boundary_debt_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.candidate_sufficiency_boundary_obligation_created",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.follow_on_authorized",
+      "passed": true
+    },
+    {
+      "name": "upstream.false.follow_on_work_authorized",
+      "passed": true
+    },
+    {
+      "name": "upstream.corrected_what_remains_open",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.receiver_answerability_fit",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.selected_purpose_adequacy",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.bounded_material_completeness",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.unresolved_contradiction_posture",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.unsupported_assumption_dependency",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.scope_constrained_usability",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.refusal_withholding_compatibility",
+      "passed": true
+    },
+    {
+      "name": "sufficiency_basis.provenance_capture_limitation_posture",
+      "passed": true
+    }
+  ],
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_dimensions": {
+    "bounded_material_completeness": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "bounded_material_incomplete_for_selected_purpose",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "bounded_material_completeness",
+      "dimension_label": "bounded material completeness",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "bounded_material_complete_for_selected_purpose",
+      "unresolved_key": "bounded_material_completeness_unresolved"
+    },
+    "provenance_capture_limitation_posture": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "provenance_or_capture_limitation_materially_contradicts_selected_use",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "provenance_capture_limitation_posture",
+      "dimension_label": "provenance and capture limitation posture",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "provenance_and_capture_limitations_bounded_and_preserved",
+      "unresolved_key": "provenance_capture_limitation_posture_unresolved"
+    },
+    "receiver_answerability_fit": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "bounded_receiver_answerability_fit_contradicted",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "receiver_answerability_fit",
+      "dimension_label": "receiver-answerability fit",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "bounded_receiver_answerability_fit_supported",
+      "unresolved_key": "bounded_receiver_answerability_fit_unresolved"
+    },
+    "refusal_withholding_compatibility": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "incompatible_with_recorded_refusal_or_withholding_posture",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "refusal_withholding_compatibility",
+      "dimension_label": "refusal and withholding compatibility",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "compatible_with_recorded_refusal_and_withholding_postures",
+      "unresolved_key": "refusal_withholding_compatibility_unresolved"
+    },
+    "scope_constrained_usability": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "not_usable_within_selected_scope",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "scope_constrained_usability",
+      "dimension_label": "scope-constrained usability",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "usable_within_selected_scope",
+      "unresolved_key": "scope_constrained_usability_unresolved"
+    },
+    "selected_purpose_adequacy": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "selected_purpose_adequacy_contradicted",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "selected_purpose_adequacy",
+      "dimension_label": "selected-purpose adequacy",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "selected_purpose_adequacy_supported",
+      "unresolved_key": "selected_purpose_adequacy_unresolved"
+    },
+    "unresolved_contradiction_posture": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "material_contradiction_present_for_selected_purpose",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "unresolved_contradiction_posture",
+      "dimension_label": "unresolved contradiction posture",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "no_unresolved_material_contradiction_for_selected_purpose",
+      "unresolved_key": "material_contradiction_posture_unresolved"
+    },
+    "unsupported_assumption_dependency": {
+      "basis_items_count": 2,
+      "basis_non_claims_validated": true,
+      "basis_referenced": true,
+      "basis_references_count": 3,
+      "complete_supplied_basis_omitted": true,
+      "contradiction_key": "required_unsupported_assumption_dependency_present",
+      "dimension_established": true,
+      "dimension_evaluated": true,
+      "dimension_id": "unsupported_assumption_dependency",
+      "dimension_label": "unsupported assumption dependency",
+      "dimension_result": "SATISFIED",
+      "evaluator_reference_supplied": true,
+      "non_conversion_statement_validated": true,
+      "result_derived_from_rule_inputs": true,
+      "support_key": "no_required_unsupported_assumption_dependency",
+      "unresolved_key": "unsupported_assumption_dependency_unresolved"
+    }
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_metadata": {
+    "operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+    "operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "operation_version": "0.1.0",
+    "selected_sufficiency_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min/receiver_side_answerable_basis_candidate_sufficiency_boundary_001__receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min_result.json"
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_non_meaning": {
+    "all_evaluation_dimensions_satisfied_is_not_candidate_sufficiency": true,
+    "basis_items_are_not_established_truth": true,
+    "basis_references_are_not_verified_provenance": true,
+    "candidate_evaluation_is_not_candidate_sufficiency": true,
+    "candidate_indeterminate_is_not_candidate_insufficiency": true,
+    "candidate_insufficient_is_not_candidate_existence_rejection": true,
+    "candidate_sufficient_is_not_presence_support": true,
+    "candidate_sufficient_is_not_receiver_answerable_receipt": true,
+    "candidate_sufficient_is_not_receiver_attestation": true,
+    "consideration_allowed_is_not_candidate_sufficiency_decided": true,
+    "evaluator_reference_is_not_authority_identity_standing_or_truth": true,
+    "operation_exhaustion_is_not_downstream_authorization": true,
+    "sufficiency_basis_is_not_sufficiency_result": true
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_statement": {
+    "boundary_not_reopened": true,
+    "boundary_not_rerun": true,
+    "completed_candidate_result_recorded": true,
+    "evaluation_basis_not_reused_as_sufficiency_basis": true,
+    "no_caller_selected_candidate_result_accepted": true,
+    "no_caller_selected_dimension_result_accepted": true,
+    "one_selected_allowed_boundary_consumed_as_upstream_standing": true,
+    "open_does_not_mean_next_unless_separately_selected": true,
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true,
+    "operation_exhausted_only_after_completed_candidate_result": true,
+    "operation_single_use_when_completed": true,
+    "partial_evaluation_does_not_stand": true,
+    "result_level_non_claims_canonical_false": true,
+    "separate_sufficiency_basis_required": true
+  },
+  "receiver_side_answerable_basis_candidate_sufficiency_operation_summary": {
+    "atomic_sufficiency_basis_gate_passed": true,
+    "candidate_result_postures": {
+      "candidate_indeterminacy_established": false,
+      "candidate_insufficiency_established": false,
+      "candidate_sufficiency_decided": true,
+      "candidate_sufficiency_established": true,
+      "receiver_side_answerable_basis_candidate_indeterminate": false,
+      "receiver_side_answerable_basis_candidate_insufficient": false,
+      "receiver_side_answerable_basis_candidate_sufficient": true
+    },
+    "candidate_sufficiency_operation_exhausted": true,
+    "complete_boundary_artifact_omitted": true,
+    "complete_supplied_basis_omitted": true,
+    "dimension_results": {
+      "bounded_material_completeness": "SATISFIED",
+      "provenance_capture_limitation_posture": "SATISFIED",
+      "receiver_answerability_fit": "SATISFIED",
+      "refusal_withholding_compatibility": "SATISFIED",
+      "scope_constrained_usability": "SATISFIED",
+      "selected_purpose_adequacy": "SATISFIED",
+      "unresolved_contradiction_posture": "SATISFIED",
+      "unsupported_assumption_dependency": "SATISFIED"
+    },
+    "failed_check_count": 0,
+    "governing_paths": {
+      "governing_sufficiency_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+      "selected_sufficiency_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min/receiver_side_answerable_basis_candidate_sufficiency_boundary_001__receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min_result.json"
+    },
+    "marker_validation": {
+      "governing_sufficiency_operation_specification": true
+    },
+    "operation_id": "receiver_side_answerable_basis_candidate_sufficiency_operation_001",
+    "operation_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENT",
+    "operation_scope": "DECIDE_SUFFICIENCY_POSTURE_OF_ONE_SELECTED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+    "operation_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION",
+    "operation_version": "0.1.0",
+    "outcome": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_RECORDED",
+    "passed_check_count": 140,
+    "receiver_receipt_presence_downstream_locks_false": true,
+    "repeated_reusable_rerun_retry_debt_obligation_locks_false": true,
+    "resolver_module": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+    "result_version": "0.1.0",
+    "selected_boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+    "selected_boundary_result_required": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_CONSIDERATION_ALLOWED",
+    "selected_candidate_id": "receiver_side_answerable_basis_candidate_001",
+    "sufficiency_basis_complete": true,
+    "sufficiency_basis_supplied": true,
+    "upstream_boundary_validated": true
+  },
+  "resolver_module": "resolve_receiver_side_answerable_basis_candidate_sufficiency_operation_v0_min",
+  "result_version": "0.1.0",
+  "upstream_basis": {
+    "complete_boundary_artifact_omitted": true,
+    "complete_upstream_checks_omitted": true,
+    "corrected_open_state_validation": true,
+    "current_false_posture_validation": {
+      "automatic_candidate_sufficiency_boundary_retry_created": true,
+      "candidate_indeterminacy_established": true,
+      "candidate_insufficiency_established": true,
+      "candidate_sufficiency_boundary_debt_created": true,
+      "candidate_sufficiency_boundary_obligation_created": true,
+      "candidate_sufficiency_decided": true,
+      "candidate_sufficiency_established": true,
+      "candidate_sufficiency_operation_authorized": true,
+      "candidate_sufficiency_operation_created": true,
+      "candidate_sufficiency_operation_executed": true,
+      "follow_on_authorized": true,
+      "follow_on_work_authorized": true,
+      "presence_authorized": true,
+      "presence_established": true,
+      "presence_re_evaluation_boundary_created": true,
+      "presence_recorded": true,
+      "presence_supported": true,
+      "receiver_answerable_receipt_boundary_created": true,
+      "receiver_answerable_receipt_present": true,
+      "receiver_attestation_boundary_created": true,
+      "receiver_attestation_created": true,
+      "receiver_attestation_supported": true,
+      "receiver_side_answerable_basis_candidate_indeterminate": true,
+      "receiver_side_answerable_basis_candidate_insufficient": true,
+      "receiver_side_answerable_basis_candidate_sufficient": true,
+      "repeated_candidate_sufficiency_boundary_permission_created": true,
+      "reusable_candidate_sufficiency_route_created": true,
+      "same_candidate_sufficiency_boundary_rerun_authorized": true
+    },
+    "governing_paths": {
+      "governing_sufficiency_operation_specification_path": "spec/RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_OPERATION_V0_MIN_SPEC.md",
+      "selected_sufficiency_boundary_artifact_path": "artifacts/integrity_host_v0_min_coexistence_receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min/receiver_side_answerable_basis_candidate_sufficiency_boundary_001__receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min_result.json"
+    },
+    "marker_validation": {
+      "governing_sufficiency_operation_specification": true
+    },
+    "selected_boundary_identity": {
+      "boundary_id": "receiver_side_answerable_basis_candidate_sufficiency_boundary_001",
+      "boundary_result": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_CONSIDERATION_ALLOWED",
+      "boundary_scope": "CONSIDER_SUFFICIENCY_OF_ONE_COMPLETEDLY_EVALUATED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+      "boundary_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BOUNDARY",
+      "boundary_version": "0.1.0"
+    },
+    "selected_boundary_metadata": {
+      "failed_check_count": 0,
+      "outcome": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_SUFFICIENCY_BOUNDARY_ALLOWED",
+      "passed_check_count": 98,
+      "resolver_module": "resolve_receiver_side_answerable_basis_candidate_sufficiency_boundary_v0_min",
+      "result_version": "0.1.0"
+    },
+    "selected_candidate_identity": {
+      "candidate_id": "receiver_side_answerable_basis_candidate_001",
+      "candidate_scope": "ONE_SEPARATELY_SUPPLIED_RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE_ONLY",
+      "candidate_type": "RECEIVER_SIDE_ANSWERABLE_BASIS_CANDIDATE",
+      "evaluation_boundary_id": "receiver_side_answerable_basis_candidate_evaluation_boundary_001",
+      "evaluation_operation_id": "receiver_side_answerable_basis_candidate_evaluation_operation_001",
+      "reception_operation_id": "receiver_side_answerable_basis_reception_operation_001"
+    },
+    "upstream_boundary_validation": {
+      "atomic_gate_validated": true,
+      "candidate_aggregate_validated": true,
+      "candidate_results_false": true,
+      "candidate_sufficiency_boundary_exhausted": true,
+      "candidate_sufficiency_boundary_recorded": true,
+      "candidate_sufficiency_boundary_result_recorded": true,
+      "candidate_sufficiency_consideration_allowed": true,
+      "current_false_posture_validated": true,
+      "eight_dimensions_validated": true,
+      "exhaustion_validated": true,
+      "receiver_receipt_presence_downstream_false": true,
+      "receiver_side_answerable_basis_candidate_sufficiency_boundary_recorded": true,
+      "receiver_side_answerable_basis_candidate_sufficiency_boundary_result_recorded": true,
+      "repeated_reusable_rerun_false": true
+    }
+  },
+  "what_remains_open": [
+    "receiver-attestation boundary, if separately selected",
+    "receiver-answerable-receipt boundary, only after later lawful basis",
+    "presence re-evaluation, only after later lawful basis",
+    "identity",
+    "relation",
+    "coupling",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "authority",
+    "standing",
+    "output",
+    "action",
+    "synchronization",
+    "follow-on work"
+  ]
+}
