@@ -1,0 +1,1183 @@
+{
+  "admissible_future_route": null,
+  "block": {
+    "block_code": null,
+    "blocked": false,
+    "code": null,
+    "reason": null
+  },
+  "blocked_conversions": [
+    "V1_FIELD_CORRECTION_TO_V1_ARTIFACT_OVERWRITE",
+    "ONE_FIELD_SUCCESSOR_TO_FULL_RESULT_REPLACEMENT",
+    "LOCAL_POSTURE_CONTRADICTION_TO_OPERATION_FAILURE",
+    "SUCCESSOR_CORRECTION_TO_CONDITION_REEVALUATION",
+    "SUCCESSOR_CORRECTION_TO_LEDGER_CHANGE",
+    "SUCCESSOR_CORRECTION_TO_AGGREGATE_CHANGE",
+    "SUCCESSOR_CORRECTION_TO_AUTHENTICITY_OR_NON_FORGERY",
+    "SUCCESSOR_CORRECTION_TO_COMPLETE_RECEIVER_ANSWERABLE_BASIS",
+    "SUCCESSOR_CORRECTION_TO_PRESENCE_TRUTH_STANDING_OR_AUTHORITY",
+    "SUCCESSOR_RESULT_TO_REPEAT_RETRY_DEBT_OBLIGATION_SCHEDULE_OR_AUTOMATIC_NEXT",
+    "SUCCESSOR_RESULT_TO_REPAIR_SCAN_DISCOVERY_VALIDATION_OR_RECONSTRUCTION"
+  ],
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_successor": {
+    "admissible_future_route": null,
+    "condition_reevaluation_performed": false,
+    "prior_operation_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001",
+    "repair_performed": false,
+    "selected_matter_class": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+    "successor_correction_recorded": true,
+    "successor_exhausted": true,
+    "successor_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001_v2",
+    "successor_no_partial_ledger_standing": true,
+    "successor_result": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR_RECORDED",
+    "successor_scope": "RECORD_ONE_ADDITIVE_SUCCESSOR_CORRECTING_NO_PARTIAL_LEDGER_STANDING_ONLY",
+    "successor_type": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR",
+    "successor_version": "0.2.0",
+    "v1_artifact_overwritten": false
+  },
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_checks": [
+    {
+      "block_code": null,
+      "check_id": "request.canonical_schema",
+      "expected": "exact canonical key set",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.intent",
+      "expected": "RECORD_BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V2_SUCCESSOR",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.successor_id",
+      "expected": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001_v2",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.successor_type",
+      "expected": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.successor_version",
+      "expected": "0.2.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.successor_scope",
+      "expected": "RECORD_ONE_ADDITIVE_SUCCESSOR_CORRECTING_NO_PARTIAL_LEDGER_STANDING_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.governing_specification_path",
+      "expected": "spec/BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V0_MIN_SPEC.md",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.governing_specification_sha256",
+      "expected": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_artifact_path",
+      "expected": "artifacts/integrity_host_v0_min_coexistence_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min/body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001__body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_result.json",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_artifact_sha256",
+      "expected": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_id",
+      "expected": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_type",
+      "expected": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_version",
+      "expected": "0.1.0",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_operation_scope",
+      "expected": "EVALUATE_AND_RECORD_ONE_HETEROGENEOUS_TEN_CONDITION_MATRIX_FROM_ONE_FROZEN_BODY_HELD_BASIS_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.selected_matter_class",
+      "expected": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.contradiction_id",
+      "expected": "V1_NO_PARTIAL_LEDGER_STANDING_FALSE_WITH_COMPLETE_TEN_ROW_LEDGER",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.contradictory_field_path",
+      "expected": "operation_posture.no_partial_ledger_standing",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prior_field_value",
+      "expected": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.successor_field_value",
+      "expected": true,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.correction_reason",
+      "expected": "THE_COMPLETED_OPERATION_RECORDED_EXACTLY_TEN_ORDERED_ROWS_WITH_NO_PARTIAL_LEDGER_STANDING",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.one_field_difference_contract",
+      "expected": {
+        "correction_reason": "THE_COMPLETED_OPERATION_RECORDED_EXACTLY_TEN_ORDERED_ROWS_WITH_NO_PARTIAL_LEDGER_STANDING",
+        "field_path": "operation_posture.no_partial_ledger_standing",
+        "prior_value": false,
+        "prior_value_preserved_as_historical": true,
+        "successor_value": true,
+        "successor_value_appended": true
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.required_v1_standing_contract",
+      "expected": {
+        "admissible_future_route": null,
+        "blocked": false,
+        "completed_operation_result_posture_count": 1,
+        "evaluation_performed": true,
+        "failed_check_count": 0,
+        "heterogeneous_condition_matrix_recorded": true,
+        "operation_basis_admitted": true,
+        "operation_basis_supplied": true,
+        "operation_exhausted": true,
+        "operation_result": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_RECORDED",
+        "outcome": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_RECORDED",
+        "passed_check_count": 182,
+        "resolver_module": "resolve_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min",
+        "result_version": "0.1.0"
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.unaffected_standing_preservation_contract",
+      "expected": {
+        "condition_order": [
+          "receiver_answerable_basis_custody_distinct",
+          "receiver_answerable_basis_controlled_by_declaring_side",
+          "repo_local_execution_only",
+          "operator_only_attestation",
+          "derivative_rendering_attestation",
+          "same_custody_countersignature",
+          "automatic_acknowledgement",
+          "generated_affirmation",
+          "forged_receiver_attestation",
+          "inadmissible_receiver_basis"
+        ],
+        "dependency_ceiling_count": 10,
+        "evidence_class_count": 3,
+        "future_route": null,
+        "operation_posture_except_contradiction_sha256": "5e1b553c6b0e1f032e16fefe0a49b225d0f1ac510cc84896433fa8e2d27eb2be",
+        "requires_basis_class": "EXTERNAL_AUTHENTICITY_BASIS",
+        "requires_basis_condition": "forged_receiver_attestation",
+        "requires_basis_row_count": 1,
+        "section_sha256": {
+          "aggregate_matrix_posture": "26de43c580ed1dc375400e06bf07595ce2651f7e152456c82a9dcbcb283ca077",
+          "blocked_conversions": "74e389141a49440b1dfb5b4d21477216191e4443d5047ad5740a0e0f372326ee",
+          "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation": "3bd288406a21e38d4e520f47826f7a32dd74a0f88ca8e483cbe9ee8594438e8c",
+          "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_non_meaning": "36cf9e2181655dc13e1f676b5e4976b1e1f992c4c8560dcc38ef59161b534a18",
+          "condition_evaluations": "343991a326db32ca3091b16b583e341f4c7892d3966ff2c5c86e8167dc6ca141",
+          "condition_ledger": "99d4169e3f2df330b6b809ab5f6eff77c8f3f15d4a37deda3d0f656e128f1f1d",
+          "condition_ledger_schema_contract": "88b1c9d497ef374d5ac4255a95855767a0330271210e71ed0194b18367d22c13",
+          "dependency_ceiling_contract": "94113f14d8ba39dd0fae90763a8b9788395ac3cf6350cd86311d65c01b96feb5",
+          "exact_matter_and_family_posture": "67d280d56b15da57ce091cccd5299a86ee27e84b678595b5cf9ba869286aef2e",
+          "lineage_preservation_posture": "8aef16a1a2d15ff6b13ff654e20f27b7bc7b9166d13785bc3b2f3c69dd819233",
+          "non_claims": "75eff15cebdd8bc8eda2145922200437321adfd32274856596725ecbe5f692f2",
+          "omission_posture": "f938eb2a85709245cadc0072532a8d854db0eec8869fbc6f536b2f1c23aae1ba",
+          "operation_admissibility_evaluations": "39a482f755bba3382864dd70283a74b14bd193661ed87e0d0a761e4677eca2db",
+          "raw_signal_posture": "2653ad7e085480d397ea39567b1b4fb92dd32435c566880c99daa16d82abee3f",
+          "temporal_evidence_posture": "d78f679d728e954b113249503d724a9add7859787034a3c6c0f7b5af0141b3aa"
+        },
+        "supported_row_count": 9
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.declared_non_claims",
+      "expected": "complete canonical false mapping",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request.prohibited_payload_absent",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "specification.sha256",
+      "expected": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "specification.governing_markers",
+      "expected": [
+        "# Body-Held Receiver-Answerable-Basis Integrity-Condition Evaluation Operation V0 Minimum Specification",
+        "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION",
+        "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+        "No blocked result may carry partial ledger standing."
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1_artifact.strict_duplicate_key_free_json",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1_artifact.sha256",
+      "expected": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.identity",
+      "expected": {
+        "resolver_module": "resolve_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min",
+        "result_version": "0.1.0"
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.recorded_result",
+      "expected": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_RECORDED",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.counts_and_clear_block",
+      "expected": "182 passed, 0 failed, unblocked",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.completion",
+      "expected": "complete and exhausted single operation",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.future_route_null",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.all_three_admissibility_evaluations",
+      "expected": {
+        "operation_scope_and_matter_admissibility_evaluation": "PASSED",
+        "operation_source_and_record_basis_admissibility_evaluation": "PASSED",
+        "operation_transition_admissibility_evaluation": "PASSED"
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.operation_object",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.aggregate_matrix_exact",
+      "expected": {
+        "all_ten_conditions_evaluated": true,
+        "compact_support_false_count": 0,
+        "compact_support_null_count": 1,
+        "compact_support_true_count": 9,
+        "condition_ledger_populated": true,
+        "condition_result_count": 10,
+        "dependency_ceiling_count": 10,
+        "evidence_class_count": 3,
+        "indeterminate_count": 0,
+        "no_overwrite_count": 10,
+        "not_evaluated_count": 0,
+        "ordered_condition_count": 10,
+        "prior_posture_preserved_count": 10,
+        "requires_basis_classes": [
+          "EXTERNAL_AUTHENTICITY_BASIS"
+        ],
+        "requires_basis_conditions": [
+          "forged_receiver_attestation"
+        ],
+        "requires_basis_count": 1,
+        "supported_by_admitted_body_held_records_count": 9
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.list",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.cardinality",
+      "expected": 10,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.exact_seventeen_field_schema",
+      "expected": [
+        "condition_id",
+        "required_value",
+        "prior_condition_posture",
+        "evidence_class",
+        "permitted_artifact_references",
+        "supporting_fields_or_bytes",
+        "support_proposition",
+        "limitation",
+        "dependency_conditions",
+        "dependency_ceiling",
+        "candidate_evidence_considered_but_not_admitted",
+        "evaluation_posture",
+        "required_basis_class",
+        "compact_support_boolean",
+        "successor_condition_posture",
+        "prior_posture_preserved",
+        "no_overwrite"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.condition_order",
+      "expected": [
+        "receiver_answerable_basis_custody_distinct",
+        "receiver_answerable_basis_controlled_by_declaring_side",
+        "repo_local_execution_only",
+        "operator_only_attestation",
+        "derivative_rendering_attestation",
+        "same_custody_countersignature",
+        "automatic_acknowledgement",
+        "generated_affirmation",
+        "forged_receiver_attestation",
+        "inadmissible_receiver_basis"
+      ],
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.complete_rows_and_locks",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.supported_and_requires_basis_counts",
+      "expected": {
+        "requires_basis": 1,
+        "supported": 9
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.ledger.forgery_requires_external_authenticity",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.condition_evaluations_exact",
+      "expected": {
+        "automatic_acknowledgement": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "derivative_rendering_attestation": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "forged_receiver_attestation": "REQUIRES_BASIS",
+        "generated_affirmation": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "inadmissible_receiver_basis": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "operator_only_attestation": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "receiver_answerable_basis_controlled_by_declaring_side": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "receiver_answerable_basis_custody_distinct": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "repo_local_execution_only": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS",
+        "same_custody_countersignature": "SUPPORTED_BY_ADMITTED_BODY_HELD_RECORDS"
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.result_no_partial_ledger_check",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.contradictory_field_exact_false",
+      "expected": false,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.aggregate_matrix_posture",
+      "expected": "26de43c580ed1dc375400e06bf07595ce2651f7e152456c82a9dcbcb283ca077",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.blocked_conversions",
+      "expected": "74e389141a49440b1dfb5b4d21477216191e4443d5047ad5740a0e0f372326ee",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_non_meaning",
+      "expected": "36cf9e2181655dc13e1f676b5e4976b1e1f992c4c8560dcc38ef59161b534a18",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.condition_evaluations",
+      "expected": "343991a326db32ca3091b16b583e341f4c7892d3966ff2c5c86e8167dc6ca141",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.condition_ledger",
+      "expected": "99d4169e3f2df330b6b809ab5f6eff77c8f3f15d4a37deda3d0f656e128f1f1d",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.condition_ledger_schema_contract",
+      "expected": "88b1c9d497ef374d5ac4255a95855767a0330271210e71ed0194b18367d22c13",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.dependency_ceiling_contract",
+      "expected": "94113f14d8ba39dd0fae90763a8b9788395ac3cf6350cd86311d65c01b96feb5",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.exact_matter_and_family_posture",
+      "expected": "67d280d56b15da57ce091cccd5299a86ee27e84b678595b5cf9ba869286aef2e",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.lineage_preservation_posture",
+      "expected": "8aef16a1a2d15ff6b13ff654e20f27b7bc7b9166d13785bc3b2f3c69dd819233",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.non_claims",
+      "expected": "75eff15cebdd8bc8eda2145922200437321adfd32274856596725ecbe5f692f2",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.omission_posture",
+      "expected": "f938eb2a85709245cadc0072532a8d854db0eec8869fbc6f536b2f1c23aae1ba",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.operation_admissibility_evaluations",
+      "expected": "39a482f755bba3382864dd70283a74b14bd193661ed87e0d0a761e4677eca2db",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.body_held_receiver_answerable_basis_integrity_condition_evaluation_operation",
+      "expected": "3bd288406a21e38d4e520f47826f7a32dd74a0f88ca8e483cbe9ee8594438e8c",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.raw_signal_posture",
+      "expected": "2653ad7e085480d397ea39567b1b4fb92dd32435c566880c99daa16d82abee3f",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.unaffected_section.temporal_evidence_posture",
+      "expected": "d78f679d728e954b113249503d724a9add7859787034a3c6c0f7b5af0141b3aa",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.operation_posture_except_contradiction",
+      "expected": "5e1b553c6b0e1f032e16fefe0a49b225d0f1ac510cc84896433fa8e2d27eb2be",
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.raw_signal_non_admission",
+      "expected": {
+        "authenticity_upgrade_from_signal_authorized": false,
+        "raw_signal_body_admitted": false,
+        "raw_signal_body_considered": true,
+        "raw_signal_body_known_to_exist": true,
+        "raw_signal_body_read_authorized": false,
+        "signal_morphology_evaluation_authorized": false
+      },
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "v1.non_claims_canonical_false",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.correction_basis",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.exact_one_field_difference",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.no_second_semantic_change",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.unaffected_standing_preserved",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.raw_signal_and_zip_not_read",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.non_claims_canonical_false",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.future_route_null",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.no_overwrite_repair_discovery_or_reconstruction",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "successor.append_only_chronology",
+      "expected": null,
+      "failure_code": null,
+      "passed": true
+    }
+  ],
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_metadata": {
+    "current_clock_used": false,
+    "deterministic": true,
+    "governing_specification_path": "spec/BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V0_MIN_SPEC.md",
+    "governing_specification_sha256": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+    "network_used": false,
+    "prior_operation_artifact_path": "artifacts/integrity_host_v0_min_coexistence_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min/body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001__body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_result.json",
+    "prior_operation_artifact_sha256": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+    "prior_operation_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001",
+    "randomness_used": false,
+    "resolver_module": "resolve_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2",
+    "result_version": "0.2.0",
+    "selected_matter_class": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+    "successor_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001_v2",
+    "successor_scope": "RECORD_ONE_ADDITIVE_SUCCESSOR_CORRECTING_NO_PARTIAL_LEDGER_STANDING_ONLY",
+    "successor_type": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR",
+    "successor_version": "0.2.0"
+  },
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_non_meaning": {
+    "historical_false_field_preservation_is_not_current_successor_endorsement": true,
+    "one_local_field_contradiction_is_not_operation_failure": true,
+    "open_does_not_mean_next": true,
+    "successor_correction_does_not_alter_evidence": true,
+    "successor_correction_does_not_alter_support": true,
+    "successor_correction_does_not_establish_reality_wide_facts": true,
+    "successor_correction_does_not_reevaluate_conditions": true,
+    "successor_correction_is_not_complete_receiver_answerable_basis": true,
+    "successor_correction_is_not_retroactive_overwrite": true,
+    "successor_exhaustion_is_not_presence": true,
+    "v1_matrix_remains_complete": true,
+    "v1_operation_recording_remains_valid": true
+  },
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_statement": {
+    "future_route_is_null": true,
+    "no_condition_reevaluation": true,
+    "no_v1_artifact_overwrite": true,
+    "one_additive_successor_correction_recorded": true,
+    "one_field_contradiction_evaluated": true,
+    "one_v1_artifact_consumed": true,
+    "repair_performed": false,
+    "successor_no_partial_ledger_standing": true,
+    "v1_matrix_remains_complete": true,
+    "v1_operation_remains_recorded": true
+  },
+  "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_summary": {
+    "admissible_future_route": null,
+    "contradiction_id": "V1_NO_PARTIAL_LEDGER_STANDING_FALSE_WITH_COMPLETE_TEN_ROW_LEDGER",
+    "contradictory_field_path": "operation_posture.no_partial_ledger_standing",
+    "failed_check_count": 0,
+    "open_is_not_next": true,
+    "outcome": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR_RECORDED",
+    "passed_check_count": 74,
+    "prior_no_partial_ledger_standing": false,
+    "prior_operation_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001",
+    "result_level_non_claims_canonical_false": true,
+    "selected_matter_class": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+    "successor_correction_recorded": true,
+    "successor_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001_v2",
+    "successor_no_partial_ledger_standing": true,
+    "successor_result": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR_RECORDED",
+    "successor_scope": "RECORD_ONE_ADDITIVE_SUCCESSOR_CORRECTING_NO_PARTIAL_LEDGER_STANDING_ONLY",
+    "successor_type": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR",
+    "successor_version": "0.2.0",
+    "v1_matrix_remains_complete": true,
+    "v1_operation_remains_recorded": true
+  },
+  "canonical_request_validation": {
+    "exact_schema_validated": true,
+    "one_field_difference_request_validated": true,
+    "request_validated": true,
+    "second_correction_absent": true,
+    "semantic_payload_absent": true
+  },
+  "chronology_preservation": {
+    "append_only_order": [
+      {
+        "historically_preserved": true,
+        "position": 1,
+        "standing": "PRIOR_PRESENCE_REQUIRES_BASIS_STANDING"
+      },
+      {
+        "historically_preserved": true,
+        "position": 2,
+        "standing": "LATER_RECEIVER_ORIGINATING_MODAL_SUPPORT"
+      },
+      {
+        "historically_preserved": true,
+        "position": 3,
+        "standing": "COMPLETED_BODY_HELD_INTEGRITY_CONDITION_EVALUATION_BOUNDARY"
+      },
+      {
+        "historically_preserved": true,
+        "position": 4,
+        "standing": "COMPLETED_V1_TEN_CONDITION_EVALUATION_OPERATION"
+      },
+      {
+        "historically_preserved": true,
+        "position": 5,
+        "standing": "V2_ONE_FIELD_SUCCESSOR_CORRECTION"
+      }
+    ],
+    "chronology_validated": true,
+    "earlier_turns_remain_historically_true": true,
+    "v1_artifact_remains_historical_standing": true
+  },
+  "completed_successor_result_posture_count": 1,
+  "contradiction_validation": {
+    "contradiction_affects_admissibility": false,
+    "contradiction_affects_aggregate_matrix": false,
+    "contradiction_affects_condition_ledger": false,
+    "contradiction_affects_future_route": false,
+    "contradiction_affects_non_claims": false,
+    "contradiction_affects_operation_result": false,
+    "contradiction_id": "V1_NO_PARTIAL_LEDGER_STANDING_FALSE_WITH_COMPLETE_TEN_ROW_LEDGER",
+    "contradiction_scope": "ONE_DERIVED_OPERATION_POSTURE_FIELD_ONLY",
+    "contradiction_validated": true,
+    "contradictory_field_path": "operation_posture.no_partial_ledger_standing",
+    "prior_field_value": false,
+    "successor_field_value": true
+  },
+  "correction_posture": {
+    "contradiction_id": "V1_NO_PARTIAL_LEDGER_STANDING_FALSE_WITH_COMPLETE_TEN_ROW_LEDGER",
+    "contradictory_field_path": "operation_posture.no_partial_ledger_standing",
+    "correction_scope_stayed_one_field_only": true,
+    "no_partial_ledger_standing_corrected": true,
+    "prior_no_partial_ledger_standing": false,
+    "prior_operation_artifact_overwritten": false,
+    "prior_operation_artifact_preserved": true,
+    "prior_operation_posture_overwritten": false,
+    "prior_operation_result_preserved": true,
+    "successor_is_additive": true,
+    "successor_no_partial_ledger_standing": true,
+    "v1_matrix_remains_complete": true,
+    "v1_operation_remains_exhausted": true,
+    "v1_operation_remains_recorded": true
+  },
+  "declared_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2_successor_request": {
+    "contradiction_id": "V1_NO_PARTIAL_LEDGER_STANDING_FALSE_WITH_COMPLETE_TEN_ROW_LEDGER",
+    "contradictory_field_path": "operation_posture.no_partial_ledger_standing",
+    "correction_reason": "THE_COMPLETED_OPERATION_RECORDED_EXACTLY_TEN_ORDERED_ROWS_WITH_NO_PARTIAL_LEDGER_STANDING",
+    "declared_non_claims": {
+      "action_authorized": false,
+      "any_condition_evaluation_changed": false,
+      "any_dependency_ceiling_changed": false,
+      "any_evidence_class_changed": false,
+      "any_limitation_changed": false,
+      "any_required_basis_class_changed": false,
+      "any_support_proposition_changed": false,
+      "api_created": false,
+      "authority_created": false,
+      "automatic_next_created": false,
+      "automatic_retry_created": false,
+      "complete_receiver_answerable_basis_established": false,
+      "custody_proven": false,
+      "debt_created": false,
+      "field_machinery_created": false,
+      "file_discovery_performed": false,
+      "follow_on_authorized": false,
+      "global_admissibility_established": false,
+      "obligation_created": false,
+      "output_authorized": false,
+      "physical_validity_proven": false,
+      "presence_authorized": false,
+      "presence_established": false,
+      "presence_recorded": false,
+      "presence_supported": false,
+      "provenance_proven": false,
+      "public_interface_created": false,
+      "receiver_attestation_non_forgery_established": false,
+      "receiver_identity_established": false,
+      "repair_performed": false,
+      "repeated_successor_permission_created": false,
+      "repository_scan_performed": false,
+      "reusable_successor_route_created": false,
+      "runtime_created": false,
+      "scheduled_work_created": false,
+      "standing_created": false,
+      "successor_rerun_authorized": false,
+      "threshold_machinery_created": false,
+      "truth_created": false,
+      "truth_settlement_machinery_created": false,
+      "universal_absence_established": false,
+      "v1_aggregate_changed": false,
+      "v1_artifact_deleted": false,
+      "v1_artifact_normalized": false,
+      "v1_artifact_overwritten": false,
+      "v1_artifact_replaced": false,
+      "v1_ledger_changed": false,
+      "v1_operation_failed": false,
+      "v1_operation_invalidated": false,
+      "v1_result_superseded": false,
+      "validation_enforcement_performed": false
+    },
+    "governing_specification_path": "spec/BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V0_MIN_SPEC.md",
+    "governing_specification_sha256": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+    "intent": "RECORD_BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V2_SUCCESSOR",
+    "one_field_difference_contract": {
+      "correction_reason": "THE_COMPLETED_OPERATION_RECORDED_EXACTLY_TEN_ORDERED_ROWS_WITH_NO_PARTIAL_LEDGER_STANDING",
+      "field_path": "operation_posture.no_partial_ledger_standing",
+      "prior_value": false,
+      "prior_value_preserved_as_historical": true,
+      "successor_value": true,
+      "successor_value_appended": true
+    },
+    "prior_field_value": false,
+    "prior_operation_artifact_path": "artifacts/integrity_host_v0_min_coexistence_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min/body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001__body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_result.json",
+    "prior_operation_artifact_sha256": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+    "prior_operation_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001",
+    "prior_operation_scope": "EVALUATE_AND_RECORD_ONE_HETEROGENEOUS_TEN_CONDITION_MATRIX_FROM_ONE_FROZEN_BODY_HELD_BASIS_ONLY",
+    "prior_operation_type": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION",
+    "prior_operation_version": "0.1.0",
+    "required_v1_standing_contract": {
+      "admissible_future_route": null,
+      "blocked": false,
+      "completed_operation_result_posture_count": 1,
+      "evaluation_performed": true,
+      "failed_check_count": 0,
+      "heterogeneous_condition_matrix_recorded": true,
+      "operation_basis_admitted": true,
+      "operation_basis_supplied": true,
+      "operation_exhausted": true,
+      "operation_result": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_RECORDED",
+      "outcome": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_RECORDED",
+      "passed_check_count": 182,
+      "resolver_module": "resolve_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min",
+      "result_version": "0.1.0"
+    },
+    "selected_matter_class": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_REMAINING_TEN_INTEGRITY_CONDITIONS_ONLY",
+    "successor_field_value": true,
+    "successor_id": "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001_v2",
+    "successor_scope": "RECORD_ONE_ADDITIVE_SUCCESSOR_CORRECTING_NO_PARTIAL_LEDGER_STANDING_ONLY",
+    "successor_type": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR",
+    "successor_version": "0.2.0",
+    "unaffected_standing_preservation_contract": {
+      "condition_order": [
+        "receiver_answerable_basis_custody_distinct",
+        "receiver_answerable_basis_controlled_by_declaring_side",
+        "repo_local_execution_only",
+        "operator_only_attestation",
+        "derivative_rendering_attestation",
+        "same_custody_countersignature",
+        "automatic_acknowledgement",
+        "generated_affirmation",
+        "forged_receiver_attestation",
+        "inadmissible_receiver_basis"
+      ],
+      "dependency_ceiling_count": 10,
+      "evidence_class_count": 3,
+      "future_route": null,
+      "operation_posture_except_contradiction_sha256": "5e1b553c6b0e1f032e16fefe0a49b225d0f1ac510cc84896433fa8e2d27eb2be",
+      "requires_basis_class": "EXTERNAL_AUTHENTICITY_BASIS",
+      "requires_basis_condition": "forged_receiver_attestation",
+      "requires_basis_row_count": 1,
+      "section_sha256": {
+        "aggregate_matrix_posture": "26de43c580ed1dc375400e06bf07595ce2651f7e152456c82a9dcbcb283ca077",
+        "blocked_conversions": "74e389141a49440b1dfb5b4d21477216191e4443d5047ad5740a0e0f372326ee",
+        "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation": "3bd288406a21e38d4e520f47826f7a32dd74a0f88ca8e483cbe9ee8594438e8c",
+        "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_non_meaning": "36cf9e2181655dc13e1f676b5e4976b1e1f992c4c8560dcc38ef59161b534a18",
+        "condition_evaluations": "343991a326db32ca3091b16b583e341f4c7892d3966ff2c5c86e8167dc6ca141",
+        "condition_ledger": "99d4169e3f2df330b6b809ab5f6eff77c8f3f15d4a37deda3d0f656e128f1f1d",
+        "condition_ledger_schema_contract": "88b1c9d497ef374d5ac4255a95855767a0330271210e71ed0194b18367d22c13",
+        "dependency_ceiling_contract": "94113f14d8ba39dd0fae90763a8b9788395ac3cf6350cd86311d65c01b96feb5",
+        "exact_matter_and_family_posture": "67d280d56b15da57ce091cccd5299a86ee27e84b678595b5cf9ba869286aef2e",
+        "lineage_preservation_posture": "8aef16a1a2d15ff6b13ff654e20f27b7bc7b9166d13785bc3b2f3c69dd819233",
+        "non_claims": "75eff15cebdd8bc8eda2145922200437321adfd32274856596725ecbe5f692f2",
+        "omission_posture": "f938eb2a85709245cadc0072532a8d854db0eec8869fbc6f536b2f1c23aae1ba",
+        "operation_admissibility_evaluations": "39a482f755bba3382864dd70283a74b14bd193661ed87e0d0a761e4677eca2db",
+        "raw_signal_posture": "2653ad7e085480d397ea39567b1b4fb92dd32435c566880c99daa16d82abee3f",
+        "temporal_evidence_posture": "d78f679d728e954b113249503d724a9add7859787034a3c6c0f7b5af0141b3aa"
+      },
+      "supported_row_count": 9
+    }
+  },
+  "exact_one_field_difference": {
+    "correction_reason": "THE_COMPLETED_OPERATION_RECORDED_EXACTLY_TEN_ORDERED_ROWS_WITH_NO_PARTIAL_LEDGER_STANDING",
+    "field_path": "operation_posture.no_partial_ledger_standing",
+    "prior_value": false,
+    "prior_value_preserved_as_historical": true,
+    "successor_value": true,
+    "successor_value_appended": true
+  },
+  "failed_check_count": 0,
+  "lineage_preservation_posture": {
+    "aggregate_matrix_preserved_without_recalculation": true,
+    "all_unaffected_semantic_standing_preserved": true,
+    "append_only_lineage_preserved": true,
+    "condition_ledger_preserved_without_reemission": true,
+    "v1_artifact_digest_pinned": true,
+    "v1_artifact_preserved_without_overwrite": true,
+    "v1_false_field_preserved_as_historical": true,
+    "v1_operation_exhaustion_preserved": true,
+    "v1_operation_result_preserved": true,
+    "v2_true_field_appended": true
+  },
+  "non_claims": {
+    "action_authorized": false,
+    "any_condition_evaluation_changed": false,
+    "any_dependency_ceiling_changed": false,
+    "any_evidence_class_changed": false,
+    "any_limitation_changed": false,
+    "any_required_basis_class_changed": false,
+    "any_support_proposition_changed": false,
+    "api_created": false,
+    "authority_created": false,
+    "automatic_next_created": false,
+    "automatic_retry_created": false,
+    "complete_receiver_answerable_basis_established": false,
+    "custody_proven": false,
+    "debt_created": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "follow_on_authorized": false,
+    "global_admissibility_established": false,
+    "obligation_created": false,
+    "output_authorized": false,
+    "physical_validity_proven": false,
+    "presence_authorized": false,
+    "presence_established": false,
+    "presence_recorded": false,
+    "presence_supported": false,
+    "provenance_proven": false,
+    "public_interface_created": false,
+    "receiver_attestation_non_forgery_established": false,
+    "receiver_identity_established": false,
+    "repair_performed": false,
+    "repeated_successor_permission_created": false,
+    "repository_scan_performed": false,
+    "reusable_successor_route_created": false,
+    "runtime_created": false,
+    "scheduled_work_created": false,
+    "standing_created": false,
+    "successor_rerun_authorized": false,
+    "threshold_machinery_created": false,
+    "truth_created": false,
+    "truth_settlement_machinery_created": false,
+    "universal_absence_established": false,
+    "v1_aggregate_changed": false,
+    "v1_artifact_deleted": false,
+    "v1_artifact_normalized": false,
+    "v1_artifact_overwritten": false,
+    "v1_artifact_replaced": false,
+    "v1_ledger_changed": false,
+    "v1_operation_failed": false,
+    "v1_operation_invalidated": false,
+    "v1_result_superseded": false,
+    "validation_enforcement_performed": false
+  },
+  "omission_posture": {
+    "complete_material_omission_posture": true,
+    "complete_v1_artifact_body_omitted": true,
+    "complete_v1_condition_evaluations_omitted": true,
+    "complete_v1_condition_ledger_omitted": true,
+    "complete_v1_upstream_artifact_bodies_omitted": true,
+    "excluded_source_bodies_omitted": true,
+    "raw_signal_body_omitted": true,
+    "zip_and_archive_bytes_omitted": true
+  },
+  "outcome": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR_RECORDED",
+  "passed_check_count": 74,
+  "prior_v1_artifact_validation": {
+    "aggregate_matrix_validated": true,
+    "artifact_validated": true,
+    "check_counts_validated": true,
+    "complete_body_omitted": true,
+    "completion_and_null_route_validated": true,
+    "contradictory_false_field_validated": true,
+    "expected_sha256": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+    "identity_and_recorded_result_validated": true,
+    "observed_sha256": "18da6cf8f9250445d4708c7dce0ed8327d8d0577643f793f422a0281f9a6abef",
+    "path": "artifacts/integrity_host_v0_min_coexistence_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min/body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_001__body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_result.json",
+    "result_no_partial_ledger_check_validated": true,
+    "strict_content_validated": true,
+    "surface_validated": true,
+    "ten_row_ledger_validated": true,
+    "three_admissibility_evaluations_validated": true
+  },
+  "resolver_module": "resolve_body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_v0_min_v2",
+  "result_level_non_claims_canonical_false": true,
+  "result_version": "0.2.0",
+  "specification_validation": {
+    "complete_body_omitted": true,
+    "expected_sha256": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+    "observed_sha256": "3600cc9cf91c4938952b289119aeafbab53831e5e060d3d0e8abff357f4ba3dc",
+    "path": "spec/BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_V0_MIN_SPEC.md",
+    "specification_validated": true,
+    "strict_content_validated": true,
+    "surface_validated": true
+  },
+  "successor_posture": {
+    "admissible_future_route": null,
+    "completed_successor_result_posture_count": 1,
+    "contradiction_evaluated": true,
+    "corrected_field_selected": true,
+    "file_discovery_performed": false,
+    "latest_file_selection_performed": false,
+    "no_condition_reevaluation": true,
+    "no_second_semantic_change": true,
+    "raw_signal_or_zip_bytes_read": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "source_reconstruction_performed": false,
+    "successor_basis_admitted": true,
+    "successor_basis_supplied": true,
+    "successor_correction_recorded": true,
+    "successor_exhausted": true
+  },
+  "successor_result": "BODY_HELD_RECEIVER_ANSWERABLE_BASIS_INTEGRITY_CONDITION_EVALUATION_OPERATION_SUCCESSOR_RECORDED",
+  "unaffected_standing_preservation": {
+    "all_unaffected_sections_exactly_equivalent": true,
+    "complete_v1_body_omitted": true,
+    "full_ledger_omitted": true,
+    "observed_operation_posture_except_contradiction_sha256": "5e1b553c6b0e1f032e16fefe0a49b225d0f1ac510cc84896433fa8e2d27eb2be",
+    "observed_section_sha256": {
+      "aggregate_matrix_posture": "26de43c580ed1dc375400e06bf07595ce2651f7e152456c82a9dcbcb283ca077",
+      "blocked_conversions": "74e389141a49440b1dfb5b4d21477216191e4443d5047ad5740a0e0f372326ee",
+      "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation": "3bd288406a21e38d4e520f47826f7a32dd74a0f88ca8e483cbe9ee8594438e8c",
+      "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_non_meaning": "36cf9e2181655dc13e1f676b5e4976b1e1f992c4c8560dcc38ef59161b534a18",
+      "condition_evaluations": "343991a326db32ca3091b16b583e341f4c7892d3966ff2c5c86e8167dc6ca141",
+      "condition_ledger": "99d4169e3f2df330b6b809ab5f6eff77c8f3f15d4a37deda3d0f656e128f1f1d",
+      "condition_ledger_schema_contract": "88b1c9d497ef374d5ac4255a95855767a0330271210e71ed0194b18367d22c13",
+      "dependency_ceiling_contract": "94113f14d8ba39dd0fae90763a8b9788395ac3cf6350cd86311d65c01b96feb5",
+      "exact_matter_and_family_posture": "67d280d56b15da57ce091cccd5299a86ee27e84b678595b5cf9ba869286aef2e",
+      "lineage_preservation_posture": "8aef16a1a2d15ff6b13ff654e20f27b7bc7b9166d13785bc3b2f3c69dd819233",
+      "non_claims": "75eff15cebdd8bc8eda2145922200437321adfd32274856596725ecbe5f692f2",
+      "omission_posture": "f938eb2a85709245cadc0072532a8d854db0eec8869fbc6f536b2f1c23aae1ba",
+      "operation_admissibility_evaluations": "39a482f755bba3382864dd70283a74b14bd193661ed87e0d0a761e4677eca2db",
+      "raw_signal_posture": "2653ad7e085480d397ea39567b1b4fb92dd32435c566880c99daa16d82abee3f",
+      "temporal_evidence_posture": "d78f679d728e954b113249503d724a9add7859787034a3c6c0f7b5af0141b3aa"
+    },
+    "operation_posture_except_contradiction_sha256": "5e1b553c6b0e1f032e16fefe0a49b225d0f1ac510cc84896433fa8e2d27eb2be",
+    "section_sha256": {
+      "aggregate_matrix_posture": "26de43c580ed1dc375400e06bf07595ce2651f7e152456c82a9dcbcb283ca077",
+      "blocked_conversions": "74e389141a49440b1dfb5b4d21477216191e4443d5047ad5740a0e0f372326ee",
+      "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation": "3bd288406a21e38d4e520f47826f7a32dd74a0f88ca8e483cbe9ee8594438e8c",
+      "body_held_receiver_answerable_basis_integrity_condition_evaluation_operation_non_meaning": "36cf9e2181655dc13e1f676b5e4976b1e1f992c4c8560dcc38ef59161b534a18",
+      "condition_evaluations": "343991a326db32ca3091b16b583e341f4c7892d3966ff2c5c86e8167dc6ca141",
+      "condition_ledger": "99d4169e3f2df330b6b809ab5f6eff77c8f3f15d4a37deda3d0f656e128f1f1d",
+      "condition_ledger_schema_contract": "88b1c9d497ef374d5ac4255a95855767a0330271210e71ed0194b18367d22c13",
+      "dependency_ceiling_contract": "94113f14d8ba39dd0fae90763a8b9788395ac3cf6350cd86311d65c01b96feb5",
+      "exact_matter_and_family_posture": "67d280d56b15da57ce091cccd5299a86ee27e84b678595b5cf9ba869286aef2e",
+      "lineage_preservation_posture": "8aef16a1a2d15ff6b13ff654e20f27b7bc7b9166d13785bc3b2f3c69dd819233",
+      "non_claims": "75eff15cebdd8bc8eda2145922200437321adfd32274856596725ecbe5f692f2",
+      "omission_posture": "f938eb2a85709245cadc0072532a8d854db0eec8869fbc6f536b2f1c23aae1ba",
+      "operation_admissibility_evaluations": "39a482f755bba3382864dd70283a74b14bd193661ed87e0d0a761e4677eca2db",
+      "raw_signal_posture": "2653ad7e085480d397ea39567b1b4fb92dd32435c566880c99daa16d82abee3f",
+      "temporal_evidence_posture": "d78f679d728e954b113249503d724a9add7859787034a3c6c0f7b5af0141b3aa"
+    }
+  },
+  "what_remains_open": [
+    "v2 successor tests",
+    "v2 successor request",
+    "v2 successor live result",
+    "operation terminal summary covering v1 and v2 correction lineage",
+    "external-authenticity basis",
+    "cryptographic receiver identity",
+    "raw-signal morphology under separate admission",
+    "complete receiver-answerable basis",
+    "later presence re-evaluation",
+    "presence support, authorization, establishment, and recording",
+    "threshold",
+    "truth settlement",
+    "identity",
+    "custody proof",
+    "provenance proof",
+    "physical validity",
+    "authority",
+    "truth",
+    "standing",
+    "relation",
+    "coupling",
+    "FIELD machinery",
+    "runtime",
+    "API",
+    "public interface",
+    "public intake",
+    "output",
+    "action",
+    "derivative reception",
+    "synchronization",
+    "follow-on work"
+  ]
+}
