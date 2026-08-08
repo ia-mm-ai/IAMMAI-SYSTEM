@@ -1,0 +1,542 @@
+{
+  "allocation_decision": {
+    "allocated_occurrence_evidence_reference_ids": [
+      "evidence-001"
+    ],
+    "allocation_recorded": true,
+    "decision_outcome": "CANDIDATE_OCCURRENCE_EVIDENCE_ALLOCATION_RECORDED",
+    "evidence_adequacy_determined": false,
+    "evidence_migration_to_represented_proposition_blocked": true,
+    "evidence_references_remain_bound_to_exact_occurrence_claim": true,
+    "exact_supplied_envelope_preserved": true,
+    "occurrence_claim_id": "occurrence-001",
+    "occurrence_established": false,
+    "represented_proposition_id": "proposition-001",
+    "sole_allocation_target_id": "occurrence-001"
+  },
+  "block": {
+    "code": null,
+    "reason": null
+  },
+  "bounded_allocation_decision_posture": {
+    "allocation_decision_id": "allocation-decision-001",
+    "allocation_decision_scope": "occurrence-001 allocation only",
+    "evidence_adequacy_is_not_determined": true,
+    "evidentiary_migration_is_blocked": true,
+    "occurrence_claim_id": "occurrence-001",
+    "occurrence_is_not_established": true,
+    "one_allocation_decision_only": true,
+    "represented_proposition_id": "proposition-001"
+  },
+  "bounded_enactment_authorization": {
+    "admitted_scope": "matter-001 candidate-001 invocation-001 input-001 condition-001 once only",
+    "authorization_id": "authorization-001",
+    "authorization_reference": "supplied/authorization-001.json",
+    "authorization_type": "SEPARATELY_ADMITTED_BOUNDED_AUTHORIZATION",
+    "authorization_version": "0.1.0",
+    "candidate_id": "candidate-001",
+    "condition_ids": [
+      "condition-001"
+    ],
+    "enactment_mode": "BOUNDED_SINGLE_INVOCATION",
+    "input_ids": [
+      "input-001"
+    ],
+    "invocation_id": "invocation-001",
+    "matter_id": "matter-001",
+    "non_reuse_posture": true,
+    "permitted_invocation_count": 1
+  },
+  "bounded_enactment_invocation": {
+    "authorization_id": "authorization-001",
+    "candidate_id": "candidate-001",
+    "condition_ids": [
+      "condition-001"
+    ],
+    "enactment_mode": "BOUNDED_SINGLE_INVOCATION",
+    "input_ids": [
+      "input-001"
+    ],
+    "invocation_id": "invocation-001",
+    "matter_id": "matter-001",
+    "result_id": "result-001",
+    "trace_id": "trace-001"
+  },
+  "bounded_result": {
+    "bounded_result_posture": "EXPECTED",
+    "result_id": "result-001",
+    "result_reference": "supplied/result-001.json",
+    "result_type": "BOUNDED_ENACTMENT_RESULT"
+  },
+  "candidate_configuration": {
+    "candidate_content_identity": "sha256:candidate-001",
+    "candidate_id": "candidate-001",
+    "candidate_reference": "supplied/candidate-001.json",
+    "candidate_type": "BOUNDED_CANDIDATE_CONFIGURATION",
+    "candidate_version": "0.1.0"
+  },
+  "candidate_proposition_binding": {
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_direction": "CANDIDATE_REPRESENTS_PROPOSITION",
+    "candidate_proposition_binding_id": "binding-001",
+    "candidate_proposition_binding_scope": "matter-001 only",
+    "candidate_proposition_binding_type": "EXACT_CANDIDATE_TO_REPRESENTED_PROPOSITION_BINDING",
+    "represented_proposition_id": "proposition-001"
+  },
+  "checks": [
+    {
+      "block_code": null,
+      "check_id": "request_has_complete_closed_envelope",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "matter_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_configuration_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "represented_proposition_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_proposition_binding_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "bounded_enactment_authorization_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "bounded_enactment_invocation_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "occurrence_claim_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "result_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "trace_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "occurrence_evidence_contract_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "contract_owned_allocability_rule_or_occurrence_support_posture_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "evidence_allocation_statement_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "bounded_allocation_decision_posture_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "specialized_scalar_types_are_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "occurrence_evidence_references_are_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "lineage_and_custody_are_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "mandatory_non_claims_remain_false",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "binding_names_exact_candidate_and_proposition",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "authorization_scope_covers_one_non_reusable_invocation",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "invocation_binds_exact_envelope",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "occurrence_claim_binds_exact_envelope_and_remains_occurrence_only",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "result_and_trace_remain_bounded_non_authoritative_posture",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "contract_structurally_governs_evidence_and_occurrence_shape",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "contract_owned_posture_applies_to_exact_occurrence_only",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "evidence_references_bind_exact_contract_posture_and_occurrence",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "allocation_statement_preserves_occurrence_only_non_migration",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "lineage_and_custody_bind_every_selected_object",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "decision_posture_preserves_boundary_limits",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "exact_e_owned_posture_verified_without_contract_prose_interpretation",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    }
+  ],
+  "contract_owned_allocability_rule_or_occurrence_support_posture": {
+    "allocation_target_id": "occurrence-001",
+    "allocation_target_type": "BOUNDED_CANDIDATE_ENACTMENT_OCCURRENCE",
+    "allocation_to_exact_occurrence_claim_permitted": true,
+    "allocation_to_represented_proposition_permitted": false,
+    "applicability_scope": "occurrence-001 exact evidence class and claim shape only",
+    "evidence_class": "BOUNDED_INVOCATION_TRACE_EVIDENCE",
+    "occurrence_claim_id": "occurrence-001",
+    "occurrence_evidence_contract_id": "contract-001",
+    "posture_id": "posture-001",
+    "posture_reference": "supplied/contract-001.json#posture-001",
+    "posture_type": "CONTRACT_OWNED_OCCURRENCE_ALLOCABILITY_POSTURE",
+    "semantic_owner": "contract-owner-001"
+  },
+  "evidence_allocation_statement": {
+    "allocated_to_occurrence_claim_only": true,
+    "allocation_statement_id": "allocation-statement-001",
+    "allocation_to_represented_proposition_refused": true,
+    "occurrence_claim_id": "occurrence-001",
+    "occurrence_evidence_reference_ids": [
+      "evidence-001"
+    ],
+    "represented_proposition_id": "proposition-001",
+    "sole_allocation_target_id": "occurrence-001"
+  },
+  "lineage_and_custody": {
+    "object_references": [
+      {
+        "custody_reference": "custody/matter-001",
+        "lineage_reference": "lineage/matter-001",
+        "object_id": "matter-001"
+      },
+      {
+        "custody_reference": "custody/candidate-001",
+        "lineage_reference": "lineage/candidate-001",
+        "object_id": "candidate-001"
+      },
+      {
+        "custody_reference": "custody/proposition-001",
+        "lineage_reference": "lineage/proposition-001",
+        "object_id": "proposition-001"
+      },
+      {
+        "custody_reference": "custody/binding-001",
+        "lineage_reference": "lineage/binding-001",
+        "object_id": "binding-001"
+      },
+      {
+        "custody_reference": "custody/authorization-001",
+        "lineage_reference": "lineage/authorization-001",
+        "object_id": "authorization-001"
+      },
+      {
+        "custody_reference": "custody/invocation-001",
+        "lineage_reference": "lineage/invocation-001",
+        "object_id": "invocation-001"
+      },
+      {
+        "custody_reference": "custody/occurrence-001",
+        "lineage_reference": "lineage/occurrence-001",
+        "object_id": "occurrence-001"
+      },
+      {
+        "custody_reference": "custody/result-001",
+        "lineage_reference": "lineage/result-001",
+        "object_id": "result-001"
+      },
+      {
+        "custody_reference": "custody/trace-001",
+        "lineage_reference": "lineage/trace-001",
+        "object_id": "trace-001"
+      },
+      {
+        "custody_reference": "custody/contract-001",
+        "lineage_reference": "lineage/contract-001",
+        "object_id": "contract-001"
+      },
+      {
+        "custody_reference": "custody/posture-001",
+        "lineage_reference": "lineage/posture-001",
+        "object_id": "posture-001"
+      },
+      {
+        "custody_reference": "custody/evidence-001",
+        "lineage_reference": "lineage/evidence-001",
+        "object_id": "evidence-001"
+      }
+    ]
+  },
+  "matter": {
+    "allocation_question": "May evidence-001 be allocated to occurrence-001 only?",
+    "matter_id": "matter-001",
+    "matter_purpose": "Allocate evidence for one occurrence claim only.",
+    "matter_scope": "candidate-001 occurrence-001 only",
+    "outside_boundary": "No occurrence establishment or proposition evaluation."
+  },
+  "metadata": {
+    "matter_bound_candidate_occurrence_evidence_allocation_scope": "ONE_EXACT_MATTER_ONE_EXACT_CANDIDATE_ONE_EXACT_REPRESENTED_PROPOSITION_ONE_SEPARATELY_AUTHORIZED_BOUNDED_ENACTMENT_ONE_EXACT_OCCURRENCE_CLAIM_ONLY",
+    "matter_bound_candidate_occurrence_evidence_allocation_type": "MATTER_BOUND_CANDIDATE_OCCURRENCE_EVIDENCE_ALLOCATION",
+    "matter_bound_candidate_occurrence_evidence_allocation_version": "0.1.0",
+    "resolver_module": "resolve_matter_bound_candidate_occurrence_evidence_allocation_v0_min",
+    "result_version": "0.1.0"
+  },
+  "non_claims": {
+    "adoption_force_created": false,
+    "authority_created": false,
+    "authorization_scope_widened": false,
+    "automatic_next_step_created": false,
+    "candidate_adopted": false,
+    "candidate_authority_created": false,
+    "candidate_integrated": false,
+    "candidate_preference_selected": false,
+    "candidate_standing_created": false,
+    "catalogue_created": false,
+    "continuation_permission_created": false,
+    "coverage_authority_created": false,
+    "currentness_created": false,
+    "deployment_permission_created": false,
+    "enactment_authorization_created": false,
+    "enactment_occurrence_established": false,
+    "evidence_adequacy_determined_by_allocation_boundary": false,
+    "evidence_migrated_to_represented_proposition": false,
+    "follow_on_work_authorized": false,
+    "globality_created": false,
+    "integration_force_created": false,
+    "interpreter_authority_created": false,
+    "local_field_created": false,
+    "mutation_performed": false,
+    "occurrence_claim_established": false,
+    "occurrence_evidence_invented": false,
+    "occurrence_truth_generalized": false,
+    "ontology_created": false,
+    "prior_standing_granted_by_allocation": false,
+    "prior_standing_revoked": false,
+    "proposition_semantics_reinterpreted": false,
+    "public_readiness_created": false,
+    "registry_created": false,
+    "repeat_enactment_permission_created": false,
+    "repetition_treated_as_adoption_force": false,
+    "repetition_treated_as_integration_force": false,
+    "represented_proposition_authoritative": false,
+    "represented_proposition_current": false,
+    "represented_proposition_evidenced": false,
+    "represented_proposition_standing": false,
+    "represented_proposition_true": false,
+    "result_standing_created": false,
+    "result_treated_as_success": false,
+    "reuse_permission_created": false,
+    "runtime_created": false,
+    "sandbox_created": false,
+    "semantic_ownership_transferred": false,
+    "source_family_overridden": false,
+    "standing_created": false,
+    "standing_invocation_lane_created": false,
+    "success_treated_as_proposition_support": false,
+    "successor_authority_created": false,
+    "trace_execution_authority_persisted": false,
+    "trace_treated_as_success": false,
+    "truth_created": false
+  },
+  "non_meaning": [
+    "allocation_is_not_occurrence_establishment",
+    "allocation_is_not_evidence_adequacy_determination",
+    "occurrence_evidence_is_not_represented_proposition_evidence",
+    "occurrence_is_not_represented_proposition_truth",
+    "result_is_not_success_or_standing",
+    "trace_is_not_execution_authority_or_standing",
+    "success_is_not_proposition_support_adoption_or_integration",
+    "repetition_is_not_currentness_reuse_or_successor_authority"
+  ],
+  "occurrence_claim": {
+    "authorization_id": "authorization-001",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_id": "binding-001",
+    "invocation_id": "invocation-001",
+    "matter_id": "matter-001",
+    "occurrence_claim_id": "occurrence-001",
+    "occurrence_claim_scope": "exact invocation, inputs, conditions, result, and trace only",
+    "occurrence_claim_type": "BOUNDED_CANDIDATE_ENACTMENT_OCCURRENCE",
+    "occurrence_claim_wording": "Candidate candidate-001 was enacted under invocation invocation-001 and authorization authorization-001; result result-001 and trace trace-001 were emitted.",
+    "result_id": "result-001",
+    "trace_id": "trace-001"
+  },
+  "occurrence_evidence_contract": {
+    "applicability_scope": "occurrence-001 exact evidence class and claim shape only",
+    "evidence_effect_location": "occurrence-001",
+    "governed_evidence_class": "BOUNDED_INVOCATION_TRACE_EVIDENCE",
+    "governed_occurrence_claim_scope": "exact invocation, inputs, conditions, result, and trace only",
+    "governed_occurrence_claim_type": "BOUNDED_CANDIDATE_ENACTMENT_OCCURRENCE",
+    "occurrence_evidence_contract_id": "contract-001",
+    "occurrence_evidence_contract_reference": "supplied/contract-001.json",
+    "occurrence_evidence_contract_semantic_owner": "contract-owner-001",
+    "occurrence_evidence_contract_type": "BOUNDED_OCCURRENCE_EVIDENCE_CONTRACT",
+    "occurrence_evidence_contract_version": "0.1.0"
+  },
+  "occurrence_evidence_references": [
+    {
+      "contract_owned_posture_id": "posture-001",
+      "evidence_class": "BOUNDED_INVOCATION_TRACE_EVIDENCE",
+      "occurrence_claim_id": "occurrence-001",
+      "occurrence_evidence_contract_id": "contract-001",
+      "occurrence_evidence_reference": "supplied/trace-001.json#event-001",
+      "occurrence_evidence_reference_id": "evidence-001"
+    }
+  ],
+  "outcome": "CANDIDATE_OCCURRENCE_EVIDENCE_ALLOCATION_RECORDED",
+  "represented_proposition": {
+    "represented_proposition_id": "proposition-001",
+    "represented_proposition_matter_scope": "matter-001 proposition meaning only",
+    "represented_proposition_reference": "supplied/proposition-001.json",
+    "represented_proposition_semantic_owner": "proposition-owner-001",
+    "represented_proposition_statement": "The represented condition has the declared bounded posture.",
+    "represented_proposition_type": "BOUNDED_REPRESENTED_PROPOSITION"
+  },
+  "result": {
+    "allocation_recorded": true,
+    "completion_posture": "CANDIDATE_OCCURRENCE_EVIDENCE_ALLOCATION_RECORDED",
+    "lawful_terminal_outcome_recorded": true,
+    "outcome": "CANDIDATE_OCCURRENCE_EVIDENCE_ALLOCATION_RECORDED",
+    "stopping_code": null
+  },
+  "trace": {
+    "audit_or_occurrence_evidence_only": true,
+    "trace_id": "trace-001",
+    "trace_posture": "EXACT_INVOCATION_TRACE",
+    "trace_reference": "supplied/trace-001.json",
+    "trace_type": "BOUNDED_ENACTMENT_TRACE"
+  },
+  "what_remains_open": {
+    "open_does_not_mean_next": true,
+    "open_items": [
+      "live_candidate_enactment",
+      "occurrence_evidence_establishment_or_verification",
+      "proposition_evaluation",
+      "candidate_comparison_adoption_or_integration",
+      "runtime_hosting",
+      "correspondence_or_standing_basis_integration",
+      "artifact_receipt_or_terminal_summary",
+      "later_successor_work"
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  }
+}
