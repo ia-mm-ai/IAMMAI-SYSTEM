@@ -1,0 +1,512 @@
+{
+  "block": {
+    "code": null,
+    "reason": null
+  },
+  "candidate_configuration": {
+    "candidate_content_identity": "sha256:candidate-001",
+    "candidate_current": false,
+    "candidate_id": "candidate-001",
+    "candidate_immutable_reference": "supplied/candidate-001.json",
+    "candidate_standing": false,
+    "candidate_type": "BOUNDED_CANDIDATE_CONFIGURATION",
+    "candidate_version": "0.1.0",
+    "custody_reference": "custody/candidate-001",
+    "lineage_reference": "lineage/candidate-001",
+    "source_family": "candidate-family-001"
+  },
+  "candidate_enactment_request": {
+    "candidate_enactment_request_id": "request-001",
+    "candidate_enactment_request_immutable_reference": "supplied/request-001.json",
+    "candidate_enactment_request_type": "CANDIDATE_ENACTMENT_REQUEST",
+    "candidate_enactment_request_version": "0.1.0",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_id": "binding-001",
+    "declared_request_admission_use": "request-admission-use-001",
+    "matter_id": "matter-001",
+    "outside_boundary": "No effect beyond this bounded review.",
+    "proposed_condition_set_id": "conditions-001",
+    "proposed_input_set_id": "inputs-001",
+    "represented_proposition_id": "proposition-001",
+    "request_admission_does_not_authorize_or_perform_statement": "REQUEST_ADMISSION_DOES_NOT_AUTHORIZE_OR_PERFORM_REQUESTED_ENACTMENT",
+    "request_admission_only_statement": "REQUEST_ADMISSION_ONLY_FOR_POSSIBLE_LATER_SEPARATELY_BOUNDED_ENACTMENT_AUTHORIZATION_REVIEW",
+    "request_purpose": "Review one exact request envelope.",
+    "request_scope": "request-001 and enactment-001 proposal only.",
+    "requested_enactment_id": "enactment-001",
+    "requested_enactment_scope_id": "scope-001",
+    "requested_locality_or_destination_id": "locality-001"
+  },
+  "candidate_proposition_binding": {
+    "candidate_enactment_request_id": "request-001",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_direction": "CANDIDATE_TO_REPRESENTED_PROPOSITION",
+    "candidate_proposition_binding_id": "binding-001",
+    "candidate_proposition_binding_scope": "matter-001 request-001 representation only",
+    "candidate_proposition_binding_type": "EXACT_CANDIDATE_TO_REPRESENTED_PROPOSITION_BINDING",
+    "matter_id": "matter-001",
+    "represented_proposition_id": "proposition-001"
+  },
+  "checks": [
+    {
+      "block_code": null,
+      "check_id": "request_has_complete_closed_envelope",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "matter_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_configuration_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_candidate_contract_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_candidate_basis_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_applicability_emission_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "represented_proposition_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_proposition_binding_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_enactment_request_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "requested_enactment_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "requested_enactment_scope_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "proposed_inputs_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "proposed_conditions_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "single_invocation_posture_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "specialized_scalar_types_are_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "requested_locality_or_destination_is_exact",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "mandatory_non_claims_remain_false",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_remains_exact_non_standing_and_non_current",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "contract_binds_exact_candidate_basis_family_and_use",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_basis_is_exactly_attributable_and_bound",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_applicability_emission_is_exactly_attributable_and_bound",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "represented_proposition_binds_exact_matter",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "binding_names_exact_candidate_proposition_request_and_matter",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "candidate_enactment_request_binds_exact_envelope_and_remains_request_only",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "requested_enactment_is_exact_request_target_only",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "requested_scope_binds_exact_envelope",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "proposed_inputs_and_conditions_bind_exact_request_and_enactment",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "locality_posture_is_coherent_and_creates_no_runtime_or_deployment",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "request_is_exactly_one_shot_without_repeat_reuse_lane_or_successor",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_applicability_consumed_without_raw_contract_interpretation",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    },
+    {
+      "block_code": null,
+      "check_id": "family_owned_applicability_supports_exact_declared_use",
+      "failure_code": null,
+      "outcome_if_failed": null,
+      "passed": true
+    }
+  ],
+  "family_owned_applicability_emission": {
+    "applicability_basis_reference": "supplied/candidate-basis-001.json#basis-001",
+    "applicability_emission_id": "applicability-emission-001",
+    "applicability_emission_immutable_reference": "supplied/candidate-basis-001.json#applicability-emission-001",
+    "applicability_emission_type": "EC_OWNED_CA_CARRIED_REQUEST_ADMISSION_APPLICABILITY",
+    "applicability_result": true,
+    "applicable_scope": "matter-001 candidate-001 request-admission-use-001 only",
+    "candidate_basis_id": "candidate-basis-001",
+    "candidate_contract_id": "contract-001",
+    "candidate_contract_immutable_reference": "supplied/contract-001.json",
+    "candidate_contract_semantic_owner": "candidate-family-owner-001",
+    "candidate_effect_location": "contract-001#candidate-effect-001",
+    "candidate_id": "candidate-001",
+    "custody_reference": "custody/candidate-basis-001",
+    "declared_request_admission_use": "request-admission-use-001",
+    "lineage_reference": "lineage/candidate-basis-001",
+    "source_family": "candidate-family-001"
+  },
+  "family_owned_candidate_basis": {
+    "candidate_basis_id": "candidate-basis-001",
+    "candidate_basis_immutable_reference": "supplied/candidate-basis-001.json",
+    "candidate_basis_non_claims": {
+      "candidate_standing_created": false,
+      "enactment_authorization_created": false
+    },
+    "candidate_basis_scope": "matter-001 candidate-001 request-admission-use-001 only",
+    "candidate_basis_type": "FAMILY_OWNED_CANDIDATE_BASIS",
+    "candidate_basis_version": "0.1.0",
+    "candidate_contract_id": "contract-001",
+    "candidate_contract_semantic_owner": "candidate-family-owner-001",
+    "candidate_id": "candidate-001",
+    "custody_reference": "custody/candidate-basis-001",
+    "declared_request_admission_use": "request-admission-use-001",
+    "limitations": [
+      "Exact declared request-admission use only."
+    ],
+    "lineage_reference": "lineage/candidate-basis-001",
+    "recorded_contract_owned_posture": "FAMILY_LOCAL_RECORDED_POSTURE",
+    "source_family": "candidate-family-001",
+    "supporting_basis_references": [
+      "supplied/candidate-basis-001.json#basis-001"
+    ]
+  },
+  "family_owned_candidate_contract": {
+    "applicable_scope": "matter-001 candidate-001 request-admission-use-001 only",
+    "candidate_basis_id": "candidate-basis-001",
+    "candidate_contract_id": "contract-001",
+    "candidate_contract_immutable_reference": "supplied/contract-001.json",
+    "candidate_contract_semantic_owner": "candidate-family-owner-001",
+    "candidate_contract_type": "FAMILY_OWNED_CANDIDATE_CONTRACT",
+    "candidate_contract_version": "0.1.0",
+    "candidate_effect_location": "contract-001#candidate-effect-001",
+    "candidate_id": "candidate-001",
+    "declared_request_admission_use": "request-admission-use-001",
+    "declared_use_applicability_rule_reference": "contract-001#request-admission-use-rule-001",
+    "source_family": "candidate-family-001"
+  },
+  "matter": {
+    "matter_id": "matter-001",
+    "matter_purpose": "Review one exact candidate-enactment request.",
+    "matter_scope": "matter-001 candidate-enactment request admission only",
+    "matter_type": "BOUNDED_CANDIDATE_ENACTMENT_REQUEST_MATTER",
+    "outside_boundary": "No effect beyond request admission review.",
+    "request_admission_question": "May request-001 become a candidate for a later separate review?"
+  },
+  "metadata": {
+    "matter_bound_candidate_enactment_request_admission_scope": "ONE_EXACT_MATTER_ONE_EXACT_CANDIDATE_ONE_EXACT_REPRESENTED_PROPOSITION_ONE_EXACT_SINGLE_ENACTMENT_REQUEST_ONLY",
+    "matter_bound_candidate_enactment_request_admission_type": "MATTER_BOUND_CANDIDATE_ENACTMENT_REQUEST_ADMISSION",
+    "matter_bound_candidate_enactment_request_admission_version": "0.1.0",
+    "resolver_module": "resolve_matter_bound_candidate_enactment_request_admission_v0_min",
+    "result_version": "0.1.0"
+  },
+  "non_claims": {
+    "automatic_successor_created": false,
+    "candidate_adopted": false,
+    "candidate_authority_created": false,
+    "candidate_currentness_created": false,
+    "candidate_enacted": false,
+    "candidate_integrated": false,
+    "candidate_readmitted": false,
+    "candidate_registry_created": false,
+    "candidate_standing_created": false,
+    "continuation_permission_created": false,
+    "cross_family_semantic_allowlist_created": false,
+    "deployment_created": false,
+    "enactment_authorization_created": false,
+    "enactment_occurrence_established": false,
+    "evidence_adequacy_determined": false,
+    "evidence_allocation_recorded": false,
+    "execution_performed": false,
+    "execution_permission_created": false,
+    "follow_on_permission_created": false,
+    "follow_on_work_authorized": false,
+    "global_candidate_ontology_created": false,
+    "governing_authority_created": false,
+    "invocation_authorization_created": false,
+    "invocation_permission_created": false,
+    "output_created": false,
+    "repeat_permission_created": false,
+    "represented_proposition_authoritative": false,
+    "represented_proposition_current": false,
+    "represented_proposition_evidenced": false,
+    "represented_proposition_false": false,
+    "represented_proposition_standing": false,
+    "represented_proposition_true": false,
+    "result_created": false,
+    "reusable_permission_created": false,
+    "runtime_hosting_created": false,
+    "semantic_ownership_transferred": false,
+    "source_family_semantics_overridden": false,
+    "standing_invocation_lane_created": false,
+    "success_established": false,
+    "successor_force_created": false,
+    "trace_created": false
+  },
+  "non_meaning": [
+    "candidate_enactment_request_admission_is_not_candidate_readmission",
+    "request_admission_is_not_enactment_authorization",
+    "enactment_authorization_is_not_invocation_permission",
+    "invocation_permission_is_not_execution",
+    "execution_is_not_occurrence_establishment",
+    "candidate_is_not_represented_proposition",
+    "candidate_proposition_binding_is_not_proposition_truth",
+    "family_owned_applicability_is_not_candidate_standing",
+    "request_completeness_is_not_candidate_merit",
+    "admitted_request_is_not_scope_approval_or_enactment_authorization",
+    "admitted_request_is_not_automatic_authorization_review"
+  ],
+  "outcome": "CANDIDATE_ENACTMENT_REQUEST_ADMITTED",
+  "proposed_conditions": {
+    "candidate_enactment_request_id": "request-001",
+    "condition_references": [
+      "supplied/condition-001.json"
+    ],
+    "matter_id": "matter-001",
+    "proposed_condition_set_id": "conditions-001",
+    "requested_enactment_id": "enactment-001"
+  },
+  "proposed_inputs": {
+    "candidate_enactment_request_id": "request-001",
+    "input_references": [
+      "supplied/input-001.json"
+    ],
+    "matter_id": "matter-001",
+    "proposed_input_set_id": "inputs-001",
+    "requested_enactment_id": "enactment-001"
+  },
+  "represented_proposition": {
+    "matter_id": "matter-001",
+    "matter_scope": "matter-001 candidate-enactment request admission only",
+    "outside_boundary": "No proposition evaluation in this boundary.",
+    "represented_proposition_id": "proposition-001",
+    "represented_proposition_immutable_reference": "supplied/proposition-001.json",
+    "represented_proposition_semantic_owner": "proposition-owner-001",
+    "represented_proposition_statement": "The exact represented condition has the declared posture.",
+    "represented_proposition_type": "BOUNDED_REPRESENTED_PROPOSITION"
+  },
+  "request_admission_decision": {
+    "admitted_object_id": "request-001",
+    "admitted_object_type": "CANDIDATE_ENACTMENT_REQUEST",
+    "candidate_admitted_or_readmitted": false,
+    "candidate_currentness_created": false,
+    "candidate_enactment_request_admitted": true,
+    "candidate_enactment_request_id": "request-001",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_preserved": true,
+    "candidate_standing_created": false,
+    "decision_outcome": "CANDIDATE_ENACTMENT_REQUEST_ADMITTED",
+    "family_owned_candidate_basis_preserved": true,
+    "represented_proposition_evaluated": false,
+    "request_envelope_singular": true,
+    "request_scope_bounded": true,
+    "requested_enactment_authorized": false,
+    "requested_invocation_count_is_one": true,
+    "requested_scope_approved": false,
+    "result_level_non_claims_canonical_false": true,
+    "separate_enactment_authorization_review_required": true
+  },
+  "requested_enactment": {
+    "candidate_enactment_request_id": "request-001",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_id": "binding-001",
+    "matter_id": "matter-001",
+    "represented_proposition_id": "proposition-001",
+    "requested_enactment_id": "enactment-001",
+    "requested_enactment_scope_id": "scope-001",
+    "requested_enactment_type": "BOUNDED_CANDIDATE_ENACTMENT"
+  },
+  "requested_enactment_scope": {
+    "candidate_enactment_request_id": "request-001",
+    "candidate_id": "candidate-001",
+    "candidate_proposition_binding_id": "binding-001",
+    "locality_or_destination_required": true,
+    "matter_id": "matter-001",
+    "maximum_requested_effect": "One bounded proposed enactment only.",
+    "outside_boundary": "No effect outside scope-001.",
+    "proposed_condition_set_id": "conditions-001",
+    "proposed_input_set_id": "inputs-001",
+    "represented_proposition_id": "proposition-001",
+    "requested_enactment_id": "enactment-001",
+    "requested_enactment_scope_id": "scope-001",
+    "requested_invocation_count": 1,
+    "requested_locality_or_destination_id": "locality-001"
+  },
+  "requested_locality_or_destination": {
+    "candidate_enactment_request_id": "request-001",
+    "matter_id": "matter-001",
+    "requested_enactment_id": "enactment-001",
+    "requested_enactment_scope_id": "scope-001",
+    "requested_locality_or_destination_id": "locality-001",
+    "requested_locality_or_destination_reference": "supplied/locality-001.json",
+    "requested_locality_or_destination_type": "BOUNDED_LOCALITY_REFERENCE"
+  },
+  "result": {
+    "candidate_enactment_request_admitted": true,
+    "completion_posture": "CANDIDATE_ENACTMENT_REQUEST_ADMITTED",
+    "lawful_terminal_outcome_recorded": true,
+    "outcome": "CANDIDATE_ENACTMENT_REQUEST_ADMITTED",
+    "stopping_code": null
+  },
+  "single_invocation_posture": {
+    "no_automatic_successor_posture": true,
+    "no_repeat_posture": true,
+    "no_reuse_posture": true,
+    "no_standing_invocation_lane_posture": true,
+    "requested_invocation_count": 1
+  },
+  "what_remains_open": {
+    "open_does_not_mean_next": true,
+    "open_items": [
+      "candidate_specific_enactment_authorization",
+      "invocation_authorization_or_permission",
+      "candidate_enactment_or_execution",
+      "occurrence_establishment_or_evidence_allocation",
+      "represented_proposition_evaluation",
+      "candidate_adoption_or_integration",
+      "runtime_sandbox_locality_or_deployment",
+      "artifact_receipt_or_terminal_summary",
+      "later_successor_work"
+    ],
+    "open_means_not_authorized": true,
+    "open_means_not_executed": true,
+    "open_means_not_scheduled": true
+  }
+}
