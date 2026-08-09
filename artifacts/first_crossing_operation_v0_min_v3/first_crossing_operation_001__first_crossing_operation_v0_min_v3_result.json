@@ -1,0 +1,1987 @@
+{
+  "block": {
+    "blocked": false,
+    "code": null,
+    "issue_path": null,
+    "not_recorded": false,
+    "requires_boundary_allowance": false
+  },
+  "creation_operation": {
+    "operation_family": "DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_id": "descendant_body_creation_operation_001",
+    "operation_scope": "EVALUATE_DESCENDANT_BODY_CREATION_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "DESCENDANT_BODY_CREATION_OPERATION",
+    "operation_version": "0.1.0"
+  },
+  "creation_operation_event": {
+    "fresh_operation_request_id": "descendant_body_creation_operation_request_001",
+    "operation_request_result_reference": "artifacts/descendant_body_creation_operation_request_v0_min/descendant_body_creation_operation_request_001__descendant_body_creation_operation_request_v0_min_result.json",
+    "operation_request_result_sha256": "dd95b114773c8ff1b1f0a271530f282c2360b3aa58c07231886f111808d6e744",
+    "persistent_operation_id": "descendant_body_creation_operation_001",
+    "resolver_call_count_is_event_count": false,
+    "same_identity_same_binding_is_deterministic_rerender": true
+  },
+  "current_boundary_result_binding": {
+    "block_code": null,
+    "block_issue_path": null,
+    "blocked": false,
+    "requires_descendant_body_creation": false,
+    "resolver_module": "resolve_first_crossing_boundary_v0_min_v2",
+    "result_reference": "artifacts/first_crossing_boundary_v0_min_v2/first_crossing_boundary_001__first_crossing_boundary_v0_min_v2_result.json",
+    "result_sha256": "bdf3395d53e097f3494b930f3b95f0688149459d64e256ac41b953b4195bf1f1",
+    "result_version": "0.2.0"
+  },
+  "current_operation_event": {
+    "current_boundary_result_reference": "artifacts/first_crossing_boundary_v0_min_v2/first_crossing_boundary_001__first_crossing_boundary_v0_min_v2_result.json",
+    "current_boundary_result_sha256": "bdf3395d53e097f3494b930f3b95f0688149459d64e256ac41b953b4195bf1f1",
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "fresh_creation_operation_request_id": "descendant_body_creation_operation_request_001",
+    "one_shared_operation_event": true,
+    "persistent_boundary_id": "first_crossing_boundary_001",
+    "persistent_creation_operation_id": "descendant_body_creation_operation_001",
+    "persistent_operation_id": "first_crossing_operation_001",
+    "resolver_call_count_is_event_count": false,
+    "same_identity_same_binding_is_deterministic_rerender": true,
+    "separate_operation_occurrences_created": false,
+    "sibling_event_identity_allocated": false
+  },
+  "descendant_body_subject": {
+    "bodies_merged": false,
+    "bodies_ranked": false,
+    "coupling_created": false,
+    "descendant_body_a": {
+      "candidate_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "candidate_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "candidate_basis_scope": "Motion-side admissible variation",
+      "candidate_role": "CANDIDATE_A",
+      "candidate_standing_label": "CANDIDATE_A_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_a_001",
+      "descendant_body_id": "descendant_body_a_001"
+    },
+    "descendant_body_b": {
+      "candidate_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "candidate_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "candidate_basis_scope": "Regulation-side admissibility bounds",
+      "candidate_role": "CANDIDATE_B",
+      "candidate_standing_label": "CANDIDATE_B_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_b_001",
+      "descendant_body_id": "descendant_body_b_001"
+    },
+    "one_shared_operation_event": true,
+    "pair": {
+      "candidate_basis_non_hierarchy_preserved": true,
+      "candidate_standing_non_hierarchy_preserved": true,
+      "complete_pair_preserved": true,
+      "descendant_bodies_remain_sibling": true,
+      "descendant_body_non_hierarchy_preserved": true,
+      "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+      "motion_does_not_erase_regulation": true,
+      "regulation_not_sovereign_over_motion": true
+    },
+    "separate_operation_occurrences_created": false,
+    "source_semantic_owner_transferred": false
+  },
+  "downstream_stopping_point": {
+    "action_authorized": false,
+    "admissible_future_route": "FIRST_CROSSING_OPERATION_THEN_RELATION_BOUNDARY_ONLY",
+    "api_created": false,
+    "authority_created": false,
+    "automatic_successor_created": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "descendant_standing_check_performed": false,
+    "follow_on_work_authorized": false,
+    "identity_created": false,
+    "next_separately_bounded_rank": "RELATION_BOUNDARY",
+    "output_authorized": false,
+    "presence_established": false,
+    "relation_boundary_invoked": false,
+    "relation_created": false,
+    "runtime_created": false,
+    "standing_created": false,
+    "standing_descendant_created": false
+  },
+  "failed_check_count": 0,
+  "first_crossing_operation": {
+    "action_authorized": false,
+    "admissible_future_route": "FIRST_CROSSING_OPERATION_THEN_RELATION_BOUNDARY_ONLY",
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_created": false,
+    "crossing_authorized": true,
+    "crossing_performed": true,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_a_id": "descendant_body_a_001",
+    "descendant_body_b_id": "descendant_body_b_001",
+    "descendant_body_creation_operation_bypassed": false,
+    "descendant_body_creation_operation_overridden": false,
+    "descendant_body_pair_scope": "SEPARATE_DESCENDANT_BODY_RECORDS_ONLY",
+    "descendant_standing_check_performed": false,
+    "direct_boundary_allowance_to_first_crossing_without_operation": false,
+    "direct_descendant_body_creation_to_first_crossing_without_boundary_and_operation": false,
+    "direct_first_crossing_operation_spec_to_first_crossing_operation_completion": false,
+    "direct_first_crossing_to_authority_currentness": false,
+    "direct_first_crossing_to_coupling_creation": false,
+    "direct_first_crossing_to_descendant_standing": false,
+    "direct_first_crossing_to_follow_on_work": false,
+    "direct_first_crossing_to_identity": false,
+    "direct_first_crossing_to_output_action": false,
+    "direct_first_crossing_to_presence": false,
+    "direct_first_crossing_to_relation": false,
+    "direct_first_crossing_to_runtime": false,
+    "direct_first_crossing_to_standing_descendant": false,
+    "direct_first_crossing_to_third_candidate_route": false,
+    "direct_first_crossing_to_third_model_route": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_a_evaluated": true,
+    "first_crossing_a_id": "first_crossing_a_001",
+    "first_crossing_a_recorded": true,
+    "first_crossing_a_supported": true,
+    "first_crossing_authorized": true,
+    "first_crossing_b_evaluated": true,
+    "first_crossing_b_id": "first_crossing_b_001",
+    "first_crossing_b_recorded": true,
+    "first_crossing_b_supported": true,
+    "first_crossing_boundary_bypassed": false,
+    "first_crossing_boundary_overridden": false,
+    "first_crossing_evaluation_performed": true,
+    "first_crossing_operation_recorded": true,
+    "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+    "first_crossing_performed": true,
+    "first_crossing_result": "FIRST_CROSSING_SUPPORTED",
+    "first_crossing_result_recorded": true,
+    "first_crossing_supported": true,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "operation_contract_reference": "spec/FIRST_CROSSING_OPERATION_V0_MIN_SPEC.md",
+    "operation_contract_sha256": "047460dc058b8d6a8655d0fef03a422e2330fd832dd4b2045b45968517896549",
+    "operation_id": "first_crossing_operation_001",
+    "operation_scope": "EVALUATE_FIRST_CROSSING_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "FIRST_CROSSING_OPERATION",
+    "operation_version": "0.1.0",
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "first_crossing_operation_checks": [
+    {
+      "check_id": "control_root_mapping_cardinality",
+      "classification": "CONTROL",
+      "failure_code": null,
+      "passed": true,
+      "path": "$::mapping_cardinality"
+    },
+    {
+      "check_id": "control_intent_exact",
+      "classification": "CONTROL",
+      "failure_code": null,
+      "passed": true,
+      "path": "intent"
+    },
+    {
+      "check_id": "control_operation_question_exact",
+      "classification": "CONTROL",
+      "failure_code": null,
+      "passed": true,
+      "path": "operation_question"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_boundary",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_admissible_future_route",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.admissible_future_route"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_contract_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_contract_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_contract_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_contract_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_type",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_type"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_boundary_boundary_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.boundary.boundary_version"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_creation_operation",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_operation_family",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation.operation_family"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation.operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_operation_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation.operation_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_operation_type",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation.operation_type"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_operation_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation.operation_version"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_creation_operation_event",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_fresh_operation_request_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.fresh_operation_request_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_operation_request_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.operation_request_result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_operation_request_result_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.operation_request_result_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_persistent_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.persistent_operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_resolver_call_count_is_event_count",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.resolver_call_count_is_event_count"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_creation_operation_event_same_identity_same_binding_is_deterministic_rerender",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.creation_operation_event.same_identity_same_binding_is_deterministic_rerender"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_current_boundary_result",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_block_code",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.block_code"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_block_issue_path",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.block_issue_path"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_blocked",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.blocked"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_requires_descendant_body_creation",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.requires_descendant_body_creation"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_resolver_module",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.resolver_module"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_result_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.result_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_current_boundary_result_result_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.current_boundary_result.result_version"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_descendant_body_a",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_basis_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_basis_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_basis_label",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_basis_label"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_basis_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_basis_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_role",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_role"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_standing_label",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_standing_label"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_candidate_standing_source_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.candidate_standing_source_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_a_descendant_body_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_a.descendant_body_id"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_descendant_body_b",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_basis_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_basis_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_basis_label",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_basis_label"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_basis_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_basis_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_role",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_role"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_standing_label",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_standing_label"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_candidate_standing_source_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.candidate_standing_source_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_descendant_body_b_descendant_body_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.descendant_body_b.descendant_body_id"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_freshness",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_fresh_operation_request_identity_declared",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.fresh_operation_request_identity_declared"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_material_reused",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_material_reused"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_occurrence_reused",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_occurrence_reused"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_result_is_current_occurrence",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_result_is_current_occurrence"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_result_is_current_permission",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_result_is_current_permission"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_result_is_current_source",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_result_is_current_source"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_operation_result_replayed",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_operation_result_replayed"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_historical_success_treated_as_fresh_permission",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.historical_success_treated_as_fresh_permission"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_operation_request_identity_distinct_from_historical_occurrence",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.operation_request_identity_distinct_from_historical_occurrence"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_freshness_operation_request_identity_distinct_from_operation_identity",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.freshness.operation_request_identity_distinct_from_operation_identity"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_historical_operation",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_first_crossing_result",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.first_crossing_result"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_historical_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.historical_operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_outcome",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.outcome"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_is_current_occurrence",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_is_current_occurrence"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_is_current_permission",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_is_current_permission"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_is_current_source",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_is_current_source"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_replayed",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_replayed"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_result_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.result_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_historical_operation_success_treated_as_fresh_permission",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.historical_operation.success_treated_as_fresh_permission"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_non_claim_attribution",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_non_claim_attribution_source_boundary",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_boundary"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_non_claim_attribution_source_boundary_owner",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_boundary.owner"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_non_claim_attribution_source_creation_operation",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_creation_operation"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_non_claim_attribution_source_creation_operation_owner",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_creation_operation.owner"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_non_claim_attribution_source_family",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_family"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_non_claim_attribution_source_family_owner",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.source_family.owner"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_non_claim_attribution_target_local",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.target_local"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_non_claim_attribution_target_local_owner",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.non_claim_attribution.target_local.owner"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_operation_event",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_current_boundary_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.current_boundary_result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_current_boundary_result_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.current_boundary_result_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_descendant_body_a_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.descendant_body_a_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_descendant_body_b_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.descendant_body_b_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_fresh_creation_operation_request_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.fresh_creation_operation_request_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_persistent_boundary_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.persistent_boundary_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_persistent_creation_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.persistent_creation_operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_persistent_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.persistent_operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_resolver_call_count_is_event_count",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.resolver_call_count_is_event_count"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_same_identity_same_binding_is_deterministic_rerender",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.same_identity_same_binding_is_deterministic_rerender"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_operation_event_sibling_event_identity_allocated",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.operation_event.sibling_event_identity_allocated"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_pair",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_candidate_basis_non_hierarchy_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.candidate_basis_non_hierarchy_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_candidate_standing_non_hierarchy_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.candidate_standing_non_hierarchy_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_complete_pair_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.complete_pair_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_descendant_bodies_remain_sibling",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.descendant_bodies_remain_sibling"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_descendant_body_non_hierarchy_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.descendant_body_non_hierarchy_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_descendant_body_pair_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.descendant_body_pair_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_motion_does_not_erase_regulation",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.motion_does_not_erase_regulation"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_pair_regulation_not_sovereign_over_motion",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.pair.regulation_not_sovereign_over_motion"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_source",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_family",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_family"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_identity",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_identity"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_result_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_result_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_semantic_owner",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_semantic_owner"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_type",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_type"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_selected_surface_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.selected_surface_version"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_custody_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_custody_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_lineage_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_lineage_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_rank_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_rank_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_scope_preserved",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_scope_preserved"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_standing_contract_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_standing_contract_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_standing_contract_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_standing_contract_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_source_standing_contract_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source.source_standing_contract_version"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_source_applicability",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_complete_review_reached",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.complete_review_reached"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_result_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.result_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_applicability_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_applicability_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_applicability_outcome",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_applicability_outcome"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_applicability_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_applicability_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_applicability_type",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_applicability_type"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_applicability_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_applicability_version"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_declared_matter_use",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_declared_matter_use"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_source_applicability_source_route",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.source_applicability.source_route"
+    },
+    {
+      "check_id": "constitutional_event_key_shape_constitutional_event_key_target",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_admissible_future_route",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.admissible_future_route"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_contract_reference",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_contract_reference"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_contract_sha256",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_contract_sha256"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_id",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_id"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_scope",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_scope"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_type",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_type"
+    },
+    {
+      "check_id": "constitutional_event_key_constitutional_event_key_target_operation_version",
+      "classification": "CONSTITUTIONAL_EVENT_KEY",
+      "failure_code": null,
+      "passed": true,
+      "path": "constitutional_event_key.target.operation_version"
+    },
+    {
+      "check_id": "required_non_claim_shape_required_non_claims",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims"
+    },
+    {
+      "check_id": "required_non_claim_shape_required_non_claims_operation_local",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_action_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.action_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_deleted",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_deleted"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_edited",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_edited"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_overwritten",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_overwritten"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_redeemed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_redeemed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_repaired",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_repaired"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_replaced",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_replaced"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_affected_file_treated_as_clean_basis",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.affected_file_treated_as_clean_basis"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_api_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.api_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_authority_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.authority_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_contaminated_lineage_treated_as_clean_basis",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.contaminated_lineage_treated_as_clean_basis"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_coupling_assigned_to_candidate_a",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.coupling_assigned_to_candidate_a"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_coupling_assigned_to_candidate_b",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.coupling_assigned_to_candidate_b"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_coupling_assigned_to_descendant_body_a",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.coupling_assigned_to_descendant_body_a"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_coupling_assigned_to_descendant_body_b",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.coupling_assigned_to_descendant_body_b"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_coupling_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.coupling_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_currentness_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.currentness_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_derivative_reception_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.derivative_reception_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_descendant_body_creation_operation_bypassed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.descendant_body_creation_operation_bypassed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_descendant_body_creation_operation_overridden",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.descendant_body_creation_operation_overridden"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_descendant_standing_check_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.descendant_standing_check_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_boundary_allowance_to_first_crossing_without_operation",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_boundary_allowance_to_first_crossing_without_operation"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_descendant_body_creation_to_first_crossing_without_boundary_and_operation",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_descendant_body_creation_to_first_crossing_without_boundary_and_operation"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_operation_spec_to_first_crossing_operation_completion",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_operation_spec_to_first_crossing_operation_completion"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_authority_currentness",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_authority_currentness"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_coupling_creation",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_coupling_creation"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_descendant_standing",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_descendant_standing"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_follow_on_work",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_follow_on_work"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_identity",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_identity"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_output_action",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_output_action"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_presence",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_presence"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_relation",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_relation"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_runtime",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_runtime"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_standing_descendant",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_standing_descendant"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_third_candidate_route",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_third_candidate_route"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_direct_first_crossing_to_third_model_route",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.direct_first_crossing_to_third_model_route"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_field_machinery_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.field_machinery_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_file_discovery_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.file_discovery_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_first_crossing_boundary_bypassed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.first_crossing_boundary_bypassed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_first_crossing_boundary_overridden",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.first_crossing_boundary_overridden"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_follow_on_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.follow_on_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_follow_on_work_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.follow_on_work_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_hidden_repair_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.hidden_repair_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_identity_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.identity_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_output_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.output_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_presence_established",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.presence_established"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_prior_unsupported_candidate_a_claim_validated",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.prior_unsupported_candidate_a_claim_validated"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_prior_unsupported_candidate_b_claim_validated",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.prior_unsupported_candidate_b_claim_validated"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_prior_unsupported_derivation_event_claim_validated",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.prior_unsupported_derivation_event_claim_validated"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_relation_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.relation_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_repair_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.repair_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_repository_scan_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.repository_scan_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_runtime_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.runtime_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_scan_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.scan_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_silent_overwrite_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.silent_overwrite_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_standing_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.standing_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_standing_descendant_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.standing_descendant_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_synchronization_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.synchronization_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_third_candidate_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.third_candidate_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_third_model_admitted",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.third_model_admitted"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_valid_derivation_event_recorded",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.valid_derivation_event_recorded"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_operation_local_validation_enforced",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.operation_local.validation_enforced"
+    },
+    {
+      "check_id": "required_non_claim_shape_required_non_claims_source_boundary",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_coupling_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.coupling_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_crossing_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.crossing_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_crossing_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.crossing_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_first_crossing_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.first_crossing_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_first_crossing_performed",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.first_crossing_performed"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_follow_on_authorized",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.follow_on_authorized"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_identity_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.identity_created"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_presence_established",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.presence_established"
+    },
+    {
+      "check_id": "required_non_claim_required_non_claims_source_boundary_relation_created",
+      "classification": "REQUIRED_NON_CLAIM",
+      "failure_code": null,
+      "passed": true,
+      "path": "required_non_claims.source_boundary.relation_created"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_complete",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_descendant_body_a_referenced",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.descendant_body_a_referenced"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_descendant_body_b_referenced",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.descendant_body_b_referenced"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_descendant_body_created_referenced",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.descendant_body_created_referenced"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_descendant_body_creation_referenced",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.descendant_body_creation_referenced"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_first_crossing_operation_consideration_allowed",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.first_crossing_operation_consideration_allowed"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_source_boundary_result",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.source_boundary_result"
+    },
+    {
+      "check_id": "ordinary_boundary_allowance_source_outcome",
+      "classification": "ORDINARY_BOUNDARY_ALLOWANCE",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.source_outcome"
+    },
+    {
+      "check_id": "ordinary_first_crossing_support_exact_true",
+      "classification": "ORDINARY_FIRST_CROSSING_BASIS",
+      "failure_code": null,
+      "passed": true,
+      "path": "ordinary_operation_basis.first_crossing_support_found"
+    }
+  ],
+  "first_crossing_operation_material": {
+    "first_crossing_a_evaluation": {
+      "candidate_basis_id": "descendant_body_basis_candidate_a_001__motion_side_admissible_variation_basis",
+      "candidate_basis_label": "CANDIDATE_A_MOTION_SIDE_ADMISSIBLE_VARIATION_BASIS",
+      "candidate_basis_scope": "Motion-side admissible variation",
+      "candidate_role": "CANDIDATE_A",
+      "candidate_standing_label": "CANDIDATE_A_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_a_001",
+      "coupling_created": false,
+      "crossing_authorized": true,
+      "crossing_performed": true,
+      "descendant_body_created": true,
+      "descendant_body_id": "descendant_body_a_001",
+      "descendant_body_is_first_crossing": false,
+      "first_crossing_authorized": true,
+      "first_crossing_id": "first_crossing_a_001",
+      "first_crossing_performed": true,
+      "first_crossing_recorded": true,
+      "first_crossing_supported": true,
+      "identity_created": false,
+      "presence_established": false,
+      "relation_created": false
+    },
+    "first_crossing_b_evaluation": {
+      "candidate_basis_id": "descendant_body_basis_candidate_b_001__regulation_side_admissibility_bounds_basis",
+      "candidate_basis_label": "CANDIDATE_B_REGULATION_SIDE_ADMISSIBILITY_BOUNDS_BASIS",
+      "candidate_basis_scope": "Regulation-side admissibility bounds",
+      "candidate_role": "CANDIDATE_B",
+      "candidate_standing_label": "CANDIDATE_B_STANDING",
+      "candidate_standing_source_id": "descendant_body_basis_candidate_b_001",
+      "coupling_created": false,
+      "crossing_authorized": true,
+      "crossing_performed": true,
+      "descendant_body_created": true,
+      "descendant_body_id": "descendant_body_b_001",
+      "descendant_body_is_first_crossing": false,
+      "first_crossing_authorized": true,
+      "first_crossing_id": "first_crossing_b_001",
+      "first_crossing_performed": true,
+      "first_crossing_recorded": true,
+      "first_crossing_supported": true,
+      "identity_created": false,
+      "presence_established": false,
+      "relation_created": false
+    },
+    "first_crossing_pair_evaluation": {
+      "both_first_crossings_authorized": true,
+      "both_first_crossings_performed": true,
+      "both_first_crossings_recorded": true,
+      "both_first_crossings_supported": true,
+      "candidate_standing_non_hierarchy_preserved": true,
+      "coupling_assigned": false,
+      "coupling_created": false,
+      "crossing_authorized": true,
+      "crossing_performed": true,
+      "descendant_bodies_remain_sibling": true,
+      "descendant_body_non_hierarchy_preserved": true,
+      "descendant_standing_check_performed": false,
+      "first_crossing_a_recorded": true,
+      "first_crossing_b_recorded": true,
+      "first_crossing_pair_scope": "SEPARATE_FIRST_CROSSING_RECORDS_ONLY",
+      "follow_on_authorized": false,
+      "identity_created": false,
+      "motion_does_not_erase_regulation": true,
+      "presence_established": false,
+      "regulation_not_sovereign_over_motion": true,
+      "relation_created": false,
+      "standing_descendant_created": false,
+      "third_candidate_created": false,
+      "third_model_admitted": false
+    }
+  },
+  "freshness_and_history": {
+    "freshness": {
+      "fresh_operation_request_identity_declared": true,
+      "historical_operation_material_reused": false,
+      "historical_operation_occurrence_reused": false,
+      "historical_operation_result_is_current_occurrence": false,
+      "historical_operation_result_is_current_permission": false,
+      "historical_operation_result_is_current_source": false,
+      "historical_operation_result_replayed": false,
+      "historical_success_treated_as_fresh_permission": false,
+      "operation_request_identity_distinct_from_historical_occurrence": true,
+      "operation_request_identity_distinct_from_operation_identity": true
+    },
+    "historical_operation": {
+      "first_crossing_result": "FIRST_CROSSING_SUPPORTED",
+      "historical_operation_id": "first_crossing_operation_001",
+      "outcome": "FIRST_CROSSING_OPERATION_RECORDED",
+      "result_is_current_occurrence": false,
+      "result_is_current_permission": false,
+      "result_is_current_source": false,
+      "result_reference": "artifacts/integrity_host_v0_min_coexistence_first_crossing_operation_v0_min_v2/first_crossing_operation_001__first_crossing_operation_v0_min_v2_result.json",
+      "result_replayed": false,
+      "result_sha256": "8b66349ff6d75670d91f4e9b202d0a4210dfb8d47065258a1103600d8dd99871",
+      "success_treated_as_fresh_permission": false
+    }
+  },
+  "non_claim_attribution": {
+    "source_boundary": {
+      "owner": "FIRST_CROSSING_BOUNDARY"
+    },
+    "source_creation_operation": {
+      "owner": "DESCENDANT_BODY_CREATION_OPERATION"
+    },
+    "source_family": {
+      "owner": "DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION"
+    },
+    "target_local": {
+      "owner": "FIRST_CROSSING_OPERATION"
+    }
+  },
+  "operation_local_non_claims": {
+    "action_authorized": false,
+    "affected_file_deleted": false,
+    "affected_file_edited": false,
+    "affected_file_overwritten": false,
+    "affected_file_redeemed": false,
+    "affected_file_repaired": false,
+    "affected_file_replaced": false,
+    "affected_file_treated_as_clean_basis": false,
+    "api_created": false,
+    "authority_created": false,
+    "contaminated_lineage_treated_as_clean_basis": false,
+    "coupling_assigned_to_candidate_a": false,
+    "coupling_assigned_to_candidate_b": false,
+    "coupling_assigned_to_descendant_body_a": false,
+    "coupling_assigned_to_descendant_body_b": false,
+    "coupling_created": false,
+    "currentness_created": false,
+    "derivative_reception_authorized": false,
+    "descendant_body_creation_operation_bypassed": false,
+    "descendant_body_creation_operation_overridden": false,
+    "descendant_standing_check_performed": false,
+    "direct_boundary_allowance_to_first_crossing_without_operation": false,
+    "direct_descendant_body_creation_to_first_crossing_without_boundary_and_operation": false,
+    "direct_first_crossing_operation_spec_to_first_crossing_operation_completion": false,
+    "direct_first_crossing_to_authority_currentness": false,
+    "direct_first_crossing_to_coupling_creation": false,
+    "direct_first_crossing_to_descendant_standing": false,
+    "direct_first_crossing_to_follow_on_work": false,
+    "direct_first_crossing_to_identity": false,
+    "direct_first_crossing_to_output_action": false,
+    "direct_first_crossing_to_presence": false,
+    "direct_first_crossing_to_relation": false,
+    "direct_first_crossing_to_runtime": false,
+    "direct_first_crossing_to_standing_descendant": false,
+    "direct_first_crossing_to_third_candidate_route": false,
+    "direct_first_crossing_to_third_model_route": false,
+    "field_machinery_created": false,
+    "file_discovery_performed": false,
+    "first_crossing_boundary_bypassed": false,
+    "first_crossing_boundary_overridden": false,
+    "follow_on_authorized": false,
+    "follow_on_work_authorized": false,
+    "hidden_repair_performed": false,
+    "identity_created": false,
+    "output_authorized": false,
+    "presence_established": false,
+    "prior_unsupported_candidate_a_claim_validated": false,
+    "prior_unsupported_candidate_b_claim_validated": false,
+    "prior_unsupported_derivation_event_claim_validated": false,
+    "relation_created": false,
+    "repair_performed": false,
+    "repository_scan_performed": false,
+    "runtime_created": false,
+    "scan_performed": false,
+    "silent_overwrite_performed": false,
+    "standing_created": false,
+    "standing_descendant_created": false,
+    "synchronization_authorized": false,
+    "third_candidate_created": false,
+    "third_model_admitted": false,
+    "valid_derivation_event_recorded": false,
+    "validation_enforced": false
+  },
+  "operation_question": "Given the exact current FIRST_CROSSING_BOUNDARY result permitting separately bounded first-crossing operation consideration over pair-preserved descendant_body_a_001 and descendant_body_b_001, may mature FIRST_CROSSING_OPERATION evaluate both and, only when its ordinary support is true, authorize, perform, and record First Crossing A and First Crossing B without creating standing descendant, relation, currentness, authority, presence, identity, coupling, runtime, or downstream authorization?",
+  "ordinary_boundary_allowance_review": {
+    "complete": true,
+    "issue_path": null,
+    "missing_paths": [],
+    "requires_boundary_allowance_creates_retry_permission": false,
+    "requires_boundary_allowance_creates_successor_permission": false
+  },
+  "ordinary_first_crossing_support_review": {
+    "issue_path": null,
+    "not_recorded_creates_continuation_permission": false,
+    "not_recorded_creates_repair_permission": false,
+    "not_recorded_creates_resubmission_permission": false,
+    "not_recorded_creates_retry_permission": false,
+    "not_recorded_creates_successor_permission": false,
+    "support_found": true
+  },
+  "outcome": "FIRST_CROSSING_OPERATION_RECORDED",
+  "passed_check_count": 219,
+  "persistent_boundary_identity": {
+    "admissible_future_route": "FIRST_CROSSING_BOUNDARY_THEN_FIRST_CROSSING_OPERATION_ONLY",
+    "boundary_contract_reference": "spec/FIRST_CROSSING_BOUNDARY_V0_MIN_SPEC.md",
+    "boundary_contract_sha256": "87680155b33852d3b5bca2848df8b68a50c053878c5b49eeeb2fba61e3a007e2",
+    "boundary_id": "first_crossing_boundary_001",
+    "boundary_scope": "CONSIDER_FIRST_CROSSING_AFTER_DESCENDANT_BODY_CREATION_ONLY",
+    "boundary_type": "FIRST_CROSSING_BOUNDARY",
+    "boundary_version": "0.1.0"
+  },
+  "persistent_operation_contract": {
+    "admissible_future_route": "FIRST_CROSSING_OPERATION_THEN_RELATION_BOUNDARY_ONLY",
+    "operation_contract_reference": "spec/FIRST_CROSSING_OPERATION_V0_MIN_SPEC.md",
+    "operation_contract_sha256": "047460dc058b8d6a8655d0fef03a422e2330fd832dd4b2045b45968517896549",
+    "operation_id": "first_crossing_operation_001",
+    "operation_scope": "EVALUATE_FIRST_CROSSING_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "operation_type": "FIRST_CROSSING_OPERATION",
+    "operation_version": "0.1.0"
+  },
+  "resolver_module": "resolve_first_crossing_operation_v0_min_v3",
+  "result_version": "0.3.0",
+  "source_applicability": {
+    "complete_review_reached": true,
+    "result_reference": "artifacts/descendant_body_candidate_standing_effect_applicability_boundary_v0_min_v2/descendant_body_candidate_standing_effect_applicability_boundary_001__descendant_body_candidate_standing_effect_applicability_boundary_v0_min_v2_result.json",
+    "source_applicability_id": "descendant_body_candidate_standing_effect_applicability_boundary_001",
+    "source_applicability_outcome": "DESCENDANT_BODY_CANDIDATE_STANDING_EFFECT_APPLICABILITY_RECORDED",
+    "source_applicability_scope": "ONE_PAIR_PRESERVED_SOURCE_STANDING_EFFECT_ONE_EXACT_DECLARED_DOWNSTREAM_USE_ONLY",
+    "source_applicability_type": "DESCENDANT_BODY_CANDIDATE_STANDING_EFFECT_APPLICABILITY_BOUNDARY",
+    "source_applicability_version": "0.1.0",
+    "source_declared_matter_use": "CANDIDATE_STANDING_OPERATION_THEN_DESCENDANT_BODY_CREATION_BOUNDARY_ONLY",
+    "source_route": "CANDIDATE_STANDING_OPERATION_THEN_DESCENDANT_BODY_CREATION_BOUNDARY_ONLY"
+  },
+  "source_binding": {
+    "selected_surface_family": "DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION",
+    "selected_surface_identity": "descendant_body_candidate_standing_operation_001",
+    "selected_surface_result_reference": "artifacts/integrity_host_v0_min_coexistence_descendant_body_candidate_standing_operation_v0_min/descendant_body_candidate_standing_operation_001__candidate_standing_operation_v0_min_result.json",
+    "selected_surface_result_sha256": "ff1b5ef3559c6ca8a44d328c19dcaecc5df4c2c334680430b71a6644ea6ef961",
+    "selected_surface_scope": "EVALUATE_CANDIDATE_STANDING_AFTER_BOUNDARY_ALLOWANCE_ONLY",
+    "selected_surface_semantic_owner": "DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION",
+    "selected_surface_type": "DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION",
+    "selected_surface_version": "0.1.0",
+    "source_custody_preserved": true,
+    "source_lineage_preserved": true,
+    "source_rank_preserved": true,
+    "source_scope_preserved": true,
+    "source_standing_contract_reference": "spec/DESCENDANT_BODY_CANDIDATE_STANDING_OPERATION_V0_MIN_SPEC.md",
+    "source_standing_contract_sha256": "b9e58008891b29d7bf28c6a9eb894f6a21c7443fbd9c436cea18d4256c9bf9f3",
+    "source_standing_contract_version": "0.1.0"
+  },
+  "source_boundary_non_claims": {
+    "coupling_created": false,
+    "crossing_authorized": false,
+    "crossing_performed": false,
+    "first_crossing_authorized": false,
+    "first_crossing_performed": false,
+    "follow_on_authorized": false,
+    "identity_created": false,
+    "presence_established": false,
+    "relation_created": false
+  }
+}
