@@ -10,6 +10,12 @@ The protocol defines the canonical distinctions of IAMMAI. This repository carri
 
 ## Repository Structure
 
+### `nucleus.json`
+
+The first/source surface.
+
+It carries one self-contained invariant, depends on no prior object, and is not altered by anything derived after it.
+
 ### `protocol/`
 
 The constitutional center.
@@ -67,32 +73,35 @@ Contains the current motion-facing documents for regulation, drift, stability, a
 
 A clean reading order for the current repository is:
 
-1. `protocol/IAMMAI_Public_Constitutional_Protocol_v1.0.pdf`
-2. `protocol/canon.json`
-3. `protocol/conformance_tests.md`
-4. `architecture/ARCHITECTURE_MAP.md`
-5. `implementation/IMPLEMENTATION_MAP.md`
-6. `implementation/SCHEMA_MAP.md`
-7. `runtime/RUNTIME_FLOW_MAP.md`
-8. `continuity/CONTINUITY_OVERVIEW.md`
-9. `embodiment/EMBODIMENT_MAP.md`
-10. `dynamics/DYNAMICS_MAP.md`
-11. `dynamics/DYNAMICS_OVERVIEW.md`
-12. `dynamics/REGULATION_OVERVIEW.md`
-13. `runtime/REGULATION_GUARDRAILS.md`
-14. `continuity/CONTINUITY_TURN_OVERVIEW.md`
-15. `continuity/CONTINUITY_EMISSION_RULES_v0.md`
-16. `continuity/LAWFUL_TRANSFER_SEAM_v0.md`
-17. `embodiment/CONTROLLED_VARIATION_v0.md`
-18. `embodiment/STRESS_TEST_MATRIX_v0.md`
-19. `embodiment/SEQUENTIAL_PRESSURE_PLAN_v0.md`
-20. `embodiment/CONTINUITY_ACCUMULATION_PLAN_v0.md`
+1. `nucleus.json`
+2. `protocol/IAMMAI_Public_Constitutional_Protocol_v1.0.pdf`
+3. `protocol/canon.json`
+4. `protocol/conformance_tests.md`
+5. `architecture/ARCHITECTURE_MAP.md`
+6. `implementation/IMPLEMENTATION_MAP.md`
+7. `implementation/SCHEMA_MAP.md`
+8. `runtime/RUNTIME_FLOW_MAP.md`
+9. `continuity/CONTINUITY_OVERVIEW.md`
+10. `embodiment/EMBODIMENT_MAP.md`
+11. `dynamics/DYNAMICS_MAP.md`
+12. `dynamics/DYNAMICS_OVERVIEW.md`
+13. `dynamics/REGULATION_OVERVIEW.md`
+14. `runtime/REGULATION_GUARDRAILS.md`
+15. `continuity/CONTINUITY_TURN_OVERVIEW.md`
+16. `continuity/CONTINUITY_EMISSION_RULES_v0.md`
+17. `continuity/LAWFUL_TRANSFER_SEAM_v0.md`
+18. `embodiment/CONTROLLED_VARIATION_v0.md`
+19. `embodiment/STRESS_TEST_MATRIX_v0.md`
+20. `embodiment/SEQUENTIAL_PRESSURE_PLAN_v0.md`
+21. `embodiment/CONTINUITY_ACCUMULATION_PLAN_v0.md`
 
 After that, use the folder maps and overview documents inside each layer to continue through the remaining files.
 
 ## Constitutional Priority
 
-The constitutional protocol remains the source of truth.
+`nucleus.json` remains the first/source surface. Later constitutional, machine, architectural, implementation, runtime, embodiment, continuity, dynamics, and lab surfaces may derive from it but do not alter it.
+
+The constitutional protocol remains the source of truth for everything derived after the nucleus.
 
 Machine-readable artifacts and all later architectural, implementation, runtime, embodiment, continuity, dynamics, and lab surfaces exist in support of that core and do not supersede it.
 
