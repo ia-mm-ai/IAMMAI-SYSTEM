@@ -12,9 +12,11 @@ The protocol defines the canonical distinctions of IAMMAI. This repository carri
 
 ### `nucleus.json`
 
-The first/source surface.
+The first/source object.
 
-It carries one self-contained invariant, depends on no prior object, and is not altered by anything derived after it.
+It is a closed value, not a doctrine or event record. Its `id` is the SHA-256 digest of the exact UTF-8 bytes of its `payload`.
+
+It has no author, clock, predecessor, receiver, matter, or downstream slots. Later objects may point to its `id`; it does not point back. Changing its payload produces a different identity rather than changing this nucleus.
 
 ### `protocol/`
 
@@ -99,7 +101,7 @@ After that, use the folder maps and overview documents inside each layer to cont
 
 ## Constitutional Priority
 
-`nucleus.json` remains the first/source surface. Later constitutional, machine, architectural, implementation, runtime, embodiment, continuity, dynamics, and lab surfaces may derive from it but do not alter it.
+`nucleus.json` remains the first/source object. Later surfaces may refer to or derive from its identity, but none are fields of the nucleus.
 
 The constitutional protocol remains the source of truth for everything derived after the nucleus.
 
