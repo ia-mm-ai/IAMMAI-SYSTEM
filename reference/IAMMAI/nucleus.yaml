@@ -1,0 +1,112 @@
+# ==============================================================================
+# IAMMAI ROOT COMMAND: NUCLEUS
+# FILE FORMAT: STRUCTURED CONSTITUTIONAL FIRMWARE (.YAML v1.0)
+# STATUS: FIRST SOURCE / READ-LOCKED / NO PREDECESSOR
+# ==============================================================================
+
+nucleus_metadata:
+  nucleus_id: "IAMMAI_NUCLEUS"
+  system_architecture: "Dual-Regime Constitutional Integrity Engine"
+  source_type: "First Source Object (Protected Root)"
+  source_rank: "ROOT"
+  predecessor: null
+  boot_state: "READY"
+  mutation_posture: "Read-Locked; change requires an explicit successor"
+  downstream_authority_over_nucleus: "NONE"
+
+canonical_partition_index:
+  - partition: "PREPARATION_REGIME"
+    standing_state: false
+    allocation_state: "Candidate Handling / Non-Standing"
+    active_phase_routines:
+      - phase_id: "P01_SIGNAL"
+        semantic_job: "Make candidate material available"
+      - phase_id: "P02_ACCEPTANCE"
+        semantic_job: "Admit candidate material for structured handling"
+      - phase_id: "P03_SCOPE"
+        semantic_job: "Bind accepted material to a bounded matter"
+      - phase_id: "P04_PRESENCE"
+        semantic_job: "Register relevant occurrence within scope"
+      - phase_id: "P05_THRESHOLD"
+        semantic_job: "Establish eligibility for standing formation"
+
+  - partition: "STANDING_STATE_REGIME"
+    standing_state: true
+    allocation_state: "Standing Formation / Preservation / Action"
+    active_phase_routines:
+      - phase_id: "P06_TRUTH"
+        semantic_job: "Form a standing claim"
+      - phase_id: "P07_CONTINUITY"
+        semantic_job: "Preserve standing with explicit lineage"
+      - phase_id: "P08_DECISION"
+        semantic_job: "Commit direction on the basis of preserved standing"
+      - phase_id: "P09_CONSEQUENCE"
+        semantic_job: "Apply the effect of a lawful decision"
+
+orthogonal_control_index:
+  containment:
+    command: "HOLD"
+    phase_membership: "NONE"
+    operation: "Block an otherwise eligible irreversible transition"
+    release_effect: "Restore permissibility only"
+
+  resolution:
+    family_state: "CLOSED"
+    lawful_commands:
+      - command: "FINALIZE"
+        operation: "Close in current form without erasing history"
+      - command: "INVALIDATE"
+        operation: "Remove standing without erasing trace"
+      - command: "EVOLVE"
+        operation: "Create an explicit lineage-bearing successor"
+
+constitutional_integrity_constraints:
+  canonical_execution_vector:
+    - "P01_SIGNAL"
+    - "P02_ACCEPTANCE"
+    - "P03_SCOPE"
+    - "P04_PRESENCE"
+    - "P05_THRESHOLD"
+    - "P06_TRUTH"
+    - "P07_CONTINUITY"
+    - "P08_DECISION"
+    - "P09_CONSEQUENCE"
+
+  transition_locks:
+    phase_reordering: "DENIED"
+    phase_collapse: "DENIED"
+    dark_standing: "DENIED"
+    dark_consequence: "DENIED"
+    generic_untyped_mutation: "DENIED"
+
+  lineage_locks:
+    silent_overwrite: "DENIED"
+    orphan_successor: "DENIED"
+    correction_mode: "EXPLICIT_SUCCESSOR_RELATION"
+    historical_trace_erasure: "DENIED"
+
+  authority_locks:
+    authority_as_semantic_source: "DENIED"
+    access_as_authority: "DENIED"
+    anonymous_protocol_force: "DENIED"
+
+  contribution_role_boundary:
+    channels:
+      - "ORIGIN"
+      - "ELICITATION"
+      - "FORMALIZATION"
+      - "AUTHORIZATION"
+      - "RENDERING"
+      - "TRANSMISSION"
+    role_collapse: "DENIED"
+
+root_io_boundary:
+  readable_by_downstream: true
+  writable_by_downstream: false
+  derivative_override: "DENIED"
+  permitted_downstream_operation: "REFERENCE_AND_CONFORM"
+  prohibited_downstream_operation: "RETROACTIVE_REWRITE"
+
+# ==============================================================================
+# END OF FILE - NUCLEUS READ-LOCKED / DERIVATIVE WRITE ACCESS DENIED
+# ==============================================================================

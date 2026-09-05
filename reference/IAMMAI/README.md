@@ -10,13 +10,11 @@ The protocol defines the canonical distinctions of IAMMAI. This repository carri
 
 ## Repository Structure
 
-### `nucleus.json`
+### `nucleus.yaml`
 
-The first/source object.
+The first/source constitutional firmware.
 
-It is a closed value, not a doctrine or event record. Its `id` is the SHA-256 digest of the exact UTF-8 bytes of its `payload`.
-
-It has no author, clock, predecessor, receiver, matter, or downstream slots. Later objects may point to its `id`; it does not point back. Changing its payload produces a different identity rather than changing this nucleus.
+It carries the root operating configuration: the two constitutional regimes, ordered phase routines, orthogonal containment and resolution controls, integrity locks, contribution-role channels, and the root input/output boundary. It has no predecessor and grants no downstream surface write authority over it.
 
 ### `protocol/`
 
@@ -75,7 +73,7 @@ Contains the current motion-facing documents for regulation, drift, stability, a
 
 A clean reading order for the current repository is:
 
-1. `nucleus.json`
+1. `nucleus.yaml`
 2. `protocol/IAMMAI_Public_Constitutional_Protocol_v1.0.pdf`
 3. `protocol/canon.json`
 4. `protocol/conformance_tests.md`
@@ -101,7 +99,7 @@ After that, use the folder maps and overview documents inside each layer to cont
 
 ## Constitutional Priority
 
-`nucleus.json` remains the first/source object. Later surfaces may refer to or derive from its identity, but none are fields of the nucleus.
+`nucleus.yaml` remains the first/source constitutional firmware. Later surfaces may read, reference, embody, and conform to it, but they do not write backward into it.
 
 The constitutional protocol remains the source of truth for everything derived after the nucleus.
 
