@@ -9,7 +9,7 @@ from pathlib import Path
 from typing import Callable, Iterator
 
 from .model import (
-    LRMError, MAX_EVENT_BYTES, MAX_EVENTS, Projection, canonical, digest,
+    EVOLUTION_ACTIONS, LRMError, MAX_EVENT_BYTES, MAX_EVENTS, Projection, canonical, digest,
     normalize_operation, now, parse_json, text, timestamp, validate_event,
 )
 
@@ -106,7 +106,7 @@ class Workspace:
             if projection.revision >= MAX_EVENTS:
                 raise LRMError("workspace event limit reached")
             event = {
-                "format": 1, "sequence": projection.revision + 1,
+                "format": 2 if action in EVOLUTION_ACTIONS else 1, "sequence": projection.revision + 1,
                 "previous_hash": projection.head_hash,
                 "recorded_at": timestamp(self.clock()),
                 "action": action, "data": data, "reason": reason,
@@ -122,7 +122,8 @@ class Workspace:
                     "action": action, "recorded_at": event["recorded_at"]}
 
     def read(self, operation: str, *, scope: str | None = None, record_id: str | None = None,
-             left: str | None = None, right: str | None = None, at: str | None = None) -> dict:
+             left: str | None = None, right: str | None = None, at: str | None = None,
+             consultation_id: str | None = None) -> dict:
         """Evaluate only evidence known at `at`; later events remain outside that view."""
         at = timestamp(at) if at is not None else None
         with self._connection() as connection:
@@ -147,6 +148,10 @@ class Workspace:
             result = {"events": visible_events}
         elif operation == "verify":
             result = {"integrity": "ok", "verified_event_count": head.revision}
+        elif operation == "capabilities":
+            result = projection.capabilities(scope, at)
+        elif operation == "consultation":
+            result = projection.consultation(consultation_id, at)
         else:
             raise LRMError("unsupported read operation")
         return json.loads(canonical({

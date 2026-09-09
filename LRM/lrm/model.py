@@ -11,6 +11,10 @@ from typing import Any
 
 MAX_EVENT_BYTES = 131_072
 MAX_EVENTS = 10_000
+MAX_CONSULTATION_SECONDS = 86_400
+LEGACY_ACTIONS = ("admit", "select", "relate", "supersede", "retract")
+EVOLUTION_ACTIONS = ("regulate", "open-consultation", "close-consultation", "withdraw-relation")
+READ_OPERATIONS = ("state", "lookup", "compare", "history", "verify", "capabilities", "consultation")
 ZERO_HASH = "0" * 64
 IDENTIFIER = re.compile(r"[A-Za-z0-9][A-Za-z0-9._:-]{0,127}\Z")
 TIMESTAMP = re.compile(
@@ -150,6 +154,23 @@ def normalize_operation(action: str, value: Any) -> dict:
     if action == "retract":
         fields(value, {"id"})
         return {"id": identifier(value["id"])}
+    if action == "regulate":
+        fields(value, {"scope", "status"})
+        if value["status"] not in ("open", "held"):
+            raise LRMError("regulation status must be open or held")
+        return {"scope": identifier(value["scope"], "scope"), "status": value["status"]}
+    if action == "open-consultation":
+        fields(value, {"id", "scope", "until"})
+        return {"id": identifier(value["id"]), "scope": identifier(value["scope"], "scope"),
+                "until": timestamp(value["until"])}
+    if action == "close-consultation":
+        fields(value, {"id"})
+        return {"id": identifier(value["id"])}
+    if action == "withdraw-relation":
+        fields(value, {"revision"})
+        if type(value["revision"]) is not int or value["revision"] < 1:
+            raise LRMError("relation revision must be a positive integer")
+        return {"revision": value["revision"]}
     raise LRMError("unsupported operation")
 
 
@@ -163,6 +184,9 @@ class Projection:
         self.supersessions: dict[str, dict] = {}
         self.selections: dict[str, dict] = {}
         self.relations: list[dict] = []
+        self.relation_withdrawals: dict[int, dict] = {}
+        self.regulations: dict[str, dict] = {}
+        self.consultations: dict[str, dict] = {}
         self.revision = 0
         self.head_hash = ZERO_HASH
         self.recorded_at: str | None = None
@@ -186,6 +210,34 @@ class Projection:
             reasons.append("expired")
         return reasons
 
+    def regulation(self, scope: str) -> dict:
+        return self.regulations.get(scope, {
+            "scope": scope, "status": "open", "revision": 0,
+            "recorded_at": None, "reason": None,
+        })
+
+    def consultation_blockers(self, scope: str, at: str) -> list[str]:
+        reasons = []
+        if self.regulation(scope)["status"] == "held":
+            reasons.append("scope_held")
+        ids = self.selections.get(scope, {}).get("ids", [])
+        if not ids:
+            reasons.append("no_selection")
+        if any(self.ineligibility(item, at) for item in ids):
+            reasons.append("selection_lapsed")
+        if self.revision >= MAX_EVENTS:
+            reasons.append("event_limit_reached")
+        return reasons
+
+    def invalidate_consultations(self, scope: str, cause: str, evidence: dict,
+                                 record_id: str | None = None) -> None:
+        for consultation in self.consultations.values():
+            if (consultation["scope"] == scope and not consultation["closed"]
+                    and not consultation["invalidated"]
+                    and evidence["recorded_at"] < consultation["until"]
+                    and (record_id is None or record_id in consultation["ids"])):
+                consultation["invalidated"] = {"cause": cause, **evidence}
+
     def apply(self, event: dict) -> None:
         action, data, at = event["action"], event["data"], event["recorded_at"]
         evidence = {"revision": event["sequence"], "recorded_at": at, "reason": event["reason"]}
@@ -198,18 +250,23 @@ class Projection:
             self.records[record["id"]] = record
             self.admissions[record["id"]] = event["sequence"]
         elif action == "select":
+            if data["ids"] and self.regulation(data["scope"])["status"] == "held":
+                raise LRMError("scope is held; selection may be cleared but not populated")
             for record_id in data["ids"]:
                 record = self.require(record_id)
                 if record["scope"] != data["scope"]:
                     raise LRMError("selection cannot cross scopes")
                 if self.ineligibility(record_id, at):
                     raise LRMError(f"record is not eligible for selection: {record_id}")
+            self.invalidate_consultations(data["scope"], "selection_changed", evidence)
             self.selections[data["scope"]] = {**data, **evidence}
         elif action == "relate":
             left, right = self.require(data["left"]), self.require(data["right"])
             if left["id"] == right["id"] or left["scope"] != right["scope"]:
                 raise LRMError("relations require distinct records in the same scope")
             for relation in self.relations:
+                if relation["revision"] in self.relation_withdrawals:
+                    continue
                 same_direction = (relation["left"], relation["right"]) == (data["left"], data["right"])
                 reverse = (relation["left"], relation["right"]) == (data["right"], data["left"])
                 if relation["kind"] == data["kind"] and (same_direction or (reverse and data["kind"] != "supports")):
@@ -224,11 +281,46 @@ class Projection:
             if self.ineligibility(data["new"], at):
                 raise LRMError("replacement must be eligible")
             self.supersessions[data["old"]] = {"new": data["new"], **evidence}
+            self.invalidate_consultations(old["scope"], "evidence_superseded", evidence, data["old"])
         elif action == "retract":
             self.require(data["id"])
             if data["id"] in self.retractions:
                 raise LRMError("record is already retracted")
             self.retractions[data["id"]] = evidence
+            self.invalidate_consultations(self.records[data["id"]]["scope"],
+                                          "evidence_retracted", evidence, data["id"])
+        elif action == "withdraw-relation":
+            if not any(item["revision"] == data["revision"] for item in self.relations):
+                raise LRMError("unknown relation revision")
+            if data["revision"] in self.relation_withdrawals:
+                raise LRMError("relation is already withdrawn")
+            self.relation_withdrawals[data["revision"]] = evidence
+        elif action == "regulate":
+            if self.regulation(data["scope"])["status"] == data["status"]:
+                raise LRMError("scope already has that regulation status")
+            self.regulations[data["scope"]] = {**data, **evidence}
+            if data["status"] == "held":
+                self.invalidate_consultations(data["scope"], "scope_held", evidence)
+        elif action == "open-consultation":
+            if data["id"] in self.consultations:
+                raise LRMError("consultation id already exists; use a new id")
+            duration = (datetime.fromisoformat(data["until"]) - datetime.fromisoformat(at)).total_seconds()
+            if not 0 < duration <= MAX_CONSULTATION_SECONDS:
+                raise LRMError("consultation must expire within 24 hours after opening")
+            blockers = self.consultation_blockers(data["scope"], at)
+            if blockers:
+                raise LRMError("consultation cannot open: " + ", ".join(blockers))
+            selection = self.selections[data["scope"]]
+            self.consultations[data["id"]] = {
+                **data, "ids": list(selection["ids"]), "selection_revision": selection["revision"],
+                "basis_revision": self.revision, "basis_hash": self.head_hash,
+                "opened": evidence, "closed": None, "invalidated": None,
+            }
+        elif action == "close-consultation":
+            consultation = self.require_consultation(data["id"])
+            if consultation["closed"]:
+                raise LRMError("consultation is already closed")
+            consultation["closed"] = evidence
         self.revision = event["sequence"]
         self.head_hash = digest(event)
         self.recorded_at = at
@@ -245,6 +337,60 @@ class Projection:
             "retraction": self.retractions.get(record_id),
             "supersession": self.supersessions.get(record_id),
         }
+
+    def relation_view(self, relation: dict) -> dict:
+        return {**relation, "withdrawal": self.relation_withdrawals.get(relation["revision"])}
+
+    def require_consultation(self, consultation_id: str) -> dict:
+        identifier(consultation_id, "consultation id")
+        if consultation_id not in self.consultations:
+            raise LRMError("unknown consultation id")
+        return self.consultations[consultation_id]
+
+    def consultation(self, consultation_id: str, at: str, *, include_records: bool = True) -> dict:
+        consultation = self.require_consultation(consultation_id)
+        reasons = []
+        if consultation["closed"]:
+            reasons.append("closed")
+        if consultation["invalidated"]:
+            reasons.append(consultation["invalidated"]["cause"])
+        if at >= consultation["until"]:
+            reasons.append("expired")
+        ineligible = [{"id": item, "reasons": self.ineligibility(item, at)}
+                      for item in consultation["ids"] if self.ineligibility(item, at)]
+        if ineligible:
+            reasons.append("evidence_lapsed")
+        result = {
+            **consultation, "presence": int(not reasons),
+            "stop_reasons": reasons, "ineligible": ineligible,
+        }
+        if include_records:
+            result["records"] = [self.lookup(item, at) for item in consultation["ids"]] if not reasons else []
+            result["relations"] = [
+                self.relation_view(item) for item in self.relations
+                if item["left"] in consultation["ids"] and item["right"] in consultation["ids"]
+            ] if not reasons else []
+        return result
+
+    def capabilities(self, scope: str | None, at: str) -> dict:
+        result = {
+            "contract": "LRM local consultation 0.2",
+            "write_operations": list(LEGACY_ACTIONS + EVOLUTION_ACTIONS),
+            "read_operations": list(READ_OPERATIONS),
+            "event_formats": [1, 2],
+            "limits": {"max_events": MAX_EVENTS, "max_event_bytes": MAX_EVENT_BYTES,
+                       "max_consultation_seconds": MAX_CONSULTATION_SECONDS},
+            "meaning": "software capabilities and local blockers, not permission or source capacity",
+            "scope": None,
+        }
+        if scope is not None:
+            identifier(scope, "scope")
+            result["scope"] = {
+                "id": scope, "regulation": self.regulation(scope),
+                "selection_revision": self.selections.get(scope, {}).get("revision"),
+                "consultation_blockers": self.consultation_blockers(scope, at),
+            }
+        return result
 
     def state(self, scope: str, at: str) -> dict:
         identifier(scope, "scope")
@@ -264,11 +410,16 @@ class Projection:
                     "selected": record_id in selected_ids,
                     "ineligibility": self.ineligibility(record_id, at),
                 })
-        relations = [item for item in self.relations if self.records[item["left"]]["scope"] == scope]
+        relations = [self.relation_view(item) for item in self.relations
+                     if self.records[item["left"]]["scope"] == scope]
         conflicts = [item for item in relations if item["kind"] == "contradicts"
+                     and item["withdrawal"] is None
                      and item["left"] in active and item["right"] in active]
         return {
             "scope": scope, "selection": selection,
+            "regulation": self.regulation(scope),
+            "consultations": [self.consultation(item["id"], at, include_records=False)
+                              for item in self.consultations.values() if item["scope"] == scope],
             "active_ids": active,
             "lapsed": [{"id": item, "reasons": self.ineligibility(item, at)}
                        for item in selected_ids if item not in active],
@@ -288,7 +439,7 @@ class Projection:
             "left": self.lookup(left, at), "right": self.lookup(right, at),
             "equal_fields": sorted(key for key in a if key != "id" and a[key] == b[key]),
             "different_fields": sorted(key for key in a if key != "id" and a[key] != b[key]),
-            "declared_relations": [item for item in self.relations
+            "declared_relations": [self.relation_view(item) for item in self.relations
                                    if {item["left"], item["right"]} == {left, right}],
             "judgment": "none; structural comparison only",
         }
@@ -296,8 +447,11 @@ class Projection:
 
 def validate_event(event: Any, projection: Projection) -> dict:
     fields(event, {"format", "sequence", "previous_hash", "recorded_at", "action", "data", "reason"})
-    if type(event["format"]) is not int or event["format"] != 1:
+    if type(event["format"]) is not int or event["format"] not in (1, 2):
         raise LRMError("unsupported event format")
+    actions = LEGACY_ACTIONS if event["format"] == 1 else EVOLUTION_ACTIONS
+    if event["action"] not in actions:
+        raise LRMError("operation is not supported by this event format")
     if type(event["sequence"]) is not int or event["sequence"] != projection.revision + 1:
         raise LRMError("event sequence is not contiguous")
     if event["previous_hash"] != projection.head_hash:

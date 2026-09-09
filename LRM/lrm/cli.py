@@ -7,7 +7,7 @@ import json
 import sys
 from pathlib import Path
 
-from .model import LRMError, MAX_EVENT_BYTES, parse_json
+from .model import EVOLUTION_ACTIONS, LEGACY_ACTIONS, READ_OPERATIONS, LRMError, MAX_EVENT_BYTES, parse_json
 from .store import Workspace
 
 
@@ -18,7 +18,7 @@ def parser() -> argparse.ArgumentParser:
     root.add_argument("--db", required=True, type=Path, help="explicit local SQLite workspace path")
     commands = root.add_subparsers(dest="command", required=True)
     commands.add_parser("init", help="create a new workspace; never overwrite")
-    for name in ("admit", "select", "relate", "supersede", "retract"):
+    for name in LEGACY_ACTIONS + EVOLUTION_ACTIONS:
         command = commands.add_parser(name)
         command.add_argument("--expect", required=True, type=int, help="last observed head revision")
         command.add_argument("--reason", required=True, help="explicit rationale, preserved in history")
@@ -34,14 +34,25 @@ def parser() -> argparse.ArgumentParser:
         elif name == "supersede":
             command.add_argument("old")
             command.add_argument("new")
+        elif name == "regulate":
+            command.add_argument("--scope", required=True)
+            command.add_argument("status", choices=("open", "held"))
+        elif name == "open-consultation":
+            command.add_argument("id")
+            command.add_argument("--scope", required=True)
+            command.add_argument("--until", required=True, help="RFC3339 expiry, within 24 hours")
+        elif name == "withdraw-relation":
+            command.add_argument("revision", type=int, help="journal revision that declared the relation")
         else:
             command.add_argument("id")
-    for name in ("state", "lookup", "compare", "history", "verify"):
+    for name in READ_OPERATIONS:
         command = commands.add_parser(name)
         command.add_argument("--at", help="RFC3339 historical cutoff or explicit future projection")
         if name == "state":
             command.add_argument("--scope", required=True)
-        elif name == "lookup":
+        elif name == "capabilities":
+            command.add_argument("--scope")
+        elif name in ("lookup", "consultation"):
             command.add_argument("id")
         elif name == "compare":
             command.add_argument("left")
@@ -56,11 +67,12 @@ def main(argv: list[str] | None = None) -> int:
         if args.command == "init":
             workspace = Workspace.create(args.db)
             result = workspace.read("verify")
-        elif args.command in ("state", "lookup", "compare", "history", "verify"):
+        elif args.command in READ_OPERATIONS:
             result = workspace.read(
                 args.command, scope=getattr(args, "scope", None),
                 record_id=getattr(args, "id", None), left=getattr(args, "left", None),
                 right=getattr(args, "right", None), at=args.at,
+                consultation_id=getattr(args, "id", None),
             )
         else:
             if args.command == "admit":
@@ -77,6 +89,12 @@ def main(argv: list[str] | None = None) -> int:
                 data = {"kind": args.kind, "left": args.left, "right": args.right}
             elif args.command == "supersede":
                 data = {"old": args.old, "new": args.new}
+            elif args.command == "regulate":
+                data = {"scope": args.scope, "status": args.status}
+            elif args.command == "open-consultation":
+                data = {"id": args.id, "scope": args.scope, "until": args.until}
+            elif args.command == "withdraw-relation":
+                data = {"revision": args.revision}
             else:
                 data = {"id": args.id}
             result = workspace.append(args.command, data, reason=args.reason, expected_revision=args.expect)
