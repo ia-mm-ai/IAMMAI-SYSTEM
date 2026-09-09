@@ -90,6 +90,8 @@ class Workspace:
             if sequence != event["sequence"] or body != canonical(event) or stored_digest != digest(event):
                 raise LRMError("event integrity check failed")
             projection.apply(event)
+            if projection.revision + projection.closure_reservations() > MAX_EVENTS:
+                raise LRMError("workspace lacks reserved closure capacity")
             events.append(event)
         return projection, events
 
@@ -116,6 +118,8 @@ class Workspace:
             if len(body.encode("utf-8")) > MAX_EVENT_BYTES:
                 raise LRMError("operation exceeds the event size limit")
             projection.apply(event)
+            if projection.revision + projection.closure_reservations() > MAX_EVENTS:
+                raise LRMError("event capacity is reserved for consultation closure")
             connection.execute("INSERT INTO events VALUES (?, ?, ?)",
                                (event["sequence"], body, projection.head_hash))
             return {"revision": projection.revision, "head_hash": projection.head_hash,

@@ -227,7 +227,12 @@ class Projection:
             reasons.append("selection_lapsed")
         if self.revision >= MAX_EVENTS:
             reasons.append("event_limit_reached")
+        elif self.revision + self.closure_reservations() + 2 > MAX_EVENTS:
+            reasons.append("closure_capacity_reserved")
         return reasons
+
+    def closure_reservations(self) -> int:
+        return sum(item["closed"] is None for item in self.consultations.values())
 
     def invalidate_consultations(self, scope: str, cause: str, evidence: dict,
                                  record_id: str | None = None) -> None:
@@ -380,6 +385,9 @@ class Projection:
             "event_formats": [1, 2],
             "limits": {"max_events": MAX_EVENTS, "max_event_bytes": MAX_EVENT_BYTES,
                        "max_consultation_seconds": MAX_CONSULTATION_SECONDS},
+            "capacity": {"used_events": self.revision,
+                         "closure_reservations": self.closure_reservations(),
+                         "unreserved_events": MAX_EVENTS - self.revision - self.closure_reservations()},
             "meaning": "software capabilities and local blockers, not permission or source capacity",
             "scope": None,
         }

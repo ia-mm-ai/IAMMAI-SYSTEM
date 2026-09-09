@@ -777,6 +777,42 @@ class WorkspaceTests(unittest.TestCase):
         self.assertEqual(self.consultation()["ids"], ["a"])
         self.assertEqual(self.consultation()["records"][0]["record"]["body"], record()["body"])
 
+    def test_each_consultation_reserves_room_for_its_own_exit(self):
+        self.admit()
+        self.select(["a"])
+        with patch("lrm.store.MAX_EVENTS", 6), patch("lrm.model.MAX_EVENTS", 6):
+            self.open_consultation()
+            self.open_consultation("read-2")
+            capacity = self.workspace.read("capabilities", scope="garden")["result"]
+            self.assertEqual(capacity["capacity"]["unreserved_events"], 0)
+            self.assertEqual(capacity["capacity"]["closure_reservations"], 2)
+            self.assertIn("closure_capacity_reserved", capacity["scope"]["consultation_blockers"])
+            before = self.path.read_bytes()
+            with self.assertRaisesRegex(LRMError, "reserved"):
+                self.admit("b")
+            with self.assertRaisesRegex(LRMError, "closure_capacity_reserved"):
+                self.open_consultation("read-3")
+            self.assertEqual(self.path.read_bytes(), before)
+            self.append("close-consultation", {"id": "read-1"})
+            self.append("close-consultation", {"id": "read-2"})
+            self.assertEqual(self.revision, 6)
+            self.assertEqual(self.consultation()["presence"], 0)
+            self.assertEqual(self.consultation("read-2")["presence"], 0)
+            self.assertEqual(self.workspace.read("capabilities")["result"]["capacity"]["closure_reservations"], 0)
+
+    def test_stopped_consultation_keeps_its_exit_reservation_until_closed(self):
+        self.admit()
+        self.select(["a"])
+        with patch("lrm.store.MAX_EVENTS", 5), patch("lrm.model.MAX_EVENTS", 5):
+            self.open_consultation()
+            self.regulate("held")
+            self.time = T2
+            with self.assertRaisesRegex(LRMError, "reserved"):
+                self.regulate("open")
+            self.append("close-consultation", {"id": "read-1"})
+            self.assertEqual(self.revision, 5)
+            self.assertIsNotNone(self.consultation()["closed"])
+
 
 class ValidationTests(unittest.TestCase):
     def test_strict_json(self):
