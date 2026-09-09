@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import math
 import re
 from datetime import datetime, timezone
 from typing import Any
@@ -40,12 +41,22 @@ def _invalid_constant(value: str) -> None:
     raise LRMError(f"non-finite JSON number: {value}")
 
 
+def _finite_float(value: str) -> float:
+    parsed = float(value)
+    if not math.isfinite(parsed):
+        raise LRMError("JSON number is out of range")
+    return parsed
+
+
 def parse_json(text: str) -> Any:
     try:
         if len(text.encode("utf-8")) > MAX_EVENT_BYTES:
             raise LRMError("JSON input exceeds the event size limit")
-        return json.loads(text, object_pairs_hook=_pairs, parse_constant=_invalid_constant)
-    except (UnicodeError, RecursionError, json.JSONDecodeError) as exc:
+        return json.loads(text, object_pairs_hook=_pairs, parse_constant=_invalid_constant,
+                          parse_float=_finite_float)
+    except LRMError:
+        raise
+    except (ValueError, RecursionError) as exc:
         raise LRMError("invalid JSON input") from exc
 
 

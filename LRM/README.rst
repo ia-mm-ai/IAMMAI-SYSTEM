@@ -139,7 +139,9 @@ This is a closed contract, not a general JSON document store.
 Timestamps must include date, seconds, and an explicit UTC offset, with up to
 six fractional digits. They are normalized to UTC. The local clock supplies
 journal timestamps; a write that would move the clock backwards is rejected.
-There is no trusted external time source.
+A default read also refuses a clock earlier than the stored journal head,
+rather than silently presenting historical state as current. There is no
+trusted external time source.
 
 Operation contract
 ------------------
@@ -148,6 +150,8 @@ Every write takes ``--expect N`` and ``--reason TEXT``. ``N`` is the last observ
 ``head_revision``, initially zero. A successful write returns the new revision
 and head hash. A stale revision fails rather than losing someone else's update.
 Read the workspace again and consciously decide before retrying.
+Use a fresh default read to establish this precondition, not the head metadata
+attached to a deliberately historical projection.
 
 ``admit FILE``
     Preserve a new immutable evidence record. Never select it implicitly.
@@ -208,6 +212,9 @@ Read commands never write workspace state:
     semantics. Reports what was checked, not that its claims are true.
 
 Read commands accept ``--at RFC3339``. The default is the local invocation time.
+The default evaluation time is sampled after establishing the database snapshot,
+so a concurrent update cannot be included in its revision but hidden by an
+earlier automatically chosen time cutoff.
 Only events recorded at or before that time enter the projection, and declared
 validity is evaluated at that same time. Thus a later retraction does not rewrite
 an earlier view. At equal timestamps, journal sequence determines event order.

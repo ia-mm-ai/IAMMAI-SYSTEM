@@ -59,7 +59,7 @@ class Workspace:
         mode = "rw" if write else "ro"
         connection = None
         try:
-            connection = sqlite3.connect(self.path.as_uri() + f"?mode={mode}", timeout=5)
+            connection = sqlite3.connect(self.path.as_uri() + f"?mode={mode}", timeout=5, uri=True)
             connection.execute("PRAGMA trusted_schema=OFF")
             connection.execute("BEGIN IMMEDIATE" if write else "BEGIN")
             if initialized:
@@ -124,9 +124,13 @@ class Workspace:
     def read(self, operation: str, *, scope: str | None = None, record_id: str | None = None,
              left: str | None = None, right: str | None = None, at: str | None = None) -> dict:
         """Evaluate only evidence known at `at`; later events remain outside that view."""
-        at = timestamp(at if at is not None else self.clock())
+        at = timestamp(at) if at is not None else None
         with self._connection() as connection:
             head, events = self._replay(connection)
+            if at is None:
+                at = timestamp(self.clock())
+                if head.recorded_at and at < head.recorded_at:
+                    raise LRMError("clock precedes journal head; use an explicit historical cutoff")
         projection = Projection()
         visible_events = []
         for event in events:
