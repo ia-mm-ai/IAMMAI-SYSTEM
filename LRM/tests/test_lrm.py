@@ -103,6 +103,26 @@ class WorkspaceTests(unittest.TestCase):
             self.select(["a", "b"])
         self.assertIsNone(self.state()["selection"])
 
+    def test_closed_operation_contracts_and_required_rationale(self):
+        self.admit()
+        before = self.path.read_bytes()
+        for action, data in [
+            ("admit", {"record": record("b"), "authority": True}),
+            ("select", {"scope": "garden", "ids": ["a", "a"]}),
+            ("select", {"scope": "garden", "ids": "a"}),
+            ("select", {"scope": "garden", "ids": [None]}),
+            ("retract", {}),
+            ("supersede", {"old": "a", "new": None}),
+            ("relate", {"left": "a", "right": "a", "kind": []}),
+        ]:
+            with self.subTest(action=action, data=data), self.assertRaises(LRMError):
+                self.append(action, data)
+        for revision, reason in [(True, "Review"), (-1, "Review"), ("1", "Review"), (1, " ")]:
+            with self.subTest(revision=revision, reason=reason), self.assertRaises(LRMError):
+                self.workspace.append("select", {"scope": "garden", "ids": ["a"]},
+                                      reason=reason, expected_revision=revision)
+        self.assertEqual(self.path.read_bytes(), before)
+
     def test_declared_conflict_remains_visible_without_winner(self):
         self.admit()
         self.admit("b", body="The soil sample is wet.")
@@ -186,6 +206,16 @@ class WorkspaceTests(unittest.TestCase):
         for action, data in [("select", {"scope": "garden", "ids": ["a"]}), ("retract", {"id": "a"})]:
             with self.assertRaises(LRMError):
                 self.append(action, data)
+
+    def test_replacement_must_be_temporally_eligible_and_not_retracted(self):
+        self.admit()
+        self.admit("expired", valid_until=T1)
+        self.admit("future", valid_from=T2)
+        self.admit("withdrawn")
+        self.append("retract", {"id": "withdrawn"})
+        for new in ("expired", "future", "withdrawn"):
+            with self.subTest(new=new), self.assertRaises(LRMError):
+                self.append("supersede", {"old": "a", "new": new})
 
     def test_validity_is_half_open_and_expiry_has_no_fallback(self):
         self.admit(valid_from=T1, valid_until=T3)
@@ -337,6 +367,21 @@ class WorkspaceTests(unittest.TestCase):
             with self.assertRaises(LRMError):
                 self.admit("b")
 
+    def test_encoded_size_limit_applies_after_canonicalization(self):
+        with self.assertRaises(LRMError):
+            self.admit(body="\U0001f600" * 32768)
+        self.assertEqual(self.workspace.read("verify")["head_revision"], 0)
+
+    def test_even_historical_views_validate_later_events(self):
+        self.admit()
+        self.time = T2
+        self.admit("b")
+        with sqlite3.connect(self.path) as connection:
+            connection.execute("DROP TRIGGER no_event_update")
+            connection.execute("UPDATE events SET digest = 'bad' WHERE sequence = 2")
+        with self.assertRaises(LRMError):
+            self.state(at=T1)
+
     def test_workspace_paths_are_explicit_and_never_overwritten(self):
         before = self.path.read_bytes()
         with self.assertRaises(LRMError):
@@ -390,7 +435,9 @@ class ValidationTests(unittest.TestCase):
     def test_timestamps_require_offset_and_normalize_to_utc(self):
         self.assertEqual(timestamp("2026-01-01T02:00:00+02:00"), timestamp(T0))
         for value in ("2026-01-01", "2026-01-01T00:00:00", "tomorrow",
-                      "2026-02-30T00:00:00Z", "2026-01-01T25:00:00Z", None, True):
+                      "2026-02-30T00:00:00Z", "2026-01-01T25:00:00Z",
+                      "2026-01-01T00:00:00+02:60", "2026-01-01T00:00:00+24:00",
+                      "2026-01-01T00:00:00.1234567Z", None, True):
             with self.subTest(value=value), self.assertRaises(LRMError):
                 timestamp(value)
 
